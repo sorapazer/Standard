@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOKUS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FOKUS</h1>
+            <p class="date" id="date"></p>
+        </header>
+
+        <section class="section">
+            <h2>3 WICHTIGE AUFGABEN</h2>
+            <p class="subtitle">Was muss heute erledigt werden?</p>
+            <div id="tasks" class="task-list"></div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section">
+            <h2>5 NON-NEGOTIABLES</h2>
+            <p class="subtitle">Jeden Tag. Keine Ausreden.</p>
+            <div id="habits" class="habit-list"></div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section progress-section">
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <p class="progress-text" id="progressText">0 / 8 erledigt</p>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

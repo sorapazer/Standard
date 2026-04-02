@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    background: #000;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    width: 100%;
+    max-width: 520px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    font-weight: 200;
+    letter-spacing: 16px;
+    margin-bottom: 8px;
+}
+
+.date {
+    font-size: 0.85rem;
+    color: #666;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.section {
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+.subtitle {
+    font-size: 0.75rem;
+    color: #444;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.divider {
+    border-top: 1px solid #1a1a1a;
+    margin: 32px 0;
+}
+
+/* Tasks */
+
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid #111;
+}
+
+.task-number {
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: #333;
+    min-width: 24px;
+    text-align: center;
+}
+
+.task-input {
+    flex: 1;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    letter-spacing: 0.5px;
+}
+
+.task-input::placeholder {
+    color: #333;
+}
+
+.task-input.completed {
+    text-decoration: line-through;
+    color: #444;
+}
+
+.task-check {
+    width: 22px;
+    height: 22px;
+    border: 1.5px solid #333;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.task-check:hover {
+    border-color: #666;
+}
+
+.task-check.checked {
+    border-color: #fff;
+    background: #fff;
+}
+
+.task-check.checked::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #000;
+    border-radius: 50%;
+}
+
+/* Habits */
+
+.habit-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid #111;
+    cursor: pointer;
+    user-select: none;
+}
+
+.habit-check {
+    width: 22px;
+    height: 22px;
+    border: 1.5px solid #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.habit-check:hover {
+    border-color: #666;
+}
+
+.habit-check.checked {
+    border-color: #fff;
+    background: #fff;
+}
+
+.habit-check.checked::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #000;
+}
+
+.habit-label {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.habit-item.completed .habit-label {
+    color: #444;
+    text-decoration: line-through;
+}
+
+.habit-edit-input {
+    flex: 1;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    letter-spacing: 0.5px;
+}
+
+.habit-edit-input::placeholder {
+    color: #333;
+}
+
+/* Progress */
+
+.progress-section {
+    text-align: center;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 2px;
+    background: #1a1a1a;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #fff;
+    width: 0%;
+    transition: width 0.4s ease;
+}
+
+.progress-text {
+    font-size: 0.75rem;
+    color: #444;
+    letter-spacing: 3px;
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.task-item, .habit-item {
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.task-item:nth-child(1) { animation-delay: 0.05s; }
+.task-item:nth-child(2) { animation-delay: 0.1s; }
+.task-item:nth-child(3) { animation-delay: 0.15s; }
+.habit-item:nth-child(1) { animation-delay: 0.05s; }
+.habit-item:nth-child(2) { animation-delay: 0.1s; }
+.habit-item:nth-child(3) { animation-delay: 0.15s; }
+.habit-item:nth-child(4) { animation-delay: 0.2s; }
+.habit-item:nth-child(5) { animation-delay: 0.25s; }
+
+/* Responsive */
+
+@media (max-width: 480px) {
+    body {
+        padding: 24px 16px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        letter-spacing: 12px;
+    }
+}

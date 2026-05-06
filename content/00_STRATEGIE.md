@@ -1,41 +1,43 @@
 # Kanal-Strategie @profsora
 
 ## Positionierung (1 Satz)
-**Akademisch fundierte Lebenshilfe aus christlicher Perspektive — für Menschen, die mehr wollen als Bibelverse-Postkarten.**
+**Existenzielle Psychologie für Menschen in Krise, Übergang oder Sinn-Suche — fundiert von einem Forscher, geerdet von einem, der mit Menschen am Rand gearbeitet hat.**
 
-Sora ist promoviert (Doppel-Dr.), Hochschullehrer an der IU, pastoral aktiv, schreibt auf Medium über wissenschaftliches Arbeiten. Diese Kombination ist in DACH-YouTube extrem selten. Genau das ist der Edge: Tiefe + Glaubwürdigkeit + christliche Verankerung — ohne Frömmelei, ohne Selbsthilfe-Plattitüden.
+Sora ist promoviert, lehrt an der IU, hat soziale Arbeit als Fundament. Diese Kombination — wissenschaftliche Tiefe + Forschungsblick + Praxis mit echten Menschen in echten Krisen — ist im deutschsprachigen Psychologie-YouTube selten. Die meisten dort sind entweder Akademiker ohne Praxis oder Coaches ohne Tiefe. Genau dazwischen liegt Soras Edge.
 
 ## Zielgruppe (ICP)
 - **Alter:** 25–45
 - **Bildung:** Studium oder bildungsnah
-- **Lebensphase:** Sinnsuche, Krise, Übergang (Trennung, Burn-out, Glaubenskrise, Karriereumbruch)
-- **Spirituell:** Christen, die Tiefe suchen — und Skeptiker/Suchende, die nicht abgespeist werden wollen
-- **Konsumiert sonst:** Jordan Peterson, Bishop Barron, Ruth Heflin, Heinrich Bedford-Strohm, Richard Rohr, deutschsprachige Theologie-Podcasts
+- **Lebensphase:** Sinnsuche, psychische Krise, Trauma-Aufarbeitung, Lebensumbruch (Trennung, Burnout, Karrierewechsel, Eltern-werden, Verlust)
+- **Was sie wollen:** keine Pop-Psychologie, keine "5 Tipps gegen Angst" — sondern Tiefe, Forschung, Anwendbarkeit
+- **Konsumiert sonst:** Stefanie Stahl, Mai Thi Nguyen-Kim, Leon Windscheid, Gabor Maté, Bessel van der Kolk, Frankl-Reread-Wellen auf TikTok
 
 ## Drei Content-Säulen
 
-### Säule 1 — EXISTENZ & SINN (40% der Videos)
-**Reichweiten-Säule.** Große Lebensfragen philosophisch-theologisch beantwortet.
-Beispiele: Sinn des Leidens, Tod, Schuld, Freiheit, Identität, Vergebung, Hoffnung.
-**Funktion:** Kalt-Traffic, Skeptiker, Empfehlungs-Algorithmus.
+### Säule 1 — EXISTENZ & SINN (40%)
+**Reichweiten-Säule.** Yalom's vier ultimate concerns als roter Faden: Tod, Freiheit, Isolation, Sinnlosigkeit. Plus Frankl, Längle, May.
+Beispiele: Sinn finden in der Krise, mit dem Tod leben, radikale Freiheit, Einsamkeit als Bedingung, Identität in Übergängen.
+**Funktion:** Algorithmus, kalter Traffic, virales Potenzial bei richtigem Hook.
 
-### Säule 2 — GLAUBE IM ALLTAG (40%)
-**Stamm-Säule.** Praktischer Glaube für reale Lebenssituationen.
-Beispiele: Wenn Gott schweigt, Beten lernen, Bibel verstehen, Krise & Glaube, Beziehungen, Vergeben.
-**Funktion:** Bindet Stamm-Audience, hohe Watch-Time, Conversion zu Coaching.
+### Säule 2 — PSYCHOLOGIE IM ALLTAG (40%)
+**Stamm-Säule.** Wie der Mensch wirklich tickt — Bindung, Trauma, Selbstwert, Beziehungen, Emotion-Regulation. Mit Quellen, ohne Plattitüden.
+Beispiele: Warum dein Bindungsstil deine Beziehungen sabotiert · Was Trauma im Körper macht · Selbstwert ohne Selbstoptimierung · Emotionen verstehen statt managen.
+**Funktion:** Bindet Audience, hohe Watch-Time, direkter Funnel zu Coaching.
 
-### Säule 3 — MIND & METHODE (20%)
-**Brücken-Säule.** Wissenschaftlich denken, sich selbst führen, Fokus, Lernen.
-Beispiele: Effizienz im Studium, Entscheidungen treffen, Disziplin, Gewohnheiten.
-**Funktion:** Greift auf Medium-Artikel + Udemy-Kurse zurück. Bridge zu Skeptikern. Direkter Funnel zu Udemy/Coaching.
+### Säule 3 — SOZIALE WIRKLICHKEIT (20%)
+**Brücken-Säule.** Was gesellschaftliche Strukturen mit der Psyche machen. Soziale Arbeit als Linse — Stigma, Ungleichheit, Marginalisierung, das Helfersystem von innen.
+Beispiele: Warum Armut die Psyche krank macht · Was Sozialarbeiter über Familie wissen · Stigma psychischer Krankheit · Helfer-Burnout.
+**Funktion:** Differenziert, weckt Empathie, öffnet B2B-Türen (Speaking, Hochschule, Verbände, Träger).
 
 ## Was wir NICHT machen
+- "10 Tipps gegen X"-Listen
+- Pop-Psychologie ohne Quellen
+- Diagnosen aus der Ferne (Narzissmus-Spotting, BPD-Trends)
 - Reaction-Videos
 - Drama, Politik-Hot-Takes
-- Religions-Bashing
-- Clickbait, der das Versprechen nicht hält
-- "10 Tipps wie..."-Listen ohne Tiefe
-- Persönliche Pastor-Insider-Witze, die nur die Gemeinde versteht
+- Spiritualität/Religion als Hauptthema (gelegentlich als _Phänomen_ untersucht: ja)
+- Therapie-Ersatz-Versprechen
+- Persönliche Anekdoten ohne Erkenntnis-Mehrwert
 
 ## Format
 
@@ -46,41 +48,51 @@ Beispiele: Effizienz im Studium, Entscheidungen treffen, Disziplin, Gewohnheiten
 | Newsletter | 1 / Woche (So 19:00) | 600–900 Wörter | Email-Liste, Direktverkauf |
 | LinkedIn-Post | 1 / Woche (Di 08:00) | 150–300 Wörter | B2B, Speaking-Anfragen |
 
-Shorts werden zu 100% aus dem Long-Form-Video repurposed (siehe `02_WOCHENRHYTHMUS.md`).
+Shorts werden zu 100% aus dem Long-Form repurposed (siehe `02_WOCHENRHYTHMUS.md`).
+
+## Übergang vom alten Kanal-Profil
+
+Falls auf @profsora bisher überwiegend theologisch/pastoraler Content lag:
+- **1 Transition-Video** ("Warum ich jetzt anders rede") — ehrlich, kurz (8 Min), benennt den Shift
+- Alte Videos bleiben unlisted/öffentlich (kein Löschen — SEO und Authentizität)
+- Channel-Banner, About-Text und Tagline werden komplett neu (siehe `01_POSITIONIERUNG.md`)
+- Ein Teil der Stamm-Audience wird gehen — das ist okay. Die neue ICP ist 100× größer.
 
 ## Monetarisierungs-Roadmap → 10.000 €/Monat
 
-**Realität:** AdSense bringt bei deutscher Theologie-Nische ~1–3 € pro 1.000 Views. Das skaliert nicht zu 10k. Der Hebel liegt in **High-Ticket-Coaching, eigenen Produkten und Speaking** — YouTube ist der Top-of-Funnel.
+**Realität:** AdSense bei deutscher Psychologie-Nische bringt ~2–4 € pro 1.000 Views. Erst skalierbar ab ~50 k Views/Video. Kern-Hebel: **High-Ticket-Coaching, B2B-Speaking, eigene Produkte** — YouTube ist Top-of-Funnel.
 
 ### Monat 1–3 — Fundament
 - 12 Long-Forms publishen, Konsistenz beweisen
-- Newsletter starten — Ziel **1.000 Subscribers** (Lead-Magnet: "5 Fragen, die deinen Glauben tiefer machen")
+- Newsletter aufbauen — Ziel **1.000 Subscribers** (Lead-Magnet: "5 Fragen, die deine Selbst-Wahrnehmung verändern")
 - Bestehende **Udemy-Kurse** in jedem Video erwähnen → ~200–500 €/Mo passiv
 - **Revenue-Ziel: 500–1.000 €/Mo**
 
 ### Monat 4–6 — Coaching launchen
-- 1:1-Programm "**Sinn & Glaube — 8 Wochen**" (2.500 € pro Klient)
+- 1:1-Programm "**Sinn & Übergang — 8 Wochen**" (2.500 € pro Klient)
+- Existenzialpsychologisch fundiert (Frankl, Längle, Yalom)
 - Anwendungs-basiert (kein Selbst-Buchen, Bewerbungs-Call) → erhält Qualität
 - Ziel: **3 Klienten/Monat = 7.500 €/Mo**
 - + Udemy + erste Affiliates (Bücher) = **~9.000 €/Mo**
 
 ### Monat 7–9 — Hebel
-- **Gruppenprogramm** "Sinnkrise & Glaube" (1.200 € × 8 Teilnehmer = 9.600 € pro Cohort, 4× pro Jahr)
+- **Gruppenprogramm** "Existenzielle Werkstatt" (1.200 € × 8 = 9.600 € pro Cohort, 4× pro Jahr)
 - 1:1 reduzieren (Premium 4.000 €, max 2/Mo)
-- Buchprojekt starten (Verlagsanfrage über Hochschul-Netzwerk)
+- **B2B-Speaking** wird wichtig: Hochschulen, Träger der sozialen Arbeit, Verbände, Krankenkassen-Akademien (1.500–4.000 €/Vortrag)
+- Buchprojekt starten (Verlagsanfrage über IU-Netzwerk + Agent)
 - **~10.000–12.000 €/Mo erreichbar**
 
 ### Monat 10–12 — Skalierung
 - Buch-Veröffentlichung
-- **Speaking-Engagements** (Gemeinden, Konferenzen, Hochschulen — 1.500–5.000 € pro Vortrag)
-- 1× Wochenend-Retreat (30 × 500 € = 15.000 € einmalig)
-- **Stetig 10–15k €/Mo, peaks bis 25k**
+- 1× **Workshop-Wochenende** "Existenzielle Krise als Wachstumsraum" (30 × 500 € = 15.000 € einmalig)
+- B2B-Workshops (Halbtag 2.000 €, Tagessatz 4.000 €) für Sozialarbeiter, Therapeuten, Führungskräfte
+- **Stetig 10–18 k €/Mo, peaks bis 30 k**
 
-### Stetiger Mix bei 10k €/Mo
+### Stetiger Mix bei 10 k €/Mo (typisches Modell)
 - Coaching/Programme: 5.000–6.000 €
-- Speaking: 2.000 €
-- Udemy + Buch: 1.000–1.500 €
-- Newsletter-Sponsoring/Affiliate: 500–1.000 €
+- B2B-Speaking/Workshops: 2.000–3.000 €
+- Udemy + Buch + Affiliate: 1.000–1.500 €
+- Newsletter-Sponsoring (z. B. Therapie-Apps, Bücher, Coaching-Plattformen): 500 €
 - AdSense: 200–500 €
 
 ## KPIs (wöchentlich tracken)
@@ -88,15 +100,17 @@ Shorts werden zu 100% aus dem Long-Form-Video repurposed (siehe `02_WOCHENRHYTHM
 | KPI | Monat 3 | Monat 6 | Monat 12 |
 |---|---|---|---|
 | Subscribers YouTube | 5.000 | 15.000 | 50.000 |
-| Avg. Views/Video (28d) | 2.000 | 8.000 | 25.000 |
+| Avg. Views/Video (28d) | 2.500 | 10.000 | 30.000 |
 | Avg. View Duration | >50% | >55% | >55% |
 | CTR | >5% | >6% | >6% |
 | Newsletter-Subs | 1.000 | 4.000 | 12.000 |
 | Coaching-Calls/Mo | 0 | 8 | 15 |
+| Speaking-Anfragen/Mo | 0 | 1 | 3 |
 | Revenue/Mo | 1.000 € | 9.000 € | 12.000 € |
 
 ## Risiken & Mitigation
 
-- **Pastorale Rolle vs. Monetarisierung:** Coaching klar als _säkulares Lebens-/Sinnberatungs-Programm_ positionieren. Spendenbasis nur für Predigt-Content. Klare Trennung in Branding.
-- **Burnout:** Drehblock 1× pro Woche, batch-recording möglich (4 Videos in einem Tag).
-- **Content-Sucht-Falle:** Newsletter & Coaching sind das Ziel, nicht Subs. Jede Woche fragen: "Hat mich das näher zu 10k gebracht?"
+- **"Therapeut-Verwechslung":** Klar in jedem Video und auf der Channel-Seite: _kein_ Therapieersatz. Coaching = Sinn-/Lebensberatung, keine Diagnose, keine Behandlung psychischer Erkrankungen. Bei Anzeichen schwerer Krise: Verweis auf Fachstellen (Telefonseelsorge, etc.).
+- **"Zu akademisch":** Jedes Video muss in den ersten 60 Sekunden eine konkrete _Szene_ haben. Kein "Heute über die Phänomenologie der..." — sondern: "Letzte Woche schrieb mir jemand ..."
+- **Burnout:** Drehblock 1× pro Woche oder 4 Videos in einem Monatstag. Klienten-Cap bei 6.
+- **Content-Sucht-Falle:** Nordstern ist Revenue, nicht Subs. Wöchentlich fragen: "Hat das Coaching/Speaking näher gebracht?"

@@ -6,7 +6,7 @@
     // ─────────────────────────────────────────────
 
     const STORAGE_KEY = 'fokus_data';
-    const KANAL_KEY = 'kanal_data';
+    const KANAL_KEY = 'kanal_data_v2';
 
     const STAGES = ['IDEE', 'SKRIPT', 'DREH', 'EDIT', 'GEPLANT', 'LIVE'];
 
@@ -24,14 +24,14 @@
 
     function getDefaultPipeline() {
         return [
-            { title: 'Warum Gott schweigt — und was dieses Schweigen bedeutet', pillar: 'Glaube im Alltag', stage: 'SKRIPT' },
-            { title: 'Der Sinn deines Leidens — drei Antworten, die wirklich tragen', pillar: 'Existenz & Sinn', stage: 'IDEE' },
-            { title: 'Beten lernen — wenn du es nie richtig gelernt hast', pillar: 'Glaube im Alltag', stage: 'IDEE' },
+            { title: 'Wenn deine innere Stimme verstummt — was Stille wirklich bedeutet', pillar: 'Existenz & Sinn', stage: 'SKRIPT' },
+            { title: 'Der Sinn deines Leidens — was Frankl wusste, das Selbsthilfe nicht versteht', pillar: 'Existenz & Sinn', stage: 'IDEE' },
+            { title: 'Selbstreflexion, die wirklich wirkt', pillar: 'Psychologie im Alltag', stage: 'IDEE' },
             { title: '"Wer bin ich?" ist die falsche Frage', pillar: 'Existenz & Sinn', stage: 'IDEE' },
-            { title: 'Disziplin ohne Dogma — was Mönche wussten', pillar: 'Mind & Methode', stage: 'IDEE' },
-            { title: 'Vergebung ist nicht, was du denkst', pillar: 'Glaube im Alltag', stage: 'IDEE' },
-            { title: 'Wenn du nicht mehr glauben kannst — und was dann?', pillar: 'Existenz & Sinn', stage: 'IDEE' },
-            { title: 'Wie man wirklich gute Entscheidungen trifft', pillar: 'Mind & Methode', stage: 'IDEE' }
+            { title: 'Disziplin ist nicht Willenskraft — was Verhaltenspsychologie wirklich weiß', pillar: 'Psychologie im Alltag', stage: 'IDEE' },
+            { title: 'Vergebung ist nicht, was du denkst', pillar: 'Psychologie im Alltag', stage: 'IDEE' },
+            { title: 'Wenn dein Selbst-Bild bricht — Identitätskrise und was wirklich hilft', pillar: 'Existenz & Sinn', stage: 'IDEE' },
+            { title: 'Wie man wirklich gute Entscheidungen trifft', pillar: 'Psychologie im Alltag', stage: 'IDEE' }
         ];
     }
 

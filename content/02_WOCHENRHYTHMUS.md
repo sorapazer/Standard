@@ -39,9 +39,11 @@ Aus jedem Donnerstag-Video extrahieren wir:
 In der Sonntag-Review Themen aus diesen Quellen ziehen:
 - DMs/Kommentare der Woche
 - Newsletter-Antworten
-- Konkrete Klienten-Fragen aus Coaching
-- Theologische Klassiker neu erzählen
-- Aktuelle Ereignisse (Karfreitag, Weihnachten, gesellschaftliche Krisen) — sparsam
+- Konkrete Klienten-Fragen aus Coaching (anonymisiert)
+- Forschungsartikel der Woche (1× Studie scrollen, Kandidaten markieren)
+- Klassiker der existenziellen Psychologie neu erzählen (Frankl, Yalom, Längle, May, Rogers)
+- Felder aus der sozialen Arbeit, die kaum jemand erklärt (Pflegekinderhilfe, Wohnungslosenhilfe, Suchthilfe)
+- Aktuelle gesellschaftliche Debatten — sparsam, nur wenn psychologische Tiefe drin liegt
 
 ## Tools-Stack (so wenig wie möglich)
 
@@ -66,7 +68,7 @@ In der Sonntag-Review Themen aus diesen Quellen ziehen:
 - [ ] Licht: Schreibtischlampe warm + Fülllicht von rechts
 - [ ] Aufnahme in 4K, 25 fps
 - [ ] Hook 3× verschiedene Versionen aufnehmen
-- [ ] B-Roll: 30 Sek Bibel/Notizbuch/Hände
+- [ ] B-Roll: 30 Sek Notizbuch/Bücher/Hände beim Schreiben/Diagramm-Skizze
 - [ ] Endcard-Frame: 20 Sek statisch in Stille
 - [ ] SD-Karte sofort sichern auf Cloud
 

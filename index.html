@@ -9,32 +9,81 @@
 <body>
     <div class="container">
         <header>
-            <h1>FOKUS</h1>
+            <h1 id="appTitle">FOKUS</h1>
             <p class="date" id="date"></p>
         </header>
 
-        <section class="section">
-            <h2>3 WICHTIGE AUFGABEN</h2>
-            <p class="subtitle">Was muss heute erledigt werden?</p>
-            <div id="tasks" class="task-list"></div>
-        </section>
+        <nav class="tabs">
+            <button class="tab active" data-view="fokus">FOKUS</button>
+            <button class="tab" data-view="kanal">KANAL</button>
+        </nav>
 
-        <div class="divider"></div>
+        <!-- FOKUS VIEW -->
+        <div id="view-fokus" class="view active">
+            <section class="section">
+                <h2>3 WICHTIGE AUFGABEN</h2>
+                <p class="subtitle">Was muss heute erledigt werden?</p>
+                <div id="tasks" class="task-list"></div>
+            </section>
 
-        <section class="section">
-            <h2>5 NON-NEGOTIABLES</h2>
-            <p class="subtitle">Jeden Tag. Keine Ausreden.</p>
-            <div id="habits" class="habit-list"></div>
-        </section>
+            <div class="divider"></div>
 
-        <div class="divider"></div>
+            <section class="section">
+                <h2>5 NON-NEGOTIABLES</h2>
+                <p class="subtitle">Jeden Tag. Keine Ausreden.</p>
+                <div id="habits" class="habit-list"></div>
+            </section>
 
-        <section class="section progress-section">
-            <div class="progress-bar-container">
-                <div class="progress-bar" id="progressBar"></div>
-            </div>
-            <p class="progress-text" id="progressText">0 / 8 erledigt</p>
-        </section>
+            <div class="divider"></div>
+
+            <section class="section progress-section">
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <p class="progress-text" id="progressText">0 / 8 erledigt</p>
+            </section>
+        </div>
+
+        <!-- KANAL VIEW -->
+        <div id="view-kanal" class="view">
+            <section class="section">
+                <h2>DIESE WOCHE</h2>
+                <p class="subtitle">Long-Form &mdash; Donnerstag 18:00</p>
+                <div id="currentVideo" class="current-video"></div>
+            </section>
+
+            <div class="divider"></div>
+
+            <section class="section">
+                <h2>REPURPOSE</h2>
+                <p class="subtitle">9 Assets aus 1 Video</p>
+                <div id="repurpose" class="repurpose-list"></div>
+            </section>
+
+            <div class="divider"></div>
+
+            <section class="section">
+                <h2>PIPELINE</h2>
+                <p class="subtitle">Klick auf Stage zum Weiterschalten</p>
+                <div id="pipeline" class="pipeline-list"></div>
+            </section>
+
+            <div class="divider"></div>
+
+            <section class="section">
+                <h2>KPIs DIESE WOCHE</h2>
+                <p class="subtitle">Sonntag-Review</p>
+                <div id="kpis" class="kpi-grid"></div>
+            </section>
+
+            <div class="divider"></div>
+
+            <section class="section">
+                <h2>NORDSTERN</h2>
+                <p class="subtitle">Wo stehen wir auf dem Weg zu 10.000 &euro;/Monat?</p>
+                <div id="northstar" class="northstar"></div>
+            </section>
+        </div>
     </div>
 
     <script src="app.js"></script>

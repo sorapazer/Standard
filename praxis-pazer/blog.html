@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazin · Praxis Pazer</title>
+    <meta name="description" content="Beiträge zu Burnout, Sinn, Identität, Beziehungen und Sozialer Arbeit. Wissenschaftlich fundiert, klar geschrieben.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-brand">praxis <span class="pp">pazer</span></a>
+        <ul class="nav-links">
+            <li><a href="praxis.html">Praxis</a></li>
+            <li><a href="praevention.html">Prävention</a></li>
+            <li><a href="ueber.html">Über</a></li>
+            <li><a href="blog.html" class="active">Magazin</a></li>
+            <li><a href="kontakt.html" class="nav-cta">Kennenlern&shy;gespräch</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+    </div>
+    <ul class="nav-mobile" id="navMobile">
+        <li><a href="praxis.html">Praxis</a></li>
+        <li><a href="praevention.html">Prävention</a></li>
+        <li><a href="ueber.html">Über</a></li>
+        <li><a href="blog.html" class="active">Magazin</a></li>
+        <li><a href="kontakt.html" class="nav-cta">Kennenlerngespräch</a></li>
+    </ul>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <span class="eyebrow fade-up">Magazin</span>
+            <h1 class="fade-up fade-up-2">
+                Lesestoff für Menschen,<br>
+                die <em>Tiefe suchen.</em>
+            </h1>
+            <p class="lead fade-up fade-up-3" style="max-width: 580px;">
+                Beiträge zu Burnout, Sinn, Identität, Beziehungen und Sozialer Arbeit.
+                Wissenschaftlich fundiert, klar geschrieben — jeden zweiten Sonntag neu.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Blog list -->
+<section class="tight">
+    <div class="container">
+        <div class="blog-list">
+
+            <a href="blog/burnout-ist-kein-stress.html" class="blog-card">
+                <div class="blog-meta">
+                    <span class="cat">Burnout</span>
+                    7 Min Lesezeit<br>
+                    Mai 2026
+                </div>
+                <div>
+                    <h3>Burnout ist kein Stress&shy;problem.</h3>
+                    <p>Warum die meisten Burnout-Erklärungen versagen — und was die
+                        Polyvagal-Theorie zeigt, das bisher kaum jemand übersetzt hat.</p>
+                    <span class="read">Weiterlesen</span>
+                </div>
+            </a>
+
+            <a href="blog/compassion-fatigue.html" class="blog-card">
+                <div class="blog-meta">
+                    <span class="cat">Helferberufe</span>
+                    6 Min Lesezeit<br>
+                    Mai 2026
+                </div>
+                <div>
+                    <h3>Compassion Fatigue. Was Helfer haben, wenn sie kein Burnout haben.</h3>
+                    <p>Eine andere Diagnose, ein anderer Weg heraus. Was Charles Figley
+                        beschrieb — und warum klassische Burnout-Tipps hier nicht greifen.</p>
+                    <span class="read">Weiterlesen</span>
+                </div>
+            </a>
+
+            <a href="blog/wer-bin-ich-falsche-frage.html" class="blog-card">
+                <div class="blog-meta">
+                    <span class="cat">Sinn &amp; Identität</span>
+                    8 Min Lesezeit<br>
+                    Mai 2026
+                </div>
+                <div>
+                    <h3>„Wer bin ich?" ist die falsche Frage.</h3>
+                    <p>Eine Milliardenindustrie lebt davon, dass diese Frage nie
+                        hinterfragt wird. Was die Existenzanalyse stattdessen vorschlägt.</p>
+                    <span class="read">Weiterlesen</span>
+                </div>
+            </a>
+
+            <!-- Coming soon teaser -->
+            <div class="blog-card" style="opacity: 0.55;">
+                <div class="blog-meta">
+                    <span class="cat">In Vorbereitung</span>
+                    Demnächst
+                </div>
+                <div>
+                    <h3>Erlernte Hilflosigkeit — drei Klienten, drei Wendepunkte.</h3>
+                    <p>Was Seligmans Konzept im Alltag tatsächlich bedeutet — anhand
+                        anonymisierter Beratungs-Geschichten.</p>
+                    <span class="read" style="opacity: 0.6;">In Arbeit</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="cta-banner bg-ink">
+    <div class="container-narrow">
+        <span class="eyebrow">Newsletter „Tiefer"</span>
+        <h2>Eine Frage, jeden Sonntag.<br>Sieben&shy;hundert Wörter. Kein Smalltalk.</h2>
+        <p class="lead">
+            Existenzielle und psychologische Tiefen-Fragen — direkt in Ihr Postfach.
+            Kostenfrei. Kein Spam. Jederzeit kündbar.
+        </p>
+
+        <div style="margin-top: 36px;">
+            <!-- Newsletter signup placeholder — connect to Beehiiv or ConvertKit -->
+            <form class="form" style="margin: 0 auto; gap: 12px; max-width: 460px;" onsubmit="event.preventDefault(); alert('Beehiiv-Anmeldung hier verbinden.');">
+                <div class="form-row">
+                    <input type="email" name="email" placeholder="ihre@email.de" required style="background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.18); color: white;">
+                </div>
+                <button type="submit" class="btn btn-primary" style="justify-self: start;">Anmelden</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <a href="index.html" class="footer-brand">praxis pazer</a>
+                <p style="font-size: 0.92rem; color: var(--ink-soft); max-width: 320px;">
+                    Therapeutische Beratung, Sinnberatung und Burnout-Prävention.
+                    Wissenschaftlich fundiert. Menschlich gehalten.
+                </p>
+            </div>
+            <div>
+                <h4>Praxis</h4>
+                <ul>
+                    <li><a href="praxis.html">Therapeutische Beratung</a></li>
+                    <li><a href="praxis.html#programme">Burnout-Recovery</a></li>
+                    <li><a href="kontakt.html">Kennenlerngespräch</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Prävention</h4>
+                <ul>
+                    <li><a href="praevention.html">Für Träger</a></li>
+                    <li><a href="praevention.html#schulen">Für Schulen</a></li>
+                    <li><a href="praevention.html#workshops">Workshops</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Mehr</h4>
+                <ul>
+                    <li><a href="ueber.html">Über mich</a></li>
+                    <li><a href="blog.html">Magazin</a></li>
+                    <li><a href="https://www.youtube.com/@profsora" target="_blank" rel="noopener">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-base">
+            <span>© 2026 Praxis Pazer · Dr. Dr. Sora Pazer</span>
+            <span><a href="#" style="margin-right: 24px;">Impressum</a><a href="#">Datenschutz</a></span>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -6,7 +6,7 @@
     // ─────────────────────────────────────────────
 
     const STORAGE_KEY = 'fokus_data';
-    const KANAL_KEY = 'kanal_data_v2';
+    const KANAL_KEY = 'kanal_data_v3';
 
     const STAGES = ['IDEE', 'SKRIPT', 'DREH', 'EDIT', 'GEPLANT', 'LIVE'];
 
@@ -24,14 +24,17 @@
 
     function getDefaultPipeline() {
         return [
-            { title: 'Wenn deine innere Stimme verstummt — was Stille wirklich bedeutet', pillar: 'Existenz & Sinn', stage: 'SKRIPT' },
-            { title: 'Der Sinn deines Leidens — was Frankl wusste, das Selbsthilfe nicht versteht', pillar: 'Existenz & Sinn', stage: 'IDEE' },
-            { title: 'Selbstreflexion, die wirklich wirkt', pillar: 'Psychologie im Alltag', stage: 'IDEE' },
-            { title: '"Wer bin ich?" ist die falsche Frage', pillar: 'Existenz & Sinn', stage: 'IDEE' },
-            { title: 'Disziplin ist nicht Willenskraft — was Verhaltenspsychologie wirklich weiß', pillar: 'Psychologie im Alltag', stage: 'IDEE' },
-            { title: 'Vergebung ist nicht, was du denkst', pillar: 'Psychologie im Alltag', stage: 'IDEE' },
-            { title: 'Wenn dein Selbst-Bild bricht — Identitätskrise und was wirklich hilft', pillar: 'Existenz & Sinn', stage: 'IDEE' },
-            { title: 'Wie man wirklich gute Entscheidungen trifft', pillar: 'Psychologie im Alltag', stage: 'IDEE' }
+            { title: 'Erlernte Hilflosigkeit — Re-Edit / Sequel (Retention-Fix)', pillar: 'Psychologie · PRIO 1', stage: 'IDEE' },
+            { title: 'Müde trotz 8h Schlaf? Das ist die WAHRE Ursache!', pillar: 'Burnout', stage: 'GEPLANT' },
+            { title: 'Du bist nicht faul! Der wahre Grund, warum du Dinge aufschiebst.', pillar: 'Psychologie', stage: 'GEPLANT' },
+            { title: 'Burnout in der Schule: Warum das System krank macht', pillar: 'Burnout · B2B', stage: 'GEPLANT' },
+            { title: 'Familien-Burnout: Warum wir zu Hause nicht mehr auftanken', pillar: 'Burnout', stage: 'GEPLANT' },
+            { title: 'Burnout auf der Arbeit: Du bist NICHT dein Beruf!', pillar: 'Burnout', stage: 'GEPLANT' },
+            { title: 'Burnout im Studium: Perfektionismus tötet Energie', pillar: 'Burnout', stage: 'GEPLANT' },
+            { title: 'Burnout als Lehrer — Warum die Besten zuerst ausbrennen', pillar: 'Burnout · B2B', stage: 'GEPLANT' },
+            { title: 'Burnout Recovery: Warum Achtsamkeit nicht hilft (Programm-Launch)', pillar: 'Burnout · LAUNCH', stage: 'GEPLANT' },
+            { title: 'Burnout vs Depression', pillar: 'Burnout', stage: 'EDIT' },
+            { title: 'Burnout Phasen', pillar: 'Burnout', stage: 'EDIT' }
         ];
     }
 

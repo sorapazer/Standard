@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Termin buchen · Praxis Pazer</title>
-    <meta name="description" content="Buchen Sie Ihr Erstgespräch (60 €) oder eine Folgesitzung (120 €) direkt online im Kalender — schnell und unkompliziert.">
+    <meta name="description" content="Buchen Sie Ihre Sitzung (120 €, 45 Min.) direkt online. Feste Termine: Montag bis Mittwoch, 18–20 Uhr.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,7 +17,8 @@
             <li><a href="index.html">Start</a></li>
             <li><a href="ueber.html">Über mich</a></li>
             <li><a href="leistungen.html">Leistungen</a></li>
-            <li><a href="werte.html">Werte</a></li><li><a href="stimmen.html">Stimmen</a></li>
+            <li><a href="werte.html">Werte</a></li>
+            <li><a href="stimmen.html">Stimmen</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="videos.html">Videos</a></li>
             <li><a href="termin.html" class="nav-cta">Termin buchen</a></li>
@@ -28,7 +29,8 @@
         <li><a href="index.html">Start</a></li>
         <li><a href="ueber.html">Über mich</a></li>
         <li><a href="leistungen.html">Leistungen</a></li>
-        <li><a href="werte.html">Werte</a></li><li><a href="stimmen.html">Stimmen</a></li>
+        <li><a href="werte.html">Werte</a></li>
+        <li><a href="stimmen.html">Stimmen</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="videos.html">Videos</a></li>
         <li><a href="termin.html" class="nav-cta">Termin buchen</a></li>
@@ -38,65 +40,86 @@
 <section class="hero">
     <div class="container-narrow text-center">
         <span class="eyebrow reveal in">Termin buchen</span>
-        <h1 class="reveal in">Wählen Sie<br><span class="gradient-text">Ihren Termin.</span></h1>
-        <p class="lead reveal in" style="margin: 22px auto 0; max-width: 600px;">Suchen Sie unten einen freien Termin aus. Sie erhalten direkt eine Bestätigung mit allen Infos zum Gespräch.</p>
+        <h1 class="reveal in">Wählen Sie<br><span class="gradient-text">Ihren Slot.</span></h1>
+        <p class="lead reveal in" style="margin: 22px auto 0; max-width: 600px;">Eine Sitzung dauert 45 Minuten und kostet 120 €. Termine gibt es Montag bis Mittwoch zwischen 18 und 20 Uhr.</p>
     </div>
 </section>
 
-<!-- Auswahl der Sitzungsart -->
+<!-- Eckdaten -->
 <section class="tight">
     <div class="container">
-        <div class="grid-2" style="max-width: 820px; margin: 0 auto; align-items: stretch;">
+        <div style="max-width: 480px; margin: 0 auto;">
             <div class="price-card featured reveal">
-                <span class="price-tag">Neu hier?</span>
-                <h3>Erstgespräch</h3>
-                <p class="sub">Probatorische erste Sitzung</p>
-                <div class="price-amount">60 €<small> / 50 Min.</small></div>
-                <p class="price-meta">Für alle, die zum ersten Mal kommen</p>
-                <a href="#kalender" class="btn btn-primary btn-arrow" onclick="setEvent('erstgespraech')">Erstgespräch wählen</a>
-            </div>
-            <div class="price-card reveal">
-                <h3>Folgesitzung</h3>
-                <p class="sub">Reguläre Beratungssitzung</p>
-                <div class="price-amount">120 €<small> / 50 Min.</small></div>
-                <p class="price-meta">Für bestehende Klient:innen</p>
-                <a href="#kalender" class="btn btn-ghost btn-arrow" onclick="setEvent('folgesitzung')">Folgesitzung wählen</a>
+                <span class="price-tag">Beratung</span>
+                <h3>Sitzung</h3>
+                <p class="sub">Psychologische Beratung · einzeln buchbar</p>
+                <div class="price-amount">120 €<small> / 45 Min.</small></div>
+                <p class="price-meta">Online oder in Präsenz · Mo–Mi, 18–20 Uhr</p>
+                <ul class="price-features">
+                    <li><span class="tick">✓</span> Voller Fokus auf Ihr Anliegen</li>
+                    <li><span class="tick">✓</span> Online (Video) oder in Präsenz</li>
+                    <li><span class="tick">✓</span> Jederzeit ohne Bindung</li>
+                </ul>
+                <a href="#slots" class="btn btn-primary btn-arrow">Slot auswählen</a>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Kalender Embed -->
-<section class="tight" id="kalender">
+<!-- Slot-Auswahl (funktioniert sofort, ohne externes Konto) -->
+<section class="tight" id="slots">
     <div class="container">
         <div class="section-head center mx-auto">
-            <span class="eyebrow">Kalender</span>
-            <h2 id="calTitle">Freien Termin auswählen</h2>
+            <span class="eyebrow">Freie Termine</span>
+            <h2>Ihren Wunschtermin wählen</h2>
+            <p class="lead">Wählen Sie unten einen freien Slot. Sie senden mir damit eine Terminanfrage; ich bestätige sie persönlich.</p>
         </div>
-        <div class="booking-frame reveal">
-            <!--
-                KALENDER-INTEGRATION
-                ====================
-                Hier ist Cal.com als Beispiel eingebunden. Ersetzen Sie den Link unten
-                durch Ihren eigenen Cal.com- (oder Calendly-) Buchungslink.
 
-                Beispiel Cal.com:    https://cal.com/IHR-NAME/erstgespraech
-                Beispiel Calendly:   https://calendly.com/IHR-NAME/erstgespraech
+        <div class="slotpicker reveal" id="slotpicker"><!-- wird per JavaScript befüllt --></div>
 
-                Den Link einfach im iframe-src und in der setEvent()-Funktion unten anpassen.
-            -->
-            <iframe id="bookingFrame"
-                src="https://cal.com/sorapazer?embed=true&theme=light"
-                title="Terminbuchung Praxis Pazer"
-                loading="lazy">
-            </iframe>
+        <div class="slot-confirm" id="slotConfirm">
+            <div class="chosen" id="chosenSlot"></div>
+            <p style="font-size:0.92rem; color:var(--ink-soft); margin-bottom:18px;">
+                Klicken Sie auf „Termin anfragen". Ihr E-Mail-Programm öffnet sich mit der bereits ausgefüllten Anfrage —
+                ergänzen Sie nur noch Ihren Namen und ob Sie online oder in Präsenz möchten.
+            </p>
+            <a href="#" class="btn btn-primary btn-arrow" id="requestBtn">Termin anfragen</a>
         </div>
+
         <p class="booking-note">
-            Der Kalender lädt nicht? Schreiben Sie mir direkt an
-            <a href="mailto:kontakt@praxis-pazer.de">kontakt@praxis-pazer.de</a> — wir finden gemeinsam einen Termin.
+            Der Termin gilt erst nach meiner Bestätigung per E-Mail als fix. Lieber direkt schreiben?
+            <a href="mailto:kontakt@praxis-pazer.de">kontakt@praxis-pazer.de</a>
         </p>
     </div>
 </section>
+
+<!--
+    ============================================================
+    AUTOMATISCHE KALENDER-INTEGRATION (optional, empfohlen)
+    ============================================================
+    Die Slot-Auswahl oben funktioniert sofort und verschickt eine
+    Anfrage per E-Mail. Für eine VOLLAUTOMATISCHE Buchung (Echtzeit-
+    Verfügbarkeit, keine Doppelbuchungen, automatische Bestätigung +
+    Erinnerung, optional Online-Zahlung) wird ein Buchungsdienst
+    benötigt — z. B. Cal.com (kostenlos) oder Calendly.
+
+    EINRICHTUNG IN CAL.COM (einmalig):
+      1. Konto auf cal.com anlegen.
+      2. Event-Typ "Sitzung" erstellen: Dauer 45 Min, Preis 120 €.
+      3. Verfügbarkeit setzen: Mo, Di, Mi — 18:00 bis 20:00 Uhr.
+      4. Buchungslink kopieren (z. B. cal.com/sorapazer/sitzung).
+
+    Danach einfach diesen Block einkommentieren und den Link eintragen:
+
+    <section class="tight">
+      <div class="container">
+        <div class="booking-frame">
+          <iframe src="https://cal.com/IHR-NAME/sitzung?embed=true&theme=light"
+                  title="Terminbuchung Praxis Pazer" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+-->
 
 <!-- Hinweis -->
 <section class="tight">
@@ -114,8 +137,8 @@
         <div class="footer-card">
             <div class="footer-grid">
                 <div><a href="index.html" class="footer-brand"><span class="dot"></span>Praxis Pazer</a><p style="font-size:0.94rem; max-width:320px;">Psychologische Beratung mit Schwerpunkt Depression und Burnout. Menschlich, fundiert, diskret.</p></div>
-                <div><h4>Praxis</h4><ul><li><a href="leistungen.html">Leistungen</a></li><li><a href="ueber.html">Über mich</a></li><li><a href="werte.html">Werte</a></li><li><a href="stimmen.html">Stimmen</a></li><li><a href="termin.html">Termin buchen</a></li></ul></div>
-                <div><h4>Mehr</h4><ul><li><a href="blog.html">Blog</a></li><li><a href="videos.html">Videos</a></li><li><a href="kontakt.html">Kontakt</a></li><li><a href="https://www.youtube.com/@profsora" target="_blank" rel="noopener">YouTube</a></li></ul></div>
+                <div><h4>Praxis</h4><ul><li><a href="leistungen.html">Leistungen</a></li><li><a href="ueber.html">Über mich</a></li><li><a href="werte.html">Werte</a></li><li><a href="termin.html">Termin buchen</a></li></ul></div>
+                <div><h4>Mehr</h4><ul><li><a href="stimmen.html">Stimmen</a></li><li><a href="blog.html">Blog</a></li><li><a href="videos.html">Videos</a></li><li><a href="kontakt.html">Kontakt</a></li></ul></div>
                 <div><h4>Kontakt</h4><ul><li><a href="mailto:kontakt@praxis-pazer.de">kontakt@praxis-pazer.de</a></li><li><a href="termin.html">Online buchen</a></li></ul></div>
             </div>
             <div class="footer-base"><span>© 2026 Praxis Pazer · Sora Pazer</span><span class="links"><a href="kontakt.html#impressum">Impressum</a><a href="kontakt.html#datenschutz">Datenschutz</a></span></div>
@@ -125,18 +148,78 @@
 
 <script src="script.js"></script>
 <script>
-    // Wechselt den Kalender je nach gewählter Sitzungsart.
-    // Passen Sie die Links an Ihre eigenen Cal.com-/Calendly-Termine an.
-    var EVENTS = {
-        erstgespraech: { url: 'https://cal.com/sorapazer/erstgespraech?embed=true&theme=light', title: 'Erstgespräch buchen (60 €)' },
-        folgesitzung:  { url: 'https://cal.com/sorapazer/folgesitzung?embed=true&theme=light',  title: 'Folgesitzung buchen (120 €)' }
+/* ------------------------------------------------------------
+   Slot-Auswahl: nur Mo–Mi, 18:00 & 19:00 Uhr, 45-Min-Sitzungen.
+   Zeigt die nächsten ~3 Wochen an Werktagen. Auswahl öffnet eine
+   vorausgefüllte E-Mail-Anfrage (kein Server nötig).
+   Konfiguration unten anpassbar.
+   ------------------------------------------------------------ */
+(function () {
+    var CONFIG = {
+        email: 'kontakt@praxis-pazer.de',
+        weekdays: [1, 2, 3],            // 1=Mo, 2=Di, 3=Mi
+        times: ['18:00', '19:00'],      // Startzeiten (18–20 Uhr, je 45 Min)
+        daysAhead: 21,                   // wie weit im Voraus
+        maxDays: 9                       // wie viele Tage maximal anzeigen
     };
-    function setEvent(key) {
-        var ev = EVENTS[key];
-        if (!ev) return;
-        document.getElementById('bookingFrame').src = ev.url;
-        document.getElementById('calTitle').textContent = ev.title;
+    var DAYS = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
+    var MONTHS = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
+
+    var picker = document.getElementById('slotpicker');
+    var confirm = document.getElementById('slotConfirm');
+    var chosenEl = document.getElementById('chosenSlot');
+    var requestBtn = document.getElementById('requestBtn');
+    if (!picker) return;
+
+    var selected = null;
+    var today = new Date(); today.setHours(0, 0, 0, 0);
+    var shown = 0;
+
+    for (var i = 1; i <= CONFIG.daysAhead && shown < CONFIG.maxDays; i++) {
+        var d = new Date(today); d.setDate(today.getDate() + i);
+        if (CONFIG.weekdays.indexOf(d.getDay()) === -1) continue;
+        shown++;
+
+        var card = document.createElement('div');
+        card.className = 'slot-day';
+        var label = DAYS[d.getDay()] + ', ' + d.getDate() + '. ' + MONTHS[d.getMonth()];
+        var btns = CONFIG.times.map(function (t) {
+            return '<button type="button" class="slot-btn" data-label="' + label + '" data-time="' + t + '">' + t + ' Uhr</button>';
+        }).join('');
+        card.innerHTML = '<div class="day-label">' + label + '</div>' +
+                         '<div class="day-sub">45-Minuten-Sitzung</div>' +
+                         '<div class="slot-btns">' + btns + '</div>';
+        picker.appendChild(card);
     }
+
+    picker.addEventListener('click', function (e) {
+        var btn = e.target.closest('.slot-btn');
+        if (!btn) return;
+        picker.querySelectorAll('.slot-btn.selected').forEach(function (b) { b.classList.remove('selected'); });
+        btn.classList.add('selected');
+        selected = { label: btn.getAttribute('data-label'), time: btn.getAttribute('data-time') };
+        chosenEl.textContent = 'Gewählt: ' + selected.label + ' um ' + selected.time + ' Uhr (45 Min · 120 €)';
+        confirm.classList.add('show');
+        confirm.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+
+    requestBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        if (!selected) return;
+        var subject = 'Terminanfrage: ' + selected.label + ' um ' + selected.time + ' Uhr';
+        var body = 'Hallo Sora Pazer,\n\n'
+                 + 'ich möchte gern eine Sitzung buchen:\n'
+                 + '• Termin: ' + selected.label + ', ' + selected.time + ' Uhr (45 Min, 120 €)\n'
+                 + '• Format: [ ] Online (Video)   [ ] in Präsenz\n\n'
+                 + 'Mein Name: \n'
+                 + 'Telefon (optional): \n'
+                 + 'Kurz zu meinem Anliegen (optional): \n\n'
+                 + 'Viele Grüße';
+        window.location.href = 'mailto:' + CONFIG.email
+            + '?subject=' + encodeURIComponent(subject)
+            + '&body=' + encodeURIComponent(body);
+    });
+})();
 </script>
 </body>
 </html>

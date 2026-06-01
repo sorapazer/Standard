@@ -72,8 +72,11 @@
         <div class="section-head center mx-auto">
             <span class="eyebrow">Freie Termine</span>
             <h2>Ihren Wunschtermin wählen</h2>
-            <p class="lead">Wählen Sie unten einen freien Slot. Sie senden mir damit eine Terminanfrage; ich bestätige sie persönlich.</p>
+            <p class="lead">Wählen Sie unten einen freien Termin. Sie erhalten direkt eine Bestätigung mit allen Infos zur Sitzung.</p>
         </div>
+
+        <!-- Echter Cal.com-Kalender (erscheint automatisch, sobald CAL_LINK unten gesetzt ist) -->
+        <div id="calEmbed" class="booking-frame reveal" style="display:none;"></div>
 
         <div class="slotpicker reveal" id="slotpicker"><!-- wird per JavaScript befüllt --></div>
 
@@ -87,39 +90,13 @@
         </div>
 
         <p class="booking-note">
-            Der Termin gilt erst nach meiner Bestätigung per E-Mail als fix. Lieber direkt schreiben?
+            Der Kalender lädt nicht oder Sie schreiben lieber direkt?
             <a href="mailto:kontakt@praxis-pazer.de">kontakt@praxis-pazer.de</a>
         </p>
     </div>
 </section>
 
-<!--
-    ============================================================
-    AUTOMATISCHE KALENDER-INTEGRATION (optional, empfohlen)
-    ============================================================
-    Die Slot-Auswahl oben funktioniert sofort und verschickt eine
-    Anfrage per E-Mail. Für eine VOLLAUTOMATISCHE Buchung (Echtzeit-
-    Verfügbarkeit, keine Doppelbuchungen, automatische Bestätigung +
-    Erinnerung, optional Online-Zahlung) wird ein Buchungsdienst
-    benötigt — z. B. Cal.com (kostenlos) oder Calendly.
-
-    EINRICHTUNG IN CAL.COM (einmalig):
-      1. Konto auf cal.com anlegen.
-      2. Event-Typ "Sitzung" erstellen: Dauer 45 Min, Preis 120 €.
-      3. Verfügbarkeit setzen: Mo, Di, Mi — 18:00 bis 20:00 Uhr.
-      4. Buchungslink kopieren (z. B. cal.com/sorapazer/sitzung).
-
-    Danach einfach diesen Block einkommentieren und den Link eintragen:
-
-    <section class="tight">
-      <div class="container">
-        <div class="booking-frame">
-          <iframe src="https://cal.com/IHR-NAME/sitzung?embed=true&theme=light"
-                  title="Terminbuchung Praxis Pazer" loading="lazy"></iframe>
-        </div>
-      </div>
-    </section>
--->
+<!-- Die Kalender-Quelle wird unten in der Variable CAL_LINK gesetzt. -->
 
 <!-- Hinweis -->
 <section class="tight">
@@ -148,13 +125,35 @@
 
 <script src="script.js"></script>
 <script>
-/* ------------------------------------------------------------
-   Slot-Auswahl: nur Mo–Mi, 18:00 & 19:00 Uhr, 45-Min-Sitzungen.
-   Zeigt die nächsten ~3 Wochen an Werktagen. Auswahl öffnet eine
-   vorausgefüllte E-Mail-Anfrage (kein Server nötig).
-   Konfiguration unten anpassbar.
-   ------------------------------------------------------------ */
+/* ============================================================
+   KALENDER-QUELLE
+   ------------------------------------------------------------
+   CAL_LINK leer ("")        → eingebaute Slot-Auswahl (E-Mail-Anfrage)
+   CAL_LINK gesetzt          → echter Cal.com-Kalender wird eingebettet
+
+   Möglich sind:
+     "sora-pazer-i8mr7b"            → zeigt alle Event-Typen (Profil)
+     "sora-pazer-i8mr7b/sitzung"    → springt direkt zum Event "sitzung"
+   (Den Event-Slug findest du in Cal.com im Link des Event-Typs.)
+   ============================================================ */
+var CAL_LINK = 'sora-pazer-i8mr7b';
+
 (function () {
+    var picker = document.getElementById('slotpicker');
+    var confirm = document.getElementById('slotConfirm');
+    var calEmbed = document.getElementById('calEmbed');
+
+    /* --- Variante A: echter Cal.com-Kalender ----------------- */
+    if (CAL_LINK && calEmbed) {
+        var src = 'https://cal.com/' + CAL_LINK + '?embed=true&theme=light&layout=month_view';
+        calEmbed.innerHTML = '<iframe src="' + src + '" title="Terminbuchung Praxis Pazer" loading="lazy" style="width:100%;min-height:680px;border:0;display:block;"></iframe>';
+        calEmbed.style.display = 'block';
+        if (picker) picker.style.display = 'none';
+        if (confirm) confirm.style.display = 'none';
+        return;
+    }
+
+    /* --- Variante B: eingebaute Slot-Auswahl ----------------- */
     var CONFIG = {
         email: 'kontakt@praxis-pazer.de',
         weekdays: [1, 2, 3],            // 1=Mo, 2=Di, 3=Mi
@@ -165,8 +164,6 @@
     var DAYS = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
     var MONTHS = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
 
-    var picker = document.getElementById('slotpicker');
-    var confirm = document.getElementById('slotConfirm');
     var chosenEl = document.getElementById('chosenSlot');
     var requestBtn = document.getElementById('requestBtn');
     if (!picker) return;

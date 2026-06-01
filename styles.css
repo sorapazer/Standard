@@ -909,3 +909,51 @@ footer { padding: clamp(56px, 8vw, 84px) 0 36px; margin-top: 20px; }
     margin-top: 28px; font-size: 0.84rem; color: var(--muted); font-style: italic;
     border-top: 1px solid var(--line); padding-top: 18px;
 }
+
+/* Price justification note */
+.price-note {
+    font-size: 0.8rem; color: var(--muted); line-height: 1.45;
+    margin: -8px 0 20px;
+}
+
+/* Credentials & memberships */
+.creds { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 28px; }
+@media (min-width: 720px) { .creds { grid-template-columns: repeat(3, 1fr); } }
+.cred {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--glass-shadow);
+    padding: 22px 22px 24px;
+}
+.cred .cred-ico { font-size: 1.5rem; margin-bottom: 12px; }
+.cred h3 { font-size: 1.05rem; margin-bottom: 6px; }
+.cred p { font-size: 0.9rem; margin: 0; }
+
+.cred-logo {
+    display: inline-flex; align-items: center; gap: 16px;
+    margin-top: 26px; padding: 16px 22px;
+    background: var(--glass-bg-strong);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--glass-shadow);
+}
+.cred-logo img { height: 56px; width: auto; display: block; }
+.cred-logo .ph {
+    height: 56px; min-width: 120px; padding: 0 18px;
+    display: grid; place-items: center; text-align: center;
+    border: 1px dashed var(--line-strong); border-radius: 10px;
+    font-size: 0.74rem; color: var(--muted); line-height: 1.2;
+}
+.cred-logo div span { display: block; }
+.cred-logo strong { color: var(--ink); font-size: 0.95rem; }
+.cred-logo small { color: var(--muted); font-size: 0.82rem; }
+
+/* Legal pages */
+.legal { max-width: 760px; }
+.legal h3 { margin: 1.8em 0 0.5em; font-size: 1.15rem; }
+.legal h3:first-child { margin-top: 0; }
+.legal p, .legal li { font-size: 0.96rem; color: var(--ink-soft); line-height: 1.65; }
+.legal ul { padding-left: 22px; margin: 0 0 1em; }
+.legal li { margin-bottom: 7px; }
+.legal .ph { color: var(--accent-deep); font-weight: 600; }

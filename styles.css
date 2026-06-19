@@ -1026,3 +1026,97 @@ footer { padding: clamp(56px, 8vw, 84px) 0 36px; margin-top: 20px; }
 .legal ul { padding-left: 22px; margin: 0 0 1em; }
 .legal li { margin-bottom: 7px; }
 .legal .ph { color: var(--accent-deep); font-weight: 600; }
+
+/* ============================================================
+   Additions: nav fit, Ampel, vfp seal, degree badges, self-test
+   ============================================================ */
+
+/* Slightly tighter nav so more tabs fit */
+@media (min-width: 980px) {
+    .nav-links { gap: 2px; }
+    .nav-links a { padding: 8px 11px; font-size: 0.9rem; }
+}
+
+/* Availability traffic light */
+.ampel {
+    display: inline-flex; align-items: center; gap: 16px;
+    padding: 14px 22px; border-radius: 100px;
+    background: var(--glass-bg-strong);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+    text-align: left;
+}
+.ampel-lights { display: flex; flex-direction: column; gap: 6px; }
+.ampel-lights i { width: 12px; height: 12px; border-radius: 50%; background: #d7dce4; display: block; }
+.ampel--amber .ampel-lights .l-y { background: #f3b21b; box-shadow: 0 0 10px rgba(243,178,27,0.7); }
+.ampel--green .ampel-lights .l-g { background: #34b37a; box-shadow: 0 0 10px rgba(52,179,122,0.7); }
+.ampel--red .ampel-lights .l-r { background: #e4572e; box-shadow: 0 0 10px rgba(228,87,46,0.7); }
+.ampel-text strong { display: block; color: var(--ink); font-weight: 600; font-size: 0.98rem; }
+.ampel-text span { color: var(--muted); font-size: 0.86rem; }
+
+/* vfp seal / Gütesiegel */
+.seal { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 16px; }
+.seal-badge {
+    width: 180px; height: 180px; border-radius: 50%;
+    background: #fff; border: 1px solid var(--line);
+    box-shadow: var(--glass-shadow-lg);
+    display: grid; place-items: center; padding: 18px;
+}
+.seal-badge img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.seal-cap strong { display: block; color: var(--ink); font-weight: 600; }
+.seal-cap span { color: var(--muted); font-size: 0.9rem; }
+
+/* Degree badges (BA / MA / Dr.) */
+.degrees { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+.degrees span {
+    font-size: 0.76rem; font-weight: 700; letter-spacing: 0.04em;
+    padding: 6px 13px; border-radius: 9px;
+    background: rgba(63, 141, 131, 0.1); color: var(--accent-deep);
+    border: 1px solid rgba(63, 141, 131, 0.18);
+}
+
+/* ============================================================
+   Self-test (Selbsttest)
+   ============================================================ */
+.test-tabs { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 40px; }
+.test-tab {
+    font-family: var(--sans); font-size: 0.95rem; font-weight: 600;
+    padding: 11px 22px; border-radius: 100px; cursor: pointer;
+    border: 1px solid var(--line-strong); background: var(--glass-bg); color: var(--ink-soft);
+    transition: all 0.2s ease;
+}
+.test-tab:hover { border-color: var(--accent); color: var(--accent-deep); }
+.test-tab.active { background: linear-gradient(135deg, var(--accent), var(--accent-deep)); color: #fff; border-color: transparent; box-shadow: 0 8px 20px rgba(63,141,131,0.3); }
+
+.test-panel { display: none; }
+.test-panel.active { display: block; }
+
+.quiz-q { padding: 20px 0; border-bottom: 1px solid var(--line); }
+.quiz-q .q-text { font-weight: 500; color: var(--ink); margin-bottom: 14px; font-size: 1.02rem; }
+.likert { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; max-width: 360px; }
+.likert label { cursor: pointer; position: relative; }
+.likert input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
+.likert .opt {
+    display: grid; place-items: center; height: 46px; border-radius: 12px;
+    border: 1px solid var(--line-strong); background: rgba(255,255,255,0.7);
+    font-weight: 600; color: var(--ink-soft); transition: all 0.15s ease;
+}
+.likert label:hover .opt { border-color: var(--accent); }
+.likert input:checked + .opt { background: linear-gradient(135deg, var(--accent), var(--accent-deep)); color: #fff; border-color: transparent; }
+.likert-scale { display: flex; justify-content: space-between; max-width: 360px; margin-top: 7px; font-size: 0.76rem; color: var(--muted); }
+
+.quiz-actions { margin-top: 28px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.quiz-hint { font-size: 0.85rem; color: var(--muted); }
+
+.quiz-result {
+    margin-top: 26px; padding: clamp(24px, 3vw, 34px);
+    border-radius: var(--radius); border: 1px solid var(--glass-border);
+    background: var(--glass-bg); box-shadow: var(--glass-shadow); display: none;
+}
+.quiz-result.show { display: block; }
+.result-band { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.1rem; margin-bottom: 12px; }
+.result-band .pip { width: 14px; height: 14px; border-radius: 50%; }
+.result-score { font-size: 0.9rem; color: var(--muted); margin-bottom: 14px; }
+.band-low { color: #2f8f5b; } .band-low .pip { background: #34b37a; }
+.band-mid { color: #b9831a; } .band-mid .pip { background: #f3b21b; }
+.band-high { color: #c2452a; } .band-high .pip { background: #e4572e; }

@@ -16,7 +16,7 @@
         <ul class="nav-links">
             <li><a href="index.html">Start</a></li>
             <li><a href="ueber.html" class="active">Über mich</a></li>
-            <li><a href="leistungen.html">Leistungen</a></li><li><a href="ansatz.html">Ansatz</a></li>
+            <li><a href="leistungen.html">Leistungen</a></li><li><a href="ansatz.html">Ansatz</a></li><li><a href="selbsttest.html">Selbsttest</a></li><li><a href="buecher.html">Bücher</a></li>
             
             <li><a href="blog.html">Blog</a></li>
             <li><a href="videos.html">Videos</a></li>
@@ -27,7 +27,7 @@
     <ul class="nav-mobile" id="navMobile">
         <li><a href="index.html">Start</a></li>
         <li><a href="ueber.html" class="active">Über mich</a></li>
-        <li><a href="leistungen.html">Leistungen</a></li><li><a href="ansatz.html">Ansatz</a></li>
+        <li><a href="leistungen.html">Leistungen</a></li><li><a href="ansatz.html">Ansatz</a></li><li><a href="selbsttest.html">Selbsttest</a></li><li><a href="buecher.html">Bücher</a></li>
         
         <li><a href="blog.html">Blog</a></li>
         <li><a href="videos.html">Videos</a></li>
@@ -88,21 +88,38 @@
             <h2>Fachlich verankert</h2>
             <p class="lead">Meine Arbeit steht auf einer geprüften beruflichen Grundlage.</p>
         </div>
-        <div class="creds">
+        <p class="eyebrow" style="color: var(--ink-soft); letter-spacing:0.1em;">Drei abgeschlossene Studiengänge — jeweils mit Promotion</p>
+        <div class="creds" style="margin-top: 16px;">
             <div class="cred reveal">
                 <div class="cred-ico"><svg class="icn" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
-                <h3>Akademische Ausbildung</h3>
-                <p>BA, MA und Promotion (Dr.) in <strong>Theologie</strong>, <strong>Sozialer Arbeit</strong> und <strong>Psychologie</strong>.</p>
+                <h3>Theologie</h3>
+                <p>Studium der Theologie, abgeschlossen bis zur Promotion.</p>
+                <div class="degrees"><span>BA</span><span>MA</span><span>Dr.</span></div>
             </div>
+            <div class="cred reveal">
+                <div class="cred-ico"><svg class="icn" viewBox="0 0 24 24"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></svg></div>
+                <h3>Psychologie</h3>
+                <p>Studium der Psychologie, abgeschlossen bis zur Promotion.</p>
+                <div class="degrees"><span>BA</span><span>MA</span><span>Dr.</span></div>
+            </div>
+            <div class="cred reveal">
+                <div class="cred-ico"><svg class="icn" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+                <h3>Soziale Arbeit</h3>
+                <p>Studium der Sozialen Arbeit, abgeschlossen bis zur Promotion.</p>
+                <div class="degrees"><span>BA</span><span>MA</span><span>Dr.</span></div>
+            </div>
+        </div>
+
+        <div class="grid-2" style="margin-top: 24px; align-items: stretch;">
             <div class="cred reveal">
                 <div class="cred-ico"><svg class="icn" viewBox="0 0 24 24"><line x1="3" y1="22" x2="21" y2="22"/><line x1="6" y1="18" x2="6" y2="11"/><line x1="10" y1="18" x2="10" y2="11"/><line x1="14" y1="18" x2="14" y2="11"/><line x1="18" y1="18" x2="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg></div>
                 <h3>Mental Health · Harvard</h3>
                 <p>Weiterbildung im Bereich Mental Health an der Harvard University.</p>
             </div>
             <div class="cred reveal">
-                <div class="cred-ico"><svg class="icn" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+                <div class="cred-ico"><svg class="icn" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg></div>
                 <h3>Psychologischer Berater &amp; vfp</h3>
-                <p>Ausgebildeter Psychologischer Berater und Mitglied im vfp — Verband Freier Psychotherapeuten, Heilpraktiker für Psychotherapie und Psychologischer Berater e.V.</p>
+                <p>Ausgebildeter Psychologischer Berater und Mitglied im vfp.</p>
             </div>
         </div>
 
@@ -113,18 +130,14 @@
             zutiefst menschlich.
         </p>
 
-        <div class="cred-logo reveal">
-            <!--
-                vfp-LOGO:
-                Lade das offizielle Logo als Datei hoch unter  assets/vfp-logo.png
-                (oder .svg) — dann erscheint es hier automatisch. Solange keine Datei
-                vorhanden ist, wird der Platzhalter rechts angezeigt.
-            -->
-            <img src="assets/vfp-logo.png" alt="vfp – Verband Freier Psychotherapeuten" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='grid';">
-            <div class="ph" style="display:none;">vfp-Logo<br>(assets/vfp-logo.png)</div>
-            <div>
+        <!-- vfp-Gütesiegel -->
+        <div class="seal reveal" style="margin-top: 44px;">
+            <div class="seal-badge">
+                <img src="assets/vfp-logo.png" alt="Mitglied im vfp – Verband Freier Psychotherapeuten, Heilpraktiker für Psychotherapie und Psychologischer Berater e.V.">
+            </div>
+            <div class="seal-cap">
                 <strong>Mitglied im vfp</strong>
-                <small>Verband Freier Psychotherapeuten, Heilpraktiker für Psychotherapie und Psychologischer Berater e.V.</small>
+                <span>Verband Freier Psychotherapeuten, Heilpraktiker für<br>Psychotherapie und Psychologischer Berater e.V.</span>
             </div>
         </div>
     </div>
@@ -166,7 +179,7 @@
                     <a href="index.html" class="footer-brand"><span class="dot"></span>Praxis Pazer</a>
                     <p style="font-size:0.94rem; max-width:320px;">Psychologische Beratung mit Schwerpunkt Depression und Burnout. Menschlich, fundiert, diskret.</p>
                 </div>
-                <div><h4>Praxis</h4><ul><li><a href="leistungen.html">Leistungen</a></li><li><a href="ansatz.html">Ansatz</a></li><li><a href="ueber.html">Über mich</a></li><li><a href="termin.html">Termin buchen</a></li></ul></div>
+                <div><h4>Praxis</h4><ul><li><a href="leistungen.html">Leistungen</a></li><li><a href="ansatz.html">Ansatz</a></li><li><a href="selbsttest.html">Selbsttest</a></li><li><a href="buecher.html">Bücher</a></li><li><a href="ueber.html">Über mich</a></li><li><a href="termin.html">Termin buchen</a></li></ul></div>
                 <div><h4>Mehr</h4><ul><li><a href="blog.html">Blog</a></li><li><a href="videos.html">Videos</a></li><li><a href="kontakt.html">Kontakt</a></li><li><a href="https://www.youtube.com/@profsora" target="_blank" rel="noopener">YouTube</a></li></ul></div>
                 <div><h4>Kontakt</h4><ul><li><a href="mailto:sorapazer@gmail.com">sorapazer@gmail.com</a></li><li><a href="termin.html">Online buchen</a></li></ul></div>
             </div>

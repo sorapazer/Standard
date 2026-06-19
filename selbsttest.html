@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selbsttest · Praxis Pazer</title>
-    <meta name="description" content="Kostenlose Orientierungs-Selbsttests zu Angst, Depression und Burnout. Anonym, sofort ausgewertet — kein Ersatz für eine Diagnose.">
+    <meta name="description" content="Ausführliche, wissenschaftlich orientierte Selbsttests zu Angst, Depression und Burnout. Anonym, nach Symptom-Bereichen gegliedert, mit detaillierter Sofort-Auswertung. Keine Diagnose.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -43,25 +43,41 @@
     <div class="container-narrow text-center">
         <span class="eyebrow reveal in">Selbsttest</span>
         <h1 class="reveal in">Wo stehe ich<br><span class="gradient-text">gerade?</span></h1>
-        <p class="lead reveal in" style="margin: 22px auto 0; max-width: 620px;">Drei kurze Orientierungs-Tests zu Angst, Depression und Burnout. Anonym, in zwei Minuten, mit sofortiger Auswertung.</p>
+        <p class="lead reveal in" style="margin: 22px auto 0; max-width: 640px;">Drei ausführliche Selbsttests zu Angst, Depression und Burnout — nach Symptom-Bereichen gegliedert, wissenschaftlich orientiert, mit detaillierter Sofort-Auswertung.</p>
     </div>
 </section>
 
 <section class="tight">
     <div class="container-narrow">
         <div class="note reveal" style="margin-bottom: 36px;">
-            <strong>Bitte beachten:</strong> Diese Selbsttests dienen ausschließlich der ersten Orientierung. Sie sind
-            <strong>keine Diagnose</strong> und ersetzen keine ärztliche oder psychologische Untersuchung. Ihre Antworten
-            werden nur in Ihrem Browser ausgewertet und <strong>nirgendwo gespeichert oder übertragen</strong>.
+            <strong>Bitte beachten:</strong> Diese Selbsttests dienen der vertieften Selbstreflexion und Orientierung.
+            Sie sind <strong>keine Diagnose</strong> und ersetzen keine ärztliche oder psychologische Untersuchung. Ihre
+            Antworten werden ausschließlich in Ihrem Browser ausgewertet und <strong>nirgendwo gespeichert oder übertragen</strong>.
         </div>
 
-        <div class="test-tabs">
-            <button class="test-tab active" data-test="angst">Angst</button>
-            <button class="test-tab" data-test="depression">Depression</button>
-            <button class="test-tab" data-test="burnout">Burnout</button>
+        <!-- Auswahl -->
+        <div id="select" class="reveal">
+            <div class="test-select"></div>
+            <p class="sci-note" style="margin-top: 30px;">
+                <strong>Wissenschaftlicher Hintergrund:</strong> Die Fragen sind an den Symptom-Bereichen anerkannter
+                diagnostischer Kriterien orientiert (u. a. DSM-5 der American Psychiatric Association und ICD-11 der WHO;
+                für Burnout an den Dimensionen nach Maslach). Sie sind <em>eigenständig formuliert</em> und bilden keine
+                geschützten Original-Fragebögen nach. Die Auswertung erfolgt mehrdimensional (nach Bereichen) und ergibt
+                eine Tendenz — keinen klinischen Befund.
+            </p>
         </div>
 
-        <div id="testHost"></div>
+        <!-- Testbereich -->
+        <div id="testArea" class="test-area">
+            <span class="back-link" id="backLink">← Zurück zur Auswahl</span>
+            <div id="testHead"></div>
+            <form id="testForm"></form>
+            <div class="quiz-actions">
+                <button type="button" class="btn btn-primary btn-lg" id="evalBtn">Test auswerten</button>
+                <span class="quiz-hint" id="hint"></span>
+            </div>
+            <div class="quiz-result" id="result"></div>
+        </div>
 
         <div class="note reveal" style="margin-top: 36px;">
             In einer akuten Krise oder bei Gedanken, sich das Leben zu nehmen, holen Sie sich bitte sofort Hilfe:
@@ -99,123 +115,238 @@
 <script>
 (function () {
     var SCALE = ['nie', 'selten', 'manchmal', 'oft', 'fast täglich'];
+
     var TESTS = {
-        angst: {
-            title: 'Selbsttest: Angst',
-            intro: 'Wie häufig haben Sie sich in den letzten zwei Wochen so gefühlt?',
-            q: [
-                'Ich fühle mich nervös, angespannt oder innerlich unruhig.',
-                'Ich mache mir übermäßig viele Sorgen, auch über Kleinigkeiten.',
-                'Es fällt mir schwer, zur Ruhe zu kommen oder zu entspannen.',
-                'Ich habe das Gefühl, dass etwas Schlimmes passieren könnte.',
-                'Körperliche Anzeichen wie Herzklopfen, Schwitzen oder Zittern begleiten meine Anspannung.',
-                'Ich vermeide bestimmte Situationen, weil sie mir Angst machen.',
-                'Meine Sorgen halten mich vom Schlafen oder Konzentrieren ab.'
+        depression: {
+            title: 'Depression — ausführlicher Selbsttest',
+            tag: 'ca. 5 Min · 21 Fragen',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M20 16.2A4.5 4.5 0 0 0 17.5 8h-1.8A7 7 0 1 0 4 14.9"/><line x1="8" y1="19" x2="8" y2="21"/><line x1="16" y1="19" x2="16" y2="21"/><line x1="12" y1="21" x2="12" y2="23"/></svg>',
+            lead: 'Niedergeschlagenheit, Antriebs- und Freudlosigkeit gehören zu den häufigsten seelischen Belastungen. Dieser Test betrachtet mehrere Bereiche depressiven Erlebens.',
+            instruction: 'Wie häufig traf das in den letzten zwei Wochen auf Sie zu?',
+            domains: [
+                { name: 'Stimmung & Freudempfinden', items: [
+                    'Ich fühle mich über weite Teile des Tages niedergeschlagen oder traurig.',
+                    'Dinge, die mir früher Freude gemacht haben, berühren mich kaum noch.',
+                    'Ich empfinde innere Leere oder Gefühllosigkeit.',
+                    'Ich kann mich über schöne Momente kaum noch freuen.' ] },
+                { name: 'Antrieb & Energie', items: [
+                    'Mir fehlt die Energie für alltägliche Aufgaben.',
+                    'Schon kleine Tätigkeiten kosten mich große Überwindung.',
+                    'Ich fühle mich verlangsamt — oder im Gegenteil innerlich getrieben und ruhelos.' ] },
+                { name: 'Schlaf, Appetit & Körper', items: [
+                    'Mein Schlaf ist gestört (Einschlafen, Durchschlafen oder zu frühes Erwachen).',
+                    'Mein Appetit oder mein Gewicht hat sich deutlich verändert.',
+                    'Ich fühle mich körperlich erschöpft, auch ohne besondere Anstrengung.' ] },
+                { name: 'Selbstwert & Schuld', items: [
+                    'Ich mache mir Vorwürfe oder halte mich für wertlos.',
+                    'Ich habe das Gefühl, anderen zur Last zu fallen.',
+                    'Ich blicke pessimistisch auf meine Zukunft.' ] },
+                { name: 'Denken & Konzentration', items: [
+                    'Es fällt mir schwer, mich zu konzentrieren oder Dinge zu Ende zu bringen.',
+                    'Schon einfache Entscheidungen überfordern mich.',
+                    'Meine Gedanken kreisen häufig um Sorgen oder vermeintliches Versagen.' ] },
+                { name: 'Hoffnung & Sicherheit', items: [
+                    'Ich empfinde Hoffnungslosigkeit, als würde sich nichts mehr ändern.',
+                    { text: 'Ich habe Gedanken, dass das Leben nicht mehr lebenswert ist, oder daran, mir etwas anzutun.', flag: true } ] },
+                { name: 'Auswirkungen im Alltag', items: [
+                    'Meine Beschwerden beeinträchtigen Arbeit, Studium oder Haushalt.',
+                    'Meine Beschwerden belasten meine Beziehungen.',
+                    'Ich ziehe mich von anderen Menschen zurück.' ] }
             ]
         },
-        depression: {
-            title: 'Selbsttest: Depression',
-            intro: 'Wie häufig haben Sie sich in den letzten zwei Wochen so gefühlt?',
-            q: [
-                'Ich fühle mich niedergeschlagen, leer oder hoffnungslos.',
-                'Ich habe wenig Interesse oder Freude an Dingen, die mir sonst wichtig sind.',
-                'Mir fehlt der Antrieb, alltägliche Aufgaben zu erledigen.',
-                'Ich fühle mich müde oder kraftlos, auch ohne besondere Anstrengung.',
-                'Ich bin unzufrieden mit mir selbst oder mache mir Vorwürfe.',
-                'Es fällt mir schwer, mich zu konzentrieren oder Entscheidungen zu treffen.',
-                'Mein Schlaf oder mein Appetit hat sich spürbar verändert.'
+        angst: {
+            title: 'Angst — ausführlicher Selbsttest',
+            tag: 'ca. 5 Min · 20 Fragen',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/></svg>',
+            lead: 'Angst ist ein normaler Schutzmechanismus — problematisch wird sie, wenn sie zu stark, zu häufig oder ohne realen Anlass auftritt. Dieser Test betrachtet Sorgen, körperliche Symptome, Panik und Vermeidung.',
+            instruction: 'Wie häufig traf das in den letzten Wochen auf Sie zu?',
+            domains: [
+                { name: 'Sorgen & negative Erwartung', items: [
+                    'Ich mache mir übermäßig und häufig Sorgen.',
+                    'Meine Sorgen fühlen sich schwer kontrollierbar an.',
+                    'Ich erwarte oft, dass etwas Schlimmes passieren wird.',
+                    'Ich sorge mich um viele Lebensbereiche gleichzeitig.' ] },
+                { name: 'Anspannung & Unruhe', items: [
+                    'Ich bin innerlich angespannt oder „auf dem Sprung".',
+                    'Es fällt mir schwer, zur Ruhe zu kommen.',
+                    'Ich bin reizbar oder schreckhaft.' ] },
+                { name: 'Körperliche Symptome', items: [
+                    'Ich bemerke Herzklopfen, Herzrasen oder Engegefühl in der Brust.',
+                    'Ich schwitze, zittere oder mir wird schwindelig, wenn ich nervös bin.',
+                    'Ich habe Magen-Darm-Beschwerden bei Anspannung.',
+                    'Ich atme flach oder bekomme schlecht Luft, wenn ich nervös bin.' ] },
+                { name: 'Panik-artige Episoden', items: [
+                    'Ich erlebe plötzliche Wellen intensiver Angst, die rasch ihren Höhepunkt erreichen.',
+                    'Während solcher Episoden habe ich Angst, die Kontrolle zu verlieren.',
+                    'Ich fürchte das erneute Auftreten solcher Angstanfälle.' ] },
+                { name: 'Vermeidung', items: [
+                    'Ich meide Orte oder Situationen, die mir Angst machen.',
+                    'Ich brauche Begleitung oder „Sicherheitssignale", um bestimmte Dinge zu tun.',
+                    'Mein Aktionsradius hat sich durch Angst eingeengt.' ] },
+                { name: 'Schlaf, Konzentration & Alltag', items: [
+                    'Meine Anspannung stört meinen Schlaf.',
+                    'Sorgen beeinträchtigen meine Konzentration.',
+                    'Die Angst beeinträchtigt meinen Alltag, Beruf oder meine Beziehungen.' ] }
             ]
         },
         burnout: {
-            title: 'Selbsttest: Burnout',
-            intro: 'Wie häufig trifft das in den letzten Wochen auf Sie zu?',
-            q: [
-                'Ich fühle mich durch meine Arbeit oder meine Aufgaben emotional ausgelaugt.',
-                'Schon der Gedanke an den Tag vor mir erschöpft mich.',
-                'Ich fühle mich distanziert oder gleichgültig gegenüber Aufgaben oder Menschen, die mir wichtig sein sollten.',
-                'Erholung (Wochenende, Urlaub) bringt mir kaum noch Kraft zurück.',
-                'Ich habe das Gefühl, weniger zu schaffen als früher.',
-                'Ich bin gereizt, zynisch oder innerlich leer.',
-                'Körperliche Beschwerden (Schlaf, Kopf, Anspannung) begleiten meinen Alltag.'
+            title: 'Burnout — ausführlicher Selbsttest',
+            tag: 'ca. 5 Min · 20 Fragen',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>',
+            lead: 'Burnout entwickelt sich schleichend aus chronischer Überlastung. Dieser Test betrachtet die zentralen Dimensionen: emotionale Erschöpfung, Distanzierung und das Erleben der eigenen Wirksamkeit — sowie Erholung und Körper.',
+            instruction: 'Wie häufig trifft das in den letzten Wochen auf Sie zu?',
+            domains: [
+                { name: 'Emotionale Erschöpfung', items: [
+                    'Ich fühle mich durch meine Arbeit oder Aufgaben emotional ausgelaugt.',
+                    'Am Ende des Tages bin ich völlig verbraucht.',
+                    'Schon morgens bin ich müde beim Gedanken an den Tag.',
+                    'Ich habe das Gefühl, ständig am Limit zu arbeiten.' ] },
+                { name: 'Distanzierung & Zynismus', items: [
+                    'Ich gehe innerlich auf Distanz zu meiner Arbeit.',
+                    'Ich bin zynischer oder gleichgültiger geworden.',
+                    'Ich zweifle am Sinn dessen, was ich tue.',
+                    'Aufgaben oder Menschen, die mir wichtig waren, lassen mich kalt.' ] },
+                { name: 'Wirksamkeit & Leistung', items: [
+                    'Ich habe das Gefühl, weniger zu leisten als früher.',
+                    'Ich zweifle an meiner Kompetenz.',
+                    'Erfolgserlebnisse bleiben aus.' ] },
+                { name: 'Erholungsfähigkeit', items: [
+                    'Feierabend und Wochenende bringen mir kaum Erholung.',
+                    'Ich kann auch im Urlaub schlecht abschalten.',
+                    'Ich fühle mich selten wirklich ausgeruht.' ] },
+                { name: 'Körperliche Begleitsymptome', items: [
+                    'Ich habe Schlafprobleme.',
+                    'Ich leide unter Kopf-, Rücken- oder Magenbeschwerden ohne klare Ursache.',
+                    'Ich fühle mich anfälliger für Infekte oder oft „angeschlagen".' ] },
+                { name: 'Auswirkungen', items: [
+                    'Meine Erschöpfung wirkt sich auf mein Privatleben aus.',
+                    'Ich ziehe mich von anderen zurück.',
+                    'Ich greife häufiger zu Koffein, Alkohol o. Ä., um zu funktionieren.' ] }
             ]
         }
     };
 
-    function band(score) {
-        if (score <= 14) return { cls: 'band-low', label: 'Wenige Anzeichen',
-            text: 'Aktuell zeigen sich nur wenige Anzeichen. Achten Sie weiter gut auf sich. Sollte sich Ihr Befinden verändern, können Sie den Test jederzeit wiederholen.' };
-        if (score <= 24) return { cls: 'band-mid', label: 'Deutliche Anzeichen',
-            text: 'Es zeigen sich einige deutliche Anzeichen. Das ist ein Signal, genauer hinzuschauen. Ein klärendes Gespräch kann helfen, das einzuordnen und erste Schritte zu finden.' };
-        return { cls: 'band-high', label: 'Ausgeprägte Anzeichen',
-            text: 'Es zeigen sich viele bzw. ausgeprägte Anzeichen. Es ist sehr empfehlenswert, sich Unterstützung zu holen — psychologisch und bei Bedarf ärztlich. Sie müssen das nicht allein bewältigen.' };
-    }
-
-    function buildPanel(key) {
-        var t = TESTS[key];
-        var legend = SCALE.map(function (s, i) { return (i + 1) + ' = ' + s; }).join(' · ');
-        var qs = t.q.map(function (text, i) {
-            var opts = '';
-            for (var v = 1; v <= 5; v++) {
-                opts += '<label><input type="radio" name="' + key + '_' + i + '" value="' + v + '"><span class="opt">' + v + '</span></label>';
-            }
-            return '<div class="quiz-q"><div class="q-text">' + (i + 1) + '. ' + text + '</div>' +
-                   '<div class="likert">' + opts + '</div>' +
-                   '<div class="likert-scale"><span>' + SCALE[0] + '</span><span>' + SCALE[4] + '</span></div></div>';
-        }).join('');
-        return '<div class="test-panel' + (key === 'angst' ? ' active' : '') + '" id="panel-' + key + '" data-key="' + key + '">' +
-            '<h2 style="margin-bottom:8px;">' + t.title + '</h2>' +
-            '<p style="margin-bottom:8px;">' + t.intro + '</p>' +
-            '<p class="quiz-hint" style="margin-bottom:6px;">Skala: ' + legend + '</p>' +
-            qs +
-            '<div class="quiz-actions"><button type="button" class="btn btn-primary" data-eval="' + key + '">Auswerten</button>' +
-            '<span class="quiz-hint" id="hint-' + key + '"></span></div>' +
-            '<div class="quiz-result" id="result-' + key + '"></div>' +
-            '</div>';
-    }
-
-    var host = document.getElementById('testHost');
-    if (!host) return;
-    host.innerHTML = Object.keys(TESTS).map(buildPanel).join('');
-
-    // Tab switching
-    document.querySelectorAll('.test-tab').forEach(function (tab) {
-        tab.addEventListener('click', function () {
-            var key = tab.getAttribute('data-test');
-            document.querySelectorAll('.test-tab').forEach(function (b) { b.classList.remove('active'); });
-            tab.classList.add('active');
-            document.querySelectorAll('.test-panel').forEach(function (p) { p.classList.remove('active'); });
-            document.getElementById('panel-' + key).classList.add('active');
+    // normalise items to {text, flag}
+    Object.keys(TESTS).forEach(function (k) {
+        TESTS[k].domains.forEach(function (d) {
+            d.items = d.items.map(function (it) { return typeof it === 'string' ? { text: it, flag: false } : it; });
         });
     });
 
-    // Evaluate
-    host.addEventListener('click', function (e) {
-        var btn = e.target.closest('[data-eval]');
-        if (!btn) return;
-        var key = btn.getAttribute('data-eval');
+    var sel = document.getElementById('select');
+    var area = document.getElementById('testArea');
+    var head = document.getElementById('testHead');
+    var form = document.getElementById('testForm');
+    var hint = document.getElementById('hint');
+    var result = document.getElementById('result');
+    var current = null;
+
+    // Build selection cards
+    sel.querySelector('.test-select').innerHTML = Object.keys(TESTS).map(function (k) {
+        var t = TESTS[k];
+        var name = k.charAt(0).toUpperCase() + k.slice(1);
+        return '<div class="card test-card" data-open="' + k + '">' +
+            '<div class="ico">' + t.ico + '</div>' +
+            '<h3>' + name + '</h3>' +
+            '<p style="font-size:0.95rem;">' + t.lead + '</p>' +
+            '<div class="meta">' + t.tag + '</div>' +
+            '<span class="card-link" style="margin-top:16px;">Test starten</span>' +
+            '</div>';
+    }).join('');
+
+    function openTest(key) {
+        current = key;
         var t = TESTS[key];
-        var sum = 0, answered = 0;
-        for (var i = 0; i < t.q.length; i++) {
-            var sel = document.querySelector('input[name="' + key + '_' + i + '"]:checked');
-            if (sel) { sum += parseInt(sel.value, 10); answered++; }
-        }
-        var hint = document.getElementById('hint-' + key);
-        var res = document.getElementById('result-' + key);
-        if (answered < t.q.length) {
-            hint.textContent = 'Bitte beantworten Sie alle ' + t.q.length + ' Fragen (' + answered + '/' + t.q.length + ').';
+        head.innerHTML = '<span class="eyebrow">Selbsttest</span><h2 style="margin:6px 0 10px;">' + t.title + '</h2>' +
+            '<p class="lead" style="margin-bottom:16px;">' + t.lead + '</p>' +
+            '<p class="sci-note">' + t.instruction + ' &nbsp;<strong>Skala:</strong> ' +
+            SCALE.map(function (s, i) { return (i + 1) + ' = ' + s; }).join(' · ') + '</p>';
+
+        var qi = 0, html = '';
+        t.domains.forEach(function (d, di) {
+            html += '<div class="domain-head">' + (di + 1) + '. ' + d.name + '</div>';
+            d.items.forEach(function (item) {
+                var opts = '';
+                for (var v = 1; v <= 5; v++) {
+                    opts += '<label><input type="radio" name="q' + qi + '" value="' + v + '"><span class="opt">' + v + '</span></label>';
+                }
+                html += '<div class="quiz-q"><div class="q-text">' + item.text + '</div>' +
+                        '<div class="likert">' + opts + '</div>' +
+                        '<div class="likert-scale"><span>' + SCALE[0] + '</span><span>' + SCALE[4] + '</span></div></div>';
+                qi++;
+            });
+        });
+        form.innerHTML = html;
+        result.className = 'quiz-result'; result.innerHTML = ''; hint.textContent = '';
+        sel.style.display = 'none';
+        area.classList.add('active');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function bandFor(pct) {
+        if (pct < 33) return { cls: 'band-low', m: '', label: 'Wenige Anzeichen' };
+        if (pct < 66) return { cls: 'band-mid', m: 'm-mid', label: 'Deutliche Anzeichen' };
+        return { cls: 'band-high', m: 'm-high', label: 'Ausgeprägte Anzeichen' };
+    }
+
+    function evaluate() {
+        var t = TESTS[current];
+        var qi = 0, total = 0, answered = 0, count = 0, flagHit = false;
+        var rows = '';
+        t.domains.forEach(function (d) {
+            var dSum = 0, dCount = d.items.length;
+            d.items.forEach(function (item) {
+                var node = form.querySelector('input[name="q' + qi + '"]:checked');
+                if (node) {
+                    var val = parseInt(node.value, 10);
+                    dSum += val; total += val; answered++;
+                    if (item.flag && val >= 3) flagHit = true;
+                }
+                qi++; count++;
+            });
+            var dPct = Math.round((dSum - dCount) / (dCount * 4) * 100);
+            var bd = bandFor(dPct);
+            rows += '<div><div class="lbl"><span>' + d.name + '</span><span>' + dPct + '%</span></div>' +
+                    '<div class="meter ' + bd.m + '"><i style="width:' + Math.max(dPct, 2) + '%"></i></div></div>';
+        });
+
+        if (answered < count) {
+            hint.textContent = 'Bitte beantworten Sie alle Fragen (' + answered + '/' + count + ').';
             return;
         }
         hint.textContent = '';
-        var b = band(sum);
-        res.className = 'quiz-result show';
-        res.innerHTML =
+        var pct = Math.round((total - count) / (count * 4) * 100);
+        var b = bandFor(pct);
+
+        var interp = {
+            'band-low': 'Insgesamt zeigen sich derzeit nur wenige Anzeichen. Achten Sie weiterhin gut auf sich. Einzelne Bereiche mit höheren Werten können dennoch einen Blick wert sein.',
+            'band-mid': 'Es zeigen sich deutliche Anzeichen in mehreren Bereichen. Das ist ein ernstzunehmendes Signal. Ein klärendes Gespräch hilft, das einzuordnen und erste Schritte zu finden.',
+            'band-high': 'Es zeigen sich ausgeprägte Anzeichen. Es ist sehr empfehlenswert, sich Unterstützung zu holen — psychologisch und bei Bedarf ärztlich. Sie müssen das nicht allein bewältigen.'
+        }[b.cls];
+
+        var crisis = flagHit ? '<div class="crisis-box"><strong>Wichtig:</strong> Sie haben angegeben, dass Sie Gedanken haben, dass das Leben nicht mehr lebenswert ist, oder daran, sich etwas anzutun. Bitte nehmen Sie das ernst und holen Sie sich <strong>jetzt</strong> Unterstützung: Telefonseelsorge 0800&nbsp;111&nbsp;0&nbsp;111 (kostenfrei, rund um die Uhr) oder im Notfall die 112. Sie sind damit nicht allein.</div>' : '';
+
+        result.className = 'quiz-result show';
+        result.innerHTML =
             '<div class="result-band ' + b.cls + '"><span class="pip"></span>' + b.label + '</div>' +
-            '<div class="result-score">Ihr Wert: ' + sum + ' von 35 Punkten</div>' +
-            '<p>' + b.text + '</p>' +
-            '<p style="font-size:0.86rem;color:var(--muted);margin-top:14px;">Hinweis: Dies ist eine grobe Orientierung, keine Diagnose. Aussagekräftig wird das Bild erst im persönlichen Gespräch.</p>' +
-            '<div style="margin-top:20px;"><a href="termin.html" class="btn btn-primary btn-arrow">Termin buchen</a></div>';
-        res.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            '<div class="result-score">Gesamttendenz: ' + pct + '% der maximal möglichen Ausprägung</div>' +
+            '<p>' + interp + '</p>' +
+            crisis +
+            '<h3 style="margin:26px 0 6px;">Ihre Bereiche im Detail</h3>' +
+            '<div class="breakdown">' + rows + '</div>' +
+            '<p style="font-size:0.86rem;color:var(--muted);margin-top:14px;">Hinweis: Diese Auswertung ist eine Orientierung, keine Diagnose. Aussagekräftig wird das Bild erst im persönlichen Gespräch — besonders, wenn einzelne Bereiche hoch ausfallen.</p>' +
+            '<div style="margin-top:22px; display:flex; gap:12px; flex-wrap:wrap;"><a href="termin.html" class="btn btn-primary btn-arrow">Termin buchen</a><a href="kontakt.html" class="btn btn-ghost">Erst eine Frage stellen</a></div>';
+        result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    document.querySelectorAll('[data-open]').forEach(function (c) {
+        c.addEventListener('click', function () { openTest(c.getAttribute('data-open')); });
     });
+    document.getElementById('backLink').addEventListener('click', function () {
+        area.classList.remove('active'); sel.style.display = ''; current = null;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    document.getElementById('evalBtn').addEventListener('click', evaluate);
 })();
 </script>
 </body>

@@ -1120,3 +1120,37 @@ footer { padding: clamp(56px, 8vw, 84px) 0 36px; margin-top: 20px; }
 .band-low { color: #2f8f5b; } .band-low .pip { background: #34b37a; }
 .band-mid { color: #b9831a; } .band-mid .pip { background: #f3b21b; }
 .band-high { color: #c2452a; } .band-high .pip { background: #e4572e; }
+
+/* ============================================================
+   Self-test (deep version): selection, domains, breakdown
+   ============================================================ */
+.test-select { display: grid; grid-template-columns: 1fr; gap: 22px; }
+@media (min-width: 760px) { .test-select { grid-template-columns: repeat(3, 1fr); } }
+.test-card { cursor: pointer; text-align: left; transition: transform .25s ease, box-shadow .25s ease; }
+.test-card:hover { transform: translateY(-5px); box-shadow: var(--glass-shadow-lg); }
+.test-card .meta { margin-top: 16px; font-size: 0.85rem; color: var(--muted); }
+
+.back-link { cursor: pointer; display: inline-flex; align-items: center; gap: 7px; font-weight: 600; color: var(--accent-deep); margin-bottom: 18px; }
+.test-area { display: none; }
+.test-area.active { display: block; }
+
+.domain-head { font-family: var(--serif); font-size: clamp(1.3rem, 2.4vw, 1.6rem); font-weight: 600; margin: 40px 0 4px; color: var(--ink); }
+.domain-sub { font-size: 0.86rem; color: var(--muted); margin-bottom: 4px; }
+
+.sci-note { font-size: 0.9rem; color: var(--ink-soft); background: var(--glass-bg); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 18px 22px; }
+
+/* Result breakdown */
+.breakdown { display: grid; gap: 16px; margin: 20px 0 6px; }
+.breakdown .lbl { display: flex; justify-content: space-between; gap: 12px; font-size: 0.92rem; margin-bottom: 6px; color: var(--ink); }
+.breakdown .lbl span:last-child { color: var(--muted); font-variant-numeric: tabular-nums; }
+.meter { height: 9px; border-radius: 6px; background: rgba(15,23,42,0.08); overflow: hidden; }
+.meter > i { display: block; height: 100%; border-radius: 6px; background: linear-gradient(90deg, var(--accent), var(--accent-deep)); }
+.meter.m-mid > i { background: linear-gradient(90deg, #f3b21b, #d6951a); }
+.meter.m-high > i { background: linear-gradient(90deg, #e4572e, #c2452a); }
+
+.crisis-box {
+    margin-top: 20px; padding: 18px 22px; border-radius: var(--radius-sm);
+    background: rgba(228,87,46,0.08); border: 1px solid rgba(228,87,46,0.32); color: #8f3015;
+    font-size: 0.96rem;
+}
+.crisis-box strong { color: #7d2a13; }

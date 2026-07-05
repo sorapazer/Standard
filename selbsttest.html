@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selbsttest · Praxis Pazer</title>
-    <meta name="description" content="Ausführliche, wissenschaftlich orientierte Selbsttests zu Angst, Depression und Burnout. Anonym, nach Symptom-Bereichen gegliedert, mit detaillierter Sofort-Auswertung. Keine Diagnose.">
+    <meta name="description" content="Sechs ausführliche, wissenschaftlich orientierte Selbsttests: Depression, Angst, Burnout, ADHS, Hochsensibilität und Stress. Anonym, nach Bereichen gegliedert, mit detaillierter Sofort-Auswertung. Keine Diagnose.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -43,7 +43,7 @@
     <div class="container-narrow text-center">
         <span class="eyebrow reveal in">Selbsttest</span>
         <h1 class="reveal in">Wo stehe ich<br><span class="gradient-text">gerade?</span></h1>
-        <p class="lead reveal in" style="margin: 22px auto 0; max-width: 640px;">Drei ausführliche Selbsttests zu Angst, Depression und Burnout — nach Symptom-Bereichen gegliedert, wissenschaftlich orientiert, mit detaillierter Sofort-Auswertung.</p>
+        <p class="lead reveal in" style="margin: 22px auto 0; max-width: 660px;">Sechs ausführliche Selbsttests — Depression, Angst, Burnout, ADHS, Hochsensibilität und Stress — nach Bereichen gegliedert, wissenschaftlich orientiert, mit detaillierter Sofort-Auswertung.</p>
     </div>
 </section>
 
@@ -223,6 +223,105 @@
                     'Ich ziehe mich von anderen zurück.',
                     'Ich greife häufiger zu Koffein, Alkohol o. Ä., um zu funktionieren.' ] }
             ]
+        },
+        adhs: {
+            name: 'ADHS',
+            title: 'ADHS — ausführlicher Selbsttest',
+            tag: 'ca. 6 Min · 18 Fragen',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg>',
+            lead: 'Aufmerksamkeits- und Aktivitätsbesonderheiten (ADHS) zeigen sich in Konzentration, Organisation, innerer Unruhe und Impulsivität — oft schon seit der Kindheit. Dieser Test betrachtet die zentralen Bereiche.',
+            instruction: 'Wie häufig trifft das auf Sie zu?',
+            domains: [
+                { name: 'Aufmerksamkeit & Fokus', items: [
+                    'Ich verliere bei Aufgaben oder Gesprächen schnell den Faden.',
+                    'Flüchtigkeitsfehler passieren mir häufig, obwohl ich mich bemühe.',
+                    'Ich lasse mich leicht von Nebenreizen ablenken.',
+                    'Es fällt mir schwer, Aufgaben zu Ende zu bringen.' ] },
+                { name: 'Organisation & Struktur', items: [
+                    'Ich habe Mühe, meinen Alltag und meine Aufgaben zu strukturieren.',
+                    'Ich verlege häufig Dinge oder vergesse Termine.',
+                    'Aufgaben mit anhaltender geistiger Anstrengung schiebe ich auf.' ] },
+                { name: 'Innere Unruhe & Hyperaktivität', items: [
+                    'Ich fühle mich innerlich unruhig oder „getrieben".',
+                    'Mir fällt es schwer, längere Zeit still zu sitzen.',
+                    'Ich bin ständig aktiv, wie „unter Strom".' ] },
+                { name: 'Impulsivität', items: [
+                    'Ich unterbreche andere oder platze mit Antworten heraus.',
+                    'Ich handle oder entscheide vorschnell, ohne die Folgen zu bedenken.',
+                    'Es fällt mir schwer zu warten, bis ich an der Reihe bin.' ] },
+                { name: 'Emotion & Reizbarkeit', items: [
+                    'Meine Stimmung wechselt schnell und stark.',
+                    'Ich bin schnell frustriert oder gereizt.' ] },
+                { name: 'Verlauf & Alltag', items: [
+                    'Diese Muster begleiten mich schon seit meiner Kindheit oder Jugend.',
+                    'Sie zeigen sich in mehreren Lebensbereichen (z. B. Beruf und Privatleben).',
+                    'Sie beeinträchtigen meinen Alltag deutlich.' ] }
+            ]
+        },
+        hochsensibilitaet: {
+            name: 'Hochsensibilität',
+            title: 'Hochsensibilität — ausführlicher Selbsttest',
+            tag: 'ca. 5 Min · 16 Fragen',
+            resultType: 'trait',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7z"/></svg>',
+            lead: 'Hochsensibilität ist keine Störung, sondern ein Persönlichkeitsmerkmal: eine besonders tiefe und intensive Verarbeitung von Reizen und Gefühlen. Dieser Test schätzt, wie stark es bei Ihnen ausgeprägt ist.',
+            instruction: 'Wie sehr trifft das auf Sie zu?',
+            domains: [
+                { name: 'Tiefe Verarbeitung', items: [
+                    'Ich denke über Erlebnisse und Eindrücke besonders gründlich nach.',
+                    'Ich nehme feine Details wahr, die anderen entgehen.',
+                    'Ich brauche Zeit, um Eindrücke zu verarbeiten, bevor ich reagiere.' ] },
+                { name: 'Reizoffenheit & Übererregung', items: [
+                    'In reizintensiven Umgebungen (Lärm, Menschenmengen) fühle ich mich schnell überfordert.',
+                    'Nach ereignisreichen Tagen brauche ich viel Rückzug, um mich zu erholen.',
+                    'Grelle Lichter, starke Gerüche oder laute Geräusche belasten mich stark.',
+                    'Wenn viel gleichzeitig passiert, werde ich schnell gestresst.' ] },
+                { name: 'Emotionale Tiefe & Empathie', items: [
+                    'Ich reagiere emotional stärker als andere — im Positiven wie im Negativen.',
+                    'Die Stimmungen anderer Menschen übertragen sich schnell auf mich.',
+                    'Kritik oder Konflikte treffen mich tief und wirken lange nach.' ] },
+                { name: 'Ästhetisches Empfinden', items: [
+                    'Kunst, Musik oder Natur berühren mich intensiv.',
+                    'Ich nehme Schönheit und Atmosphäre sehr bewusst wahr.' ] },
+                { name: 'Körperliche Feinfühligkeit', items: [
+                    'Ich reagiere empfindlich auf Hunger, Koffein, Schmerz oder Medikamente.',
+                    'Kratzige Kleidung oder Etiketten stören mich stark.' ] },
+                { name: 'Im Alltag', items: [
+                    'Ich ziehe mich zurück, um Überreizung zu vermeiden.',
+                    'Meine Feinfühligkeit erschwert mir manchmal den Alltag oder das Berufsleben.' ] }
+            ]
+        },
+        stress: {
+            name: 'Angst & Stress',
+            title: 'Angst & Stress — ausführlicher Selbsttest',
+            tag: 'ca. 5 Min · 16 Fragen',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/></svg>',
+            lead: 'Anhaltende Anspannung, Sorgen und Stressreaktionen belasten Körper und Psyche. Dieser Test betrachtet Anspannung, körperliche Stresssymptome, Erschöpfung und die Auswirkungen im Alltag.',
+            instruction: 'Wie häufig trifft das in den letzten Wochen auf Sie zu?',
+            domains: [
+                { name: 'Anspannung & Sorgen', items: [
+                    'Ich fühle mich häufig angespannt, nervös oder „unter Strom".',
+                    'Ich sorge mich viel und kann die Sorgen schwer abstellen.',
+                    'Ich rechne oft mit dem Schlimmsten.' ] },
+                { name: 'Körperliche Stressreaktion', items: [
+                    'Ich habe Verspannungen (Nacken, Kiefer, Schultern).',
+                    'Mein Herz rast oder ich bekomme schlecht Luft, wenn ich gestresst bin.',
+                    'Ich habe Kopfschmerzen oder Magen-Darm-Beschwerden bei Stress.' ] },
+                { name: 'Erschöpfung durch Dauerstress', items: [
+                    'Ich fühle mich durch anhaltenden Stress ausgelaugt.',
+                    'Ich kann schlecht abschalten, selbst in der Freizeit.',
+                    'Ich schlafe schlecht ein oder wache nachts grübelnd auf.' ] },
+                { name: 'Reizbarkeit & Überforderung', items: [
+                    'Ich bin gereizt oder dünnhäutig.',
+                    'Ich fühle mich schnell überfordert.',
+                    'Kleinigkeiten bringen mich aus der Fassung.' ] },
+                { name: 'Kontrolle & Vermeidung', items: [
+                    'Ich habe das Gefühl, den Anforderungen nicht mehr gewachsen zu sein.',
+                    'Ich vermeide Situationen, die Stress oder Angst auslösen.' ] },
+                { name: 'Auswirkungen', items: [
+                    'Der Stress beeinträchtigt meine Konzentration und Leistungsfähigkeit.',
+                    'Der Stress belastet meine Beziehungen oder mein Wohlbefinden.' ] }
+            ]
         }
     };
 
@@ -244,7 +343,7 @@
     // Build selection cards
     sel.querySelector('.test-select').innerHTML = Object.keys(TESTS).map(function (k) {
         var t = TESTS[k];
-        var name = k.charAt(0).toUpperCase() + k.slice(1);
+        var name = t.name || (k.charAt(0).toUpperCase() + k.slice(1));
         return '<div class="card test-card" data-open="' + k + '">' +
             '<div class="ico">' + t.ico + '</div>' +
             '<h3>' + name + '</h3>' +
@@ -283,7 +382,12 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function bandFor(pct) {
+    function bandFor(pct, type) {
+        if (type === 'trait') {
+            if (pct < 33) return { cls: 'band-low', m: '', label: 'Eher gering ausgeprägt' };
+            if (pct < 66) return { cls: 'band-mid', m: 'm-mid', label: 'Mittel ausgeprägt' };
+            return { cls: 'band-high', m: 'm-high', label: 'Stark ausgeprägt' };
+        }
         if (pct < 33) return { cls: 'band-low', m: '', label: 'Wenige Anzeichen' };
         if (pct < 66) return { cls: 'band-mid', m: 'm-mid', label: 'Deutliche Anzeichen' };
         return { cls: 'band-high', m: 'm-high', label: 'Ausgeprägte Anzeichen' };
@@ -305,7 +409,7 @@
                 qi++; count++;
             });
             var dPct = Math.round((dSum - dCount) / (dCount * 4) * 100);
-            var bd = bandFor(dPct);
+            var bd = bandFor(dPct, t.resultType);
             rows += '<div><div class="lbl"><span>' + d.name + '</span><span>' + dPct + '%</span></div>' +
                     '<div class="meter ' + bd.m + '"><i style="width:' + Math.max(dPct, 2) + '%"></i></div></div>';
         });
@@ -316,13 +420,19 @@
         }
         hint.textContent = '';
         var pct = Math.round((total - count) / (count * 4) * 100);
-        var b = bandFor(pct);
+        var b = bandFor(pct, t.resultType);
 
-        var interp = {
+        var interpClinical = {
             'band-low': 'Insgesamt zeigen sich derzeit nur wenige Anzeichen. Achten Sie weiterhin gut auf sich. Einzelne Bereiche mit höheren Werten können dennoch einen Blick wert sein.',
             'band-mid': 'Es zeigen sich deutliche Anzeichen in mehreren Bereichen. Das ist ein ernstzunehmendes Signal. Ein klärendes Gespräch hilft, das einzuordnen und erste Schritte zu finden.',
             'band-high': 'Es zeigen sich ausgeprägte Anzeichen. Es ist sehr empfehlenswert, sich Unterstützung zu holen — psychologisch und bei Bedarf ärztlich. Sie müssen das nicht allein bewältigen.'
-        }[b.cls];
+        };
+        var interpTrait = {
+            'band-low': 'Ihre Antworten deuten auf eine eher geringe Ausprägung von Hochsensibilität hin.',
+            'band-mid': 'Ihre Antworten deuten auf eine mittlere Ausprägung hin — einzelne Bereiche sind vielleicht stärker ausgeprägt als andere.',
+            'band-high': 'Ihre Antworten deuten auf eine stark ausgeprägte Hochsensibilität hin. Das ist keine Störung, sondern ein Merkmal mit klaren Stärken (Tiefe, Empathie, feine Wahrnehmung) — verbunden mit dem Bedarf, bewusst für Rückzug und Reizschutz zu sorgen.'
+        };
+        var interp = (t.resultType === 'trait' ? interpTrait : interpClinical)[b.cls];
 
         var crisis = flagHit ? '<div class="crisis-box"><strong>Wichtig:</strong> Sie haben angegeben, dass Sie Gedanken haben, dass das Leben nicht mehr lebenswert ist, oder daran, sich etwas anzutun. Bitte nehmen Sie das ernst und holen Sie sich <strong>jetzt</strong> Unterstützung: Telefonseelsorge 0800&nbsp;111&nbsp;0&nbsp;111 (kostenfrei, rund um die Uhr) oder im Notfall die 112. Sie sind damit nicht allein.</div>' : '';
 

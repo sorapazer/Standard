@@ -12,7 +12,7 @@ const CALENDLY_URL = '';
 
 /* ---------- PRICING (single source of truth) ----------
    Aktionspreis 30 € pro Sitzung bis 31.08.2026.
-   Ab 01.09.2026 reguläre Preise: Erstgespräch 60 €, Folgesitzung 120 €.
+   Ab 01.09.2026 regulärer Preis: 60 € pro Sitzung.
    Ändern Sie nur diese Werte, alles andere passt sich automatisch an.       */
 const PRICING = {
     promoEnd: new Date('2026-08-31T23:59:59'),
@@ -21,8 +21,8 @@ const PRICING = {
         folge:  { price: 30, label: 'Folgesitzung' }
     },
     regular: {
-        erst:   { price: 60,  label: 'Erstgespräch (probatorisch)' },
-        folge:  { price: 120, label: 'Folgesitzung' }
+        erst:   { price: 60, label: 'Erstgespräch (probatorisch)' },
+        folge:  { price: 60, label: 'Folgesitzung' }
     }
 };
 
@@ -61,8 +61,8 @@ function renderHeroPromo() {
             <div class="promo-label">Einführungsangebot · bis ${fmtDate(PRICING.promoEnd)}</div>
             <div class="promo-price">30 € pro Sitzung
                 <s>statt ${PRICING.regular.folge.price} €</s></div>
-            <div class="promo-sub">Für alle neuen Sitzungen bis Ende August. Danach reguläre Preise
-                (Erstgespräch ${PRICING.regular.erst.price} €, Folgesitzung ${PRICING.regular.folge.price} €).</div>`;
+            <div class="promo-sub">Für alle neuen Sitzungen bis Ende August.
+                Ab 1. September regulär ${PRICING.regular.folge.price} € pro Sitzung.</div>`;
     } else {
         el.innerHTML = `
             <div class="promo-label">Aktuelle Preise</div>
@@ -228,7 +228,7 @@ function renderSummary() {
     const el = document.getElementById('bookingSummary');
     const dateStr = booking.date ? fmtDate(booking.date) : '—';
     const promoNote = promo
-        ? `<div class="sum-promo">✦ Einführungspreis aktiv — gültig bis ${fmtDate(PRICING.promoEnd)}. Ab 1. September gelten wieder ${PRICING.regular.erst.price} € / ${PRICING.regular.folge.price} €.</div>`
+        ? `<div class="sum-promo">✦ Einführungspreis aktiv — gültig bis ${fmtDate(PRICING.promoEnd)}. Ab 1. September regulär ${PRICING.regular.folge.price} € pro Sitzung.</div>`
         : '';
     el.innerHTML = `
         <h3>Ihre Buchung</h3>
@@ -320,7 +320,7 @@ function renderVoices() {
 /* ---------- ABLAUF: FAQ ---------- */
 const FAQ = [
     { q: 'Ist Beratung dasselbe wie Psychotherapie?', a: 'Nein. Psychologische Beratung begleitet Sie bei Belastungen, Entscheidungen und Lebensfragen. Bei einer behandlungsbedürftigen Erkrankung empfehle ich Ihnen offen den Weg zu einer Psychotherapie und unterstütze Sie dabei.' },
-    { q: 'Was kostet eine Sitzung?', a: 'Aktuell gilt ein Einführungspreis von 30 € pro Sitzung — noch bis zum 31. August 2026. Ab dem 1. September gelten die regulären Preise: Erstgespräch (probatorisch) 60 €, Folgesitzung 120 €. Eine Sitzung dauert rund 50 Minuten.' },
+    { q: 'Was kostet eine Sitzung?', a: 'Aktuell gilt ein Einführungspreis von 30 € pro Sitzung — noch bis zum 31. August 2026. Ab dem 1. September gilt der reguläre Preis von 60 € pro Sitzung. Eine Sitzung dauert rund 50 Minuten.' },
     { q: 'Vor Ort oder online?', a: 'Beides ist möglich. Viele Klientinnen und Klienten schätzen die Flexibilität von Online-Sitzungen per Video; andere kommen lieber in die Praxis. Sie wählen bei der Buchung einfach das passende Format.' },
     { q: 'Unterliegen Sie der Schweigepflicht?', a: 'Ja. Alles, was Sie mir anvertrauen, bleibt vertraulich. Ohne Ihre ausdrückliche Zustimmung wird nichts weitergegeben.' },
     { q: 'Behandeln Sie auch Suchtthemen?', a: 'Suchtthemen behandle ich bewusst nicht. Hier sind spezialisierte Fachstellen die bessere Adresse — ich vermittle Ihnen gerne einen passenden Kontakt.' },

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praxis Pazer — Psychologische Beratung</title>
+    <meta name="description" content="Praxis Pazer — Psychologische Beratung bei Depression, Burnout und weiteren Themen. Einfühlsam, professionell, auf Wunsch mit christlichen Werten.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Ambient glass background -->
+    <div class="bg-blobs" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+    </div>
+
+    <!-- Navigation -->
+    <header class="nav-wrap">
+        <nav class="nav glass">
+            <a href="#" class="brand" data-route="start">
+                <span class="brand-mark">P</span>
+                <span class="brand-text">Praxis&nbsp;Pazer</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" data-route="start">Start</a></li>
+                <li><a href="#" data-route="ueber">Über mich</a></li>
+                <li><a href="#" data-route="themen">Themen</a></li>
+                <li><a href="#" data-route="blog">Blog</a></li>
+                <li><a href="#" data-route="videos">Videos</a></li>
+                <li><a href="#" data-route="kontakt">Kontakt</a></li>
+                <li><a href="#" class="nav-cta" data-route="termin">Termin buchen</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="app">
+
+        <!-- ============ START ============ -->
+        <section class="view" data-view="start">
+            <div class="hero">
+                <div class="hero-copy">
+                    <div class="pill glass">
+                        <span class="dot"></span> Freie Termine verfügbar
+                    </div>
+                    <h1>Wieder Boden unter den Füßen.<br><span class="accent">Schritt für Schritt.</span></h1>
+                    <p class="lead">
+                        Psychologische Beratung bei Depression, Burnout und den Themen, die Sie gerade
+                        beschäftigen. Ein geschützter Raum, in dem zugehört wird — klar, warm und
+                        ohne Bewertung.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#" class="btn btn-primary" data-route="termin">Termin buchen</a>
+                        <a href="#" class="btn btn-ghost" data-route="themen">Themen ansehen</a>
+                    </div>
+
+                    <div class="hero-promo glass" id="heroPromo">
+                        <!-- filled by JS -->
+                    </div>
+                </div>
+
+                <div class="hero-portrait">
+                    <div class="portrait-frame glass">
+                        <div class="portrait-placeholder">
+                            <svg viewBox="0 0 200 240" aria-hidden="true">
+                                <defs>
+                                    <linearGradient id="pg" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="0" stop-color="#dfe9e6"/>
+                                        <stop offset="1" stop-color="#c7d6d1"/>
+                                    </linearGradient>
+                                </defs>
+                                <rect width="200" height="240" fill="url(#pg)"/>
+                                <circle cx="100" cy="92" r="42" fill="#ffffff" opacity="0.7"/>
+                                <path d="M40 220c0-40 27-64 60-64s60 24 60 64" fill="#ffffff" opacity="0.7"/>
+                            </svg>
+                            <span class="portrait-hint">Ihr Foto<br><small>(Platzhalter — rechts)</small></span>
+                        </div>
+                    </div>
+                    <p class="portrait-name">Praxis Pazer<br><small>Psychologische Beratung</small></p>
+                </div>
+            </div>
+
+            <!-- Trust row -->
+            <div class="trust-row">
+                <div class="trust glass"><strong>Vertraulich</strong><span>Alles bleibt im Raum</span></div>
+                <div class="trust glass"><strong>Flexibel</strong><span>Vor Ort oder online</span></div>
+                <div class="trust glass"><strong>Auf Augenhöhe</strong><span>Kein Fachjargon</span></div>
+                <div class="trust glass"><strong>Auf Wunsch</strong><span>Mit christlichen Werten</span></div>
+            </div>
+
+            <!-- Themen preview -->
+            <div class="section-head">
+                <h2>Womit ich Sie begleite</h2>
+                <p>Ein Ausschnitt. Wenn Ihr Thema nicht dabei ist — fragen Sie einfach.</p>
+            </div>
+            <div class="cards" id="themenPreview"></div>
+
+            <!-- Faith band -->
+            <div class="faith glass">
+                <div class="faith-icon">✦</div>
+                <div>
+                    <h3>Auf Wunsch: mit christlichen Werten</h3>
+                    <p>
+                        Glaube kann Halt geben. Wenn Sie möchten, beziehe ich christliche Werte
+                        und Hoffnung behutsam in unsere Gespräche ein — ganz ohne Druck, immer nur
+                        so weit, wie es für Sie stimmig ist.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ ÜBER MICH ============ -->
+        <section class="view" data-view="ueber">
+            <div class="section-head left">
+                <h2>Über mich</h2>
+            </div>
+            <div class="about">
+                <div class="about-portrait">
+                    <div class="portrait-frame glass small">
+                        <div class="portrait-placeholder">
+                            <span class="portrait-hint">Ihr Foto<br><small>(Platzhalter)</small></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-copy glass">
+                    <p class="lead">
+                        Schön, dass Sie hier sind. Mein Name ist <strong>[Ihr Name]</strong> und ich
+                        biete psychologische Beratung an — für Menschen, die gerade merken, dass es
+                        allein schwer wird.
+                    </p>
+                    <p>
+                        Mein Schwerpunkt liegt auf <strong>Depression</strong> und <strong>Burnout</strong>,
+                        aber genauso begleite ich Sie bei Erschöpfung, Ängsten, Lebenskrisen,
+                        Sinnfragen oder Belastungen in Beziehung und Beruf. Ich arbeite ruhig,
+                        strukturiert und ehrlich — und immer in Ihrem Tempo.
+                    </p>
+                    <p>
+                        Auf Wunsch fließen christliche Werte in unsere Arbeit ein. Das ist ein
+                        Angebot, keine Voraussetzung — Sie entscheiden.
+                    </p>
+                    <ul class="creds">
+                        <li><span>◆</span> Psychologische Beratung &amp; Gesprächsbegleitung</li>
+                        <li><span>◆</span> Schwerpunkt Depression &amp; Burnout</li>
+                        <li><span>◆</span> Termine vor Ort und online</li>
+                        <li><span>◆</span> Auf Wunsch mit christlicher Ausrichtung</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" data-route="termin">Kennenlern-Termin buchen</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ THEMEN ============ -->
+        <section class="view" data-view="themen">
+            <div class="section-head left">
+                <h2>Themen &amp; Leistungen</h2>
+                <p>Diese Bereiche begleite ich besonders gern. Suchtthemen behandle ich nicht —
+                   hier vermittle ich Ihnen gerne passende Fachstellen.</p>
+            </div>
+            <div class="cards" id="themenFull"></div>
+        </section>
+
+        <!-- ============ BLOG ============ -->
+        <section class="view" data-view="blog">
+            <div class="section-head left">
+                <h2>Blog</h2>
+                <p>Gedanken, Impulse und kleine Werkzeuge für den Alltag.</p>
+            </div>
+            <div class="blog-grid" id="blogGrid"></div>
+        </section>
+
+        <!-- ============ VIDEOS ============ -->
+        <section class="view" data-view="videos">
+            <div class="section-head left">
+                <h2>YouTube — neueste Videos</h2>
+                <p>Kurze Impulse zum Ansehen. Für mehr besuchen Sie den Kanal.</p>
+            </div>
+            <div class="video-grid" id="videoGrid"></div>
+            <div class="yt-cta glass">
+                <div>
+                    <h3>Mehr auf YouTube</h3>
+                    <p>Abonnieren Sie den Kanal und verpassen Sie kein neues Video.</p>
+                </div>
+                <a class="btn btn-primary" href="https://www.youtube.com/" target="_blank" rel="noopener">Zum Kanal →</a>
+            </div>
+        </section>
+
+        <!-- ============ TERMIN ============ -->
+        <section class="view" data-view="termin">
+            <div class="section-head left">
+                <h2>Termin buchen</h2>
+                <p>Wählen Sie eine Sitzungsart, einen Tag und eine Uhrzeit. Sie erhalten
+                   anschließend eine Bestätigung.</p>
+            </div>
+
+            <div class="booking">
+                <div class="booking-config glass">
+                    <h3>1 · Sitzungsart</h3>
+                    <div class="type-options" id="typeOptions"></div>
+
+                    <h3>2 · Tag wählen</h3>
+                    <div class="date-strip" id="dateStrip"></div>
+
+                    <h3>3 · Uhrzeit</h3>
+                    <div class="time-slots" id="timeSlots"></div>
+
+                    <h3>4 · Ihre Angaben</h3>
+                    <div class="form-grid">
+                        <input type="text" id="fName" placeholder="Name">
+                        <input type="email" id="fEmail" placeholder="E-Mail">
+                        <input type="tel" id="fPhone" placeholder="Telefon (optional)">
+                        <textarea id="fNote" placeholder="Kurz: worum geht es? (optional)"></textarea>
+                    </div>
+                    <label class="online-toggle">
+                        <input type="checkbox" id="fOnline"> Sitzung online (Video) durchführen
+                    </label>
+                </div>
+
+                <aside class="booking-summary glass" id="bookingSummary">
+                    <!-- filled by JS -->
+                </aside>
+            </div>
+
+            <p class="calendar-note">
+                Hinweis: Diese Buchung erstellt eine unverbindliche Anfrage. Für eine
+                automatische Kalender-Synchronisation lässt sich hier ein Dienst wie
+                <em>Calendly</em> oder <em>Cal.com</em> einbinden.
+            </p>
+        </section>
+
+        <!-- ============ KONTAKT ============ -->
+        <section class="view" data-view="kontakt">
+            <div class="section-head left">
+                <h2>Kontakt</h2>
+                <p>Sie erreichen mich am einfachsten per E-Mail. Ich melde mich zeitnah zurück.</p>
+            </div>
+            <div class="contact">
+                <div class="contact-card glass">
+                    <div class="contact-row"><span>✉︎</span><a href="mailto:kontakt@praxis-pazer.de">kontakt@praxis-pazer.de</a></div>
+                    <div class="contact-row"><span>☎︎</span><a href="tel:+49000000000">+49 (0) 000 000 000</a></div>
+                    <div class="contact-row"><span>⌖</span><span>Praxisadresse — [Platzhalter]</span></div>
+                    <a href="#" class="btn btn-primary" data-route="termin">Direkt Termin buchen</a>
+                </div>
+                <form class="contact-card glass" id="contactForm">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="E-Mail" required>
+                    <textarea placeholder="Ihre Nachricht" required></textarea>
+                    <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                    <p class="form-hint" id="contactHint"></p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner glass">
+            <span>© <span id="year"></span> Praxis Pazer</span>
+            <div class="footer-links">
+                <a href="#" data-route="ueber">Über mich</a>
+                <a href="#" data-route="blog">Blog</a>
+                <a href="#" data-route="termin">Termin</a>
+                <a href="#">Impressum</a>
+                <a href="#">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Blog article modal -->
+    <div class="modal" id="blogModal" aria-hidden="true">
+        <div class="modal-card glass">
+            <button class="modal-close" id="modalClose" aria-label="Schließen">✕</button>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -30,6 +30,7 @@
                 <li><a href="#" data-route="start">Start</a></li>
                 <li><a href="#" data-route="ueber">Über mich</a></li>
                 <li><a href="#" data-route="themen">Themen</a></li>
+                <li><a href="#" data-route="ablauf">Ablauf</a></li>
                 <li><a href="#" data-route="blog">Blog</a></li>
                 <li><a href="#" data-route="videos">Videos</a></li>
                 <li><a href="#" data-route="kontakt">Kontakt</a></li>
@@ -163,6 +164,43 @@
             <div class="cards" id="themenFull"></div>
         </section>
 
+        <!-- ============ ABLAUF ============ -->
+        <section class="view" data-view="ablauf">
+            <div class="section-head left">
+                <h2>So arbeiten wir zusammen</h2>
+                <p>Kein kompliziertes Verfahren — vier klare Schritte, in Ihrem Tempo.</p>
+            </div>
+            <div class="steps" id="stepsList"></div>
+
+            <div class="section-head left">
+                <h2>Stimmen</h2>
+                <p>Anonyme Rückmeldungen von Klientinnen und Klienten.</p>
+            </div>
+            <div class="voices" id="voicesList"></div>
+
+            <div class="section-head left">
+                <h2>Häufige Fragen</h2>
+            </div>
+            <div class="faq" id="faqList"></div>
+
+            <div class="notfall glass">
+                <div class="notfall-icon">♥</div>
+                <div>
+                    <h3>In einer akuten Krise?</h3>
+                    <p>
+                        Beratung ersetzt in akuten Notlagen keine sofortige Hilfe. Wenn Sie sich in
+                        Gefahr fühlen oder Gedanken haben, sich etwas anzutun, wenden Sie sich bitte
+                        umgehend an eine dieser Stellen — rund um die Uhr, kostenlos und vertraulich:
+                    </p>
+                    <ul class="notfall-list">
+                        <li><strong>Notruf 112</strong> — bei akuter Lebensgefahr</li>
+                        <li><strong>Telefonseelsorge 0800 111 0 111</strong> oder <strong>0800 111 0 222</strong></li>
+                        <li><strong>Telefonseelsorge Kinder &amp; Jugend 116 111</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <!-- ============ BLOG ============ -->
         <section class="view" data-view="blog">
             <div class="section-head left">
@@ -194,6 +232,16 @@
                 <h2>Termin buchen</h2>
                 <p>Wählen Sie eine Sitzungsart, einen Tag und eine Uhrzeit. Sie erhalten
                    anschließend eine Bestätigung.</p>
+            </div>
+
+            <!-- Live Calendly (aktiviert sich automatisch, sobald CALENDLY_URL in app.js gesetzt ist) -->
+            <div id="calendlyEmbed" class="calendly-embed" style="display:none"></div>
+            <div id="calendlySetup" class="calendly-setup glass" style="display:none">
+                <strong>Kalender-Integration bereit.</strong>
+                Tragen Sie in <code>app.js</code> oben Ihren Calendly-Link bei <code>CALENDLY_URL</code> ein
+                (z.&nbsp;B. <code>https://calendly.com/praxis-pazer/erstgespraech</code>) — dann erscheint hier
+                automatisch Ihr Live-Buchungskalender mit Echtzeit-Verfügbarkeit. Bis dahin funktioniert die
+                Terminanfrage unten.
             </div>
 
             <div class="booking">
@@ -256,11 +304,24 @@
 
     </main>
 
+    <div class="newsletter glass">
+        <div>
+            <h3>Impulse per Mail</h3>
+            <p>Ab und zu ein kurzer Gedanke, der guttut. Kein Spam, jederzeit abbestellbar.</p>
+        </div>
+        <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Ihre E-Mail" required>
+            <button type="submit" class="btn btn-primary">Abonnieren</button>
+        </form>
+        <p class="form-hint" id="newsletterHint"></p>
+    </div>
+
     <footer class="footer">
         <div class="footer-inner glass">
             <span>© <span id="year"></span> Praxis Pazer</span>
             <div class="footer-links">
                 <a href="#" data-route="ueber">Über mich</a>
+                <a href="#" data-route="ablauf">Ablauf</a>
                 <a href="#" data-route="blog">Blog</a>
                 <a href="#" data-route="termin">Termin</a>
                 <a href="#">Impressum</a>

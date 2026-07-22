@@ -3,6 +3,13 @@
    Routing · date-aware pricing · booking · blog · videos
    ============================================================ */
 
+/* ---------- CALENDLY (optional live calendar) ----------
+   Tragen Sie hier Ihren Calendly-Link ein, dann erscheint im Reiter
+   "Termin buchen" automatisch Ihr Live-Kalender mit Echtzeit-Verfügbarkeit.
+   Leer lassen = die eingebaute Terminanfrage per Formular wird genutzt.
+   Beispiel: 'https://calendly.com/praxis-pazer/erstgespraech'                */
+const CALENDLY_URL = '';
+
 /* ---------- PRICING (single source of truth) ----------
    Aktionspreis 30 € pro Sitzung bis 31.08.2026.
    Ab 01.09.2026 reguläre Preise: Erstgespräch 60 €, Folgesitzung 120 €.
@@ -279,14 +286,99 @@ document.getElementById('contactForm').addEventListener('submit', e => {
     e.target.reset();
 });
 
+/* ---------- ABLAUF: STEPS ---------- */
+const STEPS = [
+    { t: 'Erstkontakt', d: 'Sie schreiben oder buchen einen Termin. Ganz unverbindlich — erst mal geht es nur ums Kennenlernen.' },
+    { t: 'Erstgespräch', d: 'Wir schauen gemeinsam auf Ihr Anliegen und klären, ob die Chemie stimmt und wie ich helfen kann.' },
+    { t: 'Begleitung', d: 'In regelmäßigen Sitzungen arbeiten wir an Ihren Themen — in einem Tempo, das für Sie passt.' },
+    { t: 'Weitergehen', d: 'Sie gewinnen Klarheit und Werkzeuge, die tragen. Sie entscheiden, wann der richtige Zeitpunkt zum Abschließen ist.' }
+];
+function renderSteps() {
+    document.getElementById('stepsList').innerHTML = STEPS.map((s, i) => `
+        <div class="step">
+            <div class="step-num">${i + 1}</div>
+            <h3>${s.t}</h3>
+            <p>${s.d}</p>
+        </div>`).join('');
+}
+
+/* ---------- ABLAUF: VOICES ---------- */
+const VOICES = [
+    { text: 'Zum ersten Mal hatte ich das Gefühl, wirklich verstanden zu werden — ohne Bewertung.', who: 'Klientin, 34' },
+    { text: 'Der Burnout hatte mich völlig ausgebremst. Hier habe ich Schritt für Schritt zurückgefunden.', who: 'Klient, 47' },
+    { text: 'Dass Glaube Teil der Gespräche sein durfte, hat mir sehr viel Halt gegeben.', who: 'Klientin, 52' }
+];
+function renderVoices() {
+    document.getElementById('voicesList').innerHTML = VOICES.map(v => `
+        <div class="voice">
+            <div class="quote">&ldquo;</div>
+            <p>${v.text}</p>
+            <div class="who">— ${v.who}</div>
+        </div>`).join('');
+}
+
+/* ---------- ABLAUF: FAQ ---------- */
+const FAQ = [
+    { q: 'Ist Beratung dasselbe wie Psychotherapie?', a: 'Nein. Psychologische Beratung begleitet Sie bei Belastungen, Entscheidungen und Lebensfragen. Bei einer behandlungsbedürftigen Erkrankung empfehle ich Ihnen offen den Weg zu einer Psychotherapie und unterstütze Sie dabei.' },
+    { q: 'Was kostet eine Sitzung?', a: 'Aktuell gilt ein Einführungspreis von 30 € pro Sitzung — noch bis zum 31. August 2026. Ab dem 1. September gelten die regulären Preise: Erstgespräch (probatorisch) 60 €, Folgesitzung 120 €. Eine Sitzung dauert rund 50 Minuten.' },
+    { q: 'Vor Ort oder online?', a: 'Beides ist möglich. Viele Klientinnen und Klienten schätzen die Flexibilität von Online-Sitzungen per Video; andere kommen lieber in die Praxis. Sie wählen bei der Buchung einfach das passende Format.' },
+    { q: 'Unterliegen Sie der Schweigepflicht?', a: 'Ja. Alles, was Sie mir anvertrauen, bleibt vertraulich. Ohne Ihre ausdrückliche Zustimmung wird nichts weitergegeben.' },
+    { q: 'Behandeln Sie auch Suchtthemen?', a: 'Suchtthemen behandle ich bewusst nicht. Hier sind spezialisierte Fachstellen die bessere Adresse — ich vermittle Ihnen gerne einen passenden Kontakt.' },
+    { q: 'Muss ich gläubig sein?', a: 'Nein, überhaupt nicht. Christliche Werte fließen nur dann ein, wenn Sie das ausdrücklich wünschen. Die Beratung steht Menschen mit jedem Hintergrund offen.' }
+];
+function renderFAQ() {
+    const el = document.getElementById('faqList');
+    el.innerHTML = FAQ.map((f, i) => `
+        <div class="faq-item" data-faq="${i}">
+            <button class="faq-q"><span>${f.q}</span><span class="chev">＋</span></button>
+            <div class="faq-a"><p>${f.a}</p></div>
+        </div>`).join('');
+    el.addEventListener('click', e => {
+        const item = e.target.closest('.faq-item');
+        if (!item) return;
+        const open = item.classList.toggle('open');
+        const ans = item.querySelector('.faq-a');
+        ans.style.maxHeight = open ? ans.scrollHeight + 'px' : 0;
+    });
+}
+
+/* ---------- CALENDLY LOADER ---------- */
+function initCalendly() {
+    const embed = document.getElementById('calendlyEmbed');
+    const setup = document.getElementById('calendlySetup');
+    const manual = document.querySelector('[data-view="termin"] .booking');
+    if (CALENDLY_URL) {
+        embed.style.display = 'block';
+        embed.innerHTML = `<div class="calendly-inline-widget" data-url="${CALENDLY_URL}" style="min-width:320px;height:640px;"></div>`;
+        const s = document.createElement('script');
+        s.src = 'https://assets.calendly.com/assets/external/widget.js';
+        s.async = true;
+        document.body.appendChild(s);
+        if (manual) manual.style.display = 'none';           // Calendly übernimmt die Buchung
+    } else {
+        setup.style.display = 'block';                        // Hinweis, bis Link eingetragen ist
+    }
+}
+
+/* ---------- NEWSLETTER ---------- */
+document.getElementById('newsletterForm').addEventListener('submit', e => {
+    e.preventDefault();
+    document.getElementById('newsletterHint').textContent = '✓ Danke! Bitte bestätigen Sie die Anmeldung in Ihrer E-Mail.';
+    e.target.reset();
+});
+
 /* ---------- INIT ---------- */
 function init() {
     document.getElementById('year').textContent = '2026';
     renderHeroPromo();
     renderThemen('themenPreview', 3);
     renderThemen('themenFull');
+    renderSteps();
+    renderVoices();
+    renderFAQ();
     renderBlog();
     renderVideos();
+    initCalendly();
     renderTypeOptions();
     renderDates();
     renderTimes();

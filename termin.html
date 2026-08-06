@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Termin buchen · Praxis Pazer</title>
-    <meta name="description" content="Buchen Sie Ihre Sitzung (120 €, 45 Min.) direkt online. Feste Termine: Montag bis Mittwoch, 18–20 Uhr.">
+    <meta name="description" content="Buchen Sie Ihre Sitzung (60 €, 45 Min.) direkt online. Feste Termine: Montag bis Mittwoch, 18–20 Uhr.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -41,7 +41,7 @@
     <div class="container-narrow text-center">
         <span class="eyebrow reveal in">Warteliste</span>
         <h1 class="reveal in">Aktuell keine<br><span class="gradient-text">freien Plätze.</span></h1>
-        <p class="lead reveal in" style="margin: 22px auto 0; max-width: 600px;">Die Praxis ist derzeit voll ausgelastet. Neue Anfragen nehme ich gern über die Warteliste auf — schreiben Sie mir dazu kurz eine E-Mail. Eine Sitzung dauert 45 Minuten und kostet 120 €.</p>
+        <p class="lead reveal in" style="margin: 22px auto 0; max-width: 600px;">Die Praxis ist derzeit voll ausgelastet. Neue Anfragen nehme ich gern über die Warteliste auf — schreiben Sie mir dazu kurz eine E-Mail. Eine Sitzung dauert 45 Minuten und kostet 60 €.</p>
     </div>
 </section>
 
@@ -69,7 +69,7 @@
                 <span class="price-tag">Beratung</span>
                 <h3>Sitzung</h3>
                 <p class="sub">Psychologische Beratung · einzeln buchbar</p>
-                <div class="price-amount">120 €<small> / 45 Min.</small></div>
+                <div class="price-amount">60 €<small> / 45 Min.</small></div>
                 <p class="price-meta">Online oder in Präsenz · Mo–Mi, 18–20 Uhr</p>
                 <ul class="price-features">
                     <li><span class="tick">✓</span> Voller Fokus auf Ihr Anliegen</li>
@@ -228,7 +228,7 @@ var CAL_LINK = 'sora-pazer-i8mr7b/sitzung';
         picker.querySelectorAll('.slot-btn.selected').forEach(function (b) { b.classList.remove('selected'); });
         btn.classList.add('selected');
         selected = { label: btn.getAttribute('data-label'), time: btn.getAttribute('data-time') };
-        chosenEl.textContent = 'Gewählt: ' + selected.label + ' um ' + selected.time + ' Uhr (45 Min · 120 €)';
+        chosenEl.textContent = 'Gewählt: ' + selected.label + ' um ' + selected.time + ' Uhr (45 Min · 60 €)';
         confirm.classList.add('show');
         confirm.scrollIntoView({ behavior: 'smooth', block: 'center' });
     });
@@ -239,7 +239,7 @@ var CAL_LINK = 'sora-pazer-i8mr7b/sitzung';
         var subject = 'Terminanfrage: ' + selected.label + ' um ' + selected.time + ' Uhr';
         var body = 'Hallo Sora Pazer,\n\n'
                  + 'ich möchte gern eine Sitzung buchen:\n'
-                 + '• Termin: ' + selected.label + ', ' + selected.time + ' Uhr (45 Min, 120 €)\n'
+                 + '• Termin: ' + selected.label + ', ' + selected.time + ' Uhr (45 Min, 60 €)\n'
                  + '• Format: [ ] Online (Video)   [ ] in Präsenz\n\n'
                  + 'Mein Name: \n'
                  + 'Telefon (optional): \n'

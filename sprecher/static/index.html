@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPRECHER — Vortragstext vertonen</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🎙️</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+    <div class="brand">
+        <span class="mark" aria-hidden="true"></span>
+        <span class="wordmark">SPRECHER</span>
+    </div>
+    <p class="claim">Vollständiger Sprechertext, vorgetragen von einer männlichen deutschen Stimme.</p>
+</header>
+
+<main class="layout">
+
+    <!-- ---------------------------------------------------------------- -->
+    <section class="panel panel-text">
+        <div class="panel-head">
+            <h2>Sprechertext</h2>
+            <button type="button" class="ghost-btn" id="clearBtn">Leeren</button>
+        </div>
+
+        <textarea id="text" spellcheck="true" placeholder="Hier den vollständigen Sprechertext einfügen.
+
+Absätze werden übernommen: An jeder Leerzeile setzt der Sprecher eine kurze Atempause. Punkt, Komma und Doppelpunkt steuern die Betonung.
+
+Maximale Länge des fertigen Audios: 30 Minuten."></textarea>
+
+        <div class="meter">
+            <div class="meter-track"><div class="meter-fill" id="meterFill"></div></div>
+            <div class="meter-labels">
+                <span id="statsLine">0 Zeichen · 0 Wörter</span>
+                <span id="lengthLine" class="length-ok">≈ 0:00 von 30:00 Min</span>
+            </div>
+        </div>
+        <p class="hint" id="lengthHint">Die Längenangabe ist eine Schätzung und ändert sich mit dem Tempo.</p>
+    </section>
+
+    <!-- ---------------------------------------------------------------- -->
+    <aside class="sidebar">
+
+        <section class="panel">
+            <div class="panel-head">
+                <h2>Stimme</h2>
+                <span class="badge" id="voiceBadge">8 Stimmen</span>
+            </div>
+            <div class="voice-list" id="voiceList">
+                <p class="loading">Stimmen werden geladen …</p>
+            </div>
+            <p class="hint" id="voiceHint"></p>
+        </section>
+
+        <section class="panel">
+            <div class="panel-head"><h2>Vortrag</h2></div>
+
+            <div class="control">
+                <div class="control-head">
+                    <label for="speed">Sprechgeschwindigkeit</label>
+                    <output id="speedOut">1,00×</output>
+                </div>
+                <input type="range" id="speed" min="0.5" max="2" step="0.05" value="1">
+                <div class="presets" id="speedPresets">
+                    <button type="button" data-speed="0.85">Langsam</button>
+                    <button type="button" data-speed="1">Normal</button>
+                    <button type="button" data-speed="1.15">Zügig</button>
+                    <button type="button" data-speed="1.35">Schnell</button>
+                </div>
+            </div>
+
+            <div class="control">
+                <div class="control-head">
+                    <label for="pitch">Tonhöhe</label>
+                    <output id="pitchOut">Standard</output>
+                </div>
+                <input type="range" id="pitch" min="-20" max="20" step="1" value="0">
+                <div class="scale-labels"><span>tiefer</span><span>höher</span></div>
+            </div>
+        </section>
+
+        <section class="panel panel-action">
+            <button type="button" class="primary-btn" id="generateBtn">Audio erzeugen</button>
+            <p class="hint" id="actionHint">Längere Texte brauchen einen Moment — das Rendern läuft schneller als in Echtzeit.</p>
+        </section>
+
+    </aside>
+</main>
+
+<!-- -------------------------------------------------------------------- -->
+<section class="panel progress-panel" id="progressPanel" hidden>
+    <div class="panel-head">
+        <h2 id="progressTitle">Audio wird erzeugt</h2>
+        <button type="button" class="ghost-btn" id="cancelBtn">Abbrechen</button>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <p class="progress-text" id="progressText">Vorbereitung …</p>
+</section>
+
+<section class="panel result-panel" id="resultPanel" hidden>
+    <div class="panel-head">
+        <h2>Fertig</h2>
+        <span class="badge badge-ok" id="resultBadge"></span>
+    </div>
+
+    <div class="player">
+        <button type="button" class="play-btn" id="playBtn" aria-label="Abspielen">
+            <span class="icon-play"></span>
+        </button>
+        <div class="player-body">
+            <div class="seek" id="seek">
+                <div class="seek-fill" id="seekFill"></div>
+                <div class="seek-knob" id="seekKnob"></div>
+            </div>
+            <div class="player-times">
+                <span id="timeCurrent">0:00</span>
+                <span id="timeTotal">0:00</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="result-actions">
+        <a class="primary-btn" id="downloadBtn" download>MP3 herunterladen</a>
+        <button type="button" class="ghost-btn" id="againBtn">Neu erzeugen</button>
+    </div>
+    <p class="hint" id="resultHint"></p>
+</section>
+
+<div class="toast" id="toast" hidden></div>
+
+<audio id="audio" preload="metadata"></audio>
+<audio id="previewAudio" preload="none"></audio>
+
+<script src="app.js"></script>
+</body>
+</html>

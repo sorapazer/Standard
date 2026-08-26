@@ -6,20 +6,39 @@ männliche deutsche Stimmen.
 
 ![Oberfläche](docs/screenshot.png)
 
-## Installation
+## Starten
 
-Voraussetzung ist Python 3.9 oder neuer.
+Voraussetzung ist Python 3.9 oder neuer (auf dem Mac bereits vorhanden).
 
 ```bash
 cd sprecher
-pip install -r requirements.txt
-python3 server.py
+./start.command
 ```
+
+Auf dem Mac lässt sich `start.command` auch im Finder doppelklicken. Das Skript
+legt beim ersten Start eine eigene Python-Umgebung im Ordner `.venv` an,
+installiert `edge-tts` hinein und startet den Server; jeder weitere Start geht
+sofort. Das System-Python bleibt unangetastet.
 
 Der Browser öffnet sich automatisch auf <http://127.0.0.1:8765>.
 Beenden mit `Strg+C`.
 
-Optionen: `--port 9000`, `--host 0.0.0.0`, `--no-browser`.
+Optionen werden durchgereicht: `./start.command --port 9000`, `--host 0.0.0.0`,
+`--no-browser`.
+
+### Von Hand
+
+```bash
+cd sprecher
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 server.py
+```
+
+Wichtig auf dem Mac: Es gibt dort in der Regel keinen Befehl `pip`, sondern nur
+`pip3` beziehungsweise `python3 -m pip`. Innerhalb einer aktivierten Umgebung
+(`source .venv/bin/activate`) funktioniert `pip` dann wie gewohnt.
 
 ## Bedienung
 

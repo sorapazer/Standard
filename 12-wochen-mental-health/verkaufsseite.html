@@ -1,0 +1,527 @@
+<title>KLARKOMMEN</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --paper:#E9EDEC;
+  --surface:#F5F7F6;
+  --surface-2:#DFE5E3;
+  --ink:#0E1A1C;
+  --ink-soft:#33474A;
+  --muted:#5F7375;
+  --rule:#C6D1CF;
+  --grid:rgba(14,26,28,.055);
+  --accent:#B85E17;
+  --accent-soft:#F2E3D5;
+  --accent-ink:#8F4710;
+  --shadow:0 1px 2px rgba(14,26,28,.06), 0 8px 28px rgba(14,26,28,.05);
+  --maxw:1120px;
+  --read:66ch;
+}
+:root:not([data-theme="light"]) { }
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0C1517;
+    --surface:#131F22;
+    --surface-2:#1B282B;
+    --ink:#E3EAE8;
+    --ink-soft:#B6C4C3;
+    --muted:#849697;
+    --rule:#2B393C;
+    --grid:rgba(227,234,232,.05);
+    --accent:#E89A55;
+    --accent-soft:#2A2119;
+    --accent-ink:#F0B57C;
+    --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 32px rgba(0,0,0,.28);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0C1517;
+  --surface:#131F22;
+  --surface-2:#1B282B;
+  --ink:#E3EAE8;
+  --ink-soft:#B6C4C3;
+  --muted:#849697;
+  --rule:#2B393C;
+  --grid:rgba(227,234,232,.05);
+  --accent:#E89A55;
+  --accent-soft:#2A2119;
+  --accent-ink:#F0B57C;
+  --shadow:0 1px 2px rgba(0,0,0,.35), 0 10px 32px rgba(0,0,0,.28);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background-color:var(--paper);
+  background-image:
+    repeating-linear-gradient(to right, var(--grid) 0 1px, transparent 1px 32px),
+    repeating-linear-gradient(to bottom, var(--grid) 0 1px, transparent 1px 32px);
+  color:var(--ink);
+  font-family:"IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size:17px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:clamp(20px,5vw,48px)}
+section{padding-block:clamp(56px,8vw,104px)}
+h1,h2,h3{font-family:Newsreader, ui-serif, Georgia, serif;font-weight:500;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.5rem,6.2vw,4.4rem);line-height:1.04;letter-spacing:-.015em}
+h2{font-size:clamp(1.9rem,3.6vw,2.7rem);line-height:1.14;letter-spacing:-.01em}
+h3{font-size:1.22rem;line-height:1.3}
+p{margin:0}
+a{color:inherit}
+.eyebrow{
+  font-family:"IBM Plex Mono", ui-monospace, monospace;
+  font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--muted);margin:0;
+}
+.lead{font-size:clamp(1.06rem,1.7vw,1.24rem);color:var(--ink-soft);max-width:var(--read)}
+.body-col{max-width:var(--read);display:flex;flex-direction:column;gap:18px;color:var(--ink-soft)}
+.rule{height:1px;background:var(--rule);border:0;margin:0}
+.stack{display:flex;flex-direction:column}
+.head{display:flex;flex-direction:column;gap:14px;margin-bottom:40px}
+
+/* ---------- Hero ---------- */
+.hero{padding-top:clamp(48px,7vw,88px);padding-bottom:clamp(40px,6vw,72px)}
+.hero-inner{display:flex;flex-direction:column;gap:30px}
+.hero h1 .warm{color:var(--accent);font-style:italic}
+.hero-meta{
+  display:flex;flex-wrap:wrap;gap:10px 26px;align-items:baseline;
+  font-family:"IBM Plex Mono", ui-monospace, monospace;font-size:.78rem;color:var(--muted);
+}
+.hero-meta span{display:inline-flex;align-items:center;gap:8px}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--accent);flex:none}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:6px}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:"IBM Plex Sans",sans-serif;font-weight:600;font-size:.97rem;
+  padding:14px 26px;border-radius:2px;border:1px solid var(--ink);
+  background:var(--ink);color:var(--paper);text-decoration:none;
+  transition:transform .16s ease, background .16s ease;
+}
+.btn:hover{transform:translateY(-1px);background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--rule)}
+.btn.ghost:hover{background:transparent;color:var(--accent);border-color:var(--accent)}
+.btn:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+/* ---------- Verlaufsgrafik ---------- */
+.chart{
+  margin-top:14px;background:var(--surface);border:1px solid var(--rule);
+  padding:clamp(20px,3vw,32px);box-shadow:var(--shadow);
+}
+.chart-head{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.chart-head .eyebrow{color:var(--ink-soft)}
+.bars{display:grid;grid-template-columns:repeat(12,1fr);gap:5px;align-items:end;height:132px}
+.bar{position:relative;background:var(--surface-2);border-top:2px solid var(--rule);
+  transform-origin:bottom;animation:rise .62s cubic-bezier(.2,.8,.3,1) backwards;}
+.bar[data-phase="1"]{border-top-color:var(--accent);opacity:.95}
+.bar[data-phase="2"]{border-top-color:var(--accent);opacity:.8}
+.bar[data-phase="3"]{border-top-color:var(--accent);opacity:.65}
+.bar[data-phase="4"]{border-top-color:var(--accent);opacity:.5}
+.bar.mark{background:var(--accent-soft);border-top-color:var(--accent);opacity:1}
+.bar span{
+  position:absolute;top:-22px;left:0;right:0;text-align:center;
+  font-family:"IBM Plex Mono",monospace;font-size:.66rem;color:var(--muted);
+}
+.bar.mark span{color:var(--accent);font-weight:500}
+@keyframes rise{from{transform:scaleY(.12);opacity:0}}
+@media (prefers-reduced-motion:reduce){.bar{animation:none}}
+.phases{display:grid;grid-template-columns:repeat(12,1fr);gap:5px;margin-top:10px}
+.phase-band{
+  grid-column:span 3;border-top:1px solid var(--rule);padding-top:9px;
+  font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted);
+}
+.chart-note{margin-top:18px;font-size:.83rem;color:var(--muted);max-width:56ch}
+
+/* ---------- Symptomliste ---------- */
+.signals{display:grid;gap:0;border-top:1px solid var(--rule)}
+.signal{
+  display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:baseline;
+  padding:18px 0;border-bottom:1px solid var(--rule);
+}
+.signal b{font-family:"IBM Plex Mono",monospace;font-weight:400;font-size:.78rem;color:var(--accent)}
+.signal p{font-size:1.04rem;color:var(--ink)}
+
+/* ---------- Ist / Ist nicht ---------- */
+.cols2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(20px,3vw,36px)}
+.panel{background:var(--surface);border:1px solid var(--rule);padding:clamp(22px,3vw,32px);box-shadow:var(--shadow)}
+.panel.warm{background:var(--accent-soft);border-color:var(--accent)}
+.panel h3{margin-bottom:16px}
+.ticks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.ticks li{display:grid;grid-template-columns:20px 1fr;gap:12px;color:var(--ink-soft);font-size:.99rem}
+.ticks li::before{content:"";width:9px;height:9px;margin-top:9px;background:var(--accent)}
+.ticks.neg li::before{background:transparent;border-bottom:1px solid var(--muted);height:1px;margin-top:13px;width:12px}
+
+/* ---------- Fakten ---------- */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.fact{background:var(--paper);padding:24px 22px;display:flex;flex-direction:column;gap:6px}
+.fact b{font-family:Newsreader,serif;font-size:2.1rem;font-weight:500;line-height:1;font-variant-numeric:tabular-nums}
+.fact span{font-size:.9rem;color:var(--muted)}
+
+/* ---------- Wochen ---------- */
+.phase-head{display:flex;align-items:baseline;gap:16px;margin:44px 0 20px;flex-wrap:wrap}
+.phase-head:first-of-type{margin-top:0}
+.phase-head h3{font-size:1.5rem}
+.phase-head .eyebrow{color:var(--accent)}
+.weeks{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.week{background:var(--paper);padding:24px 22px;display:flex;flex-direction:column;gap:10px}
+.week .num{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.12em;color:var(--accent)}
+.week h4{margin:0;font-family:Newsreader,serif;font-weight:500;font-size:1.16rem;line-height:1.25}
+.week p{font-size:.94rem;color:var(--ink-soft)}
+.week .exp{
+  margin-top:auto;padding-top:12px;border-top:1px dotted var(--rule);
+  font-family:"IBM Plex Mono",monospace;font-size:.74rem;color:var(--muted);
+}
+.week .exp em{font-style:normal;color:var(--ink-soft)}
+
+/* ---------- Rhythmus ---------- */
+.rhythm{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:clamp(18px,2.5vw,28px)}
+.rhythm div{border-top:2px solid var(--ink);padding-top:14px;display:flex;flex-direction:column;gap:6px}
+.rhythm .day{font-family:"IBM Plex Mono",monospace;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.rhythm p{font-size:.96rem;color:var(--ink-soft)}
+
+/* ---------- Preis ---------- */
+.price-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(24px,4vw,56px);align-items:start}
+@media(max-width:840px){.price-wrap{grid-template-columns:1fr}}
+.price-main{background:var(--ink);color:var(--paper);padding:clamp(28px,4vw,40px);box-shadow:var(--shadow)}
+.price-main .eyebrow{color:rgba(233,237,236,.6)}
+.price-main .amount{font-family:Newsreader,serif;font-size:clamp(3.4rem,7vw,4.6rem);line-height:1;margin:14px 0 6px;font-variant-numeric:tabular-nums}
+.price-main .sub{color:rgba(233,237,236,.72);font-size:.95rem}
+.price-main .btn{margin-top:26px;background:var(--accent);border-color:var(--accent);color:#fff}
+.price-main .btn:hover{background:var(--paper);border-color:var(--paper);color:var(--ink)}
+.price-opts{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--rule)}
+.opt{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:baseline;padding:16px 0;border-bottom:1px solid var(--rule)}
+.opt strong{font-weight:600;font-size:1rem}
+.opt p{font-size:.88rem;color:var(--muted);grid-column:1/-1;margin-top:-6px}
+.opt .val{font-family:"IBM Plex Mono",monospace;font-size:.95rem;color:var(--accent);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* ---------- Grenzen ---------- */
+.limits{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--accent);padding:clamp(24px,3.5vw,36px);display:flex;flex-direction:column;gap:18px}
+.limits ul{margin:0;padding-left:20px;color:var(--ink-soft);display:flex;flex-direction:column;gap:7px;font-size:.97rem}
+.crisis{display:flex;flex-wrap:wrap;gap:8px 28px;font-family:"IBM Plex Mono",monospace;font-size:.84rem;color:var(--ink);padding-top:6px}
+.crisis b{color:var(--accent);font-weight:500}
+
+/* ---------- FAQ ---------- */
+.faq{border-top:1px solid var(--rule)}
+details{border-bottom:1px solid var(--rule)}
+summary{
+  cursor:pointer;list-style:none;padding:20px 0;display:flex;justify-content:space-between;
+  gap:20px;align-items:baseline;font-family:Newsreader,serif;font-size:1.14rem;font-weight:500;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:"IBM Plex Mono",monospace;font-size:1rem;color:var(--accent);flex:none}
+details[open] summary::after{content:"–"}
+details .answer{padding:0 0 22px;max-width:var(--read);color:var(--ink-soft);font-size:.99rem;display:flex;flex-direction:column;gap:12px}
+
+/* ---------- Über ---------- */
+.about{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(22px,4vw,44px);align-items:start}
+@media(max-width:700px){.about{grid-template-columns:1fr}}
+.sig{
+  font-family:Newsreader,serif;font-style:italic;font-size:1.5rem;color:var(--accent);
+  border:1px solid var(--rule);background:var(--surface);padding:26px 22px;text-align:center;min-width:190px;
+}
+.sig small{display:block;font-family:"IBM Plex Mono",monospace;font-style:normal;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:10px}
+
+footer{padding-block:44px;border-top:1px solid var(--rule)}
+footer .body-col{font-size:.86rem;color:var(--muted)}
+.placeholder{background:var(--accent-soft);color:var(--accent-ink);padding:0 5px;font-family:"IBM Plex Mono",monospace;font-size:.85em}
+</style>
+
+<main>
+<div class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">12 Wochen · Online mit Live-Begleitung · Kohorte 1</p>
+      <h1>Zwölf Wochen an dem,<br>was dich <span class="warm">nachts wachhält</span>.</h1>
+      <p class="lead">Ein begleitetes Programm für Studierende und junge Erwachsene, die grübeln, aufschieben, sich ständig unter Druck fühlen und schon länger müde sind. Kein Ratgeber zum Wegklicken, sondern zwölf Wochen strukturierte Arbeit — mit Methoden, die in der Forschung funktionieren, und mit jemandem, der jede Woche da ist.</p>
+      <div class="hero-meta">
+        <span><i class="dot"></i>48 Lektionen zum eigenen Tempo</span>
+        <span><i class="dot"></i>12 Live-Calls, Gruppe max. 15</span>
+        <span><i class="dot"></i>Start <span class="placeholder">[Startdatum]</span></span>
+      </div>
+      <div class="cta-row">
+        <a class="btn" href="#preis">Platz sichern</a>
+        <a class="btn ghost" href="#wochen">Die zwölf Wochen ansehen</a>
+      </div>
+
+      <div class="chart">
+        <div class="chart-head">
+          <p class="eyebrow">Programmverlauf</p>
+          <p class="eyebrow">◆ = Messpunkt</p>
+        </div>
+        <div class="bars">
+          <div class="bar mark" data-phase="1" style="height:38%;animation-delay:.05s"><span>◆ 1</span></div>
+          <div class="bar" data-phase="1" style="height:46%;animation-delay:.1s"><span>2</span></div>
+          <div class="bar" data-phase="1" style="height:52%;animation-delay:.15s"><span>3</span></div>
+          <div class="bar" data-phase="2" style="height:58%;animation-delay:.2s"><span>4</span></div>
+          <div class="bar" data-phase="2" style="height:64%;animation-delay:.25s"><span>5</span></div>
+          <div class="bar mark" data-phase="2" style="height:70%;animation-delay:.3s"><span>◆ 6</span></div>
+          <div class="bar" data-phase="3" style="height:74%;animation-delay:.35s"><span>7</span></div>
+          <div class="bar" data-phase="3" style="height:80%;animation-delay:.4s"><span>8</span></div>
+          <div class="bar" data-phase="3" style="height:84%;animation-delay:.45s"><span>9</span></div>
+          <div class="bar" data-phase="4" style="height:89%;animation-delay:.5s"><span>10</span></div>
+          <div class="bar" data-phase="4" style="height:94%;animation-delay:.55s"><span>11</span></div>
+          <div class="bar mark" data-phase="4" style="height:100%;animation-delay:.6s"><span>◆ 12</span></div>
+        </div>
+        <div class="phases">
+          <div class="phase-band">I — Fundament</div>
+          <div class="phase-band">II — Kopf</div>
+          <div class="phase-band">III — Gefühle &amp; Menschen</div>
+          <div class="phase-band">IV — Leben</div>
+        </div>
+        <p class="chart-note">Die Balken zeigen den Aufbau des Programms, nicht ein versprochenes Ergebnis: Jede Woche baut auf der vorherigen auf. In Woche 1, 6 und 12 wird mit denselben Fragebögen gemessen, damit du deine eigene Entwicklung siehst statt sie zu schätzen.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- KENNST DU DAS -->
+  <section>
+    <div class="head">
+      <p class="eyebrow">Wofür das hier gedacht ist</p>
+      <h2>Wenn dir das bekannt vorkommt.</h2>
+    </div>
+    <div class="signals">
+      <div class="signal"><b>01</b><p>Du liegst wach und drehst dieselben Gedanken, ohne je an einem Ende anzukommen.</p></div>
+      <div class="signal"><b>02</b><p>Die Hausarbeit ist seit drei Wochen offen. Du weißt genau, was zu tun ist. Du tust es trotzdem nicht.</p></div>
+      <div class="signal"><b>03</b><p>Du bist müde, obwohl du geschlafen hast. Und du schläfst schlecht, obwohl du müde bist.</p></div>
+      <div class="signal"><b>04</b><p>Alle anderen scheinen es hinzubekommen. Du fragst dich, was mit dir nicht stimmt.</p></div>
+      <div class="signal"><b>05</b><p>Du kennst die Ratschläge. Sport, früher ins Bett, Achtsamkeit. Es scheitert nicht am Wissen.</p></div>
+    </div>
+    <p class="lead" style="margin-top:32px">Genau da setzt das Programm an: nicht bei mehr Information, sondern bei zwölf Wochen, in denen du eine Sache nach der anderen tatsächlich umsetzt — mit einer Gruppe, die dieselbe Woche durchläuft, und mit jemandem, der nachfragt.</p>
+  </section>
+
+  <hr class="rule">
+
+  <!-- IST / IST NICHT -->
+  <section>
+    <div class="head">
+      <p class="eyebrow">Klartext vorab</p>
+      <h2>Was das ist — und was nicht.</h2>
+    </div>
+    <div class="cols2">
+      <div class="panel warm">
+        <h3>Das ist es</h3>
+        <ul class="ticks">
+          <li>Ein Bildungs- und Präventionsprogramm: Psychoedukation plus angeleitetes Training.</li>
+          <li>Methoden aus der kognitiven Verhaltenstherapie, der Akzeptanz- und Commitment-Therapie und der Emotionsregulation — als Selbsthilfe-Werkzeuge vermittelt.</li>
+          <li>Zwölf Wochen mit festem Aufbau, wöchentlicher Übung und wöchentlicher Live-Begleitung.</li>
+          <li>Eine feste Gruppe von maximal 15 Menschen, die dieselben Wochen durchlaufen.</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Das ist es nicht</h3>
+        <ul class="ticks neg">
+          <li>Keine Psychotherapie und kein Ersatz für eine. Wenn du eine Behandlung brauchst, ersetzt dieses Programm sie nicht.</li>
+          <li>Keine Diagnostik. Es wird nichts festgestellt und nichts behandelt.</li>
+          <li>Keine Heilversprechen. Niemand kann dir garantieren, wie es dir in zwölf Wochen geht.</li>
+          <li>Kein Angebot für akute Krisen. Wer gerade in einer steckt, braucht schnellere und andere Hilfe — die Nummern stehen weiter unten.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- FORMAT -->
+  <section>
+    <div class="head">
+      <p class="eyebrow">Was enthalten ist</p>
+      <h2>Der Umfang, ohne Kleingedrucktes.</h2>
+    </div>
+    <div class="facts">
+      <div class="fact"><b>48</b><span>Videolektionen, 8–15 Minuten, ca. 9 Stunden gesamt</span></div>
+      <div class="fact"><b>12 ×</b><span>Live-Gruppencall, 90 Minuten, wöchentlich</span></div>
+      <div class="fact"><b>15</b><span>Plätze pro Kohorte — mehr nicht</span></div>
+      <div class="fact"><b>124</b><span>Seiten Workbook zum Ausdrucken</span></div>
+      <div class="fact"><b>1 : 1</b><span>Onboarding-Gespräch vor dem Start, 30 Minuten</span></div>
+      <div class="fact"><b>+ 8</b><span>Wochen später ein Nachtreffen, im Preis enthalten</span></div>
+      <div class="fact"><b>12</b><span>Monate Zugang zu allen Materialien und Aufzeichnungen</span></div>
+      <div class="fact"><b>3</b><span>Messpunkte mit persönlicher Auswertung als PDF</span></div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- WOCHEN -->
+  <section id="wochen">
+    <div class="head">
+      <p class="eyebrow">Das Curriculum</p>
+      <h2>Zwölf Wochen, vier Phasen.</h2>
+      <p class="lead">Die Reihenfolge ist kein Zufall. Erst kommt das Fundament — solange Schlaf und Alltag nicht mitspielen, bringt Arbeit an Gedanken wenig. Dann der Kopf, dann die Gefühle und die Menschen, zuletzt die Richtung und der Plan für danach.</p>
+    </div>
+
+    <div class="phase-head"><p class="eyebrow">Phase I · Woche 1–3</p><h3>Fundament</h3></div>
+    <div class="weeks">
+      <div class="week"><span class="num">WOCHE 01</span><h4>Standortbestimmung</h4><p>Wo stehst du gerade — bei Wohlbefinden, Stress, Schlaf und Aktivität? Zwei Ziele, die man am Ende überprüfen kann.</p><p class="exp">Experiment: <em>Die Wochen-Landkarte</em></p></div>
+      <div class="week"><span class="num">WOCHE 02</span><h4>Körper zuerst</h4><p>Schlaf, Rhythmus, Bewegung. Ein müder Kopf denkt schlechter — das ist keine Metapher, sondern Neurobiologie.</p><p class="exp">Experiment: <em>Das Schlaffenster</em></p></div>
+      <div class="week"><span class="num">WOCHE 03</span><h4>Tun, bevor die Lust kommt</h4><p>Motivation kommt nach der Handlung, nicht davor. Wie du den Rückzug unterbrichst, der sich selbst füttert.</p><p class="exp">Experiment: <em>Fünf geplante Aktivitäten</em></p></div>
+    </div>
+
+    <div class="phase-head"><p class="eyebrow">Phase II · Woche 4–6</p><h3>Kopf</h3></div>
+    <div class="weeks">
+      <div class="week"><span class="num">WOCHE 04</span><h4>Der Grübelstopp</h4><p>Grübeln fühlt sich an wie Problemlösen und ist das Gegenteil. Der Unterschied zwischen „warum“ und „wie“ — und was er ändert.</p><p class="exp">Experiment: <em>Die Sorgenzeit</em></p></div>
+      <div class="week"><span class="num">WOCHE 05</span><h4>Gedanken sind keine Fakten</h4><p>Zwischen dem, was passiert, und dem, wie du dich fühlst, steht eine Bewertung. Die lässt sich überprüfen.</p><p class="exp">Experiment: <em>Sieben Gedankenprotokolle</em></p></div>
+      <div class="week"><span class="num">WOCHE 06</span><h4>Der innere Kritiker</h4><p>Die Stimme, die dich antreibt, ist nicht dein Freund. Selbstwert, Scham und der Vergleich, der nie aufhört.</p><p class="exp">Experiment: <em>Der Brief an dich selbst</em></p></div>
+    </div>
+
+    <div class="phase-head"><p class="eyebrow">Phase III · Woche 7–9</p><h3>Gefühle &amp; Menschen</h3></div>
+    <div class="weeks">
+      <div class="week"><span class="num">WOCHE 07</span><h4>Gefühle aushalten</h4><p>Kein Gefühl bleibt. Vier Fertigkeiten für den roten Bereich — und ein Notfallkoffer, der wirklich gepackt wird.</p><p class="exp">Experiment: <em>Der Notfallkoffer</em></p></div>
+      <div class="week"><span class="num">WOCHE 08</span><h4>Raus aus der Vermeidung</h4><p>Angst schrumpft nicht durch Nachdenken. Deine Vermeidungslandkarte, in kleinen Schritten abgebaut.</p><p class="exp">Experiment: <em>Die ersten drei Stufen</em></p></div>
+      <div class="week"><span class="num">WOCHE 09</span><h4>Menschen</h4><p>Einsamkeit ist ein Signal, kein Defekt. Nein sagen, Konflikte ansprechen, das eigene Netz sichtbar machen.</p><p class="exp">Experiment: <em>Zweimal Nein, einmal Kontakt</em></p></div>
+    </div>
+
+    <div class="phase-head"><p class="eyebrow">Phase IV · Woche 10–12</p><h3>Leben</h3></div>
+    <div class="weeks">
+      <div class="week"><span class="num">WOCHE 10</span><h4>Wofür das alles</h4><p>Ziele sind Punkte, die man verfehlen kann. Werte sind Richtungen, in die man auch an schlechten Tagen gehen kann.</p><p class="exp">Experiment: <em>Drei Wertehandlungen</em></p></div>
+      <div class="week"><span class="num">WOCHE 11</span><h4>Leistung ohne Selbstzerstörung</h4><p>Aufschieben ist kein Zeitmanagement-Problem. Prüfungsdruck, Perfektionismus und der zerlegte Berg.</p><p class="exp">Experiment: <em>Der zerlegte Berg</em></p></div>
+      <div class="week"><span class="num">WOCHE 12</span><h4>Dein Plan für danach</h4><p>Rückschläge kommen. Der Unterschied ist, ob du dann einen Plan hast — schriftlich, ausgedruckt, konkret.</p><p class="exp">Experiment: <em>Das Handbuch für schlechte Wochen</em></p></div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- RHYTHMUS -->
+  <section>
+    <div class="head">
+      <p class="eyebrow">Der Wochenablauf</p>
+      <h2>Etwa drei Stunden pro Woche.</h2>
+    </div>
+    <div class="rhythm">
+      <div><span class="day">Montag</span><p>Die Lektionen der Woche werden freigeschaltet. 45 bis 60 Minuten Video, wann du willst.</p></div>
+      <div><span class="day">Täglich</span><p>Die Wochenübung, 10 bis 15 Minuten. Kurz genug, dass sie auch in einer vollen Woche passiert.</p></div>
+      <div><span class="day">Mittwoch 19 Uhr</span><p>Live-Call, 90 Minuten: Fragen, echte Beispiele aus der Gruppe, gemeinsames Üben. Aufzeichnung, wenn du nicht kannst.</p></div>
+      <div><span class="day">Sonntag</span><p>Check-in, 5 Minuten. Stimmung, Schlaf, Umsetzung — damit du deine eigene Kurve siehst.</p></div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- PREIS -->
+  <section id="preis">
+    <div class="head">
+      <p class="eyebrow">Teilnahme</p>
+      <h2>Was es kostet.</h2>
+    </div>
+    <div class="price-wrap">
+      <div class="price-main">
+        <p class="eyebrow">Vollständiges Programm</p>
+        <p class="amount">1.000 €</p>
+        <p class="sub">Zwölf Wochen, 12 Live-Calls, alle Materialien, Onboarding-Gespräch, Nachtreffen und 12 Monate Zugang. Keine Zusatzkosten, kein Abo, keine Verlängerung.</p>
+        <a class="btn" href="#">Auf die Warteliste</a>
+      </div>
+      <div>
+        <div class="price-opts">
+          <div class="opt"><strong>Pionierpreis Kohorte 1</strong><span class="val">790 €</span>
+            <p>Einmalig für die erste Gruppe — gegen ausführliche Rückmeldung während und nach dem Programm.</p></div>
+          <div class="opt"><strong>Ratenzahlung</strong><span class="val">3 × 340 €</span>
+            <p>Monatlich, ohne Bonitätsprüfung, jeweils zum Monatsbeginn.</p></div>
+          <div class="opt"><strong>Zu zweit anmelden</strong><span class="val">je 850 €</span>
+            <p>Gemeinsam durchziehen ist erwiesenermaßen leichter als allein.</p></div>
+          <div class="opt"><strong>Stipendienplatz</strong><span class="val">149 €</span>
+            <p>Zwei Plätze pro Kohorte für Menschen, für die der Preis sonst die Grenze wäre. Kurze formlose Bewerbung, keine Nachweise, keine Kennzeichnung in der Gruppe.</p></div>
+        </div>
+        <p class="chart-note">14 Tage Widerrufsrecht. Wenn du nach dem ersten Live-Call merkst, dass es nicht passt, bekommst du dein Geld zurück — ohne Begründung.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- GRENZEN -->
+  <section>
+    <div class="head">
+      <p class="eyebrow">Ehrlichkeit gehört dazu</p>
+      <h2>Für wen das nicht geeignet ist.</h2>
+    </div>
+    <div class="limits">
+      <p class="body-col" style="max-width:var(--read)">Dieses Programm ist Prävention und Training in einer Gruppe. Es gibt Situationen, in denen das die falsche Hilfe ist — und dann sage ich das im Vorgespräch, statt dir einen Platz zu verkaufen.</p>
+      <ul>
+        <li>Bei akuten Suizidgedanken oder Selbstverletzung</li>
+        <li>In einer akuten psychischen Krise</li>
+        <li>Bei akuter psychotischer Symptomatik</li>
+        <li>Bei einer schweren akuten Essstörung</li>
+        <li>Bei akuter Abhängigkeitserkrankung</li>
+      </ul>
+      <p class="body-col" style="max-width:var(--read)">In diesen Fällen brauchst du eine Behandlung, keinen Kurs. Wer sich anmeldet und nicht passt, bekommt von mir keine leere Absage, sondern konkrete Anlaufstellen — und den Beitrag vollständig zurück. Eine laufende Psychotherapie schließt die Teilnahme übrigens nicht aus; sprich sie nur vorher mit deiner Behandlerin oder deinem Behandler ab.</p>
+      <div class="crisis">
+        <span><b>Telefonseelsorge</b> 0800 111 0 111 · 0800 111 0 222, kostenlos, rund um die Uhr</span>
+        <span><b>Ärztlicher Bereitschaftsdienst</b> 116 117</span>
+        <span><b>Notruf</b> 112</span>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ÜBER -->
+  <section>
+    <div class="about">
+      <div class="sig">Sora Pazer<small>Dr. Dr. · Programmleitung</small></div>
+      <div class="stack" style="gap:18px">
+        <div class="head" style="margin-bottom:0">
+          <p class="eyebrow">Wer das macht</p>
+          <h2>Zwölf Wochen mit einer Person, nicht mit einer Plattform.</h2>
+        </div>
+        <div class="body-col">
+          <p><span class="placeholder">[Hier deine Kurzbiografie: Promotionen, Fachgebiet, Lehrtätigkeit, warum du gerade mit dieser Zielgruppe arbeitest — drei bis vier Sätze, in der Ich-Form.]</span></p>
+          <p>In jedem Live-Call sitze ich selbst. Es gibt keine Assistenz, die die Gruppe übernimmt, und keine automatisierte Betreuung. Das ist der Grund, warum es nur 15 Plätze gibt und warum das Programm kostet, was es kostet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- FAQ -->
+  <section>
+    <div class="head">
+      <p class="eyebrow">Häufige Fragen</p>
+      <h2>Bevor du dich anmeldest.</h2>
+    </div>
+    <div class="faq">
+      <details><summary>1.000 € sind viel Geld, gerade im Studium.</summary><div class="answer">
+        <p>Stimmt. Deshalb hier die Rechnung offen: Du bekommst 18 Stunden Live-Zeit in einer Kleingruppe, ein Einzelgespräch, alle Materialien und ein Nachtreffen. Eine Therapiestunde kostet als Selbstzahler zwischen 100 und 150 €.</p>
+        <p>Wenn es trotzdem nicht geht: Es gibt Ratenzahlung und zwei Stipendienplätze pro Kohorte. Bewirb dich formlos, ich prüfe nichts nach.</p>
+      </div></details>
+      <details><summary>Ich habe schon Videos, Bücher und Apps ausprobiert. Warum sollte das anders sein?</summary><div class="answer">
+        <p>Weil das Problem selten am Wissen liegt. Was Selbstlernangebote nicht liefern, sind Termine, an denen jemand nachfragt, eine Gruppe, die dieselbe Woche durchläuft, und eine Reihenfolge, die verhindert, dass du beim schwersten Teil anfängst.</p>
+      </div></details>
+      <details><summary>Muss ich in den Live-Calls über mich sprechen?</summary><div class="answer">
+        <p>Nein. Zuhören ist eine vollwertige Form der Teilnahme, und die Kamera darf aus bleiben. Erfahrungsgemäß sprechen die meisten ab Woche drei von selbst — aber niemand wird dazu aufgefordert.</p>
+      </div></details>
+      <details><summary>Was, wenn ich eine Woche komplett ausfalle?</summary><div class="answer">
+        <p>Dann fällst du eine Woche aus. Es gibt die Aufzeichnung, und für den Wiedereinstieg gibt es einen kurzen Plan, damit du nicht das Gefühl hast, den Anschluss verloren zu haben. Zwölf Wochen ohne Ausfall schafft praktisch niemand — das ist eingeplant.</p>
+      </div></details>
+      <details><summary>Ich bin in Psychotherapie. Kann ich trotzdem mitmachen?</summary><div class="answer">
+        <p>Ja, sofern du es mit deiner Behandlerin oder deinem Behandler abstimmst. Das Programm arbeitet nicht gegen eine Therapie, sondern mit denselben Grundprinzipien — Doppelgleisigkeit sollte aber besprochen sein.</p>
+      </div></details>
+      <details><summary>Was passiert mit meinen Daten?</summary><div class="answer">
+        <p>Deine Selbsteinschätzungen und Protokolle sind Gesundheitsdaten und werden entsprechend behandelt: gesonderte Einwilligung, verschlüsselte Speicherung, keine Weitergabe, Löschung auf Wunsch. Persönliche Inhalte werden nie in Messenger-Gruppen geteilt. Details in der Datenschutzerklärung.</p>
+      </div></details>
+      <details><summary>Bekomme ich ein Zertifikat?</summary><div class="answer">
+        <p>Du bekommst eine Teilnahmebestätigung und deine persönliche Auswertung über die drei Messpunkte. Es handelt sich nicht um eine berufliche Qualifikation und nicht um einen Therapienachweis.</p>
+      </div></details>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="body-col" style="max-width:78ch">
+      <p><strong>Wichtiger Hinweis.</strong> KLARKOMMEN ist ein Bildungs- und Präventionsangebot. Es vermittelt Wissen und trainiert Fertigkeiten, stellt keine Diagnosen, führt keine Heilbehandlung durch und ersetzt weder Psychotherapie noch ärztliche Behandlung. Bei Beschwerden mit Krankheitswert wende dich an eine ärztliche oder psychotherapeutische Praxis.</p>
+      <p style="margin-top:14px">In einer akuten Krise: Telefonseelsorge 0800 111 0 111 oder 0800 111 0 222 (kostenlos, rund um die Uhr), ärztlicher Bereitschaftsdienst 116 117, in Lebensgefahr 112.</p>
+      <p style="margin-top:14px"><span class="placeholder">[Impressum]</span> · <span class="placeholder">[AGB]</span> · <span class="placeholder">[Datenschutz]</span> · <span class="placeholder">[Widerrufsbelehrung]</span></p>
+    </div>
+  </div>
+</footer>
+</main>

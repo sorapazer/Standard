@@ -1,215 +1,278 @@
-# KLARKOMMEN — Preis, Geschäftsmodell, rechtliche Punkte
+# Preis, Geschäftsmodell, rechtliche Punkte
 
-Der inhaltliche Teil steht in [`curriculum.md`](curriculum.md). Hier geht es darum,
-ob sich 1000 € tragen und was vor dem ersten Verkauf geklärt sein muss.
+Inhalte stehen in [`curriculum.md`](curriculum.md), das Gespräch in
+[`1zu1-standortgespraech.md`](1zu1-standortgespraech.md), die Messung in
+[`messung-und-auswertung.md`](messung-und-auswertung.md). Hier geht es darum,
+ob sich 1.000 € tragen und was vor dem ersten Verkauf geklärt sein muss.
 
 ---
 
-## 1. Die Preisfrage ehrlich
+## 1. Was sich durch den Wegfall der Gruppencalls ändert
 
-Der Preis ist gesetzt: **1000 €**. Das Problem ist nicht die Höhe an sich — für
-zwölf Wochen mit wöchentlicher persönlicher Begleitung ist das im Markt eher
-moderat. Das Problem ist die Kombination aus 1000 € und einer Zielgruppe, deren
-verfügbares Monatsbudget häufig unter 400 € liegt.
+Die Variante mit zwölf Live-Calls hätte dich pro Kohorte 53 Stunden gekostet —
+verteilt auf zwölf feste Termine, an denen du zwölf Wochen lang mittwochs um
+19 Uhr sitzen musst. Die jetzige Variante kostet dich **rund 4 Stunden pro
+Teilnehmer:in**, frei terminierbar.
 
-Daraus folgt keine Preissenkung, sondern eine Preisarchitektur:
+Das hat drei Folgen, zwei gute und eine unangenehme:
 
-| Variante | Betrag | Zweck |
+**Gut: Du kannst jederzeit verkaufen.** Kein Startfenster, keine Kohorte, die
+voll werden muss. Wer heute kauft, fängt heute an. Das ist der größte
+betriebswirtschaftliche Unterschied — aus drei Verkaufsphasen pro Jahr wird ein
+durchlaufender Vertrieb.
+
+**Gut: Es skaliert mit deiner Zeit, nicht mit dem Kalender.** Zwölf Live-Calls
+kannst du nicht parallelisieren. Vier Stunden pro Person schon.
+
+**Unangenehm: Der Preis wird schwerer zu erklären.** 1.000 € für „Kurs plus 18
+Stunden Live-Zeit" versteht jeder sofort. 1.000 € für „Kurs plus ein Gespräch"
+klingt beim ersten Hören nach weniger, obwohl der Aufwand pro Person nur um ein
+Drittel niedriger liegt. Der nächste Abschnitt löst genau dieses Problem.
+
+## 2. Wie der Preis erklärt wird
+
+Nicht über Zeit, sondern über **Dokumente**. Das Programm liefert drei Dinge,
+die es sonst nirgends für Geld gibt und die man in die Hand nehmen kann:
+
+| Was | Wann | Umfang |
 |---|---|---|
-| **Listenpreis** | 1000 € | Der Ankerpreis. Steht überall, wird nie durchgestrichen. |
-| **Pionierpreis Kohorte 1** | 790 € | Einmalig, gegen ausführliches Feedback und Rückmeldung nach Abschluss. |
-| **Ratenzahlung** | 3 × 340 € | Aufschlag klein halten (siehe rechtlichen Hinweis unten). |
-| **Stipendienplätze** | 2 pro Kohorte, 149 € | Kurze Bewerbung. Löst das Zugangsproblem, ohne den Preis zu beschädigen. |
-| **Duo-Anmeldung** | 2 × 850 € | Zu zweit anmelden. Erhöht zusätzlich die Abschlussquote. |
+| **Persönlicher Kursplan** | Woche 3 | 1 Seite, nach dem Gespräch geschrieben |
+| **Zwischenauswertung** | Woche 6 | 1 Seite, auf Basis deiner Daten |
+| **Verlaufsbericht** | Woche 12 | ca. 8 Seiten, individuell geschrieben |
 
-Die Stipendienplätze sind kein Marketingtrick, sondern die Antwort auf den
-offensichtlichen Einwand: Ein Programm für mentale Gesundheit, das sich genau die
-Belastetsten nicht leisten können, hat ein Glaubwürdigkeitsproblem. Zwei Plätze
-pro Kohorte lösen das für unter 2 % des Umsatzes.
+Dazu das Standortgespräch von 75 Minuten und der Kurs mit 48 Lektionen und
+124 Seiten Workbook.
 
-## 2. Was die 1000 € rechtfertigt
+Der Satz, der auf die Verkaufsseite gehört, lautet sinngemäß: *Am Ende hast du
+nicht nur einen Kurs gemacht, sondern eine Auswertung deiner eigenen zwölf
+Wochen — geschrieben von einer Person, nicht von einer Software.*
 
-Nicht die Videostunden — die gibt es auch für 49 €. Was den Preis trägt:
+Was den Preis **nicht** rechtfertigt und deshalb nicht auf die Seite gehört:
+die Anzahl der Videostunden. Neun Stunden Video gibt es für 49 €.
 
-- **12 × 90 Min Live-Begleitung** in einer Gruppe von maximal 15 Personen
-- **Persönliches Onboarding-Gespräch** vor dem Start
-- **Individuelle Auswertung** über drei Messzeitpunkte, als PDF
-- **Nachtreffen nach acht Wochen** — der Teil, den fast alle Anbieter weglassen
-- **Fachliche Autorität**: doppelt promovierter Fachmann, nicht ein Coach mit
-  Wochenendzertifikat
-- **Verbindlichkeit durch Kohorte** — der eigentliche Wirkstoff. Selbstlernkurse
-  werden zu unter 15 % abgeschlossen, begleitete Kohortenprogramme zu 60–80 %.
-
-Rechne es auf der Verkaufsseite nie kleinteilig vor ("nur 11,90 € pro Tag") —
-bei mentaler Gesundheit wirkt das billig. Der Vergleich, der trägt: eine
-Selbstzahler-Therapiestunde kostet 100–150 €; dieses Programm entspricht etwa
-sieben bis zehn Stunden — bei 18 Stunden Live-Zeit plus Material.
-
-## 3. Rechnung pro Kohorte
-
-Bei 15 Teilnehmenden, gemischt Listen- und Ratenpreis, konservativ mit
-durchschnittlich 900 €:
+## 3. Deckungsbeitrag pro Teilnehmer:in
 
 | Position | Betrag |
 |---|---|
-| Umsatz brutto (15 × 900 €) | 13.500 € |
-| Zahlungsanbieter (ca. 2,5 %) | − 340 € |
-| Kursplattform, Video, Tools (anteilig) | − 600 € |
-| Werbung (falls bezahlt, optional) | − 1.500 € |
-| **Deckungsbeitrag pro Kohorte** | **ca. 11.000 €** |
+| Preis | 1.000 € |
+| Zahlungsanbieter (ca. 2,5 %) | − 25 € |
+| Plattform, Video-Hosting, Formulare, Terminbuchung (anteilig) | − 40 € |
+| **Deckungsbeitrag vor Werbung** | **935 €** |
 
-Dein Aufwand pro Durchlauf: rund 53 Stunden (siehe Produktionsübersicht im
-Curriculum). Das sind etwa **200 € pro Arbeitsstunde vor Steuern** — vorausgesetzt,
-die Kohorte wird voll. Die einmalige Produktion (48 Lektionen, Workbook) kostet
-dich vorher realistisch 120 bis 180 Stunden.
+Bei 4 Stunden Arbeitszeit sind das rund **230 € pro Arbeitsstunde vor Steuern
+und Werbekosten** — nach der einmaligen Produktion. Die kostet dich realistisch
+**120 bis 180 Stunden** für Kurs, Workbook und Auswertungsvorlagen.
 
-Drei Kohorten pro Jahr ergeben rund 33.000 € Deckungsbeitrag bei ca. 160 Stunden
-Betreuungszeit. Das trägt als Nebenlinie, nicht als Vollerwerb — dafür bräuchte
-es mehr Kohorten parallel oder den B2B-Weg.
+Ab etwa **20 Teilnehmenden** ist die Produktion bezahlt. Danach ist es echte Marge.
 
-## 4. Der Weg, auf dem 1000 € bei Studierenden wirklich funktionieren
+## 4. Kapazität und Jahresrechnung
 
-Verkaufe nicht nur an Studierende, sondern **auch an die, die für Studierende
-zahlen**. Dieselben Inhalte, ein anderer Vertriebsweg:
+Die begrenzende Größe ist nicht die Nachfrage, sondern deine Zeit — und zwar
+konkret die Termine für das Standortgespräch.
 
-- **Studierendenwerke** — betreiben psychosoziale Beratungsstellen mit langen
-  Wartezeiten und suchen Gruppenangebote zur Überbrückung
+| Auslastung | Teilnehmende/Monat | Deine Stunden/Monat | Umsatz/Monat | Umsatz/Jahr |
+|---|---|---|---|---|
+| Nebenbei | 4 | 16 | 4.000 € | 48.000 € |
+| Solide | 8 | 32 | 8.000 € | 96.000 € |
+| Vollauslastung | 15 | 60 | 15.000 € | 180.000 € |
+
+Zwei Realitätsprüfungen dazu:
+
+- **Die Zahlen setzen voraus, dass du verkaufst.** Vier zahlende Personen pro
+  Monat sind bei einer bestehenden YouTube-Reichweite realistisch, aber nicht
+  geschenkt. Die Tabelle ist Kapazität, nicht Prognose.
+- **Bei 15 Personen pro Monat laufen dauerhaft 45 Teilnehmende parallel** (jede
+  bleibt zwölf Wochen). Das heißt: 15 Standortgespräche, 15 Zwischenauswertungen
+  und 15 Verlaufsberichte im selben Monat. Plane die Obergrenze bewusst und
+  kommuniziere sie — „nur X Plätze pro Monat" ist ehrlich und verkauft besser
+  als unbegrenzte Verfügbarkeit.
+
+**Zusatzeinnahme, ohne das Produkt zu verändern:** ein zweites Gespräch als
+Option für 190 €, buchbar frühestens ab Woche 6. Erfahrungsgemäß nimmt es rund
+ein Fünftel — bei 8 Personen im Monat sind das etwa 300 € Zusatzumsatz für
+90 Minuten Arbeit. Nicht in die Grundleistung aufnehmen, sonst kippt das
+Programm in eine laufende Begleitung mit allen Folgen aus Abschnitt 7.
+
+## 5. Preisarchitektur
+
+| Variante | Betrag | Zweck |
+|---|---|---|
+| **Listenpreis** | 1.000 € | Ankerpreis. Steht überall, wird nie durchgestrichen. |
+| **Pionierpreis, erste 10** | 790 € | Gegen ausführliche Rückmeldung und, bei Zufriedenheit, ein Testimonial. |
+| **Ratenzahlung** | 3 × 340 € | Ohne Bonitätsprüfung, Raten zum Monatsbeginn. |
+| **Zu zweit** | je 850 € | Erhöht nebenbei die Abschlussquote. |
+| **Stipendienplätze** | 2 pro Monat, 149 € | Formlose Bewerbung, keine Nachweise. |
+
+Die Stipendienplätze sind kein Marketingtrick, sondern die Antwort auf den
+naheliegenden Einwand: Ein Programm für mentale Gesundheit, das sich die
+Belastetsten nicht leisten können, hat ein Glaubwürdigkeitsproblem. Zwei Plätze
+im Monat kosten unter 2 % des Umsatzes.
+
+**Zur Zielgruppe, unverändert ehrlich:** Studierende sind die Gruppe mit der
+geringsten Zahlungsbereitschaft. Der Preis funktioniert bei ihnen über
+Ratenzahlung, über Eltern als Zahlende und über den zweiten Vertriebsweg im
+nächsten Abschnitt — nicht über Überzeugungsarbeit auf der Verkaufsseite.
+
+## 6. Der zweite Vertriebsweg
+
+Verkaufe auch an die, **die für Studierende zahlen**. Dasselbe Produkt, anderer
+Kanal — und das neue Format passt hier sogar besser als das alte, weil es keine
+festen Gruppentermine erfordert:
+
+- **Studierendenwerke** — psychosoziale Beratungsstellen mit langen Wartezeiten
+  suchen Angebote zur Überbrückung. Dein Programm ist eines, das sie vergeben
+  können, ohne selbst Termine zu stellen.
 - **Hochschulen** — Gesundheitsmanagement, Studienberatung, Präventionsbudgets
-- **Fachbereiche** mit hoher Abbruchquote — Programme gegen Studienabbruch sind
+- **Fachbereiche mit hoher Abbruchquote** — Programme gegen Studienabbruch sind
   ein etabliertes Förderziel
-- **Krankenkassen** — Präventionsangebote nach § 20 SGB V; setzt allerdings ein
-  Zertifizierungsverfahren voraus und ist ein eigenes Projekt
+- **Krankenkassen** — Präventionsangebote nach § 20 SGB V. Eigenes Projekt mit
+  eigenem Zertifizierungsverfahren, aber der größte Hebel.
 
-Ein Lizenzmodell (eine Hochschule kauft 20 Plätze für 15.000 €) bringt denselben
-Umsatz ohne den Widerstand, den 1000 € bei einer Einzelperson mit Studienkredit
-auslösen. Die B2C-Kohorte ist dann der Nachweis, dass es funktioniert — und der
-Weg zum eigentlichen Geschäft.
+Ein Kontingentmodell — eine Hochschule kauft 20 Plätze für 15.000 € — bringt
+denselben Umsatz ohne den Widerstand, den 1.000 € bei einer Einzelperson mit
+Studienkredit auslösen. Die B2C-Teilnehmenden liefern dafür den Nachweis: Nach
+zwanzig vollständigen Verläufen hast du eine Auswertung, die man einem
+Studierendenwerk vorlegen kann.
 
-## 5. Startplan bis zur ersten Kohorte
+## 7. Startplan
 
 | Phase | Dauer | Inhalt |
 |---|---|---|
-| **Validierung** | 2 Wochen | Warteliste über YouTube und Instagram. Ziel: 150 Eintragungen, bevor eine einzige Lektion produziert wird. |
-| **Vorverkauf** | 2 Wochen | Kohorte 1 zum Pionierpreis verkaufen. Ab 8 Zusagen wird produziert, darunter nicht. |
-| **Produktion** | 6 Wochen | Workbook zuerst, Videos in Blöcken. Zu Kursbeginn müssen nur die Wochen 1–4 fertig sein. |
-| **Durchlauf 1** | 12 Wochen | Live. Jede Woche Rückmeldung einsammeln, Material danach überarbeiten. |
-| **Kohorte 2** | ab Woche 22 | Zum Listenpreis, mit den Ergebnissen aus Durchlauf 1 als Beleg. |
+| **Rechtliche Klärung** | parallel, sofort | FernUSG und Umsatzsteuer, siehe unten |
+| **Warteliste** | 2 Wochen | Kostenloses Selbst-Screening mit Auswertung als Einstieg. Ziel: 150 Eintragungen. |
+| **Vorverkauf** | 2 Wochen | Die ersten 10 zum Pionierpreis. Ab 5 Zusagen wird produziert. |
+| **Produktion Teil 1** | 3 Wochen | Modul 1 und 2 vollständig, Workbook-Kapitel 1–4, Auswertungsvorlagen, Fragebogen-Strecke |
+| **Start** | ab Woche 8 | Erste Teilnehmende starten. Du hältst eine Woche Vorsprung. |
+| **Produktion Teil 2** | Wochen 8–19 | Modul 3–12, jeweils eine Woche vor Bedarf |
+| **Vertiefungen** | ab Woche 20 | Erst die Pfade, die tatsächlich vergeben wurden |
+| **Listenpreis** | ab Teilnehmer 11 | Mit den ersten Verläufen als Beleg |
 
-Die wichtigste Regel darin: **erst verkaufen, dann produzieren.** 150 Stunden
-Produktion für ein Programm, das niemand kauft, ist der teuerste vermeidbare Fehler.
+Die wichtigste Regel: **erst verkaufen, dann produzieren.** 150 Stunden
+Produktion für ein Programm, das niemand kauft, ist der teuerste vermeidbare
+Fehler — und beim rollierenden Modell brauchst du zum Start ohnehin nur zwei
+fertige Module.
 
-Als Einstiegsangebot eignet sich ein kostenloses Material aus Woche 1 — das
-Selbst-Screening mit Auswertung. Es ist echter Nutzen, es qualifiziert die
-Interessierten, und es füttert direkt die Warteliste.
+Das kostenlose Selbst-Screening ist dabei kein Lockmittel, sondern echter
+Nutzen: Es liefert eine ehrliche Einordnung, es qualifiziert Interessierte
+vor — und wer dort auffällige Werte hat, bekommt sofort den Hinweis auf
+Abklärung statt einen Kaufbutton.
 
 ---
 
-## 6. Rechtliche Punkte — vor dem ersten Verkauf klären
+## 8. Rechtliche Punkte — vor dem ersten Verkauf klären
 
-Ich bin kein Anwalt, und die folgenden Punkte ersetzen keine Rechtsberatung.
-Aber sie sind zu konkret und zu teuer, um sie zu übergehen. **Punkt 6.1 ist der
-wichtigste Absatz dieses gesamten Dokuments.**
+Ich bin kein Anwalt, das ersetzt keine Rechtsberatung. Aber die Punkte sind zu
+konkret und zu teuer, um sie zu übergehen. **Abschnitt 8.1 ist der wichtigste
+Absatz dieses gesamten Projekts.**
 
-### 6.1 Fernunterrichtsschutzgesetz (FernUSG) — existenzielles Risiko
+### 8.1 Fernunterrichtsschutzgesetz (FernUSG) — existenzielles Risiko
 
-Ein entgeltliches Programm, bei dem Lehrende und Lernende überwiegend räumlich
-getrennt sind, Wissen vermittelt wird und der Lernerfolg überwacht wird, fällt
-unter das FernUSG und braucht eine **Zulassung der ZFU**. Der Begriff der
-Lernerfolgskontrolle wird von der Rechtsprechung weit ausgelegt — schon die
-Möglichkeit, in Live-Calls Fragen zu stellen und Rückmeldung zu bekommen, hat
-Gerichten dafür ausgereicht.
+Ein entgeltliches Programm fällt unter das FernUSG, wenn Lehrende und Lernende
+überwiegend räumlich getrennt sind, Wissen vermittelt wird und **der Lernerfolg
+überwacht wird**. Dann braucht es eine Zulassung der ZFU. Ohne sie ist der
+Vertrag **nichtig** (§ 7 FernUSG) — Teilnehmende können ihr Geld zurückfordern,
+rückwirkend und auch nach vollständigem Abschluss.
 
-Genau das beschreibt dieses Programm.
+**Diese Fassung des Programms ist davon deutlicher betroffen als die
+Gruppenvariante, nicht weniger.** Der Begriff der Lernerfolgskontrolle wird von
+der Rechtsprechung weit ausgelegt; schon die Möglichkeit, Fragen zu stellen und
+Rückmeldung zu erhalten, hat Gerichten ausgereicht. Dein Programm hat mehr als
+das: Teilnehmende reichen Protokolle und Fragebögen ein, du wertest sie aus und
+gibst dreimal schriftlich individuelle Rückmeldung. Das ist Lernerfolgskontrolle
+im Kern des Begriffs — und es ist gleichzeitig genau das Element, das den Preis
+trägt. Wegdefinieren lässt es sich also nicht.
 
-Ohne Zulassung ist der Vertrag **nichtig** (§ 7 FernUSG). Teilnehmende können das
-Geld zurückfordern, auch rückwirkend und auch dann, wenn sie das Programm
-vollständig absolviert haben. Bei drei Kohorten wären das über 40.000 € offene
-Rückforderung.
+Bei 20 verkauften Plätzen stehen 20.000 € im Feuer, bei 100 sind es 100.000 €.
 
-Drei mögliche Wege:
+Drei Wege:
 
-1. **ZFU-Zulassung beantragen.** Dauert mehrere Monate, kostet je nach Umfang
-   einen niedrigen bis mittleren vierstelligen Betrag — und wird zum
-   Verkaufsargument ("staatlich zugelassener Fernlehrgang").
-2. **Programm so gestalten, dass es nicht darunter fällt.** Überwiegend
-   synchrone Live-Anteile, keine Lernerfolgskontrolle, keine Korrektur von
-   Einsendeaufgaben. Das schwächt allerdings genau die Elemente, die den Preis
-   rechtfertigen.
-3. **Anwaltlich prüfen lassen.** Vor dem ersten verkauften Platz, nicht danach.
+1. **ZFU-Zulassung beantragen.** Mehrere Monate Vorlauf, je nach Umfang ein
+   niedriger bis mittlerer vierstelliger Betrag — und danach ein
+   Verkaufsargument, das kein Wettbewerber hat: staatlich zugelassener Fernlehrgang.
+2. **Anwaltlich prüfen lassen**, ob eine Gestaltung außerhalb des
+   Anwendungsbereichs möglich ist. Bei diesem Zuschnitt halte ich das für
+   unwahrscheinlich, aber die Einschätzung ist nicht meine.
+3. **Erst gar nicht verkaufen, bis eines von beiden geklärt ist.** Die
+   Warteliste kannst du trotzdem aufbauen — sie kostet nichts und ist kein Vertrag.
 
-Behandle das nicht als Formalie. Es ist der einzige Punkt in diesem Dokument,
-der das gesamte Geschäft rückwirkend vernichten kann.
+Behandle das nicht als Formalie. Es ist der einzige Punkt hier, der das gesamte
+Geschäft rückwirkend vernichten kann.
 
-### 6.2 Heilpraktikergesetz und Werbung
+### 8.2 Heilkundevorbehalt und Werbung
 
-Keine Heilbehandlung, keine Diagnostik, keine Heilversprechen. Konkret heißt das
-für die Außenkommunikation:
+Keine Heilbehandlung, keine Diagnostik, keine Heilversprechen. Das Standort-
+gespräch ist die Stelle, an der die Grenze in der Praxis verläuft — deshalb
+steht im Gesprächsprotokoll ein eigener Abschnitt, was in diesem Gespräch nicht
+stattfindet. Halte dich daran, auch wenn es sich im Einzelfall unpassend anfühlt.
 
-- **Nicht schreiben:** "Wir behandeln deine Depression", "Angst loswerden",
-  "Therapie-Alternative", "heilt", "Diagnose"
-- **Schreiben:** "Prävention", "Psychoedukation", "Training", "Bildungsangebot",
-  "Umgang mit", "wissenschaftlich fundierte Methoden"
+Für die Außenkommunikation:
 
-Der Hinweis, dass das Programm keine Psychotherapie ist und diese nicht ersetzt,
-gehört sichtbar auf die Verkaufsseite — nicht nur in die AGB. Falls du approbiert
-oder Kammermitglied bist, kommt die jeweilige Berufsordnung hinzu; sie regelt
-Werbung strenger als das allgemeine Wettbewerbsrecht.
+- **Nicht:** „behandeln", „heilen", „Depression loswerden", „Therapie-Alternative",
+  „Diagnose", „Angst besiegen"
+- **Sondern:** „Prävention", „Psychoedukation", „Training", „Bildungsangebot",
+  „Umgang mit", „Auswertung deiner Daten", „wissenschaftlich fundierte Methoden"
 
-Wirkaussagen dürfen nur behauptet werden, soweit sie belegt sind (UWG). "In
-Studien wirksame Methoden" ist zulässig. "85 % unserer Teilnehmenden fühlen sich
-besser" ist es erst, wenn du diese Zahl aus deinen eigenen Messungen tatsächlich
-hast — was ab Kohorte 2 der Fall sein wird.
+Der Hinweis, dass es keine Psychotherapie ist und diese nicht ersetzt, gehört
+sichtbar auf die Verkaufsseite. Falls du approbiert oder Kammermitglied bist,
+gilt zusätzlich die Berufsordnung — sie regelt Werbung strenger als das
+allgemeine Wettbewerbsrecht.
 
-### 6.3 Verbraucherschutz
+Wirkaussagen nur, soweit belegt (UWG). „In Studien wirksame Methoden" ist
+zulässig. Eine Prozentzahl über deine Teilnehmenden erst, wenn du sie aus
+deinen eigenen Messungen hast — dann aber mit der Zahl der Teilnehmenden dabei.
 
-- **Widerrufsrecht** 14 Tage für Verbraucher, mit ordnungsgemäßer Belehrung.
-  Bei digitalen Inhalten erlischt es vorzeitig nur mit ausdrücklicher Zustimmung
-  und Kenntnisnahme des Verlusts — das muss der Bestellprozess sauber abbilden.
+### 8.3 Verbraucherschutz
+
+- **Widerrufsrecht** 14 Tage, mit ordnungsgemäßer Belehrung. Bei digitalen
+  Inhalten erlischt es vorzeitig nur mit ausdrücklicher Zustimmung und
+  Kenntnisnahme des Verlusts — der Bestellprozess muss das sauber abbilden.
+  Beim rollierenden Start ist das besonders relevant, weil der Zugang sofort
+  freigeschaltet wird.
 - **Ratenzahlung:** Ein Zahlungsaufschub gegen Aufschlag kann als entgeltliche
-  Finanzierungshilfe gelten und Verbraucherdarlehensrecht auslösen. Halte die
-  Raten deshalb ohne Aufschlag oder mit sehr geringem, und beschränke dich auf
-  drei Raten. Prüfen lassen.
-- **Impressum, AGB, Datenschutzerklärung, Preisangaben inklusive Umsatzsteuer.**
+  Finanzierungshilfe gelten und Verbraucherdarlehensrecht auslösen. Drei Raten
+  ohne oder mit sehr geringem Aufschlag halten, und prüfen lassen.
+- **Impressum, AGB, Datenschutzerklärung, Preise inklusive Umsatzsteuer.**
 
-### 6.4 Datenschutz
+### 8.4 Datenschutz
 
-Alles, was Teilnehmende über Stimmung, Schlaf, Grübeln oder Belastung angeben,
-sind **Gesundheitsdaten nach Art. 9 DSGVO** — die strengste Kategorie. Daraus folgt:
+Vollständig im [Messkonzept](messung-und-auswertung.md), Abschnitt 6. Die
+Kurzfassung: Es sind Gesundheitsdaten nach Art. 9 DSGVO — gesonderte
+Einwilligung, Pseudonymisierung, Auftragsverarbeitungsverträge mit allen vier
+Dienstleistern, keine Gesundheitsdaten in Messengern, dokumentiertes
+Löschkonzept, keine Aufzeichnung des Gesprächs.
 
-- Ausdrückliche, gesonderte Einwilligung, nicht in den AGB versteckt
-- Auftragsverarbeitungsverträge mit Kursplattform, Videokonferenz und Mailtool
-- **Keine Selbst-Screenings, Protokolle oder persönlichen Inhalte in WhatsApp-Gruppen**
-- Aufbewahrungsfristen und Löschkonzept schriftlich festhalten
-- Live-Calls nur aufzeichnen, wenn Teilnehmendenbeiträge herausgeschnitten oder
-  gesondert eingewilligt werden
-
-### 6.5 Steuern
+### 8.5 Steuern
 
 Bildungsleistungen können nach § 4 Nr. 21 UStG umsatzsteuerfrei sein, das ist
-aber an Voraussetzungen geknüpft und bei Coaching- und Präventionsangeboten
-regelmäßig strittig. Der Unterschied ist erheblich: Bei 1000 € brutto sind es
-knapp 160 € Umsatzsteuer pro Platz, also rund 2.400 € pro Kohorte. Kläre mit
-deiner Steuerberatung, ob die Befreiung greift, **bevor** du den Preis
-kommunizierst — nachträglich lässt er sich schlecht um 19 % erhöhen.
+aber an Voraussetzungen geknüpft und bei Präventions- und Coachingangeboten
+regelmäßig strittig. Der Unterschied ist erheblich: Bei 1.000 € brutto sind es
+knapp 160 € je Platz. Kläre das mit deiner Steuerberatung, **bevor** du den
+Preis kommunizierst — nachträglich lässt er sich schlecht um 19 % erhöhen.
 
-### 6.6 Fachliche Absicherung
+Nebenbei: Eine ZFU-Zulassung nach 8.1 kann für die Umsatzsteuerbefreiung
+hilfreich sein. Die beiden Fragen gehören deshalb in dieselbe Beratung.
 
-- Schriftliche Ausschlusskriterien und ein strukturiertes Onboarding-Gespräch,
-  in dem sie geprüft werden
-- Dokumentiertes Vorgehen für den Fall, dass jemand im Programm in eine Krise
-  gerät — inklusive der Frage, was du tust, wenn eine Person in einem Live-Call
-  von Suizidgedanken berichtet
-- Krisenkontakte in jedem Modul und im Workbook
-- Berufshaftpflicht, die genau diese Tätigkeit einschließt
-- Fachliche Supervision oder Intervision für dich selbst
+### 8.6 Fachliche Absicherung
+
+- Schriftliche Ausschlusskriterien, geprüft **vor** der Freigabe des Zugangs,
+  nicht erst im Gespräch
+- Das Sicherheitsprotokoll aus dem Gesprächsleitfaden, verbindlich, mit
+  24-Stunden-Zusage — oder das Sicherheits-Item wird nicht gestellt
+- Krisenkontakte in jedem Modul, jedem Fragebogen und im Workbook
+- Berufshaftpflicht, die genau diese Tätigkeit einschließt — kläre ausdrücklich,
+  ob individuelle schriftliche Auswertungen mitversichert sind
+- Supervision oder Intervision für dich, insbesondere für die Gespräche
 
 ---
 
-## 7. Nächste Schritte
+## 9. Nächste Schritte, in dieser Reihenfolge
 
 1. FernUSG anwaltlich klären lassen — **vor allem anderen**
-2. Steuerliche Behandlung mit der Steuerberatung klären
-3. Warteliste starten, Selbst-Screening aus Woche 1 als kostenloses Material
-4. Ab 8 Zusagen: Workbook Kapitel 1–4 und Videos Woche 1–4 produzieren
-5. Kohorte 1 durchführen, wöchentlich Rückmeldungen einsammeln
-6. Ergebnisse auswerten und für Kohorte 2 zum Listenpreis als Beleg verwenden
+2. Umsatzsteuerliche Behandlung mit der Steuerberatung klären, im selben Zug
+3. Lizenzfragen zu WHO-5 und PSS-10 für den kommerziellen Einsatz klären
+4. Warteliste starten, kostenloses Selbst-Screening als Einstieg
+5. Ab 5 Zusagen: Modul 1 und 2, Workbook-Kapitel 1–4, Fragebogenstrecke,
+   Auswertungsvorlagen produzieren
+6. Erste 10 Teilnehmende zum Pionierpreis, Verläufe vollständig dokumentieren
+7. Ab Teilnehmer 11 Listenpreis, parallel das Gespräch mit dem ersten
+   Studierendenwerk suchen

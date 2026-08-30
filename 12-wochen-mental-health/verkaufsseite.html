@@ -229,6 +229,74 @@ details .answer{padding:0 0 22px;max-width:var(--read);color:var(--ink-soft);fon
 footer{padding-block:44px;border-top:1px solid var(--rule)}
 footer .body-col{font-size:.86rem;color:var(--muted)}
 .placeholder{background:var(--accent-soft);color:var(--accent-ink);padding:0 5px;font-family:"IBM Plex Mono",monospace;font-size:.85em}
+
+/* ---------- Zeitstrahl ---------- */
+.timeline{margin-top:14px;background:var(--surface);border:1px solid var(--rule);padding:clamp(22px,3.4vw,34px);box-shadow:var(--shadow)}
+.tl-head{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:30px}
+.tl-track{position:relative;display:grid;grid-template-columns:repeat(12,1fr);gap:4px;align-items:end;padding-top:52px}
+.tl-week{position:relative;height:12px;background:var(--surface-2);border-bottom:2px solid var(--rule)}
+.tl-week.event{background:var(--accent-soft);border-bottom-color:var(--accent)}
+.tl-week .wk{
+  position:absolute;bottom:-22px;left:0;right:0;text-align:center;
+  font-family:"IBM Plex Mono",monospace;font-size:.64rem;color:var(--muted);
+}
+.tl-week.event .wk{color:var(--accent);font-weight:500}
+.tl-flag{
+  position:absolute;bottom:16px;left:50%;transform:translateX(-50%);
+  white-space:nowrap;font-family:"IBM Plex Mono",monospace;font-size:.64rem;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--accent);
+  border-bottom:1px solid var(--accent);padding-bottom:20px;
+}
+.tl-flag.high{padding-bottom:34px}
+@media(max-width:720px){
+  .tl-track{grid-template-columns:repeat(12,1fr);padding-top:74px}
+  .tl-flag{font-size:.55rem}
+}
+.tl-legend{margin-top:34px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;border-top:1px solid var(--rule);padding-top:20px}
+.tl-legend div{display:flex;flex-direction:column;gap:4px}
+.tl-legend b{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:500}
+.tl-legend p{font-size:.88rem;color:var(--ink-soft)}
+
+/* ---------- Dokumente ---------- */
+.docs{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.doc{background:var(--paper);padding:26px 24px;display:flex;flex-direction:column;gap:10px}
+.doc .when{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.doc h4{margin:0;font-family:Newsreader,serif;font-weight:500;font-size:1.2rem}
+.doc p{font-size:.93rem;color:var(--ink-soft)}
+.doc .size{margin-top:auto;padding-top:12px;border-top:1px dotted var(--rule);font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--muted)}
+
+/* ---------- Berichtsauszug ---------- */
+.report{
+  background:var(--surface);border:1px solid var(--rule);box-shadow:var(--shadow);
+  display:grid;grid-template-columns:minmax(0,1fr);
+}
+.report-tab{
+  display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;
+  padding:16px clamp(22px,3vw,34px);border-bottom:1px solid var(--rule);
+  font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);
+}
+.report-body{padding:clamp(26px,3.6vw,40px);display:flex;flex-direction:column;gap:18px}
+.report-body p{font-family:Newsreader,serif;font-size:clamp(1.06rem,1.7vw,1.22rem);line-height:1.6;max-width:60ch}
+.report-body .figure{color:var(--accent);font-variant-numeric:tabular-nums}
+.report-foot{padding:16px clamp(22px,3vw,34px);border-top:1px solid var(--rule);font-size:.82rem;color:var(--muted);max-width:70ch}
+
+/* ---------- Gesprächsablauf ---------- */
+.agenda{display:grid;gap:0;border-top:1px solid var(--rule)}
+.ag{display:grid;grid-template-columns:88px 1fr;gap:22px;padding:16px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.ag b{font-family:"IBM Plex Mono",monospace;font-weight:400;font-size:.8rem;color:var(--accent);font-variant-numeric:tabular-nums}
+.ag div{display:flex;flex-direction:column;gap:4px}
+.ag strong{font-weight:600;font-size:1rem}
+.ag p{font-size:.92rem;color:var(--ink-soft)}
+@media(max-width:560px){.ag{grid-template-columns:1fr;gap:6px}}
+
+/* ---------- Messtabelle ---------- */
+.instr{width:100%;border-collapse:collapse;font-size:.93rem}
+.instr th,.instr td{text-align:left;padding:13px 14px;border-bottom:1px solid var(--rule);vertical-align:top}
+.instr th{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.instr td:first-child{font-weight:600;white-space:nowrap}
+.instr td:last-child{color:var(--ink-soft)}
+.table-scroll{overflow-x:auto}
 </style>
 
 <main>
@@ -237,45 +305,44 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
   <!-- HERO -->
   <section class="hero">
     <div class="hero-inner">
-      <p class="eyebrow">12 Wochen · Online mit Live-Begleitung · Kohorte 1</p>
+      <p class="eyebrow">12 Wochen · Start jederzeit · <span class="placeholder">[X]</span> Plätze pro Monat</p>
       <h1>Zwölf Wochen an dem,<br>was dich <span class="warm">nachts wachhält</span>.</h1>
-      <p class="lead">Ein begleitetes Programm für Studierende und junge Erwachsene, die grübeln, aufschieben, sich ständig unter Druck fühlen und schon länger müde sind. Kein Ratgeber zum Wegklicken, sondern zwölf Wochen strukturierte Arbeit — mit Methoden, die in der Forschung funktionieren, und mit jemandem, der jede Woche da ist.</p>
+      <p class="lead">Ein Online-Programm für Studierende und junge Erwachsene, die grübeln, aufschieben, unter Druck stehen und schon länger müde sind. Du arbeitest den Kurs im eigenen Tempo durch — aber du machst es nicht allein: In Woche 3 sitzen wir 75 Minuten zusammen und sehen uns deine eigenen Daten an. Am Ende bekommst du eine Auswertung deiner zwölf Wochen, geschrieben von einem Menschen.</p>
       <div class="hero-meta">
-        <span><i class="dot"></i>48 Lektionen zum eigenen Tempo</span>
-        <span><i class="dot"></i>12 Live-Calls, Gruppe max. 15</span>
-        <span><i class="dot"></i>Start <span class="placeholder">[Startdatum]</span></span>
+        <span><i class="dot"></i>48 Lektionen, im eigenen Tempo</span>
+        <span><i class="dot"></i>Ein 1:1-Gespräch, 75 Minuten</span>
+        <span><i class="dot"></i>Drei persönliche Auswertungen</span>
       </div>
       <div class="cta-row">
         <a class="btn" href="#preis">Platz sichern</a>
-        <a class="btn ghost" href="#wochen">Die zwölf Wochen ansehen</a>
+        <a class="btn ghost" href="#bericht">Einen echten Berichtsauszug lesen</a>
       </div>
 
-      <div class="chart">
-        <div class="chart-head">
-          <p class="eyebrow">Programmverlauf</p>
-          <p class="eyebrow">◆ = Messpunkt</p>
+      <div class="timeline">
+        <div class="tl-head">
+          <p class="eyebrow">So läuft es ab</p>
+          <p class="eyebrow">Woche 1 bis 12</p>
         </div>
-        <div class="bars">
-          <div class="bar mark" data-phase="1" style="height:38%;animation-delay:.05s"><span>◆ 1</span></div>
-          <div class="bar" data-phase="1" style="height:46%;animation-delay:.1s"><span>2</span></div>
-          <div class="bar" data-phase="1" style="height:52%;animation-delay:.15s"><span>3</span></div>
-          <div class="bar" data-phase="2" style="height:58%;animation-delay:.2s"><span>4</span></div>
-          <div class="bar" data-phase="2" style="height:64%;animation-delay:.25s"><span>5</span></div>
-          <div class="bar mark" data-phase="2" style="height:70%;animation-delay:.3s"><span>◆ 6</span></div>
-          <div class="bar" data-phase="3" style="height:74%;animation-delay:.35s"><span>7</span></div>
-          <div class="bar" data-phase="3" style="height:80%;animation-delay:.4s"><span>8</span></div>
-          <div class="bar" data-phase="3" style="height:84%;animation-delay:.45s"><span>9</span></div>
-          <div class="bar" data-phase="4" style="height:89%;animation-delay:.5s"><span>10</span></div>
-          <div class="bar" data-phase="4" style="height:94%;animation-delay:.55s"><span>11</span></div>
-          <div class="bar mark" data-phase="4" style="height:100%;animation-delay:.6s"><span>◆ 12</span></div>
+        <div class="tl-track">
+          <div class="tl-week"><span class="wk">1</span></div>
+          <div class="tl-week"><span class="wk">2</span></div>
+          <div class="tl-week event"><span class="tl-flag high">↓ Standortgespräch, 75 Min</span><span class="wk">3</span></div>
+          <div class="tl-week"><span class="wk">4</span></div>
+          <div class="tl-week"><span class="wk">5</span></div>
+          <div class="tl-week event"><span class="tl-flag">↓ Zwischenauswertung</span><span class="wk">6</span></div>
+          <div class="tl-week"><span class="wk">7</span></div>
+          <div class="tl-week"><span class="wk">8</span></div>
+          <div class="tl-week"><span class="wk">9</span></div>
+          <div class="tl-week"><span class="wk">10</span></div>
+          <div class="tl-week"><span class="wk">11</span></div>
+          <div class="tl-week event"><span class="tl-flag high">↓ Verlaufsbericht</span><span class="wk">12</span></div>
         </div>
-        <div class="phases">
-          <div class="phase-band">I — Fundament</div>
-          <div class="phase-band">II — Kopf</div>
-          <div class="phase-band">III — Gefühle &amp; Menschen</div>
-          <div class="phase-band">IV — Leben</div>
+        <div class="tl-legend">
+          <div><b>Woche 1–2</b><p>Du startest mit den ersten Modulen und sammelst zwei Wochen Daten: Stimmung, Schlaf, Aktivität.</p></div>
+          <div><b>Woche 3 · das Gespräch</b><p>75 Minuten zu zweit. Wir sehen uns deine Daten an und legen fest, wo bei dir die Arbeit liegt.</p></div>
+          <div><b>Woche 4–11</b><p>Du arbeitest nach deinem persönlichen Kursplan. In Woche 6 bekommst du eine schriftliche Zwischenauswertung.</p></div>
+          <div><b>Woche 12 · der Bericht</b><p>Deine zwölf Wochen, ausgewertet und aufgeschrieben. Rund acht Seiten, individuell.</p></div>
         </div>
-        <p class="chart-note">Die Balken zeigen den Aufbau des Programms, nicht ein versprochenes Ergebnis: Jede Woche baut auf der vorherigen auf. In Woche 1, 6 und 12 wird mit denselben Fragebögen gemessen, damit du deine eigene Entwicklung siehst statt sie zu schätzen.</p>
       </div>
     </div>
   </section>
@@ -285,7 +352,7 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
   <!-- KENNST DU DAS -->
   <section>
     <div class="head">
-      <p class="eyebrow">Wofür das hier gedacht ist</p>
+      <p class="eyebrow">Wofür das gedacht ist</p>
       <h2>Wenn dir das bekannt vorkommt.</h2>
     </div>
     <div class="signals">
@@ -293,9 +360,126 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
       <div class="signal"><b>02</b><p>Die Hausarbeit ist seit drei Wochen offen. Du weißt genau, was zu tun ist. Du tust es trotzdem nicht.</p></div>
       <div class="signal"><b>03</b><p>Du bist müde, obwohl du geschlafen hast. Und du schläfst schlecht, obwohl du müde bist.</p></div>
       <div class="signal"><b>04</b><p>Alle anderen scheinen es hinzubekommen. Du fragst dich, was mit dir nicht stimmt.</p></div>
-      <div class="signal"><b>05</b><p>Du kennst die Ratschläge. Sport, früher ins Bett, Achtsamkeit. Es scheitert nicht am Wissen.</p></div>
+      <div class="signal"><b>05</b><p>Du kennst die Ratschläge längst. Sport, früher ins Bett, Achtsamkeit. Es scheitert nicht am Wissen.</p></div>
     </div>
-    <p class="lead" style="margin-top:32px">Genau da setzt das Programm an: nicht bei mehr Information, sondern bei zwölf Wochen, in denen du eine Sache nach der anderen tatsächlich umsetzt — mit einer Gruppe, die dieselbe Woche durchläuft, und mit jemandem, der nachfragt.</p>
+    <p class="lead" style="margin-top:32px">Deshalb besteht dieses Programm nicht aus mehr Information. Es besteht aus zwölf Wochen, in denen du eine Sache nach der anderen tatsächlich umsetzt — und aus jemandem, der sich ansieht, was dabei herauskommt.</p>
+  </section>
+
+  <hr class="rule">
+
+  <!-- DREI TEILE -->
+  <section>
+    <div class="head">
+      <p class="eyebrow">Drei Bestandteile</p>
+      <h2>Mehr ist es nicht. Weniger aber auch nicht.</h2>
+    </div>
+    <div class="cols2">
+      <div class="panel">
+        <h3>1 — Der Kurs</h3>
+        <ul class="ticks">
+          <li>12 Module, 48 Lektionen zu 8–15 Minuten, rund 9 Stunden Video</li>
+          <li>124 Seiten Workbook zum Ausdrucken, ein Kapitel pro Woche</li>
+          <li>Pro Woche genau ein Experiment: eine Übung, die sieben Tage läuft</li>
+          <li>Im eigenen Tempo, 12 Monate Zugang</li>
+        </ul>
+      </div>
+      <div class="panel warm">
+        <h3>2 — Das Standortgespräch</h3>
+        <ul class="ticks">
+          <li>75 Minuten, nur du und ich, per Video</li>
+          <li>In Woche 3 — dann liegen zwei Wochen deiner Daten vor</li>
+          <li>Wir lesen deine Kurven gemeinsam, statt dass ich dich ausfrage</li>
+          <li>Ergebnis: dein persönlicher Kursplan für die restlichen neun Wochen</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>3 — Die Auswertung</h3>
+        <ul class="ticks">
+          <li>Drei Messpunkte mit denselben Fragebögen: Woche 1, 6 und 12</li>
+          <li>Ein wöchentlicher Check-in von unter drei Minuten</li>
+          <li>Drei schriftliche Rückmeldungen von mir, keine automatischen Mails</li>
+          <li>Am Ende dein Verlaufsbericht über zwölf Wochen</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- DAS GESPRÄCH -->
+  <section>
+    <div class="head">
+      <p class="eyebrow">Das Herzstück</p>
+      <h2>Warum das Gespräch in Woche 3 liegt.</h2>
+      <p class="lead">Am Anfang wäre es ein Kennenlernen — ich hätte nichts als deine Selbsteinschätzung, und die ist bei Stimmung notorisch unzuverlässig. Am Ende wäre es eine Rückschau, aus der nichts mehr folgt. Nach zwei Wochen liegen deine Fragebögen vor, vierzehn Tage Stimmungsprotokoll und dein Schlaftagebuch — und es sind noch neun Wochen übrig, in denen das, was wir finden, etwas verändert.</p>
+    </div>
+    <div class="agenda">
+      <div class="ag"><b>0–15</b><div><strong>Was dich hergebracht hat</strong><p>Eine offene Frage, dann höre ich zu. Kein Fragebogen, keine Anamnese.</p></div></div>
+      <div class="ag"><b>15–35</b><div><strong>Deine Daten, gemeinsam gelesen</strong><p>Bildschirm geteilt. Deine Ziele, dein Wohlbefinden, deine Stimmungskurve, dein Schlaf, deine Aktivität. Du liest zuerst, ich danach.</p></div></div>
+      <div class="ag"><b>35–48</b><div><strong>Das Muster</strong><p>Ich sage dir, was ich sehe — als Frage, nicht als Befund. In etwa jedem dritten Gespräch liege ich falsch, und das kommt dann auf den Tisch.</p></div></div>
+      <div class="ag"><b>48–62</b><div><strong>Dein Schwerpunkt</strong><p>Alle zwölf Module machst du. Drei davon werden vertieft — welche, entscheidet sich hier, anhand deiner Daten.</p></div></div>
+      <div class="ag"><b>62–75</b><div><strong>Die drei Festlegungen</strong><p>Was ab morgen anders läuft, wann dein fester Kurstermin ist, was du bis Woche 6 dokumentierst. In deinen Worten, nicht in meinen.</p></div></div>
+    </div>
+    <p class="chart-note" style="margin-top:26px">Innerhalb von 48 Stunden bekommst du das Ergebnis schriftlich: eine Seite, mit dem, was in deinen Daten steht, deinem Schwerpunkt und den drei Festlegungen.</p>
+  </section>
+
+  <hr class="rule">
+
+  <!-- DIE DOKUMENTE -->
+  <section>
+    <div class="head">
+      <p class="eyebrow">Was du behältst</p>
+      <h2>Drei Dokumente, die es sonst nirgends gibt.</h2>
+      <p class="lead">Videos gibt es überall. Was dieses Programm ausmacht, sind drei Texte, die jemand über deine zwölf Wochen geschrieben hat — nicht über zwölf Wochen im Allgemeinen.</p>
+    </div>
+    <div class="docs">
+      <div class="doc"><span class="when">Woche 3</span><h4>Dein Kursplan</h4><p>Was in deinen Daten steht, wo dein Schwerpunkt liegt und warum, und die drei Dinge, die du dir vorgenommen hast — wörtlich so, wie du sie im Gespräch gesagt hast.</p><p class="size">1 Seite · PDF</p></div>
+      <div class="doc"><span class="when">Woche 6</span><h4>Deine Zwischenauswertung</h4><p>Was sich in den Zahlen verändert hat, was in deinen Wochendaten steht, eine Anpassung für die zweite Hälfte — und eine Frage, die du dir bis Woche 12 beantwortest.</p><p class="size">1 Seite · PDF</p></div>
+      <div class="doc"><span class="when">Woche 12</span><h4>Dein Verlaufsbericht</h4><p>Alle drei Messpunkte, deine zwölf Wochenkurven, deine beiden Ziele im Verlauf — und eine Seite darüber, welche Zusammenhänge in deinen Daten stehen.</p><p class="size">ca. 8 Seiten · PDF</p></div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- BERICHTSAUSZUG -->
+  <section id="bericht">
+    <div class="head">
+      <p class="eyebrow">Beispiel</p>
+      <h2>So liest sich der Teil, um den es geht.</h2>
+      <p class="lead">Die ersten sechs Seiten des Verlaufsberichts sind Zahlen und Kurven — die kann eine Software erzeugen. Seite 7 nicht. Hier ein Auszug, wie er für eine Teilnehmerin aussehen könnte:</p>
+    </div>
+    <div class="report">
+      <div class="report-tab"><span>Verlaufsbericht · Seite 7</span><span>Zusammenhänge in deinen Daten</span></div>
+      <div class="report-body">
+        <p>Deine Stimmung hängt in deinen Daten stärker am Schlaf als an allem anderen. In den Wochen, in denen du im Schnitt über sieben Stunden geschlafen hast, lag dein Stimmungswert bei <span class="figure">6,4</span> — in den Wochen darunter bei <span class="figure">4,1</span>. Das ist der deutlichste Zusammenhang in deinen zwölf Wochen, und er war schon in Woche 2 sichtbar, bevor wir zum ersten Mal darüber gesprochen haben.</p>
+        <p>Deine Grübelzeit ist von <span class="figure">70</span> auf <span class="figure">35</span> Minuten pro Tag gesunken. Deine Einschlafdauer ist dagegen fast gleich geblieben. Das spricht dafür, dass du das Grübeln tagsüber inzwischen im Griff hast, nachts aber noch nicht — genau dort würde ich weitermachen.</p>
+      </div>
+      <div class="report-foot">Zwölf Wochen an einer Person zeigen Zusammenhänge, keine Ursachen — es gibt keine Vergleichsgruppe, Werte kehren statistisch ohnehin zur Mitte zurück, und ein Semester hat seinen eigenen Rhythmus. Dieser Satz steht auch im echten Bericht, auf Seite 1.</div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- MESSUNG -->
+  <section>
+    <div class="head">
+      <p class="eyebrow">Was gemessen wird</p>
+      <h2>Keine Selbsteinschätzung aus dem Gedächtnis.</h2>
+      <p class="lead">Dreimal dieselben Fragebögen — in Woche 1, 6 und 12 — plus ein wöchentlicher Check-in von unter drei Minuten. Immer dieselben Instrumente, sonst wäre der Verlauf nicht vergleichbar.</p>
+    </div>
+    <div class="table-scroll">
+      <table class="instr">
+        <thead><tr><th>Instrument</th><th>Was es erfasst</th><th>Aufwand</th></tr></thead>
+        <tbody>
+          <tr><td>WHO-5</td><td>Allgemeines Wohlbefinden, international eingesetzt und gut untersucht</td><td>1 Min</td></tr>
+          <tr><td>PSS-10</td><td>Wie viel Stress du in den letzten vier Wochen erlebt hast</td><td>2 Min</td></tr>
+          <tr><td>PHQ-4</td><td>Kurzes Screening auf Ängstlichkeit und Niedergeschlagenheit</td><td>1 Min</td></tr>
+          <tr><td>Deine zwei Ziele</td><td>Was du dir selbst vorgenommen hast, wöchentlich von 0 bis 10</td><td>30 Sek</td></tr>
+          <tr><td>Wochen-Check-in</td><td>Stimmung, Schlaf, Einschlafdauer, Grübelzeit, Umsetzung, Belastung</td><td>3 Min</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="chart-note" style="margin-top:22px">Deine Angaben sind Gesundheitsdaten. Sie werden gesondert eingewilligt, pseudonymisiert gespeichert, nicht weitergegeben und auf Wunsch gelöscht. Sie landen nie in einer Gruppe oder in einem Messenger. Gelesen werden sie von einer Person: mir.</p>
   </section>
 
   <hr class="rule">
@@ -303,7 +487,7 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
   <!-- IST / IST NICHT -->
   <section>
     <div class="head">
-      <p class="eyebrow">Klartext vorab</p>
+      <p class="eyebrow">Klartext</p>
       <h2>Was das ist — und was nicht.</h2>
     </div>
     <div class="cols2">
@@ -312,17 +496,17 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
         <ul class="ticks">
           <li>Ein Bildungs- und Präventionsprogramm: Psychoedukation plus angeleitetes Training.</li>
           <li>Methoden aus der kognitiven Verhaltenstherapie, der Akzeptanz- und Commitment-Therapie und der Emotionsregulation — als Selbsthilfe-Werkzeuge vermittelt.</li>
-          <li>Zwölf Wochen mit festem Aufbau, wöchentlicher Übung und wöchentlicher Live-Begleitung.</li>
-          <li>Eine feste Gruppe von maximal 15 Menschen, die dieselben Wochen durchlaufen.</li>
+          <li>Ein Gespräch, in dem deine eigenen Daten ausgewertet werden.</li>
+          <li>Drei schriftliche Rückmeldungen, die eine Person geschrieben hat.</li>
         </ul>
       </div>
       <div class="panel">
         <h3>Das ist es nicht</h3>
         <ul class="ticks neg">
-          <li>Keine Psychotherapie und kein Ersatz für eine. Wenn du eine Behandlung brauchst, ersetzt dieses Programm sie nicht.</li>
-          <li>Keine Diagnostik. Es wird nichts festgestellt und nichts behandelt.</li>
-          <li>Keine Heilversprechen. Niemand kann dir garantieren, wie es dir in zwölf Wochen geht.</li>
-          <li>Kein Angebot für akute Krisen. Wer gerade in einer steckt, braucht schnellere und andere Hilfe — die Nummern stehen weiter unten.</li>
+          <li>Keine Psychotherapie und kein Ersatz für eine.</li>
+          <li>Keine Diagnostik. Im Gespräch wird nichts festgestellt und nichts behandelt — die Fragebögen sind Verlaufsmessung, kein Befund.</li>
+          <li>Keine Heilversprechen. Niemand kann dir sagen, wie es dir in zwölf Wochen geht.</li>
+          <li>Keine laufende Begleitung. Es gibt ein Gespräch, nicht zwölf — und ich bin nicht erreichbar, wenn es dir akut schlecht geht. Dafür stehen die Nummern unten.</li>
         </ul>
       </div>
     </div>
@@ -330,76 +514,56 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
 
   <hr class="rule">
 
-  <!-- FORMAT -->
-  <section>
+  <!-- MODULE -->
+  <section id="module">
     <div class="head">
-      <p class="eyebrow">Was enthalten ist</p>
-      <h2>Der Umfang, ohne Kleingedrucktes.</h2>
+      <p class="eyebrow">Der Kurs</p>
+      <h2>Zwölf Module, vier Phasen.</h2>
+      <p class="lead">Die Reihenfolge ist kein Zufall. Erst das Fundament — solange Schlaf und Alltag nicht mitspielen, bringt Arbeit an Gedanken wenig. Dann der Kopf, dann Gefühle und Menschen, zuletzt die Richtung und der Plan für danach. Drei dieser Module werden nach dem Gespräch vertieft: die drei, in denen bei dir die Arbeit liegt.</p>
     </div>
-    <div class="facts">
-      <div class="fact"><b>48</b><span>Videolektionen, 8–15 Minuten, ca. 9 Stunden gesamt</span></div>
-      <div class="fact"><b>12 ×</b><span>Live-Gruppencall, 90 Minuten, wöchentlich</span></div>
-      <div class="fact"><b>15</b><span>Plätze pro Kohorte — mehr nicht</span></div>
-      <div class="fact"><b>124</b><span>Seiten Workbook zum Ausdrucken</span></div>
-      <div class="fact"><b>1 : 1</b><span>Onboarding-Gespräch vor dem Start, 30 Minuten</span></div>
-      <div class="fact"><b>+ 8</b><span>Wochen später ein Nachtreffen, im Preis enthalten</span></div>
-      <div class="fact"><b>12</b><span>Monate Zugang zu allen Materialien und Aufzeichnungen</span></div>
-      <div class="fact"><b>3</b><span>Messpunkte mit persönlicher Auswertung als PDF</span></div>
+
+    <div class="phase-head"><p class="eyebrow">Phase I · Modul 1–3</p><h3>Fundament</h3></div>
+    <div class="weeks">
+      <div class="week"><span class="num">MODUL 01</span><h4>Standortbestimmung</h4><p>Wo stehst du gerade — Wohlbefinden, Stress, Schlaf, Aktivität? Zwei Ziele, die man am Ende überprüfen kann.</p><p class="exp">Experiment: <em>Die Wochen-Landkarte</em></p></div>
+      <div class="week"><span class="num">MODUL 02</span><h4>Körper zuerst</h4><p>Schlaf, Rhythmus, Bewegung. Warum die feste Aufstehzeit mehr bewirkt als jede Abendroutine.</p><p class="exp">Experiment: <em>Das Schlaffenster</em></p></div>
+      <div class="week"><span class="num">MODUL 03</span><h4>Tun, bevor die Lust kommt</h4><p>Motivation kommt nach der Handlung. Wie du den Rückzug unterbrichst, der sich selbst füttert.</p><p class="exp">Experiment: <em>Fünf geplante Aktivitäten</em></p></div>
+    </div>
+
+    <div class="phase-head"><p class="eyebrow">Phase II · Modul 4–6</p><h3>Kopf</h3></div>
+    <div class="weeks">
+      <div class="week"><span class="num">MODUL 04</span><h4>Der Grübelstopp</h4><p>Grübeln fühlt sich an wie Problemlösen und ist das Gegenteil. Der Unterschied zwischen „warum" und „wie".</p><p class="exp">Experiment: <em>Die Sorgenzeit</em></p></div>
+      <div class="week"><span class="num">MODUL 05</span><h4>Gedanken sind keine Fakten</h4><p>Zwischen dem, was passiert, und dem, wie du dich fühlst, steht eine Bewertung. Die lässt sich überprüfen.</p><p class="exp">Experiment: <em>Sieben Gedankenprotokolle</em></p></div>
+      <div class="week"><span class="num">MODUL 06</span><h4>Der innere Kritiker</h4><p>Die Stimme, die dich antreibt, ist nicht dein Freund. Selbstwert, Scham und der Vergleich, der nie aufhört.</p><p class="exp">Experiment: <em>Der Brief an dich selbst</em></p></div>
+    </div>
+
+    <div class="phase-head"><p class="eyebrow">Phase III · Modul 7–9</p><h3>Gefühle &amp; Menschen</h3></div>
+    <div class="weeks">
+      <div class="week"><span class="num">MODUL 07</span><h4>Gefühle aushalten</h4><p>Kein Gefühl bleibt. Vier Fertigkeiten für den roten Bereich — und ein Notfallkoffer, der wirklich gepackt wird.</p><p class="exp">Experiment: <em>Der Notfallkoffer</em></p></div>
+      <div class="week"><span class="num">MODUL 08</span><h4>Raus aus der Vermeidung</h4><p>Angst schrumpft nicht durch Nachdenken. Deine Vermeidungslandkarte, in Stufen abgebaut.</p><p class="exp">Experiment: <em>Die ersten drei Stufen</em></p></div>
+      <div class="week"><span class="num">MODUL 09</span><h4>Menschen</h4><p>Einsamkeit ist ein Signal, kein Defekt. Nein sagen, Konflikte ansprechen, das eigene Netz sichtbar machen.</p><p class="exp">Experiment: <em>Zweimal Nein, einmal Kontakt</em></p></div>
+    </div>
+
+    <div class="phase-head"><p class="eyebrow">Phase IV · Modul 10–12</p><h3>Leben</h3></div>
+    <div class="weeks">
+      <div class="week"><span class="num">MODUL 10</span><h4>Wofür das alles</h4><p>Ziele sind Punkte, die man verfehlen kann. Werte sind Richtungen, in die man auch an schlechten Tagen gehen kann.</p><p class="exp">Experiment: <em>Drei Wertehandlungen</em></p></div>
+      <div class="week"><span class="num">MODUL 11</span><h4>Leistung ohne Selbstzerstörung</h4><p>Aufschieben ist kein Zeitmanagement-Problem. Prüfungsdruck, Perfektionismus und der zerlegte Berg.</p><p class="exp">Experiment: <em>Der zerlegte Berg</em></p></div>
+      <div class="week"><span class="num">MODUL 12</span><h4>Dein Plan für danach</h4><p>Rückschläge kommen. Der Unterschied ist, ob du dann einen Plan hast — schriftlich, ausgedruckt, konkret.</p><p class="exp">Experiment: <em>Das Handbuch für schlechte Wochen</em></p></div>
     </div>
   </section>
 
   <hr class="rule">
 
-  <!-- WOCHEN -->
-  <section id="wochen">
-    <div class="head">
-      <p class="eyebrow">Das Curriculum</p>
-      <h2>Zwölf Wochen, vier Phasen.</h2>
-      <p class="lead">Die Reihenfolge ist kein Zufall. Erst kommt das Fundament — solange Schlaf und Alltag nicht mitspielen, bringt Arbeit an Gedanken wenig. Dann der Kopf, dann die Gefühle und die Menschen, zuletzt die Richtung und der Plan für danach.</p>
-    </div>
-
-    <div class="phase-head"><p class="eyebrow">Phase I · Woche 1–3</p><h3>Fundament</h3></div>
-    <div class="weeks">
-      <div class="week"><span class="num">WOCHE 01</span><h4>Standortbestimmung</h4><p>Wo stehst du gerade — bei Wohlbefinden, Stress, Schlaf und Aktivität? Zwei Ziele, die man am Ende überprüfen kann.</p><p class="exp">Experiment: <em>Die Wochen-Landkarte</em></p></div>
-      <div class="week"><span class="num">WOCHE 02</span><h4>Körper zuerst</h4><p>Schlaf, Rhythmus, Bewegung. Ein müder Kopf denkt schlechter — das ist keine Metapher, sondern Neurobiologie.</p><p class="exp">Experiment: <em>Das Schlaffenster</em></p></div>
-      <div class="week"><span class="num">WOCHE 03</span><h4>Tun, bevor die Lust kommt</h4><p>Motivation kommt nach der Handlung, nicht davor. Wie du den Rückzug unterbrichst, der sich selbst füttert.</p><p class="exp">Experiment: <em>Fünf geplante Aktivitäten</em></p></div>
-    </div>
-
-    <div class="phase-head"><p class="eyebrow">Phase II · Woche 4–6</p><h3>Kopf</h3></div>
-    <div class="weeks">
-      <div class="week"><span class="num">WOCHE 04</span><h4>Der Grübelstopp</h4><p>Grübeln fühlt sich an wie Problemlösen und ist das Gegenteil. Der Unterschied zwischen „warum“ und „wie“ — und was er ändert.</p><p class="exp">Experiment: <em>Die Sorgenzeit</em></p></div>
-      <div class="week"><span class="num">WOCHE 05</span><h4>Gedanken sind keine Fakten</h4><p>Zwischen dem, was passiert, und dem, wie du dich fühlst, steht eine Bewertung. Die lässt sich überprüfen.</p><p class="exp">Experiment: <em>Sieben Gedankenprotokolle</em></p></div>
-      <div class="week"><span class="num">WOCHE 06</span><h4>Der innere Kritiker</h4><p>Die Stimme, die dich antreibt, ist nicht dein Freund. Selbstwert, Scham und der Vergleich, der nie aufhört.</p><p class="exp">Experiment: <em>Der Brief an dich selbst</em></p></div>
-    </div>
-
-    <div class="phase-head"><p class="eyebrow">Phase III · Woche 7–9</p><h3>Gefühle &amp; Menschen</h3></div>
-    <div class="weeks">
-      <div class="week"><span class="num">WOCHE 07</span><h4>Gefühle aushalten</h4><p>Kein Gefühl bleibt. Vier Fertigkeiten für den roten Bereich — und ein Notfallkoffer, der wirklich gepackt wird.</p><p class="exp">Experiment: <em>Der Notfallkoffer</em></p></div>
-      <div class="week"><span class="num">WOCHE 08</span><h4>Raus aus der Vermeidung</h4><p>Angst schrumpft nicht durch Nachdenken. Deine Vermeidungslandkarte, in kleinen Schritten abgebaut.</p><p class="exp">Experiment: <em>Die ersten drei Stufen</em></p></div>
-      <div class="week"><span class="num">WOCHE 09</span><h4>Menschen</h4><p>Einsamkeit ist ein Signal, kein Defekt. Nein sagen, Konflikte ansprechen, das eigene Netz sichtbar machen.</p><p class="exp">Experiment: <em>Zweimal Nein, einmal Kontakt</em></p></div>
-    </div>
-
-    <div class="phase-head"><p class="eyebrow">Phase IV · Woche 10–12</p><h3>Leben</h3></div>
-    <div class="weeks">
-      <div class="week"><span class="num">WOCHE 10</span><h4>Wofür das alles</h4><p>Ziele sind Punkte, die man verfehlen kann. Werte sind Richtungen, in die man auch an schlechten Tagen gehen kann.</p><p class="exp">Experiment: <em>Drei Wertehandlungen</em></p></div>
-      <div class="week"><span class="num">WOCHE 11</span><h4>Leistung ohne Selbstzerstörung</h4><p>Aufschieben ist kein Zeitmanagement-Problem. Prüfungsdruck, Perfektionismus und der zerlegte Berg.</p><p class="exp">Experiment: <em>Der zerlegte Berg</em></p></div>
-      <div class="week"><span class="num">WOCHE 12</span><h4>Dein Plan für danach</h4><p>Rückschläge kommen. Der Unterschied ist, ob du dann einen Plan hast — schriftlich, ausgedruckt, konkret.</p><p class="exp">Experiment: <em>Das Handbuch für schlechte Wochen</em></p></div>
-    </div>
-  </section>
-
-  <hr class="rule">
-
-  <!-- RHYTHMUS -->
+  <!-- AUFWAND -->
   <section>
     <div class="head">
-      <p class="eyebrow">Der Wochenablauf</p>
+      <p class="eyebrow">Dein Aufwand</p>
       <h2>Etwa drei Stunden pro Woche.</h2>
     </div>
     <div class="rhythm">
-      <div><span class="day">Montag</span><p>Die Lektionen der Woche werden freigeschaltet. 45 bis 60 Minuten Video, wann du willst.</p></div>
-      <div><span class="day">Täglich</span><p>Die Wochenübung, 10 bis 15 Minuten. Kurz genug, dass sie auch in einer vollen Woche passiert.</p></div>
-      <div><span class="day">Mittwoch 19 Uhr</span><p>Live-Call, 90 Minuten: Fragen, echte Beispiele aus der Gruppe, gemeinsames Üben. Aufzeichnung, wenn du nicht kannst.</p></div>
-      <div><span class="day">Sonntag</span><p>Check-in, 5 Minuten. Stimmung, Schlaf, Umsetzung — damit du deine eigene Kurve siehst.</p></div>
+      <div><span class="day">Wann du willst</span><p>Die vier Lektionen der Woche, 45 bis 60 Minuten. Kein fester Termin — aber im Gespräch legen wir einen fest, weil es sonst erfahrungsgemäß nicht passiert.</p></div>
+      <div><span class="day">Täglich</span><p>Das Experiment der Woche, 10 bis 15 Minuten. Kurz genug, dass es auch in einer vollen Woche passiert.</p></div>
+      <div><span class="day">Sonntags</span><p>Der Check-in, unter drei Minuten. Sechs Zahlen — daraus entsteht deine Kurve.</p></div>
+      <div><span class="day">Einmal, Woche 3</span><p>Das Standortgespräch, 75 Minuten per Video. Termin nach deinem Kalender.</p></div>
     </div>
   </section>
 
@@ -415,21 +579,23 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
       <div class="price-main">
         <p class="eyebrow">Vollständiges Programm</p>
         <p class="amount">1.000 €</p>
-        <p class="sub">Zwölf Wochen, 12 Live-Calls, alle Materialien, Onboarding-Gespräch, Nachtreffen und 12 Monate Zugang. Keine Zusatzkosten, kein Abo, keine Verlängerung.</p>
-        <a class="btn" href="#">Auf die Warteliste</a>
+        <p class="sub">Kurs mit 48 Lektionen und Workbook, das Standortgespräch, drei persönliche Auswertungen, 12 Monate Zugang. Keine Zusatzkosten, kein Abo, keine automatische Verlängerung.</p>
+        <a class="btn" href="#">Platz sichern</a>
       </div>
       <div>
         <div class="price-opts">
-          <div class="opt"><strong>Pionierpreis Kohorte 1</strong><span class="val">790 €</span>
-            <p>Einmalig für die erste Gruppe — gegen ausführliche Rückmeldung während und nach dem Programm.</p></div>
+          <div class="opt"><strong>Pionierpreis, erste 10 Plätze</strong><span class="val">790 €</span>
+            <p>Gegen ausführliche Rückmeldung während und nach dem Programm.</p></div>
           <div class="opt"><strong>Ratenzahlung</strong><span class="val">3 × 340 €</span>
             <p>Monatlich, ohne Bonitätsprüfung, jeweils zum Monatsbeginn.</p></div>
           <div class="opt"><strong>Zu zweit anmelden</strong><span class="val">je 850 €</span>
-            <p>Gemeinsam durchziehen ist erwiesenermaßen leichter als allein.</p></div>
+            <p>Gemeinsam durchziehen ist nachweislich leichter als allein.</p></div>
           <div class="opt"><strong>Stipendienplatz</strong><span class="val">149 €</span>
-            <p>Zwei Plätze pro Kohorte für Menschen, für die der Preis sonst die Grenze wäre. Kurze formlose Bewerbung, keine Nachweise, keine Kennzeichnung in der Gruppe.</p></div>
+            <p>Zwei pro Monat, für Menschen, für die der Preis sonst die Grenze wäre. Formlose Bewerbung, keine Nachweise, keine Kennzeichnung.</p></div>
+          <div class="opt"><strong>Zweites Gespräch, optional</strong><span class="val">190 €</span>
+            <p>Buchbar ab Woche 6, wenn du zwischendurch noch einmal draufschauen willst. Kein Bestandteil des Programms.</p></div>
         </div>
-        <p class="chart-note">14 Tage Widerrufsrecht. Wenn du nach dem ersten Live-Call merkst, dass es nicht passt, bekommst du dein Geld zurück — ohne Begründung.</p>
+        <p class="chart-note">14 Tage Widerrufsrecht. Und falls sich im Standortgespräch herausstellt, dass du etwas anderes brauchst als diesen Kurs, sage ich dir das — und du bekommst dein Geld zurück.</p>
       </div>
     </div>
   </section>
@@ -443,7 +609,7 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
       <h2>Für wen das nicht geeignet ist.</h2>
     </div>
     <div class="limits">
-      <p class="body-col" style="max-width:var(--read)">Dieses Programm ist Prävention und Training in einer Gruppe. Es gibt Situationen, in denen das die falsche Hilfe ist — und dann sage ich das im Vorgespräch, statt dir einen Platz zu verkaufen.</p>
+      <p class="body-col" style="max-width:var(--read)">Dieses Programm ist Prävention und Training. Es gibt Situationen, in denen das die falsche Hilfe ist — und dann sage ich das, statt dir einen Platz zu verkaufen. Geprüft wird das vor der Freigabe, nicht erst im Gespräch.</p>
       <ul>
         <li>Bei akuten Suizidgedanken oder Selbstverletzung</li>
         <li>In einer akuten psychischen Krise</li>
@@ -451,7 +617,7 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
         <li>Bei einer schweren akuten Essstörung</li>
         <li>Bei akuter Abhängigkeitserkrankung</li>
       </ul>
-      <p class="body-col" style="max-width:var(--read)">In diesen Fällen brauchst du eine Behandlung, keinen Kurs. Wer sich anmeldet und nicht passt, bekommt von mir keine leere Absage, sondern konkrete Anlaufstellen — und den Beitrag vollständig zurück. Eine laufende Psychotherapie schließt die Teilnahme übrigens nicht aus; sprich sie nur vorher mit deiner Behandlerin oder deinem Behandler ab.</p>
+      <p class="body-col" style="max-width:var(--read)">In diesen Fällen brauchst du eine Behandlung, keinen Kurs. Wer sich anmeldet und nicht passt, bekommt keine leere Absage, sondern konkrete Anlaufstellen — und den Beitrag vollständig zurück. Eine laufende Psychotherapie schließt die Teilnahme nicht aus; sprich sie vorher mit deiner Behandlerin oder deinem Behandler ab.</p>
       <div class="crisis">
         <span><b>Telefonseelsorge</b> 0800 111 0 111 · 0800 111 0 222, kostenlos, rund um die Uhr</span>
         <span><b>Ärztlicher Bereitschaftsdienst</b> 116 117</span>
@@ -469,11 +635,11 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
       <div class="stack" style="gap:18px">
         <div class="head" style="margin-bottom:0">
           <p class="eyebrow">Wer das macht</p>
-          <h2>Zwölf Wochen mit einer Person, nicht mit einer Plattform.</h2>
+          <h2>Deine Daten liest ein Mensch, keine Software.</h2>
         </div>
         <div class="body-col">
           <p><span class="placeholder">[Hier deine Kurzbiografie: Promotionen, Fachgebiet, Lehrtätigkeit, warum du gerade mit dieser Zielgruppe arbeitest — drei bis vier Sätze, in der Ich-Form.]</span></p>
-          <p>In jedem Live-Call sitze ich selbst. Es gibt keine Assistenz, die die Gruppe übernimmt, und keine automatisierte Betreuung. Das ist der Grund, warum es nur 15 Plätze gibt und warum das Programm kostet, was es kostet.</p>
+          <p>Das Standortgespräch führe ich selbst, und die drei Auswertungen schreibe ich selbst. Es gibt keine Assistenz, die das übernimmt, und keinen Textbaustein, der über deinen Bericht läuft. Deshalb gibt es pro Monat nur eine begrenzte Zahl an Plätzen — und deshalb kostet das Programm, was es kostet.</p>
         </div>
       </div>
     </div>
@@ -488,27 +654,33 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
       <h2>Bevor du dich anmeldest.</h2>
     </div>
     <div class="faq">
-      <details><summary>1.000 € sind viel Geld, gerade im Studium.</summary><div class="answer">
-        <p>Stimmt. Deshalb hier die Rechnung offen: Du bekommst 18 Stunden Live-Zeit in einer Kleingruppe, ein Einzelgespräch, alle Materialien und ein Nachtreffen. Eine Therapiestunde kostet als Selbstzahler zwischen 100 und 150 €.</p>
-        <p>Wenn es trotzdem nicht geht: Es gibt Ratenzahlung und zwei Stipendienplätze pro Kohorte. Bewirb dich formlos, ich prüfe nichts nach.</p>
+      <details><summary>1.000 € für einen Kurs und ein Gespräch — ist das nicht viel?</summary><div class="answer">
+        <p>Der Kurs ist nicht das, wofür du bezahlst. Videos gibt es überall, auch gute, auch für 49 €. Du bezahlst dafür, dass jemand zwölf Wochen deiner Daten liest, 75 Minuten mit dir darüber spricht und dir dreimal aufschreibt, was er darin sieht. Das sind rund vier Stunden Arbeit an deinem Fall — plus ein Programm, an dessen Produktion Monate hängen.</p>
+        <p>Zum Vergleich: Eine Therapiestunde als Selbstzahler kostet 100 bis 150 €. Und wenn es trotzdem nicht geht — es gibt Ratenzahlung und zwei Stipendienplätze im Monat.</p>
+      </div></details>
+      <details><summary>Reicht ein einziges Gespräch wirklich?</summary><div class="answer">
+        <p>Für das, was es leisten soll, ja. Das Gespräch entscheidet nicht über zwölf Wochen Betreuung, sondern über eine Richtung: welche drei Module bei dir die wichtigen sind und was du konkret anders machst. Diese Entscheidung braucht Daten und 75 Minuten, keine zwölf Termine.</p>
+        <p>Was danach kommt, ist Arbeit, die ohnehin du machst — und zweimal jemand, der schriftlich draufschaut. Wenn du merkst, dass du ein zweites Gespräch willst, kannst du es ab Woche 6 dazubuchen.</p>
       </div></details>
       <details><summary>Ich habe schon Videos, Bücher und Apps ausprobiert. Warum sollte das anders sein?</summary><div class="answer">
-        <p>Weil das Problem selten am Wissen liegt. Was Selbstlernangebote nicht liefern, sind Termine, an denen jemand nachfragt, eine Gruppe, die dieselbe Woche durchläuft, und eine Reihenfolge, die verhindert, dass du beim schwersten Teil anfängst.</p>
+        <p>Weil das Problem selten am Wissen liegt. Was Selbstlernangebote nicht liefern: eine Reihenfolge, die zu dir passt, statt zu allen. Und jemanden, der nachsieht, was tatsächlich passiert ist.</p>
+        <p>Der Unterschied ist am ehesten in Woche 3 zu merken. Bis dahin hast du zwei Wochen Daten über dich, die dir vorher niemand gezeigt hat.</p>
       </div></details>
-      <details><summary>Muss ich in den Live-Calls über mich sprechen?</summary><div class="answer">
-        <p>Nein. Zuhören ist eine vollwertige Form der Teilnahme, und die Kamera darf aus bleiben. Erfahrungsgemäß sprechen die meisten ab Woche drei von selbst — aber niemand wird dazu aufgefordert.</p>
+      <details><summary>Was, wenn ich zwei Wochen komplett ausfalle?</summary><div class="answer">
+        <p>Dann fällst du zwei Wochen aus. Der Kurs läuft im eigenen Tempo, es gibt keine Gruppe, an die du den Anschluss verlieren kannst, und für den Wiedereinstieg gibt es einen verkleinerten Plan. Zwölf Wochen ohne Ausfall schafft praktisch niemand — das ist eingeplant.</p>
       </div></details>
-      <details><summary>Was, wenn ich eine Woche komplett ausfalle?</summary><div class="answer">
-        <p>Dann fällst du eine Woche aus. Es gibt die Aufzeichnung, und für den Wiedereinstieg gibt es einen kurzen Plan, damit du nicht das Gefühl hast, den Anschluss verloren zu haben. Zwölf Wochen ohne Ausfall schafft praktisch niemand — das ist eingeplant.</p>
+      <details><summary>Muss ich meine Daten wirklich jeden Tag eintragen?</summary><div class="answer">
+        <p>In den ersten beiden Wochen dreimal täglich, jeweils 30 Sekunden — die brauche ich für das Gespräch. Danach reicht der Wochen-Check-in am Sonntag, unter drei Minuten.</p>
+        <p>Wer Lücken hat, lässt sie leer. Lücken sind kein Problem, nachträglich ausgefüllte Einträge schon: Woran du dich abends erinnerst, hängt davon ab, wie du dich abends fühlst.</p>
       </div></details>
       <details><summary>Ich bin in Psychotherapie. Kann ich trotzdem mitmachen?</summary><div class="answer">
-        <p>Ja, sofern du es mit deiner Behandlerin oder deinem Behandler abstimmst. Das Programm arbeitet nicht gegen eine Therapie, sondern mit denselben Grundprinzipien — Doppelgleisigkeit sollte aber besprochen sein.</p>
+        <p>Ja, sofern du es mit deiner Behandlerin oder deinem Behandler abstimmst. Das Programm arbeitet mit denselben Grundprinzipien, nicht dagegen — aber die Doppelgleisigkeit sollte besprochen sein.</p>
       </div></details>
       <details><summary>Was passiert mit meinen Daten?</summary><div class="answer">
-        <p>Deine Selbsteinschätzungen und Protokolle sind Gesundheitsdaten und werden entsprechend behandelt: gesonderte Einwilligung, verschlüsselte Speicherung, keine Weitergabe, Löschung auf Wunsch. Persönliche Inhalte werden nie in Messenger-Gruppen geteilt. Details in der Datenschutzerklärung.</p>
+        <p>Deine Angaben sind Gesundheitsdaten und werden entsprechend behandelt: gesonderte Einwilligung, pseudonymisierte Speicherung, keine Weitergabe, Löschung auf Wunsch. Nichts davon landet in einer Gruppe oder in einem Messenger. Das Standortgespräch wird nicht aufgezeichnet. Details in der Datenschutzerklärung.</p>
       </div></details>
       <details><summary>Bekomme ich ein Zertifikat?</summary><div class="answer">
-        <p>Du bekommst eine Teilnahmebestätigung und deine persönliche Auswertung über die drei Messpunkte. Es handelt sich nicht um eine berufliche Qualifikation und nicht um einen Therapienachweis.</p>
+        <p>Du bekommst eine Teilnahmebestätigung und deinen Verlaufsbericht. Es ist keine berufliche Qualifikation und kein Therapienachweis.</p>
       </div></details>
     </div>
   </section>
@@ -518,7 +690,7 @@ footer .body-col{font-size:.86rem;color:var(--muted)}
 <footer>
   <div class="wrap">
     <div class="body-col" style="max-width:78ch">
-      <p><strong>Wichtiger Hinweis.</strong> KLARKOMMEN ist ein Bildungs- und Präventionsangebot. Es vermittelt Wissen und trainiert Fertigkeiten, stellt keine Diagnosen, führt keine Heilbehandlung durch und ersetzt weder Psychotherapie noch ärztliche Behandlung. Bei Beschwerden mit Krankheitswert wende dich an eine ärztliche oder psychotherapeutische Praxis.</p>
+      <p><strong>Wichtiger Hinweis.</strong> KLARKOMMEN ist ein Bildungs- und Präventionsangebot. Es vermittelt Wissen und trainiert Fertigkeiten, stellt keine Diagnosen, führt keine Heilbehandlung durch und ersetzt weder Psychotherapie noch ärztliche Behandlung. Die eingesetzten Fragebögen dienen der Verlaufsmessung, nicht der Diagnostik. Bei Beschwerden mit Krankheitswert wende dich an eine ärztliche oder psychotherapeutische Praxis.</p>
       <p style="margin-top:14px">In einer akuten Krise: Telefonseelsorge 0800 111 0 111 oder 0800 111 0 222 (kostenlos, rund um die Uhr), ärztlicher Bereitschaftsdienst 116 117, in Lebensgefahr 112.</p>
       <p style="margin-top:14px"><span class="placeholder">[Impressum]</span> · <span class="placeholder">[AGB]</span> · <span class="placeholder">[Datenschutz]</span> · <span class="placeholder">[Widerrufsbelehrung]</span></p>
     </div>

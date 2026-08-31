@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Screening Quarter-Life-Crisis (QLC-S-15) &ndash; Praxis Pazer</title>
+<style>
+/* ---------------------------------------------------------------
+   Farben und Typografie zentral anpassbar: nur diese Werte aendern,
+   damit die Seite zum Design von Praxis-Pazer passt.
+   --------------------------------------------------------------- */
+:root{
+  --akzent:#3f6b5f;
+  --akzent-hell:#eef3f1;
+  --akzent-dunkel:#2c4c43;
+  --text:#22262b;
+  --text-leise:#5d666f;
+  --linie:#dfe3e6;
+  --hintergrund:#f7f8f8;
+  --flaeche:#ffffff;
+  --warnung:#8a5a12;
+  --warnung-flaeche:#fdf5e6;
+  --radius:10px;
+  --schrift:"Helvetica Neue",Helvetica,Arial,system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;padding:0;
+  font-family:var(--schrift);
+  font-size:17px;line-height:1.6;
+  color:var(--text);background:var(--hintergrund);
+}
+.wrap{max-width:760px;margin:0 auto;padding:32px 20px 80px}
+h1{font-size:1.65rem;line-height:1.25;margin:0 0 6px}
+h2{font-size:1.15rem;margin:0 0 4px;color:var(--akzent-dunkel)}
+h3{font-size:1rem;margin:28px 0 10px;color:var(--akzent-dunkel)}
+p{margin:0 0 14px}
+.lead{color:var(--text-leise);margin:0 0 24px}
+.karte{
+  background:var(--flaeche);border:1px solid var(--linie);
+  border-radius:var(--radius);padding:24px;margin-bottom:20px;
+}
+.hinweis{
+  background:var(--akzent-hell);border:1px solid var(--linie);
+  border-radius:var(--radius);padding:16px 18px;margin-bottom:24px;
+  font-size:.94rem;color:var(--text-leise);
+}
+.hinweis strong{color:var(--text)}
+
+/* Fortschritt */
+.fortschritt{position:sticky;top:0;z-index:5;background:var(--hintergrund);padding:10px 0 14px;margin-bottom:12px}
+.balken{height:6px;background:var(--linie);border-radius:99px;overflow:hidden}
+.balken i{display:block;height:100%;width:0;background:var(--akzent);transition:width .25s ease}
+.fortschritt span{display:block;font-size:.82rem;color:var(--text-leise);margin-top:6px}
+
+/* Formularelemente */
+label{display:block;font-weight:600;margin-bottom:6px}
+.frage{padding:18px 0;border-top:1px solid var(--linie)}
+.frage:first-of-type{border-top:none;padding-top:4px}
+.frage .text{font-weight:500;margin-bottom:12px}
+.frage .nr{color:var(--text-leise);font-weight:600;margin-right:6px}
+input[type=text],input[type=number],input[type=email],textarea,select{
+  width:100%;padding:11px 12px;border:1px solid var(--linie);
+  border-radius:8px;font:inherit;color:inherit;background:var(--flaeche);
+}
+textarea{min-height:96px;resize:vertical}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--akzent);outline-offset:1px;border-color:var(--akzent)}
+
+/* Likert-Skala */
+.skala{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.skala label{
+  display:flex;flex-direction:column;align-items:center;justify-content:flex-start;
+  gap:6px;padding:10px 4px;border:1px solid var(--linie);border-radius:8px;
+  background:var(--flaeche);cursor:pointer;text-align:center;
+  font-weight:500;font-size:.78rem;color:var(--text-leise);
+  transition:border-color .15s,background .15s;
+}
+.skala label:hover{border-color:var(--akzent)}
+.skala input{margin:0;accent-color:var(--akzent);width:18px;height:18px}
+.skala input:focus-visible{outline:2px solid var(--akzent);outline-offset:2px}
+.skala label:has(input:checked){background:var(--akzent-hell);border-color:var(--akzent);color:var(--akzent-dunkel);font-weight:700}
+.skala .zahl{font-size:1rem;font-weight:700;color:var(--text)}
+.skala label:has(input:checked) .zahl{color:var(--akzent-dunkel)}
+
+/* Auswahl-Listen (Radio / Checkbox in Zeilen) */
+.optionen{display:flex;flex-wrap:wrap;gap:8px}
+.optionen label,.stapel label{
+  display:flex;align-items:flex-start;gap:9px;font-weight:400;margin:0;
+  padding:10px 13px;border:1px solid var(--linie);border-radius:8px;
+  background:var(--flaeche);cursor:pointer;
+}
+.stapel{display:flex;flex-direction:column;gap:8px}
+.optionen label:has(input:checked),.stapel label:has(input:checked){
+  background:var(--akzent-hell);border-color:var(--akzent);font-weight:600;
+}
+.optionen input,.stapel input{accent-color:var(--akzent);margin:3px 0 0}
+
+.legende{font-size:.86rem;color:var(--text-leise);margin:0 0 18px}
+.fehler{color:#a1282a;font-size:.88rem;margin-top:8px;display:none}
+.frage.offen{background:#fdf3f3;border-radius:8px;padding-left:12px;padding-right:12px}
+.frage.offen .text{color:#8f2426}
+
+button{
+  font:inherit;font-weight:700;cursor:pointer;border-radius:8px;
+  padding:14px 26px;border:1px solid var(--akzent);
+  background:var(--akzent);color:#fff;transition:background .15s;
+}
+button:hover{background:var(--akzent-dunkel);border-color:var(--akzent-dunkel)}
+button.sekundaer{background:transparent;color:var(--akzent-dunkel)}
+button.sekundaer:hover{background:var(--akzent-hell)}
+.aktionen{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:8px}
+
+/* Ergebnis */
+#ergebnis{display:none}
+.verdikt{border-left:4px solid var(--akzent);padding:20px 22px;background:var(--akzent-hell);border-radius:var(--radius);margin-bottom:22px}
+.verdikt.negativ{border-left-color:var(--text-leise);background:var(--flaeche)}
+.verdikt h2{margin-bottom:8px}
+.verdikt p:last-child{margin-bottom:0}
+.support{border-left:4px solid var(--warnung);background:var(--warnung-flaeche);color:var(--warnung);padding:18px 20px;border-radius:var(--radius);margin-bottom:22px;font-size:.94rem}
+.support > strong{display:block;color:var(--warnung);margin-bottom:6px}
+.support ul{margin:8px 0 0;padding-left:20px}
+
+table.profil{width:100%;border-collapse:collapse;font-size:.94rem;margin-bottom:8px}
+table.profil th,table.profil td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--linie)}
+table.profil th{font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;color:var(--text-leise)}
+table.profil td.wert{text-align:right;font-variant-numeric:tabular-nums;font-weight:700;white-space:nowrap}
+.mini{font-size:.85rem;color:var(--text-leise)}
+pre.zusammenfassung{
+  background:var(--hintergrund);border:1px solid var(--linie);border-radius:8px;
+  padding:14px;font-size:.8rem;line-height:1.5;white-space:pre-wrap;word-break:break-word;
+  max-height:260px;overflow:auto;font-family:ui-monospace,Menlo,Consolas,monospace;
+}
+footer{margin-top:34px;font-size:.83rem;color:var(--text-leise);text-align:center}
+footer a{color:var(--text-leise)}
+
+@media (max-width:560px){
+  body{font-size:16px}
+  .wrap{padding:22px 14px 60px}
+  .karte{padding:18px 15px}
+  .skala{gap:4px}
+  .skala label{padding:9px 2px;font-size:.66rem}
+}
+@media print{
+  body{background:#fff}
+  .fortschritt,.aktionen,button{display:none!important}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="mini" style="letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px">Aktuelle Forschung &middot; Praxis Pazer</p>
+  <h1>Screening-Fragebogen Quarter-Life-Crisis (QLC-S-15)</h1>
+  <p class="lead">Eignungspr&uuml;fung zur Teilnahme an einer Interviewstudie &middot; Bearbeitungszeit ca. 5 Minuten</p>
+</header>
+
+<div class="hinweis">
+  <p>Vielen Dank f&uuml;r Ihr Interesse. Bitte beziehen Sie alle Aussagen auf die <strong>letzten sechs Monate</strong>. Es gibt keine richtigen oder falschen Antworten &ndash; uns interessiert allein Ihr pers&ouml;nliches Erleben. Antworten Sie spontan; die erste Einsch&auml;tzung ist meist die zutreffendste.</p>
+  <p>Ihre Angaben werden vertraulich behandelt; die Kontaktdaten werden getrennt von Ihren Antworten gespeichert. Die Teilnahme ist freiwillig und jederzeit widerrufbar. <strong>Dieser Fragebogen ist kein diagnostisches Verfahren.</strong></p>
+  <p style="margin-bottom:0"><strong>Datenschutz:</strong> Die Auswertung erfolgt vollst&auml;ndig in Ihrem Browser. Es werden keine Daten gespeichert oder automatisch &uuml;bertragen. Erst wenn Sie sich am Ende ausdr&uuml;cklich daf&uuml;r entscheiden, wird eine Nachricht an die Studienleitung vorbereitet.</p>
+</div>
+
+<div class="fortschritt" aria-hidden="true">
+  <div class="balken"><i id="balken"></i></div>
+  <span id="fortschrittText">0 von 24 Angaben beantwortet</span>
+</div>
+
+<form id="formular" novalidate>
+
+  <!-- ============ TEIL A ============ -->
+  <section class="karte">
+    <h2>Teil A &ndash; Kurzangaben</h2>
+    <p class="legende">Diese Angaben helfen uns, die Stichprobe zu beschreiben.</p>
+
+    <div class="frage">
+      <label for="a1">A1&nbsp;&nbsp;Alter</label>
+      <input type="number" id="a1" name="a1" min="14" max="99" step="1" inputmode="numeric" placeholder="Jahre">
+      <p class="fehler" data-fehler="a1">Bitte geben Sie Ihr Alter an.</p>
+    </div>
+
+    <div class="frage">
+      <div class="text">A2&nbsp;&nbsp;Geschlecht</div>
+      <div class="optionen" data-gruppe="a2">
+        <label><input type="radio" name="a2" value="weiblich"><span>weiblich</span></label>
+        <label><input type="radio" name="a2" value="m&auml;nnlich"><span>m&auml;nnlich</span></label>
+        <label><input type="radio" name="a2" value="divers"><span>divers</span></label>
+        <label><input type="radio" name="a2" value="keine Angabe"><span>keine Angabe</span></label>
+      </div>
+      <p class="fehler" data-fehler="a2">Bitte w&auml;hlen Sie eine Option.</p>
+    </div>
+
+    <div class="frage">
+      <div class="text">A3&nbsp;&nbsp;Aktuelle T&auml;tigkeit</div>
+      <div class="optionen" data-gruppe="a3">
+        <label><input type="radio" name="a3" value="Studium / Ausbildung"><span>Studium / Ausbildung</span></label>
+        <label><input type="radio" name="a3" value="Berufseinstieg"><span>Berufseinstieg</span></label>
+        <label><input type="radio" name="a3" value="fest angestellt"><span>fest angestellt</span></label>
+        <label><input type="radio" name="a3" value="befristet"><span>befristet</span></label>
+        <label><input type="radio" name="a3" value="selbstst&auml;ndig"><span>selbstst&auml;ndig</span></label>
+        <label><input type="radio" name="a3" value="arbeitssuchend"><span>arbeitssuchend</span></label>
+        <label><input type="radio" name="a3" value="Sonstiges"><span>Sonstiges</span></label>
+      </div>
+      <input type="text" id="a3sonstiges" name="a3sonstiges" placeholder="und zwar:" style="margin-top:10px;display:none">
+      <p class="fehler" data-fehler="a3">Bitte w&auml;hlen Sie eine Option.</p>
+    </div>
+
+    <div class="frage">
+      <div class="text">A4&nbsp;&nbsp;Beziehungsstatus</div>
+      <div class="optionen" data-gruppe="a4">
+        <label><input type="radio" name="a4" value="Single"><span>Single</span></label>
+        <label><input type="radio" name="a4" value="feste Partnerschaft"><span>feste Partnerschaft</span></label>
+        <label><input type="radio" name="a4" value="verheiratet"><span>verheiratet</span></label>
+        <label><input type="radio" name="a4" value="getrennt / geschieden"><span>getrennt / geschieden</span></label>
+      </div>
+      <p class="fehler" data-fehler="a4">Bitte w&auml;hlen Sie eine Option.</p>
+    </div>
+
+    <div class="frage">
+      <label for="a5">A5&nbsp;&nbsp;Welche Ver&auml;nderung hat Sie in den letzten 24 Monaten am st&auml;rksten besch&auml;ftigt?</label>
+      <textarea id="a5" name="a5" placeholder="In ein bis zwei S&auml;tzen"></textarea>
+      <p class="fehler" data-fehler="a5">Bitte beantworten Sie diese Frage.</p>
+    </div>
+  </section>
+
+  <!-- ============ TEIL B ============ -->
+  <section class="karte">
+    <h2>Teil B &ndash; Erleben in den letzten sechs Monaten</h2>
+    <p class="legende">1 = trifft gar nicht zu &middot; 2 = trifft eher nicht zu &middot; 3 = teils / teils &middot; 4 = trifft eher zu &middot; 5 = trifft v&ouml;llig zu</p>
+    <div id="teilB"></div>
+  </section>
+
+  <!-- ============ TEIL C ============ -->
+  <section class="karte">
+    <h2>Teil C &ndash; Einordnung</h2>
+    <p class="legende">1 = trifft gar nicht zu &middot; 2 = trifft eher nicht zu &middot; 3 = teils / teils &middot; 4 = trifft eher zu &middot; 5 = trifft v&ouml;llig zu</p>
+
+    <h3>C1&nbsp;&nbsp;Allgemeines Befinden</h3>
+    <p class="legende">Diese Fragen dienen nur der Einordnung Ihrer Antworten und stellen keine Diagnose dar.</p>
+    <div id="teilC1"></div>
+
+    <h3>C2&nbsp;&nbsp;Gesamteinsch&auml;tzung</h3>
+    <div class="frage">
+      <div class="text">W&uuml;rden Sie Ihre derzeitige Lebensphase selbst als Krise oder als Phase grundlegender Neuorientierung beschreiben?</div>
+      <div class="optionen" data-gruppe="c2">
+        <label><input type="radio" name="c2" value="1"><span>nein</span></label>
+        <label><input type="radio" name="c2" value="2"><span>eher nicht</span></label>
+        <label><input type="radio" name="c2" value="3"><span>teils / teils</span></label>
+        <label><input type="radio" name="c2" value="4"><span>ja, eher schon</span></label>
+        <label><input type="radio" name="c2" value="5"><span>ja, eindeutig</span></label>
+      </div>
+      <p class="fehler" data-fehler="c2">Bitte w&auml;hlen Sie eine Option.</p>
+    </div>
+
+    <h3>C4&nbsp;&nbsp;Selbstzuordnung</h3>
+    <div class="frage">
+      <div class="text">Welche Beschreibung trifft Ihr Erleben besser? (nur eine Antwort)</div>
+      <div class="stapel" data-gruppe="c4">
+        <label><input type="radio" name="c4" value="locked-out"><span>Ich komme nicht dorthin, wo ich hinm&ouml;chte &ndash; mir fehlt der Zugang.</span></label>
+        <label><input type="radio" name="c4" value="locked-in"><span>Ich stecke dort fest, wo ich nicht mehr sein m&ouml;chte &ndash; mir fehlt der Ausweg.</span></label>
+        <label><input type="radio" name="c4" value="beides"><span>beides gleicherma&szlig;en</span></label>
+        <label><input type="radio" name="c4" value="keines"><span>keines von beidem</span></label>
+      </div>
+      <p class="fehler" data-fehler="c4">Bitte w&auml;hlen Sie eine Option.</p>
+    </div>
+
+    <h3>C5&nbsp;&nbsp;Offene Angabe (freiwillig)</h3>
+    <div class="frage">
+      <label for="c5">Was besch&auml;ftigt Sie in Ihrer aktuellen Lebensphase am meisten?</label>
+      <textarea id="c5" name="c5" placeholder="Freiwillig &ndash; Sie k&ouml;nnen dieses Feld auch leer lassen."></textarea>
+    </div>
+  </section>
+
+  <div class="aktionen">
+    <button type="submit">Auswertung anzeigen</button>
+    <button type="button" class="sekundaer" id="zuruecksetzen">Zur&uuml;cksetzen</button>
+  </div>
+  <p class="fehler" id="globalFehler" style="font-size:.94rem">Bitte f&uuml;llen Sie die markierten Felder aus.</p>
+</form>
+
+<!-- ============ ERGEBNIS ============ -->
+<section id="ergebnis" aria-live="polite">
+  <div id="verdikt"></div>
+  <div id="supportBox"></div>
+
+  <div class="karte">
+    <h2>Ihr Antwortprofil</h2>
+    <p class="mini">Mittelwerte von 1 (trifft gar nicht zu) bis 5 (trifft v&ouml;llig zu). Positiv formulierte Aussagen (6, 9, 12) sind umgepolt, damit h&ouml;here Werte durchg&auml;ngig eine st&auml;rkere Belastung anzeigen.</p>
+    <table class="profil" id="profilTabelle"></table>
+    <p class="mini" id="gesamtZeile"></p>
+  </div>
+
+  <div class="karte" id="kontaktKarte">
+    <h2>Kontakt zur Studienleitung</h2>
+    <p>Wenn Sie an der Interviewstudie teilnehmen m&ouml;chten, k&ouml;nnen Sie uns Ihre Kontaktdaten zusammen mit Ihren Antworten &uuml;bermitteln. Ohne Ihre ausdr&uuml;ckliche Einwilligung wird nichts gesendet.</p>
+    <div class="frage">
+      <label for="kName">Name</label>
+      <input type="text" id="kName" name="kName" autocomplete="name">
+    </div>
+    <div class="frage">
+      <label for="kMail">E-Mail-Adresse</label>
+      <input type="email" id="kMail" name="kMail" autocomplete="email">
+      <p class="fehler" data-fehler="kMail">Bitte geben Sie eine g&uuml;ltige E-Mail-Adresse an.</p>
+    </div>
+    <div class="frage">
+      <div class="stapel">
+        <label><input type="checkbox" id="kEinwilligung"><span>Ich bin damit einverstanden, dass meine Antworten und Kontaktdaten zum Zweck der Studienteilnahme an die Studienleitung &uuml;bermittelt und dort verarbeitet werden. Diese Einwilligung kann ich jederzeit formlos widerrufen.</span></label>
+      </div>
+      <p class="fehler" data-fehler="kEinwilligung">Ohne Einwilligung k&ouml;nnen wir Ihre Angaben nicht entgegennehmen.</p>
+    </div>
+    <div class="aktionen">
+      <button type="button" id="senden">Antworten &uuml;bermitteln</button>
+      <button type="button" class="sekundaer" id="kopieren">Zusammenfassung kopieren</button>
+    </div>
+    <p class="mini" id="sendeStatus" style="margin-top:12px"></p>
+    <details style="margin-top:16px">
+      <summary class="mini" style="cursor:pointer">&Uuml;bermittelte Zusammenfassung ansehen</summary>
+      <pre class="zusammenfassung" id="zusammenfassung"></pre>
+    </details>
+  </div>
+
+  <div class="aktionen">
+    <button type="button" class="sekundaer" id="nochmal">Antworten &auml;ndern</button>
+  </div>
+</section>
+
+<footer>
+  <p>Der QLC-S-15 ist ein Screening-Instrument zur Studienrekrutierung und <strong>kein diagnostisches Verfahren</strong>. Er ersetzt keine &auml;rztliche oder psychotherapeutische Abkl&auml;rung.</p>
+  <p id="footerKontakt"></p>
+</footer>
+
+</div>
+<script>
+(function(){
+"use strict";
+
+/* =================================================================
+   KONFIGURATION  --  hier anpassen, alles Weitere bleibt unveraendert
+   ================================================================= */
+var CONFIG = {
+  // Empfaenger der Screening-Ergebnisse
+  kontaktEmail: "forschung@praxis-pazer.de",
+  studienleitung: "Praxis Pazer – Studienleitung",
+
+  // Optional: URL eines Formular-Endpunkts (z. B. Formspree, eigenes Backend).
+  // Leer lassen  ->  es wird eine vorausgefuellte E-Mail geoeffnet.
+  endpoint: "",
+
+  // Einschlusskriterien fuer die Interviewstudie
+  kriterien: {
+    alterMin: 18,            // Mindestalter
+    alterMax: 39,            // Hoechstalter
+    gesamtwertMin: 45,       // QLC-S-15 Summenwert (Bereich 15-75), entspricht Mittelwert 3.0
+    subskalaMittelMin: 3.5,  // ab diesem Subskalen-Mittelwert gilt eine Subskala als auffaellig
+    subskalenMin: 2,         // so viele auffaellige Subskalen genuegen alternativ
+    c2Min: 3                 // Mindestwert bei C2 (3 = "teils / teils")
+  },
+
+  // Ab diesem Mittelwert in C1 wird ein Hinweis auf Unterstuetzungsangebote gezeigt
+  belastungshinweisAb: 4.0
+};
+
+/* =================================================================
+   ITEMS
+   ================================================================= */
+var SUBSKALEN = [
+  { id:"b1", titel:"Identität und Sinn",             items:[1,2,3] },
+  { id:"b2", titel:"Zukunft und Kontrollerleben",         items:[4,5,6] },
+  { id:"b3", titel:"Nicht ankommen (locked-out)",         items:[7,8,9] },
+  { id:"b4", titel:"Feststecken (locked-in)",             items:[10,11,12] },
+  { id:"b5", titel:"Sozialer Vergleich und Zeitdruck",    items:[13,14,15] }
+];
+
+var ITEMS_B = {
+  1:  "Ich frage mich häufig, wer ich eigentlich bin und wofür ich stehe.",
+  2:  "Meine früheren Lebensziele fühlen sich nicht mehr wie meine eigenen an.",
+  3:  "Ich zweifle daran, ob die Entscheidungen, die mich hierher gebracht haben, zu mir passen.",
+  4:  "Ich habe das Gefühl, die Richtung meines Lebens nicht mehr selbst zu bestimmen.",
+  5:  "Wenn ich an die nächsten Jahre denke, überwiegt bei mir die Sorge.",
+  6:  "Ich vertraue darauf, dass sich mein weiterer Weg klären wird.",
+  7:  "Trotz meiner Qualifikationen komme ich nicht dorthin, wo ich sein möchte.",
+  8:  "Ich habe das Gefühl, im Erwachsenenleben noch nicht richtig angekommen zu sein.",
+  9:  "In den für mich wichtigen Lebensbereichen habe ich Fuß gefasst.",
+  10: "Ich fühle mich an Verpflichtungen gebunden, die nicht mehr zu mir passen.",
+  11: "Ich würde etwas Grundlegendes verändern, sehe aber keinen gangbaren Weg dorthin.",
+  12: "Ich könnte meine derzeitige Lebenssituation verlassen, wenn ich es wirklich wollte.",
+  13: "Im Vergleich mit Gleichaltrigen habe ich das Gefühl, zurückzuliegen.",
+  14: "Ich stehe unter Druck, bestimmte Dinge bis zu einem bestimmten Alter erreicht zu haben.",
+  15: "Was andere von ihrem Leben zeigen, verstärkt bei mir das Gefühl, hinterherzuhinken."
+};
+
+var ITEMS_C1 = {
+  18: "Ich fühle mich über längere Zeit hinweg erschöpft und antriebslos.",
+  19: "Ich empfinde wenig Freude an Dingen, die mir früher wichtig waren.",
+  20: "Meine Belastung schränkt mich in Studium, Arbeit oder Alltag spürbar ein."
+};
+
+// Positiv formulierte Items: werden umgepolt (6 - Wert)
+var UMGEPOLT = [6, 9, 12];
+
+var SKALA_LABELS = [
+  "trifft gar nicht zu",
+  "trifft eher nicht zu",
+  "teils / teils",
+  "trifft eher zu",
+  "trifft völlig zu"
+];
+
+/* =================================================================
+   AUFBAU DER FRAGEN
+   ================================================================= */
+function esc(s){ var d=document.createElement("div"); d.textContent=s; return d.innerHTML; }
+
+function frageHtml(nr, text){
+  var h = '<div class="frage" data-item="'+nr+'">'
+        + '<div class="text"><span class="nr">'+nr+'.</span>'+esc(text)+'</div>'
+        + '<div class="skala" role="radiogroup" aria-label="'+esc("Item "+nr)+'">';
+  for(var w=1; w<=5; w++){
+    h += '<label><input type="radio" name="i'+nr+'" value="'+w+'">'
+       + '<span class="zahl">'+w+'</span><span>'+SKALA_LABELS[w-1]+'</span></label>';
+  }
+  h += '</div><p class="fehler" data-fehler="i'+nr+'">Bitte wählen Sie einen Wert.</p></div>';
+  return h;
+}
+
+var teilB = document.getElementById("teilB");
+var htmlB = "";
+SUBSKALEN.forEach(function(s){
+  htmlB += '<h3>'+esc(s.titel)+'</h3>';
+  s.items.forEach(function(nr){ htmlB += frageHtml(nr, ITEMS_B[nr]); });
+});
+teilB.innerHTML = htmlB;
+
+var htmlC1 = "";
+Object.keys(ITEMS_C1).forEach(function(nr){ htmlC1 += frageHtml(nr, ITEMS_C1[nr]); });
+document.getElementById("teilC1").innerHTML = htmlC1;
+
+/* =================================================================
+   FORTSCHRITT
+   ================================================================= */
+var PFLICHT = ["a1","a2","a3","a4","a5","c2","c4"]
+  .concat(Object.keys(ITEMS_B).map(function(n){ return "i"+n; }))
+  .concat(Object.keys(ITEMS_C1).map(function(n){ return "i"+n; }));
+
+var form   = document.getElementById("formular");
+var balken = document.getElementById("balken");
+var fortschrittText = document.getElementById("fortschrittText");
+
+function wert(name){
+  var el = form.elements[name];
+  if(!el) return "";
+  if(el instanceof RadioNodeList || (el.length && !el.tagName)){
+    var g = form.querySelector('input[name="'+name+'"]:checked');
+    return g ? g.value : "";
+  }
+  return (el.value || "").trim();
+}
+
+function aktualisiereFortschritt(){
+  var n = PFLICHT.filter(function(f){ return wert(f) !== ""; }).length;
+  balken.style.width = Math.round(n / PFLICHT.length * 100) + "%";
+  fortschrittText.textContent = n + " von " + PFLICHT.length + " Angaben beantwortet";
+}
+
+form.addEventListener("input", function(){
+  aktualisiereFortschritt();
+  var sonst = document.getElementById("a3sonstiges");
+  sonst.style.display = (wert("a3") === "Sonstiges") ? "block" : "none";
+});
+form.addEventListener("change", aktualisiereFortschritt);
+aktualisiereFortschritt();
+
+/* =================================================================
+   VALIDIERUNG
+   ================================================================= */
+function zeigeFehler(name, an){
+  var p = document.querySelector('[data-fehler="'+name+'"]');
+  if(p) p.style.display = an ? "block" : "none";
+  var frage = p ? p.closest(".frage") : null;
+  if(frage) frage.classList.toggle("offen", !!an);
+}
+
+function pruefe(){
+  var fehlend = [];
+  PFLICHT.forEach(function(f){
+    var leer = wert(f) === "";
+    zeigeFehler(f, leer);
+    if(leer) fehlend.push(f);
+  });
+  var alter = parseInt(wert("a1"), 10);
+  if(wert("a1") !== "" && (isNaN(alter) || alter < 14 || alter > 99)){
+    zeigeFehler("a1", true);
+    if(fehlend.indexOf("a1") === -1) fehlend.push("a1");
+  }
+  return fehlend;
+}
+
+/* =================================================================
+   AUSWERTUNG
+   ================================================================= */
+function itemWert(nr){
+  var roh = parseInt(wert("i"+nr), 10);
+  return UMGEPOLT.indexOf(nr) !== -1 ? (6 - roh) : roh;
+}
+
+function mittel(arr){
+  return arr.reduce(function(a,b){ return a+b; }, 0) / arr.length;
+}
+
+function auswerten(){
+  var werteB = {};
+  Object.keys(ITEMS_B).forEach(function(nr){ werteB[nr] = itemWert(parseInt(nr,10)); });
+
+  var subskalen = SUBSKALEN.map(function(s){
+    var w = s.items.map(function(nr){ return werteB[nr]; });
+    return { id:s.id, titel:s.titel, mittelwert:mittel(w), auffaellig:mittel(w) >= CONFIG.kriterien.subskalaMittelMin };
+  });
+
+  var gesamt = Object.keys(werteB).reduce(function(a,k){ return a + werteB[k]; }, 0);
+  var c1 = Object.keys(ITEMS_C1).map(function(nr){ return parseInt(wert("i"+nr), 10); });
+  var c1Mittel = mittel(c1);
+  var c2 = parseInt(wert("c2"), 10);
+  var alter = parseInt(wert("a1"), 10);
+
+  var auffaellige = subskalen.filter(function(s){ return s.auffaellig; }).length;
+
+  var k = CONFIG.kriterien;
+  var altersOk    = alter >= k.alterMin && alter <= k.alterMax;
+  var belastungOk = gesamt >= k.gesamtwertMin || auffaellige >= k.subskalenMin;
+  var selbstOk    = c2 >= k.c2Min;
+  var geeignet    = altersOk && belastungOk && selbstOk;
+
+  // Profilrichtung aus den Subskalen locked-out / locked-in
+  var lockedOut = subskalen.find(function(s){ return s.id === "b3"; }).mittelwert;
+  var lockedIn  = subskalen.find(function(s){ return s.id === "b4"; }).mittelwert;
+  var richtung;
+  if(Math.abs(lockedOut - lockedIn) < 0.5) richtung = "ausgeglichen (locked-out und locked-in ähnlich stark)";
+  else richtung = lockedOut > lockedIn ? "eher locked-out (fehlender Zugang)" : "eher locked-in (fehlender Ausweg)";
+
+  return {
+    werteB:werteB, subskalen:subskalen, gesamt:gesamt,
+    c1:c1, c1Mittel:c1Mittel, c2:c2, alter:alter,
+    auffaellige:auffaellige,
+    altersOk:altersOk, belastungOk:belastungOk, selbstOk:selbstOk,
+    geeignet:geeignet, richtung:richtung
+  };
+}
+
+/* =================================================================
+   ERGEBNISDARSTELLUNG
+   ================================================================= */
+function num(x){ return x.toFixed(2).replace(".", ","); }
+
+function zeigeErgebnis(e){
+  var k = CONFIG.kriterien;
+
+  // Verdikt
+  var v = document.getElementById("verdikt");
+  var kontaktKarte = document.getElementById("kontaktKarte");
+  if(e.geeignet){
+    v.className = "verdikt";
+    v.innerHTML = "<h2>Sie kommen für die Interviewstudie in Frage</h2>"
+      + "<p>Ihre Antworten entsprechen dem Erleben, das wir in der Studie untersuchen. "
+      + "Wenn Sie teilnehmen möchten, hinterlassen Sie uns unten Ihre Kontaktdaten – "
+      + "wir melden uns für die Terminabsprache bei Ihnen.</p>"
+      + "<p>Das Interview dauert etwa 60 bis 90 Minuten und findet nach Absprache online oder "
+      + "in der Praxis statt. Die Teilnahme ist freiwillig und jederzeit widerrufbar.</p>";
+    kontaktKarte.style.display = "";
+  } else {
+    v.className = "verdikt negativ";
+    var gruende = [];
+    if(!e.altersOk) gruende.push("Die Studie richtet sich an Personen zwischen " + k.alterMin + " und " + k.alterMax + " Jahren.");
+    if(!e.belastungOk) gruende.push("Ihre Angaben zeigen aktuell keine ausgeprägte Quarter-Life-Crisis-Thematik, wie sie für die Interviews vorausgesetzt wird.");
+    if(!e.selbstOk) gruende.push("Sie beschreiben Ihre Lebensphase selbst nicht als Krise oder grundlegende Neuorientierung.");
+    v.innerHTML = "<h2>Aktuell keine Passung zur Interviewstudie</h2>"
+      + "<p>Vielen Dank, dass Sie sich die Zeit genommen haben. Nach Ihren Angaben passen Sie derzeit nicht "
+      + "in die gesuchte Gruppe:</p><ul><li>" + gruende.map(esc).join("</li><li>") + "</li></ul>"
+      + "<p style=\"margin-bottom:0\">Das ist ausdrücklich <strong>keine Aussage über Ihr Befinden</strong>, sondern nur über die "
+      + "Passung zu dieser konkreten Fragestellung. Ihr Antwortprofil finden Sie unten – Sie können es gern für sich behalten.</p>";
+    kontaktKarte.style.display = "none";
+  }
+
+  // Hinweis auf Unterstuetzung
+  var s = document.getElementById("supportBox");
+  if(e.c1Mittel >= CONFIG.belastungshinweisAb){
+    s.innerHTML = '<div class="support"><strong>Ein Hinweis, unabh&auml;ngig vom Studienergebnis</strong>'
+      + "Ihre Angaben in Teil C deuten auf eine länger anhaltende und deutliche Belastung hin. "
+      + "Das ist keine Diagnose – aber ein guter Anlass, sich Unterstützung zu holen:"
+      + "<ul>"
+      + "<li>Hausarztpraxis oder psychotherapeutische Sprechstunde (Terminservice: <strong>116 117</strong>)</li>"
+      + "<li>TelefonSeelsorge, rund um die Uhr und kostenfrei: <strong>0800 111 0 111</strong> oder <strong>0800 111 0 222</strong></li>"
+      + "<li>In einer akuten Notlage: <strong>112</strong> oder die nächste psychiatrische Ambulanz</li>"
+      + "</ul></div>";
+  } else {
+    s.innerHTML = "";
+  }
+
+  // Profiltabelle
+  var t = document.getElementById("profilTabelle");
+  var rows = "<tr><th>Bereich</th><th style=\"text-align:right\">Mittelwert</th></tr>";
+  e.subskalen.forEach(function(sub){
+    rows += "<tr><td>" + esc(sub.titel) + "</td><td class=\"wert\">" + num(sub.mittelwert) + " / 5"
+          + (sub.auffaellig ? " •" : "") + "</td></tr>";
+  });
+  rows += "<tr><td>Allgemeines Befinden (Teil C1)</td><td class=\"wert\">" + num(e.c1Mittel) + " / 5</td></tr>";
+  t.innerHTML = rows;
+
+  document.getElementById("gesamtZeile").innerHTML =
+    "<strong>Gesamtwert QLC-S-15: " + e.gesamt + " von 75</strong> (Mittelwert " + num(e.gesamt/15) + ") &middot; "
+    + "Profilrichtung: " + esc(e.richtung) + " &middot; Selbstzuordnung (C4): " + esc(wert("c4"))
+    + "<br>Mit &bdquo;&bull;&ldquo; markierte Bereiche liegen bei einem Mittelwert von " + num(k.subskalaMittelMin) + " oder höher.";
+
+  document.getElementById("zusammenfassung").textContent = zusammenfassungText(e);
+
+  document.getElementById("ergebnis").style.display = "block";
+  form.style.display = "none";
+  document.querySelector(".fortschritt").style.display = "none";
+  window.scrollTo({ top:0, behavior:"smooth" });
+}
+
+/* =================================================================
+   ZUSAMMENFASSUNG FUER DIE STUDIENLEITUNG
+   ================================================================= */
+function zusammenfassungText(e){
+  var z = [];
+  z.push("SCREENING QLC-S-15");
+  z.push("Ausgefüllt am " + new Date().toLocaleString("de-DE"));
+  z.push("Eignung: " + (e.geeignet ? "JA – kommt für die Interviewstudie in Frage" : "NEIN – keine Passung"));
+  z.push("");
+  z.push("TEIL A – KURZANGABEN");
+  z.push("A1 Alter: " + wert("a1"));
+  z.push("A2 Geschlecht: " + wert("a2"));
+  z.push("A3 Tätigkeit: " + wert("a3") + (wert("a3") === "Sonstiges" ? " (" + wert("a3sonstiges") + ")" : ""));
+  z.push("A4 Beziehungsstatus: " + wert("a4"));
+  z.push("A5 Prägende Veränderung (24 Monate): " + wert("a5"));
+  z.push("");
+  z.push("TEIL B – EINZELANTWORTEN (Rohwerte)");
+  SUBSKALEN.forEach(function(s){
+    z.push("  " + s.titel + ":");
+    s.items.forEach(function(nr){
+      z.push("    " + nr + ". " + wert("i"+nr)
+        + (UMGEPOLT.indexOf(nr) !== -1 ? "  (umgepolt: " + itemWert(nr) + ")" : ""));
+    });
+  });
+  z.push("");
+  z.push("SKALENWERTE (umgepolt, 1-5)");
+  e.subskalen.forEach(function(s){
+    z.push("  " + s.titel + ": " + num(s.mittelwert) + (s.auffaellig ? "  *" : ""));
+  });
+  z.push("  Gesamtwert QLC-S-15: " + e.gesamt + " / 75  (Mittelwert " + num(e.gesamt/15) + ")");
+  z.push("  Auffällige Subskalen: " + e.auffaellige + " von 5");
+  z.push("  Profilrichtung: " + e.richtung);
+  z.push("");
+  z.push("TEIL C – EINORDNUNG");
+  Object.keys(ITEMS_C1).forEach(function(nr){ z.push("  " + nr + ". " + wert("i"+nr)); });
+  z.push("  C1 Mittelwert: " + num(e.c1Mittel));
+  z.push("  C2 Gesamteinschätzung: " + e.c2 + " / 5");
+  z.push("  C4 Selbstzuordnung: " + wert("c4"));
+  z.push("  C5 Offene Angabe: " + (wert("c5") || "–"));
+  z.push("");
+  z.push("PRÜFUNG DER EINSCHLUSSKRITERIEN");
+  z.push("  Alter " + CONFIG.kriterien.alterMin + "-" + CONFIG.kriterien.alterMax + ": " + (e.altersOk ? "erfüllt" : "nicht erfüllt"));
+  z.push("  Belastung (Gesamtwert ≥ " + CONFIG.kriterien.gesamtwertMin
+       + " oder ≥ " + CONFIG.kriterien.subskalenMin + " auffällige Subskalen): " + (e.belastungOk ? "erfüllt" : "nicht erfüllt"));
+  z.push("  Selbsteinschätzung C2 ≥ " + CONFIG.kriterien.c2Min + ": " + (e.selbstOk ? "erfüllt" : "nicht erfüllt"));
+  z.push("");
+  z.push("KONTAKT");
+  z.push("  Name: " + (document.getElementById("kName").value.trim() || "–"));
+  z.push("  E-Mail: " + (document.getElementById("kMail").value.trim() || "–"));
+  z.push("  Einwilligung zur Datenübermittlung: " + (document.getElementById("kEinwilligung").checked ? "ja" : "nein"));
+  return z.join("\n");
+}
+
+/* =================================================================
+   EREIGNISSE
+   ================================================================= */
+var letztesErgebnis = null;
+
+form.addEventListener("submit", function(ev){
+  ev.preventDefault();
+  var fehlend = pruefe();
+  var g = document.getElementById("globalFehler");
+  if(fehlend.length){
+    g.style.display = "block";
+    g.textContent = "Bitte füllen Sie die " + fehlend.length + " markierten Felder aus.";
+    var erstes = document.querySelector('[data-fehler="'+fehlend[0]+'"]');
+    if(erstes) erstes.closest(".frage").scrollIntoView({ behavior:"smooth", block:"center" });
+    return;
+  }
+  g.style.display = "none";
+  letztesErgebnis = auswerten();
+  zeigeErgebnis(letztesErgebnis);
+});
+
+document.getElementById("nochmal").addEventListener("click", function(){
+  document.getElementById("ergebnis").style.display = "none";
+  form.style.display = "";
+  document.querySelector(".fortschritt").style.display = "";
+  window.scrollTo({ top:0, behavior:"smooth" });
+});
+
+document.getElementById("zuruecksetzen").addEventListener("click", function(){
+  if(!confirm("Alle Antworten verwerfen?")) return;
+  form.reset();
+  PFLICHT.forEach(function(f){ zeigeFehler(f, false); });
+  document.getElementById("globalFehler").style.display = "none";
+  aktualisiereFortschritt();
+  window.scrollTo({ top:0, behavior:"smooth" });
+});
+
+document.getElementById("senden").addEventListener("click", function(){
+  var mail = document.getElementById("kMail").value.trim();
+  var ok = document.getElementById("kEinwilligung").checked;
+  var mailOk = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail);
+  zeigeFehler("kMail", !mailOk);
+  zeigeFehler("kEinwilligung", !ok);
+  if(!mailOk || !ok) return;
+
+  var text   = zusammenfassungText(letztesErgebnis);
+  var status = document.getElementById("sendeStatus");
+  document.getElementById("zusammenfassung").textContent = text;
+
+  if(CONFIG.endpoint){
+    status.textContent = "Wird übermittelt …";
+    fetch(CONFIG.endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        betreff: "Screening QLC-S-15 – Eignung: " + (letztesErgebnis.geeignet ? "ja" : "nein"),
+        name: document.getElementById("kName").value.trim(),
+        email: mail,
+        geeignet: letztesErgebnis.geeignet,
+        gesamtwert: letztesErgebnis.gesamt,
+        zusammenfassung: text
+      })
+    }).then(function(r){
+      status.textContent = r.ok
+        ? "Vielen Dank – Ihre Angaben wurden übermittelt. Wir melden uns in den nächsten Tagen bei Ihnen."
+        : "Die Übermittlung hat nicht geklappt. Bitte kopieren Sie die Zusammenfassung und senden Sie sie an " + CONFIG.kontaktEmail + ".";
+    }).catch(function(){
+      status.textContent = "Die Übermittlung hat nicht geklappt. Bitte kopieren Sie die Zusammenfassung und senden Sie sie an " + CONFIG.kontaktEmail + ".";
+    });
+  } else {
+    var betreff = "Screening QLC-S-15 – Teilnahmeinteresse";
+    window.location.href = "mailto:" + CONFIG.kontaktEmail
+      + "?subject=" + encodeURIComponent(betreff)
+      + "&body="    + encodeURIComponent(text);
+    status.textContent = "Ihr E-Mail-Programm sollte sich mit einer vorbereiteten Nachricht öffnen. "
+      + "Falls nicht, kopieren Sie bitte die Zusammenfassung und senden Sie sie an " + CONFIG.kontaktEmail + ".";
+  }
+});
+
+document.getElementById("kopieren").addEventListener("click", function(){
+  var text = zusammenfassungText(letztesErgebnis);
+  document.getElementById("zusammenfassung").textContent = text;
+  var fertig = function(){ document.getElementById("sendeStatus").textContent = "Zusammenfassung in die Zwischenablage kopiert."; };
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(fertig, function(){
+      document.getElementById("sendeStatus").textContent = "Kopieren nicht möglich – bitte den Text unten markieren.";
+    });
+  } else {
+    document.getElementById("sendeStatus").textContent = "Kopieren nicht möglich – bitte den Text unten markieren.";
+  }
+});
+
+document.getElementById("footerKontakt").innerHTML =
+  "Fragen zur Studie? " + esc(CONFIG.studienleitung)
+  + ' &middot; <a href="mailto:' + CONFIG.kontaktEmail + '">' + esc(CONFIG.kontaktEmail) + "</a>";
+
+})();
+</script>
+</body>
+</html>

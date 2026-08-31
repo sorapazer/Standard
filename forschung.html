@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aktuelle Forschung · Praxis Pazer</title>
+    <meta name="description" content="Screening zur Quarter-Life-Crisis (QLC-S-15): Prüfen Sie in ca. 5 Minuten, ob Sie für eine wissenschaftliche Interviewstudie in Frage kommen. Freiwillig, anonym ausgewertet, keine Diagnose.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="aurora"><span></span></div>
+
+<header class="nav" id="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-brand"><span class="dot"></span>Praxis Pazer</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="ueber.html">Über mich</a></li>
+            <li><a href="leistungen.html">Leistungen</a></li>
+            <li><a href="unternehmen.html">Unternehmen</a></li>
+            <li><a href="ansatz.html">Ansatz</a></li>
+            <li><a href="selbsttest.html">Selbsttest</a></li>
+            <li><a href="buecher.html">Bücher</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="termin.html" class="nav-cta">Termin buchen</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+    </div>
+    <ul class="nav-mobile" id="navMobile">
+        <li><a href="index.html">Start</a></li>
+        <li><a href="ueber.html">Über mich</a></li>
+        <li><a href="leistungen.html">Leistungen</a></li>
+        <li><a href="unternehmen.html">Unternehmen</a></li>
+        <li><a href="ansatz.html">Ansatz</a></li>
+        <li><a href="selbsttest.html">Selbsttest</a></li>
+        <li><a href="buecher.html">Bücher</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="termin.html" class="nav-cta">Termin buchen</a></li>
+    </ul>
+</header>
+
+<section class="hero">
+    <div class="container-narrow text-center">
+        <span class="eyebrow reveal in">Aktuelle Forschung</span>
+        <h1 class="reveal in">Quarter-Life-Crisis —<br><span class="gradient-text">Screening zur Studie.</span></h1>
+        <p class="lead reveal in" style="margin: 22px auto 0; max-width: 660px;">Ich führe eine wissenschaftliche Interviewstudie zur <strong>Quarter-Life-Crisis</strong> durch — der Umbruchs- und Orientierungsphase im jungen Erwachsenenalter. Mit diesem kurzen Screening (ca. 5 Minuten) können Sie prüfen, ob Sie für eine Teilnahme in Frage kommen.</p>
+    </div>
+</section>
+
+<section class="tight">
+    <div class="container-narrow">
+        <div class="note reveal" style="margin-bottom: 36px;">
+            <strong>Bitte beachten:</strong> Dieser Fragebogen ist <strong>kein diagnostisches Verfahren</strong> und stellt keine Diagnose.
+            Er dient allein der Eignungsprüfung für eine Interviewstudie. Ihre Antworten werden ausschließlich in Ihrem Browser
+            ausgewertet und <strong>nirgendwo gespeichert oder übertragen</strong>. Erst wenn Sie sich am Ende ausdrücklich melden,
+            senden Sie mir Ihre Kontaktdaten per E-Mail. Die Teilnahme ist freiwillig und jederzeit widerruflich.
+        </div>
+
+        <div class="test-area active" id="screen">
+            <p class="sci-note" style="margin-bottom: 22px;">
+                Bitte beziehen Sie alle Aussagen auf die <strong>letzten sechs Monate</strong>. Es gibt keine richtigen oder
+                falschen Antworten — es interessiert allein Ihr persönliches Erleben. Antworten Sie spontan; die erste
+                Einschätzung ist meist die zutreffendste.
+            </p>
+
+            <form id="qlcForm">
+
+                <!-- TEIL A -->
+                <div class="domain-head">A · Kurzangaben</div>
+
+                <div class="quiz-q">
+                    <div class="q-text">A1 · Ihr Alter (in Jahren)</div>
+                    <input type="number" id="age" min="14" max="99" inputmode="numeric" placeholder="z. B. 27"
+                           style="width:140px; padding:10px 14px; border:1px solid var(--line); border-radius:12px; font:inherit; background:var(--glass-bg);">
+                </div>
+
+                <div class="quiz-q">
+                    <div class="q-text">A2 · Geschlecht</div>
+                    <div class="opt-row" data-field="gender">
+                        <button type="button" class="opt-chip" data-val="weiblich">weiblich</button>
+                        <button type="button" class="opt-chip" data-val="männlich">männlich</button>
+                        <button type="button" class="opt-chip" data-val="divers">divers</button>
+                        <button type="button" class="opt-chip" data-val="keine Angabe">keine Angabe</button>
+                    </div>
+                </div>
+
+                <div class="quiz-q">
+                    <div class="q-text">A3 · Aktuelle Tätigkeit</div>
+                    <div class="opt-row" data-field="taetigkeit">
+                        <button type="button" class="opt-chip" data-val="Studium / Ausbildung">Studium / Ausbildung</button>
+                        <button type="button" class="opt-chip" data-val="Berufseinstieg">Berufseinstieg</button>
+                        <button type="button" class="opt-chip" data-val="festangestellt">festangestellt</button>
+                        <button type="button" class="opt-chip" data-val="befristet">befristet</button>
+                        <button type="button" class="opt-chip" data-val="selbstständig">selbstständig</button>
+                        <button type="button" class="opt-chip" data-val="arbeitssuchend">arbeitssuchend</button>
+                        <button type="button" class="opt-chip" data-val="Sonstiges">Sonstiges</button>
+                    </div>
+                </div>
+
+                <div class="quiz-q">
+                    <div class="q-text">A4 · Beziehungsstatus</div>
+                    <div class="opt-row" data-field="beziehung">
+                        <button type="button" class="opt-chip" data-val="Single">Single</button>
+                        <button type="button" class="opt-chip" data-val="feste Partnerschaft">feste Partnerschaft</button>
+                        <button type="button" class="opt-chip" data-val="verheiratet">verheiratet</button>
+                        <button type="button" class="opt-chip" data-val="getrennt / geschieden">getrennt / geschieden</button>
+                    </div>
+                </div>
+
+                <!-- TEIL B -->
+                <p class="sci-note" style="margin:34px 0 4px;">
+                    <strong>Teil B · Erleben in den letzten sechs Monaten.</strong> &nbsp;<strong>Skala:</strong>
+                    1 = trifft gar nicht zu · 2 = trifft eher nicht zu · 3 = teils/teils · 4 = trifft eher zu · 5 = trifft völlig zu
+                </p>
+                <div id="likertB"></div>
+
+                <!-- TEIL C -->
+                <p class="sci-note" style="margin:34px 0 4px;">
+                    <strong>Teil C · Einordnung.</strong> Diese Fragen dienen nur der Einordnung Ihrer Antworten und stellen keine Diagnose dar.
+                </p>
+                <div id="likertC1"></div>
+
+                <div class="quiz-q">
+                    <div class="q-text">C2 · Würden Sie Ihre derzeitige Lebensphase selbst als Krise oder als Phase grundlegender Neuorientierung beschreiben?</div>
+                    <div class="opt-row" data-field="c2">
+                        <button type="button" class="opt-chip" data-val="1">nein</button>
+                        <button type="button" class="opt-chip" data-val="2">eher nicht</button>
+                        <button type="button" class="opt-chip" data-val="3">teils / teils</button>
+                        <button type="button" class="opt-chip" data-val="4">ja, eher schon</button>
+                        <button type="button" class="opt-chip" data-val="5">ja, eindeutig</button>
+                    </div>
+                </div>
+
+                <div class="quiz-q">
+                    <div class="q-text">C3 · Welche Beschreibung trifft Ihr Erleben besser? (nur eine Antwort)</div>
+                    <div class="opt-col" data-field="c3">
+                        <button type="button" class="opt-chip wide" data-val="locked-out">Ich komme nicht dorthin, wo ich hinmöchte — mir fehlt der Zugang.</button>
+                        <button type="button" class="opt-chip wide" data-val="locked-in">Ich stecke dort fest, wo ich nicht mehr sein möchte — mir fehlt der Ausweg.</button>
+                        <button type="button" class="opt-chip wide" data-val="beides">beides gleichermaßen</button>
+                        <button type="button" class="opt-chip wide" data-val="keines">keines von beidem</button>
+                    </div>
+                </div>
+
+                <div class="quiz-q">
+                    <div class="q-text">C5a · Seit wann beschäftigt Sie das, was Sie hier angegeben haben, in dieser Stärke?</div>
+                    <div class="opt-row" data-field="c5a">
+                        <button type="button" class="opt-chip" data-val="unter 3 Monaten">unter 3 Monaten</button>
+                        <button type="button" class="opt-chip" data-val="3–6 Monate">3–6 Monate</button>
+                        <button type="button" class="opt-chip" data-val="6–12 Monate">6–12 Monate</button>
+                        <button type="button" class="opt-chip" data-val="1–2 Jahre">1–2 Jahre</button>
+                        <button type="button" class="opt-chip" data-val="länger als 2 Jahre">länger als 2 Jahre</button>
+                        <button type="button" class="opt-chip" data-val="eigentlich schon immer">eigentlich schon immer</button>
+                    </div>
+                </div>
+
+                <div class="quiz-q">
+                    <div class="q-text">C6 · Wären Sie zu einem Einzelinterview von 60 bis 90 Minuten bereit? Das Gespräch wird zur Auswertung aufgezeichnet und anschließend anonym verschriftlicht.</div>
+                    <div class="opt-row" data-field="c6">
+                        <button type="button" class="opt-chip" data-val="ja">ja</button>
+                        <button type="button" class="opt-chip" data-val="ja, aber ohne Aufzeichnung">ja, aber nur ohne Aufzeichnung</button>
+                        <button type="button" class="opt-chip" data-val="nein">nein</button>
+                    </div>
+                </div>
+
+            </form>
+
+            <div class="quiz-actions">
+                <button type="button" class="btn btn-primary btn-lg" id="evalBtn">Eignung prüfen</button>
+                <span class="quiz-hint" id="hint"></span>
+            </div>
+
+            <div class="quiz-result" id="result"></div>
+        </div>
+
+        <div class="note reveal" style="margin-top: 36px;">
+            Dieses Screening ersetzt keine Beratung oder Behandlung. In einer akuten Krise oder bei Gedanken, sich das Leben zu
+            nehmen, holen Sie sich bitte sofort Hilfe: Telefonseelsorge <strong>0800 111 0 111</strong> (kostenfrei, rund um die
+            Uhr) oder im Notfall die <strong>112</strong>.
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-card">
+            <div class="footer-grid">
+                <div><a href="index.html" class="footer-brand"><span class="dot"></span>Praxis Pazer</a><p style="font-size:0.94rem; max-width:320px;">Psychologische Beratung mit Schwerpunkt Depression und Burnout. Menschlich, fundiert, diskret.</p></div>
+                <div><h4>Praxis</h4><ul><li><a href="leistungen.html">Leistungen</a></li><li><a href="unternehmen.html">Unternehmen</a></li><li><a href="ansatz.html">Ansatz</a></li><li><a href="selbsttest.html">Selbsttest</a></li><li><a href="buecher.html">Bücher</a></li><li><a href="ueber.html">Über mich</a></li></ul></div>
+                <div><h4>Mehr</h4><ul><li><a href="blog.html">Blog</a></li><li><a href="videos.html">Videos</a></li><li><a href="forschung.html">Aktuelle Forschung</a></li><li><a href="kontakt.html">Kontakt</a></li></ul></div>
+                <div><h4>Kontakt</h4><ul><li><a href="mailto:sorapazer@gmail.com">sorapazer@gmail.com</a></li><li><a href="termin.html">Termin anfragen</a></li></ul></div>
+            </div>
+            <div class="footer-base"><span>© 2026 Praxis Pazer · Sora Pazer</span><span class="links"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></span></div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+(function () {
+    // Teil B — 15 Items, gruppiert. reverse: positiv formulierte Items (umgekehrt gewertet).
+    var B = [
+        { name: 'Identität und Sinn', items: [
+            { t: 'Ich frage mich häufig, wer ich eigentlich bin und wofür ich stehe.' },
+            { t: 'Meine früheren Lebensziele fühlen sich nicht mehr wie meine eigenen an.' },
+            { t: 'Ich zweifle daran, ob die Entscheidungen, die mich hierher gebracht haben, zu mir passen.' } ] },
+        { name: 'Zukunft und Kontrollerleben', items: [
+            { t: 'Ich habe das Gefühl, die Richtung meines Lebens nicht mehr selbst zu bestimmen.' },
+            { t: 'Wenn ich an die nächsten Jahre denke, überwiegt bei mir die Sorge.' },
+            { t: 'Ich vertraue darauf, dass sich mein weiterer Weg klären wird.', rev: true } ] },
+        { name: 'Nicht ankommen', items: [
+            { t: 'Trotz meiner Qualifikationen komme ich nicht dorthin, wo ich sein möchte.' },
+            { t: 'Ich habe das Gefühl, im Erwachsenenleben noch nicht richtig angekommen zu sein.' },
+            { t: 'In den für mich wichtigen Lebensbereichen habe ich Fuß gefasst.', rev: true } ] },
+        { name: 'Feststecken', items: [
+            { t: 'Ich fühle mich an Verpflichtungen gebunden, die nicht mehr zu mir passen.' },
+            { t: 'Ich würde etwas Grundlegendes verändern, sehe aber keinen gangbaren Weg dorthin.' },
+            { t: 'Ich könnte meine derzeitige Lebenssituation verlassen, wenn ich es wirklich wollte.', rev: true } ] },
+        { name: 'Sozialer Vergleich und Zeitdruck', items: [
+            { t: 'Im Vergleich mit Gleichaltrigen habe ich das Gefühl, zurückzuliegen.' },
+            { t: 'Ich stehe unter Druck, bestimmte Dinge bis zu einem bestimmten Alter erreicht zu haben.' },
+            { t: 'Was andere von ihrem Leben zeigen, verstärkt bei mir das Gefühl, hinterherzuhinken.' } ] }
+    ];
+    var C1 = [
+        'Ich fühle mich über längere Zeit hinweg erschöpft und antriebslos.',
+        'Ich empfinde wenig Freude an Dingen, die mir früher wichtig waren.',
+        'Meine Belastung schränkt mich in Studium, Arbeit oder Alltag spürbar ein.'
+    ];
+    var SCALE = ['trifft gar nicht zu', 'trifft völlig zu'];
+
+    var choices = {}; // field -> value (chips)
+
+    function likertBlock(items, prefix) {
+        var html = '';
+        items.forEach(function (it, i) {
+            var text = it.t || it;
+            var opts = '';
+            for (var v = 1; v <= 5; v++) {
+                opts += '<label><input type="radio" name="' + prefix + i + '" value="' + v + '"><span class="opt">' + v + '</span></label>';
+            }
+            html += '<div class="quiz-q"><div class="q-text">' + text + '</div>' +
+                    '<div class="likert">' + opts + '</div>' +
+                    '<div class="likert-scale"><span>' + SCALE[0] + '</span><span>' + SCALE[1] + '</span></div></div>';
+        });
+        return html;
+    }
+
+    // Build Teil B (with sub-headers) and C1
+    var bHtml = '';
+    B.forEach(function (d, di) {
+        bHtml += likertBlock(d.items, 'b_' + di + '_');
+    });
+    document.getElementById('likertB').innerHTML = bHtml;
+    document.getElementById('likertC1').innerHTML = likertBlock(C1, 'c1_');
+
+    // Chip selection (single choice per field)
+    document.querySelectorAll('.opt-row, .opt-col').forEach(function (row) {
+        var field = row.getAttribute('data-field');
+        row.addEventListener('click', function (e) {
+            var chip = e.target.closest('.opt-chip');
+            if (!chip) return;
+            row.querySelectorAll('.opt-chip').forEach(function (c) { c.classList.remove('sel'); });
+            chip.classList.add('sel');
+            choices[field] = chip.getAttribute('data-val');
+        });
+    });
+
+    var hint = document.getElementById('hint');
+    var result = document.getElementById('result');
+
+    function likertValue(name) {
+        var n = document.querySelector('input[name="' + name + '"]:checked');
+        return n ? parseInt(n.value, 10) : null;
+    }
+
+    function evaluate() {
+        // collect Teil B
+        var sum = 0, answeredB = 0, totalB = 0;
+        B.forEach(function (d, di) {
+            d.items.forEach(function (it, i) {
+                totalB++;
+                var v = likertValue('b_' + di + '_' + i);
+                if (v !== null) { answeredB++; sum += it.rev ? (6 - v) : v; }
+            });
+        });
+        // C1
+        var c1Answered = 0;
+        for (var i = 0; i < C1.length; i++) { if (likertValue('c1_' + i) !== null) c1Answered++; }
+
+        var age = parseInt(document.getElementById('age').value, 10);
+        var missing = [];
+        if (!age || isNaN(age)) missing.push('Alter');
+        if (answeredB < totalB) missing.push('alle Aussagen in Teil B (' + answeredB + '/' + totalB + ')');
+        if (c1Answered < C1.length) missing.push('die Aussagen in Teil C');
+        if (!choices.c2) missing.push('Frage C2');
+        if (!choices.c6) missing.push('Frage C6');
+
+        if (missing.length) {
+            hint.textContent = 'Bitte ergänzen Sie noch: ' + missing.join(', ') + '.';
+            return;
+        }
+        hint.textContent = '';
+
+        var pct = Math.round((sum - 15) / 60 * 100);   // 15..75 -> 0..100
+        var mean = sum / 15;
+        var c2 = parseInt(choices.c2, 10);
+        var ageOK = age >= 18 && age <= 35;
+        var elevated = mean >= 3.0 || c2 >= 4;
+        var willing = choices.c6 !== 'nein';
+        var eligible = ageOK && elevated && willing;
+
+        var band = pct < 40 ? { cls: 'band-low', label: 'Gering ausgeprägt' }
+                 : pct < 65 ? { cls: 'band-mid', label: 'Mittel ausgeprägt' }
+                 : { cls: 'band-high', label: 'Deutlich ausgeprägt' };
+
+        var verdictHtml, actionHtml;
+
+        if (eligible) {
+            verdictHtml = '<div class="result-band band-high"><span class="pip"></span>Sie kommen voraussichtlich in Frage</div>' +
+                '<p>Nach diesem Kurz-Screening passen Sie gut zur Zielgruppe der Studie. Über die endgültige Teilnahme ' +
+                'entscheide ich nach einer kurzen Rückmeldung — ganz unverbindlich.</p>';
+            var subject = 'Studienteilnahme Quarter-Life-Crisis – Screening';
+            var body = 'Hallo Sora Pazer,\n\n'
+                + 'ich habe das Online-Screening zur Quarter-Life-Crisis-Studie ausgefüllt und würde gern teilnehmen.\n\n'
+                + '— Mein Screening (freiwillige Angaben) —\n'
+                + 'Alter: ' + age + '\n'
+                + 'Geschlecht: ' + (choices.gender || '-') + '\n'
+                + 'Tätigkeit: ' + (choices.taetigkeit || '-') + '\n'
+                + 'Beziehungsstatus: ' + (choices.beziehung || '-') + '\n'
+                + 'QLC-Gesamttendenz: ' + pct + '%\n'
+                + 'Selbsteinschätzung (C2): ' + c2Label(c2) + '\n'
+                + 'Erleben (C3): ' + (choices.c3 ? c3Label(choices.c3) : '-') + '\n'
+                + 'Dauer (C5a): ' + (choices.c5a || '-') + '\n'
+                + 'Interview-Bereitschaft (C6): ' + choices.c6 + '\n\n'
+                + '— Kontakt —\n'
+                + 'Name: \n'
+                + 'E-Mail: \n'
+                + 'Telefon (freiwillig): \n\n'
+                + 'Mir ist bekannt, dass die Teilnahme freiwillig ist und ich meine Einwilligung jederzeit '
+                + 'formlos widerrufen kann.\n\n'
+                + 'Viele Grüße';
+            var href = 'mailto:sorapazer@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+            actionHtml =
+                '<div class="consent-box"><label><input type="checkbox" id="consent"> ' +
+                'Ich habe die Hinweise gelesen und möchte zur Prüfung der Teilnahme kontaktiert werden. ' +
+                'Mit dem Absenden übermittle ich die oben genannten Angaben freiwillig per E-Mail.</label></div>' +
+                '<div style="margin-top:18px; display:flex; gap:12px; flex-wrap:wrap;">' +
+                '<a href="' + href + '" class="btn btn-primary btn-arrow disabled" id="applyBtn" aria-disabled="true">Für die Studie melden</a>' +
+                '<a href="mailto:sorapazer@gmail.com?subject=' + encodeURIComponent('Frage zur Quarter-Life-Crisis-Studie') + '" class="btn btn-ghost">Erst eine Frage stellen</a>' +
+                '</div>';
+        } else {
+            var reasons = [];
+            if (!ageOK) reasons.push('Die Studie richtet sich an junge Erwachsene (etwa 18 bis 35 Jahre).');
+            if (!willing) reasons.push('Für die Studie ist die Bereitschaft zu einem Interview nötig.');
+            if (ageOK && willing && !elevated) reasons.push('Ihre Angaben deuten aktuell nicht auf eine ausgeprägte Umbruchs- oder Krisenphase hin, wie sie für diese Studie im Fokus steht.');
+            verdictHtml = '<div class="result-band band-low"><span class="pip"></span>Aktuell voraussichtlich nicht geeignet</div>' +
+                '<p>Vielen Dank für Ihr Interesse! Nach diesem Kurz-Screening kommen Sie für <em>diese</em> Studie derzeit ' +
+                'vermutlich nicht in Frage:</p><ul class="reasons">' + reasons.map(function (r) { return '<li>' + r + '</li>'; }).join('') + '</ul>';
+            actionHtml =
+                '<div style="margin-top:18px; display:flex; gap:12px; flex-wrap:wrap;">' +
+                '<a href="selbsttest.html" class="btn btn-primary btn-arrow">Zu den Selbsttests</a>' +
+                '<a href="mailto:sorapazer@gmail.com?subject=' + encodeURIComponent('Frage zur Quarter-Life-Crisis-Studie') + '" class="btn btn-ghost">Trotzdem Kontakt aufnehmen</a>' +
+                '</div>';
+        }
+
+        result.className = 'quiz-result show';
+        result.innerHTML =
+            verdictHtml +
+            '<div class="result-score" style="margin-top:14px;">Ihre QLC-Gesamttendenz: ' + pct + '% &nbsp;·&nbsp; Einordnung: ' + band.label + '</div>' +
+            '<div class="meter ' + (pct < 40 ? '' : pct < 65 ? 'm-mid' : 'm-high') + '" style="margin:12px 0 22px;"><i style="width:' + Math.max(pct, 2) + '%"></i></div>' +
+            actionHtml +
+            '<p style="font-size:0.86rem;color:var(--muted);margin-top:18px;">Hinweis: Dieses Screening ist kein diagnostisches Verfahren und sagt nichts über Ihre psychische Gesundheit aus. Es prüft ausschließlich die Passung zur aktuellen Studie. Ihre Antworten bleiben in Ihrem Browser; erst mit dem E-Mail-Versand teilen Sie Angaben mit.</p>';
+
+        // gate the apply button behind consent
+        var consent = document.getElementById('consent');
+        var applyBtn = document.getElementById('applyBtn');
+        if (consent && applyBtn) {
+            consent.addEventListener('change', function () {
+                if (consent.checked) { applyBtn.classList.remove('disabled'); applyBtn.setAttribute('aria-disabled', 'false'); }
+                else { applyBtn.classList.add('disabled'); applyBtn.setAttribute('aria-disabled', 'true'); }
+            });
+            applyBtn.addEventListener('click', function (e) {
+                if (!consent.checked) { e.preventDefault(); consent.focus(); }
+            });
+        }
+        result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function c2Label(v) {
+        return ['', 'nein', 'eher nicht', 'teils/teils', 'ja, eher schon', 'ja, eindeutig'][v] || '-';
+    }
+    function c3Label(v) {
+        return { 'locked-out': 'kommt nicht an (Zugang fehlt)', 'locked-in': 'steckt fest (Ausweg fehlt)', 'beides': 'beides gleichermaßen', 'keines': 'keines von beidem' }[v] || '-';
+    }
+
+    document.getElementById('evalBtn').addEventListener('click', evaluate);
+})();
+</script>
+</body>
+</html>

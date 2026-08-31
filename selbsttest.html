@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selbsttest · Praxis Pazer</title>
+    <meta name="description" content="Sechs ausführliche, wissenschaftlich orientierte Selbsttests: Depression, Angst, Burnout, ADHS, Hochsensibilität und Stress. Anonym, nach Bereichen gegliedert, mit detaillierter Sofort-Auswertung. Keine Diagnose.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="aurora"><span></span></div>
+
+<header class="nav" id="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-brand"><span class="dot"></span>Praxis Pazer</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="ueber.html">Über mich</a></li>
+            <li><a href="leistungen.html">Leistungen</a></li>
+            <li><a href="unternehmen.html">Unternehmen</a></li>
+            <li><a href="ansatz.html">Ansatz</a></li>
+            <li><a href="selbsttest.html" class="active">Selbsttest</a></li>
+            <li><a href="buecher.html">Bücher</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="termin.html" class="nav-cta">Termin buchen</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+    </div>
+    <ul class="nav-mobile" id="navMobile">
+        <li><a href="index.html">Start</a></li>
+        <li><a href="ueber.html">Über mich</a></li>
+        <li><a href="leistungen.html">Leistungen</a></li>
+        <li><a href="unternehmen.html">Unternehmen</a></li>
+        <li><a href="ansatz.html">Ansatz</a></li>
+        <li><a href="selbsttest.html" class="active">Selbsttest</a></li>
+        <li><a href="buecher.html">Bücher</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="termin.html" class="nav-cta">Termin buchen</a></li>
+    </ul>
+</header>
+
+<section class="hero">
+    <div class="container-narrow text-center">
+        <span class="eyebrow reveal in">Selbsttest</span>
+        <h1 class="reveal in">Wo stehe ich<br><span class="gradient-text">gerade?</span></h1>
+        <p class="lead reveal in" style="margin: 22px auto 0; max-width: 660px;">Sechs ausführliche Selbsttests — Depression, Angst, Burnout, ADHS, Hochsensibilität und Stress — nach Bereichen gegliedert, wissenschaftlich orientiert, mit detaillierter Sofort-Auswertung.</p>
+    </div>
+</section>
+
+<section class="tight">
+    <div class="container-narrow">
+        <div class="note reveal" style="margin-bottom: 36px;">
+            <strong>Bitte beachten:</strong> Diese Selbsttests dienen der vertieften Selbstreflexion und Orientierung.
+            Sie sind <strong>keine Diagnose</strong> und ersetzen keine ärztliche oder psychologische Untersuchung. Ihre
+            Antworten werden ausschließlich in Ihrem Browser ausgewertet und <strong>nirgendwo gespeichert oder übertragen</strong>.
+        </div>
+
+        <!-- Auswahl -->
+        <div id="select" class="reveal">
+            <div class="test-select"></div>
+            <p class="sci-note" style="margin-top: 30px;">
+                <strong>Wissenschaftlicher Hintergrund:</strong> Die Fragen sind an den Symptom-Bereichen anerkannter
+                diagnostischer Kriterien orientiert (u. a. DSM-5 der American Psychiatric Association und ICD-11 der WHO;
+                für Burnout an den Dimensionen nach Maslach). Sie sind <em>eigenständig formuliert</em> und bilden keine
+                geschützten Original-Fragebögen nach. Die Auswertung erfolgt mehrdimensional (nach Bereichen) und ergibt
+                eine Tendenz — keinen klinischen Befund.
+            </p>
+        </div>
+
+        <!-- Testbereich -->
+        <div id="testArea" class="test-area">
+            <span class="back-link" id="backLink">← Zurück zur Auswahl</span>
+            <div id="testHead"></div>
+            <form id="testForm"></form>
+            <div class="quiz-actions">
+                <button type="button" class="btn btn-primary btn-lg" id="evalBtn">Test auswerten</button>
+                <span class="quiz-hint" id="hint"></span>
+            </div>
+            <div class="quiz-result" id="result"></div>
+        </div>
+
+        <!-- Aktuelle Forschung -->
+        <a href="forschung.html" class="research-banner reveal">
+            <div class="rb-ico"><svg class="icn" viewBox="0 0 24 24"><path d="M9 2v6l-5 9a2 2 0 0 0 1.8 3h12.4A2 2 0 0 0 20 17l-5-9V2"/><line x1="8" y1="2" x2="16" y2="2"/><line x1="7.5" y1="13" x2="16.5" y2="13"/></svg></div>
+            <div class="rb-text">
+                <span class="rb-eyebrow">Aktuelle Forschung</span>
+                <strong>Studie zur Quarter-Life-Crisis — machen Sie beim Screening mit</strong>
+                <span class="rb-sub">In ca. 5 Minuten prüfen, ob Sie für eine wissenschaftliche Interviewstudie in Frage kommen. Freiwillig &amp; anonym ausgewertet.</span>
+            </div>
+            <span class="rb-arrow">→</span>
+        </a>
+
+        <div class="note reveal" style="margin-top: 36px;">
+            In einer akuten Krise oder bei Gedanken, sich das Leben zu nehmen, holen Sie sich bitte sofort Hilfe:
+            Telefonseelsorge <strong>0800 111 0 111</strong> (kostenfrei, rund um die Uhr) oder im Notfall die <strong>112</strong>.
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="cta reveal">
+            <span class="eyebrow">Der nächste Schritt</span>
+            <h2>Ihr Ergebnis gemeinsam einordnen</h2>
+            <p>Ein Testergebnis ist ein Hinweis, keine Antwort. In einer Sitzung schauen wir gemeinsam, was es für Sie bedeutet.</p>
+            <div class="cta-actions"><a href="termin.html" class="btn btn-primary btn-lg btn-arrow">Termin buchen</a></div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-card">
+            <div class="footer-grid">
+                <div><a href="index.html" class="footer-brand"><span class="dot"></span>Praxis Pazer</a><p style="font-size:0.94rem; max-width:320px;">Psychologische Beratung mit Schwerpunkt Depression und Burnout. Menschlich, fundiert, diskret.</p></div>
+                <div><h4>Praxis</h4><ul><li><a href="leistungen.html">Leistungen</a></li><li><a href="unternehmen.html">Unternehmen</a></li><li><a href="ansatz.html">Ansatz</a></li><li><a href="selbsttest.html">Selbsttest</a></li><li><a href="buecher.html">Bücher</a></li><li><a href="ueber.html">Über mich</a></li></ul></div>
+                <div><h4>Mehr</h4><ul><li><a href="blog.html">Blog</a></li><li><a href="videos.html">Videos</a></li><li><a href="forschung.html">Aktuelle Forschung</a></li><li><a href="kontakt.html">Kontakt</a></li><li><a href="termin.html">Termin buchen</a></li></ul></div>
+                <div><h4>Kontakt</h4><ul><li><a href="mailto:sorapazer@gmail.com">sorapazer@gmail.com</a></li><li><a href="termin.html">Termin anfragen</a></li></ul></div>
+            </div>
+            <div class="footer-base"><span>© 2026 Praxis Pazer · Sora Pazer</span><span class="links"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></span></div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+(function () {
+    var SCALE = ['nie', 'selten', 'manchmal', 'oft', 'fast täglich'];
+
+    var TESTS = {
+        depression: {
+            title: 'Depression — ausführlicher Selbsttest',
+            tag: 'ca. 5 Min · 21 Fragen',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M20 16.2A4.5 4.5 0 0 0 17.5 8h-1.8A7 7 0 1 0 4 14.9"/><line x1="8" y1="19" x2="8" y2="21"/><line x1="16" y1="19" x2="16" y2="21"/><line x1="12" y1="21" x2="12" y2="23"/></svg>',
+            lead: 'Niedergeschlagenheit, Antriebs- und Freudlosigkeit gehören zu den häufigsten seelischen Belastungen. Dieser Test betrachtet mehrere Bereiche depressiven Erlebens.',
+            instruction: 'Wie häufig traf das in den letzten zwei Wochen auf Sie zu?',
+            domains: [
+                { name: 'Stimmung & Freudempfinden', items: [
+                    'Ich fühle mich über weite Teile des Tages niedergeschlagen oder traurig.',
+                    'Dinge, die mir früher Freude gemacht haben, berühren mich kaum noch.',
+                    'Ich empfinde innere Leere oder Gefühllosigkeit.',
+                    'Ich kann mich über schöne Momente kaum noch freuen.' ] },
+                { name: 'Antrieb & Energie', items: [
+                    'Mir fehlt die Energie für alltägliche Aufgaben.',
+                    'Schon kleine Tätigkeiten kosten mich große Überwindung.',
+                    'Ich fühle mich verlangsamt — oder im Gegenteil innerlich getrieben und ruhelos.' ] },
+                { name: 'Schlaf, Appetit & Körper', items: [
+                    'Mein Schlaf ist gestört (Einschlafen, Durchschlafen oder zu frühes Erwachen).',
+                    'Mein Appetit oder mein Gewicht hat sich deutlich verändert.',
+                    'Ich fühle mich körperlich erschöpft, auch ohne besondere Anstrengung.' ] },
+                { name: 'Selbstwert & Schuld', items: [
+                    'Ich mache mir Vorwürfe oder halte mich für wertlos.',
+                    'Ich habe das Gefühl, anderen zur Last zu fallen.',
+                    'Ich blicke pessimistisch auf meine Zukunft.' ] },
+                { name: 'Denken & Konzentration', items: [
+                    'Es fällt mir schwer, mich zu konzentrieren oder Dinge zu Ende zu bringen.',
+                    'Schon einfache Entscheidungen überfordern mich.',
+                    'Meine Gedanken kreisen häufig um Sorgen oder vermeintliches Versagen.' ] },
+                { name: 'Hoffnung & Sicherheit', items: [
+                    'Ich empfinde Hoffnungslosigkeit, als würde sich nichts mehr ändern.',
+                    { text: 'Ich habe Gedanken, dass das Leben nicht mehr lebenswert ist, oder daran, mir etwas anzutun.', flag: true } ] },
+                { name: 'Auswirkungen im Alltag', items: [
+                    'Meine Beschwerden beeinträchtigen Arbeit, Studium oder Haushalt.',
+                    'Meine Beschwerden belasten meine Beziehungen.',
+                    'Ich ziehe mich von anderen Menschen zurück.' ] }
+            ]
+        },
+        angst: {
+            title: 'Angst — ausführlicher Selbsttest',
+            tag: 'ca. 5 Min · 20 Fragen',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/></svg>',
+            lead: 'Angst ist ein normaler Schutzmechanismus — problematisch wird sie, wenn sie zu stark, zu häufig oder ohne realen Anlass auftritt. Dieser Test betrachtet Sorgen, körperliche Symptome, Panik und Vermeidung.',
+            instruction: 'Wie häufig traf das in den letzten Wochen auf Sie zu?',
+            domains: [
+                { name: 'Sorgen & negative Erwartung', items: [
+                    'Ich mache mir übermäßig und häufig Sorgen.',
+                    'Meine Sorgen fühlen sich schwer kontrollierbar an.',
+                    'Ich erwarte oft, dass etwas Schlimmes passieren wird.',
+                    'Ich sorge mich um viele Lebensbereiche gleichzeitig.' ] },
+                { name: 'Anspannung & Unruhe', items: [
+                    'Ich bin innerlich angespannt oder „auf dem Sprung".',
+                    'Es fällt mir schwer, zur Ruhe zu kommen.',
+                    'Ich bin reizbar oder schreckhaft.' ] },
+                { name: 'Körperliche Symptome', items: [
+                    'Ich bemerke Herzklopfen, Herzrasen oder Engegefühl in der Brust.',
+                    'Ich schwitze, zittere oder mir wird schwindelig, wenn ich nervös bin.',
+                    'Ich habe Magen-Darm-Beschwerden bei Anspannung.',
+                    'Ich atme flach oder bekomme schlecht Luft, wenn ich nervös bin.' ] },
+                { name: 'Panik-artige Episoden', items: [
+                    'Ich erlebe plötzliche Wellen intensiver Angst, die rasch ihren Höhepunkt erreichen.',
+                    'Während solcher Episoden habe ich Angst, die Kontrolle zu verlieren.',
+                    'Ich fürchte das erneute Auftreten solcher Angstanfälle.' ] },
+                { name: 'Vermeidung', items: [
+                    'Ich meide Orte oder Situationen, die mir Angst machen.',
+                    'Ich brauche Begleitung oder „Sicherheitssignale", um bestimmte Dinge zu tun.',
+                    'Mein Aktionsradius hat sich durch Angst eingeengt.' ] },
+                { name: 'Schlaf, Konzentration & Alltag', items: [
+                    'Meine Anspannung stört meinen Schlaf.',
+                    'Sorgen beeinträchtigen meine Konzentration.',
+                    'Die Angst beeinträchtigt meinen Alltag, Beruf oder meine Beziehungen.' ] }
+            ]
+        },
+        burnout: {
+            title: 'Burnout — ausführlicher Selbsttest',
+            tag: 'ca. 5 Min · 20 Fragen',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>',
+            lead: 'Burnout entwickelt sich schleichend aus chronischer Überlastung. Dieser Test betrachtet die zentralen Dimensionen: emotionale Erschöpfung, Distanzierung und das Erleben der eigenen Wirksamkeit — sowie Erholung und Körper.',
+            instruction: 'Wie häufig trifft das in den letzten Wochen auf Sie zu?',
+            domains: [
+                { name: 'Emotionale Erschöpfung', items: [
+                    'Ich fühle mich durch meine Arbeit oder Aufgaben emotional ausgelaugt.',
+                    'Am Ende des Tages bin ich völlig verbraucht.',
+                    'Schon morgens bin ich müde beim Gedanken an den Tag.',
+                    'Ich habe das Gefühl, ständig am Limit zu arbeiten.' ] },
+                { name: 'Distanzierung & Zynismus', items: [
+                    'Ich gehe innerlich auf Distanz zu meiner Arbeit.',
+                    'Ich bin zynischer oder gleichgültiger geworden.',
+                    'Ich zweifle am Sinn dessen, was ich tue.',
+                    'Aufgaben oder Menschen, die mir wichtig waren, lassen mich kalt.' ] },
+                { name: 'Wirksamkeit & Leistung', items: [
+                    'Ich habe das Gefühl, weniger zu leisten als früher.',
+                    'Ich zweifle an meiner Kompetenz.',
+                    'Erfolgserlebnisse bleiben aus.' ] },
+                { name: 'Erholungsfähigkeit', items: [
+                    'Feierabend und Wochenende bringen mir kaum Erholung.',
+                    'Ich kann auch im Urlaub schlecht abschalten.',
+                    'Ich fühle mich selten wirklich ausgeruht.' ] },
+                { name: 'Körperliche Begleitsymptome', items: [
+                    'Ich habe Schlafprobleme.',
+                    'Ich leide unter Kopf-, Rücken- oder Magenbeschwerden ohne klare Ursache.',
+                    'Ich fühle mich anfälliger für Infekte oder oft „angeschlagen".' ] },
+                { name: 'Auswirkungen', items: [
+                    'Meine Erschöpfung wirkt sich auf mein Privatleben aus.',
+                    'Ich ziehe mich von anderen zurück.',
+                    'Ich greife häufiger zu Koffein, Alkohol o. Ä., um zu funktionieren.' ] }
+            ]
+        },
+        adhs: {
+            name: 'ADHS',
+            title: 'ADHS — ausführlicher Selbsttest',
+            tag: 'ca. 6 Min · 18 Fragen',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg>',
+            lead: 'Aufmerksamkeits- und Aktivitätsbesonderheiten (ADHS) zeigen sich in Konzentration, Organisation, innerer Unruhe und Impulsivität — oft schon seit der Kindheit. Dieser Test betrachtet die zentralen Bereiche.',
+            instruction: 'Wie häufig trifft das auf Sie zu?',
+            domains: [
+                { name: 'Aufmerksamkeit & Fokus', items: [
+                    'Ich verliere bei Aufgaben oder Gesprächen schnell den Faden.',
+                    'Flüchtigkeitsfehler passieren mir häufig, obwohl ich mich bemühe.',
+                    'Ich lasse mich leicht von Nebenreizen ablenken.',
+                    'Es fällt mir schwer, Aufgaben zu Ende zu bringen.' ] },
+                { name: 'Organisation & Struktur', items: [
+                    'Ich habe Mühe, meinen Alltag und meine Aufgaben zu strukturieren.',
+                    'Ich verlege häufig Dinge oder vergesse Termine.',
+                    'Aufgaben mit anhaltender geistiger Anstrengung schiebe ich auf.' ] },
+                { name: 'Innere Unruhe & Hyperaktivität', items: [
+                    'Ich fühle mich innerlich unruhig oder „getrieben".',
+                    'Mir fällt es schwer, längere Zeit still zu sitzen.',
+                    'Ich bin ständig aktiv, wie „unter Strom".' ] },
+                { name: 'Impulsivität', items: [
+                    'Ich unterbreche andere oder platze mit Antworten heraus.',
+                    'Ich handle oder entscheide vorschnell, ohne die Folgen zu bedenken.',
+                    'Es fällt mir schwer zu warten, bis ich an der Reihe bin.' ] },
+                { name: 'Emotion & Reizbarkeit', items: [
+                    'Meine Stimmung wechselt schnell und stark.',
+                    'Ich bin schnell frustriert oder gereizt.' ] },
+                { name: 'Verlauf & Alltag', items: [
+                    'Diese Muster begleiten mich schon seit meiner Kindheit oder Jugend.',
+                    'Sie zeigen sich in mehreren Lebensbereichen (z. B. Beruf und Privatleben).',
+                    'Sie beeinträchtigen meinen Alltag deutlich.' ] }
+            ]
+        },
+        hochsensibilitaet: {
+            name: 'Hochsensibilität',
+            title: 'Hochsensibilität — ausführlicher Selbsttest',
+            tag: 'ca. 5 Min · 16 Fragen',
+            resultType: 'trait',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7z"/></svg>',
+            lead: 'Hochsensibilität ist keine Störung, sondern ein Persönlichkeitsmerkmal: eine besonders tiefe und intensive Verarbeitung von Reizen und Gefühlen. Dieser Test schätzt, wie stark es bei Ihnen ausgeprägt ist.',
+            instruction: 'Wie sehr trifft das auf Sie zu?',
+            domains: [
+                { name: 'Tiefe Verarbeitung', items: [
+                    'Ich denke über Erlebnisse und Eindrücke besonders gründlich nach.',
+                    'Ich nehme feine Details wahr, die anderen entgehen.',
+                    'Ich brauche Zeit, um Eindrücke zu verarbeiten, bevor ich reagiere.' ] },
+                { name: 'Reizoffenheit & Übererregung', items: [
+                    'In reizintensiven Umgebungen (Lärm, Menschenmengen) fühle ich mich schnell überfordert.',
+                    'Nach ereignisreichen Tagen brauche ich viel Rückzug, um mich zu erholen.',
+                    'Grelle Lichter, starke Gerüche oder laute Geräusche belasten mich stark.',
+                    'Wenn viel gleichzeitig passiert, werde ich schnell gestresst.' ] },
+                { name: 'Emotionale Tiefe & Empathie', items: [
+                    'Ich reagiere emotional stärker als andere — im Positiven wie im Negativen.',
+                    'Die Stimmungen anderer Menschen übertragen sich schnell auf mich.',
+                    'Kritik oder Konflikte treffen mich tief und wirken lange nach.' ] },
+                { name: 'Ästhetisches Empfinden', items: [
+                    'Kunst, Musik oder Natur berühren mich intensiv.',
+                    'Ich nehme Schönheit und Atmosphäre sehr bewusst wahr.' ] },
+                { name: 'Körperliche Feinfühligkeit', items: [
+                    'Ich reagiere empfindlich auf Hunger, Koffein, Schmerz oder Medikamente.',
+                    'Kratzige Kleidung oder Etiketten stören mich stark.' ] },
+                { name: 'Im Alltag', items: [
+                    'Ich ziehe mich zurück, um Überreizung zu vermeiden.',
+                    'Meine Feinfühligkeit erschwert mir manchmal den Alltag oder das Berufsleben.' ] }
+            ]
+        },
+        stress: {
+            name: 'Angst & Stress',
+            title: 'Angst & Stress — ausführlicher Selbsttest',
+            tag: 'ca. 5 Min · 16 Fragen',
+            ico: '<svg class="icn" viewBox="0 0 24 24"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 1.3 0 1.9-.5 2.5-1"/></svg>',
+            lead: 'Anhaltende Anspannung, Sorgen und Stressreaktionen belasten Körper und Psyche. Dieser Test betrachtet Anspannung, körperliche Stresssymptome, Erschöpfung und die Auswirkungen im Alltag.',
+            instruction: 'Wie häufig trifft das in den letzten Wochen auf Sie zu?',
+            domains: [
+                { name: 'Anspannung & Sorgen', items: [
+                    'Ich fühle mich häufig angespannt, nervös oder „unter Strom".',
+                    'Ich sorge mich viel und kann die Sorgen schwer abstellen.',
+                    'Ich rechne oft mit dem Schlimmsten.' ] },
+                { name: 'Körperliche Stressreaktion', items: [
+                    'Ich habe Verspannungen (Nacken, Kiefer, Schultern).',
+                    'Mein Herz rast oder ich bekomme schlecht Luft, wenn ich gestresst bin.',
+                    'Ich habe Kopfschmerzen oder Magen-Darm-Beschwerden bei Stress.' ] },
+                { name: 'Erschöpfung durch Dauerstress', items: [
+                    'Ich fühle mich durch anhaltenden Stress ausgelaugt.',
+                    'Ich kann schlecht abschalten, selbst in der Freizeit.',
+                    'Ich schlafe schlecht ein oder wache nachts grübelnd auf.' ] },
+                { name: 'Reizbarkeit & Überforderung', items: [
+                    'Ich bin gereizt oder dünnhäutig.',
+                    'Ich fühle mich schnell überfordert.',
+                    'Kleinigkeiten bringen mich aus der Fassung.' ] },
+                { name: 'Kontrolle & Vermeidung', items: [
+                    'Ich habe das Gefühl, den Anforderungen nicht mehr gewachsen zu sein.',
+                    'Ich vermeide Situationen, die Stress oder Angst auslösen.' ] },
+                { name: 'Auswirkungen', items: [
+                    'Der Stress beeinträchtigt meine Konzentration und Leistungsfähigkeit.',
+                    'Der Stress belastet meine Beziehungen oder mein Wohlbefinden.' ] }
+            ]
+        }
+    };
+
+    // normalise items to {text, flag}
+    Object.keys(TESTS).forEach(function (k) {
+        TESTS[k].domains.forEach(function (d) {
+            d.items = d.items.map(function (it) { return typeof it === 'string' ? { text: it, flag: false } : it; });
+        });
+    });
+
+    var sel = document.getElementById('select');
+    var area = document.getElementById('testArea');
+    var head = document.getElementById('testHead');
+    var form = document.getElementById('testForm');
+    var hint = document.getElementById('hint');
+    var result = document.getElementById('result');
+    var current = null;
+
+    // Build selection cards
+    sel.querySelector('.test-select').innerHTML = Object.keys(TESTS).map(function (k) {
+        var t = TESTS[k];
+        var name = t.name || (k.charAt(0).toUpperCase() + k.slice(1));
+        return '<div class="card test-card" data-open="' + k + '">' +
+            '<div class="ico">' + t.ico + '</div>' +
+            '<h3>' + name + '</h3>' +
+            '<p style="font-size:0.95rem;">' + t.lead + '</p>' +
+            '<div class="meta">' + t.tag + '</div>' +
+            '<span class="card-link" style="margin-top:16px;">Test starten</span>' +
+            '</div>';
+    }).join('');
+
+    function openTest(key) {
+        current = key;
+        var t = TESTS[key];
+        head.innerHTML = '<span class="eyebrow">Selbsttest</span><h2 style="margin:6px 0 10px;">' + t.title + '</h2>' +
+            '<p class="lead" style="margin-bottom:16px;">' + t.lead + '</p>' +
+            '<p class="sci-note">' + t.instruction + ' &nbsp;<strong>Skala:</strong> ' +
+            SCALE.map(function (s, i) { return (i + 1) + ' = ' + s; }).join(' · ') + '</p>';
+
+        var qi = 0, html = '';
+        t.domains.forEach(function (d, di) {
+            html += '<div class="domain-head">' + (di + 1) + '. ' + d.name + '</div>';
+            d.items.forEach(function (item) {
+                var opts = '';
+                for (var v = 1; v <= 5; v++) {
+                    opts += '<label><input type="radio" name="q' + qi + '" value="' + v + '"><span class="opt">' + v + '</span></label>';
+                }
+                html += '<div class="quiz-q"><div class="q-text">' + item.text + '</div>' +
+                        '<div class="likert">' + opts + '</div>' +
+                        '<div class="likert-scale"><span>' + SCALE[0] + '</span><span>' + SCALE[4] + '</span></div></div>';
+                qi++;
+            });
+        });
+        form.innerHTML = html;
+        result.className = 'quiz-result'; result.innerHTML = ''; hint.textContent = '';
+        sel.style.display = 'none';
+        area.classList.add('active');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function bandFor(pct, type) {
+        if (type === 'trait') {
+            if (pct < 33) return { cls: 'band-low', m: '', label: 'Eher gering ausgeprägt' };
+            if (pct < 66) return { cls: 'band-mid', m: 'm-mid', label: 'Mittel ausgeprägt' };
+            return { cls: 'band-high', m: 'm-high', label: 'Stark ausgeprägt' };
+        }
+        if (pct < 33) return { cls: 'band-low', m: '', label: 'Wenige Anzeichen' };
+        if (pct < 66) return { cls: 'band-mid', m: 'm-mid', label: 'Deutliche Anzeichen' };
+        return { cls: 'band-high', m: 'm-high', label: 'Ausgeprägte Anzeichen' };
+    }
+
+    function evaluate() {
+        var t = TESTS[current];
+        var qi = 0, total = 0, answered = 0, count = 0, flagHit = false;
+        var rows = '';
+        t.domains.forEach(function (d) {
+            var dSum = 0, dCount = d.items.length;
+            d.items.forEach(function (item) {
+                var node = form.querySelector('input[name="q' + qi + '"]:checked');
+                if (node) {
+                    var val = parseInt(node.value, 10);
+                    dSum += val; total += val; answered++;
+                    if (item.flag && val >= 3) flagHit = true;
+                }
+                qi++; count++;
+            });
+            var dPct = Math.round((dSum - dCount) / (dCount * 4) * 100);
+            var bd = bandFor(dPct, t.resultType);
+            rows += '<div><div class="lbl"><span>' + d.name + '</span><span>' + dPct + '%</span></div>' +
+                    '<div class="meter ' + bd.m + '"><i style="width:' + Math.max(dPct, 2) + '%"></i></div></div>';
+        });
+
+        if (answered < count) {
+            hint.textContent = 'Bitte beantworten Sie alle Fragen (' + answered + '/' + count + ').';
+            return;
+        }
+        hint.textContent = '';
+        var pct = Math.round((total - count) / (count * 4) * 100);
+        var b = bandFor(pct, t.resultType);
+
+        var interpClinical = {
+            'band-low': 'Insgesamt zeigen sich derzeit nur wenige Anzeichen. Achten Sie weiterhin gut auf sich. Einzelne Bereiche mit höheren Werten können dennoch einen Blick wert sein.',
+            'band-mid': 'Es zeigen sich deutliche Anzeichen in mehreren Bereichen. Das ist ein ernstzunehmendes Signal. Ein klärendes Gespräch hilft, das einzuordnen und erste Schritte zu finden.',
+            'band-high': 'Es zeigen sich ausgeprägte Anzeichen. Es ist sehr empfehlenswert, sich Unterstützung zu holen — psychologisch und bei Bedarf ärztlich. Sie müssen das nicht allein bewältigen.'
+        };
+        var interpTrait = {
+            'band-low': 'Ihre Antworten deuten auf eine eher geringe Ausprägung von Hochsensibilität hin.',
+            'band-mid': 'Ihre Antworten deuten auf eine mittlere Ausprägung hin — einzelne Bereiche sind vielleicht stärker ausgeprägt als andere.',
+            'band-high': 'Ihre Antworten deuten auf eine stark ausgeprägte Hochsensibilität hin. Das ist keine Störung, sondern ein Merkmal mit klaren Stärken (Tiefe, Empathie, feine Wahrnehmung) — verbunden mit dem Bedarf, bewusst für Rückzug und Reizschutz zu sorgen.'
+        };
+        var interp = (t.resultType === 'trait' ? interpTrait : interpClinical)[b.cls];
+
+        var crisis = flagHit ? '<div class="crisis-box"><strong>Wichtig:</strong> Sie haben angegeben, dass Sie Gedanken haben, dass das Leben nicht mehr lebenswert ist, oder daran, sich etwas anzutun. Bitte nehmen Sie das ernst und holen Sie sich <strong>jetzt</strong> Unterstützung: Telefonseelsorge 0800&nbsp;111&nbsp;0&nbsp;111 (kostenfrei, rund um die Uhr) oder im Notfall die 112. Sie sind damit nicht allein.</div>' : '';
+
+        result.className = 'quiz-result show';
+        result.innerHTML =
+            '<div class="result-band ' + b.cls + '"><span class="pip"></span>' + b.label + '</div>' +
+            '<div class="result-score">Gesamttendenz: ' + pct + '% der maximal möglichen Ausprägung</div>' +
+            '<p>' + interp + '</p>' +
+            crisis +
+            '<h3 style="margin:26px 0 6px;">Ihre Bereiche im Detail</h3>' +
+            '<div class="breakdown">' + rows + '</div>' +
+            '<p style="font-size:0.86rem;color:var(--muted);margin-top:14px;">Hinweis: Diese Auswertung ist eine Orientierung, keine Diagnose. Aussagekräftig wird das Bild erst im persönlichen Gespräch — besonders, wenn einzelne Bereiche hoch ausfallen.</p>' +
+            '<div style="margin-top:22px; display:flex; gap:12px; flex-wrap:wrap;"><a href="termin.html" class="btn btn-primary btn-arrow">Termin buchen</a><a href="kontakt.html" class="btn btn-ghost">Erst eine Frage stellen</a></div>';
+        result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    document.querySelectorAll('[data-open]').forEach(function (c) {
+        c.addEventListener('click', function () { openTest(c.getAttribute('data-open')); });
+    });
+    document.getElementById('backLink').addEventListener('click', function () {
+        area.classList.remove('active'); sel.style.display = ''; current = null;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    document.getElementById('evalBtn').addEventListener('click', evaluate);
+})();
+</script>
+</body>
+</html>

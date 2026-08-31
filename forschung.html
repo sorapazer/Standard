@@ -248,8 +248,8 @@
 
     // Build Teil B (with sub-headers) and C1
     var bHtml = '';
-    B.forEach(function (d) {
-        bHtml += '<div class="forsch-sub">' + d.name + '</div>' + likertBlock(d.items, 'b_' + B.indexOf(d) + '_');
+    B.forEach(function (d, di) {
+        bHtml += likertBlock(d.items, 'b_' + di + '_');
     });
     document.getElementById('likertB').innerHTML = bHtml;
     document.getElementById('likertC1').innerHTML = likertBlock(C1, 'c1_');

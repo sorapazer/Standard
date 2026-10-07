@@ -246,7 +246,7 @@
       "</div>");
     $("#ak-prev").addEventListener("click", function () { if (player.i > 0) { player.i--; drawStep(); } });
     $("#ak-next").addEventListener("click", function () {
-      if (!player.done[player.i]) return;
+      if (!player.done[player.i]) { player.skipped = (player.skipped || 0) + 1; player.done[player.i] = "skip"; }
       if (player.i < player.l.schritte.length - 1) { player.i++; player.max = Math.max(player.max, player.i); load().position[k.id + ":" + lid] = player.i; save(); drawStep(); }
       else finishLesson();
     });
@@ -257,7 +257,7 @@
   function drawStep() {
     var p = player, steps = p.l.schritte, step = steps[p.i];
     $("#ak-steps").innerHTML = steps.map(function (s, i) {
-      return '<span class="' + (i < p.i || p.done[i] ? "is-done" : "") + (i === p.i ? " is-current" : "") + '"></span>';
+      return '<span class="' + (p.done[i] === "skip" ? "is-skip" : i < p.i || p.done[i] ? "is-done" : "") + (i === p.i ? " is-current" : "") + '"></span>';
     }).join("");
     $("#ak-count").textContent = "Schritt " + (p.i + 1) + " von " + steps.length;
     $("#ak-prev").disabled = p.i === 0;
@@ -265,12 +265,13 @@
     stage.innerHTML = "";
     var r = RENDER[step.typ] || RENDER.text;
     r(step, stage, function (firstTry) {
-      if (!p.done[p.i]) {
+      if (p.done[p.i] !== true) {
+        if (p.done[p.i] === "skip") p.skipped--;
         p.done[p.i] = true;
         if (firstTry !== undefined) { p.graded++; if (firstTry) p.first++; }
       }
       updateNext();
-    }, !!p.done[p.i]);
+    }, p.done[p.i] === true);
     updateNext();
     stage.focus({ preventScroll: true });
     var top = $(".ak-player"); if (top && top.getBoundingClientRect().top < 0) top.scrollIntoView({ block: "start" });
@@ -278,8 +279,11 @@
   function updateNext() {
     var p = player, last = p.i === p.l.schritte.length - 1;
     var b = $("#ak-next");
-    b.disabled = !p.done[p.i];
-    b.textContent = last ? "Lektion abschließen" : "Weiter";
+    b.disabled = false;
+    var open = p.done[p.i] !== true;
+    b.textContent = last ? (open ? "Überspringen und abschließen" : "Lektion abschließen") : (open ? "Überspringen" : "Weiter");
+    b.classList.toggle("btn-primary", !open);
+    b.classList.toggle("btn-ghost", open);
   }
   function finishLesson() {
     var p = player, k = p.k;
@@ -291,6 +295,7 @@
     var allDone = !nextLesson(k);
     var html = '<div class="ak-player ak-finish"><p class="eyebrow">Lektion abgeschlossen</p><h1>' + esc(p.l.titel) + "</h1>";
     if (p.graded) html += '<p class="lead">' + p.first + " von " + p.graded + " Aufgaben beim ersten Versuch gelöst.</p>";
+    if (p.skipped) html += '<p class="ak-skip-note">' + p.skipped + (p.skipped === 1 ? " Aufgabe übersprungen." : " Aufgaben übersprungen.") + ' Sie können die Lektion jederzeit erneut öffnen und die Aufgaben nachholen.</p>';
     html += bar(progress(k), "Kursfortschritt") + '<p class="small muted">Kursfortschritt: ' + Math.round(progress(k) * 100) + " %</p><div class=\"actions\">";
     if (allDone && hasAccess(k)) html += '<a class="btn btn-primary" href="#pruefung-' + k.id + '">Alle Lektionen erledigt: zur Abschlussprüfung</a>';
     else if (canNext) html += '<a class="btn btn-primary" href="#lektion-' + k.id + "-" + nxt.lektion.id + '">Nächste Lektion: ' + esc(nxt.lektion.titel) + "</a>";

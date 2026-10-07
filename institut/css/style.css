@@ -404,3 +404,19 @@ form.apply { display: grid; gap: 18px; max-width: 760px; }
   body.print-cert .ak-cert-img { position: fixed; inset: 0; width: 100%; max-width: none; box-shadow: none; }
   @page { size: A4 landscape; margin: 0; }
 }
+
+/* Zeitschrift: PDF und Einreichung */
+.toc-side { display: grid; justify-items: end; gap: 4px; align-content: start; }
+.pdf-link { font: 600 .72rem/1 var(--sans); letter-spacing: .08em; color: var(--accent); border: 1px solid var(--accent); border-radius: 3px; padding: 4px 7px; text-decoration: none; white-space: nowrap; justify-self: start; }
+.toc-side .pdf-link { justify-self: end; }
+.pdf-link:hover { background: var(--accent); color: var(--paper); }
+.issue-meta .pdf-link { margin-top: 6px; }
+.pdf-card { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 14px; align-items: center; padding: 16px; border: 1px solid var(--accent); border-radius: 4px; background: var(--surface); color: var(--ink); text-decoration: none; }
+.pdf-card:hover { background: var(--accent-soft); }
+.pdf-ico { width: 52px; height: 64px; display: grid; place-items: end center; padding-bottom: 8px; background: var(--accent); color: var(--paper); font: 600 .72rem var(--mono); letter-spacing: .06em; border-radius: 3px; clip-path: polygon(0 0, 72% 0, 100% 22%, 100% 100%, 0 100%); }
+.pdf-ico.is-doc { background: var(--brass); }
+.sub-steps { margin: 0 0 28px; padding-left: 1.3em; display: grid; gap: 10px; max-width: var(--measure); }
+.sub-fs { border: 1px solid var(--line); border-radius: 4px; padding: 18px 20px 20px; margin: 0; display: grid; gap: 14px; background: var(--surface); }
+.sub-fs legend { font: 600 .78rem var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--brass); padding: 0 6px; }
+.ak-skip-note { font-size: .85rem; color: var(--ink-soft); }
+.ak-steps span.is-skip { background: repeating-linear-gradient(90deg, var(--accent) 0 3px, transparent 3px 6px); }

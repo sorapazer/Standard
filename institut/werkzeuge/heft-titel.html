@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Heftumschlag · Zeitschrift für Sinnzentrierte Psychologie</title>
+<!-- Umschlag und Inhaltsverzeichnis eines Heftes. Aufruf: heft-titel.html#<ausgabe-id> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+<style>
+  @page { size: A4; margin: 0; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { margin: 0; font-family: "Newsreader", Georgia, serif; color: #17202a; }
+  .cover { width: 210mm; height: 297mm; box-sizing: border-box; position: relative; background: #1d4d57; color: #f4f1e8; padding: 26mm 22mm; display: flex; flex-direction: column; break-after: page; overflow: hidden; }
+  .cover canvas { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .22; }
+  .cover > * { position: relative; }
+  .pub { font: 500 8pt/1.4 "IBM Plex Sans", Arial, sans-serif; letter-spacing: .2em; text-transform: uppercase; display: flex; align-items: center; gap: 4mm; }
+  .jt { margin-top: 40mm; font: 400 44pt/1.02 "Newsreader", Georgia, serif; letter-spacing: -.01em; }
+  .jt em { font-style: italic; color: #e2c98f; }
+  .rule { width: 40mm; height: 1.2pt; background: #e2c98f; margin: 12mm 0 8mm; }
+  .heft { font: 400 12pt/1.5 "IBM Plex Sans", Arial, sans-serif; }
+  .schwer { margin-top: 6mm; font: italic 400 19pt/1.3 "Newsreader", Georgia, serif; max-width: 140mm; }
+  .bottom { margin-top: auto; display: flex; justify-content: space-between; align-items: flex-end; font: 400 8pt/1.5 "IBM Plex Sans", Arial, sans-serif; color: #d7e2e2; }
+  .toc { width: 210mm; height: 297mm; box-sizing: border-box; padding: 26mm 22mm; }
+  .toc h1 { font: 500 24pt/1.1 "Newsreader", Georgia, serif; margin: 0 0 2mm; }
+  .toc .sub { font: 400 9pt "IBM Plex Sans", Arial, sans-serif; color: #4b5661; border-bottom: 2.2pt double #17202a; padding-bottom: 4mm; margin-bottom: 6mm; }
+  .item { display: grid; grid-template-columns: 1fr 16mm; gap: 6mm; padding: 4.2mm 0; border-bottom: .5pt solid #cfd5d4; }
+  .item .r { font: 600 7pt "IBM Plex Sans", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #8a6a33; }
+  .item .t { font: 500 13pt/1.25 "Newsreader", Georgia, serif; margin-top: 1mm; }
+  .item .u { font: italic 400 10pt/1.3 "Newsreader", Georgia, serif; color: #4b5661; }
+  .item .a { font: 400 8.4pt "IBM Plex Sans", Arial, sans-serif; color: #4b5661; margin-top: 1mm; }
+  .item .p { font: 400 10pt "IBM Plex Mono", monospace; text-align: right; align-self: start; padding-top: 4mm; }
+  .imp { margin-top: 12mm; font: 400 7.8pt/1.55 "IBM Plex Sans", Arial, sans-serif; color: #4b5661; columns: 2; column-gap: 8mm; }
+  .imp b { color: #17202a; }
+</style>
+</head>
+<body>
+<div id="doc"></div>
+<script src="../data/journal.js"></script>
+<script>
+(function () {
+  var J = window.JOURNAL, id = decodeURIComponent(location.hash.slice(1));
+  var iss = J.ausgaben.filter(function (x) { return x.id === id; })[0] || J.ausgaben[0];
+  var arts = J.artikel.filter(function (a) { return a.ausgabe === iss.id; });
+  function e(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  var first = String(arts[0].seiten).split(/[–-]/)[0], lastS = String(arts[arts.length - 1].seiten).split(/[–-]/).pop();
+  var logo = '<svg width="30" height="30" viewBox="0 0 40 40"><circle cx="20" cy="24" r="13" fill="none" stroke="#f4f1e8" stroke-width="1.6"/><line x1="20" y1="2" x2="20" y2="37" stroke="#e2c98f" stroke-width="2"/><circle cx="20" cy="4" r="2.4" fill="#e2c98f"/></svg>';
+  var h = '<section class="cover"><canvas id="g" width="1240" height="1754"></canvas>' +
+    '<div class="pub">' + logo + "Institut für Sinnzentrierte Psychologie</div>" +
+    '<div class="jt">Zeitschrift für<br><em>Sinnzentrierte</em><br>Psychologie</div><div class="rule"></div>' +
+    '<div class="heft">Jahrgang ' + iss.jahrgang + " · Heft " + iss.heft + " · " + e(iss.monat) + " " + iss.jahr + "</div>" +
+    '<div class="schwer">' + e(iss.schwerpunkt) + "</div>" +
+    '<div class="bottom"><span>Logotherapie · Existenzpsychologie · Psychotherapieforschung</span><span>S. ' + first + "–" + lastS + " · Open Access</span></div></section>";
+  h += '<section class="toc"><h1>Inhalt</h1><div class="sub">Heft ' + iss.heft + "/" + iss.jahr + " · Schwerpunkt: " + e(iss.schwerpunkt) + "</div>";
+  arts.forEach(function (a) {
+    h += '<div class="item"><div><div class="r">' + e(a.rubrik) + '</div><div class="t">' + e(a.titel) + "</div>" + (a.untertitel ? '<div class="u">' + e(a.untertitel) + "</div>" : "") + '<div class="a">' + e(a.autoren) + '</div></div><div class="p">' + e(String(a.seiten).split(/[–-]/)[0]) + "</div></div>";
+  });
+  h += '<div class="imp"><p><b>Herausgeber</b><br>Institut für Sinnzentrierte Psychologie</p><p><b>Erscheinungsweise</b><br>halbjährlich, im April und Oktober</p><p><b>Begutachtung</b><br>Redaktionelle Prüfung und doppelt verblindetes Gutachterverfahren</p><p><b>Lizenz</b><br>Alle Beiträge erscheinen im offenen Zugang unter der Lizenz CC BY 4.0.</p></div></section>';
+  document.getElementById("doc").innerHTML = h;
+  // Guilloche-Linien auf dem Umschlag
+  var c = document.getElementById("g").getContext("2d");
+  c.strokeStyle = "#e2c98f"; c.lineWidth = 1;
+  for (var k = 0; k < 26; k++) {
+    c.beginPath();
+    for (var t = 0; t <= Math.PI * 2 + 0.01; t += 0.004) {
+      var r = 520 + 90 * Math.sin(9 * t + k * 0.24) + 40 * Math.cos(23 * t);
+      var x = 1240 * 0.92 + r * Math.cos(t), y = 1754 * 0.86 + r * Math.sin(t);
+      if (t === 0) c.moveTo(x, y); else c.lineTo(x, y);
+    }
+    c.stroke();
+  }
+  window.HEFT_BEREIT = true;
+})();
+</script>
+</body>
+</html>

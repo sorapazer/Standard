@@ -76,6 +76,7 @@
       window.scrollTo(0, 0);
       return;
     }
+    if (h === "einreichen") { setView("journal"); renderEinreichung(); window.scrollTo(0, 0); return; }
     if (ART_BY_ID[h]) { setView("journal"); renderArticle(ART_BY_ID[h]); window.scrollTo(0, 0); return; }
     if (h.indexOf("lex-") === 0) {
       setView("lexikon");
@@ -134,6 +135,8 @@
     var iss = J.ausgaben.filter(function (x) { return x.id === a.ausgabe; })[0] || {};
     return a.autoren + " (" + iss.jahr + "). " + a.titel + (a.untertitel ? ": " + a.untertitel : "") + ". " + J.titel + ", " + iss.jahrgang + "(" + iss.heft + "), " + a.seiten + ".";
   }
+  function pdfOf(a) { return "pdf/" + a.id + ".pdf"; }
+  function heftPdf(iss) { return "pdf/zsp-" + iss.jahr + "-" + iss.heft + "-gesamt.pdf"; }
   function issueLabel(iss) { return "Jahrgang " + iss.jahrgang + " · Heft " + iss.heft + " · " + iss.monat + " " + iss.jahr; }
 
   function journalMast() {
@@ -149,11 +152,11 @@
     html += '<div class="section" style="padding-top:0"><div class="section-head"><p class="eyebrow">Ausgaben</p><h2>Alle Hefte</h2></div><div>';
     issues.forEach(function (iss) {
       var arts = J.artikel.filter(function (a) { return a.ausgabe === iss.id; });
-      html += '<div class="issue"><div class="issue-meta"><span class="heft">Heft ' + iss.heft + "/" + iss.jahr + '</span><span class="mono muted">Jahrgang ' + iss.jahrgang + " · " + esc(iss.monat) + " " + iss.jahr + '</span><span class="small">Schwerpunkt: ' + esc(iss.schwerpunkt) + '</span></div><ul class="toc-list">';
+      html += '<div class="issue"><div class="issue-meta"><span class="heft">Heft ' + iss.heft + "/" + iss.jahr + '</span><span class="mono muted">Jahrgang ' + iss.jahrgang + " · " + esc(iss.monat) + " " + iss.jahr + '</span><span class="small">Schwerpunkt: ' + esc(iss.schwerpunkt) + '</span><a class="pdf-link" href="' + heftPdf(iss) + '" download>Gesamtes Heft als PDF</a></div><ul class="toc-list">';
       arts.forEach(function (a) {
         html += '<li><div><span class="tag">' + esc(a.rubrik) + '</span><br><a class="t" href="#' + a.id + '">' + esc(a.titel) + "</a>" +
           (a.untertitel ? '<div class="small muted">' + esc(a.untertitel) + "</div>" : "") +
-          '<div class="small muted">' + esc(a.autoren) + '</div></div><span class="mono muted">S. ' + esc(a.seiten) + "</span></li>";
+          '<div class="small muted">' + esc(a.autoren) + '</div></div><span class="toc-side"><span class="mono muted">S. ' + esc(a.seiten) + '</span><a class="pdf-link" href="' + pdfOf(a) + '" download aria-label="PDF: ' + esc(a.titel) + '">PDF</a></span></li>';
       });
       html += "</ul></div>";
     });
@@ -167,8 +170,85 @@
       '<div class="prose"><p class="eyebrow">Begutachtung</p><h2 style="margin-top:0">Redaktionelles Verfahren</h2>' +
       "<p>Jedes Manuskript wird zunächst von der Redaktion auf thematische Passung und formale Vollständigkeit geprüft. Geeignete Beiträge werden im doppelt verblindeten Verfahren von zwei unabhängigen Gutachtenden bewertet. Die Entscheidung über Annahme, Überarbeitung oder Ablehnung trifft die Redaktion auf Grundlage der Gutachten.</p>" +
       "<p>Interessenkonflikte, Finanzierung und der Einsatz generativer KI-Werkzeuge sind bei der Einreichung offenzulegen. Alle Beiträge erscheinen im offenen Zugang unter der Lizenz CC BY 4.0.</p>" +
-      '<p>Einreichungen und Anfragen: <span class="mono">' + esc(KONTAKT) + "</span></p></div></div></div>";
+      '<div class="actions"><a class="btn btn-primary" href="#einreichen">Manuskript einreichen</a><a class="btn btn-ghost" href="vorlagen/ZSP-Manuskriptvorlage.docx" download>Manuskriptvorlage (Word)</a></div></div></div></div>';
     root.innerHTML = html;
+  }
+
+  function renderEinreichung() {
+    var rub = ["Übersichtsarbeit", "Originalarbeit", "Theoretischer Beitrag", "Methodenbeitrag", "Praxis und Lehre", "Rezension"];
+    var html = '<div class="page-head"><p class="mono muted"><a href="#journal">' + esc(J.titel) + '</a></p><h1>Manuskript einreichen</h1>' +
+      '<p class="lead">Reichen Sie Ihren Beitrag in drei Schritten ein: Manuskriptvorlage verwenden, Formular ausfüllen, Unterlagen an die Redaktion senden.</p></div>';
+    html += '<div class="article"><div>';
+    html += '<ol class="sub-steps"><li><strong>Vorlage verwenden.</strong> Laden Sie die <a href="vorlagen/ZSP-Manuskriptvorlage.docx" download>Manuskriptvorlage</a> herunter (Word, Arial 11 pt, Zeilenabstand 1,5) und verfassen Sie Ihr Manuskript darin. Es darf keine Angaben enthalten, die auf die Autorinnen und Autoren schließen lassen.</li>' +
+      '<li><strong>Formular ausfüllen.</strong> Aus Ihren Angaben entsteht ein vollständiges Einreichungsschreiben mit Eingangsnummer.</li>' +
+      '<li><strong>Unterlagen senden.</strong> Senden Sie das Schreiben zusammen mit dem anonymisierten Manuskript und einem separaten Titelblatt an <span class="mono">' + esc(KONTAKT) + '</span>. Die Redaktion bestätigt den Eingang innerhalb von fünf Werktagen.</li></ol>';
+    html += '<form class="apply" id="sub-form" novalidate>' +
+      '<fieldset class="sub-fs"><legend>Beitrag</legend>' +
+      '<div class="field-row"><div class="field"><label for="s-rubrik">Rubrik</label><select id="s-rubrik">' + rub.map(function (r) { return "<option>" + r + "</option>"; }).join("") + '</select></div>' +
+      '<div class="field"><label for="s-sprache">Sprache</label><select id="s-sprache"><option>Deutsch</option><option>Englisch</option></select></div></div>' +
+      '<div class="field"><label for="s-titel">Titel</label><input id="s-titel"></div>' +
+      '<div class="field"><label for="s-unter">Untertitel (optional)</label><input id="s-unter"></div>' +
+      '<div class="field"><label for="s-abstract">Zusammenfassung (höchstens 250 Wörter)</label><textarea id="s-abstract" rows="7"></textarea><span class="small muted" id="s-abstract-n">0 Wörter</span></div>' +
+      '<div class="field-row"><div class="field"><label for="s-kw">Schlüsselwörter (durch Kommata getrennt)</label><input id="s-kw"></div>' +
+      '<div class="field"><label for="s-worte">Wortzahl des Manuskripts</label><input id="s-worte" type="number" min="0" inputmode="numeric"></div></div>' +
+      '<div class="field"><label for="s-datei">Manuskriptdatei (zur Prüfung von Dateiname und Format)</label><input id="s-datei" type="file" accept=".docx,.doc,.odt,.pdf,.rtf"><span class="small muted" id="s-datei-info">Word, OpenDocument, RTF oder PDF</span></div>' +
+      '</fieldset><fieldset class="sub-fs"><legend>Korrespondierende Autorin oder korrespondierender Autor</legend>' +
+      '<div class="field-row"><div class="field"><label for="s-name">Name mit akademischem Grad</label><input id="s-name" autocomplete="name"></div>' +
+      '<div class="field"><label for="s-mail">E-Mail</label><input id="s-mail" type="email" autocomplete="email"></div></div>' +
+      '<div class="field"><label for="s-inst">Institution</label><input id="s-inst" autocomplete="organization"></div>' +
+      '<div class="field"><label for="s-ko">Weitere Autorinnen und Autoren mit Institution (eine Person je Zeile)</label><textarea id="s-ko" rows="3"></textarea></div>' +
+      '</fieldset><fieldset class="sub-fs"><legend>Erklärungen</legend>' +
+      [["s-c1", "Das Manuskript ist unveröffentlicht und wird derzeit keiner anderen Zeitschrift zur Begutachtung vorgelegt."],
+       ["s-c2", "Bei Forschung mit Menschen liegt ein Ethikvotum vor und alle Teilnehmenden haben informiert eingewilligt, oder der Beitrag enthält keine solche Forschung."],
+       ["s-c3", "Finanzierung und Interessenkonflikte sind im Abschnitt „Erklärungen“ des Manuskripts offengelegt."],
+       ["s-c4", "Der Einsatz generativer KI-Werkzeuge ist offengelegt."],
+       ["s-c5", "Ich bin damit einverstanden, dass der Beitrag bei Annahme im offenen Zugang unter der Lizenz CC BY 4.0 erscheint."]].map(function (c) {
+        return '<label class="check"><input type="checkbox" id="' + c[0] + '"> <span>' + c[1] + "</span></label>";
+      }).join("") +
+      '</fieldset><p class="error" id="sub-err" hidden></p><div class="actions"><button class="btn btn-primary" type="submit">Einreichungsschreiben erstellen</button></div>' +
+      '<div id="sub-out" class="panel" hidden><p class="eyebrow">Eingangsnummer <span class="mono" id="sub-nr"></span></p><h3>Ihr Einreichungsschreiben</h3>' +
+      '<p>Senden Sie diesen Text mit dem anonymisierten Manuskript und dem Titelblatt als Anhang an <strong class="mono">' + esc(KONTAKT) + '</strong>. Geben Sie die Eingangsnummer im Betreff an.</p>' +
+      '<pre class="result" id="sub-text"></pre><div class="actions"><button type="button" class="btn btn-ghost" id="sub-copy">Text kopieren</button></div></div></form>';
+    html += '</div><aside class="article-aside"><div class="panel"><p class="eyebrow">Vorlage</p><a class="pdf-card" href="vorlagen/ZSP-Manuskriptvorlage.docx" download><span class="pdf-ico is-doc" aria-hidden="true">DOCX</span><span><strong>Manuskriptvorlage</strong><br><span class="small muted">Gliederung, Abstracts, Erklärungen, APA-Beispiele</span></span></a></div>' +
+      '<div class="panel"><p class="eyebrow">Umfang</p><dl class="facts"><div><dt>Original- und Übersichtsarbeiten</dt><dd>bis 8.000 Wörter</dd></div><div><dt>Praxis und Lehre</dt><dd>bis 5.000 Wörter</dd></div><div><dt>Rezensionen</dt><dd>bis 1.500 Wörter</dd></div></dl></div>' +
+      '<div class="panel"><p class="eyebrow">Ablauf</p><p class="small">Redaktionelle Vorprüfung, danach doppelt verblindete Begutachtung durch zwei Gutachtende. Die Redaktion entscheidet über Annahme, Überarbeitung oder Ablehnung. Es fallen keine Publikationsgebühren an.</p></div></aside></div>';
+    $("#journal-root").innerHTML = html;
+    document.title = "Manuskript einreichen · " + J.titel;
+    function words(t) { return (t.trim().match(/\S+/g) || []).length; }
+    $("#s-abstract").addEventListener("input", function () { var n = words(this.value); var el = $("#s-abstract-n"); el.textContent = n + " Wörter"; el.className = "small " + (n > 250 ? "error" : "muted"); });
+    $("#s-datei").addEventListener("change", function () {
+      var f = this.files && this.files[0], el = $("#s-datei-info");
+      if (!f) { el.textContent = "Word, OpenDocument, RTF oder PDF"; el.className = "small muted"; return; }
+      var ok = /\.(docx?|odt|pdf|rtf)$/i.test(f.name);
+      el.textContent = f.name + " · " + (f.size / 1048576).toLocaleString("de-DE", { maximumFractionDigits: 1 }) + " MB" + (ok ? "" : " · Format nicht zulässig");
+      el.className = "small " + (ok ? "muted" : "error");
+    });
+    $("#sub-form").addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var v = function (id) { return $("#" + id).value.trim(); }, err = [];
+      if (!v("s-titel")) err.push("Bitte geben Sie den Titel an.");
+      if (!v("s-abstract")) err.push("Bitte fügen Sie die Zusammenfassung ein.");
+      else if (words(v("s-abstract")) > 250) err.push("Die Zusammenfassung ist länger als 250 Wörter.");
+      if (!v("s-name")) err.push("Bitte geben Sie den Namen der korrespondierenden Person an.");
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v("s-mail"))) err.push("Bitte geben Sie eine gültige E-Mail-Adresse an.");
+      var f = $("#s-datei").files && $("#s-datei").files[0];
+      if (f && !/\.(docx?|odt|pdf|rtf)$/i.test(f.name)) err.push("Die Manuskriptdatei hat ein nicht zulässiges Format.");
+      ["s-c1", "s-c2", "s-c3", "s-c4", "s-c5"].forEach(function (id) { if (!$("#" + id).checked) err.push(""); });
+      if (err.indexOf("") >= 0) { err = err.filter(Boolean); err.push("Bitte bestätigen Sie alle Erklärungen."); }
+      $("#sub-err").hidden = !err.length; $("#sub-err").textContent = err.join(" ");
+      if (err.length) return;
+      var d = new Date(), nr = "ZSP-E-" + d.getFullYear() + "-" + (Math.abs(((d.getTime() / 1000) | 0) ^ v("s-titel").length * 7919) % 100000).toString().padStart(5, "0");
+      var txt = "Betreff: Einreichung " + nr + " – " + v("s-titel") + "\n\nSehr geehrte Redaktion,\n\nhiermit reiche ich das folgende Manuskript zur Begutachtung in der " + J.titel + " ein.\n\n" +
+        "Eingangsnummer: " + nr + "\nRubrik: " + v("s-rubrik") + "\nSprache: " + v("s-sprache") + "\nTitel: " + v("s-titel") + (v("s-unter") ? "\nUntertitel: " + v("s-unter") : "") +
+        (v("s-worte") ? "\nWortzahl: " + v("s-worte") : "") + (v("s-kw") ? "\nSchlüsselwörter: " + v("s-kw") : "") + (f ? "\nManuskriptdatei: " + f.name : "") +
+        "\n\nZusammenfassung:\n" + v("s-abstract") +
+        "\n\nKorrespondierende Person: " + v("s-name") + (v("s-inst") ? ", " + v("s-inst") : "") + "\nE-Mail: " + v("s-mail") +
+        (v("s-ko") ? "\nWeitere Autorinnen und Autoren:\n" + v("s-ko") : "") +
+        "\n\nIch bestätige, dass das Manuskript unveröffentlicht ist und keiner anderen Zeitschrift vorliegt, dass ethische Anforderungen erfüllt sind, dass Finanzierung, Interessenkonflikte und der Einsatz generativer KI offengelegt sind und dass der Beitrag bei Annahme unter CC BY 4.0 erscheinen darf.\n\nMit freundlichen Grüßen\n" + v("s-name");
+      $("#sub-nr").textContent = nr; $("#sub-text").textContent = txt; $("#sub-out").hidden = false;
+      $("#sub-out").scrollIntoView({ block: "nearest" });
+    });
+    $("#sub-copy").addEventListener("click", function () { copyText($("#sub-text").textContent, this, $("#sub-text")); });
   }
 
   function renderArticle(a) {
@@ -178,7 +258,7 @@
     var html = '<div class="page-head"><p class="mono muted"><a href="#journal">' + esc(J.titel) + "</a> · " + esc(issueLabel(iss)) + " · S. " + esc(a.seiten) + "</p>" +
       '<span class="tag">' + esc(a.rubrik) + "</span><h1>" + esc(a.titel) + "</h1>" +
       (a.untertitel ? '<p class="lead">' + esc(a.untertitel) + "</p>" : "") +
-      '<p class="muted">' + esc(a.autoren) + "</p></div>";
+      '<p class="muted">' + esc(a.autoren) + '</p><div class="actions"><a class="btn btn-primary" href="' + pdfOf(a) + '" download>PDF herunterladen</a><a class="btn btn-ghost" href="' + pdfOf(a) + '" target="_blank" rel="noopener">PDF ansehen</a></div></div>';
     html += '<div class="article"><div class="article-body">';
     if (a.abstract) {
       html += '<section class="abstract"><h2 style="margin:0;font-size:1.05rem;font-family:var(--sans);font-weight:600">Zusammenfassung</h2>' + paras(a.abstract) +
@@ -194,7 +274,7 @@
     if (a.literatur && a.literatur.length) {
       html += '<h2>Literatur</h2><ul class="refs">' + a.literatur.map(function (r) { return "<li>" + esc(r) + "</li>"; }).join("") + "</ul>";
     }
-    html += '</div><aside class="article-aside"><div class="panel"><p class="eyebrow">Zitiervorschlag</p><div class="cite-box" id="cite-text">' + esc(apa(a)) + '</div><button type="button" class="btn btn-ghost" id="cite-copy">Zitation kopieren</button></div>' +
+    html += '</div><aside class="article-aside"><a class="pdf-card" href="' + pdfOf(a) + '" download><span class="pdf-ico" aria-hidden="true">PDF</span><span><strong>Beitrag als PDF</strong><br><span class="small muted">Satzfassung mit Seitenzahlen ' + esc(a.seiten) + '</span></span></a><div class="panel"><p class="eyebrow">Zitiervorschlag</p><div class="cite-box" id="cite-text">' + esc(apa(a)) + '</div><button type="button" class="btn btn-ghost" id="cite-copy">Zitation kopieren</button></div>' +
       '<div class="panel"><p class="eyebrow">Angaben</p><dl class="facts"><div><dt>Rubrik</dt><dd>' + esc(a.rubrik) + "</dd></div><div><dt>Heft</dt><dd>" + esc(iss.heft + "/" + iss.jahr) + "</dd></div><div><dt>Seiten</dt><dd>" + esc(a.seiten) + "</dd></div><div><dt>Lizenz</dt><dd>CC BY 4.0</dd></div></dl></div>" +
       '<nav class="panel" aria-label="Weitere Beiträge">' + (prev ? '<a href="#' + prev.id + '">← ' + esc(prev.titel) + "</a>" : "") + (next ? '<a href="#' + next.id + '">' + esc(next.titel) + " →</a>" : "") + '<a href="#journal">Alle Ausgaben</a></nav></aside></div>';
     $("#journal-root").innerHTML = html;

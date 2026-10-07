@@ -1,0 +1,670 @@
+window.JOURNAL = {
+  titel: "Zeitschrift für Sinnzentrierte Psychologie",
+  ausgaben: [
+    { id: "2026-1", jahrgang: 1, heft: 1, jahr: 2026, monat: "April", schwerpunkt: "Logotherapie im Kontext der Psychotherapieforschung" },
+    { id: "2026-2", jahrgang: 1, heft: 2, jahr: 2026, monat: "Oktober", schwerpunkt: "Sinn, Werte und existenzielle Herausforderungen in der psychotherapeutischen Praxis" }
+  ],
+  artikel: [
+    {
+      id: "zsp-2026-1-01",
+      ausgabe: "2026-1",
+      rubrik: "Editorial",
+      titel: "Sinn als Gegenstand wissenschaftlicher Psychologie",
+      untertitel: "Zum Auftakt der Zeitschrift für Sinnzentrierte Psychologie",
+      autoren: "Redaktion der ZSP",
+      seiten: "1–3",
+      abstract: "Mit dem vorliegenden Heft erscheint die erste Ausgabe der Zeitschrift für Sinnzentrierte Psychologie (ZSP). Das Editorial erläutert das Selbstverständnis der Zeitschrift, die sich als wissenschaftliches Forum für die Auseinandersetzung mit Lebenssinn, Werten und existenziellen Fragen in Psychologie und Psychotherapie versteht. Ausgangspunkt ist die Beobachtung, dass die von Viktor E. Frankl begründete Logotherapie und die gegenwärtige empirische Sinnforschung bislang häufig nebeneinander statt miteinander gearbeitet haben. Die ZSP möchte diese Traditionen in ein kritisches Gespräch bringen, ohne einer einzelnen therapeutischen Schule verpflichtet zu sein. Das Editorial stellt den Schwerpunkt des ersten Heftes vor, der Logotherapie im Kontext der Psychotherapieforschung verortet: eine Übersichtsarbeit zur Evidenzfrage, einen theoretischen Beitrag zu Lebenssinn als transdiagnostischem Faktor, einen Vergleich der paradoxen Intention mit modernen Expositionsverfahren sowie einen Methodenbeitrag zur Erfassung von Lebenssinn. Abschließend werden die redaktionellen Grundsätze der Zeitschrift dargelegt, insbesondere die zurückhaltende und quellengetreue Wiedergabe empirischer Befunde, die klare Unterscheidung zwischen anthropologischen Setzungen und empirisch prüfbaren Aussagen sowie die Orientierung an den Zitationsrichtlinien der American Psychological Association.",
+      schluesselwoerter: ["Lebenssinn", "Logotherapie", "Psychotherapieforschung", "Editorial", "Wissenschaftsverständnis"],
+      abstractEn: "This issue marks the launch of the Zeitschrift für Sinnzentrierte Psychologie (Journal of Meaning-Centered Psychology). The editorial outlines the journal's aims as a scholarly forum for the study of meaning in life, values, and existential concerns in psychology and psychotherapy. It starts from the observation that logotherapy, founded by Viktor E. Frankl, and contemporary empirical research on meaning have often developed in parallel rather than in dialogue. The journal seeks to bring these traditions into critical conversation without committing itself to any single therapeutic school. The editorial introduces the thematic focus of the first issue, which situates logotherapy within psychotherapy research: a review on the question of evidence, a theoretical paper on meaning in life as a transdiagnostic factor, a comparison of paradoxical intention with contemporary exposure-based treatments, and a methodological paper on the assessment of meaning in life. Finally, it sets out the journal's editorial principles, including a cautious and source-faithful reporting of empirical findings, a clear distinction between anthropological assumptions and empirically testable claims, and adherence to the citation guidelines of the American Psychological Association.",
+      keywords: ["meaning in life", "logotherapy", "psychotherapy research", "editorial", "philosophy of science"],
+      abschnitte: [
+        {
+          titel: "Anliegen der Zeitschrift",
+          absaetze: [
+            "Die Frage nach dem Sinn des eigenen Lebens gehört zu den ältesten Themen menschlicher Selbstreflexion. Als Gegenstand der wissenschaftlichen Psychologie hat sie jedoch lange eine randständige Rolle gespielt. Viktor E. Frankl hat mit der Logotherapie bereits um die Mitte des 20. Jahrhunderts einen psychotherapeutischen Ansatz vorgelegt, der das Streben nach Sinn als grundlegende menschliche Motivation begreift (Frankl, 1946). In den vergangenen beiden Jahrzehnten hat sich die empirische Sinnforschung zu einem eigenständigen Forschungsfeld entwickelt, das begriffliche Differenzierungen – etwa zwischen Kohärenz, Zielorientierung und Bedeutsamkeit (Martela & Steger, 2016) – ebenso umfasst wie die Frage, wie verbreitet das Erleben von Sinn im Alltag tatsächlich ist (Heintzelman & King, 2014).",
+            "Die Zeitschrift für Sinnzentrierte Psychologie möchte diese Entwicklungen aufgreifen und ein Forum für eine wissenschaftlich anspruchsvolle Auseinandersetzung bieten. Sie versteht sich weder als Organ einer einzelnen Schule noch als Ort unkritischer Traditionspflege. Ihr Anliegen ist es vielmehr, die anthropologischen und klinischen Einsichten der Logotherapie und Existenzanalyse mit dem Methodenbewusstsein und den Befunden der gegenwärtigen Psychotherapieforschung ins Gespräch zu bringen. Dazu gehört die Bereitschaft, liebgewordene Annahmen der eigenen Tradition ebenso kritisch zu prüfen wie verkürzende Operationalisierungen eines komplexen Phänomens."
+          ]
+        },
+        {
+          titel: "Zum Schwerpunkt dieses Heftes",
+          absaetze: [
+            "Das erste Heft steht unter dem Schwerpunkt „Logotherapie im Kontext der Psychotherapieforschung“. Die Übersichtsarbeit des Arbeitsbereichs Psychotherapieforschung fragt nach dem Stand der Evidenz für logotherapeutische und sinnzentrierte Interventionen und zeigt, dass die Antwort wesentlich davon abhängt, welches Verständnis von Evidenz zugrunde gelegt wird (Vos et al., 2015; Wampold & Imel, 2015). Ein theoretischer Beitrag diskutiert, inwieweit Lebenssinn als transdiagnostischer Faktor verstanden werden kann. Ein weiterer Beitrag vergleicht die paradoxe Intention mit gegenwärtigen Expositionsverfahren und arbeitet Gemeinsamkeiten wie Unterschiede in den angenommenen Wirkmechanismen heraus. Den Abschluss bildet ein Methodenbeitrag zu etablierten Verfahren der Erfassung von Lebenssinn, der Stärken und Grenzen der verfügbaren Instrumente vergleichend darstellt.",
+            "Gemeinsam ist den Beiträgen ein Bemühen um begriffliche Klarheit. Gerade ein Konstrukt wie „Sinn“, das in Alltagssprache, Philosophie und Psychologie in unterschiedlicher Weise verwendet wird, verlangt nach sorgfältiger Präzisierung, bevor es angemessen gemessen, untersucht oder therapeutisch adressiert werden kann."
+          ]
+        },
+        {
+          titel: "Redaktionelle Grundsätze",
+          absaetze: [
+            "Die ZSP veröffentlicht theoretische Beiträge, Übersichtsarbeiten, Methodenbeiträge, Beiträge aus Praxis und Lehre sowie Rezensionen. Die Redaktion legt Wert darauf, dass empirische Befunde zurückhaltend und quellengetreu wiedergegeben, Grenzen der Evidenz offen benannt und anthropologische Setzungen von empirisch prüfbaren Aussagen unterschieden werden. Didaktische Fallbeispiele werden ausdrücklich als konstruierte Lehrvignetten gekennzeichnet. Die Zitation folgt den Richtlinien der American Psychological Association (2020).",
+            "Wir danken allen Arbeitsbereichen des Instituts, die zum Gelingen dieses ersten Heftes beigetragen haben, und laden die Leserinnen und Leser herzlich ein, die Diskussion kritisch zu begleiten."
+          ]
+        }
+      ],
+      literatur: [
+        "American Psychological Association. (2020). Publication manual of the American Psychological Association (7th ed.).",
+        "Frankl, V. E. (1946). Ärztliche Seelsorge. Deuticke.",
+        "Heintzelman, S. J., & King, L. A. (2014). Life is pretty meaningful. American Psychologist, 69(6), 561–574.",
+        "Martela, F., & Steger, M. F. (2016). The three meanings of meaning in life: Distinguishing coherence, purpose, and significance. The Journal of Positive Psychology, 11(5), 531–545.",
+        "Vos, J., Craig, M., & Cooper, M. (2015). Existential therapies: A meta-analysis of their effects on psychological outcomes. Journal of Consulting and Clinical Psychology, 83(1), 115–128.",
+        "Wampold, B. E., & Imel, Z. E. (2015). The great psychotherapy debate: The evidence for what makes psychotherapy work (2nd ed.). Routledge."
+      ]
+    },
+    {
+      id: "zsp-2026-1-02",
+      ausgabe: "2026-1",
+      rubrik: "Übersichtsarbeit",
+      titel: "Logotherapie und die Evidenzfrage",
+      untertitel: "Ein narrativer Review zu Forschungsstand, methodischen Herausforderungen und Perspektiven",
+      autoren: "Arbeitsbereich Psychotherapieforschung",
+      seiten: "4–15",
+      abstract: "Die Logotherapie gehört zu den traditionsreichsten psychotherapeutischen Ansätzen des 20. Jahrhunderts, wird in der gegenwärtigen evidenzbasierten Psychotherapie jedoch selten als eigenständiges Verfahren wahrgenommen. Der vorliegende narrative Review geht der Frage nach, wie sich der empirische Forschungsstand zu logotherapeutischen und sinnzentrierten Interventionen beschreiben lässt und welche methodischen Gründe für die vergleichsweise schmale Evidenzbasis verantwortlich sind. Zunächst wird herausgearbeitet, dass die Logotherapie sowohl eine anthropologische Grundposition als auch ein Bündel spezifischer Techniken umfasst, was die Operationalisierung als prüfbares Behandlungsprogramm erschwert. Anschließend werden zentrale Befundlinien zusammengefasst: die umfangreiche, überwiegend korrelative Forschung mit Sinnfragebögen, die meta-analytische Integration existenzieller Therapien sowie randomisiert-kontrollierte Studien zu manualisierten sinnzentrierten Programmen in der Psychoonkologie. Die Befunde sprechen insgesamt für günstige Effekte strukturierter sinnzentrierter Interventionen, sind jedoch hinsichtlich Zielgruppen, Vergleichsbedingungen und Generalisierbarkeit begrenzt. Diskutiert werden schließlich die Spannungen zwischen dem Paradigma störungsspezifischer Wirksamkeitsnachweise und dem Kontextmodell der Psychotherapie sowie die Chancen einer prozessorientierten Forschung, die nach Wirkmechanismen statt nach Schulzugehörigkeit fragt. Der Beitrag plädiert für eine Forschungsagenda, die anthropologische Grundannahmen respektiert und zugleich methodisch anschlussfähig bleibt.",
+      schluesselwoerter: ["Logotherapie", "Evidenzbasierte Psychotherapie", "Sinnzentrierte Psychotherapie", "Psychotherapieforschung", "Narrativer Review"],
+      abstractEn: "Logotherapy is one of the most established psychotherapeutic approaches of the twentieth century, yet it is rarely recognized as a distinct treatment within contemporary evidence-based psychotherapy. This narrative review examines how the current state of empirical research on logotherapeutic and meaning-centered interventions can be characterized and which methodological factors account for its comparatively narrow evidence base. First, it is argued that logotherapy comprises both an anthropological framework and a set of specific techniques, which complicates its operationalization as a testable treatment package. Second, central lines of evidence are summarized: the extensive, largely correlational research using meaning-in-life questionnaires, the meta-analytic integration of existential therapies, and randomized controlled trials of manualized meaning-centered programs in psycho-oncology. Overall, the findings suggest favorable effects of structured meaning-centered interventions but remain limited with respect to target populations, comparison conditions, and generalizability. Finally, the tension between the paradigm of disorder-specific efficacy trials and the contextual model of psychotherapy is discussed, together with the potential of process-oriented research that asks about mechanisms of change rather than school affiliation. The paper argues for a research agenda that respects anthropological assumptions while remaining methodologically compatible with mainstream psychotherapy research.",
+      keywords: ["logotherapy", "evidence-based psychotherapy", "meaning-centered psychotherapy", "psychotherapy research", "narrative review"],
+      abschnitte: [
+        {
+          titel: "1 Einleitung",
+          absaetze: [
+            "Seit den 1990er-Jahren hat sich in der klinischen Psychologie ein Verständnis von Evidenz durchgesetzt, das psychotherapeutische Verfahren vor allem danach beurteilt, ob ihre Wirksamkeit für umschriebene Störungsbilder in kontrollierten Studien nachgewiesen wurde (Chambless & Hollon, 1998). Im deutschsprachigen Raum hat die Arbeit von Grawe et al. (1994) diese Entwicklung maßgeblich geprägt, indem sie Psychotherapie programmatisch „von der Konfession zur Profession“ führen wollte. Ansätze, die sich primär über ein Menschenbild und weniger über ein störungsspezifisches Behandlungsprotokoll definieren, geraten in diesem Rahmen leicht unter Rechtfertigungsdruck.",
+            "Die von Viktor E. Frankl begründete Logotherapie ist hierfür ein instruktives Beispiel. Sie wurde in zahlreichen Sprachen rezipiert, hat die humanistische und existenzielle Psychotherapie nachhaltig beeinflusst und ist in Beratung, Seelsorge und Palliativversorgung präsent. Gleichzeitig wird sie in Leitlinien und Lehrbüchern der evidenzbasierten Psychotherapie kaum als eigenständiges Verfahren geführt. Der vorliegende narrative Review möchte diese Diskrepanz nicht vorschnell auflösen, sondern ihre Gründe rekonstruieren. Er stützt sich auf eine selektive, an der Relevanz für die Fragestellung orientierte Auswahl der Literatur und erhebt keinen Anspruch auf systematische Vollständigkeit."
+          ]
+        },
+        {
+          titel: "2 Logotherapie zwischen Anthropologie und Behandlungsverfahren",
+          absaetze: [
+            "Frankl selbst hat die Logotherapie nicht als Konkurrenzverfahren zu anderen Psychotherapien, sondern als deren Ergänzung verstanden (Frankl, 1946). Im Zentrum steht ein Menschenbild, das neben der somatischen und psychischen eine geistige, „noetische“ Dimension annimmt. Aus dieser Dimension leitet Frankl Freiheit, Verantwortlichkeit und den „Willen zum Sinn“ als primäre Motivation ab (Frankl, 1969). Psychisches Leiden kann demnach unter anderem dann entstehen, wenn dieser Wille zum Sinn frustriert wird; Frankl spricht in diesem Zusammenhang von „noogenen Neurosen“ und von einem verbreiteten „existenziellen Vakuum“.",
+            "Neben dieser anthropologischen Grundlegung hat Frankl spezifische Techniken beschrieben, insbesondere die paradoxe Intention zur Behandlung von Erwartungsangst und Zwangssymptomen sowie die Dereflexion bei übermäßiger Selbstbeobachtung (Frankl, 1960). Spätere Vertreterinnen und Vertreter haben die Methodik weiterentwickelt, etwa im Sinne einer Einstellungsmodulation oder des sokratischen Dialogs, und die Existenzanalyse hat sich zu einem eigenständigen, stärker phänomenologisch ausgerichteten Verfahren ausdifferenziert (Längle, 2013).",
+            "Für die Forschung ergibt sich daraus ein grundlegendes Problem: Es ist nicht ohne Weiteres bestimmbar, was eigentlich geprüft werden soll. Wird „Logotherapie“ als Haltung verstanden, die eine beliebige Behandlung durchdringt, lässt sie sich kaum gegen eine Kontrollbedingung abgrenzen. Wird sie hingegen auf einzelne Techniken reduziert, verliert sie gerade jene Eigenschaften, die ihre Vertreterinnen und Vertreter für zentral halten. Diese Spannung durchzieht die gesamte Evidenzdiskussion."
+          ]
+        },
+        {
+          titel: "3 Zum Stand der empirischen Forschung",
+          absaetze: [
+            "Eine erste Forschungslinie betrifft nicht die Wirksamkeit der Logotherapie, sondern die Validität ihrer Grundannahmen. Bereits Crumbaugh und Maholick (1964) entwickelten mit dem Purpose in Life Test ein Instrument, um Frankls Konzept des existenziellen Vakuums psychometrisch zugänglich zu machen. In der Folge entstand eine umfangreiche Literatur, die Zusammenhänge zwischen erlebtem Lebenssinn und psychischer Gesundheit untersuchte; eine annotierte Bibliografie dieser Arbeiten haben Batthyány und Guttmann (2006) vorgelegt. Diese Studien sind überwiegend korrelativ angelegt und erlauben daher keine Aussagen über die Wirksamkeit therapeutischer Interventionen, stützen aber die Annahme, dass Sinnerleben ein klinisch bedeutsames Merkmal ist. Die neuere Sinnforschung hat diese Befunde mit eigenständigen Instrumenten und Modellen erweitert (Park, 2010; Steger et al., 2006).",
+            "Eine zweite Forschungslinie bilden kontrollierte Interventionsstudien. Hier ist zunächst festzuhalten, dass Studien zur „klassischen“ Logotherapie im engeren Sinn vergleichsweise selten sind und häufig kleine Stichproben, unklare Manualisierung oder fehlende aktive Kontrollbedingungen aufweisen. Eine wichtige Integrationsleistung stellt die Meta-Analyse von Vos et al. (2015) dar, die randomisiert-kontrollierte Studien zu verschiedenen Formen existenzieller Therapie zusammenfasste. Die Autoren fanden Hinweise auf günstige Effekte insbesondere für strukturierte, explizit sinnzentrierte Interventionen, während die Befundlage für andere existenzielle Ansätze weniger eindeutig ausfiel. Zugleich betonen sie die Heterogenität der eingeschlossenen Studien und Populationen.",
+            "Die methodisch am besten untersuchten Programme stammen aus der Psychoonkologie. Die von Breitbart und Kolleginnen und Kollegen entwickelte Meaning-Centered Group Psychotherapy, die explizit auf Frankls Werk aufbaut, wurde zunächst in einer randomisierten Pilotstudie (Breitbart et al., 2010) und später in einer größeren randomisierten Studie mit aktiver Kontrollbedingung untersucht (Breitbart et al., 2015). In beiden Studien zeigten sich im Vergleich zu einer unterstützenden Gruppenpsychotherapie Vorteile hinsichtlich spirituellen Wohlbefindens und erlebten Sinns sowie Hinweise auf eine Reduktion von Hoffnungslosigkeit und Todeswünschen. Diese Befunde sind bedeutsam, weil sie zeigen, dass sinnzentrierte Interventionen den Standards kontrollierter Forschung genügen können. Sie beziehen sich allerdings auf eine spezifische Population und lassen sich nicht ohne Weiteres auf andere klinische Kontexte übertragen."
+          ]
+        },
+        {
+          titel: "4 Methodische Herausforderungen",
+          absaetze: [
+            "Mehrere Faktoren erklären, warum die Evidenzbasis der Logotherapie trotz ihrer langen Tradition schmal geblieben ist. Erstens war die logotherapeutische Bewegung über weite Strecken stärker in Praxis, Lehre und Beratung als in universitärer Forschung verankert. Zweitens erschwert die bereits beschriebene Doppelstruktur von Anthropologie und Technik die Manualisierung. Drittens passen die primären Zielgrößen der Logotherapie – Sinnerleben, Werteverwirklichung, Einstellung zum unabänderlichen Leid – nur bedingt zu den Symptomskalen, die in störungsspezifischen Wirksamkeitsstudien üblicherweise als Hauptzielkriterien dienen.",
+            "Hinzu kommt eine grundsätzlichere Frage. Wampold und Imel (2015) haben dem medizinischen Modell der Psychotherapie, das spezifische Techniken als hauptsächliche Wirkquelle betrachtet, ein Kontextmodell gegenübergestellt, das der therapeutischen Beziehung, plausiblen Erklärungsmodellen und der Erwartung von Besserung erhebliches Gewicht zumisst. Auch Grawe (1998) hat mit seinen allgemeinen Wirkfaktoren eine schulenübergreifende Perspektive vorgeschlagen. Aus dieser Sicht wäre die Frage, ob „die Logotherapie“ als Markenverfahren wirksam ist, weniger ergiebig als die Frage, welche ihrer Elemente auf welche Weise zur Veränderung beitragen. Eine Übersicht zur Rolle allgemeiner Faktoren mahnt allerdings zugleich zur Vorsicht, da auch die Befundlage zu diesen Faktoren methodisch komplex ist (Cuijpers et al., 2019)."
+          ]
+        },
+        {
+          titel: "5 Perspektiven einer prozessorientierten Forschung",
+          absaetze: [
+            "Eine Möglichkeit, die beschriebene Spannung produktiv zu wenden, liegt in der Erforschung von Veränderungsmechanismen. Kazdin (2007) hat dafür argumentiert, Mediatoren und Mechanismen therapeutischer Veränderung systematisch zu untersuchen, statt sich auf den Vergleich von Behandlungspaketen zu beschränken. Für sinnzentrierte Ansätze liegt es nahe, Veränderungen im erlebten Sinn, in der Wertorientierung oder in der Einstellung gegenüber unveränderlichen Lebensumständen als mögliche Mechanismen zu konzipieren und deren zeitliche Abfolge im Verhältnis zur Symptomveränderung zu prüfen.",
+            "Diese Perspektive fügt sich in die Debatte um eine prozessbasierte Psychotherapie ein, die evidenzbasierte Prozesse statt Markenverfahren in den Mittelpunkt stellt (Hofmann & Hayes, 2019). Für die Logotherapie bietet ein solcher Rahmen die Chance, ihre Konzepte in eine gemeinsame Sprache mit anderen Verfahren zu übersetzen, ohne ihr Menschenbild aufzugeben. Voraussetzung ist allerdings eine präzise Operationalisierung der postulierten Prozesse, eine sorgfältige Instrumentenwahl und die Bereitschaft, auch nicht hypothesenkonforme Ergebnisse ernst zu nehmen."
+          ]
+        },
+        {
+          titel: "6 Fazit",
+          absaetze: [
+            "Die Frage, ob Logotherapie „evidenzbasiert“ ist, lässt sich nicht mit einem einfachen Ja oder Nein beantworten. Für die Grundannahme, dass Sinnerleben ein klinisch relevantes Merkmal ist, liegt eine breite, wenn auch überwiegend korrelative Befundbasis vor. Für manualisierte sinnzentrierte Interventionen in der Psychoonkologie existieren kontrollierte Studien mit ermutigenden Ergebnissen. Für die Logotherapie als allgemeines psychotherapeutisches Verfahren ist die Evidenz dagegen begrenzt. Eine zukunftsfähige Forschungsagenda sollte daher weniger auf die Legitimation einer Schule als auf die Klärung von Mechanismen, Indikationen und Grenzen sinnzentrierter Arbeit zielen."
+          ]
+        }
+      ],
+      literatur: [
+        "Batthyány, A., & Guttmann, D. (2006). Empirical research in logotherapy and meaning-oriented psychotherapy: An annotated bibliography. Zeig, Tucker & Theisen.",
+        "Breitbart, W., Rosenfeld, B., Gibson, C., Pessin, H., Poppito, S., Nelson, C., Tomarken, A., Timm, A. K., Berg, A., Jacobson, C., Sorger, B., Abbey, J., & Olden, M. (2010). Meaning-centered group psychotherapy for patients with advanced cancer: A pilot randomized controlled trial. Psycho-Oncology, 19(1), 21–28.",
+        "Breitbart, W., Rosenfeld, B., Pessin, H., Applebaum, A., Kulikowski, J., & Lichtenthal, W. G. (2015). Meaning-centered group psychotherapy: An effective intervention for improving psychological well-being in patients with advanced cancer. Journal of Clinical Oncology, 33(7), 749–754.",
+        "Chambless, D. L., & Hollon, S. D. (1998). Defining empirically supported therapies. Journal of Consulting and Clinical Psychology, 66(1), 7–18.",
+        "Crumbaugh, J. C., & Maholick, L. T. (1964). An experimental study in existentialism: The psychometric approach to Frankl's concept of noogenic neurosis. Journal of Clinical Psychology, 20(2), 200–207.",
+        "Cuijpers, P., Reijnders, M., & Huibers, M. J. H. (2019). The role of common factors in psychotherapy outcomes. Annual Review of Clinical Psychology, 15, 207–231.",
+        "Frankl, V. E. (1946). Ärztliche Seelsorge. Deuticke.",
+        "Frankl, V. E. (1960). Paradoxical intention: A logotherapeutic technique. American Journal of Psychotherapy, 14(3), 520–535.",
+        "Frankl, V. E. (1969). The will to meaning: Foundations and applications of logotherapy. New American Library.",
+        "Grawe, K. (1998). Psychologische Therapie. Hogrefe.",
+        "Grawe, K., Donati, R., & Bernauer, F. (1994). Psychotherapie im Wandel: Von der Konfession zur Profession. Hogrefe.",
+        "Hofmann, S. G., & Hayes, S. C. (2019). The future of intervention science: Process-based therapy. Clinical Psychological Science, 7(1), 37–50.",
+        "Kazdin, A. E. (2007). Mediators and mechanisms of change in psychotherapy research. Annual Review of Clinical Psychology, 3, 1–27.",
+        "Längle, A. (2013). Lehrbuch zur Existenzanalyse: Grundlagen. facultas.wuv.",
+        "Park, C. L. (2010). Making sense of the meaning literature: An integrative review of meaning making and its effects on adjustment to stressful life events. Psychological Bulletin, 136(2), 257–301.",
+        "Steger, M. F., Frazier, P., Oishi, S., & Kaler, M. (2006). The Meaning in Life Questionnaire: Assessing the presence of and search for meaning in life. Journal of Counseling Psychology, 53(1), 80–93.",
+        "Vos, J., Craig, M., & Cooper, M. (2015). Existential therapies: A meta-analysis of their effects on psychological outcomes. Journal of Consulting and Clinical Psychology, 83(1), 115–128.",
+        "Wampold, B. E., & Imel, Z. E. (2015). The great psychotherapy debate: The evidence for what makes psychotherapy work (2nd ed.). Routledge."
+      ]
+    },
+    {
+      id: "zsp-2026-1-03",
+      ausgabe: "2026-1",
+      rubrik: "Theoretischer Beitrag",
+      titel: "Lebenssinn als transdiagnostischer Faktor",
+      untertitel: "Begriffliche Klärungen, theoretische Modelle und offene Fragen",
+      autoren: "Arbeitsbereich Klinische Psychologie und Psychopathologie",
+      seiten: "16–27",
+      abstract: "Transdiagnostische Ansätze untersuchen psychologische Merkmale und Prozesse, die über verschiedene Störungsbilder hinweg an Entstehung und Aufrechterhaltung psychischer Beschwerden beteiligt sind. Der vorliegende theoretische Beitrag prüft, ob und in welchem Sinne Lebenssinn als transdiagnostischer Faktor konzipiert werden kann. Ausgehend von den Kriterien, die in der transdiagnostischen Literatur für entsprechende Konstrukte diskutiert werden, wird zunächst der Begriff des Lebenssinns präzisiert. Unterschieden werden das Vorhandensein von Sinn, die Suche nach Sinn sowie die Komponenten Kohärenz, Zielorientierung und Bedeutsamkeit. Anschließend werden drei Modellvorstellungen gegenübergestellt: Lebenssinn als Vulnerabilitäts- bzw. Schutzfaktor, als Ergebnis gelingender Bedeutungsbildung nach belastenden Ereignissen und als Ausdruck übergreifender Motivationsstrukturen. Es wird argumentiert, dass ein Mangel an erlebtem Sinn weniger als eigenständiger Mechanismus denn als Knotenpunkt verstanden werden sollte, an dem motivationale, kognitive und emotionale Prozesse zusammenlaufen. Abschließend werden Implikationen für Diagnostik und Psychotherapie diskutiert sowie methodische Anforderungen formuliert, die für eine empirische Prüfung des transdiagnostischen Status von Lebenssinn erforderlich wären, insbesondere längsschnittliche Designs, die Trennung konzeptuell überlappender Konstrukte und die Berücksichtigung kultureller Variabilität.",
+      schluesselwoerter: ["Lebenssinn", "Transdiagnostik", "Psychopathologie", "Bedeutungsbildung", "Schutzfaktoren"],
+      abstractEn: "Transdiagnostic approaches investigate psychological characteristics and processes that contribute to the onset and maintenance of psychological problems across diagnostic categories. This theoretical paper examines whether, and in what sense, meaning in life can be conceptualized as a transdiagnostic factor. Drawing on criteria discussed in the transdiagnostic literature, the paper first clarifies the concept of meaning in life, distinguishing between presence of meaning and search for meaning as well as between the components of coherence, purpose, and significance. Three models are then contrasted: meaning in life as a vulnerability or protective factor, as an outcome of successful meaning making after stressful events, and as an expression of overarching motivational structures. It is argued that a lack of experienced meaning should be understood less as a distinct mechanism than as a nodal point at which motivational, cognitive, and emotional processes converge. Finally, implications for assessment and psychotherapy are discussed, and methodological requirements for an empirical test of the transdiagnostic status of meaning in life are outlined, in particular longitudinal designs, the separation of conceptually overlapping constructs, and attention to cultural variability.",
+      keywords: ["meaning in life", "transdiagnostic approach", "psychopathology", "meaning making", "protective factors"],
+      abschnitte: [
+        {
+          titel: "1 Einleitung",
+          absaetze: [
+            "Die kategoriale Klassifikation psychischer Störungen hat sich für Verständigung, Versorgung und Forschung als unverzichtbar erwiesen. Zugleich sind ihre Grenzen seit Langem bekannt: Hohe Komorbiditätsraten, unscharfe Übergänge zwischen Diagnosen und die Beobachtung, dass ähnliche psychologische Prozesse bei unterschiedlichen Störungen wirksam sind, haben zu einer transdiagnostischen Perspektive geführt. Harvey et al. (2004) haben in einer einflussreichen Monografie gezeigt, dass Prozesse wie selektive Aufmerksamkeit, repetitives negatives Denken oder Vermeidungsverhalten über zahlreiche Störungsbilder hinweg auftreten. Auf struktureller Ebene wurde zudem diskutiert, ob sich ein allgemeiner Psychopathologiefaktor identifizieren lässt (Caspi et al., 2014).",
+            "Vor diesem Hintergrund liegt die Frage nahe, ob auch Lebenssinn – oder sein Fehlen – als transdiagnostischer Faktor verstanden werden kann. Die Logotherapie hat eine solche Annahme in gewisser Weise vorweggenommen, indem sie die Frustration des Willens zum Sinn als Bedingung beschrieb, die sich in unterschiedlichen Symptomen äußern kann (Frankl, 1969). Der vorliegende Beitrag prüft diese Intuition im Licht gegenwärtiger theoretischer Kriterien. Er versteht sich als konzeptuelle Analyse und nicht als Zusammenfassung eigener empirischer Daten."
+          ]
+        },
+        {
+          titel: "2 Kriterien für transdiagnostische Konstrukte",
+          absaetze: [
+            "Nolen-Hoeksema und Watkins (2011) haben eine Heuristik vorgeschlagen, mit der sich transdiagnostische Modelle präzisieren lassen. Sie unterscheiden distale Risikofaktoren, die die Vulnerabilität erhöhen, proximale Prozesse, die unmittelbar an der Symptombildung beteiligt sind, und moderierende Bedingungen, die erklären, warum ein gemeinsamer Faktor bei verschiedenen Personen zu unterschiedlichen Störungen führt. Ein Konstrukt verdient demnach nicht schon deshalb die Bezeichnung „transdiagnostisch“, weil es mit mehreren Störungen korreliert. Erforderlich ist vielmehr ein theoretisch begründetes Modell darüber, wie es auf die Entstehung und Aufrechterhaltung von Symptomen einwirkt.",
+            "Für den Lebenssinn ergibt sich daraus eine doppelte Aufgabe. Erstens muss geklärt werden, was genau unter Lebenssinn verstanden wird. Zweitens ist zu bestimmen, auf welcher Ebene des Modells – als distaler Faktor, als proximaler Prozess oder als Moderator – er angesiedelt sein soll. Beide Fragen werden in der Literatur nicht immer hinreichend auseinandergehalten."
+          ]
+        },
+        {
+          titel: "3 Begriffliche Präzisierung",
+          absaetze: [
+            "Steger et al. (2006) haben mit der Unterscheidung zwischen dem Vorhandensein von Sinn und der Suche nach Sinn eine für die empirische Forschung folgenreiche Differenzierung eingeführt. Während das erlebte Vorhandensein von Sinn in der Regel mit Wohlbefinden einhergeht, ist der Zusammenhang der Sinnsuche mit psychischer Gesundheit komplexer und offenbar vom Kontext abhängig. Martela und Steger (2016) haben darüber hinaus drei Facetten des Sinnerlebens unterschieden: Kohärenz im Sinne der Verstehbarkeit des eigenen Lebens, Zielorientierung im Sinne einer motivierenden Ausrichtung auf wertgeschätzte Ziele und Bedeutsamkeit im Sinne des Erlebens, dass das eigene Leben wertvoll ist und zählt.",
+            "Schnell (2009) hat zudem gezeigt, dass zwischen den Quellen, aus denen Menschen Sinn beziehen, und dem globalen Sinnerleben unterschieden werden sollte. Diese Unterscheidung ist klinisch bedeutsam: Ein Mangel an erlebtem Sinn kann auf den Verlust einzelner Sinnquellen, auf eine geringe Vielfalt solcher Quellen oder auf eine fehlende Integration in ein übergreifendes Selbstverständnis zurückgehen. Ferner hat Schnell (2020) auf den Zustand der „existenziellen Indifferenz“ hingewiesen, bei dem weder Sinn erlebt noch gesucht wird – ein Zustand, der sich von einer akuten Sinnkrise deutlich unterscheidet.",
+            "Für die transdiagnostische Frage folgt daraus, dass „Lebenssinn“ kein einheitliches Konstrukt ist. Wer von Sinn als transdiagnostischem Faktor spricht, muss angeben, welche Facette gemeint ist, da Kohärenz, Zielorientierung und Bedeutsamkeit potenziell mit unterschiedlichen psychopathologischen Prozessen verknüpft sind."
+          ]
+        },
+        {
+          titel: "4 Drei Modellvorstellungen",
+          absaetze: [
+            "Ein erstes Modell versteht erlebten Sinn als Schutzfaktor und seinen Mangel als Vulnerabilitätsfaktor. Diese Sichtweise ist mit salutogenetischen Überlegungen verwandt, wie sie Antonovsky (1987) mit dem Konzept des Kohärenzgefühls formuliert hat, in dem die Sinnhaftigkeit als motivationale Komponente eine zentrale Stellung einnimmt. In diesem Modell wäre Lebenssinn ein distaler Faktor im Sinne von Nolen-Hoeksema und Watkins (2011), der die Wahrscheinlichkeit unterschiedlicher Störungen beeinflusst, ohne deren spezifische Gestalt festzulegen.",
+            "Ein zweites Modell betont die Prozessdimension. Park (2010) beschreibt in ihrem Meaning-Making-Modell, wie belastende Ereignisse eine Diskrepanz zwischen globalen Bedeutungsstrukturen und der situativen Bewertung eines Ereignisses erzeugen, die durch Prozesse der Bedeutungsbildung verringert werden kann. Psychische Beschwerden ließen sich in diesem Rahmen als Ausdruck nicht gelingender Bedeutungsbildung verstehen. Hier ist Sinn nicht primär ein stabiles Merkmal, sondern ein Ergebnis fortlaufender Verarbeitung, das proximal an der Aufrechterhaltung von Symptomen beteiligt sein kann.",
+            "Ein drittes Modell schließlich deutet Sinnerleben als Ausdruck übergreifender Motivationsstrukturen. Baumeister (1991) hat Sinnbedürfnisse in Bezug auf Zweck, Werte, Wirksamkeit und Selbstwert beschrieben. Aus dieser Perspektive verweist ein Mangel an Sinn auf eine Störung motivationaler Ausrichtung, die sich etwa in Antriebsminderung, Vermeidungsverhalten oder kompensatorischen Strategien äußern kann. Auch Yalom (1980) hat Sinnlosigkeit als eine der existenziellen Grundgegebenheiten beschrieben, mit der Menschen in sehr unterschiedlicher, teils dysfunktionaler Weise umgehen."
+          ]
+        },
+        {
+          titel: "5 Sinn als Knotenpunkt: Eine integrative Deutung",
+          absaetze: [
+            "Die drei Modelle schließen einander nicht aus. Es spricht vieles dafür, einen Mangel an erlebtem Sinn weniger als eigenständigen, isolierbaren Mechanismus denn als Knotenpunkt zu verstehen, an dem motivationale, kognitive und emotionale Prozesse zusammenlaufen. Befunde, nach denen positiver Affekt das momentane Sinnerleben beeinflusst (King et al., 2006), verdeutlichen, dass Sinnerleben nicht unabhängig von der affektiven Lage einer Person ist. Umgekehrt ist plausibel, dass eine stabile Wertorientierung affektive Krisen abpuffern kann.",
+            "Eine solche Knotenpunkt-Deutung hat Konsequenzen für die Forschung. Sie warnt davor, Sinnerleben als bloße Spiegelung depressiver Symptomatik zu behandeln, ebenso wie davor, es zu einem allumfassenden Erklärungsprinzip zu überhöhen. Heintzelman und King (2014) haben zudem darauf hingewiesen, dass die meisten Menschen ihr Leben als recht sinnvoll beschreiben. Ein klinisch relevanter Sinnmangel ist demnach eher die Ausnahme als die Regel, was für die Bestimmung von Schwellenwerten und Risikogruppen bedeutsam ist."
+          ]
+        },
+        {
+          titel: "6 Implikationen und offene Fragen",
+          absaetze: [
+            "Für die Diagnostik legt die Analyse nahe, Sinnerleben facettenspezifisch und störungsübergreifend zu erfassen, statt es lediglich als Begleitvariable zu erheben. Für die Psychotherapie ergibt sich die Überlegung, ob sinnzentrierte Interventionen als ergänzende Module in unterschiedlichen Behandlungskontexten eingesetzt werden können. Dies entspräche Frankls Selbstverständnis der Logotherapie als Ergänzung anderer Verfahren.",
+            "Für eine empirische Prüfung des transdiagnostischen Status von Lebenssinn wären insbesondere längsschnittliche Designs erforderlich, die zeitliche Abfolgen zwischen Sinnerleben und Symptomentwicklung abbilden, ferner eine sorgfältige Trennung konzeptuell überlappender Konstrukte wie Hoffnungslosigkeit, Wohlbefinden oder Selbstwirksamkeit sowie die Berücksichtigung kultureller Variabilität in der Bedeutung von Sinn. Solange diese Anforderungen nicht erfüllt sind, ist die Rede von Lebenssinn als transdiagnostischem Faktor als heuristisch fruchtbare Hypothese, nicht als gesicherter Befund zu verstehen."
+          ]
+        }
+      ],
+      literatur: [
+        "Antonovsky, A. (1987). Unraveling the mystery of health: How people manage stress and stay well. Jossey-Bass.",
+        "Baumeister, R. F. (1991). Meanings of life. Guilford Press.",
+        "Caspi, A., Houts, R. M., Belsky, D. W., Goldman-Mellor, S. J., Harrington, H., Israel, S., Meier, M. H., Ramrakha, S., Shalev, I., Poulton, R., & Moffitt, T. E. (2014). The p factor: One general psychopathology factor in the structure of psychiatric disorders? Clinical Psychological Science, 2(2), 119–137.",
+        "Frankl, V. E. (1969). The will to meaning: Foundations and applications of logotherapy. New American Library.",
+        "Harvey, A. G., Watkins, E., Mansell, W., & Shafran, R. (2004). Cognitive behavioural processes across psychological disorders: A transdiagnostic approach to research and treatment. Oxford University Press.",
+        "Heintzelman, S. J., & King, L. A. (2014). Life is pretty meaningful. American Psychologist, 69(6), 561–574.",
+        "King, L. A., Hicks, J. A., Krull, J. L., & Del Gaiso, A. K. (2006). Positive affect and the experience of meaning in life. Journal of Personality and Social Psychology, 90(1), 179–196.",
+        "Martela, F., & Steger, M. F. (2016). The three meanings of meaning in life: Distinguishing coherence, purpose, and significance. The Journal of Positive Psychology, 11(5), 531–545.",
+        "Nolen-Hoeksema, S., & Watkins, E. R. (2011). A heuristic for developing transdiagnostic models of psychopathology: Explaining multifinality and divergent trajectories. Perspectives on Psychological Science, 6(6), 589–609.",
+        "Park, C. L. (2010). Making sense of the meaning literature: An integrative review of meaning making and its effects on adjustment to stressful life events. Psychological Bulletin, 136(2), 257–301.",
+        "Schnell, T. (2009). The Sources of Meaning and Meaning in Life Questionnaire (SoMe): Relations to demographics and well-being. The Journal of Positive Psychology, 4(6), 483–499.",
+        "Schnell, T. (2020). Psychologie des Lebenssinns (2. Aufl.). Springer.",
+        "Steger, M. F., Frazier, P., Oishi, S., & Kaler, M. (2006). The Meaning in Life Questionnaire: Assessing the presence of and search for meaning in life. Journal of Counseling Psychology, 53(1), 80–93.",
+        "Yalom, I. D. (1980). Existential psychotherapy. Basic Books."
+      ]
+    },
+    {
+      id: "zsp-2026-1-04",
+      ausgabe: "2026-1",
+      rubrik: "Theoretischer Beitrag",
+      titel: "Paradoxe Intention und moderne Expositionsverfahren",
+      untertitel: "Ein theoretischer Vergleich von Wirkannahmen, Vorgehen und Grenzen",
+      autoren: "Arbeitsbereich Logotherapie und Existenzanalyse",
+      seiten: "28–39",
+      abstract: "Die paradoxe Intention zählt zu den bekanntesten Techniken der Logotherapie. Viktor E. Frankl beschrieb sie bereits in den 1930er- bis 1950er-Jahren als Verfahren zur Unterbrechung der Erwartungsangst bei Phobien und Zwangssymptomen. Der vorliegende Beitrag vergleicht die paradoxe Intention auf theoretischer Ebene mit gegenwärtigen Expositionsverfahren der kognitiven Verhaltenstherapie, insbesondere mit dem Modell der emotionalen Verarbeitung und dem Ansatz des inhibitorischen Lernens. Herausgearbeitet werden zunächst deutliche Gemeinsamkeiten: Beide Zugänge zielen auf die Aufgabe von Vermeidungs- und Kontrollverhalten, fördern die Konfrontation mit gefürchteten Erfahrungen und ermöglichen korrigierende Lernerfahrungen. Zugleich bestehen Unterschiede in der anthropologischen Begründung, in der Rolle des Humors und der Selbstdistanzierung sowie in der Strukturierung des Vorgehens. Anschließend wird diskutiert, inwieweit Konzepte wie ironische Prozesse der Gedankenkontrolle, metakognitive Modelle und kognitive Defusion als Brücken zwischen beiden Traditionen dienen können. Der Beitrag schließt mit einer Erörterung von Indikationsgrenzen und mit Vorschlägen für eine präzisere theoretische Verortung der paradoxen Intention innerhalb der gegenwärtigen Psychotherapieforschung, ohne ihre eigenständige existenzanalytische Begründung aufzugeben.",
+      schluesselwoerter: ["Paradoxe Intention", "Exposition", "Inhibitorisches Lernen", "Selbstdistanzierung", "Angststörungen"],
+      abstractEn: "Paradoxical intention is among the best-known techniques of logotherapy. Viktor E. Frankl described it as early as the period between the 1930s and the 1950s as a method for interrupting anticipatory anxiety in phobias and obsessive-compulsive symptoms. This paper compares paradoxical intention at a theoretical level with contemporary exposure-based procedures in cognitive behavioral therapy, in particular with emotional processing theory and the inhibitory learning approach. First, substantial similarities are identified: both approaches aim at relinquishing avoidance and control behaviors, encourage confrontation with feared experiences, and enable corrective learning. At the same time, there are differences in their anthropological rationale, in the role of humor and self-distancing, and in how the procedure is structured. The paper then discusses to what extent concepts such as ironic processes of mental control, metacognitive models, and cognitive defusion may serve as bridges between the two traditions. It concludes with a discussion of the limits of indication and with suggestions for a more precise theoretical placement of paradoxical intention within current psychotherapy research, without abandoning its distinct existential-analytic foundation.",
+      keywords: ["paradoxical intention", "exposure therapy", "inhibitory learning", "self-distancing", "anxiety disorders"],
+      abschnitte: [
+        {
+          titel: "1 Einleitung",
+          absaetze: [
+            "Unter den Techniken der Logotherapie hat die paradoxe Intention die größte Verbreitung über die eigene Schule hinaus erfahren. Frankl (1960) beschrieb sie in einem viel zitierten Aufsatz als Verfahren, bei dem Patientinnen und Patienten angeleitet werden, das Gefürchtete gerade herbeizuwünschen oder absichtlich hervorzurufen, statt es angestrengt zu vermeiden. In seiner Darstellung der Neurosenlehre hat er diesen Ansatz systematisch in ein Modell der Erwartungsangst eingebettet (Frankl, 1956).",
+            "Seither hat sich die Behandlung von Angst- und Zwangsstörungen erheblich weiterentwickelt. Expositionsbasierte Verfahren gehören heute zu den am besten untersuchten psychotherapeutischen Interventionen überhaupt (Abramowitz et al., 2019). Es liegt daher nahe, die paradoxe Intention mit diesen Verfahren zu vergleichen. Der vorliegende Beitrag tut dies auf theoretischer Ebene. Er fragt, welche Wirkannahmen beiden Zugängen zugrunde liegen, wo sie konvergieren und wo sie sich unterscheiden."
+          ]
+        },
+        {
+          titel: "2 Die paradoxe Intention im logotherapeutischen Verständnis",
+          absaetze: [
+            "Frankls Ausgangspunkt ist ein zirkuläres Modell: Ein Symptom löst die Befürchtung aus, es könne wiederkehren; diese Erwartungsangst begünstigt ihrerseits das erneute Auftreten des Symptoms, was die Befürchtung weiter verstärkt (Frankl, 1956). Typische Reaktionsmuster auf diesen Zirkel sind nach Frankl die Flucht vor der Angst bei phobischen Beschwerden und der Kampf gegen die Zwangsidee bei Zwangssymptomen. Beide Muster tragen zur Verfestigung der Problematik bei.",
+            "Die paradoxe Intention setzt an dieser Stelle an. Sie fordert die betroffene Person auf, sich das Gefürchtete – etwa das Erröten, Zittern oder Schwitzen – bewusst und möglichst in übertriebener, humorvoller Form zu wünschen. Frankl (1960) betonte, dass diese Technik auf der spezifisch menschlichen Fähigkeit zur Selbstdistanzierung beruhe, die er der noetischen Dimension zurechnete. Der Humor ist dabei kein dekoratives Beiwerk, sondern ein zentrales Mittel, um Abstand vom Symptom zu gewinnen und die Angst ihrer Macht zu berauben.",
+            "Bemerkenswert ist, dass Frankl die paradoxe Intention nicht als bloße Technik verstand. Sie sollte der Person ermöglichen, sich nicht mit ihrer Angst zu identifizieren, sondern ihr gegenüber eine Haltung einzunehmen. Darin kommt die anthropologische Grundannahme der Logotherapie zum Ausdruck, dass der Mensch seinen psychischen Bedingungen nicht vollständig ausgeliefert ist, sondern zu ihnen Stellung nehmen kann."
+          ]
+        },
+        {
+          titel: "3 Expositionsverfahren: Von der emotionalen Verarbeitung zum inhibitorischen Lernen",
+          absaetze: [
+            "Die theoretische Begründung der Exposition hat sich in den vergangenen Jahrzehnten gewandelt. Foa und Kozak (1986) formulierten mit der Theorie der emotionalen Verarbeitung ein Modell, nach dem Angst in Gedächtnisstrukturen repräsentiert ist, die durch Aktivierung und die Aufnahme korrigierender Information verändert werden können. Habituation innerhalb und zwischen Übungssitzungen galt in diesem Modell als wichtiger Indikator gelingender Verarbeitung.",
+            "Craske et al. (2014) haben demgegenüber ein Modell des inhibitorischen Lernens vorgeschlagen. Danach wird die ursprüngliche Angstassoziation durch Exposition nicht gelöscht, sondern durch neu erlernte, hemmende Assoziationen ergänzt, die mit der ursprünglichen konkurrieren. Für die Praxis folgt daraus, dass weniger die Reduktion der Angst während der Übung als die Verletzung von Erwartungen, die Variabilität der Übungskontexte und der Verzicht auf Sicherheitsverhalten im Vordergrund stehen. Die Toleranz von Angst wird damit selbst zum Ziel."
+          ]
+        },
+        {
+          titel: "4 Konvergenzen",
+          absaetze: [
+            "Aus der Perspektive des inhibitorischen Lernens erscheint die paradoxe Intention in neuem Licht. Indem Patientinnen und Patienten das Gefürchtete herbeiwünschen, geben sie Vermeidungs- und Kontrollstrategien auf und setzen sich der gefürchteten Erfahrung aus. Die Erwartung, dass das Symptom katastrophal eskalieren werde, wird dabei häufig nicht bestätigt. Funktional betrachtet enthält die paradoxe Intention damit zentrale Elemente einer Expositionsübung: Konfrontation, Verzicht auf Sicherheitsverhalten und Erwartungsverletzung.",
+            "Eine weitere Brücke bietet die Forschung zur Gedankenkontrolle. Wegner (1994) hat gezeigt, dass der Versuch, bestimmte Gedanken zu unterdrücken, unter bestimmten Bedingungen gerade zu deren vermehrtem Auftreten führen kann. Dieses Konzept ironischer Prozesse liefert eine experimentalpsychologisch fundierte Erklärung für die von Frankl klinisch beschriebene Beobachtung, dass der Kampf gegen ein Symptom dieses verstärken kann. Auch das metakognitive Modell von Wells (2009), das problematische Überzeugungen über die Kontrollierbarkeit und Gefährlichkeit eigener Gedanken in den Mittelpunkt stellt, weist hier Berührungspunkte auf.",
+            "Schließlich bestehen Parallelen zur kognitiven Defusion in der Akzeptanz- und Commitment-Therapie, bei der Gedanken als vorübergehende mentale Ereignisse betrachtet werden, statt sie als wörtliche Wahrheiten zu behandeln (Hayes et al., 2012). Manche Defusionsübungen, die mit Übertreibung, Wiederholung oder spielerischer Verfremdung arbeiten, ähneln in ihrer Struktur der humorvollen Distanzierung, die Frankl beschrieben hat."
+          ]
+        },
+        {
+          titel: "5 Differenzen",
+          absaetze: [
+            "Trotz dieser Konvergenzen wäre es verkürzend, die paradoxe Intention schlicht als frühe Form der Exposition zu deuten. Ein erster Unterschied betrifft die Begründung: Während Expositionsverfahren lern- und gedächtnispsychologisch fundiert sind, beruft sich Frankl auf eine anthropologische Fähigkeit zur Selbstdistanzierung. Ein zweiter Unterschied liegt in der Strukturierung. Moderne Expositionsprotokolle sind in der Regel sorgfältig geplant, mit Hierarchien, Erwartungsprüfungen und Nachbesprechungen. Die paradoxe Intention wurde dagegen häufig als kompakte, im Alltag anzuwendende Haltung vermittelt.",
+            "Ein dritter Unterschied betrifft die Rolle des Humors. In Expositionsverfahren ist Humor allenfalls ein förderlicher Kontextfaktor, in der paradoxen Intention dagegen konstitutiv. Ob und in welchem Maße Humor selbst zur Wirksamkeit beiträgt, ist eine offene empirische Frage. Hinzu kommt, dass paradoxe Interventionen in der Literatur unter sehr unterschiedlichen Bezeichnungen und Verfahrensweisen untersucht wurden. Eine frühe Meta-Analyse paradoxer Interventionen (Shoham-Salomon & Rosenthal, 1987) deutet zwar auf eine gewisse Wirksamkeit hin, verweist aber zugleich auf erhebliche Heterogenität, sodass Rückschlüsse auf die logotherapeutische Technik im engeren Sinn nur vorsichtig gezogen werden können."
+          ]
+        },
+        {
+          titel: "6 Indikationsgrenzen und Ausblick",
+          absaetze: [
+            "Bereits Frankl (1956) hat darauf hingewiesen, dass die paradoxe Intention nicht bei allen Beschwerdebildern angezeigt ist. Bei depressiven Zuständen mit Suizidalität etwa wäre eine Aufforderung, das Gefürchtete herbeizuwünschen, offenkundig kontraindiziert. Auch bei Zwangsgedanken mit aggressivem Inhalt bedarf es sorgfältiger Psychoedukation, damit die Technik nicht als Bagatellisierung erlebt wird. Ein tragfähiges Arbeitsbündnis und eine klare Begründung der Intervention sind daher unverzichtbar.",
+            "Für die künftige Forschung bietet das Modell des inhibitorischen Lernens einen Rahmen, in dem sich Hypothesen über die Wirkweise der paradoxen Intention präzise formulieren lassen, etwa zur Rolle der Erwartungsverletzung oder zum Beitrag von Humor und Selbstdistanzierung. Eine solche Integration würde die paradoxe Intention nicht ihrer existenzanalytischen Begründung berauben, sondern diese um eine anschlussfähige Mechanismusperspektive ergänzen."
+          ]
+        }
+      ],
+      literatur: [
+        "Abramowitz, J. S., Deacon, B. J., & Whiteside, S. P. H. (2019). Exposure therapy for anxiety: Principles and practice (2nd ed.). Guilford Press.",
+        "Craske, M. G., Treanor, M., Conway, C. C., Zbozinek, T., & Vervliet, B. (2014). Maximizing exposure therapy: An inhibitory learning approach. Behaviour Research and Therapy, 58, 10–23.",
+        "Foa, E. B., & Kozak, M. J. (1986). Emotional processing of fear: Exposure to corrective information. Psychological Bulletin, 99(1), 20–35.",
+        "Frankl, V. E. (1956). Theorie und Therapie der Neurosen: Einführung in Logotherapie und Existenzanalyse. Urban & Schwarzenberg.",
+        "Frankl, V. E. (1960). Paradoxical intention: A logotherapeutic technique. American Journal of Psychotherapy, 14(3), 520–535.",
+        "Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (2012). Acceptance and commitment therapy: The process and practice of mindful change (2nd ed.). Guilford Press.",
+        "Shoham-Salomon, V., & Rosenthal, R. (1987). Paradoxical interventions: A meta-analysis. Journal of Consulting and Clinical Psychology, 55(1), 22–28.",
+        "Wegner, D. M. (1994). Ironic processes of mental control. Psychological Review, 101(1), 34–52.",
+        "Wells, A. (2009). Metacognitive therapy for anxiety and depression. Guilford Press."
+      ]
+    },
+    {
+      id: "zsp-2026-1-05",
+      ausgabe: "2026-1",
+      rubrik: "Methodenbeitrag",
+      titel: "Die Messung von Lebenssinn",
+      untertitel: "Purpose in Life Test, Meaning in Life Questionnaire und LeBe/SoMe im konzeptuellen und methodischen Vergleich",
+      autoren: "Arbeitsbereich Psychologische Diagnostik und Methodenlehre",
+      seiten: "40–51",
+      abstract: "Die empirische Erforschung von Lebenssinn ist untrennbar mit der Entwicklung geeigneter Messinstrumente verbunden. Der vorliegende Methodenbeitrag stellt drei Verfahrensfamilien vergleichend dar, die in Forschung und Praxis besonders häufig verwendet werden: den Purpose in Life Test, der in der Tradition der Logotherapie entwickelt wurde, den Meaning in Life Questionnaire mit seiner Unterscheidung zwischen dem Vorhandensein von und der Suche nach Sinn sowie den Fragebogen zu Lebensbedeutungen und Lebenssinn (LeBe) bzw. seine englischsprachige Fassung SoMe, der zusätzlich Quellen von Sinn erfasst. Ergänzend wird die Existenzskala als Instrument aus der existenzanalytischen Tradition berücksichtigt. Die Verfahren werden hinsichtlich ihrer theoretischen Fundierung, ihres Aufbaus, ihrer Konstruktabgrenzung und typischer Anwendungsfelder beschrieben. Im Zentrum steht dabei die Frage der Konstruktvalidität: Es wird diskutiert, inwieweit die Instrumente Sinnerleben von verwandten Konstrukten wie Wohlbefinden, Depressivität oder Lebenszufriedenheit abgrenzen und welche Facetten des Sinnerlebens sie jeweils abbilden. Abschließend werden Empfehlungen für die Instrumentenwahl in Forschung, Diagnostik und Evaluation formuliert, etwa die Orientierung an der Fragestellung, die Kombination globaler und quellenbezogener Maße sowie die zurückhaltende Interpretation von Summenwerten im Einzelfall.",
+      schluesselwoerter: ["Lebenssinn", "Psychologische Diagnostik", "Konstruktvalidität", "Fragebogenverfahren", "Messinstrumente"],
+      abstractEn: "Empirical research on meaning in life is inseparably linked to the development of suitable measurement instruments. This methodological paper compares three families of instruments that are particularly widely used in research and practice: the Purpose in Life Test, developed within the tradition of logotherapy; the Meaning in Life Questionnaire with its distinction between presence of meaning and search for meaning; and the Sources of Meaning and Meaning in Life Questionnaire (SoMe) and its German counterpart LeBe, which additionally assess sources of meaning. The Existence Scale is considered as an instrument rooted in the existential-analytic tradition. The instruments are described with respect to their theoretical foundations, structure, construct delineation, and typical fields of application. The central focus is on construct validity: the paper discusses to what extent the instruments distinguish experienced meaning from related constructs such as well-being, depressive symptoms, or life satisfaction, and which facets of meaning each of them captures. Finally, recommendations for the selection of instruments in research, assessment, and evaluation are formulated, including orientation toward the research question, the combination of global and source-specific measures, and a cautious interpretation of sum scores in individual assessment.",
+      keywords: ["meaning in life", "psychological assessment", "construct validity", "questionnaires", "measurement"],
+      abschnitte: [
+        {
+          titel: "1 Einleitung",
+          absaetze: [
+            "Ein psychologisches Konstrukt ist nur so gut erforschbar, wie es messbar ist. Für den Lebenssinn gilt dies in besonderem Maße, weil der Begriff in Alltagssprache, Philosophie und Psychotherapie mit sehr unterschiedlichen Bedeutungen verwendet wird. Die Wahl eines Messinstruments ist daher nie nur eine technische Entscheidung, sondern impliziert stets eine theoretische Festlegung darüber, was unter Sinn verstanden wird.",
+            "Der vorliegende Beitrag stellt ausgewählte, häufig verwendete Verfahren vergleichend dar. Er verfolgt nicht das Ziel einer vollständigen Übersicht, sondern möchte die konzeptuellen Unterschiede zwischen den Instrumenten herausarbeiten und daraus Empfehlungen für die Praxis ableiten. Leitend ist dabei das Verständnis von Validität als einheitlichem, auf die Interpretation von Testwerten bezogenem Konzept (American Educational Research Association et al., 2014; Messick, 1995)."
+          ]
+        },
+        {
+          titel: "2 Der Purpose in Life Test",
+          absaetze: [
+            "Crumbaugh und Maholick (1964) entwickelten den Purpose in Life Test (PIL), um Frankls Konzept der noogenen Neurose und des existenziellen Vakuums psychometrisch zu erfassen. Das Instrument besteht in seiner bekanntesten Form aus 20 Aussagen, die auf einer siebenstufigen Skala mit jeweils eigenständig formulierten Polen beantwortet werden; ergänzende qualitative Teile mit Satzergänzungen und einem freien Aufsatz werden in der Forschung seltener verwendet. Der PIL war über Jahrzehnte das am häufigsten eingesetzte Sinninstrument und bildet die Grundlage eines großen Teils der logotherapeutisch orientierten Forschung.",
+            "Zugleich ist der PIL vielfach kritisiert worden. Dyck (1987) hat in einer frühen Analyse auf konzeptuelle und psychometrische Probleme hingewiesen, insbesondere auf die inhaltliche Heterogenität der Items und auf deren Überschneidung mit Konstrukten wie Depressivität und Lebenszufriedenheit. Einige Items erfassen eher Stimmung oder Lebensfreude als Sinn im engeren Sinne. Diese Kritik betrifft die diskriminante Validität und ist für die Interpretation von Zusammenhängen mit Symptommaßen bedeutsam. Mit der Kurzform PIL-SF haben Schulenberg et al. (2011) eine ökonomische Variante mit vier Items vorgelegt, die stärker auf den Kern des Konstrukts fokussiert."
+          ]
+        },
+        {
+          titel: "3 Der Meaning in Life Questionnaire",
+          absaetze: [
+            "Steger et al. (2006) entwickelten den Meaning in Life Questionnaire (MLQ) ausdrücklich mit dem Ziel, Schwächen früherer Verfahren zu überwinden. Das Instrument umfasst zehn Items, die zwei Subskalen zugeordnet sind: das Vorhandensein von Sinn und die Suche nach Sinn. Die Autoren legten besonderen Wert auf die Abgrenzung von verwandten Konstrukten und berichteten in ihren Validierungsstudien Hinweise auf konvergente und diskriminante Validität.",
+            "Die Stärke des MLQ liegt in seiner Kürze, seiner klaren Struktur und der konzeptuell bedeutsamen Trennung von Vorhandensein und Suche. Eine Grenze besteht darin, dass die Items vergleichsweise global formuliert sind und keine Auskunft darüber geben, woraus eine Person Sinn bezieht oder welche Facette des Sinnerlebens im Vordergrund steht. Die von Martela und Steger (2016) vorgeschlagene Unterscheidung zwischen Kohärenz, Zielorientierung und Bedeutsamkeit wird durch den MLQ nicht differenziert abgebildet."
+          ]
+        },
+        {
+          titel: "4 LeBe und SoMe: Sinnerleben und Sinnquellen",
+          absaetze: [
+            "Mit dem Fragebogen zu Lebensbedeutungen und Lebenssinn (LeBe) haben Schnell und Becker (2007) ein Verfahren vorgelegt, das über das globale Sinnerleben hinausgeht. Neben Skalen zur Sinnerfüllung und zur Sinnkrise erfasst das Instrument eine größere Zahl von Lebensbedeutungen, also Quellen, aus denen Menschen Sinn beziehen können. Diese sind übergeordneten Dimensionen zugeordnet, die von vertikaler und horizontaler Selbsttranszendenz über Selbstverwirklichung und Ordnung bis zu Wir- und Wohlgefühl reichen. Die englischsprachige Fassung SoMe wurde von Schnell (2009) beschrieben.",
+            "Die besondere Leistung dieses Ansatzes liegt in der Trennung zwischen dem Ausmaß des Sinnerlebens und seinen Quellen. Dadurch werden Fragestellungen zugänglich, die mit globalen Maßen nicht untersucht werden können, etwa ob Sinnerleben eher von der Vielfalt oder von der Intensität einzelner Sinnquellen abhängt. Zudem erlaubt die getrennte Erfassung von Sinnerfüllung und Sinnkrise die Identifikation von Personen, die weder Sinn erleben noch an dessen Fehlen leiden (Schnell, 2020). Der größere Umfang des Instruments ist bei der Planung von Studien und diagnostischen Untersuchungen allerdings zu berücksichtigen."
+          ]
+        },
+        {
+          titel: "5 Die Existenzskala",
+          absaetze: [
+            "Aus der Tradition der Existenzanalyse stammt die Existenzskala (ESK) von Längle et al. (2000). Sie erfasst nicht primär das Erleben von Sinn, sondern personale Fähigkeiten, die nach existenzanalytischem Verständnis Voraussetzungen sinnvoller Lebensgestaltung sind: Selbstdistanzierung, Selbsttranszendenz, Freiheit und Verantwortung. Damit operationalisiert sie zentrale Konzepte der Frankl’schen Anthropologie und eignet sich insbesondere für Fragestellungen, die auf existenzielle Ressourcen und deren Veränderung im therapeutischen Prozess zielen."
+          ]
+        },
+        {
+          titel: "6 Konstruktvalidität als Leitfrage",
+          absaetze: [
+            "Bereits Cronbach und Meehl (1955) haben betont, dass Konstruktvalidität nicht durch einen einzelnen Koeffizienten belegt, sondern nur im Rahmen eines nomologischen Netzwerks plausibilisiert werden kann. Für die Messung von Lebenssinn bedeutet dies, dass Instrumente nicht nur mit Wohlbefinden und psychischer Gesundheit zusammenhängen, sondern sich zugleich von diesen Konstrukten unterscheiden sollten. Ein Instrument, das Sinnerleben weitgehend als Gegenteil depressiver Verstimmung erfasst, ist für die Prüfung der Hypothese, Sinn wirke als eigenständiger Schutzfaktor, kaum geeignet.",
+            "Auch die Abgrenzung zum eudaimonischen Wohlbefinden ist bedeutsam. Ryff (1989) hat Lebenszweck als eine von mehreren Dimensionen psychologischen Wohlbefindens konzipiert. Wer Sinnerleben und Wohlbefinden gleichzeitig erhebt, sollte daher prüfen, ob die verwendeten Instrumente inhaltlich überlappende Items enthalten. Andernfalls können Zusammenhänge teilweise auf Itemüberschneidung statt auf substanzielle Beziehungen zurückgehen."
+          ]
+        },
+        {
+          titel: "7 Empfehlungen für die Instrumentenwahl",
+          absaetze: [
+            "Aus dem Vergleich lassen sich einige Empfehlungen ableiten. Erstens sollte die Wahl eines Instruments von der Fragestellung ausgehen: Für ökonomische Erhebungen des globalen Sinnerlebens bietet sich der MLQ an, für die Untersuchung von Sinnquellen und Sinnkrisen der LeBe bzw. SoMe, für die Erfassung existenzieller Fähigkeiten die Existenzskala. Der PIL bleibt für die Vergleichbarkeit mit der älteren Forschung bedeutsam, sollte aber in Kenntnis seiner Überschneidungen mit verwandten Konstrukten interpretiert werden.",
+            "Zweitens erscheint in vielen Fällen die Kombination eines globalen mit einem quellen- oder facettenbezogenen Maß sinnvoll. Drittens ist bei der Einzelfalldiagnostik Zurückhaltung geboten: Fragebogenwerte zum Lebenssinn können ein klinisches Gespräch über Werte, Ziele und Lebensumstände ergänzen, aber nicht ersetzen. Schließlich ist bei der Verwendung übersetzter Instrumente auf geprüfte Sprachfassungen und die Angemessenheit der Normierung für die jeweilige Zielgruppe zu achten."
+          ]
+        }
+      ],
+      literatur: [
+        "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). Standards for educational and psychological testing. American Educational Research Association.",
+        "Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. Psychological Bulletin, 52(4), 281–302.",
+        "Crumbaugh, J. C., & Maholick, L. T. (1964). An experimental study in existentialism: The psychometric approach to Frankl's concept of noogenic neurosis. Journal of Clinical Psychology, 20(2), 200–207.",
+        "Dyck, M. J. (1987). Assessing logotherapeutic constructs: Conceptual and psychometric status of the Purpose in Life and Seeking of Noetic Goals tests. Clinical Psychology Review, 7(4), 439–447.",
+        "Längle, A., Orgler, C., & Kundi, M. (2000). Existenzskala (ESK). Beltz Test.",
+        "Martela, F., & Steger, M. F. (2016). The three meanings of meaning in life: Distinguishing coherence, purpose, and significance. The Journal of Positive Psychology, 11(5), 531–545.",
+        "Messick, S. (1995). Validity of psychological assessment: Validation of inferences from persons' responses and performances as scientific inquiry into score meaning. American Psychologist, 50(9), 741–749.",
+        "Ryff, C. D. (1989). Happiness is everything, or is it? Explorations on the meaning of psychological well-being. Journal of Personality and Social Psychology, 57(6), 1069–1081.",
+        "Schnell, T. (2009). The Sources of Meaning and Meaning in Life Questionnaire (SoMe): Relations to demographics and well-being. The Journal of Positive Psychology, 4(6), 483–499.",
+        "Schnell, T. (2020). Psychologie des Lebenssinns (2. Aufl.). Springer.",
+        "Schnell, T., & Becker, P. (2007). Fragebogen zu Lebensbedeutungen und Lebenssinn (LeBe). Hogrefe.",
+        "Schulenberg, S. E., Schnetzer, L. W., & Buchanan, E. M. (2011). The Purpose in Life Test-Short Form: Development and psychometric support. Journal of Happiness Studies, 12(5), 861–876.",
+        "Steger, M. F., Frazier, P., Oishi, S., & Kaler, M. (2006). The Meaning in Life Questionnaire: Assessing the presence of and search for meaning in life. Journal of Counseling Psychology, 53(1), 80–93."
+      ]
+    },
+    {
+      id: "zsp-2026-2-01",
+      ausgabe: "2026-2",
+      rubrik: "Editorial",
+      titel: "Werte, Begegnung und die Grenzen des Machbaren",
+      untertitel: "Zum Schwerpunkt des zweiten Heftes",
+      autoren: "Redaktion der ZSP",
+      seiten: "52–54",
+      abstract: "Das zweite Heft des ersten Jahrgangs der Zeitschrift für Sinnzentrierte Psychologie wendet sich von den forschungsmethodischen Grundfragen des ersten Heftes stärker der therapeutischen und beraterischen Praxis zu. Unter dem Schwerpunkt „Sinn, Werte und existenzielle Herausforderungen in der psychotherapeutischen Praxis“ versammelt es Beiträge, die zentrale Konzepte der Logotherapie mit gegenwärtigen Verfahren und Versorgungskontexten ins Gespräch bringen. Ein theoretischer Beitrag vergleicht das Wertekonzept der Akzeptanz- und Commitment-Therapie mit Viktor E. Frankls Wertkategorien. Eine Übersichtsarbeit beschreibt die Meaning-Centered Psychotherapy in der Palliativversorgung und ordnet ihre Evidenzbasis ein. Ein Beitrag aus Praxis und Lehre entwickelt Grundzüge logotherapeutisch orientierter Beratung bei Burnout und Sinnkrisen. Eine Rezension würdigt Frankls Bericht „… trotzdem Ja zum Leben sagen“ aus heutiger Perspektive. Das Editorial skizziert den gemeinsamen Bezugspunkt der Beiträge: die Frage, wie Psychotherapie mit dem umgehen kann, was sich nicht ändern lässt, und welche Rolle Werte und Sinn dabei spielen. Zugleich wird an die redaktionellen Grundsätze erinnert, insbesondere an die klare Kennzeichnung didaktischer Fallvignetten als konstruierte Lehrbeispiele.",
+      schluesselwoerter: ["Werte", "Logotherapie", "Psychotherapeutische Praxis", "Palliativversorgung", "Editorial"],
+      abstractEn: "The second issue of the first volume of the Zeitschrift für Sinnzentrierte Psychologie shifts its focus from the methodological questions of the first issue toward therapeutic and counseling practice. Under the theme “Meaning, values, and existential challenges in psychotherapeutic practice,” it brings together papers that relate central concepts of logotherapy to contemporary treatments and settings of care. A theoretical paper compares the concept of values in acceptance and commitment therapy with Viktor E. Frankl's categories of values. A review describes meaning-centered psychotherapy in palliative care and appraises its evidence base. A contribution on practice and teaching outlines principles of logotherapeutically informed counseling for burnout and crises of meaning. A book review reassesses Frankl's account “Man's Search for Meaning” from a contemporary perspective. The editorial sketches the common point of reference of these papers: the question of how psychotherapy can deal with what cannot be changed, and which role values and meaning play in this respect. It also recalls the journal's editorial principles, in particular the clear labeling of didactic case vignettes as constructed teaching examples.",
+      keywords: ["values", "logotherapy", "psychotherapeutic practice", "palliative care", "editorial"],
+      abschnitte: [
+        {
+          titel: "Vom Forschungsstand zur Praxis",
+          absaetze: [
+            "Das erste Heft dieser Zeitschrift war der Frage gewidmet, wie sich die Logotherapie im Kontext der gegenwärtigen Psychotherapieforschung verorten lässt. Das vorliegende zweite Heft wendet sich stärker der therapeutischen und beraterischen Praxis zu. Sein Schwerpunkt lautet „Sinn, Werte und existenzielle Herausforderungen in der psychotherapeutischen Praxis“. Der Perspektivwechsel bedeutet keine Abkehr vom Anspruch wissenschaftlicher Sorgfalt; er reagiert vielmehr auf die Beobachtung, dass gerade in der Praxis begriffliche Unschärfen besonders folgenreich sein können.",
+            "Ein verbindendes Motiv der Beiträge ist die Frage, wie Psychotherapie mit dem umgehen kann, was sich nicht ändern lässt. Frankl (1946) hat neben schöpferischen Werten und Erlebniswerten die Einstellungswerte beschrieben, die sich in der Haltung eines Menschen gegenüber unabänderlichem Leid verwirklichen. Yalom (1980) hat Tod, Freiheit, Isolation und Sinnlosigkeit als existenzielle Grundgegebenheiten benannt, mit denen sich jede Psychotherapie früher oder später auseinandersetzen muss."
+          ]
+        },
+        {
+          titel: "Die Beiträge dieses Heftes",
+          absaetze: [
+            "Der Arbeitsbereich Kognitive Verhaltenstherapie und kontextuelle Verfahren vergleicht das Wertekonzept der Akzeptanz- und Commitment-Therapie (Hayes et al., 2012) mit Frankls Wertkategorien und fragt, wo es sich um echte Konvergenzen und wo um bloße Familienähnlichkeiten handelt. Der Arbeitsbereich Psychoonkologie und Palliativpsychologie legt eine Übersichtsarbeit zur Meaning-Centered Psychotherapy vor, die zu den am sorgfältigsten untersuchten sinnzentrierten Interventionen gehört (Breitbart et al., 2015).",
+            "Der Beitrag aus Praxis und Lehre des Arbeitsbereichs Beratungspsychologie entwickelt Grundzüge logotherapeutisch orientierter Beratung bei Burnout und Sinnkrisen. Er arbeitet mit einer ausdrücklich als konstruiert gekennzeichneten Lehrvignette und grenzt Beratung sorgfältig von der Behandlung psychischer Störungen ab. Den Abschluss bildet eine Rezension von Frankls Bericht „… trotzdem Ja zum Leben sagen“, die nach der bleibenden Bedeutung, aber auch nach den Grenzen dieses vielgelesenen Buches fragt."
+          ]
+        },
+        {
+          titel: "Ausblick",
+          absaetze: [
+            "Mit diesem Heft schließt der erste Jahrgang der Zeitschrift. Die Redaktion dankt den beteiligten Arbeitsbereichen für ihre Beiträge und für die Bereitschaft, sich auf die Integritätsgrundsätze der Zeitschrift einzulassen: zurückhaltende Wiedergabe empirischer Befunde, transparente Kennzeichnung theoretischer Setzungen und konstruierter Fallbeispiele sowie konsequente Orientierung an überprüfbaren Quellen. Wir freuen uns auf die Fortsetzung der Diskussion im kommenden Jahrgang."
+          ]
+        }
+      ],
+      literatur: [
+        "Breitbart, W., Rosenfeld, B., Pessin, H., Applebaum, A., Kulikowski, J., & Lichtenthal, W. G. (2015). Meaning-centered group psychotherapy: An effective intervention for improving psychological well-being in patients with advanced cancer. Journal of Clinical Oncology, 33(7), 749–754.",
+        "Frankl, V. E. (1946). Ärztliche Seelsorge. Deuticke.",
+        "Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (2012). Acceptance and commitment therapy: The process and practice of mindful change (2nd ed.). Guilford Press.",
+        "Yalom, I. D. (1980). Existential psychotherapy. Basic Books."
+      ]
+    },
+    {
+      id: "zsp-2026-2-02",
+      ausgabe: "2026-2",
+      rubrik: "Theoretischer Beitrag",
+      titel: "Werte in der Akzeptanz- und Commitment-Therapie und Frankls Wertkategorien",
+      untertitel: "Konvergenzen und Differenzen zweier Wertkonzeptionen",
+      autoren: "Arbeitsbereich Kognitive Verhaltenstherapie und kontextuelle Verfahren",
+      seiten: "55–66",
+      abstract: "Werte nehmen sowohl in der Akzeptanz- und Commitment-Therapie (ACT) als auch in der Logotherapie eine zentrale Stellung ein. In der ACT gelten Werte als frei gewählte, verbal konstruierte Qualitäten fortlaufenden Handelns, die engagiertes Verhalten ausrichten und der psychologischen Flexibilität eine Richtung geben. Viktor E. Frankl unterschied dagegen schöpferische Werte, Erlebniswerte und Einstellungswerte, die nach seinem Verständnis nicht erfunden, sondern in der jeweiligen Situation gefunden werden. Der vorliegende theoretische Beitrag vergleicht beide Konzeptionen systematisch. Herausgearbeitet werden Konvergenzen, etwa die Unterscheidung zwischen Werten und Zielen, die Betonung von Handlung und Engagement, die Bedeutung von Werten im Umgang mit unvermeidlichem Leid sowie die Funktion von Werten als Gegengewicht zu einer ausschließlich symptomorientierten Therapie. Zugleich werden grundlegende Differenzen beleuchtet, die sich aus unterschiedlichen philosophischen Hintergründen ergeben: dem funktionalen Kontextualismus der ACT einerseits und der phänomenologisch-personalistischen Anthropologie Frankls andererseits. Besondere Aufmerksamkeit gilt der Frage, ob Werte gewählt oder entdeckt werden, sowie dem Status der Einstellungswerte. Der Beitrag schließt mit Überlegungen dazu, wie beide Traditionen voneinander lernen können, ohne ihre jeweiligen Prämissen zu verwischen.",
+      schluesselwoerter: ["Akzeptanz- und Commitment-Therapie", "Werte", "Logotherapie", "Einstellungswerte", "Psychologische Flexibilität"],
+      abstractEn: "Values occupy a central position in both acceptance and commitment therapy (ACT) and logotherapy. In ACT, values are understood as freely chosen, verbally constructed qualities of ongoing action that guide committed behavior and give direction to psychological flexibility. Viktor E. Frankl, in contrast, distinguished creative, experiential, and attitudinal values, which, in his view, are not invented but discovered in the respective situation. This theoretical paper systematically compares the two conceptions. It identifies convergences, such as the distinction between values and goals, the emphasis on action and engagement, the significance of values in dealing with unavoidable suffering, and the function of values as a counterweight to an exclusively symptom-oriented therapy. At the same time, it highlights fundamental differences that arise from distinct philosophical backgrounds: the functional contextualism of ACT on the one hand and Frankl's phenomenological and personalist anthropology on the other. Particular attention is paid to the question of whether values are chosen or discovered and to the status of attitudinal values. The paper concludes with reflections on how both traditions can learn from each other without blurring their respective premises.",
+      keywords: ["acceptance and commitment therapy", "values", "logotherapy", "attitudinal values", "psychological flexibility"],
+      abschnitte: [
+        {
+          titel: "1 Einleitung",
+          absaetze: [
+            "In der Psychotherapie der vergangenen Jahrzehnte hat der Begriff der Werte eine bemerkenswerte Renaissance erfahren. Maßgeblich dazu beigetragen hat die Akzeptanz- und Commitment-Therapie (ACT), die Werte als einen ihrer sechs Kernprozesse ausweist (Hayes et al., 1999, 2012). Für Leserinnen und Leser, die mit der Logotherapie vertraut sind, ist diese Entwicklung von besonderem Interesse, denn Frankl hatte bereits Jahrzehnte zuvor eine Wertlehre entwickelt, die im Zentrum seines psychotherapeutischen Ansatzes steht (Frankl, 1946).",
+            "Die naheliegende Vermutung, es handle sich um zwei Varianten derselben Grundidee, greift jedoch zu kurz. Beide Traditionen sind in unterschiedlichen wissenschaftstheoretischen und anthropologischen Kontexten entstanden, und dieselben Begriffe tragen in ihnen teils verschiedene Bedeutungen. Der vorliegende Beitrag vergleicht beide Konzeptionen, um Gemeinsamkeiten präzise zu benennen und Unterschiede nicht vorschnell einzuebnen."
+          ]
+        },
+        {
+          titel: "2 Werte in der Akzeptanz- und Commitment-Therapie",
+          absaetze: [
+            "Die ACT versteht sich als Anwendung des funktionalen Kontextualismus und der Bezugsrahmentheorie, eines verhaltensanalytischen Ansatzes zur Erklärung menschlicher Sprache und Kognition (Hayes et al., 2001). Psychisches Leiden entsteht nach diesem Verständnis wesentlich durch psychologische Inflexibilität, also durch die Dominanz starrer verbaler Regeln, erlebnisvermeidender Strategien und eine Verengung des Verhaltensrepertoires (Hayes et al., 2006). Psychologische Flexibilität gilt umgekehrt als grundlegender Aspekt psychischer Gesundheit (Kashdan & Rottenberg, 2010).",
+            "Werte werden in der ACT als frei gewählte, verbal konstruierte Konsequenzen fortlaufender, sich entwickelnder Handlungsmuster beschrieben, die als Verstärker wirken und dem Handeln Richtung verleihen (Hayes et al., 2012). Wesentlich ist die Unterscheidung von Werten und Zielen: Ziele können erreicht und abgeschlossen werden, Werte dagegen gleichen einer Himmelsrichtung, an der man sich orientiert, ohne je anzukommen. Werte sollen zudem nicht aus Pflicht, sozialem Druck oder dem Wunsch nach Schmerzvermeidung abgeleitet, sondern als persönlich bedeutsam erlebt werden. Für die Erfassung wertorientierten Handelns wurden eigene Instrumente entwickelt, etwa der Valued Living Questionnaire (Wilson et al., 2010)."
+          ]
+        },
+        {
+          titel: "3 Frankls Wertkategorien",
+          absaetze: [
+            "Frankl unterschied drei Hauptwege, auf denen Menschen Sinn verwirklichen können (Frankl, 1946, 1955). Schöpferische Werte verwirklichen sich in dem, was ein Mensch der Welt gibt, etwa durch Arbeit oder Gestaltung. Erlebniswerte verwirklichen sich in dem, was ein Mensch von der Welt empfängt, etwa in der Begegnung mit Natur, Kunst oder einem anderen Menschen. Einstellungswerte schließlich verwirklichen sich in der Haltung, die ein Mensch gegenüber einem unabänderlichen Schicksal, insbesondere gegenüber unvermeidbarem Leid, einnimmt.",
+            "Für Frankl werden Sinn und Werte nicht erfunden, sondern gefunden. Sinn ist nach seinem Verständnis jeweils situationsbezogen und richtet sich als Anruf an die einzelne Person, die darauf in Verantwortung antwortet (Frankl, 1969). Das Gewissen fungiert dabei als „Sinn-Organ“, das den einmaligen Sinn einer Situation erspüren kann. Diese Konzeption ist eingebettet in eine Anthropologie, die eine geistige Dimension des Menschen annimmt und Selbsttranszendenz – die Ausrichtung auf etwas oder jemanden jenseits der eigenen Person – als Kennzeichen menschlicher Existenz betrachtet."
+          ]
+        },
+        {
+          titel: "4 Konvergenzen",
+          absaetze: [
+            "Trotz unterschiedlicher Herkunft lassen sich mehrere Konvergenzen benennen. Erstens betonen beide Ansätze die Unterscheidung zwischen einer übergreifenden Richtung und konkreten Zielen. Frankls Rede vom Sinn als Aufgabe, die sich in jeder Situation neu stellt, und die ACT-Metapher der Himmelsrichtung verweisen gleichermaßen darauf, dass Werte nicht abgehakt werden können. Zweitens legen beide Traditionen den Schwerpunkt auf Handeln und Engagement statt auf bloße Einsicht. Drittens sehen beide in Werten ein Gegengewicht zu einer Therapie, die sich ausschließlich an der Reduktion von Symptomen orientiert.",
+            "Am auffälligsten ist die Nähe im Umgang mit unvermeidlichem Leid. Die ACT lädt dazu ein, schmerzhafte innere Erfahrungen nicht zu bekämpfen, sondern sie im Dienst wertgeleiteten Handelns anzunehmen. Frankls Einstellungswerte zielen auf eine verwandte Haltung: Wo eine Situation nicht geändert werden kann, bleibt die Freiheit, zu ihr Stellung zu nehmen. In beiden Fällen wird die Bewältigung von Leid nicht als dessen Beseitigung, sondern als Veränderung der Beziehung zu ihm verstanden."
+          ]
+        },
+        {
+          titel: "5 Differenzen",
+          absaetze: [
+            "Die grundlegendste Differenz betrifft den Status von Werten. In der ACT sind Werte gewählt; ihre Bedeutung ergibt sich aus ihrer Funktion für das Handeln einer Person, und der funktionale Kontextualismus verzichtet bewusst auf ontologische Aussagen darüber, ob es Werte unabhängig vom Menschen gibt (Hayes, 2004). Für Frankl dagegen sind Werte und Sinn nicht beliebig wählbar, sondern haben einen Aufforderungscharakter, der dem Menschen von außen entgegentritt. Diese Differenz ist nicht bloß terminologisch: Sie hat Folgen für die Frage, ob eine Therapeutin oder ein Therapeut Werte eines Klienten in Frage stellen darf, und für die Bedeutung von Verantwortung und Gewissen.",
+            "Eine zweite Differenz betrifft die Einstellungswerte. In der ACT ist Akzeptanz ein Prozess, der wertgeleitetes Handeln ermöglicht, aber selbst kein Wert. Bei Frankl hingegen kann die Haltung gegenüber dem Leid selbst sinnvoll sein – auch dann, wenn keine weiteren Handlungsmöglichkeiten bestehen. Diese Position erhält besonderes Gewicht in Situationen, in denen der Handlungsspielraum stark eingeschränkt ist, etwa bei schwerer Krankheit am Lebensende.",
+            "Eine dritte Differenz betrifft die Rolle der Selbsttranszendenz. Die ACT kennt mit dem Selbst-als-Kontext eine Perspektive, die über die Identifikation mit Selbstkonzepten hinausführt. Frankls Selbsttranszendenz meint jedoch etwas anderes: die Hinwendung zu einem Sinn oder einem anderen Menschen jenseits des eigenen Erlebens. Auch die Existenzanalyse hat die personale Stellungnahme als eigenständige Dimension betont (Längle, 2013)."
+          ]
+        },
+        {
+          titel: "6 Schlussfolgerungen",
+          absaetze: [
+            "Der Vergleich zeigt, dass ACT und Logotherapie in ihrer praktischen Ausrichtung erstaunlich nahe beieinanderliegen, in ihren philosophischen Begründungen jedoch deutlich divergieren. Für die Praxis kann dies bereichernd sein: Die ACT bietet eine Vielzahl erprobter Übungen zur Klärung von Werten und zur Förderung psychologischer Flexibilität; die Logotherapie bietet eine differenzierte Sprache für den Umgang mit unabänderlichem Leid und für die Frage, worauf sich ein Mensch jenseits seiner selbst ausrichtet. Für die Forschung ergibt sich die Aufgabe, die Unterschiede in den Wertkonzeptionen so zu operationalisieren, dass ihre jeweiligen Beiträge zur Veränderung empirisch unterscheidbar werden. Eine eklektische Vermischung ohne Reflexion der Prämissen wäre dagegen weder der einen noch der anderen Tradition dienlich."
+          ]
+        }
+      ],
+      literatur: [
+        "Frankl, V. E. (1946). Ärztliche Seelsorge. Deuticke.",
+        "Frankl, V. E. (1955). The doctor and the soul: An introduction to logotherapy. Knopf.",
+        "Frankl, V. E. (1969). The will to meaning: Foundations and applications of logotherapy. New American Library.",
+        "Hayes, S. C. (2004). Acceptance and commitment therapy, relational frame theory, and the third wave of behavioral and cognitive therapies. Behavior Therapy, 35(4), 639–665.",
+        "Hayes, S. C., Barnes-Holmes, D., & Roche, B. (Eds.). (2001). Relational frame theory: A post-Skinnerian account of human language and cognition. Kluwer Academic/Plenum Publishers.",
+        "Hayes, S. C., Luoma, J. B., Bond, F. W., Masuda, A., & Lillis, J. (2006). Acceptance and commitment therapy: Model, processes and outcomes. Behaviour Research and Therapy, 44(1), 1–25.",
+        "Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (1999). Acceptance and commitment therapy: An experiential approach to behavior change. Guilford Press.",
+        "Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (2012). Acceptance and commitment therapy: The process and practice of mindful change (2nd ed.). Guilford Press.",
+        "Kashdan, T. B., & Rottenberg, J. (2010). Psychological flexibility as a fundamental aspect of health. Clinical Psychology Review, 30(7), 865–878.",
+        "Längle, A. (2013). Lehrbuch zur Existenzanalyse: Grundlagen. facultas.wuv.",
+        "Wilson, K. G., Sandoz, E. K., Kitchens, J., & Roberts, M. (2010). The Valued Living Questionnaire: Defining and measuring valued action within a behavioral framework. The Psychological Record, 60(2), 249–272."
+      ]
+    },
+    {
+      id: "zsp-2026-2-03",
+      ausgabe: "2026-2",
+      rubrik: "Übersichtsarbeit",
+      titel: "Meaning-Centered Psychotherapy in der Palliativversorgung",
+      untertitel: "Konzeption, Evidenzlage und Fragen der Übertragbarkeit",
+      autoren: "Arbeitsbereich Psychoonkologie und Palliativpsychologie",
+      seiten: "67–78",
+      abstract: "Menschen mit fortgeschrittenen, nicht heilbaren Erkrankungen sind neben körperlichen Beschwerden häufig mit existenziellen Belastungen konfrontiert, etwa mit Hoffnungslosigkeit, dem Erleben von Sinnverlust oder dem Wunsch nach einem beschleunigten Tod. Die von William Breitbart und Kolleginnen und Kollegen entwickelte Meaning-Centered Psychotherapy (MCP) ist eine manualisierte Intervention, die explizit an Viktor E. Frankls Logotherapie anknüpft und Patientinnen und Patienten darin unterstützen soll, auch angesichts begrenzter Lebenszeit Sinn zu erleben. Der vorliegende narrative Review beschreibt zunächst die theoretischen Grundlagen und den Aufbau der Intervention in ihrer Gruppen- und Einzelform. Anschließend wird die Evidenzlage aus randomisiert-kontrollierten Studien zusammengefasst, die insgesamt auf günstige Effekte hinsichtlich spirituellen Wohlbefindens, erlebten Sinns und Lebensqualität hindeuten. Diskutiert werden zudem Grenzen der bisherigen Forschung, insbesondere die Konzentration auf bestimmte Populationen und Versorgungssysteme, der Umgang mit Studienabbrüchen in einer schwer erkrankten Zielgruppe sowie Fragen der kulturellen Übertragbarkeit. Schließlich wird MCP mit anderen existenziell orientierten Interventionen der Palliativversorgung wie der Dignity Therapy verglichen. Der Beitrag schließt mit Überlegungen zur Implementierung im deutschsprachigen Raum und zu Qualifikationsanforderungen an Behandelnde.",
+      schluesselwoerter: ["Meaning-Centered Psychotherapy", "Palliativversorgung", "Psychoonkologie", "Existenzielle Belastung", "Logotherapie"],
+      abstractEn: "In addition to physical symptoms, people with advanced, incurable illnesses frequently face existential distress, such as hopelessness, loss of meaning, or a desire for hastened death. Meaning-centered psychotherapy (MCP), developed by William Breitbart and colleagues, is a manualized intervention that explicitly builds on Viktor E. Frankl's logotherapy and aims to help patients experience meaning even in the face of limited life expectancy. This narrative review first describes the theoretical foundations and the structure of the intervention in its group and individual formats. It then summarizes the evidence from randomized controlled trials, which overall points to favorable effects on spiritual well-being, sense of meaning, and quality of life. Limitations of the existing research are discussed, in particular the concentration on specific populations and health care systems, the handling of attrition in a severely ill population, and questions of cultural transferability. Finally, MCP is compared with other existentially oriented interventions in palliative care, such as dignity therapy. The paper concludes with considerations regarding implementation in German-speaking countries and the qualifications required of clinicians.",
+      keywords: ["meaning-centered psychotherapy", "palliative care", "psycho-oncology", "existential distress", "logotherapy"],
+      abschnitte: [
+        {
+          titel: "1 Einleitung",
+          absaetze: [
+            "Die moderne Palliativversorgung versteht sich als umfassende Begleitung schwer kranker Menschen, die körperliche, psychische, soziale und spirituelle Dimensionen des Leidens gleichermaßen berücksichtigt. Gerade die existenziellen Belastungen am Lebensende – das Erleben von Sinnlosigkeit, Hoffnungslosigkeit oder der Wunsch nach einem beschleunigten Tod – stellen Behandelnde vor besondere Herausforderungen, weil sie sich nicht durch symptomorientierte Maßnahmen allein beantworten lassen. Yalom (1980) hat die Auseinandersetzung mit der eigenen Endlichkeit als eine zentrale existenzielle Grundgegebenheit beschrieben, die in der Konfrontation mit einer lebensbegrenzenden Erkrankung unausweichlich wird.",
+            "Vor diesem Hintergrund wurde am Memorial Sloan Kettering Cancer Center in New York die Meaning-Centered Psychotherapy (MCP) entwickelt. Sie gehört zu den wenigen sinnzentrierten Interventionen, die in mehreren randomisiert-kontrollierten Studien untersucht wurden, und stellt damit einen wichtigen Bezugspunkt für die Diskussion über die Evidenzbasis logotherapeutisch inspirierter Verfahren dar. Der vorliegende Beitrag gibt einen narrativen Überblick über Konzeption und Forschungsstand und fragt nach der Übertragbarkeit auf andere Versorgungskontexte."
+          ]
+        },
+        {
+          titel: "2 Theoretische Grundlagen",
+          absaetze: [
+            "MCP knüpft ausdrücklich an das Werk Viktor E. Frankls an. Zentrale Annahmen sind, dass das Streben nach Sinn eine grundlegende menschliche Motivation darstellt, dass Sinn auch unter Bedingungen schweren Leidens und begrenzter Lebenszeit erlebt werden kann und dass Menschen die Freiheit behalten, ihre Haltung gegenüber unabänderlichen Umständen zu wählen (Frankl, 1946/2006). Breitbart und Poppito (2014) übertragen Frankls Wertkategorien in konkrete Sinnquellen, die im Verlauf der Intervention systematisch erschlossen werden: historische Sinnquellen im Sinne des eigenen Lebensvermächtnisses, einstellungsbezogene Sinnquellen im Umgang mit den Grenzen des Lebens, schöpferische Sinnquellen im Sinne von Verantwortung und Engagement sowie erlebnisbezogene Sinnquellen in Liebe, Schönheit und Humor.",
+            "Ergänzend lässt sich MCP im Rahmen des Meaning-Making-Modells von Park (2010) verstehen. Eine lebensbegrenzende Diagnose kann eine tiefe Diskrepanz zwischen globalen Lebenszielen und der aktuellen Situation erzeugen. MCP kann als strukturierte Unterstützung von Prozessen der Bedeutungsbildung verstanden werden, die diese Diskrepanz nicht leugnen, sondern in einen umfassenderen Sinnzusammenhang einbetten."
+          ]
+        },
+        {
+          titel: "3 Aufbau der Intervention",
+          absaetze: [
+            "Die Gruppenform, Meaning-Centered Group Psychotherapy (MCGP), umfasst acht wöchentliche Sitzungen, die jeweils einem thematischen Schwerpunkt gewidmet sind (Breitbart & Poppito, 2014). Die Sitzungen verbinden didaktische Elemente, in denen Konzepte der Logotherapie vermittelt werden, mit erfahrungsbezogenen Übungen und Gruppendiskussion. Am Beginn steht die Auseinandersetzung mit dem Begriff des Sinns und mit der Frage, wie die Erkrankung das Sinnerleben verändert hat. Es folgen Sitzungen zu den verschiedenen Sinnquellen, wobei insbesondere die Arbeit am eigenen Vermächtnis eine wichtige Rolle spielt. Den Abschluss bilden die Reflexion des gemeinsamen Prozesses und der Blick auf Hoffnungen für die verbleibende Zeit.",
+            "Für Patientinnen und Patienten, denen die Teilnahme an einer Gruppe nicht möglich ist, wurde eine Einzelform, die Individual Meaning-Centered Psychotherapy, entwickelt, die eine kürzere Sitzungsfolge vorsieht und flexibler an den Krankheitsverlauf angepasst werden kann (Breitbart et al., 2012). Die Manualisierung erleichtert die Schulung von Behandelnden und die Durchführung kontrollierter Studien, verlangt aber zugleich ein hohes Maß an klinischer Urteilskraft, um die Struktur an die individuellen Bedürfnisse schwer erkrankter Menschen anzupassen."
+          ]
+        },
+        {
+          titel: "4 Evidenzlage",
+          absaetze: [
+            "Die erste randomisierte Pilotstudie verglich MCGP mit einer unterstützenden Gruppenpsychotherapie bei Patientinnen und Patienten mit fortgeschrittener Krebserkrankung (Breitbart et al., 2010). Die Ergebnisse wiesen auf Vorteile der sinnzentrierten Bedingung hinsichtlich spirituellen Wohlbefindens und erlebten Sinns hin; zudem ergaben sich Hinweise auf eine Abnahme von Hoffnungslosigkeit und Todeswünschen. Eine Pilotstudie zur Einzelform zeigte ebenfalls günstige Ergebnisse im Vergleich zu einer Kontrollbedingung (Breitbart et al., 2012).",
+            "Eine größere randomisierte Studie mit einer aktiven, unterstützenden Gruppenpsychotherapie als Vergleichsbedingung bestätigte im Wesentlichen diese Befundrichtung (Breitbart et al., 2015). Die sinnzentrierte Gruppe zeigte Vorteile hinsichtlich spirituellen Wohlbefindens und Lebensqualität sowie Hinweise auf eine Verringerung von Depressivität, Hoffnungslosigkeit und dem Wunsch nach einem beschleunigten Tod. Bemerkenswert ist, dass sich die Unterschiede gegenüber einer aktiven Kontrollbedingung zeigten, die selbst unspezifische Wirkfaktoren wie Gruppenkohäsion und emotionale Unterstützung enthielt. In die Meta-Analyse existenzieller Therapien von Vos et al. (2015) gingen sinnzentrierte Interventionen dieser Art ebenfalls ein und trugen zu dem insgesamt günstigen Bild strukturierter Sinninterventionen bei.",
+            "Zugleich sind die Grenzen dieser Befunde zu beachten. Die Studien wurden überwiegend an einem spezialisierten onkologischen Zentrum in den Vereinigten Staaten durchgeführt. In einer schwer erkrankten Population sind Studienabbrüche aufgrund von Krankheitsprogression oder Tod unvermeidbar, was die Interpretation von Verlaufsdaten erschwert. Schließlich ist offen, inwieweit sich die Ergebnisse auf andere Diagnosegruppen, Versorgungssysteme und kulturelle Kontexte übertragen lassen."
+          ]
+        },
+        {
+          titel: "5 Abgrenzung zu verwandten Interventionen",
+          absaetze: [
+            "Unter den existenziell orientierten Interventionen der Palliativversorgung ist neben MCP insbesondere die Dignity Therapy bekannt geworden (Chochinov et al., 2005). Sie zielt auf die Stärkung des Würdeerlebens am Lebensende und arbeitet mit einem strukturierten Interview, aus dem ein schriftliches Dokument entsteht, das an Angehörige weitergegeben werden kann. Beide Ansätze teilen die Betonung von Vermächtnis und Lebensrückblick. MCP ist jedoch stärker psychoedukativ angelegt, umfasst mehrere Sitzungen und verfolgt das Ziel, das Sinnerleben auch im Hinblick auf die verbleibende Lebenszeit zu stärken, während die Dignity Therapy eher kompakt und auf die Erstellung eines Würdedokuments ausgerichtet ist."
+          ]
+        },
+        {
+          titel: "6 Implikationen für die Versorgung im deutschsprachigen Raum",
+          absaetze: [
+            "Für die Implementierung im deutschsprachigen Raum ergeben sich mehrere Fragen. Erstens ist eine sorgfältige sprachliche und kulturelle Adaptation erforderlich, die religiöse und weltanschauliche Vielfalt berücksichtigt und nicht implizit eine bestimmte Sinnkonzeption voraussetzt. Zweitens stellt die Durchführung hohe Anforderungen an die Behandelnden: Neben psychotherapeutischer Kompetenz sind Vertrautheit mit existenziellen Fragestellungen, Erfahrung in der Begleitung Sterbender und die Fähigkeit zur Selbstreflexion im Umgang mit der eigenen Endlichkeit unerlässlich. Drittens sollte die Einführung von einer Evaluation begleitet werden, die nicht nur Symptomveränderungen, sondern auch Sinnerleben, spirituelles Wohlbefinden und die Akzeptanz der Intervention durch Patientinnen, Patienten und Angehörige erfasst.",
+            "Insgesamt kann MCP als Beispiel dafür gelten, wie logotherapeutische Grundgedanken in eine präzise beschriebene, überprüfbare Intervention übersetzt werden können. Die vorliegenden Befunde sind ermutigend, rechtfertigen jedoch keine Generalisierung über die untersuchten Kontexte hinaus. Weitere unabhängige Replikationen in unterschiedlichen Versorgungssystemen sind wünschenswert."
+          ]
+        }
+      ],
+      literatur: [
+        "Breitbart, W., Poppito, S., Rosenfeld, B., Vickers, A. J., Li, Y., Abbey, J., Olden, M., Pessin, H., Lichtenthal, W., Sjoberg, D., & Cassileth, B. R. (2012). Pilot randomized controlled trial of individual meaning-centered psychotherapy for patients with advanced cancer. Journal of Clinical Oncology, 30(12), 1304–1309.",
+        "Breitbart, W., & Poppito, S. R. (2014). Meaning-centered group psychotherapy for patients with advanced cancer: A treatment manual. Oxford University Press.",
+        "Breitbart, W., Rosenfeld, B., Gibson, C., Pessin, H., Poppito, S., Nelson, C., Tomarken, A., Timm, A. K., Berg, A., Jacobson, C., Sorger, B., Abbey, J., & Olden, M. (2010). Meaning-centered group psychotherapy for patients with advanced cancer: A pilot randomized controlled trial. Psycho-Oncology, 19(1), 21–28.",
+        "Breitbart, W., Rosenfeld, B., Pessin, H., Applebaum, A., Kulikowski, J., & Lichtenthal, W. G. (2015). Meaning-centered group psychotherapy: An effective intervention for improving psychological well-being in patients with advanced cancer. Journal of Clinical Oncology, 33(7), 749–754.",
+        "Chochinov, H. M., Hack, T., Hassard, T., Kristjanson, L. J., McClement, S., & Harlos, M. (2005). Dignity therapy: A novel psychotherapeutic intervention for patients near the end of life. Journal of Clinical Oncology, 23(24), 5520–5525.",
+        "Frankl, V. E. (2006). Man's search for meaning. Beacon Press. (Original work published 1946)",
+        "Park, C. L. (2010). Making sense of the meaning literature: An integrative review of meaning making and its effects on adjustment to stressful life events. Psychological Bulletin, 136(2), 257–301.",
+        "Vos, J., Craig, M., & Cooper, M. (2015). Existential therapies: A meta-analysis of their effects on psychological outcomes. Journal of Consulting and Clinical Psychology, 83(1), 115–128.",
+        "Yalom, I. D. (1980). Existential psychotherapy. Basic Books."
+      ]
+    },
+    {
+      id: "zsp-2026-2-04",
+      ausgabe: "2026-2",
+      rubrik: "Praxis und Lehre",
+      titel: "Logotherapeutisch orientierte Beratung bei Burnout und Sinnkrisen",
+      untertitel: "Grundzüge, Vorgehen und Grenzen – mit einer konstruierten Lehrvignette",
+      autoren: "Arbeitsbereich Beratungspsychologie",
+      seiten: "79–90",
+      abstract: "Burnout wird in der Fachliteratur als Syndrom aus emotionaler Erschöpfung, Depersonalisation bzw. Zynismus und reduziertem Leistungserleben beschrieben und in der ICD-11 als berufsbezogenes Phänomen, nicht als medizinische Erkrankung, klassifiziert. Neben arbeitsorganisatorischen Bedingungen wurde früh auf eine existenzielle Dimension hingewiesen: Burnout kann als Folge enttäuschter Sinnerwartungen an die eigene Arbeit verstanden werden. Der vorliegende Beitrag aus Praxis und Lehre entwickelt Grundzüge einer logotherapeutisch orientierten Beratung bei Burnout und Sinnkrisen. Nach einer begrifflichen Einordnung werden zentrale logotherapeutische Konzepte für die Beratung erschlossen, darunter das existenzielle Vakuum, die Unterscheidung zwischen Sinn und Erfolg, die drei Wertkategorien sowie die Dereflexion. Das methodische Vorgehen wird in vier Phasen dargestellt: Klärung und Abgrenzung, Entlastung und Stabilisierung, Sinn- und Werteexploration im sokratischen Dialog sowie Umsetzung und Transfer. Zur Veranschaulichung dient eine ausdrücklich konstruierte Lehrvignette, die keinen realen Beratungsfall wiedergibt. Besondere Aufmerksamkeit gilt der Abgrenzung von Beratung und Psychotherapie, insbesondere der Notwendigkeit, depressive Störungen und andere behandlungsbedürftige Zustände zu erkennen und gegebenenfalls weiterzuverweisen, sowie der Gefahr, strukturelle Belastungen zu individualisieren.",
+      schluesselwoerter: ["Burnout", "Sinnkrise", "Logotherapeutische Beratung", "Sokratischer Dialog", "Beratungspsychologie"],
+      abstractEn: "In the literature, burnout is described as a syndrome of emotional exhaustion, depersonalization or cynicism, and reduced personal accomplishment, and it is classified in ICD-11 as an occupational phenomenon rather than a medical condition. Beyond organizational working conditions, an existential dimension was pointed out early on: burnout can be understood as a consequence of disappointed expectations of meaning in one's work. This contribution on practice and teaching outlines principles of logotherapeutically informed counseling for burnout and crises of meaning. Following a conceptual clarification, central logotherapeutic concepts are made accessible for counseling, including the existential vacuum, the distinction between meaning and success, the three categories of values, and dereflection. The methodological approach is presented in four phases: clarification and differential assessment, relief and stabilization, exploration of meaning and values in Socratic dialogue, and implementation and transfer. An explicitly constructed teaching vignette, which does not represent any real counseling case, serves as an illustration. Particular attention is paid to the boundary between counseling and psychotherapy, especially the need to recognize depressive disorders and other conditions requiring treatment and to refer clients where appropriate, as well as to the risk of individualizing structural stressors.",
+      keywords: ["burnout", "crisis of meaning", "logotherapeutic counseling", "Socratic dialogue", "counseling psychology"],
+      abschnitte: [
+        {
+          titel: "1 Einleitung und begriffliche Einordnung",
+          absaetze: [
+            "Der Begriff Burnout hat seit den 1970er-Jahren eine erhebliche Verbreitung in Fachdiskussion und Öffentlichkeit erfahren. Maslach und Jackson (1981) haben mit dem Maslach Burnout Inventory ein Messinstrument vorgelegt, das Burnout über die Dimensionen emotionale Erschöpfung, Depersonalisation und reduziertes Leistungserleben erfasst. In einer späteren Übersicht betonten Maslach et al. (2001) die Bedeutung des Passungsverhältnisses zwischen Person und Arbeitsumgebung, etwa hinsichtlich Arbeitsbelastung, Kontrolle, Anerkennung, Gemeinschaft, Fairness und Werten. Die Weltgesundheitsorganisation führt Burnout in der ICD-11 als berufsbezogenes Phänomen im Kapitel der Faktoren, die den Gesundheitszustand beeinflussen, und ausdrücklich nicht als medizinische Erkrankung (World Health Organization, 2019).",
+            "Die Abgrenzung von Burnout gegenüber depressiven Störungen ist in der Forschung umstritten und für die Praxis von großer Bedeutung (Schaufeli & Enzmann, 1998). Der vorliegende Beitrag versteht Beratung daher ausdrücklich nicht als Behandlung psychischer Störungen. Er richtet sich an Fachpersonen in Beratungskontexten und beschreibt, wie logotherapeutische Konzepte bei berufsbezogener Erschöpfung und Sinnkrisen genutzt werden können – im Bewusstsein der Grenzen dieses Rahmens."
+          ]
+        },
+        {
+          titel: "2 Die existenzielle Dimension des Burnouts",
+          absaetze: [
+            "Pines (1993) hat Burnout aus einer existenziellen Perspektive gedeutet: Menschen, die in ihrer Arbeit eine wesentliche Quelle von Sinn suchen, seien besonders gefährdet, wenn sie erleben, dass ihr Einsatz nicht die erhoffte Bedeutung entfaltet. Burnout erscheint in dieser Sicht weniger als Folge bloßer Überlastung denn als Folge enttäuschter Sinnerwartungen. Diese Deutung ist mit Frankls Konzept des existenziellen Vakuums verwandt, das ein Gefühl innerer Leere und Sinnlosigkeit beschreibt (Frankl, 1969).",
+            "Logotherapeutisch bedeutsam ist zudem Frankls Unterscheidung zwischen Sinn und Erfolg. Wer den Wert der eigenen Arbeit ausschließlich an messbaren Ergebnissen, Anerkennung oder Effizienz misst, macht sein Sinnerleben von Bedingungen abhängig, die häufig außerhalb der eigenen Kontrolle liegen. Die Existenzanalyse hat dies weiter differenziert und auf die Bedeutung innerer Zustimmung zum eigenen Tun hingewiesen (Längle, 2013). Ein Tun, das zwar erfolgreich, aber ohne innere Zustimmung vollzogen wird, kann nach diesem Verständnis auf Dauer erschöpfen.",
+            "Gleichwohl ist Vorsicht geboten: Eine existenzielle Deutung darf nicht dazu führen, strukturelle Ursachen wie Arbeitsverdichtung, mangelnde Ressourcen oder ungerechte Organisationsbedingungen zu individualisieren. Sinnzentrierte Beratung ersetzt keine Veränderung belastender Arbeitsbedingungen, sondern kann allenfalls die Person darin unterstützen, ihren Handlungsspielraum zu erkennen und zu nutzen."
+          ]
+        },
+        {
+          titel: "3 Logotherapeutische Konzepte für die Beratung",
+          absaetze: [
+            "Für die Beratung bei Burnout und Sinnkrisen sind mehrere logotherapeutische Konzepte besonders hilfreich. Frankls drei Wertkategorien (Frankl, 1946) eröffnen einen differenzierten Blick auf Sinnquellen: Schöpferische Werte verwirklichen sich in der Arbeit selbst, sind aber nicht auf sie beschränkt; Erlebniswerte in Beziehungen, Natur oder Kultur können eine Gegenbewegung zu einer einseitig auf Leistung ausgerichteten Lebensführung bilden; Einstellungswerte betreffen die Haltung gegenüber Belastungen, die sich nicht unmittelbar ändern lassen. Schnell (2020) hat zudem darauf hingewiesen, dass eine größere Vielfalt an Sinnquellen mit einem stabileren Sinnerleben einhergehen kann.",
+            "Ein weiteres Konzept ist die Dereflexion. Sie zielt darauf, eine übermäßige, sorgenvolle Selbstbeobachtung zu lösen, indem die Aufmerksamkeit auf sinnvolle Aufgaben und Beziehungen jenseits der eigenen Befindlichkeit gelenkt wird. Lukas (1998) hat die methodische Anwendung der Dereflexion und anderer logotherapeutischer Verfahren für Beratung und Therapie ausführlich beschrieben. Bei Erschöpfung ist Dereflexion allerdings behutsam einzusetzen: Sie darf nicht als Aufforderung missverstanden werden, Warnsignale des Körpers zu übergehen."
+          ]
+        },
+        {
+          titel: "4 Methodisches Vorgehen in vier Phasen",
+          absaetze: [
+            "Die erste Phase dient der Klärung und Abgrenzung. Hier werden Anliegen, Belastungsfaktoren und Ressourcen erhoben. Zugleich ist sorgfältig zu prüfen, ob Hinweise auf eine depressive Störung, eine Suchtproblematik, Suizidalität oder körperliche Erkrankungen vorliegen, die eine ärztliche oder psychotherapeutische Abklärung erfordern. Beratung kann in diesen Fällen eine Behandlung nicht ersetzen und sollte auf eine angemessene Weiterverweisung hinwirken.",
+            "Die zweite Phase zielt auf Entlastung und Stabilisierung. Erholung, Schlaf, soziale Unterstützung und gegebenenfalls Gespräche mit Vorgesetzten oder betrieblichen Ansprechpersonen stehen im Vordergrund. Sinnfragen werden in dieser Phase eher aufgenommen als vertieft, da eine akut erschöpfte Person häufig nicht über die Kraft für eine grundlegende Neuorientierung verfügt.",
+            "In der dritten Phase erfolgt die Sinn- und Werteexploration, vorzugsweise im sokratischen Dialog. Logotherapeutisch verstanden zielt dieser nicht darauf, der ratsuchenden Person Sinn zuzuschreiben, sondern ihr durch Fragen zu ermöglichen, eigene Werterfahrungen und Möglichkeiten zu entdecken. Hier bestehen Berührungspunkte zur geleiteten Entdeckung in der kognitiven Verhaltenstherapie, die ebenfalls mit systematischem Fragen arbeitet (Kazantzis et al., 2014; Overholser, 1993). Der Unterschied liegt im Gegenstand: Während der sokratische Dialog in der kognitiven Verhaltenstherapie vor allem der Prüfung von Überzeugungen dient, richtet er sich in der Logotherapie auf Werte, Verantwortung und Sinnmöglichkeiten.",
+            "Die vierte Phase dient der Umsetzung und dem Transfer. Gemeinsam werden konkrete Schritte entwickelt, die das Erkannte in den Alltag übertragen: eine veränderte Gewichtung von Lebensbereichen, die Klärung beruflicher Rollen, die Pflege vernachlässigter Erlebniswerte oder auch die Entscheidung für eine berufliche Neuorientierung."
+          ]
+        },
+        {
+          titel: "5 Konstruierte Lehrvignette",
+          absaetze: [
+            "Hinweis: Die folgende Vignette ist eine für Lehrzwecke konstruierte Darstellung. Sie gibt keinen realen Beratungsfall wieder; Ähnlichkeiten mit tatsächlichen Personen sind nicht beabsichtigt.",
+            "Eine erfahrene Pflegefachkraft auf einer internistischen Station sucht eine Beratungsstelle auf, weil sie sich seit Monaten erschöpft, gereizt und innerlich leer fühlt. Sie berichtet, dass sie ihren Beruf früher als Berufung erlebt habe, inzwischen aber den Eindruck habe, „nur noch zu funktionieren“. In der ersten Phase klärt die Beraterin, ob Hinweise auf eine depressive Störung vorliegen, und empfiehlt eine hausärztliche Abklärung, die die Ratsuchende auch wahrnimmt. In der Stabilisierungsphase werden Entlastungsmöglichkeiten besprochen, darunter ein Gespräch mit der Stationsleitung über die Dienstplanung.",
+            "In der Explorationsphase fragt die Beraterin im sokratischen Stil, in welchen Momenten der Arbeit die Ratsuchende zuletzt den Eindruck hatte, dass ihr Tun wichtig war. Die Ratsuchende erinnert sich an ein Gespräch mit einem schwer kranken Patienten, für das sie sich trotz Zeitdruck einige Minuten genommen hatte. Im weiteren Dialog wird deutlich, dass für sie weniger die Menge erledigter Aufgaben als die Qualität der Begegnung bedeutsam ist und dass gerade diese unter den gegenwärtigen Bedingungen zu kurz kommt. In der Transferphase entwickelt sie konkrete Schritte, um solche Begegnungen bewusster zu gestalten, und beschließt zugleich, die strukturellen Belastungen im Team anzusprechen.",
+            "Für die Lehre verdeutlicht die Vignette drei Punkte: die Notwendigkeit sorgfältiger Abklärung zu Beginn, die Verbindung individueller Sinnexploration mit der Benennung struktureller Belastungen sowie die Funktion des sokratischen Dialogs als Methode des Entdeckens statt des Belehrens."
+          ]
+        },
+        {
+          titel: "6 Grenzen und Schlussfolgerungen",
+          absaetze: [
+            "Logotherapeutisch orientierte Beratung kann Menschen mit berufsbezogener Erschöpfung und Sinnkrisen einen differenzierten Rahmen bieten, um ihre Situation zu verstehen und Handlungsmöglichkeiten zu entdecken. Ihre Wirksamkeit im Kontext von Burnout ist jedoch bislang nicht in kontrollierten Studien belegt; die hier dargestellten Grundzüge sind daher als theoretisch begründete und praxisbezogene Orientierung, nicht als evidenzbasiertes Behandlungsprogramm zu verstehen. Für die Weiterbildung ergibt sich die Aufgabe, neben der Vermittlung logotherapeutischer Konzepte insbesondere die Kompetenzen zur Abgrenzung von behandlungsbedürftigen Zuständen und zur Reflexion organisationaler Rahmenbedingungen zu stärken."
+          ]
+        }
+      ],
+      literatur: [
+        "Frankl, V. E. (1946). Ärztliche Seelsorge. Deuticke.",
+        "Frankl, V. E. (1969). The will to meaning: Foundations and applications of logotherapy. New American Library.",
+        "Kazantzis, N., Fairburn, C. G., Padesky, C. A., Reinecke, M., & Teesson, M. (2014). Unresolved issues regarding the research and practice of cognitive behavior therapy: The case of guided discovery using Socratic questioning. Behaviour Change, 31(1), 1–17.",
+        "Längle, A. (2013). Lehrbuch zur Existenzanalyse: Grundlagen. facultas.wuv.",
+        "Lukas, E. (1998). Lehrbuch der Logotherapie: Menschenbild und Methoden. Profil.",
+        "Maslach, C., & Jackson, S. E. (1981). The measurement of experienced burnout. Journal of Occupational Behaviour, 2(2), 99–113.",
+        "Maslach, C., Schaufeli, W. B., & Leiter, M. P. (2001). Job burnout. Annual Review of Psychology, 52, 397–422.",
+        "Overholser, J. C. (1993). Elements of the Socratic method: I. Systematic questioning. Psychotherapy: Theory, Research, Practice, Training, 30(1), 67–74.",
+        "Pines, A. M. (1993). Burnout: An existential perspective. In W. B. Schaufeli, C. Maslach, & T. Marek (Eds.), Professional burnout: Recent developments in theory and research (pp. 33–51). Taylor & Francis.",
+        "Schaufeli, W. B., & Enzmann, D. (1998). The burnout companion to study and practice: A critical analysis. Taylor & Francis.",
+        "Schnell, T. (2020). Psychologie des Lebenssinns (2. Aufl.). Springer.",
+        "World Health Organization. (2019). International classification of diseases for mortality and morbidity statistics (11th rev.). World Health Organization."
+      ]
+    },
+    {
+      id: "zsp-2026-2-05",
+      ausgabe: "2026-2",
+      rubrik: "Rezension",
+      titel: "Ein Psychologe erlebt das Konzentrationslager",
+      untertitel: "Viktor E. Frankls „… trotzdem Ja zum Leben sagen“ bzw. „Man’s Search for Meaning“ – eine Relektüre aus heutiger Sicht",
+      autoren: "Arbeitsbereich Logotherapie und Existenzanalyse",
+      seiten: "91–96",
+      abstract: "Viktor E. Frankls Bericht über seine Erfahrungen in nationalsozialistischen Konzentrationslagern erschien 1946 in Wien unter dem Titel „Ein Psychologe erlebt das Konzentrationslager“ und wurde später unter dem Titel „… trotzdem Ja zum Leben sagen“ bekannt. In der englischsprachigen Fassung „Man’s Search for Meaning“, die um eine Einführung in die Logotherapie erweitert wurde, zählt das Buch zu den meistgelesenen psychologischen Werken des 20. Jahrhunderts. Die vorliegende Rezension unternimmt eine Relektüre aus der Perspektive der gegenwärtigen Psychologie. Sie beschreibt zunächst Aufbau und Inhalt des Buches, insbesondere Frankls Darstellung der psychischen Reaktionen der Häftlinge in drei Phasen sowie seine Reflexionen über innere Freiheit und Sinn im äußersten Leid. Anschließend wird die besondere Textgattung zwischen Zeugnis, phänomenologischer Beschreibung und programmatischer Grundlegung der Logotherapie gewürdigt. Kritisch diskutiert werden die Grenzen einer Verallgemeinerung individueller Erfahrung, die Gefahr einer nachträglichen Sinnzuschreibung an das Überleben sowie das Verhältnis des Buches zu anderen Zeugnissen Überlebender. Die Rezension kommt zu dem Ergebnis, dass das Werk seine Bedeutung als existenzielles Dokument und als Ausgangspunkt sinnzentrierter Psychologie behält, aber nicht als empirischer Beleg für die Wirksamkeit von Sinnorientierung gelesen werden sollte.",
+      schluesselwoerter: ["Viktor E. Frankl", "Rezension", "Konzentrationslager", "Logotherapie", "Innere Freiheit"],
+      abstractEn: "Viktor E. Frankl's account of his experiences in National Socialist concentration camps was first published in Vienna in 1946 under the title “Ein Psychologe erlebt das Konzentrationslager” and later became known as “… trotzdem Ja zum Leben sagen.” In its English version, “Man's Search for Meaning,” which was expanded by an introduction to logotherapy, the book is among the most widely read psychological works of the twentieth century. This review undertakes a rereading from the perspective of contemporary psychology. It first describes the structure and content of the book, in particular Frankl's account of the prisoners' psychological reactions in three phases and his reflections on inner freedom and meaning in extreme suffering. It then appraises the book's particular genre, situated between testimony, phenomenological description, and programmatic foundation of logotherapy. Critical points include the limits of generalizing from individual experience, the risk of retrospectively attributing meaning to survival, and the relationship of the book to other survivor testimonies. The review concludes that the work retains its significance as an existential document and as a point of departure for meaning-centered psychology, but should not be read as empirical evidence for the effectiveness of meaning orientation.",
+      keywords: ["Viktor E. Frankl", "book review", "concentration camps", "logotherapy", "inner freedom"],
+      abschnitte: [
+        {
+          titel: "1 Zum besprochenen Werk",
+          absaetze: [
+            "Besprochen werden: Frankl, V. E. (1946). Ein Psychologe erlebt das Konzentrationslager. Verlag für Jugend und Volk; sowie die englischsprachige Ausgabe Frankl, V. E. (2006). Man’s search for meaning. Beacon Press. Die deutschsprachige Fassung ist seit den späten 1940er-Jahren unter dem Titel „… trotzdem Ja zum Leben sagen“ in zahlreichen Auflagen erschienen.",
+            "Kaum ein psychologisches Buch des 20. Jahrhunderts hat eine vergleichbare Leserschaft gefunden. Frankl schrieb den Bericht nach eigener Darstellung innerhalb weniger Tage nach seiner Rückkehr nach Wien, und ursprünglich sollte er anonym erscheinen. Dass eine Fachzeitschrift dieses Buch rund acht Jahrzehnte nach seiner Erstveröffentlichung bespricht, bedarf einer Begründung: Es ist nicht nur ein historisches Dokument, sondern bis heute der für viele Menschen erste Zugang zur Logotherapie und damit ein Text, dessen Lesarten das Verständnis sinnzentrierter Psychologie prägen."
+          ]
+        },
+        {
+          titel: "2 Aufbau und Inhalt",
+          absaetze: [
+            "Der Kern des Buches ist Frankls Bericht über seine Erfahrungen als Häftling. Frankl wurde 1942 mit seiner Familie in das Ghetto Theresienstadt deportiert und später nach Auschwitz sowie in Außenlager des Konzentrationslagers Dachau gebracht; seine Eltern, sein Bruder und seine erste Frau kamen ums Leben (Klingberg, 2001; Längle, 1998). Frankl verzichtet weitgehend auf eine chronologische Erzählung und versucht stattdessen, typische psychische Reaktionen der Häftlinge zu beschreiben. Er unterscheidet drei Phasen: den Schock der Aufnahme, die Phase des eigentlichen Lagerlebens, die durch Apathie, emotionale Abstumpfung und die Reduktion auf das unmittelbare Überleben gekennzeichnet ist, sowie die Phase nach der Befreiung mit ihren eigenen Schwierigkeiten, darunter Gefühle der Entfremdung und Verbitterung (Frankl, 1946/2006).",
+            "Durch die Beschreibung ziehen sich Reflexionen, die später zu Grundgedanken der Logotherapie werden. Frankl betont, dass dem Menschen selbst unter extremen Bedingungen eine letzte Freiheit bleibe: die Freiheit, eine Haltung zu den Umständen einzunehmen. Er berichtet von Augenblicken innerer Zuwendung zu geliebten Menschen, von der Bedeutung einer Aufgabe, die auf einen wartet, und von Mitgefangenen, die anderen ihr letztes Stück Brot gaben. Zugleich beschreibt er, wie der Verlust jeglicher Zukunftsperspektive den inneren Halt untergraben konnte.",
+            "Die englischsprachige Ausgabe ergänzt den Bericht um eine knappe Einführung in die Grundbegriffe der Logotherapie sowie um ein späteres Nachwort, in dem Frankl seine Position eines „tragischen Optimismus“ darlegt: die Überzeugung, dass Menschen auch angesichts von Leid, Schuld und Tod Sinn finden können (Frankl, 1946/2006)."
+          ]
+        },
+        {
+          titel: "3 Würdigung",
+          absaetze: [
+            "Die besondere Leistung des Buches liegt in seiner Verbindung von Zeugnis und psychologischer Beobachtung. Frankl schreibt als Betroffener, aber mit dem Blick des Psychiaters, und er bemüht sich um eine Sprache, die nicht anklagt, sondern zu verstehen sucht. Die Schilderung psychischer Reaktionen auf extreme Belastung ist in ihrer Genauigkeit eindrücklich, auch wenn sie nicht den Anspruch einer systematischen Untersuchung erheben kann.",
+            "Für die Psychotherapie ist vor allem Frankls Beharren auf einer Dimension menschlicher Freiheit bedeutsam, die auch dort fortbesteht, wo äußere Freiheit vollständig fehlt. Dieser Gedanke ist für die spätere Konzeption der Einstellungswerte zentral und hat existenziell orientierte Ansätze weit über die Logotherapie hinaus beeinflusst (Yalom, 1980). Auch die gegenwärtige Sinnforschung bezieht sich häufig auf das Buch als Ausgangspunkt, obgleich sie ihre Konzepte inzwischen eigenständig entwickelt und empirisch prüft (Wong, 2012)."
+          ]
+        },
+        {
+          titel: "4 Kritische Anmerkungen",
+          absaetze: [
+            "Eine Relektüre aus heutiger Sicht muss zugleich auf Grenzen hinweisen. Erstens beruht das Buch auf der Erfahrung und Erinnerung eines Einzelnen. Frankls Beschreibungen typischer Reaktionen sind Verallgemeinerungen aus persönlicher Beobachtung; sie können wertvolle Hypothesen liefern, aber keine empirisch gesicherten Aussagen über die psychischen Folgen extremer Traumatisierung begründen.",
+            "Zweitens besteht die Gefahr einer Lesart, die das Überleben auf eine innere Sinnorientierung zurückführt und damit im Umkehrschluss nahelegt, den Ermordeten habe es an Sinn oder Haltung gefehlt. Frankl selbst hat dieser Deutung widersprochen und betont, dass gerade die Besten nicht zurückgekehrt seien (Frankl, 1946/2006). Primo Levi hat in seinen späteren Reflexionen die Rolle von Zufall und äußeren Umständen für das Überleben eindringlich hervorgehoben (Levi, 1986). Eine verantwortliche Lektüre sollte diese Perspektive einbeziehen, um nicht unbeabsichtigt eine Hierarchie zwischen Überlebenden und Ermordeten zu errichten.",
+            "Drittens ist das Buch im Gespräch mit anderen Zeugnissen zu lesen. Die Berichte von Levi (1958) und die Essays von Améry (1966) setzen andere Akzente und lassen erkennen, dass die Erfahrung der Lager sich einer einheitlichen Deutung entzieht. Gerade im Kontrast zu ihnen wird sichtbar, dass Frankls Bericht nicht nur Zeugnis, sondern auch Grundlegung eines therapeutischen Programms ist – eine doppelte Funktion, die bei der Lektüre bewusst gehalten werden sollte."
+          ]
+        },
+        {
+          titel: "5 Fazit",
+          absaetze: [
+            "„… trotzdem Ja zum Leben sagen“ bleibt ein bedeutendes Dokument menschlicher Selbstbehauptung unter extremen Bedingungen und ein unverzichtbarer Ausgangspunkt für das Verständnis der Logotherapie. Für Studium und Weiterbildung ist das Buch uneingeschränkt zu empfehlen, sofern es nicht als empirischer Beleg für die Wirksamkeit von Sinnorientierung, sondern als existenzielles Zeugnis und als Quelle theoretischer Intuitionen gelesen wird. Ergänzend sollten Leserinnen und Leser biografische Darstellungen (Klingberg, 2001; Längle, 1998) sowie andere Zeugnisse Überlebender heranziehen, um die historische und menschliche Dimension des Textes angemessen zu erfassen."
+          ]
+        }
+      ],
+      literatur: [
+        "Améry, J. (1966). Jenseits von Schuld und Sühne: Bewältigungsversuche eines Überwältigten. Szczesny.",
+        "Frankl, V. E. (1946). Ein Psychologe erlebt das Konzentrationslager. Verlag für Jugend und Volk.",
+        "Frankl, V. E. (2006). Man's search for meaning. Beacon Press. (Original work published 1946)",
+        "Klingberg, H., Jr. (2001). When life calls out to us: The love and lifework of Viktor and Elly Frankl. Doubleday.",
+        "Längle, A. (1998). Viktor Frankl: Ein Porträt. Piper.",
+        "Levi, P. (1958). Se questo è un uomo. Einaudi.",
+        "Levi, P. (1986). I sommersi e i salvati. Einaudi.",
+        "Wong, P. T. P. (Ed.). (2012). The human quest for meaning: Theories, research, and applications (2nd ed.). Routledge.",
+        "Yalom, I. D. (1980). Existential psychotherapy. Basic Books."
+      ]
+    }
+  ]
+};

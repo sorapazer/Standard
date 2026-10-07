@@ -39,8 +39,8 @@ window.KURS_MODULE = (window.KURS_MODULE || []).concat([
           {
             typ: "mc",
             frage: "Eine Pflegefachkraft erfährt, dass sie ab nächstem Monat die Stationsleitung vertreten soll. Sie denkt: „Das ist viel, aber ich kann dabei eine Menge lernen und ich traue es mir zu.“ Welche primäre Bewertung steht im Vordergrund?",
-            optionen: ["Schädigung/Verlust", "Herausforderung", "Bedrohung", "irrelevant"],
-            richtig: 1,
+            optionen: ["Herausforderung", "Schädigung/Verlust", "Bedrohung", "irrelevant"],
+            richtig: 0,
             erklaerung: "Die Anforderung wird als bedeutsam, aber bewältigbar und mit Wachstumschancen verbunden erlebt – das ist eine Herausforderung. Eine Bedrohung läge vor, wenn sie vor allem einen künftigen Schaden befürchten würde. Schädigung/Verlust bezieht sich auf bereits Eingetretenes. Irrelevant ist die Situation offensichtlich nicht, da sie wichtige berufliche Anliegen betrifft."
           },
           {
@@ -171,12 +171,12 @@ window.KURS_MODULE = (window.KURS_MODULE || []).concat([
             typ: "mc",
             frage: "Eine Frau pflegt ihren Ehemann mit fortgeschrittener Parkinson-Erkrankung. Die Erkrankung ist nicht heilbar. Welche Aussage zur Copingstrategie ist am ehesten zutreffend?",
             optionen: [
-              "Nur problemorientiertes Coping ist sinnvoll, da emotionsorientiertes Coping eine Form der Verdrängung ist.",
               "Problemorientiertes Coping ist für Entlastungsangebote sinnvoll; für das Unveränderliche gewinnen Akzeptanz und Umbewertung an Bedeutung.",
+              "Nur problemorientiertes Coping ist sinnvoll, da emotionsorientiertes Coping eine Form der Verdrängung ist.",
               "Emotionsorientiertes Coping ist hier generell ungeeignet, weil es die Trauer verlängert.",
               "Die Wahl der Strategie spielt keine Rolle, entscheidend ist allein die Persönlichkeit."
             ],
-            richtig: 1,
+            richtig: 0,
             erklaerung: "Die Forschung betont die Passung: Veränderbare Aspekte (Entlastung, Pflegedienst, Hilfsmittel) eignen sich für problemorientiertes Coping, unveränderbare Aspekte (Krankheitsverlauf) eher für emotionsorientierte Strategien wie Akzeptanz. Emotionsorientiertes Coping ist nicht mit Verdrängung gleichzusetzen. Die Persönlichkeit spielt eine Rolle, aber nicht allein."
           },
           {
@@ -880,12 +880,12 @@ window.KURS_MODULE = (window.KURS_MODULE || []).concat([
             fall: "Konstruierte Lehrvignette: Eine Kollegin aus dem Betreuungsteam berichtet Ihnen von einem 70-jährigen Bewohner, der seit dem Tod seiner Frau vor drei Monaten sehr niedergeschlagen war und mehrfach sagte, er wolle „zu ihr“. Seit zwei Tagen sei er „wie ausgewechselt“, ruhig und freundlich. Er habe seinem Enkel seine Uhr geschenkt und gesagt, er habe „alles geregelt“.",
             frage: "Wie bewerten Sie diese Veränderung?",
             optionen: [
-              "Als erfreuliche Besserung; die Trauerarbeit scheint gelungen.",
               "Als möglichen Hinweis auf einen gefassten Suizidentschluss; der Bewohner sollte zeitnah direkt angesprochen und eine ärztliche Einschätzung eingeholt werden.",
+              "Als erfreuliche Besserung; die Trauerarbeit scheint gelungen.",
               "Als Zeichen einer beginnenden Demenz, das in der nächsten Fallbesprechung thematisiert werden sollte.",
               "Als Privatangelegenheit, in die sich das Team nicht einmischen sollte."
             ],
-            richtig: 1,
+            richtig: 0,
             erklaerung: "Plötzliche Ruhe nach einer Phase der Verzweiflung, das Verschenken persönlicher Gegenstände und Äußerungen wie „alles geregelt“ sind ernstzunehmende Warnzeichen für einen möglichen Suizidentschluss. Hinzu kommen Risikofaktoren wie Verlust des Partners, höheres Alter und männliches Geschlecht. Es ist zeitnahes Handeln nötig: direkt ansprechen, nicht allein lassen, ärztliche Einschätzung einholen."
           },
           {
@@ -1271,12 +1271,12 @@ window.KURS_MODULE = (window.KURS_MODULE || []).concat([
             typ: "mc",
             frage: "Ein 35-jähriger Ingenieur berichtet: „Ich habe alles erreicht, was ich wollte – Haus, Job, Familie. Trotzdem fühlt sich alles leer an. Ich funktioniere nur noch.“ Schlaf, Appetit und Freude an seinen Kindern sind unverändert. Welche Einordnung liegt aus logotherapeutischer Sicht am nächsten?",
             optionen: [
-              "Eine schwere depressive Episode, die sofort behandelt werden muss",
               "Ein Ausdruck des existenziellen Vakuums bzw. einer Sinnfrage, die in der Beratung aufgegriffen werden kann – mit Aufmerksamkeit für mögliche Veränderungen",
+              "Eine schwere depressive Episode, die sofort behandelt werden muss",
               "Ein Zeichen für mangelnde Dankbarkeit, auf das man ihn hinweisen sollte",
               "Eine noogene Neurose, die die beratende Person diagnostizieren und behandeln sollte"
             ],
-            richtig: 1,
+            richtig: 0,
             erklaerung: "Die Beschreibung von Leere trotz äußerer Erfüllung entspricht dem, was Frankl als existenzielles Vakuum beschrieb. Da keine Hinweise auf eine Depression genannt werden, kann die Sinnfrage beraterisch aufgegriffen werden, wobei die Entwicklung im Blick bleibt. Diagnosen stellen Beratende nicht, und Hinweise auf Dankbarkeit wären moralisierend."
           },
           {

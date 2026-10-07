@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Institut für Sinnzentrierte Psychologie</title>
+<meta name="description" content="Institut für Sinnzentrierte Psychologie: Forschung, Lehre und Weiterbildung in Logotherapie und modernen Psychotherapieverfahren. Mit Fachzeitschrift, Fachlexikon und Zertifikatsprogrammen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--BODY-START-->
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#start" data-nav="start" aria-label="Institut für Sinnzentrierte Psychologie, Startseite">
+      <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="24" r="13" fill="none" stroke="currentColor" stroke-width="1.4"/>
+        <line x1="20" y1="2" x2="20" y2="37" stroke="var(--accent)" stroke-width="1.8"/>
+        <circle cx="20" cy="4" r="2.2" fill="var(--brass)"/>
+      </svg>
+      <span class="brand-name">Institut für Sinnzentrierte Psychologie<small>Logotherapie · Psychotherapieforschung · Weiterbildung</small></span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav">Menü</button>
+    <nav class="nav" id="nav" aria-label="Hauptnavigation">
+      <a href="#institut" data-nav="institut">Institut</a>
+      <a href="#logotherapie" data-nav="logotherapie">Logotherapie</a>
+      <a href="#verfahren" data-nav="verfahren">Therapieverfahren</a>
+      <a href="#journal" data-nav="journal">Zeitschrift</a>
+      <a href="#lexikon" data-nav="lexikon">Lexikon</a>
+      <a href="#weiterbildung" data-nav="weiterbildung">Weiterbildung</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ START ============ -->
+<section class="view" id="view-start" data-view="start">
+  <div class="wrap">
+    <div class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Forschung · Lehre · Weiterbildung</p>
+        <h1>Die Frage nach dem <em>Sinn</em> gehört in die wissenschaftliche Psychologie.</h1>
+        <p class="lead">Das Institut für Sinnzentrierte Psychologie verbindet die Logotherapie Viktor E. Frankls mit dem Erkenntnisstand der heutigen Psychotherapieforschung. Wir forschen, publizieren und bilden aus.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#weiterbildung">Zertifikatsprogramme</a>
+          <a class="btn btn-ghost" href="#journal">Zur Zeitschrift</a>
+        </div>
+      </div>
+      <figure class="hero-quote">
+        <blockquote>„Wer ein Warum zum Leben hat, erträgt fast jedes Wie.“</blockquote>
+        <cite>Friedrich Nietzsche, von Viktor E. Frankl in seinem Bericht über die Konzentrationslager als Leitsatz zitiert</cite>
+      </figure>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <p class="eyebrow">Arbeitsschwerpunkte</p>
+        <h2>Drei Aufgaben, ein Gegenstand</h2>
+      </div>
+      <div class="pillars">
+        <div class="pillar">
+          <span class="num">I</span>
+          <h3>Logotherapie und Existenzanalyse</h3>
+          <p class="muted">Systematische Darstellung, begriffliche Klärung und empirische Prüfung der sinnzentrierten Psychotherapie in der Tradition Frankls.</p>
+          <a href="#logotherapie">Grundlagen der Logotherapie</a>
+        </div>
+        <div class="pillar">
+          <span class="num">II</span>
+          <h3>Vergleichende Psychotherapieforschung</h3>
+          <p class="muted">Einordnung sinnzentrierter Ansätze neben Verhaltenstherapie, psychodynamischen, systemischen und humanistischen Verfahren.</p>
+          <a href="#verfahren">Übersicht der Therapieverfahren</a>
+        </div>
+        <div class="pillar">
+          <span class="num">III</span>
+          <h3>Weiterbildung und Qualifizierung</h3>
+          <p class="muted">Zertifikatsprogramme in Logotherapeutischer Beratung und Psychologischer Beratung mit Supervision, Selbsterfahrung und Abschlussprüfung.</p>
+          <a href="#weiterbildung">Programme und Zulassung</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="split">
+        <div class="panel">
+          <p class="eyebrow">Aktuelles Heft</p>
+          <h3 id="home-issue-title">Zeitschrift für Sinnzentrierte Psychologie</h3>
+          <ul class="toc-list" id="home-issue-list"></ul>
+          <a href="#journal">Alle Ausgaben und Beiträge</a>
+        </div>
+        <div class="panel panel-accent">
+          <p class="eyebrow">Fachlexikon</p>
+          <h3>Begriffe nachschlagen</h3>
+          <form class="search" id="home-search" role="search">
+            <label for="home-q" class="small" hidden>Lexikon durchsuchen</label>
+            <input id="home-q" type="search" placeholder="z. B. Paradoxe Intention, Schemamodi, Resilienz" autocomplete="off">
+          </form>
+          <div id="home-term" class="lex-entry"></div>
+          <p class="small muted" id="home-lex-count"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSTITUT ============ -->
+<section class="view" id="view-institut" data-view="institut">
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Das Institut</p>
+      <h1>Leitbild und Arbeitsbereiche</h1>
+      <p class="lead">Wir verstehen Psychologie als empirische Wissenschaft vom Menschen, die seine Fähigkeit zu Sinnorientierung, Freiheit und Verantwortung ernst nimmt.</p>
+    </header>
+    <div class="with-toc">
+      <nav class="toc" aria-label="Inhalt dieser Seite">
+        <a href="#institut-leitbild" data-scroll>Leitbild</a>
+        <a href="#institut-bereiche" data-scroll>Arbeitsbereiche</a>
+        <a href="#institut-grundsaetze" data-scroll>Wissenschaftliche Grundsätze</a>
+        <a href="#institut-ethik" data-scroll>Berufsethik</a>
+      </nav>
+      <div class="prose">
+        <h2 id="institut-leitbild">Leitbild</h2>
+        <p>Viktor E. Frankl hat die Frage nach dem Sinn als eigenständige Motivationskraft des Menschen beschrieben und daraus eine psychotherapeutische Schule entwickelt. Diese Einsicht ist heute aktueller als zu seiner Zeit: Die empirische Forschung zu Lebenssinn, Werten und existenziellen Belastungen ist seit den 2000er Jahren stark gewachsen, und mehrere moderne Verfahren haben werteorientierte Elemente aufgenommen.</p>
+        <p>Das Institut verfolgt drei Ziele. Es macht das logotherapeutische Denken begrifflich präzise und überprüfbar. Es setzt sinnzentrierte Ansätze in einen fairen Vergleich mit anderen Psychotherapieverfahren. Und es bildet Fachkräfte so aus, dass sie Sinnfragen kompetent begleiten und zugleich die Grenzen ihrer Rolle kennen.</p>
+        <p>Wir sind keiner Schule exklusiv verpflichtet. Die Logotherapie ist unser Schwerpunkt, nicht unser Dogma. Wo die Forschung andere Verfahren für eine Indikation besser stützt, sagen wir das.</p>
+
+        <h2 id="institut-bereiche">Arbeitsbereiche</h2>
+        <h3>Arbeitsbereich Logotherapie und Existenzanalyse</h3>
+        <p>Quellenarbeit zu Frankls Gesamtwerk, Weiterentwicklung der logotherapeutischen Methodik, Verhältnis von Logotherapie, Existenzanalyse nach Längle und existenzieller Psychotherapie. Der Arbeitsbereich verantwortet das Curriculum des Zertifikatsprogramms Logotherapeutische Beratung.</p>
+        <h3>Arbeitsbereich Psychotherapieforschung</h3>
+        <p>Systematische Übersichtsarbeiten zu sinnzentrierten Interventionen, Messung von Lebenssinn und Sinnkrisen, Wirkfaktorenforschung und Vergleich mit Verfahren der dritten Welle der Verhaltenstherapie.</p>
+        <h3>Arbeitsbereich Beratungspsychologie</h3>
+        <p>Konzepte psychologischer Beratung außerhalb der Heilkunde: Krisenbegleitung, Beratung in Lebensübergängen, Prävention von Erschöpfung im Beruf. Der Arbeitsbereich verantwortet das Zertifikatsprogramm Psychologische Beratung.</p>
+        <h3>Redaktion und Wissensvermittlung</h3>
+        <p>Herausgabe der <a href="#journal">Zeitschrift für Sinnzentrierte Psychologie</a> und Pflege des frei zugänglichen <a href="#lexikon">Fachlexikons</a>.</p>
+
+        <h2 id="institut-grundsaetze">Wissenschaftliche Grundsätze</h2>
+        <ul>
+          <li><strong>Empirische Prüfbarkeit.</strong> Aussagen über Wirksamkeit stützen wir auf kontrollierte Studien, systematische Übersichtsarbeiten und Metaanalysen. Klinische Erfahrung ist wertvoll, ersetzt diese Belege aber nicht.</li>
+          <li><strong>Transparenz über die Evidenzlage.</strong> Wir benennen, wo die Forschung zur Logotherapie dünn ist, und unterscheiden zwischen gut untersuchten Teilmethoden und dem Gesamtansatz.</li>
+          <li><strong>Begriffliche Sorgfalt.</strong> Philosophische und anthropologische Annahmen werden als solche gekennzeichnet und nicht als empirische Befunde ausgegeben.</li>
+          <li><strong>Unabhängigkeit.</strong> Die Beiträge der Zeitschrift durchlaufen eine redaktionelle Begutachtung; Interessenkonflikte werden offengelegt.</li>
+        </ul>
+
+        <h2 id="institut-ethik">Berufsethik</h2>
+        <p>Lehre und Beratung am Institut orientieren sich an den berufsethischen Grundsätzen der Psychologie: Achtung der Würde und Autonomie der Ratsuchenden, Verschwiegenheit, fachliche Sorgfalt, Vermeidung von Abhängigkeiten und Mehrfachbeziehungen sowie die Pflicht, an Ärzt*innen oder approbierte Psychotherapeut*innen zu verweisen, wenn eine behandlungsbedürftige psychische Störung vorliegen kann.</p>
+        <p class="callout">Sinnfragen sind keine Krankheit. Wer sie begleitet, muss aber erkennen können, wann hinter einer Sinnkrise eine Depression, eine Traumafolgestörung oder akute Suizidalität steht.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOGOTHERAPIE ============ -->
+<section class="view" id="view-logotherapie" data-view="logotherapie">
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Schwerpunkt</p>
+      <h1>Logotherapie</h1>
+      <p class="lead">Die von Viktor E. Frankl begründete sinnzentrierte Psychotherapie, oft als „Dritte Wiener Schule der Psychotherapie“ nach Freud und Adler bezeichnet.</p>
+    </header>
+    <div class="with-toc">
+      <nav class="toc" aria-label="Inhalt dieser Seite">
+        <a href="#lt-frankl" data-scroll>Viktor E. Frankl</a>
+        <a href="#lt-menschenbild" data-scroll>Menschenbild</a>
+        <a href="#lt-saeulen" data-scroll>Drei Grundannahmen</a>
+        <a href="#lt-werte" data-scroll>Wege zum Sinn</a>
+        <a href="#lt-methoden" data-scroll>Methoden</a>
+        <a href="#lt-anwendung" data-scroll>Anwendungsfelder</a>
+        <a href="#lt-evidenz" data-scroll>Forschungsstand</a>
+        <a href="#lt-abgrenzung" data-scroll>Abgrenzungen</a>
+        <a href="#lt-literatur" data-scroll>Grundlagenliteratur</a>
+      </nav>
+      <div class="prose">
+        <h2 id="lt-frankl">Viktor E. Frankl (1905–1997)</h2>
+        <p>Frankl war Neurologe und Psychiater in Wien. Bereits in den 1920er Jahren stand er in Kontakt mit Freud und Adler und wandte sich dann von der Individualpsychologie ab. In den 1930er Jahren organisierte er Beratungsstellen für Jugendliche und leitete eine Station für suizidgefährdete Frauen am Psychiatrischen Krankenhaus Am Steinhof. Von 1942 bis 1945 war er in den Konzentrationslagern Theresienstadt, Auschwitz, Kaufering und Türkheim inhaftiert; seine Eltern, sein Bruder und seine erste Frau Tilly kamen in den Lagern ums Leben.</p>
+        <p>Nach der Befreiung veröffentlichte er „Ärztliche Seelsorge“ (1946) und „Ein Psycholog erlebt das Konzentrationslager“ (1946), das später unter dem Titel „…trotzdem Ja zum Leben sagen“ bekannt wurde. Die englische Ausgabe, später unter dem Titel „Man's Search for Meaning“, wurde zu einem der meistgelesenen Bücher des 20. Jahrhunderts. Von 1946 bis 1971 leitete Frankl die Wiener Neurologische Poliklinik.</p>
+
+        <h2 id="lt-menschenbild">Menschenbild: die Dimensionalontologie</h2>
+        <p>Frankl beschreibt den Menschen in drei Dimensionen. Sie sind keine getrennten Schichten, sondern Aspekte einer Einheit, die sich nur in der Betrachtung unterscheiden lassen.</p>
+        <div class="dimensions">
+          <div><span class="tag">Somatisch</span><h4>Körper</h4><p class="small">Physiologische Prozesse, Anlage, Krankheit.</p></div>
+          <div><span class="tag">Psychisch</span><h4>Seele</h4><p class="small">Gefühle, Triebe, Gewohnheiten, erworbene Muster.</p></div>
+          <div><span class="tag">Noetisch</span><h4>Geist</h4><p class="small">Freiheit, Verantwortlichkeit, Gewissen, Sinn- und Wertorientierung.</p></div>
+        </div>
+        <p>Die noetische Dimension kann nach Frankl selbst nicht erkranken, wohl aber in ihrem Ausdruck durch körperliche oder psychische Erkrankungen blockiert werden. Darauf beruht die therapeutische Ressource, die Frankl „Trotzmacht des Geistes“ nannte: die Fähigkeit, zu den eigenen Zuständen Stellung zu nehmen.</p>
+
+        <h2 id="lt-saeulen">Drei Grundannahmen</h2>
+        <ol>
+          <li><strong>Freiheit des Willens.</strong> Der Mensch ist bedingt, aber nicht vollständig determiniert. Er ist frei, sich zu den Bedingungen zu verhalten, die er nicht ändern kann.</li>
+          <li><strong>Wille zum Sinn.</strong> Das primäre Motiv des Menschen ist nicht Lust (Freud) oder Macht (Adler), sondern das Streben, in seinem Leben einen Sinn zu finden und zu erfüllen.</li>
+          <li><strong>Sinn des Lebens.</strong> Sinn ist objektiv gegeben in dem Sinne, dass er nicht erfunden, sondern gefunden wird. Er ist situationsbezogen, einzigartig für die Person und bleibt unter allen Umständen grundsätzlich möglich.</li>
+        </ol>
+        <p>Wird der Wille zum Sinn dauerhaft frustriert, entsteht das <em>existenzielle Vakuum</em>, ein Gefühl innerer Leere und Langeweile. Führt diese Frustration zu klinisch relevanten Symptomen, spricht Frankl von einer <em>noogenen Neurose</em>.</p>
+
+        <h2 id="lt-werte">Wege zum Sinn: drei Wertkategorien</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Kategorie</th><th>Verwirklichung durch</th><th>Beispiele</th></tr></thead>
+            <tbody>
+              <tr><td>Schöpferische Werte</td><td>Was wir der Welt geben</td><td>Arbeit, Werk, Tat, Fürsorge für andere</td></tr>
+              <tr><td>Erlebniswerte</td><td>Was wir von der Welt empfangen</td><td>Liebe, Begegnung, Natur, Kunst</td></tr>
+              <tr><td>Einstellungswerte</td><td>Wie wir uns zu unabänderlichem Schicksal verhalten</td><td>Haltung gegenüber Krankheit, Schuld, Verlust und Tod</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Den Einstellungswerten maß Frankl den höchsten Rang zu: Auch wenn schöpferisches Handeln und Erleben nicht mehr möglich sind, bleibt die Freiheit der Haltung. Die unausweichlichen Grenzerfahrungen Leid, Schuld und Tod fasste er als <em>tragische Trias</em> zusammen, der er einen „tragischen Optimismus“ gegenüberstellte.</p>
+
+        <h2 id="lt-methoden">Methoden</h2>
+        <h3>Paradoxe Intention</h3>
+        <p>Entwickelt für Erwartungsangst und Zwangsbefürchtungen. Die Person wird angeleitet, sich gerade das, was sie fürchtet, mit Humor zu wünschen oder vorzunehmen. Die Methode nutzt die Fähigkeit zur Selbstdistanzierung und unterbricht den Teufelskreis aus Angst vor der Angst und Vermeidung. Sie weist deutliche Parallelen zu später entwickelten Expositions- und Akzeptanzverfahren auf.</p>
+        <h3>Dereflexion</h3>
+        <p>Gegen die Hyperreflexion, die übermäßige Selbstbeobachtung, etwa bei Schlaf- oder sexuellen Funktionsstörungen. Die Aufmerksamkeit wird vom Symptom weg auf sinnvolle Inhalte und Aufgaben gelenkt. Grundlage ist die Fähigkeit zur Selbsttranszendenz.</p>
+        <h3>Einstellungsmodulation</h3>
+        <p>Die gemeinsame Prüfung und Veränderung von Haltungen gegenüber Lebensumständen, besonders gegenüber nicht veränderbarem Leid.</p>
+        <h3>Sokratischer Dialog</h3>
+        <p>Ein fragendes, nicht belehrendes Gesprächsverfahren, in dem Ratsuchende eigene Werte und Sinnmöglichkeiten entdecken. Die Therapeut*in schreibt keinen Sinn vor; Frankl sprach davon, dass Sinn nicht gegeben, sondern nur gefunden werden kann.</p>
+
+        <h2 id="lt-anwendung">Anwendungsfelder</h2>
+        <ul>
+          <li>Beratung bei Sinnkrisen, Lebensübergängen, Ruhestand, Arbeitsplatzverlust</li>
+          <li>Prävention und Begleitung bei beruflicher Erschöpfung</li>
+          <li>Psychoonkologie und Palliativversorgung, Trauerbegleitung</li>
+          <li>Ergänzend in der Behandlung von Angst- und Zwangsstörungen, Abhängigkeitserkrankungen und Depressionen</li>
+          <li>Seelsorge, Pädagogik, Pflege und Soziale Arbeit</li>
+        </ul>
+
+        <h2 id="lt-evidenz">Forschungsstand</h2>
+        <p>Frankl selbst verstand die Logotherapie als Ergänzung, nicht als Ersatz der Psychotherapie. Die empirische Forschung entwickelte sich vor allem über Messinstrumente: Mit dem Purpose in Life Test (Crumbaugh &amp; Maholick, 1964) wurde Frankls Konzept des existenziellen Vakuums erstmals operationalisiert. Heute wird Lebenssinn unter anderem mit dem Meaning in Life Questionnaire (Steger et al., 2006) und den Fragebögen zu Lebensbedeutungen und Lebenssinn (Schnell) erfasst.</p>
+        <p>Die Sinnforschung zeigt konsistent, dass erlebter Lebenssinn mit psychischem Wohlbefinden zusammenhängt und Sinnkrisen mit Depressivität und Hoffnungslosigkeit einhergehen. Für strukturierte sinnzentrierte Interventionen, insbesondere die Meaning-Centered Psychotherapy nach Breitbart bei Krebserkrankungen, liegen randomisierte Studien mit positiven Ergebnissen vor. Eine Metaanalyse existenzieller Therapien (Vos, Craig &amp; Cooper, 2015) fand für sinnzentrierte Verfahren die deutlichsten Effekte innerhalb dieser Gruppe.</p>
+        <p>Für die klassische Logotherapie als Gesamtverfahren ist die Studienlage dagegen begrenzt: Viele Studien sind klein, methodisch heterogen und stammen aus wenigen Arbeitsgruppen. In Deutschland ist die Logotherapie weder Richtlinienverfahren noch vom Wissenschaftlichen Beirat Psychotherapie als Verfahren anerkannt. Diese Lücke zu schließen, ist eine Kernaufgabe unseres Arbeitsbereichs Psychotherapieforschung.</p>
+
+        <h2 id="lt-abgrenzung">Abgrenzungen</h2>
+        <p><strong>Existenzanalyse.</strong> Frankl verwendete „Existenzanalyse“ für die anthropologische Theorie und „Logotherapie“ für die Behandlung. Alfred Längle entwickelte die Existenzanalyse ab den 1980er Jahren zu einem eigenständigen Verfahren weiter, mit stärkerem Gewicht auf Emotionen und Biografie; Frankl distanzierte sich 1991 von dieser Entwicklung.</p>
+        <p><strong>Existenzielle Psychotherapie.</strong> Die amerikanische Tradition um Rollo May und Irvin D. Yalom teilt mit der Logotherapie die Aufmerksamkeit für Grundgegebenheiten wie Tod und Freiheit, versteht Sinn aber eher als vom Menschen geschaffen denn als gefunden.</p>
+        <p><strong>Akzeptanz- und Commitment-Therapie.</strong> ACT arbeitet ebenfalls mit Werten und Haltung gegenüber nicht veränderbarem Erleben, gründet aber auf einer behavioralen Sprach- und Kognitionstheorie und nicht auf einer Anthropologie des Geistigen.</p>
+
+        <h2 id="lt-literatur">Grundlagenliteratur</h2>
+        <ul class="refs">
+          <li>Frankl, V. E. (1946). <em>Ärztliche Seelsorge. Grundlagen der Logotherapie und Existenzanalyse.</em> Wien: Deuticke.</li>
+          <li>Frankl, V. E. (1946). <em>Ein Psycholog erlebt das Konzentrationslager.</em> Wien: Verlag für Jugend und Volk.</li>
+          <li>Frankl, V. E. (1969). <em>The Will to Meaning. Foundations and Applications of Logotherapy.</em> New York: World Publishing.</li>
+          <li>Frankl, V. E. (1956). <em>Theorie und Therapie der Neurosen.</em> Wien: Urban &amp; Schwarzenberg.</li>
+          <li>Crumbaugh, J. C. &amp; Maholick, L. T. (1964). An experimental study in existentialism: The psychometric approach to Frankl's concept of noogenic neurosis. <em>Journal of Clinical Psychology, 20</em>(2), 200–207.</li>
+          <li>Längle, A. (2013). <em>Lehrbuch zur Existenzanalyse. Grundlagen.</em> Wien: Facultas.</li>
+          <li>Steger, M. F., Frazier, P., Oishi, S. &amp; Kaler, M. (2006). The Meaning in Life Questionnaire: Assessing the presence of and search for meaning in life. <em>Journal of Counseling Psychology, 53</em>(1), 80–93.</li>
+          <li>Vos, J., Craig, M. &amp; Cooper, M. (2015). Existential therapies: A meta-analysis of their effects on psychological outcomes. <em>Journal of Consulting and Clinical Psychology, 83</em>(1), 115–128.</li>
+          <li>Yalom, I. D. (1980). <em>Existential Psychotherapy.</em> New York: Basic Books.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VERFAHREN ============ -->
+<section class="view" id="view-verfahren" data-view="verfahren">
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Heutige Therapieformen</p>
+      <h1>Psychotherapieverfahren im Überblick</h1>
+      <p class="lead">Menschenbild, Vorgehen, Indikation und Forschungsstand der wichtigsten Verfahren und Methoden, mit ihrem Status im deutschen Gesundheitssystem.</p>
+    </header>
+    <div class="section" style="padding-top:0">
+      <div class="prose">
+        <p>In Deutschland übernehmen die gesetzlichen Krankenkassen die Kosten für vier sogenannte <strong>Richtlinienverfahren</strong>: Verhaltenstherapie, tiefenpsychologisch fundierte Psychotherapie, analytische Psychotherapie und, seit 2020, Systemische Therapie für Erwachsene. Innerhalb dieser Verfahren kommen zahlreiche Methoden zum Einsatz, etwa die Schematherapie oder die Dialektisch-Behaviorale Therapie innerhalb der Verhaltenstherapie. Über die wissenschaftliche Anerkennung neuer Verfahren berät der Wissenschaftliche Beirat Psychotherapie, über die Aufnahme in die Kassenversorgung entscheidet der Gemeinsame Bundesausschuss.</p>
+      </div>
+      <div class="chips" id="verfahren-filter" role="group" aria-label="Nach Verfahrensfamilie filtern"></div>
+      <div class="method-grid" id="verfahren-grid"></div>
+      <p class="small muted">Die Darstellung des Forschungsstands ist qualitativ und vereinfacht. Für Behandlungsentscheidungen sind die jeweils gültigen S3-Leitlinien der AWMF maßgeblich. Stand der Angaben: Oktober 2026.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOURNAL ============ -->
+<section class="view" id="view-journal" data-view="journal">
+  <div class="wrap">
+    <div id="journal-root"></div>
+  </div>
+</section>
+
+<!-- ============ LEXIKON ============ -->
+<section class="view" id="view-lexikon" data-view="lexikon">
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Fachlexikon</p>
+      <h1>Lexikon der Sinnzentrierten Psychologie und Psychotherapie</h1>
+      <p class="lead">Fachbegriffe der Logotherapie, der heutigen Psychotherapieverfahren, der klinischen Psychologie und der Forschungsmethodik, mit Querverweisen und Literatur.</p>
+    </header>
+    <div class="lex-tools">
+      <form class="search" id="lex-search" role="search">
+        <label for="lex-q" hidden>Lexikon durchsuchen</label>
+        <input id="lex-q" type="search" placeholder="Begriff oder Stichwort suchen" autocomplete="off">
+      </form>
+      <div class="chips" id="lex-cats" role="group" aria-label="Kategorie"></div>
+      <div class="az" id="lex-az" role="group" aria-label="Anfangsbuchstabe"></div>
+      <p class="lex-count" id="lex-count" aria-live="polite"></p>
+    </div>
+    <div class="lex-layout">
+      <ul class="lex-list" id="lex-list"></ul>
+      <article class="lex-entry" id="lex-entry" aria-live="polite"></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WEITERBILDUNG ============ -->
+<section class="view" id="view-weiterbildung" data-view="weiterbildung">
+  <div class="wrap">
+    <header class="page-head">
+      <p class="eyebrow">Weiterbildung</p>
+      <h1>Zertifikatsprogramme</h1>
+      <p class="lead">Berufsbegleitende Qualifizierungen mit wissenschaftlicher Fundierung, supervidierter Praxis und Abschlussprüfung.</p>
+    </header>
+
+    <div class="programs">
+      <article class="program" id="prog-logo">
+        <div>
+          <span class="tag">Zertifikat · 24 Monate</span>
+          <h2>Logotherapeutische Beratung und Begleitung</h2>
+          <p>Das Programm vermittelt Theorie, Menschenbild und Methodik der Logotherapie nach Viktor E. Frankl und ihre Weiterentwicklungen. Die Teilnehmenden lernen, Menschen in Sinn- und Lebenskrisen fachkundig zu begleiten, logotherapeutische Gesprächsführung sicher anzuwenden und die Grenzen der Beratung gegenüber der Heilbehandlung zu erkennen.</p>
+          <h3>Module</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Modul</th><th>Inhalte</th><th class="num">UE</th></tr></thead>
+              <tbody>
+                <tr><td>L1 Grundlagen</td><td>Leben und Werk Frankls, Dimensionalontologie, Freiheit des Willens, Wille zum Sinn</td><td class="num">40</td></tr>
+                <tr><td>L2 Sinn- und Wertlehre</td><td>Schöpferische, Erlebnis- und Einstellungswerte, Gewissen als Sinn-Organ, Selbsttranszendenz, Bezüge zu Scheler</td><td class="num">40</td></tr>
+                <tr><td>L3 Gesprächsführung</td><td>Sokratischer Dialog, Einstellungsmodulation, klientenzentrierte Grundhaltungen, Gesprächsstruktur</td><td class="num">40</td></tr>
+                <tr><td>L4 Spezifische Methoden</td><td>Paradoxe Intention, Dereflexion, Arbeit mit Erwartungsangst und Hyperreflexion, Vergleich mit Exposition und Defusion</td><td class="num">32</td></tr>
+                <tr><td>L5 Grenzsituationen</td><td>Tragische Trias: Leid, Schuld, Tod; Trauerbegleitung, Begleitung schwerer Erkrankung, tragischer Optimismus</td><td class="num">32</td></tr>
+                <tr><td>L6 Anwendungsfelder</td><td>Sinnkrisen, berufliche Erschöpfung, Lebensübergänge, Alter, Palliativversorgung, Meaning-Centered Psychotherapy</td><td class="num">32</td></tr>
+                <tr><td>L7 Forschung und Evidenz</td><td>Messung von Lebenssinn (PIL, MLQ, LeBe), Studienlage, kritisches Lesen von Fachliteratur</td><td class="num">24</td></tr>
+                <tr><td>L8 Ethik, Recht und Krisenerkennung</td><td>Heilpraktikergesetz, Schweigepflicht, Erkennen psychischer Störungen, Suizidalität, Weiterverweisung</td><td class="num">24</td></tr>
+                <tr><td>Selbsterfahrung</td><td>Logotherapeutische Selbsterfahrung in der Gruppe und im Einzelsetting</td><td class="num">50</td></tr>
+                <tr><td>Supervision</td><td>Fallsupervision der eigenen Beratungsprozesse in Kleingruppen</td><td class="num">30</td></tr>
+                <tr><td>Intervision</td><td>Regionale Peer-Gruppen mit strukturiertem Protokoll</td><td class="num">16</td></tr>
+              </tbody>
+              <tfoot><tr><td colspan="2">Gesamtumfang (1 UE = 45 Minuten)</td><td class="num">360</td></tr></tfoot>
+            </table>
+          </div>
+          <h3>Abschluss</h3>
+          <p>Nachweis von 10 dokumentierten und supervidierten Beratungsprozessen mit jeweils mindestens drei Sitzungen, schriftliche Abschlussarbeit (25 bis 30 Seiten) zu einem logotherapeutischen Thema und mündliches Kolloquium (45 Minuten) vor zwei Prüfenden. Nach bestandener Prüfung wird das Zertifikat „Logotherapeutische Beratung und Begleitung (ISP)“ mit Modulübersicht und Gesamtnote ausgestellt.</p>
+        </div>
+        <aside>
+          <dl class="facts">
+            <div><dt>Umfang</dt><dd>360 UE in 4 Semestern</dd></div>
+            <div><dt>Format</dt><dd>10 Präsenzwochenenden, 12 Live-Online-Abende, Selbststudium</dd></div>
+            <div><dt>Nächster Beginn</dt><dd>5. März 2027</dd></div>
+            <div><dt>Bewerbungsschluss</dt><dd>15. Januar 2027</dd></div>
+            <div><dt>Teilnehmende</dt><dd>höchstens 18 je Jahrgang</dd></div>
+            <div><dt>Gebühr</dt><dd>4.680 € gesamt oder 24 Raten à 195 €</dd></div>
+          </dl>
+          <a class="btn btn-primary" href="#anmeldung" data-program="logo" data-scroll>Jetzt bewerben</a>
+        </aside>
+      </article>
+
+      <article class="program" id="prog-berater">
+        <div>
+          <span class="tag">Zertifikat · 12 Monate</span>
+          <h2>Psychologische Beratung</h2>
+          <p>Eine fundierte Qualifizierung für Fachkräfte aus sozialen, pädagogischen, pflegerischen und personalbezogenen Berufen, die Menschen in Belastungs- und Entscheidungssituationen beraten. Der Schwerpunkt liegt auf evidenzbasierten Gesprächsmethoden, psychologischem Grundlagenwissen und der sicheren Abgrenzung zur Psychotherapie.</p>
+          <h3>Module</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Modul</th><th>Inhalte</th><th class="num">UE</th></tr></thead>
+              <tbody>
+                <tr><td>B1 Psychologische Grundlagen</td><td>Emotion, Motivation, Kognition, Persönlichkeit, Entwicklung über die Lebensspanne</td><td class="num">32</td></tr>
+                <tr><td>B2 Klinisches Basiswissen</td><td>Häufige psychische Störungen nach ICD-11, Warnzeichen, Vulnerabilitäts-Stress-Modell, Grenzen der Beratung</td><td class="num">32</td></tr>
+                <tr><td>B3 Gesprächsführung</td><td>Klientenzentrierte Grundhaltungen, aktives Zuhören, Motivational Interviewing, Strukturierung von Beratungsprozessen</td><td class="num">40</td></tr>
+                <tr><td>B4 Lösungs- und Ressourcenorientierung</td><td>Systemische und lösungsorientierte Fragetechniken, Ressourcenanalyse, Zielklärung</td><td class="num">24</td></tr>
+                <tr><td>B5 Stress, Erschöpfung, Resilienz</td><td>Transaktionales Stressmodell, Burnout-Prävention, Emotionsregulation, Psychoedukation</td><td class="num">24</td></tr>
+                <tr><td>B6 Krisenintervention</td><td>Krisenmodelle, Einschätzung von Suizidalität, Notfallplanung, Kooperation mit Hilfesystemen</td><td class="num">24</td></tr>
+                <tr><td>B7 Sinn und Werte in der Beratung</td><td>Einführung in Logotherapie und werteorientierte Ansätze, Arbeit an Lebensübergängen</td><td class="num">16</td></tr>
+                <tr><td>B8 Ethik und Recht</td><td>Berufsethik, Schweigepflicht, Datenschutz, Heilpraktikergesetz, Dokumentation</td><td class="num">16</td></tr>
+                <tr><td>Supervision und Praxis</td><td>Übungsberatungen mit Videoanalyse, Fallsupervision in Kleingruppen</td><td class="num">32</td></tr>
+              </tbody>
+              <tfoot><tr><td colspan="2">Gesamtumfang (1 UE = 45 Minuten)</td><td class="num">240</td></tr></tfoot>
+            </table>
+          </div>
+          <h3>Abschluss</h3>
+          <p>Schriftliche Klausur (90 Minuten) zu den Modulen B1 bis B8, Falldokumentation einer supervidierten Beratung (10 bis 15 Seiten) und praktische Prüfung in Form eines beobachteten Beratungsgesprächs mit anschließender Reflexion. Nach bestandener Prüfung wird das Zertifikat „Psychologische Beratung (ISP)“ ausgestellt.</p>
+        </div>
+        <aside>
+          <dl class="facts">
+            <div><dt>Umfang</dt><dd>240 UE in 2 Semestern</dd></div>
+            <div><dt>Format</dt><dd>7 Präsenzwochenenden, 10 Live-Online-Abende</dd></div>
+            <div><dt>Nächster Beginn</dt><dd>16. April 2027</dd></div>
+            <div><dt>Bewerbungsschluss</dt><dd>1. März 2027</dd></div>
+            <div><dt>Teilnehmende</dt><dd>höchstens 20 je Kurs</dd></div>
+            <div><dt>Gebühr</dt><dd>2.940 € gesamt oder 12 Raten à 245 €</dd></div>
+          </dl>
+          <a class="btn btn-primary" href="#anmeldung" data-program="berater" data-scroll>Jetzt bewerben</a>
+        </aside>
+      </article>
+
+      <article class="program" id="prog-grundkurs">
+        <div>
+          <span class="tag">Grundkurs · 3 Wochenenden</span>
+          <h2>Einführung in die Logotherapie</h2>
+          <p>Der Grundkurs bietet einen kompakten, wissenschaftlich fundierten Einstieg in das Denken Frankls: Menschenbild, Sinn- und Wertlehre, die Methoden der Paradoxen Intention und Dereflexion sowie den Sokratischen Dialog. Er richtet sich an Fachkräfte und Interessierte, die die Logotherapie kennenlernen oder eine Teilnahme am Zertifikatsprogramm prüfen möchten.</p>
+          <p>Der Grundkurs schließt mit einer Teilnahmebescheinigung ab. Bei späterer Aufnahme in das Zertifikatsprogramm „Logotherapeutische Beratung und Begleitung“ werden 24 UE auf Modul L1 angerechnet.</p>
+        </div>
+        <aside>
+          <dl class="facts">
+            <div><dt>Umfang</dt><dd>48 UE</dd></div>
+            <div><dt>Termine 2027</dt><dd>22.–23. Januar, 19.–20. Februar, 19.–20. März</dd></div>
+            <div><dt>Format</dt><dd>Präsenz, Freitag 15–20 Uhr, Samstag 9–17 Uhr</dd></div>
+            <div><dt>Gebühr</dt><dd>690 €</dd></div>
+          </dl>
+          <a class="btn btn-primary" href="#anmeldung" data-program="grundkurs" data-scroll>Jetzt anmelden</a>
+        </aside>
+      </article>
+    </div>
+
+    <div class="section">
+      <div class="notice">
+        <h3>Rechtlicher Rahmen</h3>
+        <p>Die Zertifikate sind Abschlüsse des Instituts. Sie sind keine staatlich anerkannten Berufsabschlüsse und berechtigen nicht zur Ausübung der Heilkunde. Die Behandlung psychischer Störungen mit Krankheitswert ist in Deutschland approbierten Psychologischen Psychotherapeut*innen, ärztlichen Psychotherapeut*innen sowie Personen mit einer Erlaubnis nach dem Heilpraktikergesetz vorbehalten. Die Berufsbezeichnung „Psychotherapeut“ ist gesetzlich geschützt. Die Bezeichnung „Psychologe“ setzt ein abgeschlossenes Hochschulstudium der Psychologie voraus.</p>
+        <p>Psychologische und logotherapeutische Beratung im Sinne unserer Programme richtet sich an Menschen ohne behandlungsbedürftige psychische Störung, etwa in Lebenskrisen, Entscheidungs- und Übergangssituationen. Fachkräfte mit Approbation oder Heilpraktikererlaubnis können die erworbenen Kompetenzen in ihre heilkundliche Tätigkeit einbringen.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <p class="eyebrow">Zulassung und Prüfung</p>
+        <h2>Häufige Fragen</h2>
+      </div>
+      <div style="max-width: 820px">
+        <details>
+          <summary>Welche Voraussetzungen gelten für die Zulassung?</summary>
+          <div>
+            <p><strong>Logotherapeutische Beratung:</strong> ein abgeschlossenes Hochschulstudium in Psychologie, Medizin, Sozialer Arbeit, Pädagogik, Theologie, Pflegewissenschaft oder einem verwandten Fach; alternativ eine abgeschlossene Berufsausbildung in einem helfenden Beruf mit mindestens drei Jahren Berufserfahrung. Hinzu kommen ein Mindestalter von 25 Jahren und ein Aufnahmegespräch.</p>
+            <p><strong>Psychologische Beratung:</strong> ein abgeschlossenes Hochschulstudium oder eine abgeschlossene Berufsausbildung mit mindestens zwei Jahren Berufserfahrung in einem Beruf mit Personenbezug sowie ein Aufnahmegespräch.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Wie läuft das Aufnahmegespräch ab?</summary>
+          <div><p>Das Gespräch dauert etwa 45 Minuten und findet online oder im Institut statt. Es dient dem gegenseitigen Kennenlernen, der Klärung der Motivation und der Einschätzung, ob das Programm zu Ihren beruflichen Zielen passt. Eine fachliche Prüfung ist es nicht.</p></div>
+        </details>
+        <details>
+          <summary>Wie viele Fehlzeiten sind zulässig?</summary>
+          <div><p>Für die Zulassung zur Abschlussprüfung ist eine Anwesenheit von mindestens 90 Prozent der Präsenz- und Online-Unterrichtseinheiten erforderlich. Versäumte Einheiten können im folgenden Jahrgang nachgeholt werden.</p></div>
+        </details>
+        <details>
+          <summary>Kann eine nicht bestandene Prüfung wiederholt werden?</summary>
+          <div><p>Jeder Prüfungsteil kann einmal wiederholt werden. Die Wiederholung einer schriftlichen Arbeit ist innerhalb von sechs Monaten möglich, die Wiederholung des Kolloquiums oder der praktischen Prüfung zum nächsten regulären Prüfungstermin.</p></div>
+        </details>
+        <details>
+          <summary>Werden Vorleistungen angerechnet?</summary>
+          <div><p>Gleichwertige Fortbildungen in Logotherapie, Existenzanalyse oder Gesprächsführung können auf Antrag bis zu einem Umfang von 25 Prozent des Programms angerechnet werden. Selbsterfahrung und Supervision müssen am Institut absolviert werden.</p></div>
+        </details>
+        <details>
+          <summary>Welche Kosten kommen zur Teilnahmegebühr hinzu?</summary>
+          <div><p>Die Gebühren umfassen Unterricht, Gruppensupervision, Prüfung, Zertifikat und digitale Lehrmaterialien. Nicht enthalten sind Fachliteratur, Anreise, Unterkunft und Verpflegung. Ein Rücktritt ist bis acht Wochen vor Beginn kostenfrei möglich.</p></div>
+        </details>
+        <details>
+          <summary>Kann ich die Gebühr steuerlich geltend machen?</summary>
+          <div><p>Berufsbezogene Weiterbildungskosten können in Deutschland in der Regel als Werbungskosten oder Betriebsausgaben abgesetzt werden. Bitte klären Sie Ihren Einzelfall mit Ihrer Steuerberatung.</p></div>
+        </details>
+      </div>
+    </div>
+
+    <div class="section" id="anmeldung">
+      <div class="section-head">
+        <p class="eyebrow">Bewerbung</p>
+        <h2>Bewerbung und Anmeldung</h2>
+        <p class="muted">Füllen Sie das Formular aus. Sie erhalten eine fertig formulierte Bewerbung, die Sie kopieren und an die Geschäftsstelle senden können.</p>
+      </div>
+      <form class="apply" id="apply-form" novalidate>
+        <div class="field">
+          <label for="f-program">Programm</label>
+          <select id="f-program" required>
+            <option value="logo">Zertifikat Logotherapeutische Beratung und Begleitung (Beginn 5. März 2027)</option>
+            <option value="berater">Zertifikat Psychologische Beratung (Beginn 16. April 2027)</option>
+            <option value="grundkurs">Grundkurs Einführung in die Logotherapie (ab 22. Januar 2027)</option>
+          </select>
+        </div>
+        <div class="field-row">
+          <div class="field"><label for="f-name">Vor- und Nachname</label><input id="f-name" required autocomplete="name"></div>
+          <div class="field"><label for="f-email">E-Mail</label><input id="f-email" type="email" required autocomplete="email"></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label for="f-beruf">Beruf bzw. Studienabschluss</label><input id="f-beruf" required></div>
+          <div class="field"><label for="f-erfahrung">Berufserfahrung in Jahren</label><input id="f-erfahrung" type="number" min="0" max="60" inputmode="numeric"></div>
+        </div>
+        <div class="field">
+          <label for="f-motivation">Motivation (einige Sätze zu Ihren Zielen)</label>
+          <textarea id="f-motivation"></textarea>
+        </div>
+        <label class="check"><input type="checkbox" id="f-rahmen" required> <span>Ich habe den rechtlichen Rahmen zur Kenntnis genommen: Das Zertifikat berechtigt nicht zur Ausübung der Heilkunde.</span></label>
+        <p class="error" id="apply-error" hidden></p>
+        <div class="actions"><button class="btn btn-primary" type="submit">Bewerbung erstellen</button></div>
+        <div id="apply-result" hidden class="panel">
+          <h3>Ihre Bewerbung</h3>
+          <p>Bitte senden Sie den folgenden Text an <strong class="mono" id="apply-mail"></strong>. Die Geschäftsstelle meldet sich innerhalb von zehn Werktagen mit einem Terminvorschlag für das Aufnahmegespräch.</p>
+          <pre class="result" id="apply-text"></pre>
+          <div class="actions"><button type="button" class="btn btn-ghost" id="apply-copy">Text kopieren</button></div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p class="brand-name" style="margin-bottom:10px">Institut für Sinnzentrierte Psychologie</p>
+      <p class="muted small">Forschung, Lehre und Weiterbildung in Logotherapie und Psychotherapiewissenschaft.</p>
+      <p class="small" style="margin-top:12px">Geschäftsstelle: <span class="mono" id="footer-mail"></span></p>
+      <p style="margin-top:14px"><button class="theme-toggle" id="theme-toggle" type="button">Dunkle Darstellung</button></p>
+    </div>
+    <div>
+      <h4>Wissen</h4>
+      <ul>
+        <li><a href="#logotherapie">Logotherapie</a></li>
+        <li><a href="#verfahren">Therapieverfahren</a></li>
+        <li><a href="#lexikon">Fachlexikon</a></li>
+        <li><a href="#journal">Zeitschrift für Sinnzentrierte Psychologie</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Weiterbildung</h4>
+      <ul>
+        <li><a href="#prog-logo" data-scroll-to="weiterbildung">Logotherapeutische Beratung</a></li>
+        <li><a href="#prog-berater" data-scroll-to="weiterbildung">Psychologische Beratung</a></li>
+        <li><a href="#prog-grundkurs" data-scroll-to="weiterbildung">Grundkurs Logotherapie</a></li>
+        <li><a href="#institut">Leitbild und Berufsethik</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="data/verfahren.js"></script>
+<script src="data/lexikon-1.js"></script>
+<script src="data/lexikon-2.js"></script>
+<script src="data/lexikon-3.js"></script>
+<script src="data/journal.js"></script>
+<script src="js/app.js"></script>
+<!--BODY-END-->
+</body>
+</html>

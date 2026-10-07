@@ -61,7 +61,8 @@
       verfahren: "Psychotherapieverfahren im Überblick",
       journal: J.titel,
       lexikon: "Fachlexikon",
-      weiterbildung: "Zertifikatsprogramme"
+      weiterbildung: "Zertifikatskurse",
+      akademie: "Online-Akademie"
     };
     document.title = name === "start" ? titles.start : titles[name] + " · Institut für Sinnzentrierte Psychologie";
   }
@@ -71,6 +72,7 @@
     if (VIEWS.indexOf(h) >= 0) {
       setView(h);
       if (h === "journal") renderJournalIndex();
+      if (h === "weiterbildung" && window.AKADEMIE) window.AKADEMIE.renderKatalog();
       window.scrollTo(0, 0);
       return;
     }
@@ -82,6 +84,7 @@
       window.scrollTo(0, 0);
       return;
     }
+    if (window.AKADEMIE && window.AKADEMIE.route(h)) { window.scrollTo(0, 0); return; }
     var el = document.getElementById(h);
     if (el) {
       var v = el.closest(".view");
@@ -331,38 +334,7 @@
     };
     try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
   }
-  function initApply() {
-    $("#apply-mail").textContent = KONTAKT;
-    $("#footer-mail").textContent = KONTAKT;
-    $$("[data-program]").forEach(function (a) {
-      a.addEventListener("click", function () { $("#f-program").value = a.dataset.program; });
-    });
-    $("#apply-form").addEventListener("submit", function (ev) {
-      ev.preventDefault();
-      var err = [];
-      if (!$("#f-name").value.trim()) err.push("Bitte geben Sie Ihren Namen an.");
-      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test($("#f-email").value.trim())) err.push("Bitte geben Sie eine gültige E-Mail-Adresse an.");
-      if (!$("#f-beruf").value.trim()) err.push("Bitte nennen Sie Ihren Beruf oder Studienabschluss.");
-      if (!$("#f-rahmen").checked) err.push("Bitte bestätigen Sie den Hinweis zum rechtlichen Rahmen.");
-      var e = $("#apply-error");
-      if (err.length) { e.textContent = err.join(" "); e.hidden = false; $("#apply-result").hidden = true; return; }
-      e.hidden = true;
-      var prog = $("#f-program").selectedOptions[0].textContent;
-      var txt = "Betreff: Bewerbung – " + prog + "\n\n" +
-        "Sehr geehrte Damen und Herren,\n\nhiermit bewerbe ich mich für folgendes Programm:\n" + prog + "\n\n" +
-        "Name: " + $("#f-name").value.trim() + "\n" +
-        "E-Mail: " + $("#f-email").value.trim() + "\n" +
-        "Beruf / Abschluss: " + $("#f-beruf").value.trim() + "\n" +
-        ($("#f-erfahrung").value ? "Berufserfahrung: " + $("#f-erfahrung").value + " Jahre\n" : "") +
-        ($("#f-motivation").value.trim() ? "\nMotivation:\n" + $("#f-motivation").value.trim() + "\n" : "") +
-        "\nDen Hinweis, dass das Zertifikat nicht zur Ausübung der Heilkunde berechtigt, habe ich zur Kenntnis genommen.\n" +
-        "Nachweise über Abschluss und Berufserfahrung reiche ich auf Anforderung nach.\n\nMit freundlichen Grüßen\n" + $("#f-name").value.trim();
-      $("#apply-text").textContent = txt;
-      $("#apply-result").hidden = false;
-      $("#apply-result").scrollIntoView({ block: "nearest" });
-    });
-    $("#apply-copy").addEventListener("click", function () { copyText($("#apply-text").textContent, this, $("#apply-text")); });
-  }
+  function initFooter() { $("#footer-mail").textContent = KONTAKT; }
 
   /* ---------- Darstellung ---------- */
   function initTheme() {
@@ -387,7 +359,8 @@
   renderVerfahren();
   initLexikon();
   initHome();
-  initApply();
+  initFooter();
+  window.ISP = { setView: setView, copyText: copyText, esc: esc, paras: paras, KONTAKT: KONTAKT, findLex: findLex };
   initTheme();
-  route();
+  window.ISP.route = route;
 })();

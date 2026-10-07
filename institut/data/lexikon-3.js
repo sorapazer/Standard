@@ -85,7 +85,7 @@ window.LEXIKON = (window.LEXIKON || []).concat([
     kategorie: "Psychologische Grundbegriffe",
     kurz: "Zustand motivationaler, kognitiver und emotionaler Beeinträchtigung infolge der Erfahrung, Ereignisse nicht kontrollieren zu können.",
     text: "Das Konzept wurde in den 1960er-Jahren von Martin Seligman, Steven F. Maier und Kollegen auf Grundlage tierexperimenteller Befunde entwickelt und später als Modell für depressive Zustände beim Menschen herangezogen.\n\nDie reformulierte Theorie von Abramson, Seligman und Teasdale (1978) ergänzte einen attributionstheoretischen Zugang: Besonders ungünstig sei es, negative Ereignisse internal, stabil und global zu erklären. Daraus entwickelte sich das Konzept des Attributionsstils.\n\nNeurobiologische Arbeiten führten Maier und Seligman (2016) zu einer Revision: Passivität sei die biologische Standardreaktion auf anhaltende aversive Reize, während das Erleben von Kontrolle aktiv erlernt werde. Für Therapie und Prävention bedeutet dies, Kontrollerfahrungen gezielt zu ermöglichen.",
-    verweise: ["Martin Seligman", "Depression", "Attributionstheorie", "Kontrollüberzeugung", "Verhaltensaktivierung"],
+    verweise: ["Martin E. P. Seligman", "Depression", "Attributionstheorie", "Kontrollüberzeugung", "Verhaltensaktivierung"],
     literatur: [
       "Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critique and reformulation. Journal of Abnormal Psychology, 87(1), 49–74.",
       "Maier, S. F., & Seligman, M. E. P. (2016). Learned helplessness at fifty: Insights from neuroscience. Psychological Review, 123(4), 349–367."
@@ -996,7 +996,7 @@ window.LEXIKON = (window.LEXIKON || []).concat([
     kategorie: "Forschung, Diagnostik & Methodik",
     kurz: "Unterscheidung zwischen der Wirksamkeit einer Behandlung unter kontrollierten Studienbedingungen (Efficacy) und ihrem Nutzen unter Bedingungen der Routineversorgung (Effectiveness).",
     text: "Efficacy-Studien prüfen unter optimierten Bedingungen, ob eine Intervention prinzipiell wirkt: mit sorgfältig ausgewählten Teilnehmenden, manualisierter Behandlung, geschulten und supervidierten Therapeutinnen und Therapeuten sowie hoher interner Validität. Effectiveness-Studien untersuchen dagegen, ob die Behandlung in der Praxis mit heterogenen Patientengruppen, Komorbiditäten und üblichen Rahmenbedingungen wirkt.\n\nMartin Seligman stellte 1995 in einer viel diskutierten Arbeit diesen Unterschied für die Psychotherapieforschung heraus. Archibald Cochrane hatte bereits 1972 die Bedeutung von Wirksamkeit und Effizienz für die Gesundheitsversorgung betont.\n\nBeide Studientypen ergänzen sich. Pragmatische randomisierte Studien und praxisbasierte Forschung versuchen, hohe interne mit hoher externer Validität zu verbinden.",
-    verweise: ["Randomisierte kontrollierte Studie", "Psychotherapieforschung", "Validität", "Martin Seligman"],
+    verweise: ["Randomisierte kontrollierte Studie", "Psychotherapieforschung", "Validität", "Martin E. P. Seligman"],
     literatur: [
       "Seligman, M. E. P. (1995). The effectiveness of psychotherapy: The Consumer Reports study. American Psychologist, 50(12), 965–974.",
       "Cochrane, A. L. (1972). Effectiveness and Efficiency: Random Reflections on Health Services. London: Nuffield Provincial Hospitals Trust."

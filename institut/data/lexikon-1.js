@@ -513,7 +513,7 @@ window.LEXIKON = (window.LEXIKON || []).concat([
   {
     begriff: "Uwe Böschemeyer",
     kategorie: "Personen",
-    kurz: "Deutscher Theologe, Logotherapeut und Psychotherapeut (geb. 1939), Begründer der Wertimagination.",
+    kurz: "Deutscher Theologe und Logotherapeut, Begründer der Wertimagination.",
     text: "Uwe Böschemeyer studierte Theologie und Psychologie und ließ sich bei Viktor E. Frankl in Logotherapie ausbilden. Er gründete in Hamburg ein Institut für Logotherapie und Existenzanalyse und war maßgeblich an der Verbreitung der Logotherapie in Norddeutschland beteiligt.\n\nMit der Wertimagination entwickelte er eine Verbindung von Logotherapie und Imaginationsarbeit. Er publizierte zahlreiche Bücher zur wertorientierten Persönlichkeitsbildung, die sich sowohl an Fachleute als auch an ein breites Publikum richten.",
     verweise: ["Wertimagination", "Logotherapie", "Viktor E. Frankl"],
     literatur: []

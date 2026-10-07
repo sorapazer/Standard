@@ -2,7 +2,7 @@
   "use strict";
 
   var KONTAKT = "geschaeftsstelle@sinnzentrierte-psychologie.de";
-  var VIEWS = ["start", "institut", "logotherapie", "verfahren", "journal", "lexikon", "weiterbildung"];
+  var VIEWS = ["start", "institut", "team", "logotherapie", "verfahren", "journal", "lexikon", "weiterbildung"];
 
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
@@ -57,6 +57,7 @@
     var titles = {
       start: "Institut für Sinnzentrierte Psychologie",
       institut: "Leitbild und Arbeitsbereiche",
+      team: "Menschen am Institut",
       logotherapie: "Logotherapie",
       verfahren: "Psychotherapieverfahren im Überblick",
       journal: J.titel,
@@ -141,7 +142,7 @@
 
   function journalMast() {
     return '<header class="page-head"><div class="journal-mast"><div><p class="eyebrow">Fachzeitschrift des Instituts</p><h1>' + esc(J.titel) + '</h1></div>' +
-      '<p class="mono muted">Erscheint halbjährlich<br>Begutachtet · Open Access</p></div>' +
+      '<p class="mono muted">Erscheint halbjährlich<br>Begutachtet · Open Access<br>Chefredaktion: <a href="#person-marquardt">Dr. Ilse Marquardt-Nowak</a></p></div>' +
       '<p class="lead">Die Zeitschrift veröffentlicht Übersichtsarbeiten, theoretische Beiträge, Methodenbeiträge und Rezensionen zu Logotherapie, Existenzpsychologie, Sinnforschung und vergleichender Psychotherapieforschung.</p></header>';
   }
 
@@ -379,6 +380,34 @@
     });
   }
 
+  /* ---------- Team ---------- */
+  function monogram(p, size) {
+    var hue = { Leitung: "var(--accent)", Forschung: "var(--brass)", Lehre: "var(--accent)", Redaktion: "var(--brass)", "Geschäftsstelle": "var(--ink-soft)" }[p.gruppe] || "var(--accent)";
+    return '<span class="mono-portrait" style="--mp:' + hue + ';--ms:' + (size || 96) + 'px" aria-hidden="true">' + esc(p.kurz) + "</span>";
+  }
+  function renderTeam() {
+    var T = window.TEAM || [];
+    var groups = ["Leitung", "Forschung", "Lehre", "Redaktion", "Geschäftsstelle"];
+    var label = { Leitung: "Leitung", Forschung: "Forschung", Lehre: "Lehre und Studienleitung", Redaktion: "Redaktion", "Geschäftsstelle": "Geschäftsstelle" };
+    var html = "";
+    groups.forEach(function (g) {
+      var ps = T.filter(function (p) { return p.gruppe === g; });
+      if (!ps.length) return;
+      html += '<section class="team-group"><h2 class="eyebrow">' + esc(label[g]) + '</h2><div class="team-grid">';
+      ps.forEach(function (p) {
+        html += '<article class="person" id="person-' + p.id + '">' + monogram(p) +
+          '<div class="person-body"><h3>' + esc(p.name) + '</h3><p class="person-role">' + esc(p.funktion) + '</p><p class="small muted">' + esc(p.bereich) + "</p>" +
+          '<p class="person-bio">' + esc(p.bio) + "</p>" +
+          '<div class="chips person-tags">' + p.schwerpunkte.map(function (s) { return '<span class="tagchip">' + esc(s) + "</span>"; }).join("") + "</div>" +
+          (p.lehre && p.lehre.length ? '<p class="small"><strong>Lehre:</strong> ' + esc(p.lehre.join(" · ")) + "</p>" : "") +
+          "</div></article>";
+      });
+      html += "</div></section>";
+    });
+    html += '<p class="small muted">Kontakt zu allen Personen über die Geschäftsstelle: <span class="mono">' + esc(KONTAKT) + "</span></p>";
+    $("#team-root").innerHTML = html;
+  }
+
   /* ---------- Startseite ---------- */
   function initHome() {
     var iss = J.ausgaben[J.ausgaben.length - 1];
@@ -437,10 +466,11 @@
   }
 
   renderVerfahren();
+  renderTeam();
   initLexikon();
   initHome();
   initFooter();
-  window.ISP = { setView: setView, copyText: copyText, esc: esc, paras: paras, KONTAKT: KONTAKT, findLex: findLex };
+  window.ISP = { monogram: monogram, setView: setView, copyText: copyText, esc: esc, paras: paras, KONTAKT: KONTAKT, findLex: findLex };
   initTheme();
   window.ISP.route = route;
 })();

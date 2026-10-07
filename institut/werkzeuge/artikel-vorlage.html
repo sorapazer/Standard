@@ -93,7 +93,7 @@
   (a.abschnitte || []).forEach(function (s) { h += "<h2>" + e(s.titel) + "</h2>" + (s.absaetze || []).map(function (p) { return "<p>" + e(p) + "</p>"; }).join(""); });
   h += "</div>";
   if (a.literatur && a.literatur.length) h += '<section class="lit"><h2>Literatur</h2><ol>' + a.literatur.map(function (r) { return "<li>" + e(r) + "</li>"; }).join("") + "</ol></section>";
-  h += '<footer class="abschluss"><div><b>Zitiervorschlag</b>' + e(cite) + '</div><div><b>Lizenz und Korrespondenz</b>Dieser Beitrag erscheint im offenen Zugang unter der Lizenz Creative Commons Namensnennung 4.0 International (CC BY 4.0). Korrespondenz: Redaktion der Zeitschrift für Sinnzentrierte Psychologie, Institut für Sinnzentrierte Psychologie.</div></footer>';
+  h += '<footer class="abschluss"><div><b>Zitiervorschlag</b>' + e(cite) + '</div><div><b>Lizenz und Korrespondenz</b>Dieser Beitrag erscheint im offenen Zugang unter der Lizenz Creative Commons Namensnennung 4.0 International (CC BY 4.0). Korrespondenz: Redaktion der Zeitschrift für Sinnzentrierte Psychologie (Chefredaktion: Dr. Ilse Marquardt-Nowak), Institut für Sinnzentrierte Psychologie.</div></footer>';
   document.getElementById("doc").innerHTML = h;
   document.title = a.titel;
   window.ARTIKEL_BEREIT = true;

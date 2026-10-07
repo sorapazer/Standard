@@ -55,6 +55,12 @@
     return null;
   }
 
+  function person(id) { return (window.TEAM || []).filter(function (p) { return p.id === id; })[0]; }
+  function studienleitung(k) {
+    var p = (window.TEAM || []).filter(function (x) { return x.studienleitung === k.id; })[0];
+    return p || person("ruhland");
+  }
+
   /* ---------- Hilfen ---------- */
   function inline(s) {
     return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>");
@@ -191,6 +197,8 @@
         "</div>";
       if (all[0]) html += '<div class="panel"><p class="eyebrow">Probelektion</p><p>' + esc(all[0].lektion.titel) + '</p><a class="btn btn-ghost" href="#lektion-' + k.id + "-" + all[0].lektion.id + '">Kostenlos testen</a></div>';
     }
+    var sl = studienleitung(k);
+    if (sl) html += '<a class="panel person-mini" href="#person-' + sl.id + '">' + ISP.monogram(sl, 56) + '<span><span class="eyebrow">Studienleitung</span><br><strong>' + esc(sl.name) + '</strong><br><span class="small muted">' + esc(sl.funktion) + "</span></span></a>";
     html += '<div class="panel"><p class="eyebrow">Auf einen Blick</p><dl class="facts"><div><dt>Umfang</dt><dd>' + k.ue + " Unterrichtseinheiten</dd></div><div><dt>Lernzeit in Lektionen</dt><dd>" + hours(minutes(k)) + "</dd></div><div><dt>Empfohlene Dauer</dt><dd>" + esc(k.empfohleneDauer) + "</dd></div><div><dt>Abschluss</dt><dd>Zertifikat des Instituts</dd></div></dl></div>";
     html += "</aside></div>";
     show(html);
@@ -818,8 +826,10 @@
       x.font = "italic 400 44px " + SERIF; x.fillStyle = PETROL; x.fillText(value, cx, 1985);
       x.font = "400 28px " + SANS; x.fillStyle = "#4a5562"; x.fillText(label, cx, 2055);
     }
-    sig(820, "Datum der Ausstellung", c.datum);
-    sig(W - 820, "Für das Institut · Prüfungsausschuss", "Institut für Sinnzentrierte Psychologie");
+    var leit = person("vehrenkamp"), stud = studienleitung(k);
+    sig(820, "Institutsleitung", leit ? leit.name : "Institut für Sinnzentrierte Psychologie");
+    sig(W - 820, "Studienleitung · Prüfungsausschuss", stud ? stud.name : "Prüfungsausschuss");
+    x.font = "400 30px " + SANS; x.fillStyle = INK; x.fillText("Ausgestellt am " + c.datum, W / 2, 2180);
 
     // Fußzeile
     x.font = "400 26px " + MONO; x.fillStyle = "#4a5562"; x.textAlign = "left";

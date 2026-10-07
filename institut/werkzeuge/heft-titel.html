@@ -53,7 +53,7 @@
   arts.forEach(function (a) {
     h += '<div class="item"><div><div class="r">' + e(a.rubrik) + '</div><div class="t">' + e(a.titel) + "</div>" + (a.untertitel ? '<div class="u">' + e(a.untertitel) + "</div>" : "") + '<div class="a">' + e(a.autoren) + '</div></div><div class="p">' + e(String(a.seiten).split(/[–-]/)[0]) + "</div></div>";
   });
-  h += '<div class="imp"><p><b>Herausgeber</b><br>Institut für Sinnzentrierte Psychologie</p><p><b>Erscheinungsweise</b><br>halbjährlich, im April und Oktober</p><p><b>Begutachtung</b><br>Redaktionelle Prüfung und doppelt verblindetes Gutachterverfahren</p><p><b>Lizenz</b><br>Alle Beiträge erscheinen im offenen Zugang unter der Lizenz CC BY 4.0.</p></div></section>';
+  h += '<div class="imp"><p><b>Herausgeber</b><br>Institut für Sinnzentrierte Psychologie</p><p><b>Chefredaktion</b><br>Dr. Ilse Marquardt-Nowak</p><p><b>Erscheinungsweise</b><br>halbjährlich, im April und Oktober</p><p><b>Begutachtung</b><br>Redaktionelle Prüfung und doppelt verblindetes Gutachterverfahren</p><p><b>Lizenz</b><br>Alle Beiträge erscheinen im offenen Zugang unter der Lizenz CC BY 4.0.</p></div></section>';
   document.getElementById("doc").innerHTML = h;
   // Guilloche-Linien auf dem Umschlag
   var c = document.getElementById("g").getContext("2d");

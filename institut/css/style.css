@@ -420,3 +420,20 @@ form.apply { display: grid; gap: 18px; max-width: 760px; }
 .sub-fs legend { font: 600 .78rem var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--brass); padding: 0 6px; }
 .ak-skip-note { font-size: .85rem; color: var(--ink-soft); }
 .ak-steps span.is-skip { background: repeating-linear-gradient(90deg, var(--accent) 0 3px, transparent 3px 6px); }
+
+/* Team */
+.team-group { display: grid; gap: 20px; padding-block: 8px 36px; }
+.team-group h2.eyebrow { font-family: var(--sans); font-size: .78rem; border-bottom: 1px solid var(--line); padding-bottom: 10px; }
+.team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 480px), 1fr)); gap: 24px; }
+.person { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 22px; align-items: start; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 24px; scroll-margin-top: 100px; }
+.person:target { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+@media (max-width: 520px) { .person { grid-template-columns: 1fr; } }
+.person-body { display: grid; gap: 8px; }
+.person h3 { font-size: 1.3rem; }
+.person-role { font-weight: 600; color: var(--accent); font-size: .95rem; }
+.person-bio { font-size: .97rem; line-height: 1.6; }
+.person-tags { gap: 6px; }
+.tagchip { font-size: .78rem; padding: 3px 10px; border-radius: 99px; background: var(--paper); border: 1px solid var(--line); color: var(--ink-soft); }
+.mono-portrait { width: var(--ms); height: var(--ms); border-radius: 50%; display: grid; place-items: center; font: 400 calc(var(--ms) * .36) / 1 var(--serif); letter-spacing: .04em; color: var(--mp); background: var(--paper); border: 1.5px solid var(--mp); box-shadow: inset 0 0 0 5px var(--paper), inset 0 0 0 6px var(--mp); flex: none; }
+.person-mini { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px; align-items: center; text-decoration: none; color: var(--ink); }
+.person-mini:hover { border-color: var(--accent); }

@@ -421,7 +421,7 @@
       });
     },
     zuordnen: function (s, st, done, already) {
-      var rights = shuffle(s.paare.map(function (p, i) { return i; }));
+      var seenR = {}, rights = shuffle(s.paare.map(function (p, i) { return i; }).filter(function (i) { var t = s.paare[i][1]; if (seenR[t]) return false; seenR[t] = true; return true; }));
       st.innerHTML = '<div class="ak-text"><span class="eyebrow">Zuordnung</span><h2>' + esc(s.frage) + '</h2></div><div class="ak-match">' +
         s.paare.map(function (p, i) {
           return '<div class="ak-match-row"><span class="ak-match-l">' + inline(p[0]) + '</span><select data-i="' + i + '" aria-label="Zuordnung für ' + esc(p[0]) + '"><option value="">Bitte wählen …</option>' +
@@ -431,9 +431,9 @@
       gradable(st, {
         already: already, explain: s.erklaerung,
         ready: function () { return sels.every(function (x) { return x.value !== ""; }); },
-        check: function () { return sels.every(function (x) { return +x.value === +x.dataset.i; }); },
-        markWrong: function () { sels.forEach(function (x) { x.classList.toggle("is-bad", +x.value !== +x.dataset.i); }); },
-        reveal: function () { sels.forEach(function (x) { x.value = x.dataset.i; }); },
+        check: function () { return sels.every(function (x) { return s.paare[+x.value][1] === s.paare[+x.dataset.i][1]; }); },
+        markWrong: function () { sels.forEach(function (x) { x.classList.toggle("is-bad", s.paare[+x.value][1] !== s.paare[+x.dataset.i][1]); }); },
+        reveal: function () { sels.forEach(function (x) { var want = s.paare[+x.dataset.i][1]; rights.forEach(function (r) { if (s.paare[r][1] === want) x.value = r; }); }); },
         lock: function () { sels.forEach(function (x) { x.disabled = true; x.classList.remove("is-bad"); x.classList.add("is-ok"); }); },
         done: done
       });

@@ -199,7 +199,7 @@ tfoot td { font-weight: 600; border-top: 1px solid var(--ink); }
 .lex-list li button[aria-current="true"] { background: var(--accent-soft); }
 .lex-list .b { font-family: var(--serif); font-size: 1.08rem; }
 .lex-list .k { font-size: .78rem; color: var(--ink-soft); }
-.lex-letter { font: 600 .8rem var(--mono); color: var(--brass); padding: 14px 6px 4px; border-bottom: 1px solid var(--line); }
+.lex-letter { font: 600 1rem var(--serif); color: var(--brass); padding: 14px 6px 4px; border-bottom: 1px solid var(--line); }
 .lex-entry { display: grid; gap: 16px; max-width: var(--measure); align-content: start; }
 .lex-entry h2 { font-size: clamp(1.8rem, 3.4vw, 2.5rem); }
 .lex-entry .kurz { font-family: var(--serif); font-size: 1.25rem; line-height: 1.5; }

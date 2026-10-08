@@ -76,7 +76,7 @@
   function q(t) { return '"' + String(t).replace(/\\/g, "\\\\").replace(/"/g, '\\"') + '"'; }
   var heft = iss.jahrgang + "(" + iss.heft + "), " + iss.jahr;
   var kurz = a.titel.length > 70 ? a.titel.slice(0, 68).replace(/\s+\S*$/, "") + " …" : a.titel;
-  var cite = a.autoren + " (" + iss.jahr + "). " + a.titel + (a.untertitel ? ": " + a.untertitel : "") + ". Zeitschrift für Sinnzentrierte Psychologie, " + iss.jahrgang + "(" + iss.heft + "), " + a.seiten + ".";
+  var cite = (a.autorenApa || a.autoren) + " (" + iss.jahr + "). " + a.titel + (a.untertitel ? ": " + a.untertitel : "") + ". Zeitschrift für Sinnzentrierte Psychologie, " + iss.jahrgang + "(" + iss.heft + "), " + a.seiten + ".";
   var logo = '<svg width="26" height="26" viewBox="0 0 40 40"><circle cx="20" cy="24" r="13" fill="none" stroke="#17202a" stroke-width="1.6"/><line x1="20" y1="2" x2="20" y2="37" stroke="#1d4d57" stroke-width="2"/><circle cx="20" cy="4" r="2.4" fill="#8a6a33"/></svg>';
   style.textContent = "@page { @top-left { content: " + q("Zeitschrift für Sinnzentrierte Psychologie · " + heft) + "; } @top-right { content: " + q(kurz) + "; } } @page :first { counter-increment: page " + start + "; @top-left { content: none; } @top-right { content: none; } }";
   document.head.appendChild(style);
@@ -93,7 +93,7 @@
   (a.abschnitte || []).forEach(function (s) { h += "<h2>" + e(s.titel) + "</h2>" + (s.absaetze || []).map(function (p) { return "<p>" + e(p) + "</p>"; }).join(""); });
   h += "</div>";
   if (a.literatur && a.literatur.length) h += '<section class="lit"><h2>Literatur</h2><ol>' + a.literatur.map(function (r) { return "<li>" + e(r) + "</li>"; }).join("") + "</ol></section>";
-  h += '<footer class="abschluss"><div><b>Zitiervorschlag</b>' + e(cite) + '</div><div><b>Lizenz und Korrespondenz</b>Dieser Beitrag erscheint im offenen Zugang unter der Lizenz Creative Commons Namensnennung 4.0 International (CC BY 4.0). Korrespondenz: Redaktion der Zeitschrift für Sinnzentrierte Psychologie (Chefredaktion: Dr. Ilse Marquardt-Nowak), Institut für Sinnzentrierte Psychologie.</div></footer>';
+  h += '<footer class="abschluss"><div><b>Zitiervorschlag</b>' + e(cite) + '</div><div><b>Lizenz und Korrespondenz</b>Dieser Beitrag erscheint im offenen Zugang unter der Lizenz Creative Commons Namensnennung 4.0 International (CC BY 4.0). Korrespondenz: Redaktion der Zeitschrift für Sinnzentrierte Psychologie, Institut für Sinnzentrierte Psychologie.</div></footer>';
   document.getElementById("doc").innerHTML = h;
   document.title = a.titel;
   window.ARTIKEL_BEREIT = true;

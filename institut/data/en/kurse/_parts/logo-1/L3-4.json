@@ -1,0 +1,175 @@
+{
+ "id": "L3-4",
+ "titel": "Modification of Attitudes",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "What Is Modification of Attitudes?",
+   "text": "In logotherapy, **modification of attitudes** means supporting a person in transforming an **unhealthy or meaning-defeating attitude** into a **healthier, meaning-oriented attitude**. The term was coined and systematically elaborated above all by **Elisabeth Lukas**; it builds on Frankl's idea that although a person cannot always change his or her situation, he or she can change his or her attitude toward it.\n\nThe basis is the freedom of the spiritual person to take a stand toward his or her psychophysical and social conditions. Attitudes are not mere thoughts but **stances** expressing how a person relates to himself or herself, to others, and to his or her fate.\n\nTypical initial attitudes that may suggest a modification include:\n\n- **Self-devaluation**: “I've been worthless ever since …”\n- **Fatalism**: “There's nothing that can be done.”\n- **An attitude of entitlement toward life**: “Life owes me …”\n- **Bitterness**: “After what was done to me, I can never trust anyone again.”\n- **Exclusive orientation toward the past**: “The good times are over.”\n\nIt is important that modification of attitudes does **not** mean glossing over a situation. It is not about interpreting the negative positively but about finding an attitude that **helps the person to live meaningfully in his or her situation** – and indeed an attitude that he or she experiences as right."
+  },
+  {
+   "typ": "text",
+   "titel": "A Classic Example from Frankl",
+   "text": "Frankl reported an example that is often cited as a model of modification of attitudes. An elderly physician consulted him because he could not overcome the death of his wife, whom he had loved above all else. He was trapped in severe grief.\n\nFrankl gave him no advice and did not reinterpret the loss. In essence, he asked him a question: What would have happened if not his wife but he himself had died first? The man answered that this would have been terrible for his wife; she would have suffered greatly. Frankl then replied that she had now been spared this suffering – and indeed spared it by him, who had survived at the price of now grieving for her himself.\n\nFrankl reported that the man then left in silence, but more composed. His suffering had gained a meaning: the **suffering of the survivor** as a sacrifice for his beloved wife.\n\nCentral features of modification of attitudes can be read from this example:\n\n- The **situation** was not changed; the wife remained dead, the grief remained.\n- What changed was the **attitude** toward the grief: from meaningless pain to a suffering that expresses a value.\n- The new view was **elicited through questions**, not prescribed – and it tied in with a value that was central to the man himself: his love for his wife.\n\nAt the same time, caution is called for: such turns cannot be transferred schematically. What is fitting in one encounter can seem cynical in another."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which features of modification of attitudes can be shown using Frankl's example of the grieving physician? (Several answers are correct)",
+   "optionen": [
+    "The external situation remained unchanged; what changed was the attitude toward it.",
+    "The new view was stimulated by a question, not prescribed as an interpretation.",
+    "The grief was rejected as inappropriate.",
+    "The new attitude tied in with a central value of the person.",
+    "The example shows that any grief can be resolved with the same question."
+   ],
+   "richtig": [
+    0,
+    1,
+    3
+   ],
+   "erklaerung": "The situation stayed the same, the attitude changed; the turn was elicited through a question and tied in with his love for his wife. The grief was not rejected but gained a meaning. A schematic transfer to other grieving people would be inappropriate."
+  },
+  {
+   "typ": "text",
+   "titel": "Criteria and Procedure",
+   "text": "When should an attitude be modified – and who decides? Here lie the greatest dangers of the method: counselors could set their own ideas of value as the standard. For practice, **guiding criteria** can therefore be formulated:\n\n- An attitude becomes a topic only if it **harms the person himself or herself** or **prevents him or her from perceiving possibilities of meaning** – not because the counselor dislikes it.\n- The **person** has a say in whether he or she wants to work on his or her attitude.\n- The new attitude must feel **right** to the person and tie in with **his or her** values.\n- The new attitude must be **realistic**: it does not deny suffering and promises nothing that cannot be fulfilled.\n\nThe procedure often resembles Socratic dialogue:\n\n1. The unfavorable attitude is **perceived and named** – in the person's own words.\n2. Its **effects** are explored: “What does this thought do to you?”\n3. The **values** involved are made visible.\n4. **Alternatives** are sought together: “Is there another way of looking at it that fits with what is important to you?”\n5. The new attitude is **tried out** and anchored in everyday life.\n\nModification of attitudes must be distinguished from **manipulation** and from mere **positive thinking**. It works only if the person experiences the new view as true and sustainable."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the steps of modification of attitudes in a meaningful order.",
+   "elemente": [
+    "Perceive and name the unfavorable attitude in the person's own words",
+    "Jointly explore the effects of this attitude",
+    "Make the values involved visible",
+    "Jointly search for a fitting alternative attitude",
+    "Try out the new attitude and anchor it in everyday life"
+   ],
+   "erklaerung": "First the attitude is named, then its effect is explored. Values form the bridge to the alternative, which is sought together. At the end comes anchoring in everyday life."
+  },
+  {
+   "typ": "mc",
+   "frage": "In which situation is a modification of attitudes most likely indicated according to the guiding criteria mentioned?",
+   "optionen": [
+    "A client is vegetarian, which the counselor considers unreasonable.",
+    "A client has decided against a career and in favor of part-time work and is satisfied with this.",
+    "After a loss, a client is trapped in the attitude “I must never be happy again” and suffers from it himself.",
+    "A client expresses a political opinion that the counselor does not share."
+   ],
+   "richtig": 2,
+   "erklaerung": "The guiding criterion is that an attitude harms the person himself or herself or prevents him or her from perceiving possibilities of meaning – and that he or she wants to work on it. Lifestyle, career, or political decisions that do not burden the person are no occasion; here the counselor would be making her own ideas of value the standard."
+  },
+  {
+   "typ": "text",
+   "titel": "Distinction from Cognitive Restructuring",
+   "text": "Modification of attitudes is reminiscent of **cognitive restructuring** in cognitive behavioral therapy (CBT). Both work with questions, examine appraisals, and seek more helpful perspectives. There are, however, differences in emphasis:\n\n- **Point of reference**: in CBT, a cognition is often examined for its **appropriateness to reality** and its **functionality** (“What evidence supports it?”). In modification of attitudes, the foreground question is whether an attitude is **meaning-oriented** – whether it enables the person to respond responsibly to the demands of his or her situation.\n- **Object**: CBT is often directed at automatic thoughts and core beliefs. Modification of attitudes relates to the **stance** of the spiritual person, which includes values and responsibility.\n- **The unalterable**: modification of attitudes unfolds its particular strength where nothing more can be changed about the situation – in incurable illness, loss, guilt. A cognition there may well be “realistic” (“I won't get well again”), and yet the attitude toward it can differ.\n\nIn practice, both approaches can be used **complementarily**. It is important not to mix them without knowing their different rationales. For counselors without psychotherapeutic training, it must also be noted that working on cognitions in the case of mental disorders belongs in therapeutic hands."
+  },
+  {
+   "typ": "luecke",
+   "text": "In modification of attitudes, an attitude is examined above all as to whether it is {{meaning-oriented|logically consistent|socially accepted}}. Its particular strength lies in dealing with {{unalterable|easily changeable|imagined}} situations. The concept was elaborated above all by {{Elisabeth Lukas|Carl R. Rogers|Aaron T. Beck}}.",
+   "erklaerung": "The standard of examination is meaning orientation, not primarily logic or social norms. The method is particularly helpful with what is unalterable. Elisabeth Lukas systematized the concept; Rogers stands for client-centered therapy, Beck for cognitive therapy."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Modification of Attitudes in Chronic Illness",
+   "einleitung": "Constructed situation: Ms. S., 39, has been living with multiple sclerosis for three years. She receives good medical care and comes to a psychosocial counseling center. She says she is “only half a mother now.”",
+   "runden": [
+    {
+     "klient": "I can't ride bikes with my kids anymore, can't romp around with them anymore. I'm only half a mother now.",
+     "antworten": [
+      {
+       "text": "You're not half a mother! I'm sure your children love you all the same.",
+       "gut": false,
+       "feedback": "The contradiction is well meant but bypasses the pain and imposes a judgment from outside. The attitude cannot be modified this way."
+      },
+      {
+       "text": "What you used to do with your children is no longer possible – and that hurts you very much.",
+       "gut": true,
+       "feedback": "Good. The counselor acknowledges the real loss. Only on this basis can a different attitude be asked about later."
+      },
+      {
+       "text": "Have you thought about wheelchair sports?",
+       "gut": false,
+       "feedback": "A proposed solution on the level of action comes too early and misses the question that moves Ms. S.: her self-understanding as a mother."
+      }
+     ]
+    },
+    {
+     "klient": "Yes. And when I see the other mothers standing on the sidelines at soccer and running along … then I think I'm a burden to them.",
+     "antworten": [
+      {
+       "text": "When you think that – what does this thought do to you, and what do you do then?",
+       "gut": true,
+       "feedback": "Good. The counselor explores the effects of the attitude. Ms. S. can perceive for herself how the stance “I am a burden” shapes her experience and behavior."
+      },
+      {
+       "text": "That thought is irrational. What evidence do you have for it?",
+       "gut": false,
+       "feedback": "Labeling it “irrational” comes across as devaluing. Moreover, in modification of attitudes the focus is not on logic but on meaning orientation."
+      },
+      {
+       "text": "Other mothers simply have other possibilities. Don't compare yourself.",
+       "gut": false,
+       "feedback": "The advice is understandable, but it moralizes and ends the exploration before Ms. S. recognizes the significance of her attitude."
+      }
+     ]
+    },
+    {
+     "klient": "Then I withdraw. I don't go at all anymore. And in the evenings I'm irritable. I don't really want that at all.",
+     "antworten": [
+      {
+       "text": "Then you should go anyway, even if it's hard.",
+       "gut": false,
+       "feedback": "The call to action skips the step of making the values involved visible. Without an inner connection, the call will hardly hold."
+      },
+      {
+       "text": "That's quite normal with chronic illnesses.",
+       "gut": false,
+       "feedback": "Normalization can relieve, but here it misses the chance to tie in with her wish (“I don't really want that”)."
+      },
+      {
+       "text": "You actually want something different. What is truly important to you as a mother – regardless of whether you can run along?",
+       "gut": true,
+       "feedback": "Good. The counselor takes up the ambivalence and directs the view to the values behind the role of mother. This creates a bridge to a different attitude."
+      }
+     ]
+    },
+    {
+     "klient": "That they know I'm there for them. That I listen. That they can rely on me. Actually, I can still do all of that.",
+     "antworten": [
+      {
+       "text": "You see, then you are a whole mother after all.",
+       "gut": false,
+       "feedback": "The counselor draws the conclusion herself and cuts the insight short. It is better to let Ms. S. formulate her new view in her own words."
+      },
+      {
+       "text": "That sounds as if you're discovering something important right now. How would you describe yourself as a mother if you start from these values?",
+       "gut": true,
+       "feedback": "Good. The counselor acknowledges the discovery and invites Ms. S. to formulate her new attitude herself. In this way it becomes her own."
+      },
+      {
+       "text": "Nice. Then we can now talk about your irritability in the evenings.",
+       "gut": false,
+       "feedback": "The change of topic comes too early. The new stance that is just emerging first needs room and confirmation."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Modification of attitudes means that the counselor prescribes a positive interpretation of the situation that the person seeking help is to adopt.",
+   "richtig": false,
+   "erklaerung": "The new attitude is sought together and must feel right to the person and tie in with his or her values. Prescribed interpretations would be manipulation or mere positive thinking and would hardly hold."
+  },
+  {
+   "typ": "merke",
+   "text": "Modification of attitudes does not change the situation but the stance toward it. It starts with attitudes that harm the person or obstruct meaning, ties in with the person's own values, and lets the person formulate the new view himself or herself."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which attitudes that prevent people from living meaningfully do you encounter particularly often in your field of work? Where, for you, is the line between modification of attitudes and imposing your own values?",
+   "hinweis": "Guiding questions: How do you recognize that a new view is truly the person's own? How do you deal with it when the person does not want to change his or her attitude?"
+  }
+ ]
+}

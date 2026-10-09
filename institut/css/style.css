@@ -433,3 +433,10 @@ html[lang="en"] [data-lang="de"], html[lang="de"] [data-lang="en"] { display: no
 .site-header .nav-toggle { order: 4; }
 @media (max-width: 900px) { .site-header .nav { order: 5; } }
 .lang-note { font-style: italic; }
+@media (min-width: 901px) and (max-width: 1180px) {
+  .site-header .wrap { gap: 14px; }
+  .nav { gap: 4px 12px; }
+  .nav a { font-size: .85rem; }
+  .brand-name { font-size: 1rem; }
+  .brand svg { width: 32px; height: 32px; }
+}

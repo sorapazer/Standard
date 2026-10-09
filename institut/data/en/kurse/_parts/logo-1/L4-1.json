@@ -1,0 +1,126 @@
+{
+ "id": "L4-1",
+ "titel": "Anticipatory Anxiety, Hyperintention, and Hyperreflection",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Anticipatory Anxiety",
+   "text": "The starting point of the logotherapeutic theory of neuroses is a mechanism that Frankl called **anticipatory anxiety**. What is meant is the anxious expectation that an unpleasant symptom will occur (again) – and the fact that precisely this expectation makes the occurrence of the symptom more likely.\n\nFrankl described this as a **vicious circle**:\n\n1. A symptom occurs, such as blushing, trembling, palpitations, or sleeplessness.\n2. The person fears that it could happen again.\n3. This fear produces tension and attention to the symptom.\n4. This actually makes the symptom more likely.\n5. Its renewed occurrence confirms and intensifies the fear.\n\nThe anxiety is increasingly directed no longer at an external danger but at the **anxiety itself** – Frankl spoke of the **“fear of fear.”** It is often accompanied by the apprehension that the anxiety could lead to fainting, a heart attack, or loss of control.\n\nAs the saying goes: whereas the wish is father to the thought, fear is **mother of the event**. Frankl used this phrase to make clear that apprehensions can bring about precisely what is feared.\n\nFor counseling this model is particularly vivid, because many people know the vicious circle from their own experience – for instance as stage fright, as the fear of blushing during a presentation, or as lying awake at night for fear of not sleeping."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the links of the vicious circle of anticipatory anxiety in the correct order.",
+   "elemente": [
+    "A symptom occurs (e.g., blushing during a presentation)",
+    "The person fears that the symptom will occur again",
+    "The fear produces tension and self-observation",
+    "As a result, the symptom is all the more likely to occur again",
+    "The fear is confirmed and intensified"
+   ],
+   "erklaerung": "The circle begins with a symptom that triggers a fear. The associated tension and attention make the symptom more likely, and its occurrence confirms the anxiety. Thus the circle closes."
+  },
+  {
+   "typ": "text",
+   "titel": "Three Faulty Reaction Patterns",
+   "text": "Frankl described several typical reaction patterns with which people respond to their anxieties and symptoms – and which maintain the problem:\n\n- **Flight from fear**: typical of the **anxiety-neurotic** pattern. The person avoids situations in which the anxiety could occur. In the short term this brings relief; in the long term life becomes narrower, and the anxiety persists or grows.\n- **Fight against obsession**: typical of the **obsessive-compulsive** pattern. The person tries with all his or her might to suppress intrusive thoughts or impulses. But precisely the fight increases the pressure.\n- **Fight for pleasure**: typical of the **sexual-neurotic** pattern. The person wants to force arousal, potency, or orgasm by willpower – and thereby prevents them.\n\nAll three patterns have in common that they intensify the problem through a **wrong orientation of the will** and of attention: flight and fight keep the person bound to the symptom.\n\nThe two specific logotherapeutic methods start here:\n\n- **Paradoxical intention** is directed against flight from fear and the fight against obsession.\n- **Dereflection** is directed against the fight for pleasure and, more generally, against excessive self-observation.\n\nThis assignment is a framework for orientation; in practice, the two methods are also combined."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the reaction patterns to the method that Frankl primarily set against them.",
+   "paare": [
+    [
+     "Flight from fear",
+     "Paradoxical intention"
+    ],
+    [
+     "Fight against obsession",
+     "Paradoxical intention (for obsessive thoughts)"
+    ],
+    [
+     "Fight for pleasure",
+     "Dereflection"
+    ]
+   ],
+   "erklaerung": "Flight from fear and the fight against obsessions are interrupted by paradoxical intention, because it invites the person to wish for what is feared instead of avoiding or fighting it. The fight for pleasure is a form of hyperintention, which is met with dereflection."
+  },
+  {
+   "typ": "text",
+   "titel": "Hyperintention: When Willing Prevents",
+   "text": "With **hyperintention**, Frankl denoted the excessive, forced aiming at a state that by its nature can arise **only as a side effect**. Typical examples are:\n\n- **Sleep**: whoever resolves that he or she absolutely must fall asleep now lies awake all the longer.\n- **Sexual arousal and orgasm**: whoever wants to force them by willpower impairs them.\n- **Happiness and relaxation**: whoever strains to be happy or relaxed misses both.\n- **Spontaneity and naturalness**: the demand “Be spontaneous!” is, as is well known, paradoxical in itself.\n\nHyperintention is thus the practical flip side of the logotherapeutic **side-effect thesis** (Module L1): pleasure, happiness, and similar states are consequences of devotion, not goals that can be produced directly.\n\nHyperintention is often combined with **performance pressure**. Frankl described, for instance, sexual disorders in which men experience sexuality as a performance they must “deliver.” The demand – whether experienced as coming from outside or self-imposed – becomes an obstacle.\n\nSignificant for counseling: people caught in hyperintention often try very hard. The advice that they should “just relax” intensifies the hyperintention, because relaxation then becomes the next performance demand. Solutions therefore do not start with even more willing but with a **redirection** of willing."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "The recommendation “Just relax!” is a suitable intervention in hyperintention.",
+   "richtig": false,
+   "erklaerung": "The demand makes relaxation the next directly targeted goal and thereby intensifies the hyperintention. What helps is a redirection of willing, for instance through dereflection or paradoxical intention."
+  },
+  {
+   "typ": "text",
+   "titel": "Hyperreflection: The Eye That Sees Itself",
+   "text": "Closely connected with hyperintention is **hyperreflection**: an excess of **self-observation**. Attention is constantly directed to one's own experience, one's own body, or one's own functioning.\n\nExamples are:\n\n- the person with sleep problems who constantly checks in the evening whether he or she is tired yet,\n- the man who constantly observes during intercourse whether his erection is lasting,\n- the speaker who monitors during her presentation whether her voice is trembling,\n- the person with health anxieties who continually listens inwardly to his or her body.\n\nHyperreflection disrupts natural processes that succeed only when undisturbed. Frankl connected it with his image of the **eye**: the healthy eye does not see itself but the world. Whoever constantly looks at himself or herself loses sight of what actually matters – the conversation partner, the task, the beloved person.\n\nHyperintention and hyperreflection reinforce each other: whoever wants to force something observes himself or herself more closely to see whether it is succeeding; whoever observes himself or herself notices every failure and wants it all the more. Frankl also saw hyperreflection as a phenomenon of the times, fostered by a widespread tendency toward self-analysis.\n\nThe remedy is not suppressing self-observation – that would again be a fight – but turning toward something else: **dereflection**."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the examples to the mechanism that is in the foreground in each.",
+   "kategorien": [
+    "Anticipatory anxiety",
+    "Hyperintention",
+    "Hyperreflection"
+   ],
+   "elemente": [
+    {
+     "text": "Days before the parents' evening, a teacher already fears blushing again.",
+     "kat": 0
+    },
+    {
+     "text": "A student avoids exams because he is afraid of another blackout.",
+     "kat": 0
+    },
+    {
+     "text": "A man firmly resolves that tonight he absolutely must sleep eight hours.",
+     "kat": 1
+    },
+    {
+     "text": "On vacation, a woman strains to finally be happy.",
+     "kat": 1
+    },
+    {
+     "text": "During his performance, a singer incessantly pays attention to whether his voice is trembling.",
+     "kat": 2
+    },
+    {
+     "text": "Several times a day, a woman listens inwardly to her body to check whether her heart is beating irregularly.",
+     "kat": 2
+    }
+   ],
+   "erklaerung": "Anticipatory anxiety is directed at the feared recurrence of a symptom and often leads to avoidance. Hyperintention is the forced aiming at a state that arises only as a side effect. Hyperreflection is excessive self-observation. In practice, the three mechanisms often occur together."
+  },
+  {
+   "typ": "luecke",
+   "text": "Frankl called the excessive aiming at a state that arises only as a side effect {{hyperintention|hyperreflection|anticipatory anxiety}}. Excessive self-observation is called {{hyperreflection|self-distancing|self-transcendence}}. He termed the fear of a symptom's recurrence {{anticipatory anxiety|phobia|realistic fear}}.",
+   "erklaerung": "Hyperintention, hyperreflection, and anticipatory anxiety are the three basic concepts of the logotherapeutic theory of neuroses at which paradoxical intention and dereflection are aimed. Self-distancing and self-transcendence, by contrast, are the human capacities these methods make use of."
+  },
+  {
+   "typ": "mc",
+   "frage": "A man reports that he lies awake for hours at night because he forces himself “with all his might” to fall asleep and keeps checking whether he is getting tired. Which mechanisms are most likely present?",
+   "optionen": [
+    "Exclusively anticipatory anxiety",
+    "A noogenic neurosis",
+    "Hyperintention and hyperreflection, which reinforce each other",
+    "An existential vacuum"
+   ],
+   "richtig": 2,
+   "erklaerung": "The forced wanting to fall asleep is hyperintention; the constant checking for tiredness is hyperreflection. Anticipatory anxiety may be added, but it does not explain the description on its own. There are no indications of a noogenic neurosis or an existential vacuum. Sleep problems should also be medically evaluated."
+  },
+  {
+   "typ": "merke",
+   "text": "Anticipatory anxiety: fear becomes the mother of what is feared. Hyperintention: what arises only as a side effect eludes direct willing. Hyperreflection: excessive self-observation disrupts what would succeed undisturbed."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Do you know from your own experience a vicious circle of anticipatory anxiety or a situation of hyperintention (e.g., falling asleep before an important day)? What helped at the time – and what made it worse?",
+   "hinweis": "Guiding questions: What role did attention to the symptom play? Was there a moment when humor or turning toward something else interrupted the circle?"
+  }
+ ]
+}

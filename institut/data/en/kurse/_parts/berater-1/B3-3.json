@@ -1,0 +1,251 @@
+{
+ "id": "B3-3",
+ "titel": "Motivational Interviewing",
+ "dauer": 40,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "What Is Motivational Interviewing?",
+   "text": "**Motivational interviewing (MI)**, in German also **motivierende Gesprächsführung**, was developed by **William R. Miller** and **Stephen Rollnick**. Miller described its first outlines in 1983 in the context of treating alcohol problems; in 1991 their joint foundational work appeared, which has since been revised several times. Today MI is used in addiction services, medicine, social work, probation services, schools, and many other fields and is well researched through numerous studies.\n\nMiller and Rollnick describe MI, in essence, as a **collaborative, goal-oriented style of communication** that strengthens a person’s **own motivation** and **commitment to change** by exploring their own reasons for change – in an atmosphere of acceptance and compassion.\n\nThe approach builds on Rogers’ person-centered attitude but is **deliberately directional**: the counselor listens especially attentively for statements that point toward change and reinforces them.\n\nThe starting point is a phenomenon that every professional knows: people are often **ambivalent**. They want to change and at the same time do not. Anyone who is pressured in this situation will usually defend the side of not changing. Miller and Rollnick call helpers’ impulse to correct problems immediately the **righting reflex**. Consciously holding it back is one of the most important learning tasks in MI."
+  },
+  {
+   "typ": "text",
+   "titel": "The Spirit of MI",
+   "text": "Miller and Rollnick emphasize that MI is above all an **attitude**, which they call the **spirit** of MI. In the third edition of their foundational work, they describe four elements:\n\n- **Partnership:** MI is done *with* the person, not *to* them. The counselor contributes expertise; the client is the expert on their own life.\n- **Acceptance:** it encompasses the absolute worth of the person, accurate empathy, recognition of their **autonomy** – they decide for themselves – and **affirmation** of their strengths and efforts.\n- **Compassion:** the counselor actively promotes the client’s welfare and places the client’s interests above their own.\n- **Evocation:** motivation is not installed from outside but **evoked**. The assumption is that people already carry within them reasons, values, and abilities for change.\n\nThis attitude clearly distinguishes MI from **confrontational** approaches that were long widespread in addiction services. Miller himself observed that a confrontational style can tend to go along with counterarguments and poorer outcomes.\n\nAt the same time, MI is **not arbitrary**: the counselor has a direction in view, for example a healthier relationship with alcohol. They pursue it, however, by evoking the person’s reasons, not by transferring their own reasons."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the elements of the MI spirit with the corresponding counselor attitude.",
+   "paare": [
+    [
+     "Partnership",
+     "“You know your life best – let’s think about it together.”"
+    ],
+    [
+     "Acceptance (autonomy)",
+     "“Whether and what you change is ultimately your decision.”"
+    ],
+    [
+     "Evocation",
+     "“What would be good reasons for you yourself to change something?”"
+    ],
+    [
+     "Compassion",
+     "The counselor aligns her actions with the client’s welfare, not with her own sense of success."
+    ]
+   ],
+   "erklaerung": "Partnership emphasizes collaboration, acceptance emphasizes, among other things, the person’s autonomy, evocation the eliciting of their own reasons, and compassion the orientation toward the person’s welfare."
+  },
+  {
+   "typ": "text",
+   "titel": "The Basic Techniques: OARS",
+   "text": "The core communication skills of MI are summarized in English by the acronym **OARS**:\n\n- **O – Open questions:** they invite exploration. “What concerns you about your drinking – if anything?”\n- **A – Affirmations:** honest recognition of the person’s strengths, values, and efforts – not blanket praise. “Despite everything, you managed to come here today. That shows that your family is important to you.”\n- **R – Reflections (reflective listening):** the central tool. A distinction is made between **simple reflections**, which restate what has been said, and **complex reflections**, which add meaning, feelings, or unspoken aspects. An important form is the **double-sided reflection**, which brings together both sides of an ambivalence: “On the one hand, smoking relaxes you; on the other hand, you are worried about your lungs.”\n- **S – Summaries:** they bundle what has been said, highlight statements about change, and provide transitions. A **collecting summary** can gather together all the reasons for change the person has mentioned.\n\nIn the German-speaking world, the skills are sometimes also described with the German terms *offene Fragen*, *Würdigen*, *Reflektierendes Zuhören*, and *Zusammenfassen*. In addition, there is **informing and advising with permission**: professional information is offered, not imposed – for example following the pattern **elicit – provide – elicit** (“What do you already know about …? May I tell you something about it? … What do you think about that?”)."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Which OARS technique does each statement correspond to?",
+   "kategorien": [
+    "Open question",
+    "Affirmation",
+    "Reflection",
+    "Summary"
+   ],
+   "elemente": [
+    {
+     "text": "“What would your life look like if you drank less?”",
+     "kat": 0
+    },
+    {
+     "text": "“You took care of your children during a very difficult time. That shows a great sense of responsibility.”",
+     "kat": 1
+    },
+    {
+     "text": "“You’re tired of constantly being spoken to about it.”",
+     "kat": 2
+    },
+    {
+     "text": "“Let me pull this together: you sleep badly, your wife is worried, and you want to stay fit for your grandchildren. At the same time, the after-work beer is an important ritual for you. Have I left anything out?”",
+     "kat": 3
+    },
+    {
+     "text": "“What helped in earlier attempts, even if only briefly?”",
+     "kat": 0
+    },
+    {
+     "text": "“On the one hand, gaming in the evening helps you switch off; on the other hand, you’re annoyed about the lost hours.”",
+     "kat": 2
+    }
+   ],
+   "erklaerung": "Open questions invite exploration, affirmations recognize concrete strengths, reflections mirror – the last one as a double-sided reflection – and summaries bundle several aspects, often highlighting the reasons for change."
+  },
+  {
+   "typ": "text",
+   "titel": "Ambivalence, Change Talk, and Sustain Talk",
+   "text": "In MI, ambivalence is **not an obstacle but a normal part of change**. In ambivalent people, two voices speak, as it were: one for change and one against it.\n\nStatements that point toward change are called **change talk**. Statements in favor of the status quo are called **sustain talk**. Miller and Rollnick summarize forms of change talk with the acronym **DARN-CAT**:\n\n**Preparatory change talk (DARN):**\n- **Desire:** “I’d like to be fitter again.”\n- **Ability:** “I could probably smoke less.”\n- **Reasons:** “If I drink less, I sleep better.”\n- **Need:** “I have to change something; it can’t go on like this.”\n\n**Mobilizing change talk (CAT):**\n- **Commitment:** “Starting Monday, I won’t drink any more alcohol.”\n- **Activation:** “I’m willing to give it a try.”\n- **Taking steps:** “This week I’ve already gone without beer twice.”\n\nResearch findings suggest that it is in particular the strength of change talk in the conversation that is associated with later change. This yields the core strategy of MI: **evoke, pick up on, and reinforce change talk**, and reflect sustain talk respectfully without arguing against it.\n\nTo be distinguished from sustain talk is **discord** in the relationship – a sign that the collaboration has been disrupted, for example by the counselor’s pushing. Earlier editions spoke of “resistance” here; Miller and Rollnick now emphasize that discord is a relational phenomenon in which both sides are involved."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Is this change talk or sustain talk?",
+   "kategorien": [
+    "Change talk",
+    "Sustain talk"
+   ],
+   "elemente": [
+    {
+     "text": "“I don’t want my daughter to see me like this.”",
+     "kat": 0
+    },
+    {
+     "text": "“I can’t stand it without the cigarette after a meal.”",
+     "kat": 1
+    },
+    {
+     "text": "“Yesterday, for the first time in months, I didn’t gamble.”",
+     "kat": 0
+    },
+    {
+     "text": "“Everyone in my circle of friends drinks this much; it’s normal.”",
+     "kat": 1
+    },
+    {
+     "text": "“If I make an effort, maybe I’ll manage to switch off earlier in the evening.”",
+     "kat": 0
+    },
+    {
+     "text": "“I simply don’t have time to look after my health.”",
+     "kat": 1
+    },
+    {
+     "text": "“Next week I’ll make the appointment at the addiction counseling center.”",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Change talk shows desire, ability, reasons, need, commitment, activation, or first steps toward change. Sustain talk gives reasons why everything should stay the same. Both forms are normal in the experience of ambivalence."
+  },
+  {
+   "typ": "text",
+   "titel": "Evoking Change Talk and the Process of MI",
+   "text": "How can change talk be **evoked**? MI uses targeted questions and techniques for this:\n\n- **Evocative questions:** “From your point of view, what speaks in favor of changing something?” – “What would be the best thing about it?”\n- **Importance and confidence rulers:** “On a scale of 0 to 10, how important is it to you to change something?” If the person says, for example, 4, the follow-up question is: “Why a 4 and not a 1?” – The answer almost always contains change talk. The reverse question (“Why not an 8?”), by contrast, would evoke sustain talk.\n- **Looking back and looking forward:** “What was it like before drinking took up so much space?” – “What do you want your life to look like in five years?”\n- **Exploring values:** “What is especially important to you in life? How does your use fit with that?”\n- **Querying extremes:** “What is the worst thing that could happen if everything stays the same?”\n\nMiller and Rollnick also describe four **processes** that build on one another and overlap:\n\n1. **Engaging:** establishing a sound working relationship\n2. **Focusing:** finding a shared direction\n3. **Evoking:** eliciting the person’s own reasons for change\n4. **Planning:** developing a concrete change plan when there is sufficient readiness\n\nIf planning begins too early, before the ambivalence has been sufficiently worked through, sustain talk often arises. Signs of readiness for planning include increasing mobilizing change talk, questions about how, and a decrease in sustain talk."
+  },
+  {
+   "typ": "mc",
+   "frage": "A client rates the importance of quitting smoking at 3 out of 10. Which follow-up question is most likely to evoke change talk?",
+   "optionen": [
+    "“Why only a 3 and not an 8?”",
+    "“What would have to happen for you to get to 10?”",
+    "“What makes you a 3 and not a 0?”",
+    "“Don’t you think 3 is a bit low, given the health risks?”"
+   ],
+   "richtig": 2,
+   "erklaerung": "Asking about the distance from the lower value leads the client to name his own reasons for change. Asking about a higher value invites him to list reasons against change. A jump to 10 is overwhelming, and option 4 is a confrontation that creates discord."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Arrange the four processes of motivational interviewing in their typical sequence.",
+   "elemente": [
+    "Engaging",
+    "Focusing",
+    "Evoking",
+    "Planning"
+   ],
+   "erklaerung": "The processes build on one another: without a relationship there is no shared focus, without a focus no targeted evocation, and without sufficient readiness for change no sustainable planning. In practice, one often moves back and forth between the processes."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Ambivalence About Alcohol",
+   "einleitung": "Constructed situation: Mr. F., 45, comes to counseling at the urging of his partner. By his own account, he drinks several bottles of beer every evening.",
+   "runden": [
+    {
+     "klient": "“My wife is exaggerating. I don’t drink any more than my colleagues. I’m only here so she’ll leave me alone.”",
+     "antworten": [
+      {
+       "text": "“But several bottles every evening is well above the recommended limits. You have an alcohol problem.”",
+       "gut": false,
+       "feedback": "Confrontation and labeling usually provoke pushback. Mr. F. will now tend to argue why he has no problem."
+      },
+      {
+       "text": "“You’re here because your wife wanted it, and from your point of view your drinking is perfectly normal.”",
+       "gut": true,
+       "feedback": "The simple reflection takes his view seriously without agreeing or disagreeing. This reduces discord and invites him to keep talking."
+      },
+      {
+       "text": "“Why do you think your wife is exaggerating?”",
+       "gut": false,
+       "feedback": "The why-question invites him to further justify the position of not changing – that is, sustain talk."
+      }
+     ]
+    },
+    {
+     "klient": "“Exactly. Well … sometimes I’m pretty wiped out in the mornings. But that’s because of work.”",
+     "antworten": [
+      {
+       "text": "“There you go – that comes from the alcohol.”",
+       "gut": false,
+       "feedback": "The righting reflex: the counselor takes over the argument for change – Mr. F. will argue the other side."
+      },
+      {
+       "text": "“How many hours a week do you work, then?”",
+       "gut": false,
+       "feedback": "The factual question misses the emerging change talk and steers toward work as the explanation."
+      },
+      {
+       "text": "“You don’t like being wiped out in the mornings. What else do you notice then?”",
+       "gut": true,
+       "feedback": "The response selectively picks up on the change talk (dissatisfaction with morning exhaustion) and invites deeper exploration with an open question."
+      }
+     ]
+    },
+    {
+     "klient": "“I can’t concentrate. And I hardly play soccer with my son on weekends anymore because I’m so worn out. We always used to do that.”",
+     "antworten": [
+      {
+       "text": "“Time with your son is very important to you, and you miss playing soccer together.”",
+       "gut": true,
+       "feedback": "The complex reflection highlights the value behind the statement – a strong personal reason for change."
+      },
+      {
+       "text": "“Then you should simply drink less during the week.”",
+       "gut": false,
+       "feedback": "Premature advice skips over evocation. Mr. F. has not yet formulated for himself what he wants to change."
+      },
+      {
+       "text": "“Many fathers have little time for their children; that’s normal.”",
+       "gut": false,
+       "feedback": "The normalization devalues his change talk and takes away an important reason for change."
+      }
+     ]
+    },
+    {
+     "klient": "“Yes. I really miss that. Maybe I should see whether I can manage a few evenings during the week without beer.”",
+     "antworten": [
+      {
+       "text": "“Great – then let’s make a strict abstinence plan for the next three months right now.”",
+       "gut": false,
+       "feedback": "This is overwhelming and overrides his autonomy. A plan should be developed together and at Mr. F.’s pace."
+      },
+      {
+       "text": "“You’re thinking about trying a few evenings without beer – partly to be fitter for your son again. What might a first step look like that is quite doable for you?”",
+       "gut": true,
+       "feedback": "The summary links the change talk with his value and gently leads into planning – with respect for his decision."
+      },
+      {
+       "text": "“Well, will that work? You haven’t managed it so far, after all.”",
+       "gut": false,
+       "feedback": "Doubts about his ability weaken his confidence and thus his readiness for change."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "In motivational interviewing, it is the counselor’s task to present the most convincing arguments possible for change.",
+   "richtig": false,
+   "erklaerung": "MI aims to evoke the person’s own reasons. If the counselor argues for change, the ambivalent person often takes the other side (righting reflex). Professional information is offered with permission, not used as a means of persuasion."
+  },
+  {
+   "typ": "merke",
+   "text": "People are more likely to be persuaded by what they themselves say than by what others tell them. That is why MI listens attentively for change talk – and holds back the righting reflex."
+  }
+ ]
+}

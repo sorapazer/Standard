@@ -1,0 +1,107 @@
+{
+ "titel": "Solution and Resource Orientation",
+ "beschreibung": "Instead of analyzing problems down to their causes, solution- and resource-oriented approaches ask: What should be there instead, what already works, and what can a person draw on? The module presents solution-focused brief counseling according to Steve de Shazer and Insoo Kim Berg with its central questioning techniques, supplements it with systemic methods such as circular questioning and reframing, and provides tools for resource analysis and goal clarification.",
+ "lernziele": [
+  "You can explain the basic assumptions of solution-focused brief counseling according to de Shazer and Kim Berg.",
+  "You can formulate the miracle question, scaling questions, exception questions, and coping questions appropriately for the situation.",
+  "You can use circular questions and reframing as systemic interventions.",
+  "You can carry out a resource analysis in a structured way.",
+  "You can develop well-formulated, verifiable goals together with clients."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "Which basic assumption is characteristic of solution-focused brief counseling?",
+   "optionen": [
+    "Solutions always presuppose a complete analysis of the causes of the problem.",
+    "The counselor knows best what is right for the client.",
+    "Problems always occur with the same intensity.",
+    "Solutions need not necessarily be derived from a precise analysis of the problem."
+   ],
+   "richtig": 3,
+   "erklaerung": "The approach assumes that solutions can often be developed independently of a detailed analysis of causes. The client is regarded as the expert on their life, and problems fluctuate in intensity – exceptions are the starting point."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which questions are typical exception questions? (Multiple answers possible)",
+   "optionen": [
+    "“When was the problem less severe recently?”",
+    "“How long has the problem existed?”",
+    "“What did you do differently on the day when things went better?”",
+    "“Who is to blame for the situation?”",
+    "“Were there moments when you were able to handle the situation well?”"
+   ],
+   "richtig": [
+    0,
+    2,
+    4
+   ],
+   "erklaerung": "Exception questions look for times when the problem was weaker or was handled better, and for one’s own contributions to this. Questions about duration and blame belong to problem talk."
+  },
+  {
+   "typ": "mc",
+   "frage": "A client rates her situation at 2. Which follow-up question is most helpful in the solution-focused sense?",
+   "optionen": [
+    "“What has contributed to your being at 2 and not at 0?”",
+    "“Why aren’t you further along?”",
+    "“What would have to happen for you to be at 10 tomorrow?”",
+    "“Isn’t 2 a sign that you urgently need therapy?”"
+   ],
+   "richtig": 0,
+   "erklaerung": "Asking about the distance from 0 acknowledges what has already been achieved and makes resources visible. Why-questions lead into problem analysis, and the jump to 10 is overwhelming. A low value should indeed draw attention and, if appropriate, prompt a careful inquiry about distress and danger, but on its own it is not an indication for therapy."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Circular questioning was developed in family therapy by the Milan group around Mara Selvini Palazzoli.",
+   "richtig": true,
+   "erklaerung": "In 1980, the Milan group described hypothesizing, circularity, and neutrality as guidelines. Since then, circular questioning has been a core element of systemic counseling and therapy."
+  },
+  {
+   "typ": "mc",
+   "frage": "What characterizes reframing?",
+   "optionen": [
+    "The facts of a situation are changed.",
+    "A behavior or a situation is given a new frame of meaning.",
+    "A problem is analyzed until the cause has been established.",
+    "The counselor adopts the client’s point of view without adding anything."
+   ],
+   "richtig": 1,
+   "erklaerung": "In reframing, the facts remain the same; what changes is their meaning. This can open up new feelings and options for action, provided the offer is plausible for the person."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Reframing is also suitable for positively reinterpreting violence in a partnership in order to stabilize the relationship.",
+   "richtig": false,
+   "erklaerung": "Reframing must not justify harmful behavior or gloss over suffering. In the case of violence, protection and clarification of responsibility take priority; a positive reinterpretation would be professionally and ethically indefensible."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which features characterize a well-formulated goal in the solution-focused sense? (Multiple answers possible)",
+   "optionen": [
+    "Formulated positively (presence of what is desired)",
+    "Directed at the behavior of other persons",
+    "Small and concrete",
+    "Within one’s own sphere of influence",
+    "As comprehensive and long-term as possible"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Well-formed goals are formulated positively, small, concrete, and within one’s own sphere of influence. Goals directed at the behavior of others or that are very comprehensive are poorly suited as action-guiding steps."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which components make up Aaron Antonovsky’s sense of coherence?",
+   "optionen": [
+    "Autonomy, competence, and relatedness",
+    "Selection, optimization, and compensation",
+    "Comprehensibility, manageability, and meaningfulness",
+    "Empathy, regard, and congruence"
+   ],
+   "richtig": 2,
+   "erklaerung": "Antonovsky described the sense of coherence as the core of salutogenesis, with the components comprehensibility, manageability, and meaningfulness. The other triads come from self-determination theory, the SOC model, and the person-centered approach."
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "id": "B4-2",
+ "titel": "The Miracle Question, Scaling, and Exceptions",
+ "dauer": 40,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "The Miracle Question",
+   "text": "The **miracle question** is probably the best-known intervention of the solution-focused approach. It is attributed to the circle around de Shazer and Kim Berg and runs, in essence:\n\n*“I would like to ask you a somewhat unusual question. Suppose you go home tonight, go to bed, and fall asleep. While you are sleeping, a miracle happens – and the problem that brought you here is solved. Because you were asleep, you don’t know that the miracle has happened. What would be the first thing you would notice tomorrow morning that tells you something has changed?”*\n\nThe question aims to obtain a **concrete, detailed description of a desired future**. Important points are:\n\n- Ask it **slowly and with pauses** – the person needs time to imagine themselves into the scenario.\n- **The miracle relates to the problem, not to the impossible.** If someone answers, “My late husband would be back,” this is acknowledged respectfully, and then one asks what would be different then and what of that might be possible to some small degree even without him.\n- **Ask about observable differences:** “What would you do differently first? Who else would notice? By what?”\n- **Inquire about interactions:** “When your partner notices – how would he react? And what would you do then?”\n\nThe answers often provide astonishingly concrete images that serve as **orientation for goals**. It also often turns out that parts of the “miracle” already occur occasionally – a bridge to exception questions."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which follow-up questions after the miracle question are helpful? (Multiple answers possible)",
+   "optionen": [
+    "“What would you do differently first on the morning after the miracle?”",
+    "“Why hasn’t the miracle happened so far?”",
+    "“Who in your family would notice the difference first – and by what?”",
+    "“When was there already a day on which a small piece of this miracle happened?”",
+    "“Do you really believe such a miracle is realistic?”"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Helpful are questions about one’s own concrete behavior, about perception by others, and about parts of the miracle already experienced. The why-question leads back into problem analysis; the reality check devalues the imagined scenario and breaks off the process."
+  },
+  {
+   "typ": "text",
+   "titel": "Scaling Questions",
+   "text": "**Scaling questions** make differences visible and measurable. Typically, a scale from **0 to 10** is offered:\n\n*“On a scale of 0 to 10, where 10 means the miracle has happened and 0 the moment when things were at their worst – where are you today?”*\n\nThe number itself is less important than the **conversations it opens up**:\n\n- **Acknowledging what has been achieved:** “You say 3. What is already there that makes it a 3 and not a 0?” This question directs attention to existing resources and what has been achieved so far.\n- **The next small step:** “How would you notice that you are at 4?” – not at 10! Small, concrete steps are easier to imagine and to implement.\n- **Goal clarification:** “At what number would you be satisfied enough to end the counseling?” People often name not 10 but 7 or 8.\n- **Tracking progress:** in follow-up sessions, scaling can be repeated: “Where are you today compared with last time?”\n\nScales can be used in many ways: for confidence (“How confident are you that something can change?”), motivation (“How much are you willing to do for it?”), or for assessment by others (“Where would your colleague say you are?”).\n\nWith children, scales can be represented with pictures, stairs, or movement in the room. In **crises**, it should be borne in mind that a very low number can be a reason to ask carefully about hopelessness and suicidal thoughts (cf. Module B2)."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Arrange the steps of a typical process of working with the scaling question in a sensible order.",
+   "elemente": [
+    "Explaining the scale and defining the end points",
+    "Asking for the current value",
+    "Exploring what is already there that keeps it from being lower",
+    "Asking about features of the next higher value",
+    "Agreeing on a small next step"
+   ],
+   "erklaerung": "First the scale is introduced, then the current state is asked about. The question about what has already been achieved acknowledges resources before attention turns to the next step, from which a concrete agreement emerges."
+  },
+  {
+   "typ": "text",
+   "titel": "Exception Questions",
+   "text": "No problem occurs **always** and with the same intensity. **Exceptions** are times when the problem occurs less severely, less often, or not at all – or when the person was able to cope with it better. Solution-focused counseling systematically searches for such exceptions because they already contain **parts of the solution**.\n\nTypical **exception questions**:\n\n- “When was the problem a bit less severe recently?”\n- “Were there days when you got along better with your son? What was different then?”\n- “What did you do differently on that day?”\n- “Who contributed to it? How did you manage that?”\n\nOnce an exception has been found, it is **explored in detail**: What happened before, what during, what afterward? Who was involved? What did the person themselves contribute? The aim is to recognize patterns that can be **repeated** – entirely in the spirit of the guiding principle “If something works, do more of it.”\n\nA distinction is made between **deliberate** exceptions, which arose through one’s own actions, and **random** ones, which occurred without any discernible contribution of one’s own. In the case of deliberate exceptions, the person can be encouraged to do what helped more often and consciously. In the case of random exceptions, an **observation or prediction task** is suitable: “Until next time, pay attention to when things go better and what is different then.”\n\nMany clients do not notice exceptions at first because the problem dominates their perception. Patient inquiry is therefore often necessary."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the questions to the appropriate questioning technique.",
+   "kategorien": [
+    "Miracle question",
+    "Scaling question",
+    "Exception question"
+   ],
+   "elemente": [
+    {
+     "text": "“Suppose the problem were solved overnight – how would you notice it in the morning?”",
+     "kat": 0
+    },
+    {
+     "text": "“Where are you today between 0 and 10?”",
+     "kat": 1
+    },
+    {
+     "text": "“When was it a little better in the past few weeks?”",
+     "kat": 2
+    },
+    {
+     "text": "“What would be different at 5 compared with 4 now?”",
+     "kat": 1
+    },
+    {
+     "text": "“What did you do differently on the evening when there was no argument?”",
+     "kat": 2
+    },
+    {
+     "text": "“If the miracle had happened – who would notice it first?”",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "The miracle question sketches a desired future, the scaling question makes differences and steps measurable, and the exception question looks for times when the problem was weaker and for what contributed to that."
+  },
+  {
+   "typ": "text",
+   "titel": "Coping Questions and Compliments",
+   "text": "Exceptions cannot always be found, and sometimes the situation is so grave that miracle questions could seem cynical – for example after a death or in the case of serious illness. For such situations, the solution-focused approach developed **coping questions**.\n\nThey acknowledge **what the person achieves despite everything** and thereby make hidden resources visible:\n\n- “How do you manage to get up in the morning with all of this?”\n- “What helps you not to give up completely?”\n- “How have you managed to keep things from getting even worse?”\n- “Who or what gives you support during this time?”\n\nCoping questions often bring **relief**: the person experiences that their perseverance is seen. At the same time, the implicit message is conveyed that they have strengths – even if they feel powerless right now.\n\nClosely connected are **compliments**. Solution-focused counselors often give brief feedback at the end of a conversation that begins with honest acknowledgment and then leads into a suggestion. A distinction is made between:\n\n- **direct compliments:** “I find it impressive how clearly you name your goals.”\n- **indirect compliments** in question form: “How did you manage that?” – they invite the person to formulate their own strengths.\n- **self-compliments:** when the person names their own achievements; these are picked up and reinforced.\n\nIndirect compliments are considered particularly effective because the person expresses their strengths **themselves**."
+  },
+  {
+   "typ": "fall",
+   "titel": "Caregiving and Exhaustion",
+   "fall": "Constructed teaching vignette: Ms. R., 59, is caring for her husband after a stroke. She seems exhausted and says: “There’s nothing that’s going better. Every day is equally bad. I don’t need a miracle question – my husband won’t get well again.”",
+   "frage": "Which question is most appropriate in this situation?",
+   "optionen": [
+    "“How do you manage to be there for your husband day after day, even though it is so hard?”",
+    "“Imagine a miracle happens anyway – how would you notice it?”",
+    "“On a scale of 0 to 10: how quickly would you like to be at 10?”",
+    "“You absolutely must think more about yourself and be more positive.”"
+   ],
+   "richtig": 0,
+   "erklaerung": "The coping question acknowledges Ms. R.’s achievement and opens access to her resources without denying what cannot be changed. She expressly rejected the miracle question; repeating it would override her. The jump to 10 is unrealistic, and advice about positive thinking comes across as devaluing."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Scaling and Small Steps",
+   "einleitung": "Constructed situation: Mr. P., 33, an early childhood educator, comes to counseling because he feels increasingly overwhelmed at work. In the first conversation, he answered the miracle question: after the miracle, he would go to work in the morning well rested and looking forward to it.",
+   "runden": [
+    {
+     "klient": "“If 10 is the miracle … then today I’m maybe at 3.”",
+     "antworten": [
+      {
+       "text": "“Only 3? That’s pretty low.”",
+       "gut": false,
+       "feedback": "Judging the number as “low” reinforces the problem focus and can be discouraging."
+      },
+      {
+       "text": "“What is already there that puts you at 3 and not at 0?”",
+       "gut": true,
+       "feedback": "The question directs attention to existing resources and what has already been achieved – a core step in working with scales."
+      },
+      {
+       "text": "“What would you have to do to get to 10?”",
+       "gut": false,
+       "feedback": "The jump to 10 is too big. Solution-focused counseling asks about the next small step."
+      }
+     ]
+    },
+    {
+     "klient": "“Well … I really like the children in my group. And I get along well with my colleague Anna.”",
+     "antworten": [
+      {
+       "text": "“So your relationship with the children and with Anna sustains you. How would you notice that you are at 4?”",
+       "gut": true,
+       "feedback": "The resources are summarized and acknowledged; then comes the question about the next small step on the scale."
+      },
+      {
+       "text": "“And what about the other colleagues? Are there conflicts there?”",
+       "gut": false,
+       "feedback": "The question leads back into searching for problems instead of picking up on the resources mentioned."
+      },
+      {
+       "text": "“That’s nice. But obviously it isn’t enough.”",
+       "gut": false,
+       "feedback": "Devaluing the resources is discouraging and contradicts the solution-focused attitude."
+      }
+     ]
+    },
+    {
+     "klient": "“At 4 … I might leave work on time once a week instead of always catching up on documentation.”",
+     "antworten": [
+      {
+       "text": "“That’s too little; you should leave on time every day.”",
+       "gut": false,
+       "feedback": "The counselor overrides the achievable goal Mr. P. chose himself and imposes his own unrealistic standard."
+      },
+      {
+       "text": "“Why haven’t you managed that so far?”",
+       "gut": false,
+       "feedback": "The why-question leads back into problem analysis and can create pressure to justify oneself."
+      },
+      {
+       "text": "“Was there a day recently when you already managed it? What was different then?”",
+       "gut": true,
+       "feedback": "The exception question looks for parts of the desired state that have already been experienced – and thus for clues as to how the step can succeed."
+      }
+     ]
+    },
+    {
+     "klient": "“Once, yes. Anna had offered to take over the parent meeting, and I did the documentation in the morning during rest time.”",
+     "antworten": [
+      {
+       "text": "“Interesting. You accepted support and used the rest time. How could you repeat a small piece of that next week?”",
+       "gut": true,
+       "feedback": "The exception is acknowledged precisely; his own contributions are named, followed by an invitation to repeat what works – “more of it.”"
+      },
+      {
+       "text": "“That was surely just a coincidence.”",
+       "gut": false,
+       "feedback": "The exception is devalued even though it contains important clues to possible solutions."
+      },
+      {
+       "text": "“But you can’t always rely on Anna.”",
+       "gut": false,
+       "feedback": "The judgment steers toward a possible problem instead of acknowledging support as a resource and his own actions."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "With the scaling question, it is generally more helpful to ask about features of the next higher value than about what would be needed to reach 10.",
+   "richtig": true,
+   "erklaerung": "Small steps are easier to imagine, more concrete, and more likely to be implemented. The question about 10 invites emphasis on the great distance to the goal and can be discouraging. Moreover, many people would already be satisfied with a value below 10."
+  },
+  {
+   "typ": "merke",
+   "text": "What matters is not the number on the scale but the question of what already sustains it – and what the next small step would be."
+  },
+  {
+   "typ": "karten",
+   "titel": "Flashcards: Solution-Focused Questions",
+   "karten": [
+    {
+     "vorne": "Miracle question",
+     "hinten": "Sketching a concrete, observable desired future: “How would you notice tomorrow morning that the miracle has happened?”"
+    },
+    {
+     "vorne": "Scaling question",
+     "hinten": "0–10 scale; questions about what has already been achieved (“Why 3 and not 0?”) and about the next small step (“How would you notice 4?”)."
+    },
+    {
+     "vorne": "Exception question",
+     "hinten": "Search for times when the problem was weaker and for what the person contributed to that."
+    },
+    {
+     "vorne": "Coping question",
+     "hinten": "Acknowledges perseverance in difficult situations: “How do you manage despite everything …?”"
+    },
+    {
+     "vorne": "Indirect compliment",
+     "hinten": "Acknowledgment in question form (“How did you manage that?”) that lets the person name their strengths themselves."
+    }
+   ]
+  }
+ ]
+}

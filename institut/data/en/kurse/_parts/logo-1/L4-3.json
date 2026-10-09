@@ -1,0 +1,180 @@
+{
+ "id": "L4-3",
+ "titel": "Dereflection: Turning Away and Turning Toward",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "The Principle of Dereflection",
+   "text": "**Dereflection** is the second specific method of logotherapy. It is directed against **hyperreflection** and **hyperintention** and is grounded in the capacity for **self-transcendence**.\n\nThe principle can be described in two movements:\n\n- **Turning away**: attention is **withdrawn** from the symptom, from one's own functioning, and from self-observation. Frankl said that the symptom should be **ignored**.\n- **Turning toward**: the attention thus freed is directed toward something **meaningful** – a task, a person, an experience that is significant for its own sake.\n\nThe second movement is decisive. Frankl emphasized that one cannot simply “not think about something.” The demand to forget the symptom directs the view to it all the more. Ignoring succeeds only when attention is **positively bound elsewhere**. That is why dereflection is not possible without orientation toward meaning.\n\nThe method thus ties in directly with the side-effect thesis: sleep, relaxation, sexual fulfillment, or well-being arise when the human being devotes himself or herself to something else. Dereflection shifts the weight from “How am I doing?” to “What am I here for?”\n\nUnlike paradoxical intention, which is applied in a concrete situation, dereflection is often a **longer-term process** in which life priorities shift."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements about dereflection are accurate? (Several answers are correct)",
+   "optionen": [
+    "It consists of turning away from the symptom and turning toward something meaningful.",
+    "It is grounded in the capacity for self-transcendence.",
+    "At its core it consists of the instruction to stop thinking about the symptom.",
+    "Without attention being positively bound to something significant, ignoring hardly succeeds.",
+    "It is identical with paradoxical intention."
+   ],
+   "richtig": [
+    0,
+    1,
+    3
+   ],
+   "erklaerung": "Dereflection combines turning away and turning toward, is grounded in self-transcendence, and needs attention to be positively bound. The mere instruction not to think about it directs the view to the symptom all the more. Paradoxical intention is a separate method based on self-distancing."
+  },
+  {
+   "typ": "text",
+   "titel": "Dereflection Is More than Distraction",
+   "text": "Dereflection is sometimes confused with **distraction**. The difference, however, is fundamental:\n\n- **Distraction** is related to the symptom: one occupies oneself with something else *in order* not to feel the symptom. The symptom remains the secret point of reference. When the distraction wears off, attention returns.\n- **Dereflection** is related to **meaning**: one turns toward something *because* it is important for its own sake. That the symptom recedes into the background in the process is a side effect.\n\nAn example: a woman with chronic back pain watches TV series so as not to feel the pain – that is distraction. Another woman with similar pain gets involved in a reading initiative for children because education is dear to her heart. While she reads aloud, the pain recedes into the background – that corresponds to dereflection.\n\nFor counseling it follows: dereflection presupposes the question of **what truly matters to the person**. The turning toward must tie in with his or her values; otherwise it becomes mere occupational therapy.\n\nDistraction is not fundamentally bad; it can provide short-term relief. But it is no substitute for the meaning-oriented reorientation that dereflection aims at. It must also be noted that symptoms requiring treatment (e.g., pain) must be treated **medically**; dereflection supplements, it does not replace."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign: Is this more likely distraction or dereflection?",
+   "kategorien": [
+    "Distraction",
+    "Dereflection"
+   ],
+   "elemente": [
+    {
+     "text": "A man with tinnitus turns the radio up loud in the evening to drown out the ringing in his ears.",
+     "kat": 0
+    },
+    {
+     "text": "A woman plays games on her phone so as not to think about her exam anxiety.",
+     "kat": 0
+    },
+    {
+     "text": "A man prone to rumination devotes himself to building a community garden because the neighborhood matters to him.",
+     "kat": 1
+    },
+    {
+     "text": "A woman with sleep problems deliberately spends her evenings writing a letter to her granddaughter instead of waiting to fall asleep.",
+     "kat": 1
+    },
+    {
+     "text": "When together, a couple directs their attention to tenderness and to each other instead of to their own “performance.”",
+     "kat": 1
+    },
+    {
+     "text": "An adolescent watches videos for hours so as not to feel the inner emptiness.",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Distraction remains related to the symptom and serves to keep it from being felt. Dereflection directs attention to something that is significant for its own sake; the receding of the symptom is a side effect."
+  },
+  {
+   "typ": "text",
+   "titel": "Classic Fields of Application",
+   "text": "Frankl and his students described dereflection above all in the following areas:\n\n- **Sexual dysfunctions**: here hyperintention is often central. Frankl described an approach in which he temporarily “forbade” couples to have intercourse and instead encouraged them to engage in tenderness without a performance goal. When the performance pressure fell away, the desired arousal often arose by itself. (Similar principles are found in later sex-therapy approaches, such as the sensate focus approach of Masters and Johnson.)\n- **Sleep disorders**: instead of compulsively wanting to fall asleep, attention is directed to something significant or to lying quietly without a goal.\n- **Rumination and self-observation**: people who constantly analyze their state of mind are invited to orient their lives more strongly toward tasks and relationships.\n- **Dealing with chronic complaints**: where symptoms cannot be completely eliminated, dereflection can help ensure that they no longer determine one's entire life.\n\n**Elisabeth Lukas** developed dereflection further for counseling, particularly emphasizing that turning away from the problem must always be accompanied by a positive turning toward – for instance through a joint search for tasks, interests, and relationships that appeal to the person.\n\nHere, too: sexual dysfunctions, sleep disorders, and chronic pain first require a **medical assessment**."
+  },
+  {
+   "typ": "fall",
+   "titel": "Dereflection in Rumination",
+   "fall": "Constructed teaching vignette: Ms. E., 55, who has been in early retirement for a year, spends a great deal of time thinking about her mood, reads self-optimization guides, and keeps a detailed mood diary. She says: “I analyze myself constantly, but it isn't getting better.” A depressive illness has been ruled out by a specialist. She used to work as a choir director.",
+   "frage": "Which intervention best corresponds to dereflection?",
+   "optionen": [
+    "The counselor recommends an even more detailed mood diary in order to identify triggers.",
+    "The counselor asks Ms. E. to stop thinking about her mood from now on.",
+    "The counselor advises Ms. E. to distract herself by watching television when the rumination begins.",
+    "The counselor explores what was important to Ms. E. in her choir work and how she could give it room again today – for instance in a seniors' choir or a project with children."
+   ],
+   "richtig": 3,
+   "erklaerung": "Dereflection combines turning away from self-observation with turning toward something significant – here tying in with the values Ms. E. realized in her choir work. A more detailed diary intensifies hyperreflection. A ban on thinking directs the view to the rumination all the more. Television is distraction without a connection to meaning."
+  },
+  {
+   "typ": "text",
+   "titel": "Procedure and Limits of Dereflection",
+   "text": "The procedure of dereflection can be divided into the following elements:\n\n1. **Understanding**: together, the counselor and the person explore how hyperreflection or hyperintention maintains the problem. The person understands that his or her efforts have become part of the problem.\n2. **Relieving**: the pressure of having to eliminate the symptom is explicitly removed (“You don't have to sleep tonight”).\n3. **Exploring values**: What is important to the person, what appeals to him or her, what does he or she want to devote time and energy to?\n4. **Shaping the turning toward**: concrete steps are planned through which the person turns toward what is significant.\n5. **Evaluating experiences**: the person does not primarily observe the symptom but what he or she has experienced in what is significant.\n\nThe **limits** of dereflection lie above all where symptoms go back to causes requiring treatment that must not be overlooked. Whoever “dereflects” warning signs – chest pain, weight loss, neurological deficits – may endanger himself or herself. In severe depression the person can often barely perceive values and possibilities of meaning; a call to turn toward something can then be overwhelming and intensify feelings of guilt.\n\nIt must also be ensured that dereflection is not misused to avoid important issues. Whoever “dereflects” grief, for instance, in order not to have to grieve, evades a task. Dereflection aims at **excessive** self-observation, not at every form of self-reflection."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Dereflection for Sleep Problems",
+   "einleitung": "Constructed situation: Ms. W., 47, a nursing service manager, has been sleeping poorly for several months. Her family doctor has assessed physical causes and found no depressive illness. Ms. W. has a sleep app, measures her sleep phases, and goes to bed at 9 p.m. “to get enough sleep.”",
+   "runden": [
+    {
+     "klient": "I really do everything. Early to bed, no coffee, the app tells me exactly how much deep sleep I had. And still I lie awake thinking: Now you really have to sleep!",
+     "antworten": [
+      {
+       "text": "Maybe you need a better app that also suggests relaxation exercises.",
+       "gut": false,
+       "feedback": "This intensifies hyperreflection and hyperintention: even more measurement, even more effort to sleep."
+      },
+      {
+       "text": "You're making a great effort – and precisely this “Now you really have to sleep” seems to drive sleep away. Do you know this from other areas too, that something succeeds all the less the more you want it?",
+       "gut": true,
+       "feedback": "Good. The counselor acknowledges the effort and makes the mechanism of hyperintention accessible through a question. Ms. W. can recognize it from her own experience."
+      },
+      {
+       "text": "Have you tried a sleeping pill?",
+       "gut": false,
+       "feedback": "A question about medication belongs in medical hands and here bypasses the psychological mechanism that maintains the problem."
+      }
+     ]
+    },
+    {
+     "klient": "Yes … with baking cakes. When I absolutely want it to be perfect, it doesn't rise. But what am I supposed to do? I can't just not think about sleeping.",
+     "antworten": [
+      {
+       "text": "Yes, you can – just try not to think about it at all anymore.",
+       "gut": false,
+       "feedback": "A ban on thinking directs attention to sleep all the more. Ignoring succeeds only when attention is positively bound elsewhere."
+      },
+      {
+       "text": "You're right – simply not thinking about it doesn't work. The question is rather: what would you actually like to use your evenings for? What was important to you in the evenings before sleep became a project?",
+       "gut": true,
+       "feedback": "Good. The counselor confirms the correct insight and then steers toward turning toward: What is significant? This creates the second, decisive movement of dereflection."
+      },
+      {
+       "text": "Then tonight just deliberately stay awake all night.",
+       "gut": false,
+       "feedback": "That would be paradoxical intention, introduced here without preparation or consent. Moreover, Ms. W. has just asked for an alternative to not thinking about it – which speaks for dereflection."
+      }
+     ]
+    },
+    {
+     "klient": "I used to read in the evenings, really thick novels. And I wrote long letters to my sister. I don't do that at all anymore, since I go to bed at nine.",
+     "antworten": [
+      {
+       "text": "Reading is a good distraction, after all.",
+       "gut": false,
+       "feedback": "“Distraction” makes sleep the secret point of reference again. The point is that reading and writing are significant for their own sake."
+      },
+      {
+       "text": "Then from now on you should read for two hours every evening.",
+       "gut": false,
+       "feedback": "A rigid prescription turns what is significant into a new obligation – and thus into a new form of hyperintention."
+      },
+      {
+       "text": "Novels and letters to your sister – that sounds like something that meant a lot to you. How would it be to devote your evenings to these things again and simply let sleep happen whenever it comes? Maybe the app could take a break for a while.",
+       "gut": true,
+       "feedback": "Good. The counselor combines turning toward significant activities with turning away from self-observation (a break from the app) and removes the pressure. The decision remains with Ms. W."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Dereflection means that every form of self-reflection should be avoided.",
+   "richtig": false,
+   "erklaerung": "Dereflection is directed against excessive self-observation that disrupts functioning. Appropriate self-reflection – for instance in grief or in decisions of conscience – is part of a responsible life and is not prevented."
+  },
+  {
+   "typ": "luecke",
+   "text": "Dereflection combines turning away from the symptom with {{turning toward something meaningful|confronting the symptom|analyzing the causes}}. It is grounded in the capacity for {{self-transcendence|self-distancing|self-control}}. Unlike distraction, it is related not to the symptom but to {{meaning|relaxation|the cause}}.",
+   "erklaerung": "Turning toward something meaningful is the core of dereflection; its foundation is self-transcendence. Distraction remains symptom-related, dereflection meaning-related. Self-distancing is the foundation of paradoxical intention."
+  },
+  {
+   "typ": "merke",
+   "text": "Dereflection: not “Don't think about it!” but “Turn toward what matters to you.” The receding of the symptom is a side effect of devotion – and presupposes that causes requiring treatment have been assessed."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Where in your field of work do you encounter hyperreflection – for instance as constant self-observation, self-optimization, or fixation on one's state of mind? Which ways of turning toward something significant might be possible there?",
+   "hinweis": "Guiding questions: How do you distinguish distraction from dereflection in your practice? How do you find out what truly matters to a person?"
+  }
+ ]
+}

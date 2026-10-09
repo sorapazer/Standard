@@ -1,0 +1,209 @@
+{
+ "id": "B4-3",
+ "titel": "Circular Questioning and Reframing",
+ "dauer": 35,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Systemic Thinking in Counseling",
+   "text": "Solution-focused counseling is closely related to **systemic thinking**. Systemic approaches do not view people in isolation but as part of **relationship systems** – the family, the team, the school class, the organization. Behavior is understood as an element of reciprocal interactions, not as a mere characteristic of a person.\n\nSome basic ideas:\n\n- **Circularity instead of linearity:** instead of “A causes B,” it is assumed that behaviors condition one another. An example: the more the mother controls, the more the son withdraws – and the more he withdraws, the more she controls. Who “started it” often cannot be determined and is irrelevant to the solution.\n- **Symptoms have functions:** a problem behavior can fulfill a – often unintended – function in the system, for example uniting quarreling parents in their concern for a child.\n- **Reality is constructed:** each person has their own view of what is happening. Counselors do not look for the “true” version but for new, more helpful perspectives.\n- **Neutrality and multi-partiality:** the counselor does not take sides with individual members of a system but endeavors to do justice to all of them.\n\nFrom this way of thinking, questioning techniques have emerged that make relationship patterns visible and open up new perspectives. The best known is **circular questioning**. In Germany, **systemic therapy** has been approved since 2020 as a psychotherapy procedure for adults within statutory health insurance; systemic methods are, however, also widespread in counseling and social work."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Systemic thinking assumes that in relationship conflicts it can generally be determined unambiguously who caused the conflict.",
+   "richtig": false,
+   "erklaerung": "Systemic thinking emphasizes circularity: behaviors condition one another. The question of the “beginning” often leads to assigning blame and is usually not decisive for the solution."
+  },
+  {
+   "typ": "text",
+   "titel": "Circular Questioning",
+   "text": "**Circular questioning** was developed in family therapy by the **Milan group** around Mara Selvini Palazzoli, Luigi Boscolo, Gianfranco Cecchin, and Giuliana Prata. In their influential 1980 paper, they described **hypothesizing, circularity, and neutrality** as guidelines for conducting the session.\n\nIn circular questioning, a person is asked to speak **from the perspective of another** about relationships, thoughts, or feelings. Typical forms:\n\n- **Questions about others’ views:** “What do you think – how does your husband see the situation?”\n- **Triadic questions:** one person is asked about the relationship between two others: “When your daughter and your husband argue – how does your son react?”\n- **Difference questions:** “Who in the family worries the most, who the least?” – “What has been different since the birth of your second child?”\n- **Hypothetical questions:** “Suppose your mother stopped calling – what would change between you and your partner?”\n- **Questions about effects:** “When your colleague reacts like that – what do you do then? And what does he do in response?”\n\nCircular questions have a **dual function**: they provide the counselor with information about relationship patterns – and they stimulate new perspectives among those involved. Anyone who imagines how the situation looks to the other person broadens their own perspective.\n\nCircular questions can also be used well in **individual counseling**: absent persons are, as it were, “brought into the room” (“What would your best friend say if she could hear you now?”)."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the circular questions with their form.",
+   "paare": [
+    [
+     "“What do you think – how does your supervisor assess your work?”",
+     "Question about others’ views"
+    ],
+    [
+     "“When your father and your brother argue – what does your mother do then?”",
+     "Triadic question"
+    ],
+    [
+     "“Who on the team suffers most from the situation, who the least?”",
+     "Difference question"
+    ],
+    [
+     "“Suppose you took parental leave – how would your relationship with your mother-in-law change?”",
+     "Hypothetical question"
+    ]
+   ],
+   "erklaerung": "All forms invite thinking beyond one’s own perspective. Triadic questions shed light on relationships between third parties, difference questions make gradations visible, and hypothetical questions open up spaces of possibility."
+  },
+  {
+   "typ": "text",
+   "titel": "Reframing: Providing a New Frame",
+   "text": "**Reframing** means giving a behavior, a situation, or an experience a **new frame of meaning**. In their 1974 book *Change* (German edition: *Lösungen*), Paul Watzlawick, John Weakland, and Richard Fisch described the procedure as a form of change in which not the facts but their **meaning** is changed.\n\nThe practice literature frequently distinguishes two forms:\n\n- **Meaning reframing:** the behavior remains the same, but its meaning is seen differently. “My daughter constantly contradicts me” – “Your daughter is learning to stand up for her own opinion.”\n- **Context reframing:** one asks in what context a supposedly problematic behavior would be useful. “I’m so fussy” – “Where in life is your precision an advantage?”\n\nReframing works because appraisals shape feelings and actions (cf. appraisal theories, Module B1). If a “stubborn” teenager is seen as “assertive,” the way he is treated and the relationship often change as well.\n\nImportant **conditions for success**:\n\n- The reframing must be **plausible** to the person and connect with their point of view.\n- It must **not gloss over suffering** or justify harmful behavior. Violence or self-harm is not “positively reinterpreted.”\n- It should be formulated as an **offer**: “Could one also see it this way …?”\n- It presupposes a **sound relationship**; used prematurely, it seems like talking the problem away.\n\nA related technique is **positive connotation**, as used by the Milan group: it acknowledges the good intention behind the behavior of everyone involved."
+  },
+  {
+   "typ": "mc",
+   "frage": "A mother complains: “My son is so pigheaded; he never gives in.” Which response is a successful meaning reframing?",
+   "optionen": [
+    "“Stubbornness is something children must be consistently trained out of.”",
+    "“He obviously has a conduct disorder.”",
+    "“Could it be that your son is very persistent when something matters to him – an ability that may also serve him well later?”",
+    "“You’re surely just imagining it.”"
+   ],
+   "richtig": 2,
+   "erklaerung": "The third response offers a new meaning (persistence) as an offer and links it with a perspective. The other responses remain within the problem frame, pathologize inadmissibly, or devalue the mother’s experience."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Is this meaning reframing or context reframing?",
+   "kategorien": [
+    "Meaning reframing",
+    "Context reframing"
+   ],
+   "elemente": [
+    {
+     "text": "“Your partner calls constantly – perhaps that is how he shows how important you are to him.”",
+     "kat": 0
+    },
+    {
+     "text": "“In what situation would your mistrust be good protection?”",
+     "kat": 1
+    },
+    {
+     "text": "“Your rumination could also be a sign that you take decisions very seriously.”",
+     "kat": 0
+    },
+    {
+     "text": "“Where would your impatience be exactly the right quality?”",
+     "kat": 1
+    },
+    {
+     "text": "“The fact that your team argues so heatedly shows how much your colleagues care about the matter.”",
+     "kat": 0
+    },
+    {
+     "text": "“In what profession would your obsession with detail be in demand?”",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Meaning reframing gives the same behavior a new meaning. Context reframing looks for situations in which the behavior would be useful. Both forms broaden perspectives without devaluing the person’s experience."
+  },
+  {
+   "typ": "text",
+   "titel": "Circular Questions and Reframing in Practice",
+   "text": "How can these methods be used in professionals’ everyday work? Some examples of application:\n\n- **In nursing care:** a relative constantly complains about the staff. A circular question (“What do you think – how does your mother experience it when you stand up for her?”) and a reframing (“Your commitment shows how much her well-being matters to you”) can defuse the situation and open the way to cooperation.\n- **At school:** a teacher asks a student: “Who in your class would be the first to notice that you’re doing better?” – and thereby helps make social resources visible.\n- **In human resources:** in team conflicts, difference questions (“Who is most satisfied, who least satisfied with the new shift planning?”) help to differentiate positions instead of dividing the team into two camps.\n- **In parenting counseling:** a “problem child” is reinterpreted as the family’s “seismograph,” registering tensions especially early – a reinterpretation that can reduce blame and direct attention to the system as a whole.\n\n**Limits** must be observed: in the case of violence in relationships, **multi-partiality is not appropriate** if it blurs protection and responsibility. When there are indications of endangerment of a child’s welfare or acute danger, protective measures take precedence over systemic interventions. And reframing is no substitute for acknowledging real suffering: a person must first feel understood; then a new perspective can be helpful."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Conflict in the Team",
+   "einleitung": "Constructed situation: Ms. N., 44, leads a team in a residential facility for people with disabilities. She asks for counseling because a long-standing employee, Ms. K., blocks every innovation.",
+   "runden": [
+    {
+     "klient": "“Ms. K. is simply against everything. Whatever I suggest, she finds a reason why it won’t work. The whole team suffers from it.”",
+     "antworten": [
+      {
+       "text": "“What do you think – how does Ms. K. herself experience the changes of recent times?”",
+       "gut": true,
+       "feedback": "The circular question invites Ms. N. to take the employee’s perspective. This can open up new perspectives without passing over Ms. N.’s experience."
+      },
+      {
+       "text": "“Then you have to give her a formal warning.”",
+       "gut": false,
+       "feedback": "Premature advice skips clarification and narrows the options for action to sanctions."
+      },
+      {
+       "text": "“That sounds like a difficult personality.”",
+       "gut": false,
+       "feedback": "Attributing a trait entrenches the problem and contradicts the systemic view of interactions."
+      }
+     ]
+    },
+    {
+     "klient": "“Hmm. Maybe she’s afraid that her experience no longer counts. She’s been here for twenty years.”",
+     "antworten": [
+      {
+       "text": "“Fear is no excuse for her behavior.”",
+       "gut": false,
+       "feedback": "The judgment closes the perspective that has just opened and brings the conversation back into the conflict."
+      },
+      {
+       "text": "“Could one then also see her objections as an expression of her concern for good care – based on a great deal of experience?”",
+       "gut": true,
+       "feedback": "The reframing is formulated as an offer and builds on Ms. N.’s own reflection. In this way, “blocking” can become “care grounded in experience.”"
+      },
+      {
+       "text": "“How much longer are you going to put up with this?”",
+       "gut": false,
+       "feedback": "The question escalates the conflict and distracts from the new insights."
+      }
+     ]
+    },
+    {
+     "klient": "“I hadn’t seen it that way before. She really does know the residents best.”",
+     "antworten": [
+      {
+       "text": "“Great, then the problem is solved.”",
+       "gut": false,
+       "feedback": "A new perspective is a beginning but not yet a solution. Concrete next steps are missing."
+      },
+      {
+       "text": "“Nevertheless, you should set clear boundaries.”",
+       "gut": false,
+       "feedback": "The remark comes at the wrong moment and devalues the perspective just gained."
+      },
+      {
+       "text": "“Suppose you involved Ms. K. as the expert on the residents in the next innovation – what would change in the team?”",
+       "gut": true,
+       "feedback": "The hypothetical question turns the new perspective into an option for action and invites Ms. N. to think through its effects on the system."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "merke",
+   "text": "Circular questions bring other perspectives into the room; reframing opens up new meanings. Both work only if the person has first felt understood – and they never replace protection in situations of danger."
+  },
+  {
+   "typ": "karten",
+   "titel": "Flashcards: Systemic Methods",
+   "karten": [
+    {
+     "vorne": "Circularity",
+     "hinten": "Behaviors in relationships condition one another; the question of the “beginning” is usually not relevant to the solution."
+    },
+    {
+     "vorne": "Milan guidelines (1980)",
+     "hinten": "Hypothesizing, circularity, neutrality – described by Selvini Palazzoli, Boscolo, Cecchin, and Prata."
+    },
+    {
+     "vorne": "Triadic question",
+     "hinten": "One person is asked about the relationship between two others: “When A and B argue, what does C do?”"
+    },
+    {
+     "vorne": "Meaning reframing",
+     "hinten": "Same behavior, new meaning: “contradicting” as “standing up for one’s own opinion.”"
+    },
+    {
+     "vorne": "Context reframing",
+     "hinten": "Asking about the context in which a behavior would be useful."
+    },
+    {
+     "vorne": "Multi-partiality",
+     "hinten": "Endeavoring to do justice to all members of a system; ends where protection from violence takes priority."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which behavior of a person in your everyday professional life regularly annoys or irritates you? Try a meaning reframing and a context reframing.",
+   "hinweis": "What could be the good intention behind the behavior? In what context would it be useful? How does the new perspective change your feelings and options for action?"
+  }
+ ]
+}

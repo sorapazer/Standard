@@ -1,0 +1,106 @@
+{
+ "titel": "Logotherapeutic Counseling Conversation",
+ "beschreibung": "The module translates the logotherapeutic image of the human being into concrete conversational practice. It combines client-centered basic attitudes with Socratic dialogue and modification of attitudes, presents a structure for counseling sessions, and trains questioning techniques in several conversation simulations.",
+ "lernziele": [
+  "You can describe client-centered basic attitudes (empathy, positive regard, congruence) and connect them with the logotherapeutic image of the human being.",
+  "You can structure a logotherapeutically oriented counseling session in phases and recognize the limits of the counseling mandate.",
+  "You can explain Socratic dialogue as a maieutic procedure and use meaning-oriented questioning techniques purposefully.",
+  "You can explain the procedure of modification of attitudes, distinguish it from manipulation and from reframing at any price, and apply it in conversational situations."
+ ],
+ "pruefung": [
+  {
+   "typ": "multi",
+   "frage": "Which basic attitudes did Carl R. Rogers describe as central conditions for constructive change? (Several answers are correct)",
+   "optionen": [
+    "Empathy",
+    "Confrontation",
+    "Unconditional positive regard",
+    "Congruence",
+    "Abstinence"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Rogers named empathy, unconditional positive regard, and congruence. Confrontation and abstinence are not among these basic attitudes."
+  },
+  {
+   "typ": "mc",
+   "frage": "What does “maieutics” mean in connection with Socratic dialogue?",
+   "optionen": [
+    "The art of refutation",
+    "The art of persuasion",
+    "The art of interpretation",
+    "The art of midwifery"
+   ],
+   "richtig": 3,
+   "erklaerung": "Maieutics means the art of midwifery: the questioner helps bring forth insights that are latent in the other person."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "In Socratic dialogue, the counselor draws the conclusion at the end and communicates it to the person seeking help.",
+   "richtig": false,
+   "erklaerung": "The conclusion is left to the person seeking help; only in this way does the insight become his or her own."
+  },
+  {
+   "typ": "mc",
+   "frage": "In a first counseling session, a client says: “It doesn't really matter whether I'm still alive.” What takes priority?",
+   "optionen": [
+    "Exploring her sources of meaning with a what-for question",
+    "Direct and respectful assessment of suicidal thoughts",
+    "Modification of attitudes regarding the statement",
+    "Clarifying the formal counseling setting"
+   ],
+   "richtig": 1,
+   "erklaerung": "Such a statement may indicate suicidality. Risk assessment takes priority; asking directly is professionally required and does not increase the risk."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which question is a typical freedom question?",
+   "optionen": [
+    "“Which of this is in your hands – and which is not?”",
+    "“Why did you decide that way?”",
+    "“Don't you think you should take better care of yourself?”",
+    "“How long has the problem existed?”"
+   ],
+   "richtig": 0,
+   "erklaerung": "Freedom questions distinguish the changeable from the unalterable. The second is a why question, the third a leading question, the fourth an exploratory question about duration."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements about modification of attitudes are accurate? (Several answers are correct)",
+   "optionen": [
+    "It aims at the stance toward a situation, not necessarily at the situation itself.",
+    "It is particularly significant in unalterable situations.",
+    "It imposes a positive interpretation, even against the person's conviction.",
+    "The new attitude should tie in with the person's values and feel right to him or her.",
+    "It is to be equated with positive thinking."
+   ],
+   "richtig": [
+    0,
+    1,
+    3
+   ],
+   "erklaerung": "Modification of attitudes changes the stance, is particularly important in the face of the unalterable, and ties in with the person's values. It is neither manipulation nor positive thinking."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "In logotherapeutic counseling, unconditional positive regard and appealing to the capacity for responsibility are not mutually exclusive.",
+   "richtig": true,
+   "erklaerung": "Regard applies to the person; precisely from it grows the confidence that the person can take a stand and assume responsibility."
+  },
+  {
+   "typ": "mc",
+   "frage": "In what respect does modification of attitudes differ in emphasis from cognitive restructuring?",
+   "optionen": [
+    "It works exclusively with homework and records.",
+    "It rejects any form of questions.",
+    "It examines attitudes above all for their meaning orientation and is particularly significant in unalterable situations.",
+    "It is indicated only for psychotic disorders."
+   ],
+   "richtig": 2,
+   "erklaerung": "Cognitive restructuring often examines appropriateness to reality and functionality; modification of attitudes asks about meaning orientation and stance, especially in the face of the unalterable. Both work with questions."
+  }
+ ]
+}

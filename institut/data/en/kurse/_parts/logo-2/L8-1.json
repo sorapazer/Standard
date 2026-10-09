@@ -1,0 +1,152 @@
+{
+ "id": "L8-1",
+ "titel": "Counseling and the Practice of Healing: The Legal Framework in Germany",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Why the Distinction Is So Important",
+   "text": "In Germany, the **practice of healing** (Ausübung der Heilkunde) requires a license. Whoever diagnoses, cures or alleviates illnesses needs either a **state license (Approbation)** – for example as a physician or as a psychotherapist – or a **license under the Heilpraktikergesetz** (German Non-Medical Practitioners Act). Whoever practices healing without such authorization commits a criminal offense under § 5 of the Heilpraktikergesetz.\n\nFor logotherapeutically qualified counselors, this distinction is therefore of central importance. Many graduates of this certificate program bring a basic qualification – in social work, education, nursing, theology or psychology – which in itself **does not include a license to practice healing**. The certificate itself is likewise **not a license to practice healing** (Heilerlaubnis) and not psychotherapeutic training within the meaning of the Psychotherapeutengesetz (German Psychotherapists Act).\n\nThis does not mean that meaning-oriented counseling is legally risky. Counseling, accompaniment, coaching and life counseling are in principle **license-free**, as long as they are directed at people without a mental disorder requiring treatment and do not aim at the diagnosis or treatment of illnesses. It does mean, however, that counselors must describe their work clearly, clarify concerns carefully and refer onward when there are indications of an illness.\n\nNote: the following explanations give an overview of the legal situation in Germany. They do not replace legal advice; different regulations apply in Austria and Switzerland."
+  },
+  {
+   "typ": "text",
+   "titel": "The Heilpraktikergesetz and the Concept of the Practice of Healing",
+   "text": "The **Heilpraktikergesetz** (HeilprG, German Non-Medical Practitioners Act) dates from 1939 and is still in force today in revised form. In § 1 it defines the practice of healing, in substance, as any professionally or commercially conducted activity for the **diagnosis, cure or alleviation of illnesses, ailments or bodily injuries** in human beings – even if it is carried out in the service of others.\n\nThe courts have specified this broad wording. In substance, what matters is, among other things,\n\n- whether the activity requires **medical or healing-related expertise**, and\n- whether it can cause **damage to health** – including **indirectly**, for instance when those affected forgo or delay necessary medical or psychotherapeutic treatment because of the activity.\n\nThe **impression** that an activity creates in clients can also be significant: whoever advertises, for example, the treatment of depression or anxiety disorders creates the impression of practicing healing.\n\nSince a decision of the Federal Administrative Court (Bundesverwaltungsgericht) in 1993, the Heilpraktiker license can be granted **restricted to the field of psychotherapy** (often called “Heilpraktiker für Psychotherapie”). The professional title “psychotherapist” (Psychotherapeutin / Psychotherapeut), by contrast, is reserved by the Psychotherapeutengesetz for persons with the corresponding state license (Approbation) and is protected by law."
+  },
+  {
+   "typ": "luecke",
+   "text": "Under the Heilpraktikergesetz, the practice of healing is any professional or commercial activity for the {{diagnosis, cure or alleviation|counseling, accompaniment or education|promotion, strengthening or development}} of illnesses, ailments or bodily injuries. Whoever practices healing without a state license (Approbation) or a {{Heilpraktiker license|university degree|certificate from a professional association}} acts unlawfully. The professional title {{psychotherapist|counselor|coach}} is protected by law.",
+   "erklaerung": "The definition of the practice of healing focuses on the diagnosis, cure or alleviation of illnesses. Those authorized are holders of a state license and persons with a Heilpraktiker license; university degrees or association certificates alone are not sufficient. “Counselor” and “coach” are not protected titles."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Sort the activities according to whether, for a logotherapeutically qualified counselor without a state license (Approbation) or Heilpraktiker license, they are rather license-free or fall within the practice of healing.",
+   "kategorien": [
+    "Rather license-free counseling",
+    "Practice of healing – license required"
+   ],
+   "elemente": [
+    {
+     "text": "Accompanying a person in career reorientation after a dismissal",
+     "kat": 0
+    },
+    {
+     "text": "Treating a diagnosed panic disorder with paradoxical intention",
+     "kat": 1
+    },
+    {
+     "text": "Discussion group on questions of meaning in retirement",
+     "kat": 0
+    },
+    {
+     "text": "Advertising the offering “Logotherapy for depression”",
+     "kat": 1
+    },
+    {
+     "text": "Accompanying bereaved people without indications of a mental illness",
+     "kat": 0
+    },
+    {
+     "text": "Determining whether a client has prolonged grief disorder",
+     "kat": 1
+    },
+    {
+     "text": "Clarifying values with a student who is torn between two fields of study",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Counseling on life questions, transitions, grief and values without reference to illness is in principle license-free. The treatment or diagnosis of mental disorders – and also advertising their treatment – falls within the practice of healing. In the individual case, the concrete arrangement is decisive."
+  },
+  {
+   "typ": "text",
+   "titel": "The Psychotherapeutengesetz and the Concept of Psychotherapy",
+   "text": "The **Psychotherapeutengesetz** (PsychThG, German Psychotherapists Act) regulates the profession of psychotherapists. It defines the practice of psychotherapy, in substance, as any professionally or commercially conducted activity, using scientifically tested and recognized psychotherapeutic procedures or methods, for the diagnosis, cure or alleviation of **disorders of clinical significance** for which psychotherapy is indicated.\n\nParticularly important for counseling practice is an explicit demarcation in the law: the practice of psychotherapy does **not** include activities whose subject is working through or overcoming **social conflicts** or **other purposes outside the practice of healing**. Many forms of life, social, parenting and pastoral counseling fall under this.\n\nFor logotherapeutic counseling, it follows:\n\n- The name of one’s own offering should make the **counseling or accompaniment function** clear, for example “logotherapeutic counseling” or “meaning-oriented accompaniment.” Terms such as “therapy” or “treatment” without the corresponding authorization can be misleading and create the impression of practicing healing.\n- Advertising statements must not contain any **promises of cure** and must not name illnesses as indications.\n- Whoever additionally holds a Heilpraktiker license (restricted to psychotherapy) or a state license must make clear in which role they are acting in each case."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which activities does the Psychotherapeutengesetz explicitly exclude from the concept of psychotherapy?",
+   "optionen": [
+    "All activities that take place in groups",
+    "All activities of persons with a social education degree",
+    "Activities whose subject is working through or overcoming social conflicts or other purposes outside the practice of healing",
+    "Activities comprising fewer than ten sessions"
+   ],
+   "richtig": 2,
+   "erklaerung": "The PsychThG explicitly names activities for working through or overcoming social conflicts and other purposes outside the practice of healing (C). Neither the setting (A), the basic qualification (B) nor the number of sessions (D) is decisive – what matters is whether disorders of clinical significance are being treated."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "The certificate “Logotherapeutic Counseling and Accompaniment” entitles the holder to treat people with mental disorders logotherapeutically.",
+   "richtig": false,
+   "erklaerung": "False. The certificate is a continuing-education qualification, not a state license (Approbation) and not a Heilpraktiker license. The treatment of mental disorders remains reserved for persons with the corresponding authorization."
+  },
+  {
+   "typ": "text",
+   "titel": "Clarifying Concerns and the Contract as Protection",
+   "text": "The most important practical instruments for a clean distinction are a careful **clarification of concerns** in the initial consultation and a transparent **contract**.\n\nIn the **initial consultation**, the following is clarified:\n\n- What brings the person to counseling? What is their concern?\n- Are there indications of a mental illness (e.g., persistent depressive symptoms, anxiety disorder, addiction, psychotic experiences, suicidality)?\n- Is the person in medical or psychotherapeutic treatment? If so: how does the counseling relate to it, and is coordination desired?\n\nIn the **contract** – oral and ideally written – the following are recorded:\n\n- the nature of the offering as **counseling or accompaniment**, explicitly **not psychotherapy** and not medical treatment,\n- goals, framework, duration, fee and cancellation rules,\n- confidentiality and its limits,\n- handling of data,\n- the procedure in case of signs of an illness or in crises (referral).\n\nImportant: a wording in the contract alone does not protect if the actual activity is the practice of healing. What matters is what **actually happens** in counseling. If indications of an illness arise in the course of counseling, the contract must be discussed anew."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which contents belong in a transparent counseling contract for logotherapeutic counseling? (Multiple answers possible)",
+   "optionen": [
+    "Clarification that this is counseling or accompaniment and not psychotherapy",
+    "Assurance that the counseling will cure mental illnesses",
+    "Rules on confidentiality and its limits",
+    "Procedure in case of signs of an illness or in crises",
+    "Framework, fee and cancellation rules"
+   ],
+   "richtig": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "erklaerung": "A contract describes the nature of the offering, confidentiality, crisis procedure and general conditions. A promise of cure (B) is inadmissible and would moreover create the impression of practicing healing."
+  },
+  {
+   "typ": "fall",
+   "titel": "The Email Inquiry",
+   "fall": "Constructed teaching vignette: You receive the following inquiry: “For two years I have had a diagnosed recurrent depression and have already been in a psychiatric hospital twice. My outpatient psychotherapy will end soon because the allotted number of sessions has been used up. My therapist said that questions of meaning are a big issue for me. Can you continue treating me with logotherapy?” You are a social worker with the certificate in logotherapeutic counseling, without a Heilpraktiker license.",
+   "frage": "How do you respond in a professionally and legally appropriate way?",
+   "optionen": [
+    "You agree and continue the treatment of the depression with logotherapeutic methods.",
+    "You decline because people with a mental illness are fundamentally not allowed to receive counseling.",
+    "You reply respectfully, make clear that you cannot offer treatment of the depression, and offer to clarify in an initial consultation whether complementary meaning-oriented counseling on questions of life and meaning – coordinated with the professional treatment that remains necessary – could be useful; at the same time you encourage the person to clarify further treatment with the therapist.",
+    "You offer treatment but call it “coaching” in the contract to be on the legally safe side."
+   ],
+   "richtig": 2,
+   "erklaerung": "The treatment of depression is the practice of healing (A is ruled out). People with mental illnesses may very well receive counseling on questions of life and meaning – provided it does not replace treatment and professional treatment is ensured (B is too sweeping). Option D is a circumvention: what matters is the actual activity, not its label. Option C preserves role, transparency and the person’s interests."
+  },
+  {
+   "typ": "karten",
+   "titel": "Legal Framework – Key Terms",
+   "karten": [
+    {
+     "vorne": "Heilpraktikergesetz (HeilprG)",
+     "hinten": "German Non-Medical Practitioners Act of 1939; practicing healing without a state license (Approbation) only with a license; violation is a criminal offense (§ 5 HeilprG)."
+    },
+    {
+     "vorne": "Practice of healing (Heilkunde)",
+     "hinten": "Professional or commercial diagnosis, cure or alleviation of illnesses, ailments or bodily injuries."
+    },
+    {
+     "vorne": "Sectoral Heilpraktiker license",
+     "hinten": "License under the HeilprG restricted to the field of psychotherapy (since a decision of the Federal Administrative Court in 1993)."
+    },
+    {
+     "vorne": "Psychotherapeutengesetz (PsychThG)",
+     "hinten": "German Psychotherapists Act; regulates the profession of psychotherapists; title protected; social conflicts and purposes outside the practice of healing are explicitly not psychotherapy."
+    },
+    {
+     "vorne": "Indirect danger to health",
+     "hinten": "Risk that those affected forgo or delay necessary treatment because of an activity – relevant for classification as the practice of healing."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "How do you describe your offering – on your website, in a flyer or in the initial consultation? Check your wording for possible misunderstandings.",
+   "hinweis": "Guiding questions: Do you use terms such as “therapy,” “treatment” or “cure”? Do you name illnesses as indications? Is it clear what you are there for – and what not?"
+  }
+ ]
+}

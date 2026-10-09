@@ -1,0 +1,192 @@
+{
+ "id": "B3-4",
+ "titel": "Structuring the Counseling Process: Phases and Contract",
+ "dauer": 35,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Why Structure?",
+   "text": "Good counseling is **relationship-oriented and structured at the same time**. Without structure, there is a danger that conversations go round in circles, expectations remain unspoken, and in the end no one knows whether and what has been achieved. Structure is not a rigid corset but an **orientation** that provides security – for clients and counselors alike.\n\nThe counseling literature contains various phase models that are similar in their basic features. A proven basic pattern comprises:\n\n1. **Contact and relationship building:** greeting, orientation about the setting and procedure, initial building of trust\n2. **Clarifying the concern and the mandate:** What is it about? Who wants what from whom? What should be different at the end?\n3. **Contract:** a binding agreement on goals, setting, roles, and procedure\n4. **Analysis of the situation, problem, and resources:** a precise understanding of the situation, including strengths and possibilities for support\n5. **Goal clarification:** concrete, achievable goals that are meaningful to the person\n6. **Developing and implementing solutions:** working out options, evaluating them, planning first steps, and trying them out\n7. **Transfer and evaluation:** What has changed? What helped? What else is needed?\n8. **Conclusion:** review, acknowledgment, outlook, and, if appropriate, reference to further services\n\nThese phases do not proceed in a strictly linear way. It often becomes apparent in the analysis phase, for example, that the concern needs to be clarified anew. The structure then helps to make such **feedback loops** conscious instead of changing the subject unnoticed.\n\n**Individual sessions** can also be structured: arriving, review of the time since the last appointment, focus of today’s session, working phase, summary, and agreements."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Arrange the phases of a counseling process in a sensible basic order.",
+   "elemente": [
+    "Contact and relationship building",
+    "Clarifying the concern and the mandate",
+    "Contract",
+    "Analysis of the situation and resources",
+    "Goal clarification",
+    "Developing and implementing solutions",
+    "Evaluation and conclusion"
+   ],
+   "erklaerung": "The order represents a basic pattern. Without a relationship, open clarification of the mandate is not possible; without a clarified mandate, no sound contract; and solutions presuppose understanding and goals. In practice, there are feedback loops."
+  },
+  {
+   "typ": "text",
+   "titel": "Clarifying the Concern and the Mandate",
+   "text": "**Clarifying the mandate** is one of the most important and most frequently underestimated phases. Many counseling processes fail not for lack of methodology but because of **unclear or contradictory mandates**.\n\nA distinction should be made between:\n\n- **Occasion:** What has led the person to come now? (“The daycare center sent me.”)\n- **Concern:** What does the person themselves want? (“I want my son to enjoy going to daycare again.”)\n- **Mandate:** What concretely should the counselor do? (“I would like ideas on how to make the morning routine more relaxed.”)\n\nEspecially in social work settings, there are often **several parties issuing mandates**: the youth welfare office, the school, relatives, the employer, the client themselves. For clarifying such constellations, Arist von Schlippe proposed the image of the **mandate carousel** (Auftragskarussell): the counselor becomes aware of which expectations are brought to them from which sides and examines which of them they can accept.\n\nHelpful questions for clarifying the mandate:\n\n- “What brings you to me – and why right now?”\n- “Whose idea was it that you come here?”\n- “How would you notice at the end that the counseling was worthwhile?”\n- “What should I definitely not do?”\n\nWith people who do **not come voluntarily**, it makes sense to name the mandated context openly and to search together for a concern of their own within this framework. This idea is explored in Module B4 with the distinction between visitors, complainants, and customers."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the statements of a mother in parenting counseling with the terms.",
+   "paare": [
+    [
+     "“The teacher said I should get help.”",
+     "Occasion"
+    ],
+    [
+     "“I want us to stop having constant arguments in the evenings.”",
+     "Concern"
+    ],
+    [
+     "“I would like concrete ideas from you for an evening routine.”",
+     "Mandate"
+    ]
+   ],
+   "erklaerung": "The occasion is the external trigger, the concern is the person’s wish, and the mandate is the concrete expectation of the counselor. Only when all three have been clarified can a sound contract emerge."
+  },
+  {
+   "typ": "text",
+   "titel": "The Counseling Contract",
+   "text": "The **contract** (counseling agreement) is the **binding agreement** between counselor and client. It can be concluded orally or in writing; for self-employed practice, a written contract is advisable. In terms of content, several levels can be distinguished:\n\n- **Formal framework:** place, duration, and frequency of appointments, number of sessions agreed, costs and payment terms, rules for cancellations, availability between appointments\n- **Confidentiality and its limits:** What stays in the room? When is there an authorization to disclose or a duty to act, for example in the case of acute danger to oneself or others or endangerment of a child’s welfare? How is documentation handled, and who has access to the records?\n- **Substantive goals:** What is being worked toward? How will one notice that the counseling is successful?\n- **Roles and procedure:** What is counseling – and what is it not? Which methods are used? What responsibility do both sides bear?\n- **Review and termination:** When will an interim review take place? How can the counseling be ended by either side?\n\nThe contract should also make transparent that psychological counseling is **not psychotherapy** and that a referral will be made if there are signs of a disorder requiring treatment (cf. Module B2).\n\nA well-clarified contract has an important **relationship-building** function: it creates security, distributes responsibility fairly, and protects both sides from misunderstandings and disappointments. At the same time, it is an expression of **congruence** – the counselor discloses their conditions and limits."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which points typically belong in a counseling contract? (Multiple answers possible)",
+   "optionen": [
+    "Duration, frequency, and costs of the appointments",
+    "The client’s diagnosis according to the ICD-11",
+    "Confidentiality and its limits",
+    "Agreed goals and dates for interim reviews",
+    "A guarantee that the problem will be solved"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "The general conditions, confidentiality with its limits, and goals and review are core elements of a contract. Diagnoses are not the task of counseling that does not involve the practice of medicine, and guarantees of success are unprofessional."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Structuring an Initial Consultation",
+   "einleitung": "Constructed situation: Ms. H., 38, contacts a psychological counseling practice. It is the first conversation.",
+   "runden": [
+    {
+     "klient": "“Hello … I don’t really know where to start. Everything is just somehow too much right now.”",
+     "antworten": [
+      {
+       "text": "“Tell me everything in order, from the beginning – your childhood, your family, your job.”",
+       "gut": false,
+       "feedback": "A comprehensive history right at the start can be overwhelming and misses the current experience."
+      },
+      {
+       "text": "“I’m glad you’re here. We have about an hour today. First I’d like to understand what brings you here, and at the end we’ll consider together whether and how we continue working. What is most ‘too much’ right now?”",
+       "gut": true,
+       "feedback": "The response provides orientation about time and procedure (structure), invites her with an open, focusing question, and leaves Ms. H. the choice of where to begin."
+      },
+      {
+       "text": "“You’ve come to exactly the right place; we’ll sort this out.”",
+       "gut": false,
+       "feedback": "A promise of salvation before any clarification is unprofessional and can lead to disappointment later."
+      }
+     ]
+    },
+    {
+     "klient": "“Mainly work. I’ve become a team leader and feel that I can’t please anyone. My primary care physician thought counseling might help.”",
+     "antworten": [
+      {
+       "text": "“You have a new leadership role and are under a lot of pressure to please everyone. Your physician suggested counseling – what do you yourself hope to get from it?”",
+       "gut": true,
+       "feedback": "The paraphrase summarizes the core, distinguishes the occasion (the physician’s recommendation) from her own concern, and invites clarification of the mandate."
+      },
+      {
+       "text": "“You need to learn to set boundaries.”",
+       "gut": false,
+       "feedback": "Premature advice replaces clarification. It is still unclear what Ms. H. needs and wants."
+      },
+      {
+       "text": "“Did your physician make a diagnosis? Which one?”",
+       "gut": false,
+       "feedback": "Asking whether medical treatment is under way is legitimate; as a first reaction, however, it leads away from the concern. It can be asked later as part of the clarification."
+      }
+     ]
+    },
+    {
+     "klient": "“I’d like to learn to handle conflicts in the team with more confidence. And I’d like to be able to switch off in the evenings again.”",
+     "antworten": [
+      {
+       "text": "“Good, then let’s start right away with a conflict exercise.”",
+       "gut": false,
+       "feedback": "Before implementation, there is no agreement on the setting, goals, and procedure. Without a contract, it remains unclear what one is getting into."
+      },
+      {
+       "text": "“Those are two important goals. Before we get started, I’d like to discuss the framework with you: how many appointments we’ll agree on initially, what remains confidential, and where the limits of this counseling lie. Is that all right with you?”",
+       "gut": true,
+       "feedback": "The response acknowledges the goals and leads transparently into the contract phase – with a request for permission."
+      },
+      {
+       "text": "“Switching off is easy – go for a walk in the evening.”",
+       "gut": false,
+       "feedback": "An everyday tip passes over the complexity and skips the structuring of the process."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "text",
+   "titel": "Conclusion and Evaluation",
+   "text": "The **conclusion** of a counseling process deserves as much care as its beginning. Especially after intensive processes, an abrupt ending can unsettle clients or touch on old experiences of loss. A good conclusion includes:\n\n- **Review:** Where did the person stand at the beginning, and where do they stand now? Scalings from the beginning can be repeated.\n- **Acknowledgment:** What has the person themselves contributed to the change? Attributing progress to their **own achievement** strengthens self-efficacy.\n- **Securing what has been achieved:** What helps to maintain the changes? How would the person notice a relapse into old patterns early, and what could they do then?\n- **Outlook:** Which issues remain open? Are there further services that could be helpful?\n- **Farewell:** a conscious, personal farewell, if appropriate with the offer of later contact.\n\n**Evaluation** should not take place only at the end. Psychotherapy research shows that regular, structured **feedback from clients** on the relationship and on progress can help to detect unfavorable courses early. Simple questions at the end of each session – “What was helpful today? What was missing?” – are a good start.\n\nFinally, structuring also includes **documentation**: concise, factual, compliant with data protection, and formulated in such a way that the client could follow it if they inspected it. Counselors should know the retention and data protection rules that apply to their field of work."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which measure at the conclusion of counseling particularly strengthens the client’s self-efficacy?",
+   "optionen": [
+    "The counselor emphasizes which methods she has used successfully.",
+    "Progress is explicitly attributed to the client’s own contributions and abilities.",
+    "The counseling is ended without a review so as not to burden the person.",
+    "The client is offered the option of coming back immediately with every future difficulty."
+   ],
+   "richtig": 1,
+   "erklaerung": "When changes are attributed to one’s own contributions, the conviction grows that one can also make a difference in the future. Emphasizing one’s own methods shifts the credit to the counselor, a conclusion without review squanders learning gains, and a blanket recommendation to return can foster dependence."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "The limits of confidentiality should only be addressed once a dangerous situation actually arises, so as not to disturb trust at the beginning.",
+   "richtig": false,
+   "erklaerung": "Transparency about the limits of confidentiality belongs at the beginning, in the contract. If they are named only in a crisis, this can be experienced as a breach of trust. Openness from the outset is an expression of congruence and protects the relationship."
+  },
+  {
+   "typ": "merke",
+   "text": "A clear contract is not a formality but the foundation of the collaboration: it creates security, distributes responsibility, and makes limits transparent from the outset."
+  },
+  {
+   "typ": "karten",
+   "titel": "Flashcards: Process and Contract",
+   "karten": [
+    {
+     "vorne": "Occasion – concern – mandate",
+     "hinten": "External trigger – the person’s own wish – concrete expectation of the counselor."
+    },
+    {
+     "vorne": "Mandate carousel",
+     "hinten": "Image proposed by Arist von Schlippe for the multitude of expectations that different parties issuing mandates direct at the counselor."
+    },
+    {
+     "vorne": "Contract",
+     "hinten": "Binding agreement on setting, confidentiality, goals, roles, procedure, review, and termination."
+    },
+    {
+     "vorne": "Session structure",
+     "hinten": "Arriving – review – focus – working phase – summary – agreements."
+    },
+    {
+     "vorne": "Good conclusion",
+     "hinten": "Review, acknowledgment of one’s own contributions, securing what has been achieved, outlook, and a conscious farewell."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "id": "L4-4",
+ "titel": "Indications, Contraindications, and Comparison with Exposure and Cognitive Defusion",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Indications at a Glance",
+   "text": "Paradoxical intention and dereflection are **not panaceas** but methods with specific areas of application. The logotherapeutic literature names above all the following indications:\n\n**Paradoxical intention**\n\n- anticipatory anxieties and phobias in which the vicious circle of fear of fear and avoidance is central,\n- vegetative symptoms intensified by anticipatory anxiety (blushing, sweating, trembling),\n- obsessive thoughts in which the fight against the thought intensifies it,\n- difficulty falling asleep (the intention to stay awake instead of wanting to fall asleep),\n- certain forms of stuttering that are intensified by anticipatory anxiety.\n\n**Dereflection**\n\n- sexual dysfunctions involving performance pressure,\n- sleep disorders involving hyperintention,\n- rumination and excessive self-observation,\n- fixation on chronic complaints after medical assessment,\n- generally, situations in which a person revolves around himself or herself and has lost connections to meaning.\n\nFor **counseling practice**: many of these indications concern clinically relevant disorders whose diagnosis and treatment are reserved for physicians and licensed psychotherapists (in Germany, holders of an Approbation, i.e., a state license). In counseling, the principles can be used above all for **subclinical** problems – such as stage fright, occasional sleep problems, performance pressure, or a tendency to ruminate – and as a **psychoeducational** explanation of vicious circles. The boundary with psychotherapy must be carefully observed."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the problems to the method that, according to Frankl, is primarily indicated.",
+   "kategorien": [
+    "Paradoxical intention",
+    "Dereflection"
+   ],
+   "elemente": [
+    {
+     "text": "Fear of blushing when speaking in front of an audience",
+     "kat": 0
+    },
+    {
+     "text": "An intrusive thought of not having locked the front door, against which the person fights",
+     "kat": 0
+    },
+    {
+     "text": "Fear of breaking out in sweat in company",
+     "kat": 0
+    },
+    {
+     "text": "Erection problems under heavy performance pressure",
+     "kat": 1
+    },
+    {
+     "text": "Constantly analyzing one's own mood",
+     "kat": 1
+    },
+    {
+     "text": "Life revolves only around one's own complaints",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Paradoxical intention is directed against anticipatory anxiety, avoidance, and the fight against obsessive thoughts. Dereflection is directed against hyperintention (e.g., performance pressure in sexuality) and hyperreflection (rumination, fixation on symptoms). The two methods can also be combined, and clinically relevant disorders belong in professional treatment."
+  },
+  {
+   "typ": "text",
+   "titel": "Contraindications and Rules of Caution",
+   "text": "The **contraindications** are just as important as the indications. For **paradoxical intention**, the following apply in particular:\n\n- **Suicidality and severe depression**: a paradoxical formulation aimed at what is feared could be misunderstood by suicidal people as confirmation or even as encouragement. Here the method is **contraindicated**. Frankl himself expressly emphasized this.\n- **Psychotic illnesses**: in delusional experience or impaired reality testing, the method can confuse and intensify anxieties.\n- **Real dangers**: paradoxical intention is directed only against **neurotic**, not against **realistic** fears. Whoever has a well-founded fear of a violent partner needs protection, not paradox.\n- **Unclarified physical causes**: racing heart, dizziness, or a tendency to faint must have been medically assessed before they are “ordered.”\n- **Lack of readiness for self-distancing**, or a relationship in which humor would be experienced as hurtful.\n\nFor **dereflection**, the following apply above all:\n\n- **unclarified physical symptoms** whose “ignoring” would be dangerous,\n- **severe depression**, in which turning toward values is overwhelming,\n- situations in which dereflection serves to **avoid** a necessary confrontation (e.g., grief).\n\nA basic rule is therefore: **first assess, then apply** – and when in doubt, refer."
+  },
+  {
+   "typ": "multi",
+   "frage": "In which situations is paradoxical intention contraindicated? (Several answers are correct)",
+   "optionen": [
+    "In a person with acute suicidal thoughts",
+    "In stage fright of a physically healthy person without further stresses",
+    "In a person with psychotic delusional experience",
+    "In realistic fear of an actually dangerous situation",
+    "In a racing heart whose physical cause has not yet been assessed"
+   ],
+   "richtig": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "erklaerung": "Suicidality, psychoses, real dangers, and unclarified physical causes are contraindications. Stage fright in physically healthy people, by contrast, is a typical area of application, including in counseling."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Paradoxical intention can also be used for realistic fears, for instance of a violent partner, in order to reduce the fear.",
+   "richtig": false,
+   "erklaerung": "Paradoxical intention is directed exclusively against neurotic fears, that is, against apprehensions without real danger. In the case of a real threat, protection, safety planning, and referral take priority."
+  },
+  {
+   "typ": "text",
+   "titel": "Comparison: Paradoxical Intention and Exposure",
+   "text": "Paradoxical intention is often compared with **exposure therapy** in behavior therapy. In exposure, a person deliberately exposes himself or herself to anxiety-provoking situations or stimuli – in reality (in vivo) or in imagination (in sensu), gradually or massed – without escaping into avoidance or safety behavior.\n\n**Commonalities**:\n\n- Both interrupt **avoidance** and flight from fear.\n- Both lead the person to **have** the feared experience instead of avoiding it.\n- Both presuppose that the apprehension does not concern a real danger.\n\n**Differences**:\n\n- **Theoretical background**: exposure is justified in terms of learning theory, e.g., through habituation or – in newer approaches – through inhibitory learning, in which new experiences that contradict the fear are formed. Paradoxical intention is grounded in the anthropological capacity for self-distancing.\n- **Attitude**: in exposure, the fear is endured; in paradoxical intention, what is feared is **wished for** and humorously exaggerated.\n- **Structure**: exposure is usually planned systematically (fear hierarchy, records). Paradoxical intention is more situational and improvisational.\n- **Evidence**: exposure procedures are among the best-researched psychotherapeutic methods for anxiety disorders. The evidence base for paradoxical intention as an independent method is considerably narrower; it has been studied most often in difficulty falling asleep.\n\nFrom a behavior-therapy perspective, paradoxical intention can also be described as a form of self-exposure with altered expectation."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the features to the appropriate procedure.",
+   "paare": [
+    [
+     "Systematic fear hierarchy and dropping safety behavior",
+     "Exposure"
+    ],
+    [
+     "Humorously wishing for what is feared",
+     "Paradoxical intention"
+    ],
+    [
+     "Learning-theory rationale through habituation or inhibitory learning",
+     "Exposure"
+    ],
+    [
+     "Anthropological rationale through self-distancing",
+     "Paradoxical intention"
+    ],
+    [
+     "“I'm having the thought that …” as linguistic distancing",
+     "Cognitive defusion"
+    ]
+   ],
+   "erklaerung": "Exposure is systematic and grounded in learning theory. Paradoxical intention works with humorous reversal of intention and is grounded in self-distancing. The formulation “I'm having the thought that …” is a typical defusion technique of acceptance and commitment therapy."
+  },
+  {
+   "typ": "text",
+   "titel": "Comparison: Paradoxical Intention and Cognitive Defusion",
+   "text": "**Cognitive defusion** is a central process of **acceptance and commitment therapy (ACT)**, developed by Steven C. Hayes and colleagues. Defusion means gaining distance from one's own thoughts: thoughts are seen as **thoughts**, not as truths or commands. Typical exercises are:\n\n- the formulation “I'm having the thought that I'm failing” instead of “I'm failing,”\n- rapidly repeating a word out loud until it loses its meaning,\n- singing a distressing thought or saying it in a funny voice.\n\n**Commonalities with paradoxical intention**:\n\n- Both foster **distance** from one's own experience; defusion and self-distancing are related concepts.\n- Both often use **humor** and playful estrangement.\n- Both give up the **fight** against inner experiences.\n- Both stand within a framework that emphasizes **values** and meaning (in ACT as values-based action).\n\n**Differences**:\n\n- Paradoxical intention actively **wishes for** what is feared and exaggerates it; defusion changes the **relationship** to the thought without wishing for it.\n- Defusion does not aim primarily at symptom reduction but at psychological flexibility; paradoxical intention seeks to break the vicious circle of anticipatory anxiety.\n- ACT is grounded in a behavior-analytic theory of language (relational frame theory), logotherapy in a phenomenological-existential anthropology.\n\n**Dereflection**, in turn, shows parallels to the values-based orientation in ACT: there, too, attention is to be directed away from inner struggles toward meaningful action."
+  },
+  {
+   "typ": "mc",
+   "frage": "What is a central difference between paradoxical intention and cognitive defusion?",
+   "optionen": [
+    "Paradoxical intention aims to actively and exaggeratedly wish for what is feared; defusion changes the relationship to the thought without wishing for it.",
+    "Defusion never uses humor.",
+    "Paradoxical intention is a procedure of acceptance and commitment therapy.",
+    "Defusion aims to refute thoughts with logical arguments."
+   ],
+   "richtig": 0,
+   "erklaerung": "The active, humorous reversal of intention is the specific feature of paradoxical intention. Defusion also often works playfully but seeks neither to refute thoughts nor to wish for them, rather to reduce their power over behavior. Paradoxical intention comes from Frankl, not from ACT."
+  },
+  {
+   "typ": "fall",
+   "titel": "Choice of Method and Limits",
+   "fall": "Constructed teaching vignette: Mr. F., 42, comes to a life counseling center. For months he has had severe sleep disturbances, lies awake ruminating, and keeps thinking “that it would be better for everyone if I weren't around anymore.” He has read about paradoxical intention in a self-help book and wants to try it.",
+   "frage": "How should the counselor proceed?",
+   "optionen": [
+    "She guides Mr. F. to resolve to stay awake all night, since difficulty falling asleep is a classic indication.",
+    "She recommends dereflection so that Mr. F. no longer thinks about his thoughts.",
+    "She directly and carefully assesses the expressed thoughts of being weary of life, ensures safety, and refers him to medical or psychotherapeutic help; paradoxical methods are not indicated here.",
+    "She encourages Mr. F. to try the method on his own first and schedules an appointment in four weeks."
+   ],
+   "richtig": 2,
+   "erklaerung": "The statement “better if I weren't around anymore” is an indication of possible suicidality. Risk assessment, safety, and referral take priority. Paradoxical intention is contraindicated in suicidality and severe depression; dereflection would not be the first choice here either. A four-week interval without assessment would be negligent."
+  },
+  {
+   "typ": "merke",
+   "text": "First assess, then apply: paradoxical intention is contraindicated in suicidality, severe depression, psychoses, real dangers, and unclarified physical causes. It shares with exposure the interruption of avoidance, with defusion the distance from experience – its specific feature is the humorous reversal of intention."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which methods from other approaches (e.g., exposure, defusion, mindfulness) do you already know? How would you place paradoxical intention and dereflection within your existing repertoire of methods – and where, for you, are the boundaries between counseling and psychotherapy?",
+   "hinweis": "Guiding questions: Which concerns from your practice are subclinical and suitable for counseling? At which signals do you refer? Which commonalities among the approaches make it easier for you to explain them to clients?"
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-lang-root>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -20,17 +20,18 @@
         <line x1="20" y1="2" x2="20" y2="37" stroke="var(--accent)" stroke-width="1.8"/>
         <circle cx="20" cy="4" r="2.2" fill="var(--brass)"/>
       </svg>
-      <span class="brand-name">Institut für Sinnzentrierte Psychologie<small>Logotherapie · Psychotherapieforschung · Weiterbildung</small></span>
+      <span class="brand-name"><span data-lang="de">Institut für Sinnzentrierte Psychologie</span><span data-lang="en">Institute for Meaning-Centered Psychology</span><small><span data-lang="de">Logotherapie · Psychotherapieforschung · Weiterbildung</span><span data-lang="en">Logotherapy · Psychotherapy Research · Professional Training</span></small></span>
     </a>
-    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav">Menü</button>
+    <div class="lang-switch" role="group" aria-label="Sprache / Language"><button type="button" data-setlang="de" aria-pressed="true" lang="de" title="Deutsch">DE</button><button type="button" data-setlang="en" aria-pressed="false" lang="en" title="English">EN</button></div>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav"><span data-lang="de">Menü</span><span data-lang="en">Menu</span></button>
     <nav class="nav" id="nav" aria-label="Hauptnavigation">
-      <a href="#institut" data-nav="institut">Institut</a>
-      <a href="#logotherapie" data-nav="logotherapie">Logotherapie</a>
-      <a href="#verfahren" data-nav="verfahren">Therapieverfahren</a>
-      <a href="#journal" data-nav="journal">Zeitschrift</a>
-      <a href="#lexikon" data-nav="lexikon">Lexikon</a>
-      <a href="#weiterbildung" data-nav="weiterbildung">Weiterbildung</a>
-      <a href="#lernbereich" data-nav="akademie" class="nav-cta">Mein Lernbereich</a>
+      <a href="#institut" data-nav="institut"><span data-lang="de">Institut</span><span data-lang="en">Institute</span></a>
+      <a href="#logotherapie" data-nav="logotherapie"><span data-lang="de">Logotherapie</span><span data-lang="en">Logotherapy</span></a>
+      <a href="#verfahren" data-nav="verfahren"><span data-lang="de">Therapieverfahren</span><span data-lang="en">Therapies</span></a>
+      <a href="#journal" data-nav="journal"><span data-lang="de">Zeitschrift</span><span data-lang="en">Journal</span></a>
+      <a href="#lexikon" data-nav="lexikon"><span data-lang="de">Lexikon</span><span data-lang="en">Encyclopedia</span></a>
+      <a href="#weiterbildung" data-nav="weiterbildung"><span data-lang="de">Weiterbildung</span><span data-lang="en">Courses</span></a>
+      <a href="#lernbereich" data-nav="akademie" class="nav-cta"><span data-lang="de">Mein Lernbereich</span><span data-lang="en">My learning</span></a>
     </nav>
   </div>
 </header>
@@ -42,43 +43,43 @@
   <div class="wrap">
     <div class="hero">
       <div class="hero-text">
-        <p class="eyebrow">Forschung · Lehre · Weiterbildung</p>
-        <h1>Die Frage nach dem <em>Sinn</em> gehört in die wissenschaftliche Psychologie.</h1>
-        <p class="lead">Das Institut für Sinnzentrierte Psychologie verbindet die Logotherapie Viktor E. Frankls mit dem Erkenntnisstand der heutigen Psychotherapieforschung. Wir forschen, publizieren und bilden aus.</p>
+        <p class="eyebrow"><span data-lang="de">Forschung · Lehre · Weiterbildung</span><span data-lang="en">Research · Teaching · Training</span></p>
+        <h1 data-lang="de">Die Frage nach dem <em>Sinn</em> gehört in die wissenschaftliche Psychologie.</h1><h1 data-lang="en">The question of <em>meaning</em> belongs in scientific psychology.</h1>
+        <p class="lead" data-lang="de">Das Institut für Sinnzentrierte Psychologie verbindet die Logotherapie Viktor E. Frankls mit dem Erkenntnisstand der heutigen Psychotherapieforschung. Wir forschen, publizieren und bilden aus.</p><p class="lead" data-lang="en">The Institute for Meaning-Centered Psychology connects Viktor E. Frankl's logotherapy with current psychotherapy research. We conduct research, publish and teach.</p>
         <div class="actions">
-          <a class="btn btn-primary" href="#weiterbildung">Zertifikatskurse</a>
-          <a class="btn btn-ghost" href="#journal">Zur Zeitschrift</a>
+          <a class="btn btn-primary" href="#weiterbildung"><span data-lang="de">Zertifikatskurse</span><span data-lang="en">Certificate courses</span></a>
+          <a class="btn btn-ghost" href="#journal"><span data-lang="de">Zur Zeitschrift</span><span data-lang="en">Read the journal</span></a>
         </div>
       </div>
       <figure class="hero-quote">
-        <blockquote>„Wer ein Warum zum Leben hat, erträgt fast jedes Wie.“</blockquote>
-        <cite>Friedrich Nietzsche, von Viktor E. Frankl in seinem Bericht über die Konzentrationslager als Leitsatz zitiert</cite>
+        <blockquote data-lang="de">„Wer ein Warum zum Leben hat, erträgt fast jedes Wie.“</blockquote><blockquote data-lang="en">“He who has a why to live for can bear almost any how.”</blockquote>
+        <cite><span data-lang="de">Friedrich Nietzsche, von Viktor E. Frankl in seinem Bericht über die Konzentrationslager als Leitsatz zitiert</span><span data-lang="en">Friedrich Nietzsche, quoted by Viktor E. Frankl as a guiding principle in his account of the concentration camps</span></cite>
       </figure>
     </div>
 
     <div class="section">
       <div class="section-head">
-        <p class="eyebrow">Arbeitsschwerpunkte</p>
-        <h2>Drei Aufgaben, ein Gegenstand</h2>
+        <p class="eyebrow"><span data-lang="de">Arbeitsschwerpunkte</span><span data-lang="en">Areas of work</span></p>
+        <h2><span data-lang="de">Drei Aufgaben, ein Gegenstand</span><span data-lang="en">Three tasks, one subject</span></h2>
       </div>
       <div class="pillars">
         <div class="pillar">
           <span class="num">I</span>
-          <h3>Logotherapie und Existenzanalyse</h3>
-          <p class="muted">Systematische Darstellung, begriffliche Klärung und empirische Prüfung der sinnzentrierten Psychotherapie in der Tradition Frankls.</p>
-          <a href="#logotherapie">Grundlagen der Logotherapie</a>
+          <h3><span data-lang="de">Logotherapie und Existenzanalyse</span><span data-lang="en">Logotherapy and existential analysis</span></h3>
+          <p class="muted"><span data-lang="de">Systematische Darstellung, begriffliche Klärung und empirische Prüfung der sinnzentrierten Psychotherapie in der Tradition Frankls.</span><span data-lang="en">Systematic presentation, conceptual clarification and empirical testing of meaning-centered psychotherapy in Frankl's tradition.</span></p>
+          <a href="#logotherapie"><span data-lang="de">Grundlagen der Logotherapie</span><span data-lang="en">Foundations of logotherapy</span></a>
         </div>
         <div class="pillar">
           <span class="num">II</span>
-          <h3>Vergleichende Psychotherapieforschung</h3>
-          <p class="muted">Einordnung sinnzentrierter Ansätze neben Verhaltenstherapie, psychodynamischen, systemischen und humanistischen Verfahren.</p>
-          <a href="#verfahren">Übersicht der Therapieverfahren</a>
+          <h3><span data-lang="de">Vergleichende Psychotherapieforschung</span><span data-lang="en">Comparative psychotherapy research</span></h3>
+          <p class="muted"><span data-lang="de">Einordnung sinnzentrierter Ansätze neben Verhaltenstherapie, psychodynamischen, systemischen und humanistischen Verfahren.</span><span data-lang="en">Positioning meaning-centered approaches alongside behavioral, psychodynamic, systemic and humanistic therapies.</span></p>
+          <a href="#verfahren"><span data-lang="de">Übersicht der Therapieverfahren</span><span data-lang="en">Overview of therapies</span></a>
         </div>
         <div class="pillar">
           <span class="num">III</span>
-          <h3>Weiterbildung und Qualifizierung</h3>
-          <p class="muted">Interaktive Online-Zertifikatskurse in Logotherapeutischer Beratung und Psychologischer Beratung mit Fallarbeit, Gesprächssimulationen und Abschlussprüfung.</p>
-          <a href="#weiterbildung">Zu den Kursen</a>
+          <h3><span data-lang="de">Weiterbildung und Qualifizierung</span><span data-lang="en">Professional training</span></h3>
+          <p class="muted"><span data-lang="de">Interaktive Online-Zertifikatskurse in Logotherapeutischer Beratung und Psychologischer Beratung mit Fallarbeit, Gesprächssimulationen und Abschlussprüfung.</span><span data-lang="en">Interactive online certificate courses in logotherapeutic counseling and psychological counseling, with case work, conversation simulations and a final examination.</span></p>
+          <a href="#weiterbildung"><span data-lang="de">Zu den Kursen</span><span data-lang="en">View courses</span></a>
         </div>
       </div>
     </div>
@@ -86,17 +87,17 @@
     <div class="section">
       <div class="split">
         <div class="panel">
-          <p class="eyebrow">Aktuelles Heft</p>
+          <p class="eyebrow"><span data-lang="de">Aktuelles Heft</span><span data-lang="en">Current issue</span></p>
           <h3 id="home-issue-title">Zeitschrift für Sinnzentrierte Psychologie</h3>
           <ul class="toc-list" id="home-issue-list"></ul>
-          <a href="#journal">Alle Ausgaben und Beiträge</a>
+          <a href="#journal"><span data-lang="de">Alle Ausgaben und Beiträge</span><span data-lang="en">All issues and articles</span></a>
         </div>
         <div class="panel panel-accent">
-          <p class="eyebrow">Fachlexikon</p>
-          <h3>Begriffe nachschlagen</h3>
+          <p class="eyebrow"><span data-lang="de">Fachlexikon</span><span data-lang="en">Encyclopedia</span></p>
+          <h3><span data-lang="de">Begriffe nachschlagen</span><span data-lang="en">Look up a term</span></h3>
           <form class="search" id="home-search" role="search">
             <label for="home-q" class="small" hidden>Lexikon durchsuchen</label>
-            <input id="home-q" type="search" placeholder="z. B. Paradoxe Intention, Schemamodi, Resilienz" autocomplete="off">
+            <input id="home-q" type="search" data-ph-de="z. B. Paradoxe Intention, Schemamodi, Resilienz" data-ph-en="e.g. paradoxical intention, schema modes, resilience" placeholder="z. B. Paradoxe Intention, Schemamodi, Resilienz" autocomplete="off">
           </form>
           <div id="home-term" class="lex-entry"></div>
           <p class="small muted" id="home-lex-count"></p>
@@ -109,6 +110,7 @@
 <!-- ============ INSTITUT ============ -->
 <section class="view" id="view-institut" data-view="institut">
   <div class="wrap">
+    <div data-lang="de">
     <header class="page-head">
       <p class="eyebrow">Das Institut</p>
       <h1>Leitbild und Arbeitsbereiche</h1>
@@ -155,12 +157,62 @@
         <p class="callout">Sinnfragen sind keine Krankheit. Wer sie begleitet, muss aber erkennen können, wann hinter einer Sinnkrise eine Depression, eine Traumafolgestörung oder akute Suizidalität steht.</p>
       </div>
     </div>
+    </div>
+    <div data-lang="en">
+    <header class="page-head">
+      <p class="eyebrow">The Institute</p>
+      <h1>Mission and Research Areas</h1>
+      <p class="lead">We understand psychology as an empirical science of the human being that takes seriously our capacity for meaning, freedom and responsibility.</p>
+    </header>
+    <div class="with-toc">
+      <nav class="toc" aria-label="On this page">
+        <a href="#en-institut-leitbild" data-scroll>Mission</a>
+        <a href="#en-institut-team" data-scroll>Team</a>
+        <a href="#en-institut-bereiche" data-scroll>Research areas</a>
+        <a href="#en-institut-grundsaetze" data-scroll>Scientific principles</a>
+        <a href="#en-institut-ethik" data-scroll>Professional ethics</a>
+      </nav>
+      <div class="prose">
+        <h2 id="en-institut-leitbild">Mission</h2>
+        <p>Viktor E. Frankl described the search for meaning as an independent motivational force in human beings and built a school of psychotherapy on that insight. It is more relevant today than in his own time: empirical research on meaning in life, values and existential distress has grown considerably since the 2000s, and several contemporary therapies have incorporated value-oriented elements.</p>
+        <p>The Institute pursues three goals. It makes logotherapeutic thought conceptually precise and testable. It places meaning-centered approaches in a fair comparison with other forms of psychotherapy. And it trains professionals to accompany questions of meaning competently while knowing the limits of their role.</p>
+        <p>We are not bound exclusively to any one school. Logotherapy is our focus, not our dogma. Where research supports other approaches better for a given indication, we say so.</p>
+
+        <h2 id="en-institut-team">Team</h2>
+        <p>The Institute brings together an interdisciplinary team of scientists from psychology, psychotherapy research, philosophy and social work. Research, the journal and the courses are the result of joint work.</p>
+        <p>Contributors include Dr. Dr. Sora Pazer (psychology and social work), Dr. Konstanze Vehrenkamp (psychology and philosophy), Dr. Matthias Oberländer (psychotherapy research and methodology) and Dr. Teresa Lindqvist (psycho-oncology).</p>
+
+        <h2 id="en-institut-bereiche">Research areas</h2>
+        <h3>Logotherapy and Existential Analysis</h3>
+        <p>Source work on Frankl's complete writings, further development of logotherapeutic methods, and the relationship between logotherapy, Längle's existential analysis and existential psychotherapy. This area is responsible for the curriculum of the certificate course in Logotherapeutic Counseling.</p>
+        <h3>Psychotherapy Research</h3>
+        <p>Systematic reviews of meaning-centered interventions, measurement of meaning in life and of meaning crises, research on common factors, and comparison with third-wave behavioral therapies.</p>
+        <h3>Counseling Psychology</h3>
+        <p>Concepts of psychological counseling outside the practice of medicine and psychotherapy: crisis support, counseling in life transitions and prevention of occupational exhaustion. This area is responsible for the certificate course in Psychological Counseling.</p>
+        <h3>Editorial Office and Knowledge Transfer</h3>
+        <p>Publication of the <a href="#journal">Journal of Meaning-Centered Psychology</a> and maintenance of the freely accessible <a href="#lexikon">encyclopedia</a>.</p>
+
+        <h2 id="en-institut-grundsaetze">Scientific principles</h2>
+        <ul>
+          <li><strong>Empirical testability.</strong> Claims about effectiveness are based on controlled trials, systematic reviews and meta-analyses. Clinical experience is valuable but does not replace such evidence.</li>
+          <li><strong>Transparency about the evidence.</strong> We state where research on logotherapy is thin and distinguish between well-studied component techniques and the approach as a whole.</li>
+          <li><strong>Conceptual care.</strong> Philosophical and anthropological assumptions are marked as such and are not presented as empirical findings.</li>
+          <li><strong>Independence.</strong> Journal contributions undergo editorial review; conflicts of interest are disclosed.</li>
+        </ul>
+
+        <h2 id="en-institut-ethik">Professional ethics</h2>
+        <p>Teaching and counseling at the Institute follow the ethical principles of psychology: respect for the dignity and autonomy of clients, confidentiality, professional diligence, avoidance of dependency and multiple relationships, and the duty to refer clients to physicians or licensed psychotherapists whenever a mental disorder requiring treatment may be present.</p>
+        <p class="callout">Questions of meaning are not an illness. Anyone who accompanies them, however, must be able to recognize when depression, a trauma-related disorder or acute suicidality lies behind a crisis of meaning.</p>
+      </div>
+    </div>
+    </div>
   </div>
 </section>
 
 <!-- ============ LOGOTHERAPIE ============ -->
 <section class="view" id="view-logotherapie" data-view="logotherapie">
   <div class="wrap">
+    <div data-lang="de">
     <header class="page-head">
       <p class="eyebrow">Schwerpunkt</p>
       <h1>Logotherapie</h1>
@@ -256,6 +308,104 @@
         </ul>
       </div>
     </div>
+    </div>
+    <div data-lang="en">
+    <header class="page-head">
+      <p class="eyebrow">Focus</p>
+      <h1>Logotherapy</h1>
+      <p class="lead">The meaning-centered psychotherapy founded by Viktor E. Frankl, often called the “Third Viennese School of Psychotherapy” after Freud and Adler.</p>
+    </header>
+    <div class="with-toc">
+      <nav class="toc" aria-label="On this page">
+        <a href="#en-lt-frankl" data-scroll>Viktor E. Frankl</a>
+        <a href="#en-lt-menschenbild" data-scroll>Image of the human being</a>
+        <a href="#en-lt-saeulen" data-scroll>Three basic assumptions</a>
+        <a href="#en-lt-werte" data-scroll>Paths to meaning</a>
+        <a href="#en-lt-methoden" data-scroll>Methods</a>
+        <a href="#en-lt-anwendung" data-scroll>Fields of application</a>
+        <a href="#en-lt-evidenz" data-scroll>State of research</a>
+        <a href="#en-lt-abgrenzung" data-scroll>Distinctions</a>
+        <a href="#en-lt-literatur" data-scroll>Key literature</a>
+      </nav>
+      <div class="prose">
+        <h2 id="en-lt-frankl">Viktor E. Frankl (1905–1997)</h2>
+        <p>Frankl was a neurologist and psychiatrist in Vienna. In the 1920s he was in contact with Freud and Adler before turning away from Individual Psychology. In the 1930s he organized counseling centers for young people and headed a ward for suicidal women at the Am Steinhof psychiatric hospital. From 1942 to 1945 he was imprisoned in the concentration camps of Theresienstadt, Auschwitz, Kaufering and Türkheim; his parents, his brother and his first wife Tilly died in the camps.</p>
+        <p>After liberation he published <em>Ärztliche Seelsorge</em> (1946; English: <em>The Doctor and the Soul</em>) and <em>Ein Psycholog erlebt das Konzentrationslager</em> (1946), later known as <em>…trotzdem Ja zum Leben sagen</em>. The English edition, later titled <em>Man's Search for Meaning</em>, became one of the most widely read books of the twentieth century. From 1946 to 1971 Frankl headed the Vienna Neurological Policlinic.</p>
+
+        <h2 id="en-lt-menschenbild">Image of the human being: dimensional ontology</h2>
+        <p>Frankl describes the human being in three dimensions. They are not separate layers but aspects of a unity that can only be distinguished by the way we look at them.</p>
+        <div class="dimensions">
+          <div><span class="tag">Somatic</span><h4>Body</h4><p class="small">Physiological processes, constitution, illness.</p></div>
+          <div><span class="tag">Psychological</span><h4>Psyche</h4><p class="small">Feelings, drives, habits, acquired patterns.</p></div>
+          <div><span class="tag">Noetic</span><h4>Spirit</h4><p class="small">Freedom, responsibility, conscience, orientation toward meaning and values.</p></div>
+        </div>
+        <p>According to Frankl, the noetic dimension itself cannot become ill, but its expression can be blocked by physical or mental illness. This is the basis of the therapeutic resource Frankl called the “defiant power of the human spirit”: the capacity to take a stand toward one's own states.</p>
+
+        <h2 id="en-lt-saeulen">Three basic assumptions</h2>
+        <ol>
+          <li><strong>Freedom of will.</strong> The human being is conditioned but not fully determined, and is free to take a stand toward conditions that cannot be changed.</li>
+          <li><strong>Will to meaning.</strong> The primary human motive is neither pleasure (Freud) nor power (Adler) but the striving to find and fulfill meaning in one's life.</li>
+          <li><strong>Meaning of life.</strong> Meaning is objective in the sense that it is discovered rather than invented. It is specific to the situation, unique to the person and remains possible under all circumstances.</li>
+        </ol>
+        <p>When the will to meaning is frustrated over a long period, an <em>existential vacuum</em> arises, a feeling of inner emptiness and boredom. If this frustration leads to clinically relevant symptoms, Frankl speaks of a <em>noogenic neurosis</em>.</p>
+
+        <h2 id="en-lt-werte">Paths to meaning: three categories of values</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Category</th><th>Realized through</th><th>Examples</th></tr></thead>
+            <tbody>
+              <tr><td>Creative values</td><td>What we give to the world</td><td>Work, deeds, achievements, care for others</td></tr>
+              <tr><td>Experiential values</td><td>What we receive from the world</td><td>Love, encounter, nature, art</td></tr>
+              <tr><td>Attitudinal values</td><td>How we face an unchangeable fate</td><td>The stance taken toward illness, guilt, loss and death</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Frankl ranked attitudinal values highest: even when creative action and experience are no longer possible, the freedom to choose one's attitude remains. He summarized the unavoidable limit experiences of suffering, guilt and death as the <em>tragic triad</em>, to which he opposed a “tragic optimism”.</p>
+
+        <h2 id="en-lt-methoden">Methods</h2>
+        <h3>Paradoxical intention</h3>
+        <p>Developed for anticipatory anxiety and obsessive fears. The person is guided to wish for, or intend, precisely what they fear, with humor. The method draws on the capacity for self-distancing and interrupts the vicious circle of fear of fear and avoidance. It shows clear parallels to later exposure-based and acceptance-based procedures.</p>
+        <h3>Dereflection</h3>
+        <p>Directed against hyperreflection, excessive self-observation, for example in sleep disorders or sexual dysfunction. Attention is guided away from the symptom toward meaningful content and tasks. It is based on the capacity for self-transcendence.</p>
+        <h3>Modification of attitudes</h3>
+        <p>The joint examination and change of attitudes toward life circumstances, especially toward suffering that cannot be changed.</p>
+        <h3>Socratic dialogue</h3>
+        <p>A questioning rather than instructing form of conversation in which clients discover their own values and possibilities of meaning. The therapist does not prescribe meaning; Frankl held that meaning cannot be given but only found.</p>
+
+        <h2 id="en-lt-anwendung">Fields of application</h2>
+        <ul>
+          <li>Counseling in crises of meaning, life transitions, retirement and job loss</li>
+          <li>Prevention and support in occupational exhaustion</li>
+          <li>Psycho-oncology, palliative care and grief support</li>
+          <li>As an adjunct in the treatment of anxiety and obsessive-compulsive disorders, addiction and depression</li>
+          <li>Pastoral care, education, nursing and social work</li>
+        </ul>
+
+        <h2 id="en-lt-evidenz">State of research</h2>
+        <p>Frankl himself understood logotherapy as a supplement to, not a replacement for, psychotherapy. Empirical research developed mainly through measurement instruments: the Purpose in Life Test (Crumbaugh &amp; Maholick, 1964) was the first operationalization of Frankl's concept of the existential vacuum. Today meaning in life is assessed, among others, with the Meaning in Life Questionnaire (Steger et al., 2006) and Schnell's Sources of Meaning and Meaning in Life Questionnaire.</p>
+        <p>Research on meaning consistently shows that experienced meaning in life is associated with psychological well-being, and that crises of meaning go along with depressive symptoms and hopelessness. For structured meaning-centered interventions, especially Breitbart's Meaning-Centered Psychotherapy for patients with cancer, randomized trials with positive results are available. A meta-analysis of existential therapies (Vos, Craig &amp; Cooper, 2015) found the clearest effects within this group for meaning-centered approaches.</p>
+        <p>For classical logotherapy as a whole, however, the evidence is limited: many studies are small, methodologically heterogeneous and come from a few research groups. In Germany, logotherapy is neither a procedure reimbursed by statutory health insurance nor recognized as a psychotherapeutic procedure by the Scientific Advisory Board on Psychotherapy. Closing this gap is a core task of our Psychotherapy Research area.</p>
+
+        <h2 id="en-lt-abgrenzung">Distinctions</h2>
+        <p><strong>Existential analysis.</strong> Frankl used “existential analysis” for the anthropological theory and “logotherapy” for the treatment. From the 1980s, Alfred Längle developed existential analysis into an independent approach with greater emphasis on emotions and biography; Frankl distanced himself from this development in 1991.</p>
+        <p><strong>Existential psychotherapy.</strong> The American tradition of Rollo May and Irvin D. Yalom shares logotherapy's attention to givens of existence such as death and freedom, but tends to see meaning as created rather than found.</p>
+        <p><strong>Acceptance and Commitment Therapy.</strong> ACT also works with values and with one's stance toward unchangeable experience, but is based on a behavioral theory of language and cognition rather than an anthropology of the spirit.</p>
+
+        <h2 id="en-lt-literatur">Key literature</h2>
+        <ul class="refs">
+          <li>Frankl, V. E. (1946). <em>Ärztliche Seelsorge. Grundlagen der Logotherapie und Existenzanalyse.</em> Wien: Deuticke.</li>
+          <li>Frankl, V. E. (1946). <em>Ein Psycholog erlebt das Konzentrationslager.</em> Wien: Verlag für Jugend und Volk.</li>
+          <li>Frankl, V. E. (1969). <em>The Will to Meaning. Foundations and Applications of Logotherapy.</em> New York: World Publishing.</li>
+          <li>Frankl, V. E. (1956). <em>Theorie und Therapie der Neurosen.</em> Wien: Urban &amp; Schwarzenberg.</li>
+          <li>Crumbaugh, J. C. &amp; Maholick, L. T. (1964). An experimental study in existentialism: The psychometric approach to Frankl's concept of noogenic neurosis. <em>Journal of Clinical Psychology, 20</em>(2), 200–207.</li>
+          <li>Längle, A. (2013). <em>Lehrbuch zur Existenzanalyse. Grundlagen.</em> Wien: Facultas.</li>
+          <li>Steger, M. F., Frazier, P., Oishi, S. &amp; Kaler, M. (2006). The Meaning in Life Questionnaire: Assessing the presence of and search for meaning in life. <em>Journal of Counseling Psychology, 53</em>(1), 80–93.</li>
+          <li>Vos, J., Craig, M. &amp; Cooper, M. (2015). Existential therapies: A meta-analysis of their effects on psychological outcomes. <em>Journal of Consulting and Clinical Psychology, 83</em>(1), 115–128.</li>
+          <li>Yalom, I. D. (1980). <em>Existential Psychotherapy.</em> New York: Basic Books.</li>
+        </ul>
+      </div>
+    </div>
+    </div>
   </div>
 </section>
 
@@ -263,17 +413,18 @@
 <section class="view" id="view-verfahren" data-view="verfahren">
   <div class="wrap">
     <header class="page-head">
-      <p class="eyebrow">Heutige Therapieformen</p>
-      <h1>Psychotherapieverfahren im Überblick</h1>
-      <p class="lead">Menschenbild, Vorgehen, Indikation und Forschungsstand der wichtigsten Verfahren und Methoden, mit ihrem Status im deutschen Gesundheitssystem.</p>
+      <p class="eyebrow"><span data-lang="de">Heutige Therapieformen</span><span data-lang="en">Contemporary therapies</span></p>
+      <h1><span data-lang="de">Psychotherapieverfahren im Überblick</span><span data-lang="en">Psychotherapies at a glance</span></h1>
+      <p class="lead"><span data-lang="de">Menschenbild, Vorgehen, Indikation und Forschungsstand der wichtigsten Verfahren und Methoden, mit ihrem Status im deutschen Gesundheitssystem.</span><span data-lang="en">Image of the human being, procedure, indications and state of research for the most important approaches and methods, with their status in the German health care system.</span></p>
     </header>
     <div class="section" style="padding-top:0">
       <div class="prose">
-        <p>In Deutschland übernehmen die gesetzlichen Krankenkassen die Kosten für vier sogenannte <strong>Richtlinienverfahren</strong>: Verhaltenstherapie, tiefenpsychologisch fundierte Psychotherapie, analytische Psychotherapie und, seit 2020, Systemische Therapie für Erwachsene. Innerhalb dieser Verfahren kommen zahlreiche Methoden zum Einsatz, etwa die Schematherapie oder die Dialektisch-Behaviorale Therapie innerhalb der Verhaltenstherapie. Über die wissenschaftliche Anerkennung neuer Verfahren berät der Wissenschaftliche Beirat Psychotherapie, über die Aufnahme in die Kassenversorgung entscheidet der Gemeinsame Bundesausschuss.</p>
+        <p data-lang="en">In Germany, statutory health insurance covers four so-called <strong>guideline procedures</strong> (Richtlinienverfahren): behavior therapy, psychodynamic (depth-psychology-based) psychotherapy, analytic psychotherapy and, since 2020, systemic therapy for adults. Within these procedures many methods are used, for example schema therapy or Dialectical Behavior Therapy within behavior therapy. The Scientific Advisory Board on Psychotherapy advises on the scientific recognition of new procedures; the Federal Joint Committee decides on their inclusion in statutory health care.</p>
+        <p data-lang="de">In Deutschland übernehmen die gesetzlichen Krankenkassen die Kosten für vier sogenannte <strong>Richtlinienverfahren</strong>: Verhaltenstherapie, tiefenpsychologisch fundierte Psychotherapie, analytische Psychotherapie und, seit 2020, Systemische Therapie für Erwachsene. Innerhalb dieser Verfahren kommen zahlreiche Methoden zum Einsatz, etwa die Schematherapie oder die Dialektisch-Behaviorale Therapie innerhalb der Verhaltenstherapie. Über die wissenschaftliche Anerkennung neuer Verfahren berät der Wissenschaftliche Beirat Psychotherapie, über die Aufnahme in die Kassenversorgung entscheidet der Gemeinsame Bundesausschuss.</p>
       </div>
       <div class="chips" id="verfahren-filter" role="group" aria-label="Nach Verfahrensfamilie filtern"></div>
       <div class="method-grid" id="verfahren-grid"></div>
-      <p class="small muted">Die Darstellung des Forschungsstands ist qualitativ und vereinfacht. Für Behandlungsentscheidungen sind die jeweils gültigen S3-Leitlinien der AWMF maßgeblich. Stand der Angaben: Oktober 2026.</p>
+      <p class="small muted"><span data-lang="de">Die Darstellung des Forschungsstands ist qualitativ und vereinfacht. Für Behandlungsentscheidungen sind die jeweils gültigen S3-Leitlinien der AWMF maßgeblich. Stand der Angaben: Oktober 2026.</span><span data-lang="en">The summary of the evidence is qualitative and simplified. Treatment decisions should be based on the current clinical practice guidelines (in Germany, the AWMF S3 guidelines). Information as of October 2026.</span></p>
     </div>
   </div>
 </section>
@@ -289,14 +440,14 @@
 <section class="view" id="view-lexikon" data-view="lexikon">
   <div class="wrap">
     <header class="page-head">
-      <p class="eyebrow">Fachlexikon</p>
-      <h1>Lexikon der Sinnzentrierten Psychologie und Psychotherapie</h1>
-      <p class="lead">Fachbegriffe der Logotherapie, der heutigen Psychotherapieverfahren, der klinischen Psychologie und der Forschungsmethodik, mit Querverweisen und Literatur.</p>
+      <p class="eyebrow"><span data-lang="de">Fachlexikon</span><span data-lang="en">Encyclopedia</span></p>
+      <h1><span data-lang="de">Lexikon der Sinnzentrierten Psychologie und Psychotherapie</span><span data-lang="en">Encyclopedia of Meaning-Centered Psychology and Psychotherapy</span></h1>
+      <p class="lead"><span data-lang="de">Fachbegriffe der Logotherapie, der heutigen Psychotherapieverfahren, der klinischen Psychologie und der Forschungsmethodik, mit Querverweisen und Literatur.</span><span data-lang="en">Key terms of logotherapy, contemporary psychotherapies, clinical psychology and research methodology, with cross-references and literature.</span></p>
     </header>
     <div class="lex-tools">
       <form class="search" id="lex-search" role="search">
         <label for="lex-q" hidden>Lexikon durchsuchen</label>
-        <input id="lex-q" type="search" placeholder="Begriff oder Stichwort suchen" autocomplete="off">
+        <input id="lex-q" type="search" data-ph-de="Begriff oder Stichwort suchen" data-ph-en="Search for a term or keyword" placeholder="Begriff oder Stichwort suchen" autocomplete="off">
       </form>
       <div class="chips" id="lex-cats" role="group" aria-label="Kategorie"></div>
       <div class="az" id="lex-az" role="group" aria-label="Anfangsbuchstabe"></div>
@@ -313,20 +464,21 @@
 <section class="view" id="view-weiterbildung" data-view="weiterbildung">
   <div class="wrap">
     <header class="page-head">
-      <p class="eyebrow">Online-Akademie</p>
-      <h1>Zertifikatskurse</h1>
-      <p class="lead">Interaktive Online-Kurse mit Lerneinheiten, Übungen, Gesprächssimulationen und Fallarbeit. Nach bestandener Abschlussprüfung erhalten Sie das Zertifikat des Instituts.</p>
+      <p class="eyebrow"><span data-lang="de">Online-Akademie</span><span data-lang="en">Online Academy</span></p>
+      <h1><span data-lang="de">Zertifikatskurse</span><span data-lang="en">Certificate courses</span></h1>
+      <p class="lead"><span data-lang="de">Interaktive Online-Kurse mit Lerneinheiten, Übungen, Gesprächssimulationen und Fallarbeit. Nach bestandener Abschlussprüfung erhalten Sie das Zertifikat des Instituts.</span><span data-lang="en">Interactive online courses with learning units, exercises, conversation simulations and case work. After passing the final examination you receive the Institute's certificate.</span></p>
     </header>
 
     <div class="ak-how">
-      <div><span class="num">1</span><h4>Kurs freischalten</h4><p class="small muted">Buchen Sie den Kurs oder lösen Sie einen Gutscheincode ein. Die erste Lektion jedes Kurses ist frei zugänglich.</p></div>
-      <div><span class="num">2</span><h4>Lektionen durcharbeiten</h4><p class="small muted">Jede Lektion wechselt zwischen kurzen Lerntexten und Aufgaben. Sie lernen in Ihrem Tempo, Ihr Fortschritt wird gespeichert.</p></div>
-      <div><span class="num">3</span><h4>Prüfung ablegen</h4><p class="small muted">Nach allen Lektionen schalten Sie die Abschlussprüfung frei. Bestanden ist sie ab 70 Prozent richtiger Antworten.</p></div>
-      <div><span class="num">4</span><h4>Zertifikat erhalten</h4><p class="small muted">Ihr Zertifikat mit Zertifikatsnummer, Modulübersicht und Ergebnis steht sofort zum Speichern bereit.</p></div>
+      <div><span class="num">1</span><h4><span data-lang="de">Kurs freischalten</span><span data-lang="en">Unlock a course</span></h4><p class="small muted"><span data-lang="de">Buchen Sie den Kurs oder lösen Sie einen Gutscheincode ein. Die erste Lektion jedes Kurses ist frei zugänglich.</span><span data-lang="en">Book the course or redeem a voucher code. The first lesson of every course is free.</span></p></div>
+      <div><span class="num">2</span><h4><span data-lang="de">Lektionen durcharbeiten</span><span data-lang="en">Work through the lessons</span></h4><p class="small muted"><span data-lang="de">Jede Lektion wechselt zwischen kurzen Lerntexten und Aufgaben. Sie lernen in Ihrem Tempo, Ihr Fortschritt wird gespeichert.</span><span data-lang="en">Each lesson alternates short texts and exercises. You learn at your own pace and your progress is saved.</span></p></div>
+      <div><span class="num">3</span><h4><span data-lang="de">Prüfung ablegen</span><span data-lang="en">Take the exam</span></h4><p class="small muted"><span data-lang="de">Nach allen Lektionen schalten Sie die Abschlussprüfung frei. Bestanden ist sie ab 70 Prozent richtiger Antworten.</span><span data-lang="en">Completing all lessons unlocks the final examination. You pass with at least 70 percent correct answers.</span></p></div>
+      <div><span class="num">4</span><h4><span data-lang="de">Zertifikat erhalten</span><span data-lang="en">Receive your certificate</span></h4><p class="small muted"><span data-lang="de">Ihr Zertifikat mit Zertifikatsnummer, Modulübersicht und Ergebnis steht sofort zum Speichern bereit.</span><span data-lang="en">Your certificate with certificate number, list of modules and result is ready to save immediately.</span></p></div>
     </div>
 
     <div class="programs" id="ak-katalog"></div>
 
+    <div data-lang="de">
     <div class="section">
       <div class="notice">
         <h3>Rechtlicher Rahmen</h3>
@@ -371,6 +523,53 @@
         </details>
       </div>
     </div>
+    </div>
+    <div data-lang="en">
+    <div class="section">
+      <div class="notice">
+        <h3>Legal framework</h3>
+        <p>The certificates are qualifications awarded by the Institute. They are not state-recognized professional qualifications and do not entitle holders to practice medicine or psychotherapy. In Germany, the treatment of mental disorders is reserved for licensed psychological psychotherapists, medical psychotherapists and persons holding a permit under the Non-Medical Practitioners Act (Heilpraktikergesetz). The professional title “Psychotherapeut” is protected by law, and the title “Psychologe” requires a university degree in psychology. Corresponding rules apply in other countries.</p>
+        <p>Psychological and logotherapeutic counseling as taught in our programs is intended for people without a mental disorder requiring treatment, for example in life crises, decisions and transitions. Professionals who hold a license to treat can integrate the skills they acquire into their clinical work.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head">
+        <p class="eyebrow">Study and examination</p>
+        <h2>Frequently asked questions</h2>
+      </div>
+      <div style="max-width: 820px">
+        <details>
+          <summary>Who are the courses for?</summary>
+          <div>
+            <p><strong>Logotherapeutic Counseling and Support</strong> is designed for professionals in psychology, medicine, social work, education, nursing, pastoral care and related fields.</p>
+            <p><strong>Psychological Counseling</strong> is designed for professionals in social, educational, nursing and human-resources roles who advise people in stressful situations and decisions.</p>
+            <p>The <strong>Introduction to Logotherapy</strong> requires no prior knowledge.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How long do I have access?</summary>
+          <div><p>Once unlocked, you have unlimited access to all lessons of the course, including after you have earned the certificate. Your progress is stored in your browser, so please use the same device and browser for the course.</p></div>
+        </details>
+        <details>
+          <summary>What does the final examination look like?</summary>
+          <div><p>The examination consists of single- and multiple-choice questions and true/false statements from all modules. The questions are compiled anew for each attempt. You pass with at least 70 percent correct answers. You can retake the examination as often as you like; your best result appears on the certificate.</p></div>
+        </details>
+        <details>
+          <summary>Is the introductory course credited?</summary>
+          <div><p>Yes. Participants who have completed the Introduction to Logotherapy receive a discount equal to its fee on the certificate course in Logotherapeutic Counseling and Support. Please state your certificate number when booking.</p></div>
+        </details>
+        <details>
+          <summary>How do I pay?</summary>
+          <div><p>You book via the booking form on the course page and receive an invoice from our office. After payment we send you a personal activation code, which you enter on the course page. Voucher codes are redeemed in the same place.</p></div>
+        </details>
+        <details>
+          <summary>Can I deduct the fee from my taxes?</summary>
+          <div><p>In Germany, job-related training costs can usually be deducted as income-related expenses or business expenses. Please check your individual situation with a tax advisor.</p></div>
+        </details>
+      </div>
+    </div>
+    </div>
   </div>
 </section>
 
@@ -384,28 +583,28 @@
 <footer class="site-footer">
   <div class="wrap">
     <div>
-      <p class="brand-name" style="margin-bottom:10px">Institut für Sinnzentrierte Psychologie</p>
-      <p class="muted small">Forschung, Lehre und Weiterbildung in Logotherapie und Psychotherapiewissenschaft.</p>
-      <p class="small" style="margin-top:12px">Geschäftsstelle: <span class="mono" id="footer-mail"></span></p>
+      <p class="brand-name" style="margin-bottom:10px"><span data-lang="de">Institut für Sinnzentrierte Psychologie</span><span data-lang="en">Institute for Meaning-Centered Psychology</span></p>
+      <p class="muted small"><span data-lang="de">Forschung, Lehre und Weiterbildung in Logotherapie und Psychotherapiewissenschaft.</span><span data-lang="en">Research, teaching and training in logotherapy and psychotherapy science.</span></p>
+      <p class="small" style="margin-top:12px"><span data-lang="de">Geschäftsstelle</span><span data-lang="en">Office</span>: <span class="mono" id="footer-mail"></span></p>
       <p style="margin-top:14px"><button class="theme-toggle" id="theme-toggle" type="button">Dunkle Darstellung</button></p>
     </div>
     <div>
-      <h4>Wissen</h4>
+      <h4><span data-lang="de">Wissen</span><span data-lang="en">Knowledge</span></h4>
       <ul>
-        <li><a href="#logotherapie">Logotherapie</a></li>
-        <li><a href="#verfahren">Therapieverfahren</a></li>
-        <li><a href="#lexikon">Fachlexikon</a></li>
-        <li><a href="#journal">Zeitschrift für Sinnzentrierte Psychologie</a></li>
+        <li><a href="#logotherapie"><span data-lang="de">Logotherapie</span><span data-lang="en">Logotherapy</span></a></li>
+        <li><a href="#verfahren"><span data-lang="de">Therapieverfahren</span><span data-lang="en">Therapies</span></a></li>
+        <li><a href="#lexikon"><span data-lang="de">Fachlexikon</span><span data-lang="en">Encyclopedia</span></a></li>
+        <li><a href="#journal"><span data-lang="de">Zeitschrift für Sinnzentrierte Psychologie</span><span data-lang="en">Journal of Meaning-Centered Psychology</span></a></li>
       </ul>
     </div>
     <div>
-      <h4>Weiterbildung</h4>
+      <h4><span data-lang="de">Weiterbildung</span><span data-lang="en">Courses</span></h4>
       <ul>
-        <li><a href="#kurs-logo">Logotherapeutische Beratung</a></li>
-        <li><a href="#kurs-berater">Psychologische Beratung</a></li>
-        <li><a href="#kurs-grundkurs">Einführung in die Logotherapie</a></li>
-        <li><a href="#lernbereich">Mein Lernbereich</a></li>
-        <li><a href="#institut">Leitbild und Berufsethik</a></li>
+        <li><a href="#kurs-logo"><span data-lang="de">Logotherapeutische Beratung</span><span data-lang="en">Logotherapeutic Counseling</span></a></li>
+        <li><a href="#kurs-berater"><span data-lang="de">Psychologische Beratung</span><span data-lang="en">Psychological Counseling</span></a></li>
+        <li><a href="#kurs-grundkurs"><span data-lang="de">Einführung in die Logotherapie</span><span data-lang="en">Introduction to Logotherapy</span></a></li>
+        <li><a href="#lernbereich"><span data-lang="de">Mein Lernbereich</span><span data-lang="en">My learning</span></a></li>
+        <li><a href="#institut"><span data-lang="de">Leitbild und Berufsethik</span><span data-lang="en">Mission and ethics</span></a></li>
       </ul>
     </div>
   </div>
@@ -422,6 +621,18 @@
 <script src="data/kurse/logo-2.js"></script>
 <script src="data/kurse/berater-1.js"></script>
 <script src="data/kurse/berater-2.js"></script>
+<script src="data/en/verfahren.js"></script>
+<script src="data/en/lexikon-1.js"></script>
+<script src="data/en/lexikon-2.js"></script>
+<script src="data/en/lexikon-3.js"></script>
+<script src="data/en/journal.js"></script>
+<script src="data/en/kurse.js"></script>
+<script src="data/en/kurse/grundkurs.js"></script>
+<script src="data/en/kurse/logo-1.js"></script>
+<script src="data/en/kurse/logo-2.js"></script>
+<script src="data/en/kurse/berater-1.js"></script>
+<script src="data/en/kurse/berater-2.js"></script>
+<script src="js/i18n.js"></script>
 <script src="js/app.js"></script>
 <script src="js/akademie.js"></script>
 <!--BODY-END-->

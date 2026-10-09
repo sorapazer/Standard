@@ -1,0 +1,170 @@
+{
+ "id": "B8-2",
+ "titel": "Confidentiality and Data Protection",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Confidentiality as the Foundation of Counseling",
+   "text": "Without confidentiality, counseling is not possible. People seeking counseling must be able to trust that what is discussed does not get out. Confidentiality protects their privacy, their dignity, and often also their social and professional standing.\n\nIn Germany, the legal duty of confidentiality arises from various sources:\n\n- **Under criminal law**, **§ 203 StGB (German Criminal Code)** makes the violation of private secrets by certain professional groups a criminal offense. These include, among others, physicians, psychologists with a state-recognized academic final examination, psychotherapists, state-recognized social workers and social pedagogues, and counselors in certain recognized counseling centers, for instance for marriage, family, parenting, or youth issues, addiction issues, or pregnancy conflicts.\n- **Contractually**, confidentiality is regularly agreed in the counseling contract in independent practice, and it also arises as an ancillary duty from the contractual relationship.\n- **Under data protection law**, the **GDPR (DSGVO)** protects personal data, in particular health data.\n- **Under professional ethics**, confidentiality is anchored in all ethical guidelines.\n\nWhether a counselor falls under § 203 StGB depends on their qualification and the framework of their activity. Regardless of this, however, the following applies in practice: anyone who provides psychological counseling treats everything entrusted to them **as if a duty of confidentiality backed by criminal penalties applied**. This already covers the fact that someone is in counseling at all."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Confidentiality covers not only the content of the conversations but already the fact that a person is in counseling.",
+   "richtig": true,
+   "erklaerung": "True. Even the information that someone is using counseling is a secret worthy of protection. It may not be disclosed without consent to relatives, employers, or authorities either."
+  },
+  {
+   "typ": "text",
+   "titel": "When Confidentiality May or Must Be Breached",
+   "text": "Confidentiality does not apply absolutely. In certain situations, disclosure is permitted or even required. In essence, the following constellations can be distinguished under German law:\n\n- **Consent (release from confidentiality)**: The person seeking counseling permits the disclosure of certain information to certain persons or agencies. The release should be **in writing**, **specific** (who, what, for what purpose, for how long), and **voluntary**, and it can be revoked at any time.\n- **Justifying necessity (§ 34 StGB)**: In the case of a present danger to life, limb, or other high-ranking legal interests that cannot otherwise be averted, confidentiality may be breached if the protected interest substantially outweighs the interest in confidentiality – for instance in acute suicidal danger or serious danger to third parties.\n- **Duty to report planned serious crimes (§ 138 StGB)**: Anyone who gains credible knowledge of the plan to commit certain serious crimes, such as murder or manslaughter, at a time when their commission can still be averted, must report this to the authorities or to the threatened person in good time. This duty does not apply to crimes already committed.\n- **Child protection**: Under **§ 4 of the Act on Cooperation and Information in Child Protection (KKG)**, certain professional secret holders who have weighty indications that a child’s welfare is endangered should first talk with those concerned and work toward help; they are entitled to advice from an experienced specialist and are authorized to inform the youth welfare office (Jugendamt) if this is necessary. For providers of child and youth welfare services, § 8a SGB VIII (Social Code Book VIII) applies in addition.\n\nIn all cases: **disclose only as much as necessary**, inform the person concerned beforehand where possible, and document the procedure carefully. In unclear cases, legal advice should be obtained."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Is disclosing information permissible without further ado, or not?",
+   "kategorien": [
+    "Disclosure permissible or required",
+    "Disclosure not permissible"
+   ],
+   "elemente": [
+    {
+     "text": "The client has given written permission for you to exchange information with her family doctor about her sleep problems.",
+     "kat": 0
+    },
+    {
+     "text": "A client’s employer asks whether he comes to you regularly.",
+     "kat": 1
+    },
+    {
+     "text": "A client credibly announces that he will kill his former partner tonight.",
+     "kat": 0
+    },
+    {
+     "text": "The mother of an adult client asks for a report on her progress.",
+     "kat": 1
+    },
+    {
+     "text": "A client is in acute suicidal danger and refuses all help.",
+     "kat": 0
+    },
+    {
+     "text": "You want to discuss a case with the full name in a public professional forum.",
+     "kat": 1
+    },
+    {
+     "text": "A colleague asks casually in the staff kitchen what problems your last client had.",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Disclosure is permissible with specific consent, in the case of present danger to life (necessity), or in the case of planned serious crimes (duty to report). Information given to employers, relatives, or colleagues without consent and identifiable case descriptions in public are not permissible. Case discussions in supervision take place in anonymized form."
+  },
+  {
+   "typ": "text",
+   "titel": "Data Protection under the GDPR: Principles",
+   "text": "The **General Data Protection Regulation** (GDPR; in German DSGVO) has applied throughout the European Union since May 2018. It also applies to self-employed counselors as soon as they process personal data by automated means or store it in a filing system – that is, practically always, for instance through appointment calendars, e-mails, invoices, or notes.\n\n**Art. 5 GDPR** sets out principles for every processing of personal data:\n\n- **Lawfulness, fairness, and transparency**: a legal basis is required, and the data subjects must be informed.\n- **Purpose limitation**: data are collected only for specified, explicit purposes.\n- **Data minimization**: only as much data as necessary.\n- **Accuracy**: data must be factually correct.\n- **Storage limitation**: data are stored only for as long as necessary for the purpose.\n- **Integrity and confidentiality**: appropriate security through technical and organizational measures.\n- **Accountability**: the controller must be able to demonstrate compliance.\n\nParticularly important for counseling is **Art. 9 GDPR**: **health data** – and these include information about mental well-being – belong to the **special categories of personal data**. Their processing is prohibited in principle unless one of the exceptions listed there applies. In independent counseling practice, this is usually the **explicit consent** of the data subject."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the practical examples to the GDPR principle they primarily implement.",
+   "paare": [
+    [
+     "The registration form does not ask about religious affiliation, because it is not needed for counseling.",
+     "Data minimization"
+    ],
+    [
+     "Data from counseling are not used for a newsletter.",
+     "Purpose limitation"
+    ],
+    [
+     "After the specified retention period has expired, the notes are deleted.",
+     "Storage limitation"
+    ],
+    [
+     "The laptop with counseling notes is encrypted and password-protected.",
+     "Integrity and confidentiality"
+    ],
+    [
+     "People seeking counseling receive an understandable data protection notice at the outset.",
+     "Transparency"
+    ]
+   ],
+   "erklaerung": "The principles of Art. 5 GDPR can be translated into concrete routines. They should be recorded in a written data protection concept in order to fulfill the accountability obligation."
+  },
+  {
+   "typ": "text",
+   "titel": "Implementing Data Protection in Counseling Practice",
+   "text": "Several components are essential for a GDPR-compliant counseling practice:\n\n- **Information obligations (Art. 13 GDPR)**: People seeking counseling are informed when data are collected – about the controller, purposes, legal bases, storage period, recipients, and their rights.\n- **Consent**: For the processing of health data, explicit, informed, and voluntary consent is obtained and documented. It can be revoked at any time.\n- **Data subject rights**: People seeking counseling have in particular the right of **access** (Art. 15), **rectification** (Art. 16), and **erasure** (Art. 17), although statutory retention obligations may preclude erasure.\n- **Record of processing activities (Art. 30)**: an overview of which data are processed for what purpose and how.\n- **Technical and organizational measures (Art. 32)**: encrypted devices, secure passwords, lockable cabinets, screen lock, no conversations within earshot of third parties.\n- **Processing on behalf of a controller (Art. 28)**: If external services are used – for instance cloud storage, online appointment booking, or video platforms – a data processing agreement is required. For providers outside the EU, additional requirements for data transfer must be observed.\n- **Data breaches (Art. 33 and 34)**: If, for example, an unencrypted laptop is stolen, the breach must generally be reported to the competent supervisory authority within **72 hours** if it is likely to result in a risk to the data subjects; in the case of high risk, the data subjects must also be notified.\n\nFor communication: unencrypted e-mails and common messenger apps are problematic for sensitive content. Substantive counseling by e-mail should take place only via secure channels and with appropriate information."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements about the GDPR in counseling practice are accurate? (Multiple answers possible)",
+   "optionen": [
+    "Information about mental well-being belongs to health data and thus to the special categories under Art. 9 GDPR.",
+    "No agreement is required for using an external cloud storage service for counseling notes if the provider is well known.",
+    "People seeking counseling have a right of access to the data stored about them.",
+    "A data breach posing a risk to the data subjects must generally be reported to the supervisory authority within 72 hours.",
+    "Small counseling practices with only one person are exempt from the GDPR."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Mental well-being is health data, data subjects have a right of access, and data breaches must be reported within 72 hours if there is a risk. For external service providers, a data processing agreement is required regardless of how well known they are. Individuals in independent practice are also subject to the GDPR."
+  },
+  {
+   "typ": "fall",
+   "titel": "A Convenient Route?",
+   "fall": "Constructed teaching vignette: A counselor in independent practice wants to make contact easier for her clients. She suggests handling appointments and brief substantive queries via a widely used messenger app on her private cell phone, on which her family also has access to the photos. A client then sends a long voice message about her panic attacks.",
+   "frage": "How is the situation best assessed in terms of data protection law and ethics?",
+   "optionen": [
+    "Unproblematic, since the client sent the message voluntarily.",
+    "Unproblematic, as long as the counselor deletes the message after listening to it.",
+    "Problematic: health data are processed via a channel not vetted for this purpose on a device shared for private use; what is needed is a secure communication channel, separation from private data, information, and consent.",
+    "Problematic only because voice messages may in principle not be stored."
+   ],
+   "richtig": 2,
+   "erklaerung": "Health data require special protective measures. A device shared for private use and an unvetted channel jeopardize confidentiality and integrity. The client’s voluntariness does not replace informed consent to a secure communication channel. Deletion alone does not remedy the structural problem."
+  },
+  {
+   "typ": "luecke",
+   "text": "A release from confidentiality should be written, {{specific|unlimited in time|general}}, and voluntary. In the case of a present danger to life that cannot otherwise be averted, justifying necessity under {{§ 34 StGB|§ 203 StGB|§ 1 HeilprG}} applies. Under {{Art. 9|Art. 28|Art. 33}} GDPR, health data count among the special categories of personal data.",
+   "erklaerung": "A release must specifically name who learns what for what purpose. § 34 StGB governs justifying necessity, § 203 StGB the violation of private secrets. Art. 9 GDPR concerns special categories, Art. 28 processing on behalf of a controller, Art. 33 the notification of data breaches."
+  },
+  {
+   "typ": "karten",
+   "titel": "Confidentiality and Data Protection",
+   "karten": [
+    {
+     "vorne": "§ 203 StGB",
+     "hinten": "Criminal liability for violation of private secrets by certain professional groups, including psychologists with a state-recognized final examination and counselors in recognized counseling centers."
+    },
+    {
+     "vorne": "Release from confidentiality",
+     "hinten": "In writing, specific (who, what, for what purpose, for how long), voluntary, revocable at any time."
+    },
+    {
+     "vorne": "§ 138 StGB",
+     "hinten": "Duty to report upon credible knowledge of planned serious crimes, as long as they can still be averted."
+    },
+    {
+     "vorne": "§ 4 KKG",
+     "hinten": "Procedure for professional secret holders in the case of weighty indications that a child’s welfare is endangered, with authorization to inform the youth welfare office."
+    },
+    {
+     "vorne": "Art. 5 GDPR",
+     "hinten": "Principles: lawfulness/transparency, purpose limitation, data minimization, accuracy, storage limitation, integrity/confidentiality, accountability."
+    },
+    {
+     "vorne": "Art. 28 GDPR",
+     "hinten": "Processing on behalf of a controller: agreement with external service providers such as cloud or video providers."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Examine your own way of working: Through which channels do you communicate with people seeking counseling, and where are their data stored? Where do you see a need for improvement?",
+   "hinweis": "Guiding questions: Which devices and programs do I use? Are they encrypted and separated from private data? Do I have a data protection notice and a consent form? How long do I store data, and how do I delete them?"
+  }
+ ]
+}

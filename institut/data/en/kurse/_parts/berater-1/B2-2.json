@@ -1,0 +1,171 @@
+{
+ "id": "B2-2",
+ "titel": "Depression and Anxiety Disorders",
+ "dauer": 35,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Depression: More Than Sadness",
+   "text": "Depressive disorders are among the most common mental illnesses worldwide and one of the leading causes of health-related impairment. In everyday language, “depressed” is often used for a bad mood – clinically, however, depression is a **persistent state** that comprehensively impairs feeling, thinking, the body, and behavior.\n\nThe ICD-11 describes a **depressive episode** as a period of **at least two weeks** during which several characteristic symptoms are present most of the day, nearly every day. At least one of these comes from the **affective cluster**:\n\n- **depressed mood** (in children and adolescents, also irritability)\n- **markedly diminished pleasure or interest** in activities\n\nIn addition, there are symptoms from the **cognitive-behavioral** and **neurovegetative** clusters, for example:\n\n- difficulties concentrating and making decisions\n- feelings of worthlessness or excessive guilt\n- hopelessness about the future\n- recurrent thoughts of death or suicidal ideation\n- sleep disturbances and changes in appetite\n- psychomotor agitation or retardation\n- reduced energy, fatigability\n\nBy severity, mild, moderate, and severe episodes are distinguished. Distinctions are made between single-episode and **recurrent** depressive disorders, **dysthymia** as a longer-lasting, usually milder form, and depressive episodes in the context of **bipolar disorders**, in which manic or hypomanic phases also occur.\n\nDepression is readily **treatable**, especially with psychotherapy and – depending on severity – medication. For Germany, the National Disease Management Guideline on Unipolar Depression (Nationale VersorgungsLeitlinie) provides reliable orientation."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which of the following complaints are among the characteristic symptoms of a depressive episode? (Multiple answers possible)",
+   "optionen": [
+    "Markedly diminished pleasure or interest in activities",
+    "Recurrent, sudden attacks of intense fear with a racing heart",
+    "Feelings of worthlessness or excessive guilt",
+    "Sleep disturbances and reduced energy",
+    "Markedly elevated mood with a decreased need for sleep"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Loss of interest, feelings of worthlessness and guilt, as well as sleep disturbances and loss of energy are typical depressive symptoms. Sudden attacks of fear are characteristic of panic attacks; elevated mood with a decreased need for sleep indicates a (hypo)manic phase – an important indication of a possible bipolar disorder."
+  },
+  {
+   "typ": "text",
+   "titel": "Understanding and Responding to Depression",
+   "text": "In line with the vulnerability-stress model, depression arises from the interplay of many factors. Psychological explanatory approaches include, among others:\n\n- the **cognitive theory** of Aaron T. Beck with the **cognitive triad**: a negative view of oneself, of the world or one’s experiences, and of the future\n- Peter Lewinsohn’s **loss-of-reinforcement model**: when positive experiences cease, the person withdraws, which makes even fewer positive experiences possible – a vicious circle\n- Martin Seligman’s concept of **learned helplessness**, later developed further into the hopelessness theory\n- **interpersonal** factors such as losses, conflicts, and role transitions\n\nSeveral principles have proven useful in dealing with depressed people in counseling:\n\n- **Take it seriously without dramatizing:** “It sounds as if you have been feeling very bad for quite some time.”\n- **No advice such as “Pull yourself together”** or “Think positive” – it reinforces feelings of guilt.\n- **Psychoeducation:** explain depression as a treatable illness, not as a weakness of character.\n- **Actively address suicidality** (see Lesson B2-4).\n- **Encourage diagnostic assessment and treatment** and help concretely with it.\n- Where possible, do not let **important decisions** be made during a severe depressive phase.\n\nCounseling can be helpful for milder distress and alongside treatment. When a depressive disorder is suspected, however, it replaces neither medical nor psychotherapeutic assessment."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the explanatory approaches to depression with their core idea.",
+   "paare": [
+    [
+     "Cognitive triad (Beck)",
+     "Negative view of oneself, the world, and the future"
+    ],
+    [
+     "Loss of reinforcement (Lewinsohn)",
+     "Loss of positive experiences leads to withdrawal and further loss of reinforcement"
+    ],
+    [
+     "Learned helplessness (Seligman)",
+     "The experience that one’s own actions achieve nothing leads to passivity"
+    ],
+    [
+     "Interpersonal approach",
+     "Losses, role transitions, and relationship conflicts as triggers and maintaining factors"
+    ]
+   ],
+   "erklaerung": "The approaches are not mutually exclusive but illuminate different aspects. In practice, several factors usually interact."
+  },
+  {
+   "typ": "text",
+   "titel": "Anxiety and Anxiety Disorders",
+   "text": "Anxiety is an emotion vital for survival. It becomes an **anxiety disorder** when it occurs **disproportionately strongly**, **too often**, or **for too long**, is associated with severe suffering, and leads to avoidance that restricts one’s life. Anxiety disorders are among the most common mental disorders of all.\n\nThe ICD-11 groups them together as **anxiety or fear-related disorders**. Important forms are:\n\n- **Generalized anxiety disorder:** persistent, excessive worry about many areas of life, often with tension, restlessness, and sleep problems\n- **Panic disorder:** recurrent, unexpected panic attacks with intense physical symptoms and persistent concern about further attacks\n- **Agoraphobia:** fear of situations in which escape might be difficult or help unavailable, such as crowds, public transportation, or traveling alone\n- **Social anxiety disorder:** marked fear of being evaluated by others in social situations\n- **Specific phobia:** fear limited to particular objects or situations, for example animals, heights, or injections\n- **Separation anxiety disorder:** excessive fear of separation from attachment figures, possible in adulthood as well\n\nMany anxiety reactions have **physical concomitants** such as a racing heart, shortness of breath, dizziness, or chest pain. A **medical assessment** is therefore important to rule out physical causes – such as heart or thyroid diseases.\n\nAnxiety disorders are readily treatable with cognitive-behavioral methods, especially exposure."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Which anxiety disorder most likely underlies the experience described? (These are learning exercises, not diagnoses.)",
+   "kategorien": [
+    "Generalized anxiety disorder",
+    "Panic disorder",
+    "Social anxiety disorder",
+    "Specific phobia"
+   ],
+   "elemente": [
+    {
+     "text": "For months has been worrying almost constantly about health, finances, and the children and cannot switch the worries off.",
+     "kat": 0
+    },
+    {
+     "text": "Out of the blue experiences a racing heart, shortness of breath, and fear of dying, and since then dreads every new attack.",
+     "kat": 1
+    },
+    {
+     "text": "Avoids team meetings because she fears embarrassing herself and being judged negatively.",
+     "kat": 2
+    },
+    {
+     "text": "Cannot allow blood to be drawn because of an intense fear of injections.",
+     "kat": 3
+    },
+    {
+     "text": "Never eats in the cafeteria for fear that others might notice his hands trembling.",
+     "kat": 2
+    },
+    {
+     "text": "Ruminates every evening about everything that could go wrong and is tense and exhausted during the day.",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Generalized anxiety disorder is characterized by free-floating worries affecting many areas; panic disorder by unexpected anxiety attacks and anticipatory anxiety; social anxiety disorder by fear of evaluation; specific phobia by fear of clearly circumscribed triggers."
+  },
+  {
+   "typ": "text",
+   "titel": "The Vicious Circle of Anxiety and the Role of Avoidance",
+   "text": "How anxiety can reinforce itself is shown by the psychophysiological model of panic disorder, which became known in the German-speaking world above all through Jürgen Margraf and Silvia Schneider as the **vicious circle of anxiety**:\n\n1. A **physical change** is perceived (e.g., heart palpitations after climbing stairs).\n2. It is **appraised as dangerous** (“I’m having a heart attack!”).\n3. **Anxiety** arises.\n4. The anxiety leads to further **physical symptoms** (faster pulse, shortness of breath).\n5. These in turn are interpreted as confirmation of the danger – the circle closes and can escalate into a panic attack.\n\nIn the long term, anxieties are maintained above all by **avoidance and safety behaviors**. Anyone who avoids anxiety-provoking situations, or enters them only with a companion, emergency medication, or a water bottle, experiences short-term relief (negative reinforcement, cf. Module B1) – but never has the experience that the feared catastrophe fails to occur.\n\nFor counseling, this means:\n\n- **validating** anxiety as an understandable reaction\n- explaining psychoeducationally that anxiety is unpleasant but as a rule **not dangerous** and subsides on its own\n- not supporting avoidance, for example by taking all anxiety-laden tasks off clients’ hands\n- in the case of pronounced anxiety, referring to **psychotherapy**, where exposure procedures are carried out professionally"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Arrange the steps of the vicious circle of anxiety in the correct order.",
+   "elemente": [
+    "Perception of a physical change",
+    "Appraisal as dangerous",
+    "Onset of anxiety",
+    "Increase in physical symptoms",
+    "Interpretation as confirmation of the danger"
+   ],
+   "erklaerung": "The circle begins with a harmless bodily sensation that is appraised catastrophically. The anxiety intensifies the physical symptoms, which in turn count as proof of the danger. Cognitive therapy targets the appraisal; exposure targets the avoidance."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Anyone who consistently takes all anxiety-provoking situations off the hands of a person with an anxiety disorder supports their recovery in the long term.",
+   "richtig": false,
+   "erklaerung": "In the short term, taking things over brings relief; in the long term, it reinforces avoidance and prevents corrective experiences. Understanding, encouragement, and referral to professional treatment are more helpful."
+  },
+  {
+   "typ": "fall",
+   "titel": "Racing Heart in the Supermarket",
+   "fall": "Constructed teaching vignette: Ms. S., 34, reports in the company’s social counseling service that a few weeks ago in the supermarket she suddenly experienced a racing heart, dizziness, and intense fear, “as if I were dying.” Since then, only her husband does the shopping. Meanwhile, she also dreads the commute to work. She has not yet seen her primary care physician.",
+   "frage": "Which course of action is most appropriate?",
+   "optionen": [
+    "Immediately carry out exposure training with her in the supermarket.",
+    "Advise her to take it easy and to continue leaving the shopping to her husband.",
+    "Explain to her that her complaints are clearly psychological in origin and that no medical assessment is necessary.",
+    "Acknowledge her fear, provide psychoeducational information about anxiety, suggest that her primary care physician assess physical causes, and point out psychotherapeutic support."
+   ],
+   "richtig": 3,
+   "erklaerung": "The complaints may indicate panic disorder with incipient agoraphobia. Physical causes must, however, be ruled out medically. Exposure treatment belongs in psychotherapeutic hands. Taking it easy would reinforce the avoidance."
+  },
+  {
+   "typ": "merke",
+   "text": "Avoidance relieves anxiety in the short term and maintains it in the long term. Counselors support the courage to face the anxiety – and refer to treatment when anxiety dominates a person’s life."
+  },
+  {
+   "typ": "karten",
+   "titel": "Flashcards: Depression and Anxiety",
+   "karten": [
+    {
+     "vorne": "Depressive episode (ICD-11)",
+     "hinten": "At least two weeks, nearly every day; at least one affective core symptom: depressed mood or markedly diminished pleasure or interest."
+    },
+    {
+     "vorne": "Cognitive triad",
+     "hinten": "According to Beck: negative view of oneself, of the world or one’s own experiences, and of the future."
+    },
+    {
+     "vorne": "Indication of bipolar disorder",
+     "hinten": "Phases of elevated or irritable mood with a decreased need for sleep and increased drive – always ask about them and have them assessed medically."
+    },
+    {
+     "vorne": "Panic disorder",
+     "hinten": "Recurrent, unexpected panic attacks and persistent concern about further attacks."
+    },
+    {
+     "vorne": "Safety behavior",
+     "hinten": "Behaviors such as being accompanied or carrying emergency medication that reassure in the short term but prevent corrective experiences."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which sentences have you yourself said to low-spirited or anxious people that were well meant but perhaps not very helpful?",
+   "hinweis": "Think of phrases such as “Chin up” or “You just have to get through it.” How could you express the same care in a way that acknowledges the person’s experience and opens the way to support?"
+  }
+ ]
+}

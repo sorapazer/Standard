@@ -421,3 +421,15 @@ form.apply { display: grid; gap: 18px; max-width: 760px; }
 .ak-skip-note { font-size: .85rem; color: var(--ink-soft); }
 .ak-steps span.is-skip { background: repeating-linear-gradient(90deg, var(--accent) 0 3px, transparent 3px 6px); }
 
+
+/* Sprachumschaltung */
+html[lang="en"] [data-lang="de"], html[lang="de"] [data-lang="en"] { display: none !important; }
+.lang-switch { display: inline-flex; border: 1px solid var(--line); border-radius: 3px; overflow: hidden; order: 3; }
+.lang-switch button { font: 600 .78rem/1 var(--sans); letter-spacing: .08em; padding: 7px 10px; background: transparent; color: var(--ink-soft); border: 0; cursor: pointer; }
+.lang-switch button + button { border-left: 1px solid var(--line); }
+.lang-switch button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.lang-switch button:hover:not([aria-pressed="true"]) { color: var(--ink); }
+.site-header .nav { order: 2; }
+.site-header .nav-toggle { order: 4; }
+@media (max-width: 900px) { .site-header .nav { order: 5; } }
+.lang-note { font-style: italic; }

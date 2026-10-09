@@ -1,0 +1,105 @@
+{
+ "titel": "Boundary Situations: Suffering, Guilt and Death",
+ "beschreibung": "According to Frankl, suffering, guilt and death are inescapable parts of human life – he summarized them as the “tragic triad.” This module shows how logotherapy meets these boundary situations with a “tragic optimism,” what role attitudinal values play, and how meaning-oriented grief support is to be distinguished professionally from the treatment of a prolonged grief disorder.",
+ "lernziele": [
+  "You can explain the tragic triad and the concept of tragic optimism precisely and distinguish them from common misunderstandings.",
+  "You can explain Frankl’s concept of homo patiens and the realization of attitudinal values in unavoidable suffering and transfer them responsibly into counseling.",
+  "You can distinguish between existential guilt and feelings of guilt and describe paths of taking responsibility, remorse and restitution.",
+  "You can interpret transitoriness from a logotherapeutic perspective and draw on it in accompanying the dying and the bereaved.",
+  "You can distinguish normal grief from a prolonged grief disorder according to ICD-11 and recognize when a referral is indicated."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "Which three elements make up Frankl’s “tragic triad”?",
+   "optionen": [
+    "Anxiety, guilt and loneliness",
+    "Suffering, guilt and death",
+    "Freedom, responsibility and meaning",
+    "Illness, loss and grief"
+   ],
+   "richtig": 1,
+   "erklaerung": "The tragic triad consists of suffering, guilt and death. Freedom, responsibility and meaning (C) belong to Frankl’s basic anthropological concepts but are not the tragic triad."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to Frankl, it makes sense to accept even avoidable suffering in order to realize attitudinal values.",
+   "richtig": false,
+   "erklaerung": "False. Avoidable suffering is to be removed. Attitudinal values only come into play in the face of unchangeable suffering; Frankl called unnecessary suffering masochism, not heroism."
+  },
+  {
+   "typ": "mc",
+   "frage": "What does Frankl describe with the orthogonality of “success – failure” and “fulfillment – despair”?",
+   "optionen": [
+    "That fulfillment can only be achieved through success",
+    "That despair is a necessary precursor of fulfillment",
+    "That both dimensions are independent of each other and a person can find fulfillment despite failure",
+    "That homo patiens is morally superior to homo faber"
+   ],
+   "richtig": 2,
+   "erklaerung": "Orthogonal means independent. Frankl emphasizes that failure does not necessarily mean despair and success does not necessarily mean fulfillment. No moral ranking (D) is claimed thereby."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements about dealing with guilt in logotherapeutic counseling are correct? (Multiple answers possible)",
+   "optionen": [
+    "Real guilt and inappropriate feelings of guilt should be carefully distinguished.",
+    "Counselors can absolve clients of their guilt.",
+    "Where direct restitution is not possible, vicarious restitution can be meaningful.",
+    "Pronounced, uncorrectable feelings of guilt can point to a mental illness."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "A, C and D are correct. Counselors absolve no one (B): forgiveness can only be granted by those harmed or – in a religious understanding – by God."
+  },
+  {
+   "typ": "mc",
+   "frage": "How does Frankl understand the transitoriness of life?",
+   "optionen": [
+    "Only the possibilities are transitory; what has been realized is preserved in the past and cannot be lost.",
+    "Since everything passes, meaning can only be experienced in the moment.",
+    "Transitoriness is an illusion that is overcome by religious faith.",
+    "Transitoriness makes responsible action superfluous."
+   ],
+   "richtig": 0,
+   "erklaerung": "According to Frankl, what has been realized is “rescued” into the past. Finitude thus becomes an incentive for responsible action – not an argument against it (D). His view is philosophically grounded, not tied to a particular religion (C)."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to ICD-11, a prolonged grief disorder can be diagnosed at the earliest six months after the loss; DSM-5-TR requires at least twelve months.",
+   "richtig": true,
+   "erklaerung": "True. ICD-11 (6B42) sets at least six months, DSM-5-TR (since 2022) twelve months. In both cases the reaction must also clearly exceed cultural norms and cause significant impairment."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements about grief reflect the current state of research? (Multiple answers possible)",
+   "optionen": [
+    "Grief proceeds in five fixed stages for all people.",
+    "A continuing inner bond with the deceased person can be helpful.",
+    "Many bereaved people show high resilience and do not need professional support.",
+    "Healthy grief oscillates between confronting the loss and turning toward new tasks."
+   ],
+   "richtig": [
+    1,
+    2,
+    3
+   ],
+   "erklaerung": "Continuing bonds, the resilience of many bereaved people and oscillation in the sense of the Dual Process Model reflect the state of research. A fixed sequence of stages (A) is not empirically supported; moreover, Kübler-Ross’s model was originally formulated for the dying."
+  },
+  {
+   "typ": "mc",
+   "frage": "What is meant by “tragic optimism”?",
+   "optionen": [
+    "The conviction that all suffering ultimately leads to something good",
+    "A technique counselors should use to instill hope in clients",
+    "The pessimistic basic assumption that life is above all suffering",
+    "An attitude that, in the face of suffering, guilt and death, affirms the possibility of taking a meaningful stance without glossing over the tragic"
+   ],
+   "richtig": 3,
+   "erklaerung": "Tragic optimism does not gloss over anything (A), cannot be prescribed or conveyed as a technique (B), and is precisely not pessimism (C). It affirms the possibility of taking a meaningful stance even in the tragic."
+  }
+ ]
+}

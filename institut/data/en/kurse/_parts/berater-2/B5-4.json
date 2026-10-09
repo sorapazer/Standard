@@ -1,0 +1,158 @@
+{
+ "id": "B5-4",
+ "titel": "Resilience, Salutogenesis, and Relaxation in Counseling Practice",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Resilience: More Than a Trait",
+   "text": "**Resilience** refers to psychological resistance, that is, the capacity to cope with crises and stressful life circumstances and to develop positively despite adverse conditions or to restabilize after strain.\n\nAn influential contribution was the longitudinal study by the developmental psychologist **Emmy Werner** and her colleague **Ruth Smith** on the Hawaiian island of Kauai, which followed an entire birth cohort over decades. It showed that a considerable proportion of children who grew up under high-risk conditions nevertheless developed into competent and satisfied adults. Factors that proved protective included a stable attachment figure, social support outside the family, and personal competencies.\n\nCurrent resilience research emphasizes three points that are important for counseling:\n\n- Resilience is **not a fixed personality trait** but a dynamic process arising from the interplay of person and environment.\n- Resilience is **situation-specific**: someone who is resilient in one area of life need not be so in another.\n- Resilience arises largely through **protective factors**, such as sustaining relationships, self-efficacy expectations, problem-solving skills, emotion regulation, realistic optimism, and the experience of meaning.\n\nA critical remark belongs here as well: resilience must not turn into a demand that one must endure everything. When burdens are structurally unreasonable, a lack of resilience is not the problem. Counseling that only strengthens individual resistance while ignoring circumstances can unintentionally contribute to overload."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to current understanding, resilience is an innate, stable trait that one either has or does not have.",
+   "richtig": false,
+   "erklaerung": "False. Resilience is understood as a dynamic, situation-specific process that arises through protective factors in the person and in their environment. It can change over the life course and can be influenced by relationships, experiences, and learning processes."
+  },
+  {
+   "typ": "text",
+   "titel": "Salutogenesis and Antonovsky’s Sense of Coherence",
+   "text": "The medical sociologist **Aaron Antonovsky** contrasted the disease-oriented question “What makes people ill?” with the **salutogenic** question: **What keeps people healthy even though they are exposed to manifold stressors?**\n\nAntonovsky does not understand health and illness as opposites but as poles of a **continuum**. Every person is located somewhere between these poles, and the question is what moves them toward health. A central role is played by **generalized resistance resources** – such as social support, knowledge, material security, cultural embeddedness – and above all by the **sense of coherence**.\n\nThe sense of coherence is a fundamental orientation to life with three components:\n\n- **Comprehensibility**: the events of life appear ordered, intelligible, and explicable rather than chaotic and arbitrary.\n- **Manageability**: one trusts that resources are available to meet demands – one’s own or those of people one trusts.\n- **Meaningfulness**: the demands of life appear as challenges worth investing energy in.\n\nAntonovsky regarded meaningfulness as the most important component, because it provides the motivation to strive for comprehension and manageability in the first place. Here a clear affinity with the meaning orientation of logotherapy becomes apparent. For counseling, this yields a resource perspective: not only analyzing problems but deliberately strengthening the client’s understanding, options for action, and connections to meaning."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the counseling interventions to the component of the sense of coherence that they primarily strengthen.",
+   "paare": [
+    [
+     "Explaining the stress model so that one’s own reactions become intelligible",
+     "comprehensibility"
+    ],
+    [
+     "Jointly drawing up a list of people and agencies that can provide concrete help",
+     "manageability"
+    ],
+    [
+     "Asking: What makes it worthwhile for you to get through this difficult time?",
+     "meaningfulness"
+    ]
+   ],
+   "erklaerung": "Psychoeducation promotes comprehensibility, opening up resources promotes manageability, and asking about the “what for” promotes meaningfulness. In practice, all three interlock."
+  },
+  {
+   "typ": "text",
+   "titel": "Psychoeducation: Knowledge That Brings Relief",
+   "text": "**Psychoeducation** refers to the systematic, understandable communication of knowledge about psychological strain, how it develops, and options for coping. It promotes comprehensibility in Antonovsky’s sense, reduces shame and self-devaluation (“Something is wrong with me”), and strengthens personal responsibility.\n\nGood psychoeducation in counseling follows a few principles:\n\n- **Connect rather than lecture**: first ask which explanatory model the person has, and build on it.\n- **Measured and concrete**: one model, a few key messages, incorporating the person’s own examples. A simple sketch – such as Kaluza’s three levels – is often more helpful than lengthy explanations.\n- **Normalize without trivializing**: “Many people react this way under constant strain” brings relief; it must not, however, create the impression that the problem is not serious.\n- **Check interactively**: ask what has come across and what the person can use for themselves.\n- **Sound content**: communicate only well-established knowledge, name uncertainties, and refer medical questions to medical expertise.\n- **Support in writing**: short handouts or notes prepared together help people retain the content.\n\nPsychoeducation is not an end in itself. It prepares steps toward change: someone who understands that persistent stress without recovery keeps the body in constant tension can more easily see why breaks are not a luxury but a prerequisite for performance."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which approach most closely corresponds to good psychoeducation in counseling?",
+   "optionen": [
+    "Giving the client a detailed lecture on stress physiology and then recommending a textbook.",
+    "Presenting as many models as possible so that the person can choose the one that suits them.",
+    "Conveying that stress is harmless in order to reassure the person.",
+    "First asking about the person’s own explanatory model, then explaining a simple model using their examples and checking what they take away from it."
+   ],
+   "richtig": 3,
+   "erklaerung": "Good psychoeducation builds on prior knowledge, is measured, uses the person’s examples, and checks understanding. Long lectures and many models are overwhelming; trivializing would be professionally wrong and fails to take the person’s experience seriously."
+  },
+  {
+   "typ": "text",
+   "titel": "Relaxation Techniques: Progressive Muscle Relaxation and Autogenic Training",
+   "text": "Relaxation techniques address the stress response (regenerative stress management). They aim at a **relaxation response**: a decrease in muscle tone, heart rate, and breathing rate, together with a feeling of calm. Their effect unfolds above all through **regular practice** over several weeks.\n\n- **Progressive muscle relaxation** (PMR) was developed by the American physician **Edmund Jacobson**. Muscle groups are briefly tensed one after another and then deliberately relaxed. The contrast trains the perception of tension and relaxation. PMR is considered easy to learn, even for people who find it hard to sit still, and is often offered in abbreviated forms.\n- **Autogenic training** (AT) was developed by the Berlin psychiatrist **Johannes Heinrich Schultz**. With the help of formulaic self-suggestions (“My right arm is very heavy”), the basic level successively addresses heaviness, warmth, a calm heartbeat, calm breathing, warmth in the abdomen, and coolness of the forehead. AT requires more practice time than PMR.\n\nOther widespread methods are **breathing exercises** (e.g., prolonged exhalation), **imagery exercises**, and **mindfulness-based approaches** such as the *Mindfulness-Based Stress Reduction* (MBSR) program developed by **Jon Kabat-Zinn**. Mindfulness does not primarily aim at relaxation but at non-judgmental, present-centered attention; relaxation is rather a possible side effect.\n\nAnyone who wishes to guide relaxation techniques in courses or counseling should have completed **sound training** in them."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the approaches to their founders and core elements.",
+   "paare": [
+    [
+     "Progressive muscle relaxation",
+     "Edmund Jacobson – alternating tension and relaxation of muscle groups"
+    ],
+    [
+     "Autogenic training",
+     "Johannes Heinrich Schultz – formulaic self-suggestion (heaviness, warmth …)"
+    ],
+    [
+     "Mindfulness-Based Stress Reduction",
+     "Jon Kabat-Zinn – non-judgmental mindfulness in the present moment"
+    ],
+    [
+     "Salutogenesis",
+     "Aaron Antonovsky – sense of coherence and the health–illness continuum"
+    ]
+   ],
+   "erklaerung": "The matches summarize the founders and core ideas. Salutogenesis is not a relaxation technique but a framework model of how health arises, which provides the rationale for resource orientation in counseling."
+  },
+  {
+   "typ": "text",
+   "titel": "Limitations and Precautions",
+   "text": "Relaxation techniques are generally well tolerated, but they are not suitable for everyone in every situation. Responsible counseling knows the limits:\n\n- **Paradoxical reactions**: in some people, relaxation and inward attention trigger restlessness, anxiety, or unpleasant bodily sensations (so-called relaxation-induced anxiety). It should be possible to stop exercises at any time; keeping one’s eyes open is permitted.\n- **Trauma sequelae and dissociation**: in people with traumatic experiences, stillness, closed eyes, or certain bodily sensations can trigger distressing memories. Particular caution is required here, and an assessment by professionals is advisable.\n- **Psychotic disorders and severe mental disorders**: techniques involving strong inward focus and suggestion, such as autogenic training, are considered unsuitable in acute phases; the decision on their use rests with the treating professional.\n- **Physical illnesses**: with cardiovascular disease, low blood pressure, pain, or injuries, it should be clarified with a physician before starting whether and in what form practice is possible. In PMR, the tensing of certain muscle groups may need to be adapted.\n- **No miracle cure**: relaxation does not replace changing stressful conditions and is not a treatment for mental illness.\n\nIn counseling, therefore, before guiding an exercise one should ask whether there are any health restrictions or distressing prior experiences, and create a framework in which the person retains control."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which precautions are appropriate when guiding relaxation exercises? (More than one answer possible)",
+   "optionen": [
+    "Asking in advance about health restrictions and distressing prior experiences",
+    "Insisting that the eyes stay closed so that the exercise works",
+    "Explicitly permitting the person to interrupt the exercise at any time",
+    "Stabilizing a person with an acute psychotic illness by means of autogenic training",
+    "Recommending consultation with a physician in the case of cardiovascular disease"
+   ],
+   "richtig": [
+    0,
+    2,
+    4
+   ],
+   "erklaerung": "Prior clarification, the option to stop, and medical consultation in the case of physical illness are appropriate. Closed eyes are not a prerequisite and can be distressing for some people. In acute psychoses, suggestive, inward-directed techniques are considered unsuitable; here the decision belongs in the hands of those providing treatment."
+  },
+  {
+   "typ": "fall",
+   "titel": "An Exercise with an Unexpected Effect",
+   "fall": "Constructed teaching vignette: In a group counseling session for family caregivers, you guide a short breathing exercise with eyes closed. After one minute, a participant opens her eyes, breathes rapidly, and says quietly: “I can’t do this; everything is coming up.”",
+   "frage": "What is the most appropriate response?",
+   "optionen": [
+    "You encourage her to close her eyes again and keep breathing, because the restlessness will pass in a moment.",
+    "You stop the exercise for her, invite her to keep her eyes open and orient herself in the room (e.g., feeling her feet on the floor, naming objects), and offer a short one-to-one conversation after the group.",
+    "You ignore the reaction so as not to disturb the group.",
+    "You ask in front of the group what exactly is coming up so that she can process it."
+   ],
+   "richtig": 1,
+   "erklaerung": "The reaction points to a paradoxical response or to distressing memories. It is appropriate to end the exercise for her, promote orientation in the here and now, and provide space for a protected conversation. Continuing the exercise can intensify the distress. Exploring the matter in front of the group would be shaming and exceeds the scope of the setting. Ignoring it leaves her alone with the distress."
+  },
+  {
+   "typ": "karten",
+   "titel": "Resources and Recovery",
+   "karten": [
+    {
+     "vorne": "Resilience",
+     "hinten": "Psychological resistance as a dynamic, situation-specific process, sustained by protective factors in the person and the environment."
+    },
+    {
+     "vorne": "Kauai study",
+     "hinten": "Longitudinal study by Emmy Werner and Ruth Smith: many children from high-risk conditions developed well; protective factors such as stable attachment figures were significant."
+    },
+    {
+     "vorne": "Sense of coherence",
+     "hinten": "According to Antonovsky: comprehensibility, manageability, and meaningfulness; meaningfulness is considered the most important component."
+    },
+    {
+     "vorne": "Psychoeducation",
+     "hinten": "Systematic, understandable communication of knowledge about strain and coping; connecting, measured, interactive, and sound."
+    },
+    {
+     "vorne": "Relaxation-induced anxiety",
+     "hinten": "Paradoxical reaction in which relaxation exercises trigger restlessness or anxiety; allow the person to stop and to orient themselves in the here and now."
+    },
+    {
+     "vorne": "Psychological detachment",
+     "hinten": "Mentally switching off from work during leisure time; described in recovery research as an important recovery factor."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which protective factors and resources carry you through stressful phases? Which of them could you cultivate more deliberately?",
+   "hinweis": "Guiding questions: Which people strengthen me? What helps me to understand stressors and make them manageable? What makes my effort worthwhile? Which form of recovery actually does me good – and how much space do I give it?"
+  }
+ ]
+}

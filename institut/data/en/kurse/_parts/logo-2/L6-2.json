@@ -1,0 +1,178 @@
+{
+ "id": "L6-2",
+ "titel": "Occupational Exhaustion and Burnout",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Burnout in ICD-11: A Phenomenon, Not an Illness",
+   "text": "The term **burnout** was coined in the 1970s by the psychoanalyst Herbert Freudenberger, who described states of exhaustion among helpers. Christina Maslach later developed the best-known measurement instrument, the Maslach Burnout Inventory.\n\nIn the World Health Organization’s **ICD-11**, burnout is listed under the code **QD85**. The classification is decisive: burnout appears in the chapter “Factors influencing health status or contact with health services,” in the section on problems associated with employment or unemployment. The WHO clarified that burnout is thus **not classified as a medical condition** but as an **occupational phenomenon**.\n\nICD-11 describes burnout as a syndrome conceptualized as resulting from chronic workplace stress that has not been successfully managed. It is characterized by three dimensions:\n\n- feelings of **energy depletion** or exhaustion,\n- increased **mental distance** from one’s job, or feelings of negativism or cynicism related to it,\n- a sense of **ineffectiveness** and lack of accomplishment.\n\nImportant: the term refers explicitly to the **occupational context** and should not be applied to experiences in other areas of life. In Germany, ICD-10-GM is still currently used for billing; there, the corresponding supplementary code is Z73.0."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which three dimensions characterize burnout according to ICD-11 (QD85)? Select all that apply.",
+   "optionen": [
+    "Feelings of energy depletion or exhaustion",
+    "Delusional beliefs about one’s own work",
+    "Increased mental distance from or a cynical attitude toward one’s job",
+    "A sense of ineffectiveness or reduced accomplishment",
+    "A duration of at least twelve months"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Exhaustion, mental distance or cynicism, and experienced ineffectiveness are the three dimensions. Delusional beliefs (B) are not among them and would point to a severe mental disorder. ICD-11 specifies no fixed time criterion for burnout (E)."
+  },
+  {
+   "typ": "text",
+   "titel": "Distinguishing Burnout from Depression",
+   "text": "Burnout and depression overlap considerably in empirical terms. Exhaustion, difficulty concentrating, withdrawal and sleep disturbances occur in both. The distinction is central for counseling because depression is an **illness requiring treatment**, whereas burnout in the sense of ICD-11 is not.\n\nPoints of orientation for an initial assessment – not a diagnosis:\n\n- **Context**: burnout relates to work. If anhedonia and hopelessness extend to all areas of life – including vacations, family, leisure – depression is more likely.\n- **Severity and duration**: pronounced, persistent dejection, loss of interest, feelings of worthlessness and guilt point to a depressive episode.\n- **Suicidal thoughts**: these are always a reason to address the matter directly and to obtain a professional assessment.\n- **Physical causes**: exhaustion can also have somatic causes, such as thyroid disease, anemia, sleep apnea or after-effects of infection. A medical examination is therefore advisable in the case of persistent exhaustion.\n\nThe distinction is not always clear-cut. An untreated state of burnout can turn into depression; conversely, depression is sometimes labeled “burnout” because that term seems less stigmatizing. Counselors should therefore, as a matter of principle, suggest a medical assessment when presented with pictures of exhaustion."
+  },
+  {
+   "typ": "fall",
+   "titel": "The Exhausted Teacher",
+   "fall": "Constructed teaching vignette: Ms. L., 52, an elementary school teacher, asks for counseling because of “burnout.” She reports exhaustion that has persisted for months, cynicism toward the school administration and the feeling of “not being able to manage anything anymore.” When asked, she says that even during the summer vacation she could not bring herself to do anything, hardly sleeps anymore, experiences herself as “worthless” and has been thinking for several weeks that her family would be better off without her.",
+   "frage": "How should you proceed as a logotherapeutic counselor?",
+   "optionen": [
+    "Work with Ms. L. on her professional values in order to restore her motivation.",
+    "Recommend that she take time off and schedule a new appointment after the vacation.",
+    "Address directly, with regard to suicidality, her thoughts that the family would be better off without her, acknowledge her distress and concretely arrange with her a prompt medical or psychotherapeutic assessment.",
+    "Explain to her that burnout is not an illness and that she therefore needs no treatment."
+   ],
+   "richtig": 2,
+   "erklaerung": "The complaints extend beyond the work context (even during vacation), and in addition there are feelings of worthlessness, sleep disturbances and thoughts of being a burden to the family – a known risk factor for suicidality. What is required is to address possible suicidal thoughts directly and to obtain a prompt professional assessment (C). Working on values (A) or waiting (B) would be negligent; option D confuses the classification of the burnout phenomenon with the question of whether a depression requiring treatment is present."
+  },
+  {
+   "typ": "text",
+   "titel": "Organizational Factors: Burnout Is Not a Purely Individual Problem",
+   "text": "Maslach and her colleague Michael P. Leiter have shown that burnout arises essentially from a mismatch between the person and the work environment. They described **six areas of worklife** in which such problems of fit can occur:\n\n- **Workload**: persistently too much work with too few resources,\n- **Control**: little influence over one’s own work,\n- **Reward**: lack of financial, social or intrinsic recognition,\n- **Community**: fragile or conflict-ridden working relationships,\n- **Fairness**: experienced injustice,\n- **Values**: conflict between one’s own values and those of the organization.\n\nThe last point in particular touches on the core theme of logotherapy: whoever is forced to work against their values – for instance in nursing under conditions that prevent good care – experiences a particular form of strain. In nursing ethics, the term **moral distress** is used for this.\n\nAn important ethical consequence follows: counseling must not individualize burnout exclusively. Meaning-oriented counseling can help people clarify their attitude and their boundaries – but it does not replace employers’ responsibility for healthy working conditions. A “meaning cure” for employees under structurally harmful conditions would be a misuse of logotherapy."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the (constructed) descriptions with the respective area of worklife according to Maslach and Leiter.",
+   "paare": [
+    [
+     "“I have no influence whatsoever on how I care for my patients – everything is prescribed.”",
+     "Control"
+    ],
+    [
+     "“We are supposed to sell more, even if the customers don’t need the product at all. That contradicts everything I believe in.”",
+     "Values"
+    ],
+    [
+     "“The same people always get promoted, no matter who does good work.”",
+     "Fairness"
+    ],
+    [
+     "“Since the restructuring, nobody on the team talks to each other anymore.”",
+     "Community"
+    ],
+    [
+     "“Nobody thanks me for my overtime, and the salary is barely enough.”",
+     "Reward"
+    ]
+   ],
+   "erklaerung": "The six areas (workload, control, reward, community, fairness, values) help to locate burnout risks not only in the person but also in the organization. From a logotherapeutic perspective, the conflict of values is particularly significant."
+  },
+  {
+   "typ": "text",
+   "titel": "Logotherapeutic Perspectives on Occupational Exhaustion",
+   "text": "From a logotherapeutic and existential-analytic perspective, occupational exhaustion is not understood solely as the result of too much work. A recurring idea is that exhaustion threatens particularly when activities are carried out predominantly in a **purpose-driven** way and without **inner consent** – in order to gain recognition, meet expectations or ward off fears. Alfred Längle has described this connection in detail in existential-analytic works on burnout.\n\nSeveral starting points for counseling result from this:\n\n- **Clarifying values**: What is really important to me about my work? What do I do out of inner conviction, what out of duty or fear?\n- **Distinguishing meaning from purpose**: an activity can be useful and yet be experienced as meaningless. Conversely, an inconspicuous activity can be meaningful if it is connected with one’s own values.\n- **Boundaries as responsibility**: setting boundaries is not a betrayal of one’s own values but a prerequisite for being able to serve them in the long term.\n- **Meaning beyond work**: whoever derives their entire meaning in life from their occupation is particularly vulnerable. Experiential values, relationships and other sources of meaning have a stabilizing effect.\n\nThese perspectives complement established measures of stress management and workplace health promotion, but do not replace them."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "From a logotherapeutic perspective, a particularly high level of experienced meaning at work fundamentally protects against burnout, so that people with high idealism are hardly at risk.",
+   "richtig": false,
+   "erklaerung": "False. Precisely people who derive their meaning in life almost exclusively from their occupation or who devote themselves to a task without limits can be particularly vulnerable – especially when structural conditions prevent the realization of their values. Freudenberger originally described burnout precisely among committed helpers."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Sort the items: which measures primarily target the person, which the organization?",
+   "kategorien": [
+    "Person-related",
+    "Organization-related"
+   ],
+   "elemente": [
+    {
+     "text": "Clarification of personal values and priorities in counseling",
+     "kat": 0
+    },
+    {
+     "text": "Realistic staffing levels",
+     "kat": 1
+    },
+    {
+     "text": "Learning strategies for setting boundaries",
+     "kat": 0
+    },
+    {
+     "text": "Involving employees in decisions about work processes",
+     "kat": 1
+    },
+    {
+     "text": "Cultivating sources of meaning outside of work",
+     "kat": 0
+    },
+    {
+     "text": "Fair and transparent promotion criteria",
+     "kat": 1
+    },
+    {
+     "text": "Regular supervision as an employer-funded offering",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Effective burnout prevention works on both levels. Person-related measures strengthen resources and boundaries; organization-related measures change the conditions. Although supervision is used by individuals, as an institutionally provided offering it is an organizational measure."
+  },
+  {
+   "typ": "text",
+   "titel": "A Counseling Process for Occupational Exhaustion",
+   "text": "A logotherapeutically oriented counseling process for occupational exhaustion can – after an illness requiring treatment has been ruled out – include the following elements:\n\n**1. Clarification and relief**: first, the aim is to understand the situation and acknowledge the strain. Where necessary, a medical examination is suggested, and if appropriate also a sick note from the treating physician.\n\n**2. Taking stock**: which strains lie in the work, which in one’s own attitude? The six areas of worklife offer a structure.\n\n**3. Clarifying values**: with Socratic dialogue, the values that originally led the person into their occupation are worked out, and it is examined whether and how they can be realized under the given conditions.\n\n**4. Scope for decisions**: what can be changed at work (conversations, restructuring, a change of job)? What cannot be changed – and how does the person want to take a stand toward it?\n\n**5. Anchoring**: concrete steps, cultivation of other sources of meaning, agreements on self-care.\n\nIt should be noted that people in severe exhaustion have only a limited capacity for reflection. In acute phases, recovery and stabilization are in the foreground; deeper questions of meaning have their place later."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the phases of a logotherapeutically oriented counseling process for occupational exhaustion into the order described.",
+   "elemente": [
+    "Clarification, relief and, if appropriate, medical assessment",
+    "Taking stock of the strains in work and attitude",
+    "Clarifying professional values",
+    "Exploring the scope for decisions: what can and cannot be changed",
+    "Anchoring concrete steps and cultivating further sources of meaning"
+   ],
+   "erklaerung": "Relief and the clarification of whether an illness requiring treatment is present always come first. Only then do analysis, clarification of values, decisions and anchoring follow."
+  },
+  {
+   "typ": "karten",
+   "titel": "Burnout – Key Terms",
+   "karten": [
+    {
+     "vorne": "QD85",
+     "hinten": "Code for burnout in ICD-11; classified as an occupational phenomenon in the chapter “Factors influencing health status …”, not as an illness."
+    },
+    {
+     "vorne": "Three dimensions according to ICD-11",
+     "hinten": "Energy depletion, mental distance/cynicism toward one’s job, sense of ineffectiveness."
+    },
+    {
+     "vorne": "Z73.0",
+     "hinten": "Corresponding supplementary code in ICD-10-GM, the version used in Germany."
+    },
+    {
+     "vorne": "Six areas of worklife",
+     "hinten": "Workload, control, reward, community, fairness, values (Maslach & Leiter)."
+    },
+    {
+     "vorne": "Moral distress",
+     "hinten": "Strain that arises when one knows what would be ethically right but is prevented from doing it by external circumstances."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "How does your own work situation look in the six areas of worklife? Where do you see risks for yourself as a helper?",
+   "hinweis": "Guiding questions: Where do you experience a good fit, where tension? Which of your professional values can you realize well, which not? What do you do for your self-care?"
+  }
+ ]
+}

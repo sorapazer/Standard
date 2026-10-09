@@ -1,0 +1,157 @@
+{
+ "id": "B7-1",
+ "titel": "Introduction to Logotherapy for Counseling",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Viktor E. Frankl and the Question of Meaning",
+   "text": "The Viennese neurologist and psychiatrist **Viktor E. Frankl** (1905–1997) founded **logotherapy and existential analysis**, which is often called the “Third Viennese School of Psychotherapy” after Sigmund Freud’s psychoanalysis and Alfred Adler’s individual psychology. Frankl had already developed the basic ideas before the Second World War. After his liberation, he processed his experiences as a prisoner in several concentration camps, including Theresienstadt and Auschwitz, in the book published in 1946 that later became world-famous under the title *… trotzdem Ja zum Leben sagen* (in English known as *Man’s Search for Meaning*).\n\nAt the center is the conviction that the human being is fundamentally oriented toward **meaning**. Frankl spoke of the **will to meaning** as the primary motivation – in deliberate contrast to the will to pleasure (Freud) and the will to power (Adler).\n\nFor psychological counseling, logotherapy is significant for several reasons:\n\n- It directs attention not only to deficits but to the **noetic dimension** of the human being – the capacity to take a stand, to decide, and to assume responsibility.\n- It offers a language for **crises of meaning**, lack of orientation, and dealing with **unalterable suffering**.\n- It can be readily combined with many other approaches, for instance with resource-oriented counseling, salutogenesis, and Acceptance and Commitment Therapy.\n\nThis lesson is about basic ideas that can be used in counseling. The specifically therapeutic methods of logotherapy, such as paradoxical intention or dereflection for anxiety and obsessive-compulsive disorders, belong in the hands of psychotherapeutically qualified professionals."
+  },
+  {
+   "typ": "text",
+   "titel": "The Three Pillars of Logotherapy",
+   "text": "Frankl summarized his image of the human being in three basic assumptions, often referred to as the **three pillars** of logotherapy:\n\n- **Freedom of will**: The human being is not free *from* conditions – biological, psychological, and social – but is free to take a stand *toward* these conditions. This freedom is always bound up with **responsibility**.\n- **Will to meaning**: The human being fundamentally strives to find and realize meaning in life. If this striving is frustrated, a feeling of inner emptiness can arise.\n- **Meaning of life**: According to Frankl, meaning cannot be arbitrarily invented but is **found** in the respective situation. Every life situation contains a possibility of meaning that the person can perceive and realize – even under the most difficult circumstances.\n\nTwo basic human capacities make this stance possible:\n\n- **Self-distancing**: the capacity to gain distance from oneself, from one’s own feelings, thoughts, and symptoms – for instance, to be surprised at oneself or to look at one’s own fears with humor.\n- **Self-transcendence**: the capacity to be oriented beyond oneself toward something or someone – a task, a person, a cause. According to Frankl, human beings realize themselves precisely when they go beyond themselves.\n\nIn counseling, these capacities can be addressed specifically: through questions that make distance possible, and through questions that direct attention to what or whom it is worthwhile living for."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the terms to their meanings.",
+   "paare": [
+    [
+     "Freedom of will",
+     "Freedom to take a stand toward inner and outer conditions"
+    ],
+    [
+     "Will to meaning",
+     "The human being’s fundamental orientation toward finding meaning"
+    ],
+    [
+     "Meaning of life",
+     "A possibility of meaning that can be found in every situation"
+    ],
+    [
+     "Self-distancing",
+     "The capacity to gain distance from one’s own feelings, thoughts, and symptoms"
+    ],
+    [
+     "Self-transcendence",
+     "The capacity to be oriented beyond oneself toward people or tasks"
+    ]
+   ],
+   "erklaerung": "The three pillars describe the image of the human being in logotherapy; self-distancing and self-transcendence are the basic human capacities on which the methods are based."
+  },
+  {
+   "typ": "merke",
+   "text": "He who has a why to live for can bear almost any how.",
+   "quelle": "Friedrich Nietzsche, quoted in substance by Viktor E. Frankl in “… trotzdem Ja zum Leben sagen” (Man’s Search for Meaning)"
+  },
+  {
+   "typ": "text",
+   "titel": "The Three Categories of Values: Paths to Meaning",
+   "text": "Frankl describes three main avenues on which people can find meaning, the so-called **categories of values**:\n\n- **Creative values**: meaning through what we give to the world – through work, doing, shaping, creating, commitment. Examples are a carefully completed task, raising a child, volunteer work, or a creative work.\n- **Experiential values**: meaning through what we receive from the world – through experiencing nature, art, music, beauty, and above all through **encounter with and love for** another human being.\n- **Attitudinal values**: meaning through the stance we take toward **unalterable suffering**. Where a situation cannot be changed – in incurable illness, irrevocable loss – there remains the freedom of how one faces it.\n\nFrankl regarded attitudinal values as the highest possibility of realizing meaning, because they remain open even when creative and experiential values are closed off. In this context, he spoke of a **tragic optimism**: a yes to life despite suffering, guilt, and death, which he called the **tragic triad**.\n\nImportant for counseling: attitudinal values must not be demanded prematurely. Those who experience suffering that can be changed should first be supported in changing it. The question of attitude arises where change is not possible – and it must be developed carefully, at the person’s own pace."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the examples to the category of values according to Frankl that is in the foreground.",
+   "kategorien": [
+    "creative values",
+    "experiential values",
+    "attitudinal values"
+   ],
+   "elemente": [
+    {
+     "text": "A preschool teacher plants a garden with the children on the daycare grounds.",
+     "kat": 0
+    },
+    {
+     "text": "A widower experiences a deep sense of connection when listening to his wife’s favorite music.",
+     "kat": 1
+    },
+    {
+     "text": "A woman with an incurable illness decides to shape the remaining time consciously and in a spirit of reconciliation.",
+     "kat": 2
+    },
+    {
+     "text": "A retiree volunteers in a homework-help program.",
+     "kat": 0
+    },
+    {
+     "text": "A nurse enjoys the sunrise at the lake after the night shift.",
+     "kat": 1
+    },
+    {
+     "text": "A man who is paraplegic after an accident decides to encourage other affected people.",
+     "kat": 2
+    },
+    {
+     "text": "A father experiences the birth of his child as immeasurably meaningful.",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Creative values are realized in doing, experiential values in receiving and in encounter, attitudinal values in the stance toward what cannot be changed. Some examples touch on several categories – the commitment of the paraplegic man, for instance, combines an attitude with creative action."
+  },
+  {
+   "typ": "text",
+   "titel": "Existential Vacuum and Crises of Meaning",
+   "text": "As early as the middle of the 20th century, Frankl observed a widespread experience of inner emptiness and meaninglessness, which he called the **existential vacuum**. It manifests less as dramatic despair than as boredom, indifference, lack of orientation, or the feeling of “merely functioning.” Frankl connected it with the loss of sustaining traditions: today, neither instincts nor traditions tell human beings as a matter of course what they should do.\n\nVarious reactions can arise from the existential vacuum:\n\n- **Conformism**: doing what others do,\n- **Substitute gratifications**: striving for power, money, consumption, pleasure, or substances,\n- **Withdrawal, aggression, or addiction** as an expression of inner emptiness.\n\nWhen existential frustration leads to psychological suffering, Frankl spoke of a **noogenic neurosis** – suffering that arises from the noetic dimension, for instance from conflicts of values or loss of meaning. Differentiating it from psychologically or physically caused disorders is a diagnostic task.\n\nFor counseling, this means: not every low mood is a depression, but not every emptiness is “just” a question of meaning either. Crises of meaning and depressive illnesses can resemble each other and can exist simultaneously. When there are indications of depression – such as persistent anhedonia, hopelessness, sleep and appetite disturbances, suicidal thoughts – a medical or psychotherapeutic assessment should be recommended. Meaning-centered counseling can then be valuable as an accompanying measure."
+  },
+  {
+   "typ": "mc",
+   "frage": "A 35-year-old engineer reports: “I’ve achieved everything I wanted – house, job, family. And yet everything feels empty. I’m just functioning.” His sleep, appetite, and joy in his children are unchanged. From a logotherapeutic perspective, which classification is most apt?",
+   "optionen": [
+    "An expression of the existential vacuum or a question of meaning that can be taken up in counseling – with attention to possible changes",
+    "A severe depressive episode that must be treated immediately",
+    "A sign of a lack of gratitude that should be pointed out to him",
+    "A noogenic neurosis that the counselor should diagnose and treat"
+   ],
+   "richtig": 0,
+   "erklaerung": "The description of emptiness despite outward fulfillment corresponds to what Frankl described as the existential vacuum. Since no indications of depression are mentioned, the question of meaning can be taken up in counseling while keeping the development in view. Counselors do not make diagnoses, and pointing out gratitude would be moralizing."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to Frankl, meaning can be determined by the counselor for the person seeking counseling and then conveyed to them.",
+   "richtig": false,
+   "erklaerung": "False. According to Frankl, meaning is personal and situation-specific and must be found by each person themselves. Counselors can stimulate the perception of meaning, for instance through questions, but cannot prescribe meaning. This also protects against paternalism and ideological influence."
+  },
+  {
+   "typ": "luecke",
+   "text": "Frankl called the primary motivation of the human being the {{will to meaning|will to power|will to pleasure}}. He assigned the stance toward unalterable suffering to {{attitudinal values|experiential values|creative values}}. He called a feeling of inner emptiness and meaninglessness the {{existential vacuum|cognitive dissonance|learned helplessness}}.",
+   "erklaerung": "Frankl associated the will to power with Adler and the will to pleasure with Freud. Cognitive dissonance (Festinger) and learned helplessness (Seligman) are concepts from other theoretical traditions."
+  },
+  {
+   "typ": "karten",
+   "titel": "Logotherapy – Basic Concepts",
+   "karten": [
+    {
+     "vorne": "Three pillars",
+     "hinten": "Freedom of will, will to meaning, meaning of life."
+    },
+    {
+     "vorne": "Categories of values",
+     "hinten": "Creative values (giving), experiential values (receiving), attitudinal values (stance toward what cannot be changed)."
+    },
+    {
+     "vorne": "Tragic triad",
+     "hinten": "Suffering, guilt, and death – limit situations in which, according to Frankl, meaning nevertheless remains possible."
+    },
+    {
+     "vorne": "Existential vacuum",
+     "hinten": "A feeling of inner emptiness and meaninglessness, often experienced as boredom, indifference, or merely functioning."
+    },
+    {
+     "vorne": "Noogenic neurosis",
+     "hinten": "According to Frankl, suffering that arises from the noetic dimension (loss of meaning, conflicts of values); clarification is a diagnostic task."
+    },
+    {
+     "vorne": "Self-transcendence",
+     "hinten": "Orientation beyond oneself toward people, tasks, or values."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which of the three categories of values – creative values, experiential values, attitudinal values – are particularly alive in your own life at present, and which recede into the background?",
+   "hinweis": "Guiding questions: Where do I experience that my actions make a difference? Which encounters and experiences move me? Was there a situation in which I could only choose my attitude? What does this mean for my work with people seeking counseling?"
+  }
+ ]
+}

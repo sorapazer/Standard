@@ -1,0 +1,186 @@
+{
+ "id": "G3-1",
+ "titel": "Socratic Dialogue",
+ "dauer": 24,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Midwifery: Bringing Knowledge into the World",
+   "text": "The name **Socratic dialogue** goes back to the Greek philosopher Socrates as portrayed by Plato in his dialogues. Socrates compared his way of conducting conversations to the art of a midwife (*maieutics*): he did not want to hand his interlocutors ready-made knowledge, but to help them bring forth insights themselves through questions.\n\nIn logotherapy, Socratic dialogue is the **fundamental form of conversation**. It rests on a simple conviction: meaning cannot be given from outside but must be discovered by the person themselves. The counselor is therefore not the one who knows what is meaningful for the other. They support the other in finding their own values, possibilities, and answers.\n\nFrankl used an image for this: a logotherapist should resemble an **ophthalmologist** rather than a **painter**. The painter shows the world as he sees it. The ophthalmologist helps the patient to see the world more clearly for themselves.\n\nIn logotherapy, then, the term refers less to a single technique than to an **attitude** in conducting conversations."
+  },
+  {
+   "typ": "text",
+   "titel": "The Attitude: Asking Instead of Lecturing",
+   "text": "Socratic dialogue is characterized by:\n\n- **Open questions** instead of advice or lecturing.\n- **Genuine interest** in the person's point of view – no questions whose answer has already been decided beforehand.\n- **Concretization:** General statements such as “Everything is meaningless” are carefully related to concrete situations, experiences, and people.\n- **Appreciation:** What the person has already achieved, experienced, and borne is acknowledged.\n- **Opening up possibilities:** Alongside the problem, room for maneuver, values, and resources are made visible.\n\nSocratic dialogue is not a technique for leading someone with clever questions to a previously desired insight. That would be a form of manipulation. Elisabeth Lukas and other authors in logotherapy have emphasized that the answer must remain open.\n\nThe dialogue also presupposes a sound relationship. Someone who does not feel understood will hardly engage with questions about meaning and values. That is why it usually begins with attentive listening and acknowledging the suffering."
+  },
+  {
+   "typ": "merke",
+   "text": "According to Frankl's image, the logotherapist resembles an ophthalmologist rather than a painter: he does not show the world as he sees it, but helps the other to see more clearly for themselves."
+  },
+  {
+   "typ": "text",
+   "titel": "Typical Lines of Questioning",
+   "text": "The logotherapeutic literature describes various lines of questioning that can be helpful in Socratic dialogue. Some examples:\n\n- **Questions about values:** “What really matters to you in this situation?” – “What has made it worthwhile so far?”\n- **Questions about experiences of meaning:** “When did you last feel alive or needed?”\n- **Questions about room for maneuver:** “What is in your hands, even if much is not?”\n- **Change of perspective:** “What would someone close to you say to you now?” – “How will you want to look back on this time in ten years?”\n- **Questions about what the situation asks:** “What does this situation expect of you?”\n\nSuch questions are not formulas. Their effect depends on whether they are asked at the right moment, in suitable language, and with genuine openness. Asked too early, questions about meaning can come across as a devaluation of the pain."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which question most closely corresponds to the spirit of Socratic dialogue?",
+   "optionen": [
+    "“Don't you also think that you have a duty toward your family?”",
+    "“You should find a new hobby – that will certainly help.”",
+    "“Why do you worry so much unnecessarily?”",
+    "“What has been so important to you in your life so far that you were willing to take on effort for it?”"
+   ],
+   "richtig": 3,
+   "erklaerung": "The last question is open and invites the discovery of one's own values. The first is leading and moralizing, the second is advice, and the third devalues the person's worries."
+  },
+  {
+   "typ": "text",
+   "titel": "A Well-Known Example – and Its Limits",
+   "text": "Frankl described a frequently cited example: an elderly physician came to see him because he could not get over the death of his wife. Frankl asked him what would have happened if he had died first and his wife had had to survive him. The man replied that for her it would have been terrible. Frankl pointed out to him that she had been spared this suffering – at the price that he was now the one grieving. According to Frankl's account, this enabled the man to find a meaning in his pain.\n\nThe example shows how a single question can open up a new perspective. But it must not be misunderstood as a model for a quick solution:\n\n- Frankl reports it in highly condensed form; actual grief counseling usually takes time.\n- The perspective arose from the man's own values – from his love for his wife.\n- The same question could be hurtful to another person.\n\nSocratic dialogue is therefore not a “trick”; it thrives on questions that connect with the values and history of a concrete person."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Exercise: A Socratic Dialogue",
+   "einleitung": "Constructed situation: Jonas, 24, dropped out of university two months ago. He comes to a psychosocial counseling center because he feels “like a failure.” Acute risk has been ruled out. In each round, choose the response that best corresponds to Socratic dialogue.",
+   "runden": [
+    {
+     "klient": "I just threw everything away. Now nothing makes sense anymore anyway.",
+     "antworten": [
+      {
+       "text": "It sounds as though this is weighing on you heavily right now. Would you like to tell me how it came to dropping out?",
+       "gut": true,
+       "feedback": "Good. You acknowledge the burden and invite him to tell his story before asking about meaning. This creates a sound basis for the conversation."
+      },
+      {
+       "text": "Oh no, you're still young – life still has plenty of meaning for you!",
+       "gut": false,
+       "feedback": "Well meant, but this response contradicts Jonas's experience without understanding it. Meaning cannot be granted from outside."
+      },
+      {
+       "text": "Lots of people drop out of university – it's completely normal.",
+       "gut": false,
+       "feedback": "Normalizing can provide relief, but here it passes over Jonas's personal experience. At first, understanding is more important than relativizing."
+      }
+     ]
+    },
+    {
+     "klient": "I studied mechanical engineering because my father is an engineer. I struggled every single morning. At some point I just couldn't go on.",
+     "antworten": [
+      {
+       "text": "Then you should have a frank talk with your father.",
+       "gut": false,
+       "feedback": "Premature advice. It distracts from the actual issue: what matters to Jonas himself?"
+      },
+      {
+       "text": "So for a long time you forced yourself into something that wasn't yours. What kept you going for so long?",
+       "gut": true,
+       "feedback": "Good. You reflect his experience and ask about what has sustained Jonas. Values such as loyalty or perseverance may become visible in this."
+      },
+      {
+       "text": "Why didn't you realize sooner that it wasn't for you?",
+       "gut": false,
+       "feedback": "The why-question sounds reproachful and reinforces the feeling of failure."
+      }
+     ]
+    },
+    {
+     "klient": "I didn't want to disappoint my father. He's done so much for me.",
+     "antworten": [
+      {
+       "text": "Well, you let your father put quite a lot of pressure on you there.",
+       "gut": false,
+       "feedback": "This interpretation is devaluing and implies weakness. It overlooks the value inherent in Jonas's consideration for his father."
+      },
+      {
+       "text": "That's understandable. Still, you have to think of yourself now.",
+       "gut": false,
+       "feedback": "The appeal comes too quickly and presents self-focus as the solution. It does not make use of what matters to Jonas."
+      },
+      {
+       "text": "So it matters to you not to disappoint people who are close to you. Where else in your life does this value play a role?",
+       "gut": true,
+       "feedback": "Good. You name a value contained in his statement and invite him to consider it beyond the current situation. This opens up a view of resources."
+      }
+     ]
+    },
+    {
+     "klient": "Hmm. With my friends, actually. And I used to help out in a youth group. That was the only place where I felt really good.",
+     "antworten": [
+      {
+       "text": "What exactly made that work in the youth group so valuable to you?",
+       "gut": true,
+       "feedback": "Good. You concretize a lived experience of meaning without prematurely suggesting a career path. Jonas can discover for himself what speaks to him."
+      },
+      {
+       "text": "Then it's obvious: you should study social work!",
+       "gut": false,
+       "feedback": "The conclusion comes from the counselor, not from Jonas. That would be the painter, not the ophthalmologist."
+      },
+      {
+       "text": "Nice, but you can't earn money with that.",
+       "gut": false,
+       "feedback": "This response devalues an important experience of meaning and prematurely rules out a possibility."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Does the statement correspond to Socratic dialogue or not?",
+   "kategorien": [
+    "Socratic",
+    "Not Socratic"
+   ],
+   "elemente": [
+    {
+     "text": "“What would truly matter to you in this situation?”",
+     "kat": 0
+    },
+    {
+     "text": "“If I were you, I would quit immediately.”",
+     "kat": 1
+    },
+    {
+     "text": "“When did you last feel needed?”",
+     "kat": 0
+    },
+    {
+     "text": "“You have to look on the bright side.”",
+     "kat": 1
+    },
+    {
+     "text": "“What is still in your hands despite everything?”",
+     "kat": 0
+    },
+    {
+     "text": "“Just admit that you are actually afraid.”",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Socratic statements are open and invite personal discovery. Advice, appeals, and leading interpretations take the answer away from the person or push them in a particular direction."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "The aim of Socratic dialogue is to lead the client with clever questions to an insight that the counselor already considers correct beforehand.",
+   "richtig": false,
+   "erklaerung": "That would be manipulation. In Socratic dialogue, the answer remains open; the counselor helps the person discover their own values and possibilities."
+  },
+  {
+   "typ": "luecke",
+   "text": "Socrates compared his way of conducting conversations to the art of a {{midwife|judge|teacher}}. Frankl compared the logotherapist to {{an ophthalmologist|a painter|an architect}}.",
+   "erklaerung": "Maieutics means the art of midwifery. The image of the ophthalmologist emphasizes that the therapist helps the other to see for themselves."
+  },
+  {
+   "typ": "text",
+   "titel": "Limits and Typical Mistakes",
+   "text": "Socratic dialogue also has pitfalls that the professional literature repeatedly points out:\n\n- **Asking about meaning too early:** Someone in acute grief or despair who is immediately asked about meaning may feel misunderstood.\n- **Moralizing:** Questions that suggest a particular answer (“Shouldn't you …?”) weaken personal responsibility.\n- **Intellectualizing:** A dialogue about meaning can turn into an abstract discussion that blocks out lived experience.\n- **Overextension:** In severe mental illness, acute suicidality, or cognitive impairment, a conversational approach alone is not enough; other forms of help, often including medical help, are then needed.\n\nIn counseling and therapy, Socratic dialogue is therefore embedded in a careful assessment of the situation. It is a valuable conversational attitude – but no substitute for diagnostic assessment and for cooperation with other professionals."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Recall a conversation in which someone helped you move forward with a question – not with advice. What kind of question was it?",
+   "hinweis": "What made the question helpful? The timing, the person, the openness? And conversely: when have you experienced advice as more of a burden?"
+  }
+ ]
+}

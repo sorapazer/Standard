@@ -1,0 +1,110 @@
+{
+ "kurs": "berater",
+ "id": "B8",
+ "titel": "Ethics and Law",
+ "beschreibung": "Professional psychological counseling operates within a framework of professional ethical principles and legal requirements. The module covers basic ethical principles and decision-making procedures, confidentiality and data protection under the GDPR (DSGVO) in outline, the boundary to the practice of healing under the Heilpraktikergesetz (German Non-Medical Practitioners Act), and documentation. Finally, it addresses multiple relationships, self-care, and supervision as components of responsible practice. The module does not replace legal advice in individual cases.",
+ "lernziele": [
+  "You can name central principles of professional ethics and apply a structured procedure to ethical dilemmas.",
+  "You can explain the substance and limits of confidentiality in essence and transfer the basic features of the GDPR to counseling practice.",
+  "You can describe the boundary between psychological counseling and the practice of healing requiring a license under the Heilpraktikergesetz and derive consequences for your actions.",
+  "You can design appropriate, data-minimizing documentation.",
+  "You can recognize risks of multiple relationships and situate self-care, peer consultation (intervision), and supervision as professional duties."
+ ],
+ "pruefung": [
+  {
+   "typ": "multi",
+   "frage": "Which principles are among the four principles according to Beauchamp and Childress? (Multiple answers possible)",
+   "optionen": [
+    "Respect for autonomy",
+    "Nonmaleficence",
+    "Efficiency",
+    "Beneficence",
+    "Justice"
+   ],
+   "richtig": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "erklaerung": "The four principles are respect for autonomy, nonmaleficence, beneficence, and justice. Efficiency is not an independent ethical principle in this model."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Without the consent of the person seeking counseling, a counselor may not even confirm to their relatives that counseling is taking place – unless there is a situation of necessity.",
+   "richtig": true,
+   "erklaerung": "True. Even the fact of counseling is protected. Disclosure is only permissible with consent or in exceptional cases defined by law, such as justifying necessity."
+  },
+  {
+   "typ": "mc",
+   "frage": "What requirements should a release from confidentiality meet?",
+   "optionen": [
+    "It should be oral, general, and unlimited in time.",
+    "It should be signed by relatives.",
+    "It applies automatically to all agencies as soon as counseling begins.",
+    "It should be in writing, specific with regard to recipient, content, and purpose, voluntary, and revocable."
+   ],
+   "richtig": 3,
+   "erklaerung": "An effective and professionally appropriate release is specific, voluntary, and revocable; the written form serves as proof. Blanket releases or releases granted by third parties are not sufficient."
+  },
+  {
+   "typ": "mc",
+   "frage": "Why is information about the mental state of people seeking counseling subject to special protection under the GDPR?",
+   "optionen": [
+    "Because it belongs to health data and thus to the special categories of personal data under Art. 9 GDPR",
+    "Because the GDPR applies only to psychological data",
+    "Because under Art. 28 GDPR it may not be stored",
+    "Because it must always be reported to the supervisory authority"
+   ],
+   "richtig": 0,
+   "erklaerung": "Health data are special categories under Art. 9 GDPR, whose processing is permissible only under strict conditions – in independent counseling usually with explicit consent. Art. 28 governs processing on behalf of a controller."
+  },
+  {
+   "typ": "mc",
+   "frage": "According to § 1(2) HeilprG (Heilpraktikergesetz), what is meant by the practice of healing (Ausübung der Heilkunde)?",
+   "optionen": [
+    "Any counseling of people in difficult life situations",
+    "Any professional or commercial activity for the diagnosis, cure, or alleviation of illnesses, suffering, or physical injuries in human beings",
+    "Exclusively the prescription of medication",
+    "Exclusively surgical procedures"
+   ],
+   "richtig": 1,
+   "erklaerung": "The statutory definition covers the diagnosis, cure, or alleviation of illnesses, suffering, or physical injuries. Counseling healthy people on life questions does not, as a rule, fall under it; but the practice of healing is far more than medication or surgery."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which behaviors help counselors without a license to practice healing (Heilkundeerlaubnis) to respect the boundary to the practice of healing? (Multiple answers possible)",
+   "optionen": [
+    "Not making diagnoses of mental disorders",
+    "Offering “therapy for depression” on their website",
+    "Recommending a medical or psychotherapeutic assessment when there are indications of illness, and documenting this",
+    "Stating in the counseling contract that counseling does not replace treatment",
+    "Recommending that clients discontinue prescribed medication when counseling is going well"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Refraining from diagnoses, recommending and documenting an assessment, and providing clear information help to respect the boundary. Advertising the treatment of illnesses and recommendations about medication cross the boundary and can cause harm."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Sexual contact with people seeking counseling is ethically permissible if the initiative clearly comes from the person seeking counseling and that person is an adult.",
+   "richtig": false,
+   "erklaerung": "False. Sexual contact with people seeking counseling is impermissible without exception. Responsibility always lies with the counselor, because power imbalance and emotional dependence call a free decision into question. Under the conditions of § 174c StGB (German Criminal Code), it is also a criminal offense."
+  },
+  {
+   "typ": "mc",
+   "frage": "What characterizes intervision (peer consultation) in contrast to supervision?",
+   "optionen": [
+    "It is always conducted by an external, specially qualified leader.",
+    "It serves exclusively to resolve conflicts within the team.",
+    "It takes place among colleagues of equal standing without external leadership.",
+    "It is only meaningful with non-anonymized cases."
+   ],
+   "richtig": 2,
+   "erklaerung": "Intervision, or peer consultation, takes place among equals according to a fixed procedure without external leadership. Supervision is led by a qualified person. In both forms, cases are discussed in anonymized form."
+  }
+ ]
+}

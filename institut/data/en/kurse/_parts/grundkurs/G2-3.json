@@ -1,0 +1,144 @@
+{
+ "id": "G2-3",
+ "titel": "When Meaning Is Missing: The Existential Vacuum",
+ "dauer": 22,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "A Feeling of Inner Emptiness",
+   "text": "With the term **existential vacuum**, Frankl described a feeling of inner emptiness and meaninglessness that he regarded as a widespread phenomenon of his time. Those affected experience their lives as indifferent, devoid of content, or aimless – not necessarily dramatically, but often rather as a dull **boredom** and lack of interest.\n\nFrankl explained the phenomenon by a twofold loss: unlike animals, human beings are told by **no instincts** what they *must* do. And in modern societies, **traditions** increasingly fail to tell them what they *ought* to do. Without inner orientation, human beings are at risk of either doing what others do (**conformism**) or doing what others tell them to do (**totalitarianism**).\n\nThe existential vacuum is therefore not primarily an individual failure, but also has social causes. Frankl saw in it a challenge: when instincts and traditions no longer provide support, human beings must learn to discover meaning for themselves in concrete situations through their **conscience**."
+  },
+  {
+   "typ": "text",
+   "titel": "Manifestations",
+   "text": "The existential vacuum can manifest itself in various ways:\n\n- **Boredom and indifference:** Nothing seems really important.\n- **Sunday neurosis:** Frankl's term for the emptiness some people experience when the working week is over and no external framework provides structure anymore.\n- **Crisis on transitioning into retirement** or after the children have left home: familiar tasks fall away, and the question “What for, really?” comes to the fore.\n- **Substitute gratifications:** Instead of meaning, people seek power, money, consumption, constant distraction, or intoxication.\n\nFrankl also described how an unfulfilled will to meaning can be connected with phenomena such as **depression, aggression, and addiction**; he spoke of a “mass neurotic triad.” This thesis is a diagnosis of the times. It does not mean that every depression, every act of aggression, or every addiction stems from meaninglessness – there are diverse biological, psychological, and social causes for these."
+  },
+  {
+   "typ": "mc",
+   "frage": "How did Frankl explain the emergence of the existential vacuum?",
+   "optionen": [
+    "By an innate disorder of brain metabolism.",
+    "By the loss of instincts that tell one what one must do, and the decline of traditions that tell one what one ought to do.",
+    "By overly strict upbringing in early childhood.",
+    "By being overwhelmed with too many meaningful tasks."
+   ],
+   "richtig": 1,
+   "erklaerung": "Frankl named the twofold loss of orientation through instincts and traditions. He saw the vacuum as an existential phenomenon, not one primarily caused biologically or in early childhood."
+  },
+  {
+   "typ": "text",
+   "titel": "Doubting Meaning Is Not an Illness",
+   "text": "An important distinction: Frankl emphasized that **asking about meaning**, and even **doubting** the meaning of life, is profoundly human and not a sign of illness. Raising the question of meaning is an expression of spiritual maturity. He therefore distinguished:\n\n- **Existential frustration:** the will to meaning is disappointed. This is painful, but not pathological.\n- **Noogenic neurosis:** a symptomatology requiring treatment arises from a conflict of meaning or values. Frankl saw this as the actual area of indication for logotherapy.\n\nFor practice this means: someone in a crisis of meaning should not be hastily pathologized. At the same time, it must not be overlooked when **depression** or another mental illness lies behind an experienced meaninglessness. Persistent low mood, loss of interest, sleep and appetite disturbances, or suicidal thoughts call for professional assessment, where appropriate by a physician or psychotherapist. In cases of acute suicidality, immediate professional help is needed."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to Frankl, doubt about the meaning of life is in itself a symptom of a mental illness.",
+   "richtig": false,
+   "erklaerung": "Frankl regarded doubt about meaning as a profoundly human phenomenon. Only when a symptomatology requiring treatment arises from it does he speak of a noogenic neurosis. Independently of this, it should be examined whether depression is present."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Is this more a sign of existential frustration or a warning sign that suggests professional assessment?",
+   "kategorien": [
+    "Existential frustration",
+    "Warning sign for professional assessment"
+   ],
+   "elemente": [
+    {
+     "text": "The question of whether one's job is still fulfilling",
+     "kat": 0
+    },
+    {
+     "text": "Low mood persisting for weeks with loss of sleep and appetite",
+     "kat": 1
+    },
+    {
+     "text": "A feeling of emptiness on weekends",
+     "kat": 0
+    },
+    {
+     "text": "Statements about no longer wanting to live",
+     "kat": 1
+    },
+    {
+     "text": "Uncertainty after entering retirement",
+     "kat": 0
+    },
+    {
+     "text": "Increasing alcohol consumption so as not to feel the emptiness",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Questions of meaning and feelings of emptiness are often an expression of existential frustration. Persistent depressive symptoms, suicidal thoughts, and problematic substance use, by contrast, should be professionally assessed – regardless of whether questions of meaning are also present."
+  },
+  {
+   "typ": "text",
+   "titel": "Can the Experience of Meaning Be Measured?",
+   "text": "Frankl's concept of the existential vacuum stimulated empirical research early on. In the 1960s, the American psychologists James Crumbaugh and Leonard Maholick developed the **Purpose-in-Life Test (PIL)**, a questionnaire on the experience of meaning fulfillment. Elisabeth Lukas, a student of Frankl's, developed the **Logo-Test** in the German-speaking world.\n\nToday, the **Meaning in Life Questionnaire** (Steger and colleagues, 2006) is frequently used internationally. It distinguishes two aspects: the *presence* of meaning and the *search* for meaning. This distinction is helpful because searching is not automatically a deficit.\n\nOverall, research shows that experienced meaning in life is associated with various indicators of mental health and life satisfaction. These are predominantly associations from survey studies; they do not permit simple conclusions about what is cause and what is effect. It is also critically debated how clearly the experience of meaning can be distinguished from well-being or depressiveness."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the instruments and terms correctly.",
+   "paare": [
+    [
+     "Purpose-in-Life Test",
+     "Crumbaugh and Maholick, 1960s"
+    ],
+    [
+     "Logo-Test",
+     "Elisabeth Lukas"
+    ],
+    [
+     "Meaning in Life Questionnaire",
+     "Distinguishes presence of and search for meaning"
+    ],
+    [
+     "Sunday neurosis",
+     "Emptiness when the external framework of the working week falls away"
+    ]
+   ],
+   "erklaerung": "The PIL, the Logo-Test, and the MLQ are questionnaires on the experience of meaning. Sunday neurosis is Frankl's term for a typical manifestation of the existential vacuum."
+  },
+  {
+   "typ": "fall",
+   "titel": "Mrs. M. After the End of Her Career",
+   "fall": "Constructed teaching vignette: Mrs. M., 64, worked as a bookkeeper for 40 years. She has been retired for three months. She reports: “I was so looking forward to it. Now I sit there and don't know what I'm supposed to get up for in the morning. I'm not ill, I just somehow miss everything.” She sleeps normally, meets up with friends, and has no suicidal thoughts.",
+   "frage": "How can Mrs. M.'s situation best be classified in terms of logotherapy?",
+   "optionen": [
+    "It is clearly a severe depression that must be treated with medication immediately.",
+    "Mrs. M. simply has too few hobbies; she should find as many leisure activities as possible.",
+    "Much suggests existential frustration after the loss of a meaning-giving structure; it would be helpful to explore new possibilities of meaning together and to keep an eye on the situation.",
+    "The problem is a consequence of repressed childhood experiences that must be worked through first."
+   ],
+   "richtig": 2,
+   "erklaerung": "The description fits existential frustration: an emptiness of meaning without clear signs of severe depression. From a logotherapeutic perspective, the aim is to explore creative, experiential, and attitudinal values anew. Mere occupation does not replace meaning; premature pathologizing or interpretation in terms of childhood is not justified. If the situation changes, a professional assessment is advisable."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which phenomena does Frankl name as possible substitute gratifications when the will to meaning is frustrated?",
+   "optionen": [
+    "Striving for power",
+    "Dedication to a task",
+    "Chasing money and consumption",
+    "Numbing oneself with intoxicants",
+    "Love for another person"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "According to Frankl, power, money and consumption, and numbness can take the place of a missed meaning. Dedication to a task and love, by contrast, are forms of meaning fulfillment."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Are you familiar with phases of inner emptiness or boredom? When do they typically occur?",
+   "hinweis": "Look for patterns: on weekends, on vacation, after completing something, during transitions. What do you usually do then? What would do you good instead – in terms of giving, receiving, or attitude?"
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Where in your surroundings do you encounter conformism – doing what everyone does – instead of a personal orientation toward meaning?",
+   "hinweis": "Feel free to include yourself. Are there decisions you made mainly because “that's how it's done”? What would your conscience say about them?"
+  }
+ ]
+}

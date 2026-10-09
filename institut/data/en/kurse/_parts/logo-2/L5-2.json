@@ -1,0 +1,162 @@
+{
+ "id": "L5-2",
+ "titel": "Suffering: Homo Patiens and Attitudinal Values",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Homo Faber and Homo Patiens",
+   "text": "In his work *Homo patiens. Versuch einer Pathodizee* (Homo Patiens: An Attempt at a Pathodicy, 1950), Frankl contrasted two images of the human being. **Homo faber**, the creating human being, realizes meaning through achievement and success. His yardstick is the axis between **success and failure**. **Homo patiens**, the suffering human being, by contrast, can realize meaning by bearing unchangeable suffering upright. His yardstick is the axis between **fulfillment and despair**.\n\nFrankl’s decisive idea: these two axes stand **orthogonal** – that is, at right angles – to each other. Success does not guarantee fulfillment, and failure does not necessarily mean despair. A person can be outwardly successful and inwardly despairing; likewise, someone can fail outwardly – for instance, because of an illness – and nevertheless find fulfillment.\n\nThe subtitle “pathodicy” alludes to the theological concept of theodicy, the question of the justification of God in the face of evil. Frankl asks instead about the possibility of meaning in suffering itself – not in the sense of a justification, but in the sense of an opportunity for taking an attitude.\n\nFor an achievement-oriented society, this idea is challenging: it grants people who can no longer “achieve” anything the full possibility of a meaningful life."
+  },
+  {
+   "typ": "mc",
+   "frage": "What does Frankl mean by stating that the axes “success – failure” and “fulfillment – despair” are orthogonal to each other?",
+   "optionen": [
+    "Whoever is successful is necessarily fulfilled; whoever fails despairs.",
+    "Success and fulfillment are mutually exclusive.",
+    "The two dimensions are independent of each other: fulfillment is possible even in failure, and vice versa.",
+    "Fulfillment can only be reached by way of failure."
+   ],
+   "richtig": 2,
+   "erklaerung": "Orthogonal means independent of each other. Option A describes precisely the equation that Frankl criticizes. Option B exaggerates – success and fulfillment can coincide. Option D glorifies failure as a necessary path, which Frankl does not claim."
+  },
+  {
+   "typ": "text",
+   "titel": "The Three Categories of Values – and Why the Third Is Special",
+   "text": "Frankl distinguished three main paths by which people can realize meaning:\n\n- **Creative values**: through what we give to the world – work, creations, deeds, care.\n- **Experiential values**: through what we receive from the world – encounter, love, nature, art.\n- **Attitudinal values**: through the attitude we adopt toward an unchangeable fate.\n\nAttitudinal values hold a special rank. They remain accessible even when creative and experiential possibilities are largely closed off – for example, in severe illness, in captivity or at the end of life. Frankl saw in this the reason why life can remain meaningful **to the last breath**.\n\nAt the same time, logotherapy warns against a misunderstanding: attitudinal values are not a “consolation prize” for those who have nothing else left. Nor are they an achievement that could be expected of those who suffer. They describe a **possibility** that grounds human dignity in every situation.\n\nIn practice, attitudinal values often show themselves unspectacularly: in the way someone spares their relatives or lets them help, how someone keeps their sense of humor, how someone says goodbye, or how someone shows interest in other people’s lives despite pain."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign each example to the category of values that is in the foreground.",
+   "kategorien": [
+    "Creative values",
+    "Experiential values",
+    "Attitudinal values"
+   ],
+   "elemente": [
+    {
+     "text": "A woman writes down the family history for her grandchildren.",
+     "kat": 0
+    },
+    {
+     "text": "A man consciously enjoys the evening light on the balcony of the hospice.",
+     "kat": 1
+    },
+    {
+     "text": "A patient decides to discuss her incurable diagnosis openly with her children in order to give them support.",
+     "kat": 2
+    },
+    {
+     "text": "A retiree volunteers in a homework-help program.",
+     "kat": 0
+    },
+    {
+     "text": "A married couple listens together to the music from their wedding.",
+     "kat": 1
+    },
+    {
+     "text": "A man with progressive paralysis maintains his friendliness toward the nursing staff despite increasing dependence.",
+     "kat": 2
+    }
+   ],
+   "erklaerung": "Creative values show themselves in giving and shaping, experiential values in receiving and experiencing, attitudinal values in one’s attitude toward an unchangeable fate. In reality the categories often intertwine; the assignment shows the respective emphasis."
+  },
+  {
+   "typ": "text",
+   "titel": "Reversing the Question of Meaning in Suffering",
+   "text": "People who suffer often ask: “Why me?” or “What meaning is this supposed to have?” Frankl proposed reversing this question, as it were – he spoke of a **Copernican turn** in the question of meaning. It is not we who ask life about its meaning; rather, we are the ones questioned by life, who take on responsibility through our answers.\n\nIn suffering this means: the question “Why is this happening to me?” often remains unanswerable. The question “How do I want to meet what is happening to me?”, by contrast, can be answered – not theoretically, but through a lived attitude.\n\nIn counseling, however, this reversal is to be used with care:\n\n- The “why” question is an expression of pain and must not be devalued as the “wrong question.” It first needs resonance.\n- The reversal cannot be prescribed. It is more likely to succeed when the person themselves begins to search for scopes for action.\n- The person’s religious and worldview-based interpretations – such as wrestling with God – are to be respected; counselors do not impose a theodicy of their own.\n\nA helpful transition can be: “The question of why will not let go of you – and perhaps there is no answer to it. Is there, alongside it, a question to which you would like to give an answer today?”"
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "In logotherapeutic counseling, the question “Why me of all people?” should be named as unproductive as quickly as possible and replaced by the question of attitude.",
+   "richtig": false,
+   "erklaerung": "False. The “why” question is an expression of pain and bewilderment and first needs resonance. The reversal of the question of meaning cannot be prescribed; it only becomes helpful when the person is ready to engage with scopes for action and attitude."
+  },
+  {
+   "typ": "merke",
+   "text": "He who has a why to live for can bear almost any how.",
+   "quelle": "Friedrich Nietzsche, taken up by Viktor E. Frankl in “… trotzdem Ja zum Leben sagen” (Man’s Search for Meaning)"
+  },
+  {
+   "typ": "text",
+   "titel": "Modification of Attitudes: Changing the Attitude, Not the Facts",
+   "text": "The logotherapeutic method that addresses attitudinal values directly is the **modification of attitudes** (also called change of attitude). It aims to transform an unhealthy or meaning-obstructing attitude toward a situation into a healthier attitude that is open to meaning – without denying the situation itself.\n\nTo distinguish it from cognitive restructuring techniques: cognitive behavioral therapy often examines whether a thought is realistic or helpful. The modification of attitudes asks more strongly about the **relation to values**: which attitude corresponds to what is important to the person? Which attitude can they answer for before themselves and before others? The two approaches overlap in practice but set different emphases.\n\nTypical steps in counseling:\n\n- carefully working out the previous attitude (“How do you see your situation?”),\n- exploring its effects on experience and relationships,\n- recalling values and earlier attitudes in difficult times,\n- searching together for alternative attitudes without imposing them,\n- finding small, concrete forms of expressing the new attitude in everyday life.\n\nA modification of attitudes is not persuasion. It respects that the person has the last word on which attitude feels right for them."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the steps of a careful modification of attitudes into a professionally sensible order.",
+   "elemente": [
+    "Give space to the person’s experience and suffering",
+    "Work out together the previous attitude toward the situation",
+    "Explore the effects of this attitude on experience and relationships",
+    "Recall values and earlier coping experiences",
+    "Search together for alternative attitudes consistent with the person’s values",
+    "Find concrete forms of expressing the new attitude in everyday life"
+   ],
+   "erklaerung": "Acknowledging the suffering always comes first. Only when the previous attitude and its consequences are understood can values and resources be activated and new attitudes sought. Anchoring in everyday life makes the changed attitude tangible."
+  },
+  {
+   "typ": "fall",
+   "titel": "The Diagnosis",
+   "fall": "Constructed teaching vignette: Mr. K., 58, an engineer, received a diagnosis of amyotrophic lateral sclerosis (ALS) three months ago. He is well connected to medical care, a psycho-oncologist or palliative counseling service has been informed, and no mental disorder has been diagnosed by a physician. In the counseling session he says: “All my life I have solved problems. Now there is nothing left to solve. I have become useless.”",
+   "frage": "Which intervention most closely corresponds to a logotherapeutic approach?",
+   "optionen": [
+    "Explaining to him that suffering strengthens character and that he could be grateful for this trial.",
+    "Suggesting a list of hobbies he can still pursue despite his illness.",
+    "Carefully exploring the equation of worth with problem-solving and asking what was and is important to him in life beyond solving problems.",
+    "Telling him directly that his assessment is objectively wrong because he still has many abilities."
+   ],
+   "richtig": 2,
+   "erklaerung": "Mr. K. equates his worth with achievement – the perspective of homo faber. Option C carefully opens up the second axis (fulfillment – despair) and invites him to discover values beyond achievement. Option A glorifies suffering, option B skips the existential question in favor of activity, option D argues against his experience and is devaluing."
+  },
+  {
+   "typ": "text",
+   "titel": "Limits and Risks of Working with Attitudinal Values",
+   "text": "Talk of attitudinal values can be misused – by counselors as well as by institutions. Professionals should be aware of the following risks:\n\n- **Moralization**: when “suffering properly” becomes the yardstick, pressure arises, and people who despair additionally experience themselves as failures.\n- **Spiritualizing structural problems**: poverty, discrimination or poor care cannot be “solved” through attitude but require change. Attitudinal values must not serve as a substitute for social justice.\n- **Overlooking mental illness**: depression can severely restrict the capacity to take a stand. Here, treatment is indicated first, not work on attitude.\n- **Projection of one’s own values**: counselors may unnoticeably transfer their own notion of “dignified suffering.”\n\nFrankl himself was clear on this point: attitudinal values only come into play where suffering is truly unavoidable. Whoever brings them in prematurely misses the point of logotherapy.\n\nA helpful self-check for counselors is: *Would I also ask this question if I were in this situation myself and at a loss for what to do?*"
+  },
+  {
+   "typ": "multi",
+   "frage": "Which of the following points belong to the risks of an unreflective use of attitudinal values? (Multiple answers possible)",
+   "optionen": [
+    "Those who suffer feel pressured to suffer “properly.”",
+    "Structural grievances are reinterpreted as individual questions of attitude.",
+    "Clients discover new scopes for action in their situation.",
+    "A depression requiring treatment is overlooked.",
+    "Counselors transfer their own ideal of dignified suffering."
+   ],
+   "richtig": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "erklaerung": "Moralization, individualization of structural problems, overlooking mental illness and projection are typical risks. Discovering new scopes for action (C), by contrast, is the desired outcome of successful work with attitudinal values."
+  },
+  {
+   "typ": "karten",
+   "titel": "Key Terms of This Lesson",
+   "karten": [
+    {
+     "vorne": "Homo patiens",
+     "hinten": "The suffering human being who can realize meaning through their attitude toward unchangeable suffering (Frankl, 1950)."
+    },
+    {
+     "vorne": "Homo faber",
+     "hinten": "The creating human being, whose yardstick is the axis success – failure."
+    },
+    {
+     "vorne": "Pathodicy",
+     "hinten": "Frankl’s term for the question of the possibility of meaning in suffering – modeled on theodicy."
+    },
+    {
+     "vorne": "Attitudinal values",
+     "hinten": "Realization of meaning through one’s attitude toward an unchangeable fate; according to Frankl, accessible to the very end."
+    },
+    {
+     "vorne": "Modification of attitudes",
+     "hinten": "Logotherapeutic method that seeks to transform a meaning-obstructing attitude into a healthier one consistent with the person’s values, without denying facts."
+    }
+   ]
+  }
+ ]
+}

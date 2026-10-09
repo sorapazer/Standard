@@ -1,0 +1,107 @@
+{
+ "titel": "Psychological Foundations",
+ "beschreibung": "This module conveys the basic psychological knowledge on which all sound counseling is built: how emotions arise and are regulated, what drives people, how they think and learn, how personality can be described, and how people develop across the lifespan. The focus is always on what this knowledge means for understanding and accompanying people who seek counseling.",
+ "lernziele": [
+  "You can describe emotions as multicomponent processes and distinguish emotion regulation strategies according to the process model.",
+  "You can explain self-determination theory with its three basic psychological needs and the continuum of behavioral regulation.",
+  "You can recognize central forms of learning as well as typical cognitive distortions and relate them to counseling situations.",
+  "You can present the five-factor model of personality and name its limitations.",
+  "You can use the basic assumptions of attachment theory and lifespan developmental psychology in counseling practice."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "According to Gross’s process model, which emotion regulation strategy targets the emotional response that is already under way?",
+   "optionen": [
+    "Situation selection",
+    "Cognitive reappraisal",
+    "Response modulation",
+    "Attentional deployment"
+   ],
+   "richtig": 2,
+   "erklaerung": "Response modulation – such as suppressing expression or breathing techniques – targets the response once it has already unfolded. The other strategies act earlier in the generative process."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which three basic psychological needs does self-determination theory name? (Multiple answers possible)",
+   "optionen": [
+    "Autonomy",
+    "Safety",
+    "Competence",
+    "Relatedness",
+    "Self-actualization"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Deci and Ryan name autonomy, competence, and relatedness. Safety and self-actualization are terms from other models, such as Maslow’s hierarchy of needs."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to self-determination theory, even extrinsically motivated behavior can be largely self-determined if a person identifies with its value.",
+   "richtig": true,
+   "erklaerung": "Identified and integrated regulation are extrinsic forms that are nonetheless experienced as self-determined. What matters is the degree of internalization, not enjoyment of the activity."
+  },
+  {
+   "typ": "mc",
+   "frage": "For months, a person has been avoiding buses and trains and feels relieved every time they walk instead. Which learning mechanism most likely contributes to maintaining the avoidance?",
+   "optionen": [
+    "Positive reinforcement",
+    "Negative reinforcement",
+    "Extinction",
+    "Punishment"
+   ],
+   "richtig": 1,
+   "erklaerung": "The relief results from the removal of unpleasant anxiety – this is negative reinforcement. It makes avoidance more likely and prevents corrective experiences."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which statement about the five-factor model of personality is correct?",
+   "optionen": [
+    "It divides people into five clearly separate personality types.",
+    "It fully explains how personality develops in childhood.",
+    "High agreeableness is inherently advantageous, low agreeableness inherently problematic.",
+    "It describes five broad dimensions on which people differ continuously."
+   ],
+   "richtig": 3,
+   "erklaerung": "The Big Five are dimensions, not types. The model describes but does not fully explain the development of personality, and no trait level is good or bad in itself."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which features belong to the guiding principles of Baltes’s lifespan developmental psychology? (Multiple answers possible)",
+   "optionen": [
+    "Development is a lifelong process.",
+    "Development is complete by the end of adolescence.",
+    "Development always involves gains and losses.",
+    "People remain modifiable to some degree in all phases of life (plasticity).",
+    "Development proceeds in the same direction and at the same pace for all people."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Baltes emphasizes lifelong development, multidirectionality with gains and losses, plasticity, and context dependence. Development ending with adolescence or a universally identical course contradicts this approach."
+  },
+  {
+   "typ": "mc",
+   "frage": "What does attachment theory mean by “internal working models”?",
+   "optionen": [
+    "Internalized expectations about the availability of others and one’s own worth that arise from attachment experiences",
+    "Conscious plans with which adults steer their choice of partner",
+    "Cognitive schemas that relate exclusively to career choice",
+    "Innate reflexes observed in the Strange Situation"
+   ],
+   "richtig": 0,
+   "erklaerung": "Internal working models are largely unconscious structures of expectation about oneself and others in relationships. They arise from repeated attachment experiences and can change through new experiences."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Disorganized attachment behavior was described by Mary Ainsworth as one of her three original patterns.",
+   "richtig": false,
+   "erklaerung": "Ainsworth originally described the secure, insecure-avoidant, and insecure-ambivalent patterns. The disorganized category was added later by Mary Main and Judith Solomon."
+  }
+ ]
+}

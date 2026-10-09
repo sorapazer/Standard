@@ -1,0 +1,144 @@
+{
+ "id": "B1-2",
+ "titel": "Motivation and Self-Determination",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "What Drives People",
+   "text": "In psychology, **motivation** refers to the processes that **initiate, direct, and sustain** behavior. It explains why someone pursues a goal, how intensely they exert themselves, and how long they persevere.\n\nTraditionally, a distinction is made between **motives** as relatively enduring dispositions – for example the achievement, power, or affiliation motive as described by David McClelland – and current **motivation** in a concrete situation. The latter results from the interplay of person and situation.\n\nA classic explanatory model is the **expectancy-value principle**: people exert themselves especially when they expect to be able to reach a goal (expectancy) and when the goal is important to them (value). If one of the two factors is missing, motivation drops sharply – even a highly valued goal is not pursued if it is considered unattainable.\n\nIn addition, **approach motivation** (toward something desired) is distinguished from **avoidance motivation** (away from something undesired). Avoidance goals such as “not being so stressed anymore” often guide action less effectively than approach goals such as “having a quiet evening to myself twice a week.”\n\nIn counseling, motivation rarely appears as simply “present” or “absent.” More often, a multilayered structure of wishes, fears, expectations, and values emerges – and this is something one can work with."
+  },
+  {
+   "typ": "mc",
+   "frage": "A client very much wants to complete his school-leaving qualification as an adult but does not register for the course. He says: “I didn’t manage it back then either; it won’t work this time.” Which factor of the expectancy-value principle is primarily impaired here?",
+   "optionen": [
+    "Value, because the qualification is apparently a matter of indifference to him",
+    "Approach motivation, because he has only avoidance goals",
+    "Expectancy, because he does not believe in success",
+    "The affiliation motive, because he lacks social contacts"
+   ],
+   "richtig": 2,
+   "erklaerung": "The qualification is important to him (high value), but his expectancy of success is low. According to the multiplicative principle, one low factor is enough to lower motivation overall. Counseling would start with expectancy here, for example through small experiences of success and support."
+  },
+  {
+   "typ": "text",
+   "titel": "Deci and Ryan’s Self-Determination Theory",
+   "text": "**Self-determination theory** (SDT) was developed by Edward Deci and Richard Ryan from the 1980s onward and is today one of the best-researched theories of motivation. It assumes that people have a natural tendency toward growth, integration, and development – provided their **three basic psychological needs** are met:\n\n- **Autonomy:** the experience of determining one’s own actions and standing behind them. Autonomy does not mean independence from others but volition and inner endorsement.\n- **Competence:** the experience of being effective and able to master challenges.\n- **Relatedness:** the experience of being connected with others and of feeling that one belongs and is accepted.\n\nAccording to SDT, these needs are **universal**, even though they are expressed and satisfied differently across cultures. When they are supported in the family, at school, at work, or in counseling, this promotes well-being, persistence, and the quality of engagement. When they are persistently frustrated – through control, devaluation, or rejection – the risk of withdrawal, resistance, and psychological distress increases.\n\nThis is directly relevant for counseling: a counseling stance that leaves **room for choice**, makes **progress visible**, and offers a **stable relationship** addresses all three needs."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Which basic need according to self-determination theory is particularly addressed by each counselor intervention?",
+   "paare": [
+    [
+     "“Which of the two options suits you better?”",
+     "Autonomy"
+    ],
+    [
+     "“You managed to go to bed earlier three times this week – how did you succeed in doing that?”",
+     "Competence"
+    ],
+    [
+     "“I’m glad you came today, and I’m happy to accompany you in this.”",
+     "Relatedness"
+    ]
+   ],
+   "erklaerung": "Choices strengthen the experience of autonomy, making one’s own successes visible strengthens the experience of competence, and an appreciative, attentive relationship strengthens relatedness. Good counseling usually addresses all three needs at once."
+  },
+  {
+   "typ": "text",
+   "titel": "Intrinsic, Extrinsic – and In Between",
+   "text": "Motivation is often divided into **intrinsic** (out of enjoyment of the activity itself) and **extrinsic** (because of external consequences). Self-determination theory differentiates more precisely. It describes a **continuum of behavioral regulation** from other-determined to self-determined:\n\n- **Amotivation:** no intention to act, often associated with the feeling of being unable to achieve anything anyway.\n- **External regulation:** acting because of reward or punishment (“I’m going to counseling because the job center requires it.”).\n- **Introjected regulation:** acting out of inner pressure, guilt, or pride (“I have to manage this, otherwise I’m a failure.”).\n- **Identified regulation:** acting because one recognizes the value of the matter for oneself (“Exercise is important to me for my health.”).\n- **Integrated regulation:** the behavior is coherently connected with one’s own values and self-image.\n- **Intrinsic motivation:** acting out of interest in and enjoyment of the activity itself.\n\nImportantly, extrinsic motivation, too, can be **largely self-determined** when a person identifies with the goal. Many necessary activities – taking medication, writing job applications, addressing conflicts – are not fun but can be experienced as personally important.\n\nSDT calls the process by which external demands become one’s own **internalization**. Counseling can support it by asking about the **personal reasons** rather than prescribing reasons."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Arrange the forms of behavioral regulation according to self-determination theory in order from “least” to “most self-determined.”",
+   "elemente": [
+    "Amotivation",
+    "External regulation",
+    "Introjected regulation",
+    "Identified regulation",
+    "Integrated regulation",
+    "Intrinsic motivation"
+   ],
+   "erklaerung": "The continuum ranges from a lack of intention to act, through regulation by external consequences and inner pressure, to forms in which the behavior is experienced as personally important, integrated with the self, or carried out for its own sake."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the clients’ statements to the appropriate form of regulation.",
+   "kategorien": [
+    "External regulation",
+    "Introjected regulation",
+    "Identified regulation"
+   ],
+   "elemente": [
+    {
+     "text": "“I’m only coming because the court ordered it.”",
+     "kat": 0
+    },
+    {
+     "text": "“If I don’t lose weight, the health insurer will cancel my subsidy.”",
+     "kat": 0
+    },
+    {
+     "text": "“I’d be ashamed if my parents found out that I dropped out.”",
+     "kat": 1
+    },
+    {
+     "text": "“A good mother simply has to endure this.”",
+     "kat": 1
+    },
+    {
+     "text": "“I want to stop drinking because I want to see my grandchildren grow up.”",
+     "kat": 2
+    },
+    {
+     "text": "“The further training is exhausting, but it brings me closer to my career goal.”",
+     "kat": 2
+    }
+   ],
+   "erklaerung": "Behavior is externally regulated when it is tied to external consequences. It is introjected when inner pressure, shame, or a “must” drives it. It is identified when the person names a reason of their own that they endorse – this is the most stable of the three forms."
+  },
+  {
+   "typ": "text",
+   "titel": "Undermining and Fostering Motivation",
+   "text": "An early and widely noted observation from Deci’s research is the so-called **undermining effect**: under certain conditions, a reward tied to an activity and experienced as **controlling** can reduce intrinsic motivation for a previously interesting activity. Rewards are thus not harmful in principle – it becomes problematic when they shift the experience from “I do this because it interests me” to “I do this because I get something for it.” Informational, honest feedback about competence, by contrast, can be motivating.\n\nFrom SDT, features of an **autonomy-supportive style** can be derived that have proven beneficial in parenting, school, leadership, and health care:\n\n- taking the other person’s perspective seriously\n- offering choices where they exist\n- giving reasons when something is non-negotiable\n- avoiding controlling language (“You must …”, “You should …”)\n- acknowledging negative feelings about demands\n\nIn counseling, this means that even in a **mandated context** – for example, court-ordered counseling – room for self-determination can be found. The question “Since you have to be here anyway: what could make this time useful for you?” is an example."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to self-determination theory, autonomy means acting as independently of other people as possible.",
+   "richtig": false,
+   "erklaerung": "In SDT, autonomy refers to the experience of volition and inner endorsement of one’s own actions. One can act very autonomously and at the same time depend on others or deliberately take one’s cue from them. Autonomy and relatedness complement each other."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which formulations correspond to an autonomy-supportive counseling style? (Multiple answers possible)",
+   "optionen": [
+    "“You really should finally stop smoking.”",
+    "“What would be a good reason for you to change something – if there is one?”",
+    "“I can understand that you find the requirement a nuisance. Participation is a prerequisite for returning to your job.”",
+    "“If you don’t cooperate, I can’t help you either.”",
+    "“There are several ways – would you like me to present some of them to you?”"
+   ],
+   "richtig": [
+    1,
+    2,
+    4
+   ],
+   "erklaerung": "Autonomy-supportive are questions about one’s own reasons, acknowledging negative feelings combined with a rationale for non-negotiable requirements, and offering choices with a request for permission. “You should …” is controlling language; the threat of withdrawing help applies pressure instead of fostering motivation."
+  },
+  {
+   "typ": "text",
+   "titel": "Motivation, Meaning, and Values",
+   "text": "Self-determination theory touches on meaning-centered approaches at an important point: the most stable forms of motivation are those in which a person recognizes **values** that they themselves endorse. Viktor Frankl highlighted the **will to meaning** as a fundamental human motivation – the striving to realize something meaningful in one’s own life. Although SDT and logotherapy are different theoretical traditions, they converge in the observation that people are moved not only by pleasure and displeasure or external incentives, but by **meaning**.\n\nIn research on **life goals**, Ryan and colleagues distinguish intrinsic goals (such as personal growth, relationships, contribution to the community) from extrinsic goals (such as wealth, fame, physical appearance). A strong priority of extrinsic life goals tends, in studies, to be associated with lower well-being.\n\nFor counseling, this means:\n\n- asking about the **what for**, not just the what\n- exploring the values behind goals (“What would be different then? What would be important to you about that?”)\n- taking ambivalence seriously: several endorsed values often compete with one another\n\nThis perspective is explored in practical depth in Module B3 (Motivational Interviewing) and B4 (goal clarification)."
+  },
+  {
+   "typ": "merke",
+   "text": "Motivation cannot be “implanted” from outside. Counseling can, however, create conditions under which people discover their own reasons: freedom of choice, experiences of competence, and a stable relationship."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Think of a change that you yourself have successfully implemented. Which form of regulation was there at the beginning, and which at the end?",
+   "hinweis": "Was the change initially prompted from outside? When and through what did it become your own? What role did autonomy, competence, and relatedness play?"
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "id": "B5-1",
+ "titel": "Understanding Stress: The Transactional Model of Stress",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "What Do We Actually Mean by “Stress”?",
+   "text": "In everyday language, “stress” is an umbrella term for time pressure, annoyance, overload, or tension. Counseling needs a more precise concept, because depending on how stress is understood, one intervenes at very different points.\n\nHistorically, three perspectives can be distinguished:\n\n- **Stimulus-based approaches** understand stress as an external burden, for instance critical life events such as separation, relocation, or job loss. Their problem: the same event burdens different people to very different degrees.\n- **Response-based approaches** view stress as the organism’s physical response. A formative figure was the physician **Hans Selye**, who described a “General Adaptation Syndrome” with an alarm stage, a resistance stage, and an exhaustion stage. He also introduced the distinction between beneficial *eustress* and harmful *distress*.\n- **Transactional approaches** understand stress as the result of a reciprocal relationship between person and environment. What matters is not the event alone but how the person appraises it and which options for coping they see in themselves.\n\nThe third perspective, developed by **Richard S. Lazarus** and **Susan Folkman**, is today the guiding framework for psychological counseling. It explains why two colleagues in the same department react completely differently to the same restructuring, and it shows where counseling can intervene: in the situation, in the appraisal, in the resources, and in coping."
+  },
+  {
+   "typ": "text",
+   "titel": "Primary Appraisal: Does This Matter to Me?",
+   "text": "Lazarus describes stress as a process of cognitive appraisals. These appraisals often occur in a flash and outside awareness, yet they decisively shape emotional experience.\n\nIn **primary appraisal**, a person assesses whether a situation is relevant to their well-being. Possible outcomes are:\n\n- **irrelevant**: the situation does not touch one’s own concerns.\n- **benign-positive**: the situation is judged to be beneficial or pleasant.\n- **stressful**: the situation touches important goals or values and involves demands.\n\nLazarus further differentiates stressful appraisals:\n\n- **harm/loss**: damage has already occurred, for example a dismissal or the death of a relative.\n- **threat**: damage is anticipated in the future, for example a feared dismissal.\n- **challenge**: the demand is experienced as manageable and associated with opportunities for growth, for example a new leadership role.\n\nThreat and challenge can be present at the same time. In counseling practice the difference matters: with threat, fear and worry predominate; with challenge, rather tension, curiosity, and engagement. Whether a situation is experienced as threat or challenge is closely linked to the second appraisal – the assessment of one’s own options."
+  },
+  {
+   "typ": "merke",
+   "text": "In the transactional model, stress does not arise from the event alone but when a person appraises a situation as significant and judges their options for coping to be insufficient."
+  },
+  {
+   "typ": "mc",
+   "frage": "A nurse learns that starting next month she is to deputize for the ward manager. She thinks: “That’s a lot, but I can learn a great deal from it, and I believe I can do it.” Which primary appraisal predominates?",
+   "optionen": [
+    "Challenge",
+    "Harm/loss",
+    "Threat",
+    "Irrelevant"
+   ],
+   "richtig": 0,
+   "erklaerung": "The demand is experienced as significant but manageable and associated with opportunities for growth – that is a challenge. A threat would be present if she primarily feared future harm. Harm/loss refers to something that has already occurred. The situation is obviously not irrelevant, since it concerns important professional concerns."
+  },
+  {
+   "typ": "text",
+   "titel": "Secondary Appraisal and Reappraisal",
+   "text": "In **secondary appraisal**, the person asks: What can I do? Which resources are available to me? This includes internal resources such as knowledge, skills, health, self-efficacy expectations, and beliefs, as well as external resources such as social support, time, money, or organizational latitude.\n\nThe terms “primary” and “secondary” denote neither a strict temporal sequence nor a ranking. The two appraisals influence each other: someone who sees many options for coping tends to appraise a demand as a challenge; someone who feels helpless tends to appraise it as a threat.\n\nThe appraisals are followed by **coping efforts**. Their outcomes are in turn perceived and lead to **reappraisal**: the situation is reassessed in light of new information and of successful or failed coping. Stress is thus not a state but an ongoing process that can change in the course of a conversation.\n\nThis yields four points of intervention for counseling:\n\n- the **situation** itself (e.g., work organization, resolving a conflict),\n- the **primary appraisal** (e.g., examining catastrophizing assumptions),\n- the **resources** (e.g., activating support, expanding competencies),\n- **coping** (e.g., trying out and evaluating new strategies).\n\nAn appraisal is not “wrong” or “right”; it can, however, become more realistic, more differentiated, and more helpful."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the sequence of the transactional model of stress into a meaningful order.",
+   "elemente": [
+    "A person perceives a situation or demand.",
+    "Primary appraisal: Is the situation significant for my well-being?",
+    "Secondary appraisal: Which resources and options for action do I have?",
+    "Coping effort",
+    "Reappraisal of the situation on the basis of experience"
+   ],
+   "erklaerung": "The model describes a cycle: perception, primary and secondary appraisal, coping, and reappraisal. In reality, primary and secondary appraisal interlock; the sequence serves didactic illustration."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the statements to the appropriate appraisal.",
+   "paare": [
+    [
+     "“This doesn’t concern me at all.”",
+     "irrelevant"
+    ],
+    [
+     "“Since the separation, I have nothing to hold on to.”",
+     "harm/loss"
+    ],
+    [
+     "“If the audit goes badly, I’ll lose my job.”",
+     "threat"
+    ],
+    [
+     "“This will be exhausting, but I can grow from it.”",
+     "challenge"
+    ],
+    [
+     "“I have a colleague who will support me.”",
+     "secondary appraisal (resource)"
+    ]
+   ],
+   "erklaerung": "The first four statements are outcomes of primary appraisal. The last statement refers to available resources and therefore belongs to secondary appraisal."
+  },
+  {
+   "typ": "text",
+   "titel": "What Happens in the Body",
+   "text": "Even though appraisal is a psychological process, stress involves the whole body. Two systems are particularly important:\n\n- The **sympathetic-adrenal-medullary axis** responds within seconds. Adrenaline and noradrenaline raise heart rate, blood pressure, and muscle tension, mobilize energy, and sharpen attention. This reaction is often described as the fight-or-flight response.\n- The **hypothalamic-pituitary-adrenal axis** (HPA axis) responds more slowly. Through a hormonal cascade, **cortisol** is released, which among other things mobilizes energy reserves and dampens inflammatory processes.\n\nIn the short term, this activation is useful and enhances performance. It becomes problematic when stressors are **persistent** and **recovery phases are lacking**. The system then remains permanently activated. Typical consequences reported by clients include sleep disturbances, rumination, irritability, concentration problems, muscle tension, headaches, gastrointestinal complaints, and increased susceptibility to infection. In the long term, chronic stress is considered a risk factor for numerous physical and mental illnesses.\n\nFor counseling this means: physical complaints must be taken seriously, but not prematurely “psychologized.” Anyone reporting palpitations, persistent insomnia, or pain should be encouraged to seek a **medical assessment** to rule out physical causes. Counseling does not replace diagnostics."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Since stress in the transactional model arises from appraisals, physical complaints can in principle be regarded as psychologically caused in counseling.",
+   "richtig": false,
+   "erklaerung": "False. Appraisal does influence the stress response, but it does not follow that complaints are psychologically caused. Physical symptoms must be assessed by a physician. Counselors do not make diagnoses and should neither trivialize complaints nor interpret them psychologically too quickly."
+  },
+  {
+   "typ": "text",
+   "titel": "A Practical Model: Stressors, Amplifiers, Response",
+   "text": "For psychoeducation, the three-level model of the health psychologist **Gert Kaluza** has proven useful. It translates the transactional view into an easily understood structure:\n\n- **Stressors** are external demands and burdens: workload, time pressure, conflicts, noise, caring for relatives, financial worries.\n- **Personal stress amplifiers** are the attitudes, motives, and appraisals with which a person approaches demands. Kaluza describes patterns such as “Be perfect!”, “Be liked!”, “Be strong!”, “Be careful!”, and “I can’t!”.\n- **Stress responses** are the physical, emotional, cognitive, and behavioral reactions: tension, irritability, rumination, hasty working, withdrawal, increased alcohol consumption.\n\nFrom this, Kaluza derives three pillars of stress management:\n\n- **instrumental stress management** addresses the stressors (organization, communication, setting boundaries, solving problems),\n- **mental stress management** addresses the amplifiers (examining attitudes, broadening perspectives, acceptance),\n- **regenerative stress management** addresses the response (recovery, relaxation, exercise, social contact).\n\nGood counseling examines on which level the greatest leverage lies in the individual case and avoids the one-sidedness of viewing stress exclusively as a problem of attitude or exclusively as a problem of circumstances."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the aspects from an initial consultation to Kaluza’s three levels.",
+   "kategorien": [
+    "Stressor",
+    "Personal stress amplifier",
+    "Stress response"
+   ],
+   "elemente": [
+    {
+     "text": "Staff shortage in the team for the past six months",
+     "kat": 0
+    },
+    {
+     "text": "“I mustn’t make any mistakes, otherwise I’m worthless.”",
+     "kat": 1
+    },
+    {
+     "text": "Rumination at night and difficulty falling asleep",
+     "kat": 2
+    },
+    {
+     "text": "Caring for one’s mother, who has dementia, on weekends",
+     "kat": 0
+    },
+    {
+     "text": "“I have to manage everything on my own; accepting help is weakness.”",
+     "kat": 1
+    },
+    {
+     "text": "Irritability toward one’s own children",
+     "kat": 2
+    },
+    {
+     "text": "Constant availability via a work phone",
+     "kat": 0
+    },
+    {
+     "text": "Neck tension and headaches",
+     "kat": 2
+    }
+   ],
+   "erklaerung": "Stressors are external demands. Stress amplifiers are internal attitudes and appraisals such as perfectionism or the motive of having to be strong. Stress responses comprise physical, emotional, and behavioral consequences. The classification helps to select the appropriate pillar of stress management in a targeted way."
+  },
+  {
+   "typ": "fall",
+   "titel": "Two Reactions to the Same News",
+   "fall": "Constructed teaching vignette: A daycare center announces that a new educational concept will be introduced next year. Educator A. is pleased and volunteers for the working group. Educator B. has been sleeping poorly ever since, is irritable, and says in counseling: “I couldn’t keep up last time either. I’m going to embarrass myself, and management is just waiting for that.”",
+   "frage": "Which interpretation best corresponds to the transactional model of stress?",
+   "optionen": [
+    "Mr. B. is less resilient than Ms. A.; counseling should primarily train his stress tolerance.",
+    "The concept is objectively stressful; the different reactions are a coincidence.",
+    "Mr. B. appraises the situation as a threat and rates his resources as low; counseling can address the appraisal, the resources, and concrete preparation.",
+    "Ms. A. is repressing her strain, while Mr. B. perceives it realistically."
+   ],
+   "richtig": 2,
+   "erklaerung": "The model explains different reactions through different appraisals and assessments of resources. Mr. B. expects harm (threat) and sees few options for coping, based on an earlier experience. Counseling can examine these assumptions, make resources visible, and plan concrete steps. The other options rely either on a purely trait-based explanation, a purely stimulus-based explanation, or an unsupported interpretation."
+  },
+  {
+   "typ": "karten",
+   "titel": "Basic Concepts of Stress Psychology",
+   "karten": [
+    {
+     "vorne": "Primary appraisal",
+     "hinten": "Assessment of whether a situation is irrelevant, benign-positive, or stressful (harm/loss, threat, challenge) for one’s own well-being."
+    },
+    {
+     "vorne": "Secondary appraisal",
+     "hinten": "Assessment of the available internal and external resources and options for action."
+    },
+    {
+     "vorne": "Reappraisal",
+     "hinten": "Renewed assessment of the situation on the basis of new information or the outcomes of coping efforts."
+    },
+    {
+     "vorne": "Eustress / distress",
+     "hinten": "Distinction introduced by Hans Selye between stimulating, beneficial strain and burdensome, harmful strain."
+    },
+    {
+     "vorne": "HPA axis",
+     "hinten": "Hypothalamic-pituitary-adrenal axis; mediates the slower hormonal stress response with cortisol release."
+    },
+    {
+     "vorne": "Kaluza’s three pillars",
+     "hinten": "Instrumental, mental, and regenerative stress management – addressing stressors, stress amplifiers, and the stress response."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Think of a situation from your own working life that you experienced as stressful. How did you appraise the situation at the time, and which resources did you perceive or overlook?",
+   "hinweis": "Guiding questions: What was at stake for me? Was it more a threat or a challenge? Which internal and external resources did I have? Which personal stress amplifier might have been involved? Would I appraise the situation differently today?"
+  }
+ ]
+}

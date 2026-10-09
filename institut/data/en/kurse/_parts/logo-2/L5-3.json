@@ -1,0 +1,210 @@
+{
+ "id": "L5-3",
+ "titel": "Guilt, Responsibility and Transitoriness",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Guilt as the Reverse Side of Freedom",
+   "text": "For Frankl, the human being is free and therefore responsible. It follows directly: whoever is free can also **become guilty**. In this understanding, guilt is not an illness but a reverse side of human freedom – and thus part of the tragic triad.\n\nThis view differs from two widespread positions:\n\n- A **deterministic** image of the human being, which traces guilt entirely back to circumstances, conditioning or drives, deprives the person of their dignity as a responsible subject. Frankl sharply criticized this “pandeterminism.”\n- A **moralistic** image of the human being, which associates guilt primarily with punishment and condemnation, misses the possibility of change.\n\nLogotherapy takes guilt seriously without reducing the person to it. A person *has* incurred guilt; they *are* not merely their guilt. Precisely because they are free, they can relate to their guilt: acknowledge it, repent of it, make amends where possible, and change.\n\nIn the concept of tragic optimism, Frankl formulated this as the possibility of deriving from guilt the opportunity to **change oneself for the better**. The past is not undone thereby, but it is incorporated into a future for which one takes responsibility."
+  },
+  {
+   "typ": "text",
+   "titel": "Distinguishing Guilt from Feelings of Guilt",
+   "text": "In counseling, a careful distinction is indispensable: **guilt** and **feelings of guilt** are not the same.\n\n**Existential or real guilt** is present when a person has actually violated a value, harmed someone or failed in a responsibility. Here the feeling of guilt is an appropriate response of conscience. The goal is not to “make the feeling go away” but to find a responsible way of dealing with the guilt.\n\n**Inappropriate feelings of guilt**, by contrast, arise although there is no or only little responsibility. They are found, for example, among survivors of disasters (“survivor guilt”), among the bereaved (“If only I had …”), among victims of violence, or as a symptom of depression or obsessive-compulsive disorder. Here the task is to clarify the actual responsibility realistically – often with the result that the person feels more responsibility than is theirs.\n\nFrequently both forms are mixed: a person bears a real share in an event but experiences a burden of guilt that goes far beyond it.\n\nImportant: pronounced, uncorrectable feelings of guilt can be an indication of a depressive or other mental illness. If thoughts of guilt become delusional or are connected with suicidal thoughts, a medical or psychotherapeutic assessment is urgently indicated."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Sort the (constructed) statements according to whether real guilt or inappropriate feelings of guilt are more in the foreground.",
+   "kategorien": [
+    "Rather real guilt",
+    "Rather inappropriate feelings of guilt"
+   ],
+   "elemente": [
+    {
+     "text": "“For years I humiliated my colleague in front of the team.”",
+     "kat": 0
+    },
+    {
+     "text": "“I survived, my friend did not – it should have been me.”",
+     "kat": 1
+    },
+    {
+     "text": "“I drove drunk and caused an accident.”",
+     "kat": 0
+    },
+    {
+     "text": "“My father died of cancer because I didn’t send him to the doctor sooner.”",
+     "kat": 1
+    },
+    {
+     "text": "“I secretly used my sister’s inheritance for myself.”",
+     "kat": 0
+    },
+    {
+     "text": "“It’s my fault that my partner hit me; I provoked him.”",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "With real guilt, the person has actually violated values or caused harm. Survivor guilt, retrospective “if only I had” reproaches without any realistic possibility of influence, and the self-blame of victims of violence are typical inappropriate feelings of guilt. In practice this must always be clarified in the individual case – the assignment shows typical patterns."
+  },
+  {
+   "typ": "text",
+   "titel": "Ways of Dealing with Real Guilt",
+   "text": "When real guilt is present, the logotherapeutic tradition describes several steps, which are to be understood not schematically but as orientation:\n\n- **Acknowledging**: the guilt is neither trivialized nor dramatized but named. This presupposes that counselors do not offer premature relief (“It wasn’t that bad”).\n- **Repenting**: according to Frankl, remorse is a noetic achievement. He held that although remorse cannot undo an event outwardly, it can change something inwardly – morally.\n- **Making amends**: where possible, restitution can be made to those harmed – through an apology, compensation or a changed way of relating. Where this is not possible, for example because the person affected has died, **vicarious** restitution can be meaningful, for instance through commitment to others.\n- **Changing oneself**: guilt becomes the occasion to change one’s future actions.\n\nOne limit must be observed here: counselors do not “absolve” anyone. Forgiveness can only be granted by those harmed – or, in the religious understanding of many people, by God. Pastoral questions of this kind belong, if desired, in the hands of pastoral caregivers of the respective faith community."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the steps of dealing with real guilt into the order described in the lesson.",
+   "elemente": [
+    "Acknowledge and name the guilt",
+    "Allow remorse",
+    "Make amends where possible",
+    "Change one’s future actions"
+   ],
+   "erklaerung": "Without acknowledgment, no genuine remorse is possible; without remorse, restitution remains superficial. Changing one’s future actions is the responsible answer to guilt. In practice these steps do not always proceed linearly."
+  },
+  {
+   "typ": "merke",
+   "text": "Live as if you were living already for the second time and as if you had acted the first time as wrongly as you are about to act now.",
+   "quelle": "Viktor E. Frankl, the so-called categorical imperative of logotherapy (among others in “Ärztliche Seelsorge” – The Doctor and the Soul)"
+  },
+  {
+   "typ": "mc",
+   "frage": "What is the main function of Frankl’s “categorical imperative” (“Live as if you were living already for the second time …”)?",
+   "optionen": [
+    "It is meant to intensify feelings of guilt about past mistakes.",
+    "It is meant to make one aware of one’s responsibility in present action by bringing home the finality of every decision.",
+    "It calls for repeating past decisions.",
+    "It is a technique of paradoxical intention for obsessive thoughts."
+   ],
+   "richtig": 1,
+   "erklaerung": "The imperative invites a thought experiment: from the perspective of a “second life,” it becomes visible that present action passes irrevocably into the past. It sharpens responsibility, not feelings of guilt (A). It does not call for repetition (C) and is not paradoxical intention (D)."
+  },
+  {
+   "typ": "text",
+   "titel": "Transitoriness: The Past as a “Storehouse”",
+   "text": "The third element of the tragic triad is **death** – and with it the transitoriness of all things. Many people experience transitoriness as a threat: if everything passes, everything seems meaningless.\n\nFrankl reversed this perspective. In his view, only the **possibilities** are transitory; as soon as a possibility has been realized, it has been “rescued” into the past. What has once been done, experienced, loved or bravely endured can never be undone by anything. Frankl used for this the image of the full granaries of the past: whoever looks back on their life sees not only the empty stubble fields of transitoriness, but also the harvest that has been brought in.\n\nTwo consequences follow:\n\n- **For the future**: because life is finite, not everything can be postponed. Finitude makes decisions significant and is an incentive for responsible action.\n- **For the past**: what has been lived is not lost. This can give support to the dying and the elderly, but also to the bereaved – the life of the deceased person is not erased by death.\n\nThis view is philosophically grounded and not tied to any particular religious notion of an afterlife; it can be combined with religious as well as non-religious worldviews."
+  },
+  {
+   "typ": "luecke",
+   "text": "According to Frankl, it is not the realized values that are transitory but only the {{possibilities|memories|feelings}}. What has been realized is “rescued” into the {{past|future|present}}. The finitude of life thus becomes an incentive for {{responsible action|complete serenity|withdrawal from decisions}}.",
+   "erklaerung": "Frankl understood the past as the place where what has been realized is safely preserved. Only unused possibilities are transitory. From this follows the appeal to seize the possibilities of the present responsibly."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Guilt after an Accident",
+   "einleitung": "Constructed situation: Ms. T., 44, a registered nurse, seeks meaning-oriented counseling. Two years ago, on black ice, she caused a rear-end collision in which an elderly man was seriously injured. She was held legally liable for negligent bodily injury. There are no indications of an acute mental illness; an assessment by her family doctor has been carried out.",
+   "runden": [
+    {
+     "klient": "I just can’t stop thinking about it. I ruined that man’s life.",
+     "antworten": [
+      {
+       "text": "But it was an accident on black ice – there’s nothing you could have done. You don’t have to feel guilty.",
+       "gut": false,
+       "feedback": "Premature relief passes over the fact that Ms. T. actually had a share in what happened. She is more likely to feel that she is not being taken seriously."
+      },
+      {
+       "text": "It sounds as if what happened accompanies you every day. Would you like to tell me what weighs on you most?",
+       "gut": true,
+       "feedback": "Good: the response acknowledges the burden without judging and invites a closer understanding of the issue of guilt."
+      },
+      {
+       "text": "Have you ever thought about psychotherapy?",
+       "gut": false,
+       "feedback": "A referral may be appropriate later, but here it comes abruptly and can feel like being brushed off. There are currently no indications of a disorder."
+      }
+     ]
+    },
+    {
+     "klient": "That I didn’t drive more carefully. I was running late, I was tailgating. That was my fault.",
+     "antworten": [
+      {
+       "text": "Then perhaps you really should accept this as a punishment.",
+       "gut": false,
+       "feedback": "This response moralizes and fixes Ms. T. on her guilt instead of opening up ways of dealing with it responsibly."
+      },
+      {
+       "text": "What matters most now is that you look forward again.",
+       "gut": false,
+       "feedback": "Looking forward is premature – the acknowledgment of guilt is not yet complete and would be skipped over this way."
+      },
+      {
+       "text": "You name your share very clearly. At the same time, I hear that the burden you carry is very great. How does what you actually did wrong relate to everything you reproach yourself for today?",
+       "gut": true,
+       "feedback": "Good: the response honors the acknowledgment of real guilt and at the same time invites a distinction between the real share and a possibly excessive burden of guilt."
+      }
+     ]
+    },
+    {
+     "klient": "I think I reproach myself for being a bad person. Yet it was really a moment of inattention.",
+     "antworten": [
+      {
+       "text": "You are distinguishing right now between a mistake made in one moment and your worth as a person. What would it mean to take responsibility for that moment without condemning yourself as a whole?",
+       "gut": true,
+       "feedback": "Good: the response picks up the distinction Ms. T. has found herself – between “having guilt” and “being guilt” – and opens the way to a responsible way of dealing with it."
+      },
+      {
+       "text": "Of course you’re not a bad person – you’re a nurse, after all!",
+       "gut": false,
+       "feedback": "The well-meant reassurance argues from outside and with an irrelevant argument. It takes the client’s own work of insight away from her."
+      },
+      {
+       "text": "What do you think other people think of you?",
+       "gut": false,
+       "feedback": "The question shifts the focus to evaluation by others instead of deepening the self-clarification that has just emerged."
+      }
+     ]
+    },
+    {
+     "klient": "I would like to do something. But I don’t know whether I am allowed to contact him.",
+     "antworten": [
+      {
+       "text": "Contact him by all means; it will relieve you.",
+       "gut": false,
+       "feedback": "Such advice passes over possible legal aspects and the perspective of the injured party. Restitution must be oriented toward the other person, not only toward one’s own relief."
+      },
+      {
+       "text": "Let us consider together which forms of restitution would be possible and reasonable for him – directly or vicariously – and what would need to be clarified beforehand, legally for example.",
+       "gut": true,
+       "feedback": "Good: the response takes the wish for restitution seriously, considers the perspective of the injured party and points to necessary clarifications. Vicarious forms are opened up as well."
+      },
+      {
+       "text": "After two years that probably doesn’t make sense anymore.",
+       "gut": false,
+       "feedback": "This response rules out possibilities prematurely and deprives Ms. T. of the opportunity to give expression to her responsibility."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "text",
+   "titel": "Finitude in Accompanying the Dying",
+   "text": "In hospice and palliative contexts, transitoriness becomes directly palpable. Logotherapeutically oriented support can start at several points here:\n\n- **Life review**: remembering and recounting one’s own life makes the “harvest” visible. This is not about glossing over but about honoring – ruptures and omissions also have their place.\n- **Unfinished business**: many dying people still want to clarify something, reconcile, give thanks or ask for forgiveness. These are concrete forms in which creative values and attitudinal values coincide.\n- **Legacy**: the question of what should remain of a life and be passed on touches the question of meaning directly. Structured approaches such as **Dignity Therapy** according to Harvey Max Chochinov use a similar principle but have their own theoretical background.\n- **Present**: the remaining time also contains possibilities – encounters, experiences, small decisions.\n\nCompanions should respect the pace of the dying person. Not everyone wants to talk about meaning at the end of life; some wish above all for rest, closeness or distraction. This, too, is an attitude toward one’s own dying that is to be respected."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which starting points of logotherapeutically oriented support for the dying are named in the lesson? (Multiple answers possible)",
+   "optionen": [
+    "Life review to honor what has been lived",
+    "Clarifying unfinished business, such as reconciliation or thanks",
+    "Systematic confrontation with fear of death through exposure",
+    "Questions about legacy",
+    "Attentiveness to the possibilities of the remaining time"
+   ],
+   "richtig": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "erklaerung": "Life review, unfinished business, legacy and the present are starting points compatible with logotherapy. Systematic exposure to fear of death (C) is a behavior-therapy method and does not belong to the repertoire of end-of-life support in a counseling context."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "What attitude do you yourself have toward your own finitude? How might this attitude influence your accompaniment of the dying or the bereaved?",
+   "hinweis": "Guiding questions: Which thoughts about death and transitoriness are familiar to you, which are foreign? Where might you run the risk of transferring your own convictions? Where do you yourself find support?"
+  }
+ ]
+}

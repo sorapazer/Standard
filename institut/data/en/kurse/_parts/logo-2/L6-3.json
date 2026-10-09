@@ -1,0 +1,146 @@
+{
+ "id": "L6-3",
+ "titel": "Life Transitions, Old Age and Unemployment",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Life Transitions as Thresholds of Meaning",
+   "text": "Transitions in the life course – finishing school, entering working life, parenthood, separation, children moving out, retirement, widowhood – are phases in which the question of meaning often arises anew. Previous roles, routines and sources of meaning no longer carry, and new ones have not yet been found.\n\nThe organizational consultant William Bridges proposed a vivid model for such transitions. He distinguishes between the external **change** (the event) and the inner **transition** (the psychological reorientation). The transition proceeds in three phases:\n\n- an **ending**, in which something old must be let go,\n- a **neutral zone**, an in-between time of uncertainty that can at the same time be creative,\n- a **new beginning**, in which a new identity and new goals take shape.\n\nViewed logotherapeutically, transitions are **thresholds of meaning**: they can trigger crises but at the same time open up the possibility of reordering values and discovering previously unlived possibilities. A helpful question is which values endure across the transition and which new tasks the changed life situation presents.\n\nCounseling in transitional phases requires patience with the “neutral zone”: whoever pushes too quickly toward new goals passes over the necessary time of farewell and orientation."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the phases of an inner transition according to William Bridges into the correct order.",
+   "elemente": [
+    "Ending: letting go of what has been",
+    "Neutral zone: in-between time of uncertainty and reorientation",
+    "New beginning: emergence of a new identity and new goals"
+   ],
+   "erklaerung": "Bridges emphasizes that every transition begins with an ending. The neutral zone is uncomfortable but necessary; the new beginning cannot be forced."
+  },
+  {
+   "typ": "text",
+   "titel": "Old Age and Retirement: Meaning in Late Phases of Life",
+   "text": "In achievement-oriented societies, old age is often equated with loss: loss of one’s occupational role, physical abilities, people close to one. Frankl’s concepts offer an important counter-perspective here.\n\n**The past as harvest**: for Frankl, older people have no reason to envy younger ones. Instead of possibilities in the future, they have realities in the past – what has been done, loved and suffered. Life review and biographical storytelling can make this harvest visible.\n\n**Attitudinal values**: toward unavoidable limitations, one’s attitude remains open to shaping.\n\n**Continuing tasks**: there are tasks in old age as well: passing on experience, grandparenthood, volunteering, caregiving, shaping the evening of one’s own life.\n\nDevelopmental psychology offers points of connection. For old age, Erik H. Erikson described the tension between **ego integrity and despair**: the acceptance of one’s own life as one that was lived this way and not otherwise. The model of **selection, optimization and compensation** by Paul and Margret Baltes describes how older people, with declining resources, select goals, concentrate their strength and compensate for losses. Laura Carstensen’s **socioemotional selectivity theory** shows that people with a limited time perspective prefer emotionally meaningful relationships.\n\nAll of these approaches contradict the equation of old age with loss of meaning."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the concepts with their originators.",
+   "paare": [
+    [
+     "Ego integrity versus despair",
+     "Erik H. Erikson"
+    ],
+    [
+     "Selection, optimization and compensation",
+     "Paul B. Baltes and Margret M. Baltes"
+    ],
+    [
+     "Socioemotional selectivity theory",
+     "Laura L. Carstensen"
+    ],
+    [
+     "The past as the place where values are safely preserved and cannot be lost",
+     "Viktor E. Frankl"
+    ]
+   ],
+   "erklaerung": "The developmental psychology concepts of Erikson, Baltes and Carstensen complement Frankl’s existential perspective on old age and can be combined well in counseling."
+  },
+  {
+   "typ": "text",
+   "titel": "Sunday Neurosis",
+   "text": "With the term **Sunday neurosis**, Frankl described a form of the existential vacuum that only becomes visible when everyday activity comes to rest. During the week, work, appointments and routines cover up the inner emptiness. On weekends, on vacation or after entering retirement, it comes clearly to the fore: boredom, restlessness, irritability, the feeling of not knowing “what to do” with one’s free time.\n\nSunday neurosis is **not a diagnostic term** but a phenomenological description of a widespread experience. It illustrates a central insight: **being busy is not the same as fulfillment of meaning.** Whoever fills their everyday life with activity can nevertheless remain existentially empty.\n\nIn practice, Sunday neurosis is particularly relevant in connection with **retirement**. Many people experience the first months after the end of their working life as liberating; for some, however, a feeling of emptiness and uselessness arises after a while, especially if meaning was previously derived almost exclusively from work.\n\nCounseling can take a preventive approach here, for example through pre-retirement programs in which values, interests and possible tasks beyond the occupation are explored. The goal is not to fill the calendar but to find activities and relationships that are experienced as **meaningful**."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which central insight does Frankl’s term “Sunday neurosis” illustrate?",
+   "optionen": [
+    "That people fall mentally ill more often on weekends",
+    "That being busy alone does not yet mean fulfillment of meaning, and that a covered-up existential vacuum can emerge in free time",
+    "That religious holidays lead to feelings of guilt",
+    "That rest breaks are fundamentally harmful"
+   ],
+   "richtig": 1,
+   "erklaerung": "Sunday neurosis describes the emergence of an existential vacuum that was covered up in everyday life by busyness (B). It is not a diagnosis or an epidemiological statement (A), has no specifically religious reference (C) and does not claim that rest is harmful (D)."
+  },
+  {
+   "typ": "text",
+   "titel": "Unemployment: Frankl’s Observations and the Marienthal Study",
+   "text": "In the 1920s and 1930s, Frankl worked in youth counseling in Vienna, at a time of high unemployment. In this context he described an **unemployment neurosis**: many young unemployed people suffered not only from material hardship but above all from the feeling of being **useless**. They equated unemployment with the meaninglessness of life.\n\nFrankl reported that the situation of many young people changed when they took on unpaid tasks – for example in youth organizations, adult education institutions or libraries. Despite continuing material hardship, their depressed mood receded because they once again had something to do that they experienced as meaningful. His conclusion: it is not paid employment itself that provides meaning, but the experience of having a task and being needed.\n\nAt the same time, Marie Jahoda, Paul F. Lazarsfeld and Hans Zeisel studied the consequences of mass unemployment in the Austrian village of **Marienthal** (published 1933). They described a “weary community,” the disintegration of time structure, and resignation. Jahoda later developed the model of the **latent functions** of employment: time structure, social contacts outside the family, participation in collective goals, status and identity, and regular activity.\n\nThe two perspectives complement each other: unemployment is a material and an existential burden. Counseling must keep both levels in view."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which latent functions of employment did Marie Jahoda describe? (Multiple answers possible)",
+   "optionen": [
+    "Time structure",
+    "Social contacts outside the family",
+    "Guaranteed self-actualization",
+    "Participation in collective goals",
+    "Status and identity"
+   ],
+   "richtig": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "erklaerung": "Jahoda named time structure, social contacts, participation in collective goals, status and identity, and regular activity. Guaranteed self-actualization (C) is not among them – employment can also be alienating."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "From his observations in youth counseling, Frankl concluded that it is not paid employment itself but the experience of having a meaningful task that fulfills the decisive protective function.",
+   "richtig": true,
+   "erklaerung": "True. Frankl observed that young unemployed people who took on meaningful unpaid tasks suffered less from depressed mood despite material hardship. It does not follow from this, however, that material security is unimportant."
+  },
+  {
+   "typ": "text",
+   "titel": "Counseling in Unemployment: Opportunities and Limits",
+   "text": "Meaning-oriented counseling can support people who are unemployed on several levels:\n\n- **Decoupling employment and self-worth**: the equation “unemployed = useless” is carefully questioned. Which tasks, relationships and values carry life even now?\n- **Time structure and tasks**: a self-chosen daily structure, volunteering, further education or caregiving tasks can open up sources of meaning.\n- **Attitudinal values**: toward unemployment that is not one’s own fault, one’s attitude remains open to shaping – without playing down the burden.\n- **Career reorientation**: clarifying values can help to find a direction for one’s professional future.\n\nAt the same time, the **limits** must be clearly named:\n\n- Unemployment is often associated with **material hardship**. Social-law counseling, debt counseling and support with applications take priority over questions of meaning when one’s livelihood is threatened.\n- Long-term unemployment is associated with an increased risk of psychological strain. If there are signs of depression, a developing addiction or suicidality, a professional assessment is indicated.\n- Unemployment is a **societal problem**. Individualizing it in the sense of “You just have to change your attitude” would be inappropriate.\n\nLogotherapy offers here no substitute for work, but a perspective that strengthens dignity and agency even in a difficult situation."
+  },
+  {
+   "typ": "fall",
+   "titel": "After the Job Loss",
+   "fall": "Constructed teaching vignette: Mr. S., 56, worked for 30 years as a skilled worker at the same company until the plant was closed. He has been unemployed for eight months. He says he feels ashamed in front of the neighbors, hardly leaves the house anymore and has the feeling of being “good for nothing anymore.” His family is worried because he drinks more in the evenings than he used to. Financially it is “tight, but manageable.”",
+   "frage": "Which first step is most appropriate?",
+   "optionen": [
+    "Begin immediately with the question of which volunteer activity could give him meaning.",
+    "Explain to him that unemployment is not a personal failure and end the conversation there.",
+    "Ignore the increased alcohol consumption, since this is not a topic of meaning-oriented counseling.",
+    "Acknowledge his shame and the feeling of uselessness and at the same time gently ask how he is doing with alcohol and with his mood overall, in order to assess whether further evaluation is needed."
+   ],
+   "richtig": 3,
+   "erklaerung": "First, acknowledgment and an assessment of possible risks are needed: withdrawal, feelings of worthlessness and increasing alcohol consumption can point to depression or an incipient addiction problem (D). Volunteering (A) may play a role later but comes too early. Option B is too brief and leaves him alone; option C overlooks an important warning sign."
+  },
+  {
+   "typ": "karten",
+   "titel": "Transitions, Old Age and Unemployment",
+   "karten": [
+    {
+     "vorne": "Sunday neurosis",
+     "hinten": "Emergence, in free time, of an existential vacuum covered up in everyday life; not a diagnosis but a phenomenological description."
+    },
+    {
+     "vorne": "Unemployment neurosis (Frankl)",
+     "hinten": "Equating unemployment with uselessness and meaninglessness; improved for many through meaningful unpaid tasks."
+    },
+    {
+     "vorne": "Marienthal study",
+     "hinten": "Jahoda, Lazarsfeld and Zeisel (1933): study of the psychosocial consequences of mass unemployment in an Austrian village."
+    },
+    {
+     "vorne": "Neutral zone (Bridges)",
+     "hinten": "In-between time in a transition between ending and new beginning – unsettling but potentially creative."
+    },
+    {
+     "vorne": "Ego integrity (Erikson)",
+     "hinten": "Acceptance of one’s own lived life in old age; the opposite pole is despair."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which life transitions have you experienced yourself, and how did your experience of meaning change during them?",
+   "hinweis": "Guiding questions: Was there a “neutral zone”? What helped you find a new beginning? Which values remained across the transition?"
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "id": "L7-2",
+ "titel": "Study Designs and the Logic of the Randomized Trial",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Which Design Answers Which Question?",
+   "text": "Research begins with a question – and the **study design** must fit that question. In psychotherapy and counseling research, the following designs are encountered above all:\n\n- **Case studies** describe individual courses in detail. They are suitable for illustrating new phenomena or interventions and for developing hypotheses, but do not allow generalization.\n- **Qualitative studies** explore experiences and meanings, for example through interviews, and analyze them systematically. They answer questions such as: *How do people experience a crisis of meaning?*\n- **Cross-sectional studies** collect data at one point in time and examine associations, for example between experienced meaning and depressiveness. They permit **no statements about cause and effect**.\n- **Longitudinal studies** follow people over time. They show temporal sequences but likewise do not by themselves prove causality.\n- **Pre-post studies without a control group** measure before and after an intervention. Changes, however, can also be due to spontaneous remission, time effects or regression to the mean.\n- **Controlled studies** compare an intervention group with a control group. If participants are allocated **randomly**, one speaks of a **randomized controlled trial** (RCT).\n\nNo design is “good” or “bad” per se. What matters is whether it can answer the question posed."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the research questions with the most suitable study design.",
+   "paare": [
+    [
+     "How do hospice patients experience conversations about their legacy?",
+     "Qualitative interview study"
+    ],
+    [
+     "Is students’ experienced meaning related to their life satisfaction?",
+     "Cross-sectional study"
+    ],
+    [
+     "Does experienced meaning change over five years after entering retirement?",
+     "Longitudinal study"
+    ],
+    [
+     "Is a meaning-centered group program more effective than a supportive discussion group?",
+     "Randomized controlled trial"
+    ],
+    [
+     "How did the support of an unusual client with a rare problem situation proceed?",
+     "Case study"
+    ]
+   ],
+   "erklaerung": "Questions about experience require qualitative approaches, questions about associations cross-sectional designs, questions about change over time longitudinal designs. Comparative effectiveness is tested most reliably in RCTs. Case studies are suitable for individual courses."
+  },
+  {
+   "typ": "text",
+   "titel": "Correlation Is Not Causation",
+   "text": "One of the most frequent errors in interpreting studies is inferring a **cause** from an **association**. An example: a cross-sectional study finds that people with high experienced meaning report fewer depressive symptoms. It does *not* necessarily follow that meaning protects against depression. At least three explanations are possible:\n\n- **Meaning influences depressiveness**: whoever experiences meaning becomes depressed less often.\n- **Reverse causality**: depression impairs experienced meaning – anhedonia and hopelessness color one’s evaluation of one’s own life.\n- **Third variables**: both could go back to common factors, such as social support, health or personality traits.\n\nIn questionnaire studies there is also the overlap of constructs: if meaning questionnaires and depression questionnaires partly capture similar content, an association is partly already due to the measurement.\n\nFor logotherapy this distinction is particularly important, because the widely documented **associations** between experienced meaning and well-being are easily misunderstood as evidence that meaning-centered **interventions** are effective. For statements about effectiveness, however, intervention studies are needed – ideally randomized controlled trials."
+  },
+  {
+   "typ": "luecke",
+   "text": "A cross-sectional study shows an association between experienced meaning and depressiveness. This finding is consistent with the assumption that meaning reduces depressiveness, but also with {{reverse causality|complete independence|an experimental proof}} or the influence of {{third variables|randomization|blinding}}. For statements about the effectiveness of an intervention, {{controlled intervention studies|further cross-sectional studies|single case reports}} are necessary.",
+   "erklaerung": "Cross-sectional correlations leave the direction of effect open. Statements about effectiveness require studies in which an intervention is deliberately applied and compared with a control condition."
+  },
+  {
+   "typ": "text",
+   "titel": "The Randomized Controlled Trial (RCT)",
+   "text": "The **randomized controlled trial** is considered the most reliable single design for testing the effectiveness of an intervention. Its logic is simple: if participants are allocated **randomly** to an intervention or a control group, known and unknown influencing factors are distributed evenly across both groups on average. Differences at the end can then be attributed to the intervention with greater certainty.\n\nEssential elements of an RCT:\n\n- **Randomization**: random allocation, ideally with allocation concealment so that no one can influence it.\n- **Control condition**: the type of control group determines what the study tells us (see next section).\n- **Primary outcome measure specified in advance**: what counts as the main success should be defined before the study begins – ideally in a public **preregistration**.\n- **Blinding**: in psychotherapy and counseling studies, participants usually know which intervention they are receiving. It is possible, however, to blind the people who collect or analyze the outcomes.\n- **Intention-to-treat analysis**: all randomized persons are analyzed in the group to which they were allocated – even if they dropped out. This avoids bias from selective dropout.\n- **Follow-up**: measurements after the end of the intervention show whether effects persist."
+  },
+  {
+   "typ": "mc",
+   "frage": "Why is randomization the central feature of an RCT?",
+   "optionen": [
+    "Because it guarantees that the intervention is effective",
+    "Because it makes the sample representative of the general population",
+    "Because it distributes known and unknown influencing factors evenly across the groups on average, so that differences can more likely be attributed to the intervention",
+    "Because it replaces blinding of participants"
+   ],
+   "richtig": 2,
+   "erklaerung": "Randomization ensures comparable groups (C). It does not guarantee effectiveness (A) and says nothing about the representativeness of the sample (B) – that is a question of recruitment. Nor does it replace blinding (D)."
+  },
+  {
+   "typ": "text",
+   "titel": "The Control Condition Determines the Conclusion",
+   "text": "What an RCT tells us depends decisively on **what** the intervention is compared with. The most important control conditions:\n\n- **Waiting list**: the control group receives the intervention only later. An advantage for the intervention group shows only that the intervention is better than *nothing* – including all nonspecific factors such as attention and hope. Waiting-list comparisons tend to overestimate the specific effect.\n- **Treatment as usual** (TAU): the control group receives the care it would have received anyway. This answers the practice-relevant question of whether the new intervention brings additional benefit.\n- **Active control condition**: the control group receives another credible intervention of comparable scope, such as a supportive discussion group. If an advantage emerges here, this speaks more for **specific** effects of the intervention under study.\n- **Established treatment**: comparison with a treatment already shown to be effective tests whether the new intervention is at least equivalent.\n\nPsychotherapy research has shown that **common factors** such as the therapeutic relationship, expectation and attention contribute considerably to the outcome (among others Wampold and Imel). Whoever wants to demonstrate the specific effect of meaning-centered elements therefore needs active control conditions."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the (constructed) study descriptions to the respective control condition.",
+   "kategorien": [
+    "Waiting list",
+    "Treatment as usual (TAU)",
+    "Active control condition"
+   ],
+   "elemente": [
+    {
+     "text": "The control group receives the meaning program after the study ends.",
+     "kat": 0
+    },
+    {
+     "text": "The control group receives eight sessions of a supportive discussion group of equal length.",
+     "kat": 2
+    },
+    {
+     "text": "The control group receives regular oncological follow-up care without any additional offering.",
+     "kat": 1
+    },
+    {
+     "text": "The control group takes part in a relaxation training of equal length.",
+     "kat": 2
+    },
+    {
+     "text": "The control group is admitted to the program after three months.",
+     "kat": 0
+    },
+    {
+     "text": "The control group continues its previous care by the family doctor.",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Waiting-list groups receive the intervention later, TAU groups the usual care, active control groups an alternative, credible intervention of comparable scope. The more active the control condition, the more likely differences can be attributed to specific elements of the intervention."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "A meaning-centered intervention that proves superior to a waiting-list group in an RCT has thereby demonstrated that precisely its meaning-centered elements are effective.",
+   "richtig": false,
+   "erklaerung": "False. An advantage over a waiting list can also be due to nonspecific factors such as attention, group experience or expectation. To test specific effects, active control conditions are necessary."
+  },
+  {
+   "typ": "text",
+   "titel": "The Evidence Hierarchy – and Its Limits",
+   "text": "In evidence-based medicine, study designs are often arranged in an **evidence hierarchy**. At the top are systematic reviews and meta-analyses of RCTs, below them individual RCTs, then controlled studies without randomization, observational studies, case series and finally expert opinion.\n\nThis hierarchy is useful for questions of effectiveness but has limits:\n\n- It refers to the question of **effectiveness**. For questions about experiences, meanings or processes, qualitative studies are often better suited.\n- A poorly conducted RCT can be less informative than a careful observational study.\n- RCTs test effectiveness under controlled conditions (**efficacy**). Whether an intervention works under everyday conditions (**effectiveness**) must be examined separately.\n- For some interventions, target groups or settings, RCTs are difficult to carry out – for instance with highly individualized forms of support.\n\nFor logotherapy this means: the hierarchy must not serve as an excuse to forgo effectiveness research. Conversely, it must not lead to qualitative and practice-oriented research being undervalued either. An honest handling of evidence takes into account which question was answered with which design."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Arrange the designs according to the classical evidence hierarchy for questions of effectiveness – from the highest to the lowest level.",
+   "elemente": [
+    "Meta-analysis of several randomized controlled trials",
+    "Single randomized controlled trial",
+    "Controlled study without randomization",
+    "Pre-post study without a control group",
+    "Expert opinion"
+   ],
+   "erklaerung": "The hierarchy ranks designs by their ability to control bias in questions of effectiveness. It applies, however, only to this type of question and presupposes that the studies are well conducted."
+  },
+  {
+   "typ": "karten",
+   "titel": "Terms of Intervention Research",
+   "karten": [
+    {
+     "vorne": "Intention-to-treat",
+     "hinten": "Analysis of all randomized persons in their allocated group, regardless of dropout or intensity of participation."
+    },
+    {
+     "vorne": "Preregistration",
+     "hinten": "Public specification of hypotheses, outcome measures and analysis plan before a study begins."
+    },
+    {
+     "vorne": "Efficacy vs. effectiveness",
+     "hinten": "Effectiveness under controlled study conditions vs. effectiveness under everyday conditions."
+    },
+    {
+     "vorne": "Regression to the mean",
+     "hinten": "Extreme baseline values often move closer to the mean on repeated measurement – even without an intervention."
+    },
+    {
+     "vorne": "Common factors",
+     "hinten": "Factors such as relationship, expectation and attention that contribute to the outcome across different approaches."
+    }
+   ]
+  }
+ ]
+}

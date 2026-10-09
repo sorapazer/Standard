@@ -1,0 +1,109 @@
+{
+ "titel": "Research and Evidence",
+ "beschreibung": "How can meaning be measured, and what do we actually know about the effectiveness of meaning-centered interventions? This module presents central measurement instruments of meaning research, conveys basic concepts of intervention research from study designs to effect sizes and meta-analyses, and enables participants to read studies critically and to assess the evidence on logotherapy honestly.",
+ "lernziele": [
+  "You can describe the Purpose in Life Test, the Meaning in Life Questionnaire and the LeBe questionnaire in terms of their basic ideas, strengths and limitations.",
+  "You can distinguish common study designs and explain the logic of randomized controlled trials.",
+  "You can understand the basics of effect sizes and meta-analyses and qualitatively summarize the central finding of the meta-analysis by Vos et al. (2015).",
+  "You can read studies critically on the basis of central quality criteria.",
+  "You can name the limits of the evidence on logotherapy and communicate them honestly to clients and professional colleagues."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "Which two dimensions does the Meaning in Life Questionnaire (Steger et al., 2006) assess?",
+   "optionen": [
+    "Meaningfulness and crisis of meaning",
+    "Presence of meaning and search for meaning",
+    "Creative and experiential values",
+    "Vertical and horizontal self-transcendence"
+   ],
+   "richtig": 1,
+   "erklaerung": "The MLQ distinguishes presence of meaning and search for meaning. Meaningfulness and crisis of meaning (A) are scales of the LeBe; self-transcendence dimensions (D) belong to its sources of meaning."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "In addition to meaningfulness and crisis of meaning, the LeBe questionnaire also assesses numerous sources of meaning, that is, sources from which people derive meaning.",
+   "richtig": true,
+   "erklaerung": "True. The LeBe (Schnell & Becker, 2007) separates the degree of experienced meaning from its sources and assesses 26 sources of meaning in five dimensions."
+  },
+  {
+   "typ": "mc",
+   "frage": "Why does a cross-sectional study that finds an association between experienced meaning and depressiveness not allow the conclusion that meaning protects against depression?",
+   "optionen": [
+    "Because cross-sectional studies are fundamentally unreliable",
+    "Because depressiveness cannot be measured",
+    "Because associations can never become statistically significant",
+    "Because reverse causality or third variables can also explain the association"
+   ],
+   "richtig": 3,
+   "erklaerung": "Correlations leave the direction of effect open; reverse causality and third variables are possible explanations (D). The other options are factually wrong."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which features characterize a methodologically sound randomized controlled trial? (Multiple answers possible)",
+   "optionen": [
+    "Random allocation to intervention and control groups",
+    "A primary outcome measure specified in advance",
+    "Analysis only of those who completed the intervention",
+    "Intention-to-treat analysis",
+    "Blinded outcome assessment, as far as possible"
+   ],
+   "richtig": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "erklaerung": "Randomization, preregistration of the primary outcome, intention-to-treat analysis and blinded assessment are quality features. A completers-only analysis (C) can bias the results."
+  },
+  {
+   "typ": "mc",
+   "frage": "What does an effect size of d = 0.8 mean when comparing two groups?",
+   "optionen": [
+    "The difference in means amounts to 0.8 standard deviations; by Cohen’s conventions, a large effect.",
+    "80 percent of participants benefited.",
+    "The probability of error is 0.8 percent.",
+    "The intervention works by 0.8 points for every person."
+   ],
+   "richtig": 0,
+   "erklaerung": "Cohen’s d is a standardized mean difference; according to Cohen, 0.8 is roughly considered large. It is neither a proportion (B) nor a probability of error (C) nor an individual raw score (D)."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "An advantage over a waiting-list control group demonstrates that the specific elements of an intervention are effective.",
+   "richtig": false,
+   "erklaerung": "False. Waiting-list comparisons cannot separate nonspecific factors such as attention and expectation from specific effects. Active control conditions are needed for this."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which statement most accurately reflects the meta-analysis by Vos, Craig and Cooper (2015)?",
+   "optionen": [
+    "All existential therapies showed large, uniform effects.",
+    "Existential therapies showed no effects whatsoever.",
+    "Structured, meaning-centered interventions showed favorable findings, other existential approaches less clear ones; the body of studies was heterogeneous.",
+    "The meta-analysis examined exclusively case studies of classical logotherapy."
+   ],
+   "richtig": 2,
+   "erklaerung": "The meta-analysis pooled RCTs and found the most favorable findings for structured, meaning-centered interventions, with a heterogeneous body of studies (C)."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which factors limit the evidence on classical logotherapy? (Multiple answers possible)",
+   "optionen": [
+    "Frequently small samples",
+    "Unclear manualization of the interventions",
+    "Frequently missing active control conditions",
+    "Too many independent replications",
+    "Predominantly theory-proximal outcome measures such as the PIL"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "erklaerung": "Small samples, unclear manualization, missing active controls and theory-proximal outcome measures limit the informative value. An excess of independent replications (D) is precisely not the problem – on the contrary, they are frequently lacking."
+  }
+ ]
+}

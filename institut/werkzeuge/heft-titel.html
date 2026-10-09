@@ -35,25 +35,36 @@
 <body>
 <div id="doc"></div>
 <script src="../data/journal.js"></script>
+<script src="../data/en/journal.js"></script>
 <script>
 (function () {
-  var J = window.JOURNAL, id = decodeURIComponent(location.hash.slice(1));
+  var J = window.JOURNAL, raw = decodeURIComponent(location.hash.slice(1));
+  var EN = raw.indexOf("en:") === 0, id = EN ? raw.slice(3) : raw;
   var iss = J.ausgaben.filter(function (x) { return x.id === id; })[0] || J.ausgaben[0];
   var arts = J.artikel.filter(function (a) { return a.ausgabe === iss.id; });
+  var JE = (window.EN && window.EN.journal) || { artikel: {}, ausgaben: {} };
+  var RUB = { "Editorial": "Editorial", "Übersichtsarbeit": "Review", "Originalarbeit": "Original article", "Theoretischer Beitrag": "Theoretical article", "Methodenbeitrag": "Methods article", "Praxis und Lehre": "Practice and teaching", "Rezension": "Book review" };
+  var MON = { "April": "April", "Oktober": "October" };
   function e(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   var first = String(arts[0].seiten).split(/[–-]/)[0], lastS = String(arts[arts.length - 1].seiten).split(/[–-]/).pop();
+  var schwer = EN && JE.ausgaben[iss.id] ? JE.ausgaben[iss.id].schwerpunkt : iss.schwerpunkt;
   var logo = '<svg width="30" height="30" viewBox="0 0 40 40"><circle cx="20" cy="24" r="13" fill="none" stroke="#f4f1e8" stroke-width="1.6"/><line x1="20" y1="2" x2="20" y2="37" stroke="#e2c98f" stroke-width="2"/><circle cx="20" cy="4" r="2.4" fill="#e2c98f"/></svg>';
+  document.documentElement.lang = EN ? "en" : "de";
   var h = '<section class="cover"><canvas id="g" width="1240" height="1754"></canvas>' +
-    '<div class="pub">' + logo + "Institut für Sinnzentrierte Psychologie</div>" +
-    '<div class="jt">Zeitschrift für<br><em>Sinnzentrierte</em><br>Psychologie</div><div class="rule"></div>' +
-    '<div class="heft">Jahrgang ' + iss.jahrgang + " · Heft " + iss.heft + " · " + e(iss.monat) + " " + iss.jahr + "</div>" +
-    '<div class="schwer">' + e(iss.schwerpunkt) + "</div>" +
-    '<div class="bottom"><span>Logotherapie · Existenzpsychologie · Psychotherapieforschung</span><span>S. ' + first + "–" + lastS + " · Open Access</span></div></section>";
-  h += '<section class="toc"><h1>Inhalt</h1><div class="sub">Heft ' + iss.heft + "/" + iss.jahr + " · Schwerpunkt: " + e(iss.schwerpunkt) + "</div>";
+    '<div class="pub">' + logo + (EN ? "Institute for Meaning-Centered Psychology" : "Institut für Sinnzentrierte Psychologie") + "</div>" +
+    (EN ? '<div class="jt">Journal of<br><em>Meaning-Centered</em><br>Psychology</div>' : '<div class="jt">Zeitschrift für<br><em>Sinnzentrierte</em><br>Psychologie</div>') + '<div class="rule"></div>' +
+    '<div class="heft">' + (EN ? "Volume " + iss.jahrgang + " · Issue " + iss.heft + " · " + (MON[iss.monat] || iss.monat) + " " + iss.jahr + " · English edition" : "Jahrgang " + iss.jahrgang + " · Heft " + iss.heft + " · " + e(iss.monat) + " " + iss.jahr) + "</div>" +
+    '<div class="schwer">' + e(schwer) + "</div>" +
+    '<div class="bottom"><span>' + (EN ? "Logotherapy · Existential Psychology · Psychotherapy Research" : "Logotherapie · Existenzpsychologie · Psychotherapieforschung") + "</span><span>" + (EN ? "pp. " : "S. ") + first + "–" + lastS + (EN ? " · Open access" : " · Open Access") + "</span></div></section>";
+  h += '<section class="toc"><h1>' + (EN ? "Contents" : "Inhalt") + '</h1><div class="sub">' + (EN ? "Issue " + iss.heft + "/" + iss.jahr + " · Focus: " + e(schwer) + " · Page numbers refer to the German original" : "Heft " + iss.heft + "/" + iss.jahr + " · Schwerpunkt: " + e(schwer)) + "</div>";
   arts.forEach(function (a) {
-    h += '<div class="item"><div><div class="r">' + e(a.rubrik) + '</div><div class="t">' + e(a.titel) + "</div>" + (a.untertitel ? '<div class="u">' + e(a.untertitel) + "</div>" : "") + '<div class="a">' + e(a.autoren) + '</div></div><div class="p">' + e(String(a.seiten).split(/[–-]/)[0]) + "</div></div>";
+    var ae = EN && JE.artikel[a.id] || {};
+    var t = EN ? ae.titel || a.titel : a.titel, u = EN ? ae.untertitel || a.untertitel : a.untertitel;
+    h += '<div class="item"><div><div class="r">' + e(EN ? RUB[a.rubrik] || a.rubrik : a.rubrik) + '</div><div class="t">' + e(t) + "</div>" + (u ? '<div class="u">' + e(u) + "</div>" : "") + '<div class="a">' + e(EN ? a.autoren.replace(" und ", " and ") : a.autoren) + '</div></div><div class="p">' + e(String(a.seiten).split(/[–-]/)[0]) + "</div></div>";
   });
-  h += '<div class="imp"><p><b>Herausgeber</b><br>Institut für Sinnzentrierte Psychologie</p><p><b>Erscheinungsweise</b><br>halbjährlich, im April und Oktober</p><p><b>Begutachtung</b><br>Redaktionelle Prüfung und doppelt verblindetes Gutachterverfahren</p><p><b>Lizenz</b><br>Alle Beiträge erscheinen im offenen Zugang unter der Lizenz CC BY 4.0.</p></div></section>';
+  h += EN
+    ? '<div class="imp"><p><b>Publisher</b><br>Institute for Meaning-Centered Psychology</p><p><b>Frequency</b><br>Twice a year, in April and October</p><p><b>Peer review</b><br>Editorial screening and double-blind peer review</p><p><b>License</b><br>All articles are published open access under the CC BY 4.0 license. The German originals are the versions of record.</p></div></section>'
+    : '<div class="imp"><p><b>Herausgeber</b><br>Institut für Sinnzentrierte Psychologie</p><p><b>Erscheinungsweise</b><br>halbjährlich, im April und Oktober</p><p><b>Begutachtung</b><br>Redaktionelle Prüfung und doppelt verblindetes Gutachterverfahren</p><p><b>Lizenz</b><br>Alle Beiträge erscheinen im offenen Zugang unter der Lizenz CC BY 4.0.</p></div></section>';
   document.getElementById("doc").innerHTML = h;
   // Guilloche-Linien auf dem Umschlag
   var c = document.getElementById("g").getContext("2d");

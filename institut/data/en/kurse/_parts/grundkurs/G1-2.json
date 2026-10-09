@@ -1,0 +1,94 @@
+{
+ "id": "G1-2",
+ "titel": "The Years in the Camps – and What Came of Them",
+ "dauer": 22,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Deportation to Theresienstadt",
+   "text": "In September 1942, Viktor Frankl was deported to the **Theresienstadt** ghetto together with his wife Tilly and his parents. There Frankl worked, among other things, as a physician and helped care for new arrivals, particularly in suicide prevention. His father died in Theresienstadt in 1943 as a result of the living conditions.\n\nThis lesson describes Frankl's experiences factually. They should be neither dramatized nor smoothed over into a success story. The Shoah was a crime that cost millions of people their lives. Those who survived owed this primarily to circumstances over which they had no control. Frankl himself emphasized that it was often precisely the best who did not return.\n\nAt the same time, Frankl's account is an important historical testimony, because as a psychiatrist he tried to observe and describe the experience of the prisoners precisely."
+  },
+  {
+   "typ": "text",
+   "titel": "Auschwitz, Kaufering, Türkheim",
+   "text": "In October 1944, Frankl and his wife were deported to **Auschwitz**. There they were separated. Frankl remained in Auschwitz for only a few days and was then transferred to **Kaufering**, a subcamp of the Dachau concentration camp, where prisoners were forced to perform slave labor under extreme conditions. Later he was sent to the **Türkheim** camp, where he contracted typhus. At the end of April 1945 he was liberated by US troops.\n\nOnly after returning to Vienna did Frankl learn the full extent of his losses: his mother had been murdered in Auschwitz, his brother Walter had also perished, and his wife Tilly had died in the **Bergen-Belsen** camp. Only his sister Stella, who had emigrated to Australia in time, survived.\n\nFrankl had sewn the manuscript of his first book, which later became *Ärztliche Seelsorge* (The Doctor and the Soul), into the lining of his coat. It was lost in Auschwitz. According to his own account, during his illness in Türkheim he began to write down key ideas again on scraps of paper."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the stages of Frankl's imprisonment in the correct order.",
+   "elemente": [
+    "Theresienstadt",
+    "Auschwitz",
+    "Kaufering (subcamp of Dachau)",
+    "Türkheim",
+    "Liberation by US troops"
+   ],
+   "erklaerung": "Theresienstadt in 1942, Auschwitz for a few days in October 1944, then Kaufering, later Türkheim, and liberation at the end of April 1945."
+  },
+  {
+   "typ": "text",
+   "titel": "What Frankl Observed",
+   "text": "In his account *Ein Psycholog erlebt das Konzentrationslager* (1946; later published under the title *… trotzdem Ja zum Leben sagen*, known in English as *Man’s Search for Meaning*), Frankl describes three phases of psychological reaction:\n\n- **Admission:** shock, bewilderment, and often the unrealistic hope that things would not turn out so badly.\n- **Actual camp life:** increasing apathy and emotional blunting as a protective reaction; thinking revolves around immediate survival.\n- **After liberation:** feelings of unreality, sometimes bitterness and deep disillusionment when no one was waiting anymore.\n\nAt the same time, Frankl observed that even under these conditions people were not completely determined. Some shared their last piece of bread; some found support in the memory of loved ones, in a task, or in faith. Frankl concluded that human beings retain a last freedom: the freedom **to take a stand toward the circumstances**.\n\nThis conclusion is an interpretation, not an empirical study. It does not mean that survival was a matter of having the right attitude."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which statement best reflects the conclusion Frankl drew from his camp experience?",
+   "optionen": [
+    "Those who had a positive attitude generally survived the camp.",
+    "Suffering is necessary for people to be able to find meaning.",
+    "Even under extreme external constraints, human beings retain the freedom to adopt an inner attitude toward the circumstances.",
+    "Psychological reactions under extreme conditions are entirely determined by the circumstances."
+   ],
+   "richtig": 2,
+   "erklaerung": "Frankl speaks of a last inner freedom to take a stand. He does not claim that attitude decided survival – that depended above all on chance and arbitrariness. He did not consider suffering necessary, and he expressly denied complete determination."
+  },
+  {
+   "typ": "merke",
+   "text": "Frankl liked to take up a thought of Friedrich Nietzsche's: He who has a why to live can bear almost any how.",
+   "quelle": "Paraphrased after Nietzsche, quoted in Frankl, … trotzdem Ja zum Leben sagen (Man’s Search for Meaning)"
+  },
+  {
+   "typ": "text",
+   "titel": "What the Camp Experience Means – and What It Does Not",
+   "text": "It would be a misunderstanding to regard logotherapy as a product of the concentration camp. Frankl himself emphasized that he had developed his conception beforehand. For him, the camp was rather a **test**: could his assumptions about meaning and freedom be confirmed under the most extreme conditions?\n\nEqually important is what Frankl did **not** claim:\n\n- He did not glorify suffering. In his view, eliminating avoidable suffering always takes priority.\n- He did not say that an orientation toward meaning guarantees survival.\n- He did not excuse the perpetrators, but he spoke out against the idea of collective guilt – a position that met with opposition both then and later.\n\nHistorical research also discusses how Frankl shaped his biography in later accounts; individual details of his descriptions have been critically examined. For logotherapy this means: its validity does not depend on the biography of its founder, but on the persuasiveness of its concepts and on empirical testing."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Frankl developed the basic ideas of logotherapy only after his liberation, as a response to the camp experience.",
+   "richtig": false,
+   "erklaerung": "The basic ideas date from the late 1920s and the 1930s. The manuscript of *Ärztliche Seelsorge* (The Doctor and the Soul) already existed before the deportation. Frankl understood the camp experience as a test of his conception."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements are accurate in Frankl's sense? Select all correct answers.",
+   "optionen": [
+    "Avoidable suffering should be eliminated; only unavoidable suffering raises the question of attitude.",
+    "A prisoner's inner attitude was the decisive factor in his survival.",
+    "Even under extreme conditions, people displayed different attitudes, such as humanity or ruthlessness.",
+    "Frankl understood his account as psychological observation, not as a controlled study.",
+    "Frankl considered suffering a necessary precondition for any discovery of meaning."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Correct are the priority of eliminating suffering, the observation of differing attitudes, and the character of the account as observation. Survival depended above all on circumstances, not on attitude. According to Frankl, suffering is not a necessary condition for meaning."
+  },
+  {
+   "typ": "text",
+   "titel": "After 1945: Work and Impact",
+   "text": "After returning to Vienna, Frankl headed the **Vienna Neurological Polyclinic** for 25 years from 1946. In 1946 both *Ärztliche Seelsorge* (The Doctor and the Soul), his principal theoretical work, and the account of his time in the camps were published. In 1947 he married Eleonore Schwindt; their daughter Gabriele was born the same year.\n\nFrankl obtained his habilitation in neurology and psychiatry at the University of Vienna and taught there as a professor. Visiting professorships took him to the USA, among other places. The English edition of his camp account, *Man’s Search for Meaning*, became one of the most widely read books on psychology and the meaning of life.\n\nFrankl wrote numerous books and received many honorary doctorates. Institutes and societies for logotherapy were founded worldwide. The **Viktor Frankl Institute** has existed in Vienna since 1992. Frankl's work continues to have an impact today in psychotherapy, counseling, pastoral care, education, and palliative care."
+  },
+  {
+   "typ": "luecke",
+   "text": "Frankl's principal theoretical work is called {{Ärztliche Seelsorge (The Doctor and the Soul)|Die Traumdeutung (The Interpretation of Dreams)|Menschenkenntnis (Understanding Human Nature)}}. His account of his time in the camps is known in English as {{Man’s Search for Meaning|The Courage to Be|On Becoming a Person}}.",
+   "erklaerung": "*Die Traumdeutung* is by Freud, *Menschenkenntnis* by Adler, *The Courage to Be* by Paul Tillich, and *On Becoming a Person* by Carl Rogers."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Frankl speaks of the freedom to take a stand toward circumstances that one cannot change. Think of a situation in your life that you could not change. What stance did you take toward it?",
+   "hinweis": "The point is not to view the situation favorably in hindsight. Ask yourself: What attitude did I adopt? What helped me in doing so? Was there something that remained important despite everything?"
+  }
+ ]
+}

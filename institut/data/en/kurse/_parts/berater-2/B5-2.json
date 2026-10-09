@@ -1,0 +1,205 @@
+{
+ "id": "B5-2",
+ "titel": "Coping: Forms of Coping and Emotion Regulation",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Coping: What People Do to Deal with Strain",
+   "text": "Lazarus and Folkman define coping as constantly changing cognitive and behavioral efforts to manage specific external or internal demands that are appraised as taxing or exceeding one’s resources.\n\nThis definition contains three important points:\n\n- Coping is a **process**: people change their strategies over the course of a stressful situation.\n- Coping includes **thoughts and actions**: inner reinterpretation, distraction, or acceptance are also part of it.\n- Coping is defined **independently of success**: a strategy is first of all a coping effort, regardless of whether it helps.\n\nA central counseling principle follows from this: there are **no strategies that are good or bad in themselves**. Whether a strategy is helpful depends on how well it fits the situation, how long it is used, and what side effects it has. Distraction can be very relieving in the acute phase after bad news; as a permanent strategy toward a solvable problem, however, it prevents change.\n\nIn counseling, it is therefore worthwhile to carefully explore the client’s **existing coping repertoire**: What have you already tried? What helped, even if only a little? When did it not help? These questions acknowledge previous efforts and at the same time provide material for new solutions."
+  },
+  {
+   "typ": "text",
+   "titel": "Problem-Focused and Emotion-Focused Coping",
+   "text": "Lazarus and Folkman distinguish two basic functions of coping:\n\n- **Problem-focused coping** aims to change the stressful situation itself: gathering information, planning, setting priorities, addressing conflicts, organizing help, redesigning work processes.\n- **Emotion-focused coping** aims to regulate the feelings triggered by the situation: seeking comfort, seeing the situation in a different light, relaxing, gaining distance, accepting what cannot be changed.\n\nThe two forms complement each other and are usually used simultaneously. An important finding of coping research concerns the link with **controllability**: where a situation can be changed, problem-focused coping is usually particularly effective. Where it cannot be changed – for example with a relative’s chronic illness or a death – emotion-focused strategies such as acceptance and reappraisal gain in importance. This fit between strategy and situation is also referred to as **coping flexibility**.\n\nOther distinctions frequently used in research are:\n\n- **approach vs. avoidance coping**: does the person turn toward the stressor or evade it?\n- **social coping**: seeking emotional or practical support,\n- **meaning-focused coping** (Folkman): drawing on values, goals, and beliefs in order to find meaning and positive moments even in difficult circumstances.\n\nThe last point in particular builds a bridge to meaning-centered counseling, which is explored in depth in Module B7."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Classify the coping efforts.",
+   "kategorien": [
+    "problem-focused",
+    "emotion-focused"
+   ],
+   "elemente": [
+    {
+     "text": "Arranging a meeting with one’s supervisor about shift scheduling",
+     "kat": 0
+    },
+    {
+     "text": "Calling a friend in the evening to talk things through and be comforted",
+     "kat": 1
+    },
+    {
+     "text": "Drawing up a list of all outstanding tasks and prioritizing them",
+     "kat": 0
+    },
+    {
+     "text": "Telling oneself: “This is annoying, but it’s not the end of the world.”",
+     "kat": 1
+    },
+    {
+     "text": "Finding out about support services offered by the long-term care insurance fund",
+     "kat": 0
+    },
+    {
+     "text": "Deliberately taking a walk after a stressful appointment in order to calm down",
+     "kat": 1
+    },
+    {
+     "text": "Attending a training course on the new documentation system",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Problem-focused strategies change the situation or one’s own capacity to act within it. Emotion-focused strategies regulate experience. Note: talking with a friend can also be problem-focused if it is about concrete advice; here, however, comfort is in the foreground."
+  },
+  {
+   "typ": "mc",
+   "frage": "A woman is caring for her husband, who has advanced Parkinson’s disease. The disease is incurable. Which statement about coping strategy is most accurate?",
+   "optionen": [
+    "Problem-focused coping is useful for arranging respite services; for what cannot be changed, acceptance and reappraisal gain in importance.",
+    "Only problem-focused coping is useful, since emotion-focused coping is a form of repression.",
+    "Emotion-focused coping is generally unsuitable here because it prolongs grief.",
+    "The choice of strategy does not matter; personality alone is decisive."
+   ],
+   "richtig": 0,
+   "erklaerung": "Research emphasizes fit: changeable aspects (respite, home care services, aids) lend themselves to problem-focused coping, unchangeable aspects (the course of the illness) rather to emotion-focused strategies such as acceptance. Emotion-focused coping is not to be equated with repression. Personality plays a role, but not on its own."
+  },
+  {
+   "typ": "text",
+   "titel": "Emotion Regulation: Gross’s Process Model",
+   "text": "Emotion-focused coping can be described more precisely with the **process model of emotion regulation** by **James J. Gross**. Emotion regulation refers to all processes by which people influence which emotions they have, when they have them, and how they experience and express them. Gross distinguishes five points of intervention along the process by which an emotion arises:\n\n- **Situation selection**: seeking out or avoiding situations (e.g., leaving a stressful party earlier).\n- **Situation modification**: actively changing the situation (e.g., asking for a break).\n- **Attentional deployment**: shifting focus (e.g., distraction, concentrating on another aspect).\n- **Cognitive change**: changing the meaning of the situation, in particular through **reappraisal**.\n- **Response modulation**: influencing the response once it has arisen (e.g., a breathing exercise, physical activity, but also **suppression** of emotional expression).\n\nThe first four strategies come into play **before** the emotional response has fully unfolded (antecedent-focused); the fifth comes into play **afterward** (response-focused).\n\nThe comparison of **reappraisal** and **expressive suppression** has been studied particularly well. In numerous studies by Gross’s research group, habitual reappraisal was associated with more favorable outcomes for well-being and relationships, while habitual suppression was associated with less favorable ones. Suppression is not always harmful, however: in certain professional situations it can make sense to control one’s expression temporarily. It becomes problematic as a permanent pattern."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the examples to the appropriate strategy in Gross’s process model.",
+   "paare": [
+    [
+     "Attending an appointment with an aggressive relative only together with a colleague",
+     "situation modification"
+    ],
+    [
+     "Focusing entirely on one’s own presentation before the team meeting instead of on the critical colleague",
+     "attentional deployment"
+    ],
+    [
+     "Understanding the manager’s criticism as an indication of the pressure they themselves are under",
+     "cognitive change (reappraisal)"
+    ],
+    [
+     "Putting on a strained smile although one is inwardly furious",
+     "response modulation (suppression)"
+    ],
+    [
+     "Deciding not to attend an event at which one’s ex-partner will be present",
+     "situation selection"
+    ]
+   ],
+   "erklaerung": "The five strategies follow the temporal course of emotion generation. Situation selection and modification come into play earliest, response modulation latest."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to research on emotion regulation, suppressing emotional expression is harmful in every situation and should, as a matter of principle, be trained out of clients in counseling.",
+   "richtig": false,
+   "erklaerung": "False. Habitual suppression is associated with less favorable outcomes than habitual reappraisal. In specific situations, however, controlling one’s expression can be appropriate and helpful, for instance in professional roles. Counseling aims at a flexible repertoire, not at a blanket ban on a strategy."
+  },
+  {
+   "typ": "text",
+   "titel": "Recognizing Unfavorable Coping Patterns",
+   "text": "Some strategies bring short-term relief but exacerbate the strain in the long term. In counseling, it is important to address them respectfully but clearly. Typical patterns are:\n\n- **Persistent avoidance**: postponing conversations, ignoring mail, social withdrawal. Anxiety decreases in the short term, but problems grow and self-efficacy declines.\n- **Rumination**: repeated, circular thinking about problems and their causes without progress toward a solution. Rumination often feels like problem-solving, but it intensifies negative mood and is a known risk factor for depressive developments.\n- **Substance use**: alcohol, sedatives, or cannabis for relaxation or to fall asleep. Particular attention is needed here, as dependence can develop insidiously.\n- **Overcompensation**: working even more, taking even fewer breaks, forgoing recovery in order to “catch up.”\n- **Acting out**: irritability and aggression toward those close to one.\n\nA **functional analysis** is helpful: What function does the behavior serve? What is the short-term gain, and what is the long-term cost? These questions avoid moral judgment and open up space for alternatives that serve the same function better. Where there are indications of problematic substance use, clients should be referred to specialized addiction counseling services."
+  },
+  {
+   "typ": "luecke",
+   "text": "Repeated, circular thinking without progress toward a solution is called {{rumination|reappraisal|dereflection}}. It often feels like {{problem-solving|relaxation|acceptance}}, but it intensifies negative mood. In counseling, a {{functional|moral|diagnostic}} analysis that asks about the short-term gain and long-term cost of a behavior is helpful.",
+   "erklaerung": "Rumination is a well-documented risk factor for depressive developments. A functional analysis acknowledges the short-term benefit of a behavior and makes its long-term costs visible without devaluing the person."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Exploring the Coping Repertoire",
+   "einleitung": "Constructed situation: Mr. K., 44, a team leader at a logistics company, comes to counseling because of “constant stress.” You would like to explore how he has coped so far.",
+   "runden": [
+    {
+     "klient": "To be honest, I’m only here because my wife insisted. I can manage; I just have to push through harder.",
+     "antworten": [
+      {
+       "text": "Then we should first clarify why you find it so hard to accept help.",
+       "gut": false,
+       "feedback": "This response interprets prematurely and may be experienced as a reproach. It jeopardizes the working relationship in the initial phase."
+      },
+      {
+       "text": "It sounds as though you have managed a great deal on your own so far. I’m interested in what has helped you with that – and where you notice things getting tighter.",
+       "gut": true,
+       "feedback": "Good. You acknowledge his previous efforts, take his ambivalence seriously, and invite him to explore resources and limits."
+      },
+      {
+       "text": "But pushing through harder is exactly what is going to make you ill.",
+       "gut": false,
+       "feedback": "The warning is lecturing and tends to provoke resistance. It also ignores what has sustained the client so far."
+      }
+     ]
+    },
+    {
+     "klient": "Helped? A beer or two in the evening, then I can switch off. And on weekends I work ahead so Monday isn’t so bad.",
+     "antworten": [
+      {
+       "text": "Beer and working on weekends – those aren’t good strategies.",
+       "gut": false,
+       "feedback": "A blanket judgment without understanding of the function tends to lead to self-justification rather than reflection."
+      },
+      {
+       "text": "How much exactly do you drink, and since when? That sounds like an alcohol problem.",
+       "gut": false,
+       "feedback": "Asking about consumption is legitimate in itself, but the premature labeling is not. It can trigger shame and block the conversation."
+      },
+      {
+       "text": "Both seem to bring relief in the short term: being able to switch off and taking the edge off Monday. What do you notice when you look back over a few weeks – what do these approaches give you, and what do they cost you?",
+       "gut": true,
+       "feedback": "Good. The functional analysis acknowledges the short-term gain and invites reflection on the long-term cost without moralizing. You can carefully ask about his alcohol consumption in more detail later on."
+      }
+     ]
+    },
+    {
+     "klient": "What it costs … I’m never really rested. And my wife says all I am anymore is irritable.",
+     "antworten": [
+      {
+       "text": "So you yourself notice that recovery is missing and that the irritability is reaching your family. What would be a first sign for you that things are getting a little better?",
+       "gut": true,
+       "feedback": "Good. You reflect the client’s own perception and direct attention to a concrete, self-defined goal."
+      },
+      {
+       "text": "Your wife is right. You should stop working ahead immediately.",
+       "gut": false,
+       "feedback": "Advice and taking sides bypass the client’s personal responsibility. Change that is not self-chosen rarely lasts."
+      },
+      {
+       "text": "Irritability is a typical burnout symptom. I suspect you are suffering from burnout.",
+       "gut": false,
+       "feedback": "Counselors without a license to practice healing (Heilkundeerlaubnis) are not entitled to make a diagnosis or voice a diagnostic suspicion, and here it would also be professionally premature. Where there are signs of serious exhaustion, a medical assessment should be recommended."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements about coping are professionally accurate? (More than one answer possible)",
+   "optionen": [
+    "According to Lazarus and Folkman, coping is defined independently of success.",
+    "Emotion-focused coping is fundamentally less effective than problem-focused coping.",
+    "The fit between strategy and the controllability of the situation is significant.",
+    "Rumination is a form of problem-focused coping and is therefore usually helpful.",
+    "Meaning-focused coping draws on values and goals."
+   ],
+   "richtig": [
+    0,
+    2,
+    4
+   ],
+   "erklaerung": "Coping refers to coping efforts regardless of their outcome. Effectiveness depends on fit; emotion-focused coping is not generally inferior but is often particularly important with unchangeable stressors. Rumination resembles problem-solving but is usually unproductive. Folkman’s meaning-focused coping makes use of values and goals."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which coping strategies do you yourself use when you are under heavy strain at work? Which of them are more problem-focused, which more emotion-focused, and which bring short-term gain but carry a long-term cost?",
+   "hinweis": "Guiding questions: What do I do first when things get tight? What do I give up during stressful phases? Which strategy would I like to strengthen? How can I use my own experiences in counseling without projecting them onto others?"
+  }
+ ]
+}

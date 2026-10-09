@@ -64,38 +64,57 @@
 <body>
 <article id="doc"></article>
 <script src="../data/journal.js"></script>
+<script src="../data/en/journal.js"></script>
 <script>
+/* Aufruf: artikel-vorlage.html#<id> (deutsche Fassung) oder #en:<id> (englische Übersetzung) */
 (function () {
-  var J = window.JOURNAL, id = decodeURIComponent(location.hash.slice(1));
+  var J = window.JOURNAL, raw = decodeURIComponent(location.hash.slice(1));
+  var EN = raw.indexOf("en:") === 0, id = EN ? raw.slice(3) : raw;
   var a = J.artikel.filter(function (x) { return x.id === id; })[0] || J.artikel[0];
   var iss = J.ausgaben.filter(function (x) { return x.id === a.ausgabe; })[0];
+  var JE = (window.EN && window.EN.journal) || { artikel: {}, ausgaben: {} };
+  var ae = JE.artikel[a.id] || {};
+  var RUB = { "Editorial": "Editorial", "Übersichtsarbeit": "Review", "Originalarbeit": "Original article", "Theoretischer Beitrag": "Theoretical article", "Methodenbeitrag": "Methods article", "Praxis und Lehre": "Practice and teaching", "Rezension": "Book review" };
+  var MON = { "April": "April", "Oktober": "October" };
   function e(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function paras(t) { return String(t || "").split(/\n\s*\n/).map(function (p) { return "<p>" + e(p) + "</p>"; }).join(""); }
-  var start = parseInt(String(a.seiten).split(/[–-]/)[0], 10) || 1;
-  var style = document.createElement("style");
   function q(t) { return '"' + String(t).replace(/\\/g, "\\\\").replace(/"/g, '\\"') + '"'; }
+  var titel = EN ? ae.titel || a.titel : a.titel;
+  var untertitel = EN ? ae.untertitel || a.untertitel : a.untertitel;
+  var abschnitte = EN ? ae.abschnitte || a.abschnitte : a.abschnitte;
+  var start = EN ? 1 : (parseInt(String(a.seiten).split(/[–-]/)[0], 10) || 1);
   var heft = iss.jahrgang + "(" + iss.heft + "), " + iss.jahr;
-  var kurz = a.titel.length > 70 ? a.titel.slice(0, 68).replace(/\s+\S*$/, "") + " …" : a.titel;
-  var cite = (a.autorenApa || a.autoren) + " (" + iss.jahr + "). " + a.titel + (a.untertitel ? ": " + a.untertitel : "") + ". Zeitschrift für Sinnzentrierte Psychologie, " + iss.jahrgang + "(" + iss.heft + "), " + a.seiten + ".";
+  var jt = EN ? "Journal of Meaning-Centered Psychology" : "Zeitschrift für Sinnzentrierte Psychologie";
+  var kurz = titel.length > 70 ? titel.slice(0, 68).replace(/\s+\S*$/, "") + " …" : titel;
+  var autoren = EN ? a.autoren.replace(" und ", " and ") : a.autoren;
+  var cite = (a.autorenApa || a.autoren) + " (" + iss.jahr + "). " + a.titel + (a.untertitel ? ": " + a.untertitel : "") +
+    (EN ? " [" + titel + (untertitel ? ": " + untertitel : "") + "]" : "") + ". Zeitschrift für Sinnzentrierte Psychologie, " + iss.jahrgang + "(" + iss.heft + "), " + a.seiten + ".";
   var logo = '<svg width="26" height="26" viewBox="0 0 40 40"><circle cx="20" cy="24" r="13" fill="none" stroke="#17202a" stroke-width="1.6"/><line x1="20" y1="2" x2="20" y2="37" stroke="#1d4d57" stroke-width="2"/><circle cx="20" cy="4" r="2.4" fill="#8a6a33"/></svg>';
-  style.textContent = "@page { @top-left { content: " + q("Zeitschrift für Sinnzentrierte Psychologie · " + heft) + "; } @top-right { content: " + q(kurz) + "; } } @page :first { counter-increment: page " + start + "; @top-left { content: none; } @top-right { content: none; } }";
+  var style = document.createElement("style");
+  style.textContent = "@page { @top-left { content: " + q(jt + " · " + heft + (EN ? " · English version" : "")) + "; } @top-right { content: " + q(kurz) + "; } } @page :first { counter-increment: page " + start + "; @top-left { content: none; } @top-right { content: none; } }";
   document.head.appendChild(style);
+  document.documentElement.lang = EN ? "en" : "de";
   var h = "";
-  h += '<header class="mast"><div class="logo">' + logo + '<div class="jt">Zeitschrift für Sinnzentrierte Psychologie<small>Herausgegeben vom Institut für Sinnzentrierte Psychologie</small></div></div>' +
-    '<div class="meta">Jahrgang ' + iss.jahrgang + " · Heft " + iss.heft + " · " + e(iss.monat) + " " + iss.jahr + "<br>S. " + e(a.seiten) + " · Open Access · CC BY 4.0</div></header>";
-  h += '<div class="rubrik">' + e(a.rubrik) + '</div><h1 class="titel">' + e(a.titel) + "</h1>" + (a.untertitel ? '<p class="untertitel">' + e(a.untertitel) + "</p>" : "");
-  h += '<div class="autoren">' + e(a.autoren) + '</div><div class="affil">Institut für Sinnzentrierte Psychologie</div>';
+  h += '<header class="mast"><div class="logo">' + logo + '<div class="jt">' + jt + "<small>" + (EN ? "Published by the Institute for Meaning-Centered Psychology" : "Herausgegeben vom Institut für Sinnzentrierte Psychologie") + "</small></div></div>" +
+    '<div class="meta">' + (EN ? "Volume " + iss.jahrgang + " · Issue " + iss.heft + " · " + (MON[iss.monat] || iss.monat) + " " + iss.jahr + "<br>English version of pp. " + e(a.seiten) + " · Open access · CC BY 4.0"
+      : "Jahrgang " + iss.jahrgang + " · Heft " + iss.heft + " · " + e(iss.monat) + " " + iss.jahr + "<br>S. " + e(a.seiten) + " · Open Access · CC BY 4.0") + "</div></header>";
+  h += '<div class="rubrik">' + e(EN ? RUB[a.rubrik] || a.rubrik : a.rubrik) + '</div><h1 class="titel">' + e(titel) + "</h1>" + (untertitel ? '<p class="untertitel">' + e(untertitel) + "</p>" : "");
+  h += '<div class="autoren">' + e(autoren) + '</div><div class="affil">' + (EN ? "Institute for Meaning-Centered Psychology" : "Institut für Sinnzentrierte Psychologie") + "</div>";
+  if (EN) h += '<p class="affil" style="margin-top:2mm;font-style:italic">English translation. The German original is the version of record.</p>';
   if (a.abstract || a.abstractEn) {
-    h += '<section class="abstracts"><div><h2>Zusammenfassung</h2>' + paras(a.abstract) + (a.schluesselwoerter ? '<p class="kw"><b>Schlüsselwörter:</b> ' + e(a.schluesselwoerter.join(" · ")) + "</p>" : "") + "</div>" +
-      '<div lang="en"><h2>Abstract</h2>' + paras(a.abstractEn) + (a.keywords ? '<p class="kw"><b>Keywords:</b> ' + e(a.keywords.join(" · ")) + "</p>" : "") + "</div></section>";
+    var de = '<div lang="de"><h2>Zusammenfassung</h2>' + paras(a.abstract) + (a.schluesselwoerter ? '<p class="kw"><b>Schlüsselwörter:</b> ' + e(a.schluesselwoerter.join(" · ")) + "</p>" : "") + "</div>";
+    var en = '<div lang="en"><h2>Abstract</h2>' + paras(a.abstractEn) + (a.keywords ? '<p class="kw"><b>Keywords:</b> ' + e(a.keywords.join(" · ")) + "</p>" : "") + "</div>";
+    h += '<section class="abstracts">' + (EN ? en + de : de + en) + "</section>";
   }
   h += '<div class="body">';
-  (a.abschnitte || []).forEach(function (s) { h += "<h2>" + e(s.titel) + "</h2>" + (s.absaetze || []).map(function (p) { return "<p>" + e(p) + "</p>"; }).join(""); });
+  (abschnitte || []).forEach(function (s) { h += "<h2>" + e(s.titel) + "</h2>" + (s.absaetze || []).map(function (p) { return "<p>" + e(p) + "</p>"; }).join(""); });
   h += "</div>";
-  if (a.literatur && a.literatur.length) h += '<section class="lit"><h2>Literatur</h2><ol>' + a.literatur.map(function (r) { return "<li>" + e(r) + "</li>"; }).join("") + "</ol></section>";
-  h += '<footer class="abschluss"><div><b>Zitiervorschlag</b>' + e(cite) + '</div><div><b>Lizenz und Korrespondenz</b>Dieser Beitrag erscheint im offenen Zugang unter der Lizenz Creative Commons Namensnennung 4.0 International (CC BY 4.0). Korrespondenz: Redaktion der Zeitschrift für Sinnzentrierte Psychologie, Institut für Sinnzentrierte Psychologie.</div></footer>';
+  if (a.literatur && a.literatur.length) h += '<section class="lit"><h2>' + (EN ? "References" : "Literatur") + "</h2><ol>" + a.literatur.map(function (r) { return "<li>" + e(r) + "</li>"; }).join("") + "</ol></section>";
+  h += '<footer class="abschluss"><div><b>' + (EN ? "How to cite" : "Zitiervorschlag") + "</b>" + e(cite) + "</div><div><b>" + (EN ? "License and correspondence" : "Lizenz und Korrespondenz") + "</b>" +
+    (EN ? "This article is published open access under the Creative Commons Attribution 4.0 International license (CC BY 4.0). Correspondence: Editorial office of the Journal of Meaning-Centered Psychology, Institute for Meaning-Centered Psychology."
+      : "Dieser Beitrag erscheint im offenen Zugang unter der Lizenz Creative Commons Namensnennung 4.0 International (CC BY 4.0). Korrespondenz: Redaktion der Zeitschrift für Sinnzentrierte Psychologie, Institut für Sinnzentrierte Psychologie.") + "</div></footer>";
   document.getElementById("doc").innerHTML = h;
-  document.title = a.titel;
+  document.title = titel;
   window.ARTIKEL_BEREIT = true;
 })();
 </script>

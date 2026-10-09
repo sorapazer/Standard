@@ -1,0 +1,157 @@
+{
+ "id": "L7-1",
+ "titel": "Measuring Meaning: PIL, MLQ and LeBe",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Why Measure Meaning?",
+   "text": "Meaning in life is an experience that cannot be observed directly. Nevertheless, since the 1960s an extensive body of **empirical research on meaning** has developed. It pursues several goals:\n\n- **Basic research**: how is experienced meaning related to well-being, health, personality and life events?\n- **Intervention research**: do meaning-centered interventions change experienced meaning – and does this have effects on other outcomes such as depressiveness or quality of life?\n- **Practice**: questionnaires can be used in counseling and support as a prompt for conversation, for monitoring progress or for evaluation.\n\nThe measurement of meaning raises fundamental questions. What exactly is being measured – a feeling, an evaluation, an attitude? Is meaning more of a global experience (“My life is meaningful”) or the sum of individual sources of meaning? And how strongly do measures of meaning overlap with related constructs such as life satisfaction, depressiveness or optimism?\n\nThese questions are not merely academic. Whoever uses an instrument should know which understanding of meaning underlies it and which statements it permits. For evaluating an instrument, the classical **quality criteria** are central: **objectivity** (independence from the person administering it), **reliability** (measurement accuracy) and **validity** (does the instrument measure what it is supposed to measure?)."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the quality criteria with their meaning.",
+   "paare": [
+    [
+     "Objectivity",
+     "The results are independent of who administers, scores and interprets the test."
+    ],
+    [
+     "Reliability",
+     "The instrument measures accurately and dependably, for example in repeated measurement."
+    ],
+    [
+     "Validity",
+     "The instrument actually measures the characteristic it purports to measure."
+    ]
+   ],
+   "erklaerung": "The three main quality criteria build on one another: without objectivity no dependable measurement, without reliability no validity. An instrument can, however, be highly reliable and still measure something other than intended."
+  },
+  {
+   "typ": "text",
+   "titel": "The Purpose in Life Test (PIL)",
+   "text": "The **Purpose in Life Test** (PIL) was developed by James C. Crumbaugh and Leonard T. Maholick and published in 1964. Its aim was to make Frankl’s concepts of the **existential vacuum** and **noogenic neurosis** empirically accessible.\n\nThe quantitative **Part A** comprises 20 items with seven-point response scales whose poles are each described in terms of content. It is supplemented by a sentence-completion section (**Part B**) and a free-text section (**Part C**), which, however, are used much less frequently in research.\n\nThe PIL is one of the **most frequently used** instruments in meaning research and has been translated into many languages. Numerous early studies on logotherapy used it as the central outcome measure.\n\nPoints of critical discussion have included in particular:\n\n- the **factor structure**: analyses have come to different results; the test does not seem to capture a single, clearly defined dimension,\n- **overlaps** with measures of depressiveness, life satisfaction and well-being, which raises questions of **construct validity**,\n- the wording of some items, which contain value judgments or address several aspects at once.\n\nThe PIL remains historically significant and is still in use. For new studies, however, instruments that capture meaning in a more differentiated way are often preferred."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "The Purpose in Life Test was developed to capture Frankl’s concepts of the existential vacuum and noogenic neurosis empirically.",
+   "richtig": true,
+   "erklaerung": "True. With the PIL, Crumbaugh and Maholick (1964) wanted to make Frankl’s concepts measurable. Precisely this close link to the theory, however, raises the question of whether studies on logotherapy using the PIL show a certain circularity."
+  },
+  {
+   "typ": "text",
+   "titel": "The Meaning in Life Questionnaire (MLQ): Presence and Search",
+   "text": "The **Meaning in Life Questionnaire** (MLQ) was published by Michael F. Steger and colleagues in 2006. It is short – ten items – and assesses two distinguishable dimensions with five items each:\n\n- **Presence of meaning**: the degree to which a person experiences their life as meaningful.\n- **Search for meaning**: the degree to which a person actively searches for meaning.\n\nThis distinction was an important advance. Older instruments such as the PIL treated meaning more as a one-dimensional continuum from “much” to “little.” The MLQ, by contrast, shows that presence and search are **not simply opposite poles**. One person can experience a great deal of meaning and still keep searching; another experiences little meaning and does not search either.\n\nIn numerous studies, the **presence** of meaning is associated with higher well-being and lower psychological distress. The findings on **search** are more mixed: in some samples it is associated with lower well-being, but its significance seems to depend, among other things, on how much meaning is already being experienced. Search is therefore not problematic per se.\n\nThe MLQ is widely used internationally, well researched and available in many languages. Its brevity is an advantage in studies but limits its depth of content."
+  },
+  {
+   "typ": "mc",
+   "frage": "What is the central conceptual innovation of the Meaning in Life Questionnaire compared with older instruments?",
+   "optionen": [
+    "It assesses exclusively religious sources of meaning.",
+    "It distinguishes between the presence of meaning and the search for meaning as two independent dimensions.",
+    "It is the first projective test for assessing meaning.",
+    "It measures meaning exclusively through behavioral observation."
+   ],
+   "richtig": 1,
+   "erklaerung": "The MLQ distinguishes presence and search as two dimensions (B). It is a self-report questionnaire, not a projective test (C) or behavioral observation (D), and it is not limited to religious sources of meaning (A)."
+  },
+  {
+   "typ": "text",
+   "titel": "The LeBe: Sources of Meaning and Meaning in Life",
+   "text": "With the **Fragebogen zu Lebensbedeutungen und Lebenssinn** (LeBe), Tatjana Schnell and Peter Becker presented in 2007 an instrument that goes beyond global experienced meaning. The English-language version is called the **Sources of Meaning and Meaning in Life Questionnaire** (SoMe).\n\nThe LeBe assesses two levels:\n\n- **Sources of meaning**: 26 sources from which people can derive meaning, such as community, care, creativity, knowledge, tradition, spirituality, closeness to nature or achievement. They can be assigned to five higher-order dimensions: **vertical self-transcendence**, **horizontal self-transcendence**, **self-actualization**, **order**, and **well-being and relatedness**.\n- **Meaningfulness** and **crisis of meaning** as two separate scales.\n\nThe development of the instrument was based, among other things, on **qualitative interviews** in which people described their sources of meaning themselves. The categories are thus not derived solely from theory but drawn from people’s experience.\n\nIts particular achievement lies in the **separation of degree and sources**: questions such as “Does experienced meaning depend more on the diversity or on the intensity of individual sources of meaning?” thus become researchable. The separate assessment of meaningfulness and crisis of meaning also makes it possible to identify people in **existential indifference**.\n\nFor counseling, the LeBe is particularly stimulating because the profile of sources of meaning offers a good prompt for conversation. Its length, however, must be taken into account in planning."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the sources of meaning to the respective higher-order dimension in the LeBe.",
+   "kategorien": [
+    "Vertical self-transcendence",
+    "Horizontal self-transcendence",
+    "Well-being and relatedness"
+   ],
+   "elemente": [
+    {
+     "text": "Explicit religiosity",
+     "kat": 0
+    },
+    {
+     "text": "Spirituality",
+     "kat": 0
+    },
+    {
+     "text": "Social commitment",
+     "kat": 1
+    },
+    {
+     "text": "Unison with nature",
+     "kat": 1
+    },
+    {
+     "text": "Community",
+     "kat": 2
+    },
+    {
+     "text": "Love",
+     "kat": 2
+    },
+    {
+     "text": "Generativity",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Vertical self-transcendence refers to a supernatural reality (religiosity, spirituality), horizontal self-transcendence to worldly concerns beyond one’s own person (social commitment, unison with nature, generativity), well-being and relatedness to community, love and well-being."
+  },
+  {
+   "typ": "text",
+   "titel": "Using Instruments Responsibly in Counseling Practice",
+   "text": "Meaning questionnaires can be helpful in counseling – as an entry into conversation, for reflection or for monitoring progress. Several principles must be observed:\n\n- **No diagnostics in the clinical sense**: meaning questionnaires are not instruments for diagnosing mental disorders. A low score is no proof of an illness, a high score no exclusion of one.\n- **License and terms of use**: some instruments are freely available, others – such as the LeBe – are distributed by test publishers and are subject to terms of use. These must be complied with.\n- **Qualification**: scoring and interpretation require knowledge of the instrument, its norms and its limitations.\n- **Transparency**: clients should know what a questionnaire is being used for and what happens to the results. The data must be treated confidentially and in compliance with data protection law.\n- **Dialogue instead of labels**: results are offers for conversation, not verdicts. “Your score shows that you have no meaning” would be inappropriate; “I am interested in how you yourself experience the result” opens a dialogue.\n\nIn the logotherapeutic context in particular: according to Frankl, meaning is unique and situation-specific. No questionnaire can capture it fully. Instruments capture aspects of experienced meaning, not the meaning of a life."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which principles apply to the use of meaning questionnaires in counseling? (Multiple answers possible)",
+   "optionen": [
+    "Results are used as offers for conversation, not as verdicts.",
+    "A low score on a meaning questionnaire can be used as a diagnosis of depression.",
+    "The instruments’ terms of use and license conditions must be complied with.",
+    "Clients are informed about the purpose of the questionnaire and how the results are handled.",
+    "Questionnaires can fully capture the individual meaning of a life."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "A, C and D are principles of responsible use. Meaning questionnaires are not diagnostic instruments for mental disorders (B) and capture only aspects of experienced meaning, not the unique meaning of a life (E)."
+  },
+  {
+   "typ": "karten",
+   "titel": "Measurement Instruments in Meaning Research",
+   "karten": [
+    {
+     "vorne": "PIL",
+     "hinten": "Purpose in Life Test (Crumbaugh & Maholick, 1964); 20 items in Part A; operationalizes Frankl’s existential vacuum; criticism of its factor structure and overlap with depressiveness."
+    },
+    {
+     "vorne": "MLQ",
+     "hinten": "Meaning in Life Questionnaire (Steger et al., 2006); ten items; scales presence of meaning and search for meaning."
+    },
+    {
+     "vorne": "LeBe / SoMe",
+     "hinten": "Sources of Meaning and Meaning in Life Questionnaire (Schnell & Becker, 2007); 26 sources of meaning in five dimensions, plus meaningfulness and crisis of meaning."
+    },
+    {
+     "vorne": "Existential indifference",
+     "hinten": "Low meaningfulness without a crisis of meaning; identifiable through the separate assessment in the LeBe."
+    },
+    {
+     "vorne": "Construct validity",
+     "hinten": "The question of whether an instrument captures the theoretical construct and is distinguishable from related constructs."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Would you use a meaning questionnaire in your counseling practice? If so, for what purpose and how – if not, why not?",
+   "hinweis": "Guiding questions: What benefit do you see for clients? What risks are there, such as reduction to numbers? How would you discuss results?"
+  }
+ ]
+}

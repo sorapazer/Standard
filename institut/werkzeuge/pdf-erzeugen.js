@@ -72,5 +72,37 @@ w.write(sys.argv[1])
     fs.unlinkSync(cover);
     console.log("Heft", iss.id, "->", path.basename(target));
   }
+  // Englische Fassungen (eigene Seitenzählung ab 1; Version of record bleibt die deutsche Fassung)
+  const OUT_EN = path.join(OUT, "en");
+  fs.mkdirSync(OUT_EN, { recursive: true });
+  for (const a of J.artikel) {
+    await page.goto("file://" + path.join(__dirname, "artikel-vorlage.html") + "#en:" + a.id);
+    await page.reload();
+    await page.waitForFunction(() => window.ARTIKEL_BEREIT === true);
+    await page.evaluate(() => document.fonts.ready);
+    await page.pdf({ path: path.join(OUT_EN, a.id + ".pdf"), preferCSSPageSize: true, printBackground: true });
+    console.log("EN", a.id);
+  }
+  for (const iss of J.ausgaben) {
+    const arts = J.artikel.filter(x => x.ausgabe === iss.id);
+    await page.goto("file://" + path.join(__dirname, "heft-titel.html") + "#en:" + iss.id);
+    await page.reload();
+    await page.waitForFunction(() => window.HEFT_BEREIT === true);
+    await page.evaluate(() => document.fonts.ready);
+    const cover = path.join(OUT_EN, "_cover-" + iss.id + ".pdf");
+    await page.pdf({ path: cover, preferCSSPageSize: true, printBackground: true });
+    const target = path.join(OUT_EN, "zsp-" + iss.jahr + "-" + iss.heft + "-gesamt.pdf");
+    execFileSync("python3", ["-c", `
+import sys
+from pypdf import PdfWriter
+w = PdfWriter()
+for f in sys.argv[2:]:
+    w.append(f)
+w.add_metadata({"/Title": "Journal of Meaning-Centered Psychology, Issue ${iss.heft}/${iss.jahr} (English edition)", "/Author": "Institute for Meaning-Centered Psychology"})
+w.write(sys.argv[1])
+`, target, cover, ...arts.map(x => path.join(OUT_EN, x.id + ".pdf"))]);
+    fs.unlinkSync(cover);
+    console.log("EN Heft", iss.id, "->", path.basename(target));
+  }
   await browser.close();
 })();

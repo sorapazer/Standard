@@ -1,0 +1,169 @@
+{
+ "id": "G1-4",
+ "titel": "The Image of the Human Being in Three Dimensions",
+ "dauer": 22,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Against the “Nothing-But”",
+   "text": "Frankl engaged intensively with **reductionism**. This refers to a way of thinking that reduces the human being to a single level: the human being is supposedly *nothing but* a biochemical mechanism, *nothing but* a bundle of reflexes, or *nothing but* the product of their drives and environment.\n\nFrankl did not deny that biological, psychological, and social explanations are correct and important. His objection was directed against the “**nothing but**.” Every science may methodologically restrict itself to its own level. It becomes problematic when a partial aspect is presented as the whole.\n\nFrankl considered this consequential for practice: when a person is viewed merely as the sum of their symptoms or formative influences, what makes them a person is lost – their capacity to take a stand, to decide, and to orient themselves toward meaning. According to Frankl, a reductionist image of the human being can even contribute to the experience of meaninglessness, because it suggests to the individual that they are merely a plaything of forces anyway."
+  },
+  {
+   "typ": "text",
+   "titel": "Three Dimensions of Being Human",
+   "text": "Frankl describes the human being as a unity in three **dimensions**:\n\n- **Somatic dimension (body):** organism, physiology, brain, hereditary dispositions, physical health and illness.\n- **Psychological dimension (psyche in the psychological sense):** feelings, moods, drives, habits, learned patterns, temperament.\n- **Noetic dimension (spirit):** the specifically human dimension in which taking a stand, conscience, values, orientation toward meaning, responsibility, humor, and love are located. The word derives from the Greek *nous*.\n\nFor Frankl, body and psyche form the **psychophysical organism**, which a human being *has*. The spiritual person is what a human being *is*. Important: “spiritual” is not meant in a religious sense here, but denotes the capacity for freedom and relatedness to meaning.\n\nThe three dimensions are not layers like the floors of a house that could be separated from one another. They interpenetrate one another. Frankl spoke of the human being's **unity in spite of multiplicity**."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match each dimension with a typical example.",
+   "paare": [
+    [
+     "Somatic dimension",
+     "Elevated blood pressure"
+    ],
+    [
+     "Psychological dimension",
+     "A low mood in the morning"
+    ],
+    [
+     "Noetic dimension",
+     "The decision to stand by a friend despite being tired"
+    ],
+    [
+     "Psychophysical organism",
+     "Body and psyche together"
+    ]
+   ],
+   "erklaerung": "Blood pressure is physical, mood is psychological. The value-oriented decision belongs to the noetic dimension. Body and psyche together form the psychophysical organism."
+  },
+  {
+   "typ": "text",
+   "titel": "Dimensional Ontology: The Cylinder Example",
+   "text": "To explain how a human being can be both a unity and multilayered, Frankl devised **dimensional ontology**. He illustrated it with geometric images and formulated two laws:\n\n**First law:** If one and the same object is projected out of its own dimension into different lower dimensions, the resulting images contradict one another. A cylinder appears as a circle when viewed from above and as a rectangle when viewed from the side. Circle and rectangle contradict each other – and yet it is the same object. Applied to human beings: biology and psychology show different images of the same person without either finding being false.\n\n**Second law:** If different objects are projected into one and the same lower dimension, they can look the same. A cylinder, a cone, and a sphere viewed from above cast the same circular shadow. Applied to human beings: a symptom such as insomnia may appear the same on one level but have entirely different backgrounds – for example organic, psychological, or existential.\n\nDimensional ontology is a philosophical model of thought, not an empirical theory. It is meant to guard against premature simplifications."
+  },
+  {
+   "typ": "mc",
+   "frage": "Two people suffer from the same lack of drive. One has an underactive thyroid; the other is in a deep crisis of meaning. Which law of dimensional ontology does this illustrate?",
+   "optionen": [
+    "The first law: one object produces contradictory images in different dimensions.",
+    "The second law: different objects produce identical images in the same dimension.",
+    "The law of hyperreflection.",
+    "None; dimensional ontology refers only to physical illnesses."
+   ],
+   "richtig": 1,
+   "erklaerung": "Different causes appear identical at the level of symptoms – like a cylinder, a cone, and a sphere casting the same shadow. That is the second law. Hyperreflection is a term from a different context."
+  },
+  {
+   "typ": "text",
+   "titel": "Can the Spirit Become Ill?",
+   "text": "A central and at the same time demanding thesis of Frankl's is that the **spiritual person cannot become ill**. The body and the psyche can become ill. The noetic dimension can, however, be **blocked** or obscured by an illness – just as a pianist cannot play well on an out-of-tune instrument even though he has not lost his skill.\n\nFrankl called this conviction his **psychiatric credo**. It has an ethical point: even a person with a severe mental illness retains their dignity as a person. Behind the illness there is always someone who can be addressed.\n\nThis idea also gives rise to the concept of **noo-psychic antagonism**: the spiritual person can oppose psychological states, for example by defying a fear or putting a mood into perspective. Methods such as paradoxical intention build on this.\n\nIt should be noted critically that this thesis is a philosophical-anthropological postulate. It cannot be empirically tested in the narrow sense, but describes an attitude toward the patient."
+  },
+  {
+   "typ": "merke",
+   "text": "A human being has a psychophysical organism – but is a spiritual person. Body and psyche can become ill; according to Frankl, the spiritual person can be blocked, but not destroyed."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "By the “noetic dimension,” Frankl means exclusively a person's religious faith.",
+   "richtig": false,
+   "erklaerung": "For Frankl, noetic means “spiritual” in the sense of specifically human capacities: taking a stand, conscience, values, responsibility, humor, love. Religiosity may be part of it, but the noetic dimension is not limited to it."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the phenomena to the dimension primarily affected.",
+   "kategorien": [
+    "Somatic",
+    "Psychological",
+    "Noetic"
+   ],
+   "elemente": [
+    {
+     "text": "A broken leg",
+     "kat": 0
+    },
+    {
+     "text": "Fear of an exam",
+     "kat": 1
+    },
+    {
+     "text": "The question of whether one's profession still aligns with one's values",
+     "kat": 2
+    },
+    {
+     "text": "A vitamin B12 deficiency",
+     "kat": 0
+    },
+    {
+     "text": "A learned habit of avoiding conflicts",
+     "kat": 1
+    },
+    {
+     "text": "A conflict of conscience in a professional decision",
+     "kat": 2
+    },
+    {
+     "text": "Humor about one's own insecurity",
+     "kat": 2
+    }
+   ],
+   "erklaerung": "Physical findings are somatic; feelings and learned patterns are psychological. Questions of value, conscience, and the ability to laugh at oneself belong to the noetic dimension. In reality, all three work together."
+  },
+  {
+   "typ": "text",
+   "titel": "What Follows for Practice?",
+   "text": "Frankl's three-dimensional image of the human being gives rise to several basic attitudes for counseling and therapy:\n\n- **Holistic assessment:** A problem should be considered on all levels. A crisis of meaning does not rule out a physical illness or depression – and vice versa.\n- **No competition with medicine and psychotherapy:** Medication, behavioral exercises, or psychodynamic work are not ranked “below” logotherapy. Frankl himself was a neurologist and also used somatic treatments.\n- **Addressing the person:** Even in severe crises, the person is addressed as someone who can take a stand.\n- **The spirit as a resource:** The noetic dimension is a source of resilience, for example through values, relationships, humor, and hope.\n\nFrankl also distinguished disorders by their origin: **somatogenic** (physically caused), **psychogenic** (psychologically caused), and **noogenic** (arising from a conflict of meaning or values). Logotherapy in the narrower sense is primarily responsible for noogenic problems, but as an attitude it also contributes in the other cases."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which conclusions follow from Frankl's three-dimensional image of the human being? Select all that apply.",
+   "optionen": [
+    "In the case of sleep problems, physical, psychological, and existential factors should be examined.",
+    "Psychotropic medications are incompatible with a logotherapeutic approach.",
+    "Even a severely ill person is addressed as a person who can take a stand.",
+    "Values, relationships, and humor can be used as resources of the noetic dimension.",
+    "Every psychological problem is fundamentally a crisis of meaning."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Holistic examination, respect for the person, and the use of spiritual resources follow from this image of the human being. Psychotropic medications are not excluded – Frankl himself used somatic therapies. And not every problem is noogenic; that would be a new reductionism."
+  },
+  {
+   "typ": "karten",
+   "titel": "Flashcards: Image of the Human Being",
+   "karten": [
+    {
+     "vorne": "Reductionism",
+     "hinten": "Reducing the human being to a single level (“nothing but …”), criticized by Frankl."
+    },
+    {
+     "vorne": "Noetic dimension",
+     "hinten": "Spiritual dimension (from Greek nous): taking a stand, conscience, values, orientation toward meaning."
+    },
+    {
+     "vorne": "Dimensional ontology – 1st law",
+     "hinten": "One object yields contradictory images in different lower dimensions (cylinder: circle and rectangle)."
+    },
+    {
+     "vorne": "Dimensional ontology – 2nd law",
+     "hinten": "Different objects yield identical images in the same lower dimension (cylinder, cone, sphere: circle)."
+    },
+    {
+     "vorne": "Psychiatric credo",
+     "hinten": "The spiritual person cannot become ill; it can only be blocked by illness."
+    },
+    {
+     "vorne": "Noogenic",
+     "hinten": "Arising from a conflict of meaning or values – as distinct from somatogenic and psychogenic."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Think of a burden that currently occupies you. How does it show itself on the physical, the psychological, and the spiritual level?",
+   "hinweis": "Body: sleep, tension, energy? Psyche: feelings, thought patterns, habits? Spirit: Which values are touched? What stance would you like to take in this situation? What would you like to preserve despite everything?"
+  }
+ ]
+}

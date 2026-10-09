@@ -1,0 +1,161 @@
+{
+ "id": "B6-1",
+ "titel": "What Is a Crisis? Concept and Types of Crisis",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "The Concept of Crisis",
+   "text": "The word “crisis” derives from the Greek *krisis* and originally meant decision or turning point. In medicine it denoted the climax of an illness at which it is decided whether recovery or deterioration will follow. This dual meaning of **danger and opportunity** also shapes the psychological understanding.\n\nModern crisis theory goes back largely to the psychiatrist **Gerald Caplan**, who in the 1960s described crises as a temporary state of disequilibrium in which the usual problem-solving strategies are no longer sufficient. In the German-speaking world, the concept was shaped above all by the Viennese psychiatrist **Gernot Sonneck** and the Vienna Crisis Intervention Center.\n\nParaphrased, Sonneck understands a **psychosocial crisis** as the loss of emotional equilibrium that a person experiences when confronted with events or life circumstances that they cannot cope with at the moment because, in their nature and extent, these overwhelm their previous experiences, abilities, and means of help.\n\nThree aspects of this understanding are important:\n\n- A crisis is **not an illness** but a reaction to extraordinary strain that is potentially possible for anyone.\n- A crisis is **time-limited**; it typically lasts from a few days to a few weeks but can become chronic if it takes an unfavorable course.\n- A crisis is **subjective**: what matters is not the objective severity of the event but the relationship between strain and available options for coping – a clear parallel to the transactional model of stress."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which statement most accurately describes the understanding of a psychosocial crisis according to Caplan and Sonneck?",
+   "optionen": [
+    "A crisis is a mental illness that requires a diagnosis.",
+    "A crisis exists only if an objectively severe event such as a death has occurred.",
+    "A crisis is a time-limited loss of emotional equilibrium when stressors exceed one’s current options for coping.",
+    "A crisis is a permanent personality trait of emotionally unstable people."
+   ],
+   "richtig": 2,
+   "erklaerung": "Crises are neither illnesses nor traits but temporary states of disequilibrium. What matters is the subjective relationship between strain and options for coping, not solely the objective severity of the trigger."
+  },
+  {
+   "typ": "text",
+   "titel": "Traumatic Crisis and Life-Change Crisis",
+   "text": "The Swedish psychiatrist **Johan Cullberg** and, building on his work, Sonneck distinguish two basic forms of psychosocial crisis:\n\n**Traumatic crises** are triggered by a **sudden, unforeseeable** event that massively threatens a person’s identity, social security, or livelihood. Examples include the sudden death of a close person, a serious diagnosis, an accident, an experience of violence, a sudden separation, or a dismissal without warning. Shock is characteristic: the event “breaks in.”\n\n**Life-change crises** arise from events that belong to the **normal course of life** and are often foreseeable or even desired, but that require an adjustment that does not succeed at the moment. Examples include children moving out, marriage, the birth of a child, entering working life, relocation, retirement, or parents’ increasing need for care. Here the crisis tends to build up **gradually**.\n\nThe distinction is not a rigid grid: depending on the circumstances, an event can be both, and life-change crises can suddenly escalate due to additional stressors. For practice, the distinction is nonetheless helpful because the courses – and hence the tasks of counseling – differ."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the triggers to the more typical type of crisis.",
+   "kategorien": [
+    "traumatic crisis",
+    "life-change crisis"
+   ],
+   "elemente": [
+    {
+     "text": "The husband dies unexpectedly in a traffic accident.",
+     "kat": 0
+    },
+    {
+     "text": "The youngest child moves out to go to university, and the mother feels increasingly empty.",
+     "kat": 1
+    },
+    {
+     "text": "A nurse is physically attacked by a relative while on duty.",
+     "kat": 0
+    },
+    {
+     "text": "A teacher retires and loses the structure of his day.",
+     "kat": 1
+    },
+    {
+     "text": "A woman receives a cancer diagnosis at a routine checkup.",
+     "kat": 0
+    },
+    {
+     "text": "After the birth of their first child, a couple experiences increasing conflict and exhaustion.",
+     "kat": 1
+    },
+    {
+     "text": "After a fire, the apartment is uninhabitable.",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Traumatic crises begin with a sudden, unforeseeable event. Life-change crises arise from transitions that belong to the course of life and are often foreseeable. In individual cases, the boundaries can be fluid."
+  },
+  {
+   "typ": "text",
+   "titel": "Phases of the Traumatic Crisis According to Cullberg",
+   "text": "Cullberg describes a typical course of the traumatic crisis in four phases. The phases are to be understood as orientation; not every person goes through them completely or in the same order.\n\n- **Shock phase**: it usually lasts from a few hours to several days. Reality is kept away from consciousness. Those affected sometimes appear surprisingly composed outwardly but feel numb inside, or they are chaotic, confused, and barely responsive. Later they often remember only fragments.\n- **Reaction phase**: the person is confronted with reality. Intense feelings such as despair, anger, guilt, fear, and grief arise, along with defense mechanisms such as denial or rationalization. Shock and reaction together form the **acute phase**, which can last several weeks. In this phase the danger of unfavorable coping efforts such as substance abuse is increased, as is the risk of suicide.\n- **Working-through phase**: the person begins to detach from the event and the past and to turn toward the future again. New interests and plans emerge.\n- **Reorientation**: the event is integrated as part of one’s own life story. Self-esteem is restored, and new relationships and tasks become possible. In the favorable case, the person emerges from the crisis with new experiences and abilities.\n\nFor intervention this means: in the shock phase, safety, orientation, accompaniment, and practical help are in the foreground – not in-depth conversations about feelings or meanings."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the phases of the traumatic crisis according to Cullberg into the correct order.",
+   "elemente": [
+    "Shock phase",
+    "Reaction phase",
+    "Working-through phase",
+    "Reorientation"
+   ],
+   "erklaerung": "The shock and reaction phases form the acute phase. In the working-through phase the person detaches from the event; in reorientation it is integrated into the life story."
+  },
+  {
+   "typ": "text",
+   "titel": "Phases of the Life-Change Crisis",
+   "text": "For life-change crises, Sonneck, drawing on Caplan, describes a different course:\n\n- **Confrontation**: the person is confronted with a life-change event. Tension rises, and they try to cope with the situation using their usual problem-solving strategies.\n- **Failure**: the usual strategies do not work. A feeling of having failed arises; self-esteem and confidence decline, and the strain grows.\n- **Mobilization**: the person mobilizes all internal and external resources, tries new approaches, and in this phase is often **particularly open to outside help**. If coping succeeds, the crisis can end here.\n- **Full-blown crisis**: if mobilization also fails, withdrawal, resignation, hopelessness, and disorganization follow. There is a risk of **chronification**, of escape into addiction or psychosomatic complaints, of the development of a mental illness, and of **suicidality**.\n\nAn important message for practice follows from this course: the mobilization phase is a **window of opportunity for help**. Someone who turns to a counseling center in this phase is often highly motivated, and just a few sessions can prevent a development toward a full-blown crisis. This justifies the principle of responding to crisis inquiries **quickly** rather than placing them on long waiting lists."
+  },
+  {
+   "typ": "luecke",
+   "text": "In a life-change crisis, confrontation is followed by the {{failure|shock experience|reorientation}} of one’s usual strategies. In the {{mobilization|reaction|denial}} phase, the person is particularly open to help. If this fails, there is a risk of {{a full-blown crisis|a working-through stage|a recovery stage}} with withdrawal and resignation.",
+   "erklaerung": "According to Sonneck, the sequence is confrontation – failure – mobilization – and, if applicable, full-blown crisis. The mobilization phase is a favorable window for support."
+  },
+  {
+   "typ": "text",
+   "titel": "Crisis or Psychiatric Emergency?",
+   "text": "Not every acute strain is a psychosocial crisis in the sense described. It must be distinguished from a **psychiatric emergency**: a state in which, due to a mental disorder or an acute state of psychological emergency, there is an **immediate danger to the life or health** of the person concerned or of others, and immediate medical action is required.\n\nExamples of emergency situations include:\n\n- **acute suicidality** with concrete plans and an inability to distance oneself from them,\n- **acute danger to others**, for instance threats of violence,\n- **acute psychotic states** with massive anxiety, misperception of reality, or agitation,\n- **states of confusion** (e.g., delirium), whose causes are frequently physical,\n- **intoxication** with alcohol, medication, or drugs, as well as dangerous withdrawal symptoms.\n\nIn such situations, what is needed is not counseling but **emergency medical care**: the emergency number **112**, the emergency department of a psychiatric hospital, or – depending on the region – a psychiatric crisis service. As far as possible and safe, the counselor stays with the person until help arrives.\n\nCrises, too, can escalate into emergencies, especially in a full-blown crisis or in the acute phase of a traumatic crisis. Recognizing this boundary is a core competence in crisis intervention. One’s own safety always takes priority: where others are endangered, the police are called at **110**."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which situations are to be classified as a psychiatric emergency requiring immediate medical help? (More than one answer possible)",
+   "optionen": [
+    "A person describes a concrete suicide plan for this evening and cannot distance themselves from it.",
+    "A person is downcast after retiring and is looking for a new daily structure.",
+    "A person is suddenly disoriented, misperceives situations, and does not know where they are.",
+    "A person has taken a large quantity of pills together with alcohol.",
+    "A person is very sad after a separation and cries a lot during the session."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Acute suicidality without the ability to distance oneself, acute confusion, and intoxication require immediate medical help (112). Grief after a separation and low spirits after a transition are distressing but are initially matters for counseling and crisis support – although attention must be paid to suicidality here as well."
+  },
+  {
+   "typ": "fall",
+   "titel": "Which Type of Crisis, Which Phase?",
+   "fall": "Constructed teaching vignette: Mr. T., 61, worked for the same company for 35 years. Four months ago, in the course of a long-announced restructuring, he was offered early retirement, which he accepted. At first, he says, he planned “projects,” but he has carried out none of them. For several weeks he has often stayed in bed until noon, avoids acquaintances, and says: “I’m no use for anything anymore. I’ve tried everything; there’s no point.”",
+   "frage": "How can the situation best be classified?",
+   "optionen": [
+    "Traumatic crisis in the shock phase",
+    "Life-change crisis in transition to a full-blown crisis, with signs that make an assessment of suicidality necessary",
+    "Life-change crisis in the mobilization phase, hence a particularly favorable prognosis",
+    "Not a crisis but a normal adjustment reaction that requires no support"
+   ],
+   "richtig": 1,
+   "erklaerung": "The trigger is foreseeable and belongs to the course of life – typical of a life-change crisis. After his own attempts have failed, withdrawal, resignation, and hopelessness appear, i.e., features of a full-blown crisis. The statement “there’s no point” makes it necessary to ask sensitively and directly about suicidal thoughts and to suggest a medical assessment."
+  },
+  {
+   "typ": "karten",
+   "titel": "Core Concepts of Crisis Theory",
+   "karten": [
+    {
+     "vorne": "Psychosocial crisis (Sonneck, paraphrased)",
+     "hinten": "Loss of emotional equilibrium when events or life circumstances overwhelm one’s current options for coping; not an illness, time-limited."
+    },
+    {
+     "vorne": "Traumatic crisis",
+     "hinten": "Sudden, unforeseeable event; phases according to Cullberg: shock, reaction, working through, reorientation."
+    },
+    {
+     "vorne": "Life-change crisis",
+     "hinten": "Transition in the course of life; phases: confrontation, failure, mobilization, possibly full-blown crisis."
+    },
+    {
+     "vorne": "Acute phase",
+     "hinten": "Shock and reaction phases of the traumatic crisis; increased risk of unfavorable coping and of suicidality."
+    },
+    {
+     "vorne": "Psychiatric emergency",
+     "hinten": "Immediate danger to life or health resulting from an acute state of psychological emergency; immediate medical help (112)."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Recall a crisis in your own life or in the life of someone you have accompanied. Which phases can be recognized in retrospect, and what was helpful in which phase?",
+   "hinweis": "Guiding questions: Was the trigger sudden or foreseeable? When was outside help welcome, and when not? What contributed to reorientation? What do I learn from this for my attitude toward people in crisis?"
+  }
+ ]
+}

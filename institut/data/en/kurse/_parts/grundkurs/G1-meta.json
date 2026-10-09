@@ -1,0 +1,102 @@
+{
+ "titel": "Viktor Frankl and the Question of Meaning",
+ "beschreibung": "This module introduces the life and work of Viktor E. Frankl – from his early years in Vienna and his time in the National Socialist camps to the worldwide spread of logotherapy. It focuses on the core concepts: the will to meaning, freedom, responsibility, and the three-dimensional image of the human being.",
+ "lernziele": [
+  "You can place the key stages of Viktor Frankl's life accurately in their factual and chronological context.",
+  "You can explain what role the camp experience played in logotherapy – and what role it did not play.",
+  "You can explain the three basic assumptions: freedom of will, will to meaning, and meaning of life.",
+  "You can describe the relationship between freedom and responsibility in Frankl's sense.",
+  "You can distinguish the somatic, psychological, and noetic dimensions and outline the basic features of dimensional ontology."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "How did Frankl translate the Greek word “logos” in the term logotherapy?",
+   "optionen": [
+    "Word",
+    "Reason",
+    "Meaning",
+    "Law"
+   ],
+   "richtig": 2,
+   "erklaerung": "Frankl understood “logos” as “meaning.” Logotherapy is a meaning-centered therapy."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Frankl had already developed the basic features of logotherapy before his deportation in 1942.",
+   "richtig": true,
+   "erklaerung": "The basic ideas emerged in the late 1920s and the 1930s; the manuscript of *Ärztliche Seelsorge* (The Doctor and the Soul) existed before his deportation."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which sequence of Frankl's places of imprisonment is correct?",
+   "optionen": [
+    "Auschwitz – Theresienstadt – Türkheim – Kaufering",
+    "Theresienstadt – Auschwitz – Kaufering – Türkheim",
+    "Kaufering – Theresienstadt – Auschwitz – Türkheim",
+    "Theresienstadt – Kaufering – Auschwitz – Bergen-Belsen"
+   ],
+   "richtig": 1,
+   "erklaerung": "Frankl was sent to Theresienstadt in 1942, briefly to Auschwitz in 1944, then to Kaufering, and finally to Türkheim, where he was liberated in 1945."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which three basic assumptions form the “pillars” of logotherapy?",
+   "optionen": [
+    "Freedom of will",
+    "Will to power",
+    "Will to meaning",
+    "Meaning of life",
+    "Pleasure principle"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Freedom of will, will to meaning, and meaning of life are the three basic assumptions. Frankl attributed the will to power and the pleasure principle to Adler and Freud."
+  },
+  {
+   "typ": "mc",
+   "frage": "What does Frankl mean by freedom of will?",
+   "optionen": [
+    "The independence of human beings from all biological and social conditions.",
+    "The capacity to take a stand toward one's own conditions.",
+    "The right to act without regard for others.",
+    "The absence of feelings in decision-making."
+   ],
+   "richtig": 1,
+   "erklaerung": "Frankl speaks of a freedom within conditionedness: human beings can take a stance toward their dispositions, formative influences, and circumstances."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to Frankl, happiness is most reliably achieved by making it the direct goal of one's life.",
+   "richtig": false,
+   "erklaerung": "According to Frankl, happiness arises as a side effect of dedication to a meaningful task or to another person; when pursued directly, it is easily missed."
+  },
+  {
+   "typ": "mc",
+   "frage": "What does Frankl illustrate with the image of a cylinder that appears as a circle from above and as a rectangle from the side?",
+   "optionen": [
+    "That people behave entirely differently depending on the situation.",
+    "That only the noetic dimension truly exists.",
+    "That one and the same human being can appear contradictory on different levels of observation without losing their unity.",
+    "That mental disorders always have physical causes."
+   ],
+   "richtig": 2,
+   "erklaerung": "This is the first law of dimensional ontology: contradictory partial images do not rule out the unity of the whole."
+  },
+  {
+   "typ": "mc",
+   "frage": "How is conscience understood in logotherapy?",
+   "optionen": [
+    "As an internalized superego that enforces social norms.",
+    "As an infallible inner voice.",
+    "As a feeling of guilt after wrongdoing.",
+    "As an intuitive “organ of meaning” that senses what is meaningful in the concrete situation, but can err."
+   ],
+   "richtig": 3,
+   "erklaerung": "Frankl describes conscience as the organ of meaning. It is situation-specific, personal, and fallible, and is not to be equated with the superego."
+  }
+ ]
+}

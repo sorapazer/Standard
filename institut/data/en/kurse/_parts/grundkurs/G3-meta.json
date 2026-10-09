@@ -1,0 +1,105 @@
+{
+ "titel": "Overview of Methods",
+ "beschreibung": "This module presents the central methods of logotherapy: Socratic dialogue, modification of attitudes, paradoxical intention, and dereflection. Finally, logotherapy is compared with other approaches, and its state of research and its limitations are assessed soberly. The foundation course conveys an understanding of the methods, not a qualification for their therapeutic application.",
+ "lernziele": [
+  "You can describe the aim, attitude, and typical questions of Socratic dialogue.",
+  "You can explain what modification of attitudes is and when it is appropriate.",
+  "You can present the principle of action, indications, and contraindications of paradoxical intention and dereflection.",
+  "You can name similarities and differences between logotherapy and other psychotherapeutic approaches.",
+  "You can assess the state of research and the limitations of logotherapy objectively."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "What characterizes Socratic dialogue in logotherapy?",
+   "optionen": [
+    "The counselor explains to the client what the meaning of their life consists of.",
+    "Through open questions, the person is supported in discovering their own values and possibilities of meaning.",
+    "The client is convinced of their false assumptions by logical arguments.",
+    "The conversation serves primarily to interpret dreams."
+   ],
+   "richtig": 1,
+   "erklaerung": "Socratic dialogue is an attitude of open, exploratory questioning. Meaning is not prescribed."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Modification of attitudes should also be used where a situation could be changed through action, so that the person learns to accept it.",
+   "richtig": false,
+   "erklaerung": "What can be changed should be changed. Modification of attitudes targets what is unchangeable or attitudes that block action."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which mechanism is paradoxical intention primarily directed against?",
+   "optionen": [
+    "Against anticipatory anxiety",
+    "Against the existential vacuum",
+    "Against self-transcendence",
+    "Against the will to meaning"
+   ],
+   "richtig": 0,
+   "erklaerung": "Paradoxical intention breaks the vicious circle of symptom and anticipatory anxiety."
+  },
+  {
+   "typ": "multi",
+   "frage": "Under which conditions is paradoxical intention considered contraindicated?",
+   "optionen": [
+    "Severe depression with suicidality",
+    "Fear of blushing",
+    "Psychotic disorders",
+    "Anxiety-intensified difficulty falling asleep"
+   ],
+   "richtig": [
+    0,
+    2
+   ],
+   "erklaerung": "The method is not indicated in severe depression with suicidality or in psychoses. Erythrophobia and anxiety-intensified difficulty falling asleep are classic fields of application."
+  },
+  {
+   "typ": "mc",
+   "frage": "On which spiritual capacity is dereflection based?",
+   "optionen": [
+    "Self-distancing",
+    "Hyperreflection",
+    "Anticipatory anxiety",
+    "Self-transcendence"
+   ],
+   "richtig": 3,
+   "erklaerung": "Dereflection directs attention away from the symptom toward something meaningful and is thus based on self-transcendence. Paradoxical intention is based on self-distancing."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Frankl compared the logotherapist to an ophthalmologist who helps the patient see the world more clearly for themselves, and not to a painter who shows the patient his own view of the world.",
+   "richtig": true,
+   "erklaerung": "The image makes clear that meaning is not prescribed but discovered by the person themselves."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which statement most accurately describes the state of research on logotherapy?",
+   "optionen": [
+    "Logotherapy as an overall approach is the best-researched psychotherapeutic approach.",
+    "There are no empirical studies whatsoever on logotherapeutic methods.",
+    "Individual techniques and structured meaning-centered programs are comparatively well researched, whereas the overall approach is less so.",
+    "The effectiveness of paradoxical intention has been clearly refuted in studies."
+   ],
+   "richtig": 2,
+   "erklaerung": "Paradoxical intention and programs such as Meaning-Centered Psychotherapy have been studied in controlled trials; for classical logotherapy as an overall approach, there are fewer high-quality studies."
+  },
+  {
+   "typ": "multi",
+   "frage": "What parallels exist between logotherapy and Acceptance and Commitment Therapy (ACT)?",
+   "optionen": [
+    "Emphasis on values",
+    "Acceptance of what cannot be changed",
+    "A shared learning-theory foundation going back to Frankl",
+    "Distance from one's own thoughts and feelings",
+    "Interpretation of unconscious childhood conflicts as the main method"
+   ],
+   "richtig": [
+    0,
+    1,
+    3
+   ],
+   "erklaerung": "Value orientation, acceptance, and distance from inner states (self-distancing in Frankl's terms) connect both approaches. ACT, however, has its own learning-theory foundation that does not go back to Frankl, and it does not work with the interpretation of childhood conflicts."
+  }
+ ]
+}

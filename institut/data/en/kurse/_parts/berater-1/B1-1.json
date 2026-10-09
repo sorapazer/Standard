@@ -1,0 +1,150 @@
+{
+ "id": "B1-1",
+ "titel": "Understanding and Regulating Emotions",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "What Is an Emotion?",
+   "text": "In everyday life we speak of feelings as if they were an inner state that is simply “there.” Emotion psychology, by contrast, describes emotions as **time-limited, coordinated response processes** to an event that is significant for a person. These processes comprise several components that work closely together:\n\n- **Subjective experience** – what we perceive and name as a feeling\n- **Cognitive appraisal** – the assessment of what the event means for me\n- **Physiological arousal** – for example heartbeat, breathing, muscle tension\n- **Expression** – facial expression, voice, posture\n- **Action tendency** – the impulse to approach, flee, attack, or withdraw\n\nKlaus Scherer elaborated this view in his component process model. Emotions are to be distinguished from **moods**, which last longer, are less intense, and often have no clear trigger, and from **affect** as an umbrella term for feeling-like states.\n\nFor counseling, this distinction is of practical importance: anyone who knows that an emotion consists of several components can intervene at different points – at the appraisal, the body, the expression, or the behavior."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match each component of an emotion with the corresponding example from an exam situation.",
+   "paare": [
+    [
+     "Cognitive appraisal",
+     "“If I fail this, I’ll lose my training position.”"
+    ],
+    [
+     "Physiological arousal",
+     "Racing heart and sweaty hands"
+    ],
+    [
+     "Expression",
+     "Tense facial expression, quiet voice"
+    ],
+    [
+     "Action tendency",
+     "The impulse to leave the room"
+    ],
+    [
+     "Subjective experience",
+     "“I feel anxious and under pressure.”"
+    ]
+   ],
+   "erklaerung": "All five components belong to a single episode of anxiety. The appraisal (“What does this mean for me?”) sets off the other components, which can reinforce one another. This is why emotions can be influenced through several points of access."
+  },
+  {
+   "typ": "text",
+   "titel": "Appraisal as the Key: Appraisal Theories",
+   "text": "Why do two people react to the same event with completely different feelings? **Appraisal theories** offer an answer: it is not the event itself but its **appraisal** by the person that determines the emotion.\n\nIn his transactional model of stress, Richard Lazarus distinguished two steps of appraisal:\n\n- **Primary appraisal:** Is the event relevant to me – and if so, is it positive, threatening, harmful, or a challenge?\n- **Secondary appraisal:** What options do I have for dealing with it? Are my resources sufficient?\n\nAccording to Lazarus, stress arises when demands are experienced as exceeding one’s own coping resources. A dismissal can thus mean loss and despair for one person and relief or a challenge for another.\n\nAlongside appraisal theories, there are approaches that assume a small number of cross-culturally recognizable **basic emotions**. Paul Ekman described, among others, joy, sadness, fear, anger, disgust, and surprise, whose facial expressions are recognized in many cultures. This assumption is, however, contested in research; constructivist approaches place greater emphasis on the role of context, language, and learning experience.\n\nFor counseling, it follows that feelings become **understandable** once one knows the appraisal on which they are based. The question “What does this situation mean for you?” often opens up more than the question “What happened?”"
+  },
+  {
+   "typ": "mc",
+   "frage": "A client reports that her department is being restructured. She says: “I have no idea how I’m going to manage this with my children and the new working hours.” Which appraisal according to Lazarus is in the foreground here?",
+   "optionen": [
+    "Primary appraisal, because she classifies the event as irrelevant",
+    "Secondary appraisal, because she judges her coping resources to be insufficient",
+    "A basic emotion, because fear occurs across cultures",
+    "A reappraisal, because she is already reinterpreting the situation positively"
+   ],
+   "richtig": 1,
+   "erklaerung": "The client has already classified the situation as relevant and stressful (primary appraisal) and is now asking herself whether her resources are sufficient – this is secondary appraisal. There is no mention of irrelevance or positive reinterpretation; the reference to basic emotions does not describe a step of appraisal."
+  },
+  {
+   "typ": "text",
+   "titel": "Functions of Emotions",
+   "text": "Emotions are not disturbances of reason; they fulfill important **functions**. They quickly prepare the organism for action, direct attention to what is significant, and communicate to other people how we are doing.\n\n- **Fear** signals danger and mobilizes protective behavior.\n- **Anger** indicates that a goal has been blocked or a boundary violated, and mobilizes energy for asserting oneself.\n- **Sadness** accompanies loss, slows us down, invites withdrawal and at the same time support from others.\n- **Shame** regulates social belonging and signals that one may have violated norms.\n- **Joy** reinforces behavior and promotes bonding.\n\nWith her **broaden-and-build theory**, Barbara Fredrickson described how positive emotions broaden the repertoire of thought and action and can build personal resources in the long term.\n\nEmotions usually become problematic not because they occur, but when their intensity, duration, or occasion **no longer fits the situation**, or when people suppress them permanently. In counseling, it is therefore worthwhile first to acknowledge feelings as **meaningful signals**: What does this anger stand for? What is this fear protecting? What does this sadness reveal about what was important?"
+  },
+  {
+   "typ": "luecke",
+   "text": "Anger typically indicates that {{a goal has been blocked or a boundary violated|a loss has occurred|a norm has been violated by oneself}}. According to broaden-and-build theory, positive emotions {{broaden|narrow|neutralize}} the repertoire of thought and action.",
+   "erklaerung": "Anger mobilizes energy to overcome obstacles or protect boundaries. Loss is the theme of sadness, one’s own violation of a norm that of shame. Fredrickson describes how positive emotions broaden the space of possibilities, whereas fear, for example, tends to narrow attention."
+  },
+  {
+   "typ": "text",
+   "titel": "Emotion Regulation: Gross’s Process Model",
+   "text": "**Emotion regulation** refers to all processes by which people influence which emotions they have, when they have them, and how they experience and express them. James Gross put forward an influential **process model** that distinguishes five points of intervention along the generation of an emotion:\n\n1. **Situation selection** – seeking out or avoiding certain situations\n2. **Situation modification** – actively changing the situation\n3. **Attentional deployment** – shifting focus, for example through distraction\n4. **Cognitive change** – reappraising the meaning of the situation (*reappraisal*)\n5. **Response modulation** – influencing expression or the physical response, for example through suppression, breathing techniques, or exercise\n\nThe first four strategies intervene **before** the emotion has fully unfolded; the fifth targets the response that is already under way.\n\nResearch repeatedly shows that **reappraisal** is, on average, associated with more favorable consequences for well-being and relationships than the habitual **suppression** of emotional expression. However, no strategy is good or bad per se: what matters is the **flexibility** to choose a strategy that fits the situation. Avoidance, too, can make sense in the short term, but becomes a problem when it permanently constricts one’s life."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the behaviors to the strategies of the process model.",
+   "kategorien": [
+    "Situation selection/modification",
+    "Attentional deployment",
+    "Cognitive change",
+    "Response modulation"
+   ],
+   "elemente": [
+    {
+     "text": "A nurse asks to conduct the difficult conversation together with a colleague rather than alone.",
+     "kat": 0
+    },
+    {
+     "text": "A father avoids the family gathering with the quarrelsome uncle.",
+     "kat": 0
+    },
+    {
+     "text": "A teacher deliberately concentrates on her notes during a parent’s complaint.",
+     "kat": 1
+    },
+    {
+     "text": "A client listens to music in the waiting room so as not to think about the diagnosis.",
+     "kat": 1
+    },
+    {
+     "text": "An applicant tells herself: “The interview is also a chance to get to know the company.”",
+     "kat": 2
+    },
+    {
+     "text": "A team leader interprets criticism as feedback that helps him improve.",
+     "kat": 2
+    },
+    {
+     "text": "A social worker exhales slowly several times before the home visit.",
+     "kat": 3
+    },
+    {
+     "text": "An employee does not let his anger show in the meeting.",
+     "kat": 3
+    }
+   ],
+   "erklaerung": "Situation selection and modification change the situation itself, attentional deployment changes the focus within the situation, and cognitive change alters its meaning. Breath regulation and concealing anger target the response that is already under way and belong to response modulation."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to the state of research, consistently suppressing emotional expression is the healthiest form of emotion regulation because it avoids conflicts.",
+   "richtig": false,
+   "erklaerung": "Habitual suppression is, on average, associated with less favorable consequences for well-being and relationships than reappraisal. In the short term, suppression can be appropriate in certain situations – what matters is flexible regulation suited to the situation."
+  },
+  {
+   "typ": "text",
+   "titel": "Emotions in Counseling: Implications for Practice",
+   "text": "What follows from emotion psychology for the counseling conversation? Several principles have proven useful:\n\n- **Help name feelings.** Many clients experience a diffuse pressure. Naming it (“That sounds like a great disappointment”) can already bring relief; in research this effect is discussed as *affect labeling*.\n- **Explore appraisals.** Behind a strong emotion there are often appraisals of which the person is not fully aware. Questions such as “What are you afraid might happen?” make them accessible.\n- **Validate emotions, do not judge them.** The message “It is understandable that you feel this way” does not mean that every behavior is approved. Feeling and action must be distinguished.\n- **Broaden the regulation repertoire.** Clients often use only one or two strategies. Alternatives can be worked out together along the process model.\n- **Perceive your own emotions.** Counselors, too, react emotionally – with compassion, impatience, helplessness, or anger. These reactions are valuable information but should be reflected upon and, if necessary, discussed in supervision.\n\nFinally: very intense, long-lasting emotional states, or those that severely impair functioning, may indicate a mental disorder. They then call for assessment by a medical specialist or psychotherapist – a topic explored in greater depth in Module B2."
+  },
+  {
+   "typ": "merke",
+   "text": "Feelings are signals, not errors. Whoever understands the appraisal behind a feeling understands the feeling – and finds starting points for change."
+  },
+  {
+   "typ": "fall",
+   "titel": "Anger in a Parent Meeting",
+   "fall": "Constructed teaching vignette: Mr. K., 41, comes to parenting counseling. He reports angrily that his son’s teacher “humiliated” him in front of other parents by bringing up his son’s problems with homework. He speaks loudly, clenches his fists, and says: “I’m not going there anymore.”",
+   "frage": "From the perspective of emotion psychology, which response by the counselor is most helpful?",
+   "optionen": [
+    "“Please calm down first; we won’t get anywhere like this.”",
+    "“The teacher surely only wanted the best for your son.”",
+    "“You felt humiliated in front of the other parents – that was obviously very hurtful for you.”",
+    "“Then just don’t go anymore; that’s your right.”"
+   ],
+   "richtig": 2,
+   "erklaerung": "The third response names the feeling and the underlying appraisal (humiliation, hurt) and validates them without endorsing the announced avoidance behavior. The request to calm down passes over the feeling, defending the teacher comes across as invalidating, and endorsing the withdrawal reinforces an avoidance that may harm the son in the long run."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which emotion do you find hardest to tolerate in conversations with others – and which regulation strategy do you typically use then?",
+   "hinweis": "Think of a concrete situation from your working life. What appraisal underlay your own reaction? Which alternative strategy from the process model would have been conceivable?"
+  }
+ ]
+}

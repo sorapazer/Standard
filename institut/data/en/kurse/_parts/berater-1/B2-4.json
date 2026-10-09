@@ -1,0 +1,198 @@
+{
+ "id": "B2-4",
+ "titel": "Warning Signs, Crises, and the Limits of Counseling",
+ "dauer": 40,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Recognizing Suicidality",
+   "text": "Suicidality is the most important warning sign that counselors can encounter. It ranges from passive wishes to die (“I wouldn’t care if I didn’t wake up in the morning”) through suicidal thoughts and plans to concrete preparations and suicide attempts.\n\n**Risk factors** include:\n\n- previous suicide attempts (one of the strongest risk factors)\n- mental illnesses, especially depression, dependence, psychoses\n- suicides in the family or social environment\n- acute crises such as separation, job loss, debt, experiences of shame and humiliation\n- social isolation, chronic pain, and serious physical illnesses\n- access to means of suicide\n\n**Warning signs** may include: direct or indirect announcements (“Soon you’ll be rid of me”), pronounced hopelessness, social withdrawal, giving away important possessions, putting final affairs in order, and a sudden, inexplicable calm after a period of great despair.\n\nErwin Ringel described the **presuicidal syndrome** with three features: increasing **constriction** (situational, emotional, in relationships and values), inhibited **aggression turned against oneself**, and **suicidal fantasies** that become increasingly intrusive. Walter Pöldinger distinguished the stages of **consideration, ambivalence, and decision**.\n\nImportantly, ambivalence – part of the person wants to die, part wants to live – is present for a long time in many suicidal people. This is precisely where a conversation can begin."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Anyone who asks a person directly whether they are thinking about taking their own life puts the idea into their head and thus increases the risk.",
+   "richtig": false,
+   "erklaerung": "This is a widespread myth. Research finds no evidence that directly addressing suicidal thoughts increases the risk. On the contrary, many of those affected experience being able to talk about it openly as a relief."
+  },
+  {
+   "typ": "text",
+   "titel": "Addressing Suicidality and Taking Action",
+   "text": "When there are indications of suicidality, the counselor should address the topic **openly, calmly, and directly**. A step-by-step approach has proven useful:\n\n- “When you are feeling this bad – do you sometimes feel that life no longer has any meaning?”\n- “Do you sometimes think about taking your own life?”\n- If the answer is yes: “How concrete are these thoughts? Have you already thought about how or when?” – “Have you already made any preparations?”\n- “What has kept you from doing it so far?” – asking about **reasons for living** strengthens the life-affirming side of the ambivalence.\n\n**How to act?**\n\n- In the case of **suicidal thoughts without concrete plans** and a reliable ability to make agreements: arrange a prompt assessment by a psychiatrist or psychotherapist, provide crisis contacts, involve support persons, and set a binding date for the next contact.\n- In the case of **concrete plans, preparations, or a lack of distancing**: do not leave the person alone; call the **emergency number 112** or arrange for the person to be accompanied to a psychiatric hospital or emergency department.\n\nIn Germany, the **TelefonSeelsorge** (telephone crisis line) can be reached free of charge around the clock at 0800 111 0 111 and 0800 111 0 222 as well as 116 123. Many regions have **crisis services** and **social psychiatric services** (Sozialpsychiatrische Dienste).\n\n**Documentation** of the conversation and the measures taken, as well as **peer consultation or supervision**, are indispensable after such a situation. No one should bear sole responsibility for a suicidal crisis."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Addressing Suicidal Thoughts",
+   "einleitung": "Constructed situation: Ms. B., 47, comes to debt counseling. Her husband recently left her, and the debts are growing. In the conversation she seems exhausted and hopeless.",
+   "runden": [
+    {
+     "klient": "“I don’t even know why I still put myself through all this. There’s no point to any of it anymore.”",
+     "antworten": [
+      {
+       "text": "“Chin up – we’ll find a solution for the debts!”",
+       "gut": false,
+       "feedback": "Premature encouragement passes over the hopelessness and can lead Ms. B. to feel that she is not being taken seriously and to conceal her thoughts."
+      },
+      {
+       "text": "“You sound very desperate. When you say there’s no point to any of it anymore – do you sometimes think about not wanting to live anymore?”",
+       "gut": true,
+       "feedback": "The response picks up on the feeling and asks openly and directly about suicidal thoughts. This makes an assessment possible and signals that this topic, too, has a place here."
+      },
+      {
+       "text": "“Let’s stick to the facts instead; otherwise we won’t get anywhere.”",
+       "gut": false,
+       "feedback": "Steering back to factual matters ignores a possible warning sign of suicidality."
+      }
+     ]
+    },
+    {
+     "klient": "(after a pause) “Yes … sometimes I think it would be better if I just weren’t here anymore.”",
+     "antworten": [
+      {
+       "text": "“You mustn’t say things like that – think of your children!”",
+       "gut": false,
+       "feedback": "Moralizing creates guilt and shame and shuts down the conversation. The children can later be explored as a reason for living – but not as a reproach."
+      },
+      {
+       "text": "“That sounds like a phase that will soon pass.”",
+       "gut": false,
+       "feedback": "Trivializing prevents a careful assessment of the risk."
+      },
+      {
+       "text": "“Thank you for telling me so openly. How concrete are these thoughts? Have you already thought about how you would do it?”",
+       "gut": true,
+       "feedback": "Appreciation for her openness and the calm question about concreteness are central steps in the assessment: thoughts, plans, and preparations differ markedly in risk."
+      }
+     ]
+    },
+    {
+     "klient": "“No, I don’t have a plan. And I wouldn’t do it because of my daughter. But the thoughts keep coming back.”",
+     "antworten": [
+      {
+       "text": "“Your daughter is very important to you. I don’t want you to be left alone with these thoughts. Can we think together about how you can get medical support soon, and will you take the number of the TelefonSeelsorge with you?”",
+       "gut": true,
+       "feedback": "The response acknowledges the reason for living, takes the recurring thoughts seriously, and initiates concrete next steps: prompt professional assessment and reachable crisis contacts."
+      },
+      {
+       "text": "“Good, then everything is fine. Let’s move on to the household budget.”",
+       "gut": false,
+       "feedback": "The absence of plans does not mean that no action is required. Recurring suicidal thoughts require professional assessment."
+      },
+      {
+       "text": "“I’m calling the emergency doctor right now, against your will.”",
+       "gut": false,
+       "feedback": "Given credible distancing, no plans, and a clear reason for living, emergency admission is generally not indicated. A binding, prompt assessment is appropriate. In the case of acute danger, however, calling the emergency number would be right."
+      }
+     ]
+    },
+    {
+     "klient": "“Yes … that would probably be good. I just don’t know if I’ll dare to call the doctor.”",
+     "antworten": [
+      {
+       "text": "“You’ll have to manage that yourself; you’re an adult, after all.”",
+       "gut": false,
+       "feedback": "Hopeless people often have little energy for steps that come easily to others. Concrete support is appropriate here."
+      },
+      {
+       "text": "“If you like, we can make the call together from here right now. And we’ll schedule a next appointment right away.”",
+       "gut": true,
+       "feedback": "Concrete help with making contact lowers the threshold considerably. A binding follow-up appointment ensures continuity."
+      },
+      {
+       "text": "“Then let’s just wait and see; maybe it will get better on its own.”",
+       "gut": false,
+       "feedback": "Waiting without any agreements leaves Ms. B. alone with a considerable risk."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "text",
+   "titel": "Further Warning Signs and Crisis Situations",
+   "text": "Besides suicidality, there are other situations in which counselors must act quickly or refer to specialist services:\n\n- **Psychotic symptoms:** delusions (such as the firm conviction of being persecuted or monitored), hallucinations (e.g., hearing voices), severely disorganized thinking or behavior. Do not argue about delusional content; stay calm, take the fear seriously, and refer to medical, usually psychiatric, help.\n- **Manic symptoms:** markedly elevated or irritable mood, an extreme urge to talk, hardly any need for sleep, risky decisions such as large expenditures.\n- **Self-injurious behavior:** for example cutting; it often serves to regulate tension and is not to be equated with suicidality, but should be taken seriously and assessed professionally.\n- **Danger to others:** concrete threats against other persons.\n- **Endangerment of a child’s welfare:** substantial indications of maltreatment, neglect, or sexual abuse. For professionals in child and youth welfare, § 8a SGB VIII (German Social Code, Book VIII) governs the procedure; for professionals bound by confidentiality, such as physicians, psychologists, or social workers, § 4 KKG (German Act on Cooperation and Information in Child Protection) creates an authorization to consult an experienced child protection specialist and, if necessary, to inform the youth welfare office (Jugendamt).\n- **Domestic violence:** protection takes priority; the nationwide helpline “Violence Against Women” (Hilfetelefon “Gewalt gegen Frauen”) can be reached around the clock at 116 016.\n- **Acute physical emergencies**, such as intoxication or severe withdrawal symptoms.\n\nIn acutely dangerous situations, the rule is always: pay attention to your own safety and call the **emergency number 112** or the **police at 110**. Every institution should have a clear **crisis plan** that all staff members know."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "How urgent is each situation? Assign them.",
+   "kategorien": [
+    "Act immediately (emergency call/emergency care)",
+    "Suggest prompt professional assessment"
+   ],
+   "elemente": [
+    {
+     "text": "A client reports that he has been collecting pills and wants to take them tonight.",
+     "kat": 0
+    },
+    {
+     "text": "A client says she has been sleeping poorly for weeks and has lost pleasure in almost everything.",
+     "kat": 1
+    },
+    {
+     "text": "A client seems severely confused, is foaming at the mouth, and barely responds when spoken to.",
+     "kat": 0
+    },
+    {
+     "text": "A teenager mentions that for a few months he has occasionally been cutting himself to relieve pressure.",
+     "kat": 1
+    },
+    {
+     "text": "During the conversation, a man announces that he is going to “finish off” his ex-wife today and shows a knife.",
+     "kat": 0
+    },
+    {
+     "text": "A client reports persistent worries and tension that she has been unable to switch off for months.",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Concrete suicide plans with preparations, acute physical emergencies, and concrete danger to others require immediate action. Depressive symptoms, non-suicidal self-injury without acute danger, and persistent anxiety require prompt professional assessment, which should be actively suggested and supported."
+  },
+  {
+   "typ": "text",
+   "titel": "Legal and Professional Limits of Counseling",
+   "text": "In Germany, psychological counseling operates within a clearly defined legal framework. Under the **Heilpraktikergesetz** (German Non-Medical Practitioners Act), the **practice of medicine (Heilkunde)** – diagnosing, curing, or alleviating illnesses, including mental illnesses – is reserved for licensed professions with Approbation (state license) (physicians, psychological psychotherapists, child and adolescent psychotherapists, or psychotherapists under the new law) or for persons holding a **Heilpraktiker license** (non-medical practitioner license), including one restricted to psychotherapy.\n\nFor psychological counseling that does not involve the practice of medicine, it follows that:\n\n- It is aimed at people with **life questions, conflicts, crises, and decisions**, not at the treatment of mental disorders.\n- It makes **no diagnoses** and promises **no cure**.\n- It refrains from using medical-practice terms such as “therapy” for one’s own services unless the corresponding authorization exists.\n- It can take place **alongside** treatment if this is coordinated and no competing interventions arise.\n\nFurther limits concern **confidentiality**: for certain professional groups, such as state-recognized social workers and social pedagogues or professional psychologists with a state-recognized academic final examination, the disclosure of private secrets is a criminal offense under **§ 203 StGB** (German Criminal Code). Independently of this, professional ethics and data protection require confidentiality. Exceptions exist, for example, in the case of consent and in situations of necessity.\n\nProfessionally, one’s own **limits of competence** must be respected: What exceeds my qualifications? Where do I need supervision? Where am I personally too entangled, for example in dual relationships?"
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements correctly describe the limits of psychological counseling that does not involve the practice of medicine? (Multiple answers possible)",
+   "optionen": [
+    "It may not diagnose mental disorders.",
+    "It may treat a diagnosed depression on its own responsibility if the client does not want therapy.",
+    "It can accompany people in life crises and in making decisions.",
+    "It can take place alongside psychotherapy if this is coordinated.",
+    "It may describe its services as “psychotherapy” if the methods are therapeutic."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Counseling without a license to practice medicine accompanies people with life questions and crises, including alongside and in coordination with treatment. Treating mental disorders and using medical-practice terms for one’s own services are impermissible without an Approbation or Heilpraktiker license."
+  },
+  {
+   "typ": "text",
+   "titel": "Handling Referral Responsibly",
+   "text": "Referral is **not passing someone off** but a professional service. Studies and practical experience show that many referrals fail because the hurdles are too high or clients feel rejected. A good referral includes:\n\n- **Rationale and transparency:** “What you describe should be looked at more closely by a professional, because it is very treatable. I cannot provide that in my role.”\n- **Maintaining the relationship:** making clear that the referral does not mean the end of support if accompanying counseling is sensible and coordinated.\n- **Showing concrete pathways:** in Germany, important points of contact are the **primary care physician**, the **psychotherapeutic consultation hour** (psychotherapeutische Sprechstunde) offered by psychotherapists in private practice, the **appointment service centers** of the Associations of Statutory Health Insurance Physicians (telephone 116 117), **psychiatric outpatient clinics** (Institutsambulanzen), **social psychiatric services**, **addiction counseling centers**, and specialized counseling services.\n- **Lowering hurdles:** providing contact details, calling together, preparing for waiting times.\n- **Obtaining consent:** passing information on to other services only with the client’s consent – except in acute emergencies.\n- **Following up:** asking at the next contact whether the referral worked out.\n\nA well-maintained, up-to-date **list of regional support services** is part of the basic equipment of any counseling practice."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Arrange the steps of a successful referral in a sensible order.",
+   "elemente": [
+    "Naming observations and the reason transparently and respectfully",
+    "Discussing options and suitable points of contact together",
+    "Obtaining consent for the next step and for any passing on of information",
+    "Supporting the making of contact concretely, for example by calling together",
+    "Asking at the follow-up contact whether the referral succeeded"
+   ],
+   "erklaerung": "A successful referral begins with transparency, involves the person in the choice, respects their decision, lowers practical hurdles, and does not end with handing over a telephone number but with following up."
+  },
+  {
+   "typ": "merke",
+   "text": "Knowing one’s own limits is not a sign of weakness but of professionalism. Good counseling knows when to accompany – and when to pave the way to other help."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which crisis and specialist services exist in your region, and how up to date is your knowledge of them?",
+   "hinweis": "Note down points of contact for suicidal crises, addiction, violence, psychiatric emergencies, and child protection. Do you know how to reach them outside office hours? Is there a crisis plan in your institution?"
+  }
+ ]
+}

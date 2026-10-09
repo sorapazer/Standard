@@ -1,0 +1,193 @@
+{
+ "id": "L3-2",
+ "titel": "Structure of a Logotherapeutic Counseling Session",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Why Structure?",
+   "text": "Logotherapeutic conversations thrive on openness and improvisation. Nevertheless, a **structure** is helpful: it gives counselors orientation, protects against premature offers of meaning, and ensures that important clarifications – for instance regarding danger or responsibility – are not forgotten.\n\nThe following division into phases is a **working model** for this certificate program. It combines general counseling standards with logotherapeutic emphases. The phases are not strictly linear; in practice one will move back and forth between them.\n\n1. **Contact and building the relationship** – arriving, setting, trust.\n2. **Clarifying the concern and the mandate** – What brings the person here, what should change, what can counseling achieve?\n3. **Exploration** – situation, experience, conditioning factors, resources; including assessment of risks.\n4. **Orientation toward meaning and values** – Which values are affected? Where is there room for freedom? Which attitudes are helpful or obstructive?\n5. **Decision and concrete steps** – What does the person want to do, or what attitude does he or she want to adopt?\n6. **Closing and transfer** – summary, acknowledgment, agreements.\n\nThis structure can apply to a single conversation but also to a counseling process over several sessions. In that case exploration, for instance, will take up more room, and phase 4 will extend over several appointments."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the phases of the working model in the correct order.",
+   "elemente": [
+    "Contact and building the relationship",
+    "Clarifying the concern and the mandate",
+    "Exploration including risk assessment",
+    "Orientation toward meaning and values",
+    "Decision and concrete steps",
+    "Closing and transfer"
+   ],
+   "erklaerung": "The working model begins with contact and clarification of the mandate, continues with exploration, then opens the view to values and freedoms, leads to decisions, and concludes with summary and transfer. In practice, loops between the phases are common."
+  },
+  {
+   "typ": "text",
+   "titel": "Contact, Concern, and Mandate",
+   "text": "The **contact phase** is about creating an atmosphere in which the person feels safe. This includes a friendly greeting, information about the setting (time, confidentiality and its limits, costs if applicable), and room to arrive.\n\nIn the phase of **clarifying the concern and the mandate**, three questions must be distinguished:\n\n- **Occasion**: What prompted the person to seek counseling right now?\n- **Concern**: What does he or she want to clarify or change for himself or herself?\n- **Mandate**: What should the counselor contribute to this – and what can counseling achieve in this setting?\n\nEspecially in **referral contexts** (youth welfare services, employers, relatives), the person's concern often differs from that of the referring party. Here it is worthwhile to ask explicitly about the person's **own** concern.\n\nOf logotherapeutic significance is that behind an ostensibly practical concern there is often a **question of meaning or values**: whoever asks whether he should change jobs is often also asking what he wants to work for. Counselors should perceive this level without prematurely making it the topic. It becomes the subject of counseling when the person takes it up or when it emerges clearly in the course of the conversation.\n\nIdeally, the clarification of the mandate ends with a jointly formulated statement of what is to be worked on."
+  },
+  {
+   "typ": "luecke",
+   "text": "In clarifying the mandate, one distinguishes the {{occasion|mandate|closing}} (why right now?), the {{concern|offer|assessment}} (what does the person want to clarify?), and the mandate given to counseling. In {{referral contexts|self-referral contexts|group contexts}}, particular attention must be paid to the person's own concern.",
+   "erklaerung": "Occasion, concern, and mandate must be distinguished. If a person is sent by third parties, their concern may differ from the person's own – then the person's own concern must be explicitly asked about."
+  },
+  {
+   "typ": "dialog",
+   "titel": "Clarifying the Mandate in a Mandated Context",
+   "einleitung": "Constructed situation: Ms. H., 48, an administrative employee, was sent to the company's social counseling service by her supervisor after several conflicts in the team. She sits down with her arms crossed.",
+   "runden": [
+    {
+     "klient": "I'm only here because my boss wants me to be. I don't really have a problem.",
+     "antworten": [
+      {
+       "text": "Your boss has already told me that there are conflicts. We should talk about that.",
+       "gut": false,
+       "feedback": "The counselor adopts the referring party's concern and confirms the feeling of being controlled by others. It also remains unclear what happens with the information from the boss."
+      },
+      {
+       "text": "So you were sent here rather than wanting to come yourself. That's not a pleasant starting point.",
+       "gut": true,
+       "feedback": "Good. The counselor openly acknowledges the mandated context without glossing over it. This creates an honest basis for clarifying the mandate."
+      },
+      {
+       "text": "Everyone has a problem somewhere, don't they?",
+       "gut": false,
+       "feedback": "The remark seems trivializing and slightly intrusive. It tends to increase resistance."
+      }
+     ]
+    },
+    {
+     "klient": "No, it isn't. And I don't know what you'll tell my boss afterward either.",
+     "antworten": [
+      {
+       "text": "You'll just have to trust me.",
+       "gut": false,
+       "feedback": "Trust cannot be demanded. Ms. H. needs transparent information about the setting."
+      },
+      {
+       "text": "We'll talk about that later; right now it's about you.",
+       "gut": false,
+       "feedback": "The concern about confidentiality is postponed. As long as it remains unclarified, Ms. H. will hardly open up."
+      },
+      {
+       "text": "That's an important question. What we discuss here stays confidential; your boss will only learn whether you were here – and only that if you agree. Is there anything else you'd like to know about the setting?",
+       "gut": true,
+       "feedback": "Good. The counselor clarifies the setting transparently and invites further questions. The concrete arrangement must of course correspond to the institution's actual agreement."
+      }
+     ]
+    },
+    {
+     "klient": "Okay. Well … if I'm honest, the mood in the team is really bad. But it's not because of me.",
+     "antworten": [
+      {
+       "text": "So the mood in the team weighs on you too. If we use the time here – what would be a good outcome for you yourself, regardless of what your boss expects?",
+       "gut": true,
+       "feedback": "Good. The counselor takes up Ms. H.'s own burden and asks about her own concern. In this way, a mandate imposed by others can become her own."
+      },
+      {
+       "text": "Usually everyone involved contributes something to conflicts.",
+       "gut": false,
+       "feedback": "The statement may be true in general, but here it comes across as assigning blame and prevents the clarification of her own concern."
+      },
+      {
+       "text": "Whose fault is it, in your opinion?",
+       "gut": false,
+       "feedback": "The question invites a search for blame before it is clear what Ms. H. herself wants to work on. The conversation threatens to tip into justifications."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "text",
+   "titel": "Exploration and Assessment",
+   "text": "In the **exploration phase**, the person's situation is explored together. Logotherapeutically oriented exploration pays attention to all three dimensions:\n\n- **Somatic**: health, sleep, illnesses, medications, substance use.\n- **Psychological**: feelings, moods, patterns, stresses, resources, earlier crises and how they were coped with.\n- **Noetic**: What is important to the person? What has he or she committed himself or herself to so far? Which values are violated or threatened? Where does he or she experience himself or herself as free, where as at the mercy of circumstances?\n\nSocial conditions also belong to exploration: housing situation, finances, relationships, work.\n\nAn indispensable component is **risk assessment**. When there are signs of hopelessness or statements about the meaninglessness of life, the counselor should ask directly and respectfully about **suicidal thoughts**. According to professional consensus, asking directly does not increase the risk but often brings relief. Equally important is asking about **violence**, about threats to a child's welfare, and about acute crises.\n\nIf the assessment reveals indications of danger or an illness requiring treatment, **safety and referral take priority** over work on meaning. A question of meaning is not thereby devalued; it is placed in an appropriate framework.\n\nExploration is at the same time relationship work: by telling his or her story, the person experiences being heard – and often already begins to see his or her situation in a new way."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements about the exploration phase are professionally accurate? (Several answers are correct)",
+   "optionen": [
+    "It takes into account somatic, psychological, and noetic aspects as well as social conditions.",
+    "Suicidal thoughts should be asked about only if the person raises them, since asking increases the risk.",
+    "If a danger emerges, safety and referral take priority over work on meaning.",
+    "The question of what has been important to the person so far already belongs to exploration.",
+    "In exploration, counselors should already propose concrete solutions."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Exploration is multidimensional, includes risk assessment, and also explores values. According to professional consensus, asking directly about suicidal thoughts does not increase the risk and is called for when there are indications. Proposals for solutions do not belong in exploration."
+  },
+  {
+   "typ": "text",
+   "titel": "Orientation toward Meaning, Decision, and Closing",
+   "text": "In the phase of **orientation toward meaning and values**, attention is directed to the possibilities that lie in the situation. Typical working steps are:\n\n- **Identifying freedoms**: What is unalterable, what is changeable? Where is there scope for action, where scope for attitude?\n- **Clarifying values**: What is important to the person? Which values collide?\n- **Exploring possibilities of meaning**: What options are there? Which one corresponds most closely to what the person experiences with his or her conscience as right?\n- **Examining attitudes**: Which attitudes help, which block?\n\nIn the **decision phase**, a concrete next step emerges from the multitude of possibilities. Logotherapeutically important: the person makes the decision. The goal is not the “perfect” solution but a **responsible** choice. It is helpful to formulate steps small and concrete.\n\nIn the **closing**, the most important insights are summarized – ideally by the person himself or herself. The counselor acknowledges what has been worked out and agrees on how to proceed. Helpful closing questions include: “What are you taking away from today's conversation?” or “What will your first step be?”\n\nIn processes over several sessions, the closing also includes **evaluation**: What has changed? What was helpful? Has the concern been met, or are other forms of help needed?"
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the interventions to the appropriate phase of the conversation.",
+   "kategorien": [
+    "Clarifying the mandate",
+    "Exploration",
+    "Orientation toward meaning and values",
+    "Closing"
+   ],
+   "elemente": [
+    {
+     "text": "“What would you like to clarify for yourself today?”",
+     "kat": 0
+    },
+    {
+     "text": "“Youth welfare services sent you – what would be a good outcome for you yourself?”",
+     "kat": 0
+    },
+    {
+     "text": "“How are you sleeping at the moment?”",
+     "kat": 1
+    },
+    {
+     "text": "“Have you recently thought about taking your own life?”",
+     "kat": 1
+    },
+    {
+     "text": "“Which of this can you not change – and where do you have room to maneuver?”",
+     "kat": 2
+    },
+    {
+     "text": "“Which of these paths feels right to you?”",
+     "kat": 2
+    },
+    {
+     "text": "“What are you taking away from today's conversation?”",
+     "kat": 3
+    }
+   ],
+   "erklaerung": "Questions about the concern and the person's own goal belong to clarifying the mandate. Questions about sleep and suicidality are part of exploration and risk assessment. Freedoms and what feels right concern orientation toward meaning and values. The question about what the person is taking away belongs to the closing."
+  },
+  {
+   "typ": "fall",
+   "titel": "When Structure Takes Priority",
+   "fall": "Constructed teaching vignette: A student comes to her university's psychosocial counseling service and says right at the start: “I don't know why I'm still doing all this. It doesn't really matter whether I'm here or not.” She seems exhausted and speaks quietly.",
+   "frage": "What should the counselor do next?",
+   "optionen": [
+    "Work directly with the question of meaning and ask what used to bring the student joy.",
+    "Acknowledge the statement and ask gently but directly whether the student is having thoughts of taking her own life.",
+    "Refer the student to academic advising, since the issue is study motivation.",
+    "Pass over the statement for now and explain the general conditions of the counseling."
+   ],
+   "richtig": 1,
+   "erklaerung": "“It doesn't matter whether I'm here” may indicate suicidality. Risk assessment takes priority and already belongs to exploration; asking directly is professionally required. Only after the assessment can the question of meaning be addressed appropriately. Referral to academic advising misjudges the distress; passing over it would be negligent."
+  },
+  {
+   "typ": "merke",
+   "text": "Structure provides support, not shackles: contact, mandate, exploration with risk assessment, orientation toward meaning and values, decision, closing. When there are indications of danger, safety and referral take priority."
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which phase of the working model tends to be neglected in your counseling practice so far? What would change if you gave it more room?",
+   "hinweis": "Guiding questions: Do you clarify the mandate explicitly? How much of a matter of course is risk assessment? Who summarizes the conversation at the end – you or the person seeking help?"
+  }
+ ]
+}

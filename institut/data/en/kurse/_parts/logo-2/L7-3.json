@@ -1,0 +1,122 @@
+{
+ "id": "L7-3",
+ "titel": "Effect Sizes, Meta-Analyses and the Findings of Vos et al. (2015)",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "What Is an Effect Size?",
+   "text": "A **significant** result merely states that an observed difference would be unlikely under the assumption that there is in truth no effect. It says **nothing about how large** or practically significant the difference is. In large samples, even tiny differences can become significant.\n\nThe **effect size** answers the question of magnitude. The most common measure for group comparisons in psychotherapy research is **Cohen’s d** (or the slightly corrected variant **Hedges’ g**). It expresses the difference between two group means in units of the standard deviation:\n\n- A d of 0.5 means: the intervention group lies on average half a standard deviation above (or below) the control group.\n- A d of 0 means: no difference.\n\nThe great advantage of standardized effect sizes is that results from studies with **different measurement instruments** can be compared and pooled. They therefore form the basis of meta-analyses.\n\nFurther effect size measures are the correlation coefficient r, the odds ratio for dichotomous outcomes, or the **number needed to treat**, which indicates how many people must be treated for one additional person to benefit."
+  },
+  {
+   "typ": "mc",
+   "frage": "A study reports an effect of d = 0.5 on experienced meaning for a meaning program compared with the control group. What does this mean?",
+   "optionen": [
+    "50 percent of the participants benefited.",
+    "The experienced meaning of the intervention group was on average half a standard deviation above that of the control group.",
+    "There is a 50 percent probability that the result is due to chance.",
+    "Experienced meaning improved by 0.5 points on the questionnaire."
+   ],
+   "richtig": 1,
+   "erklaerung": "Cohen’s d expresses the difference in means in standard deviation units (B). It is not a proportion of those who benefited (A), not a probability (C) and not a raw score difference (D)."
+  },
+  {
+   "typ": "text",
+   "titel": "Interpreting Effect Sizes Correctly",
+   "text": "Jacob Cohen proposed conventions according to which d values of about **0.2** are considered small, **0.5** medium and **0.8** large. These benchmarks are widespread – Cohen himself, however, emphasized that they are only a **makeshift** when no better standards of comparison are available.\n\nFor a meaningful interpretation, further questions are important:\n\n- **What was the comparison?** An effect against a waiting list is generally larger than against an active control condition. Effect sizes from different comparisons must not simply be equated.\n- **Which outcome measure?** A large effect on a measure that is very close in content to the intervention (e.g., a meaning questionnaire after a meaning program) must be evaluated differently from an effect on broader outcomes such as depressiveness or quality of life.\n- **How precise is the estimate?** The **confidence interval** indicates the range within which the true effect plausibly lies. With small samples it is wide – a seemingly large effect may then also be very small.\n- **Is the effect practically significant?** In palliative care, even a small effect on hopelessness can be clinically relevant; in other contexts, a medium effect on a secondary measure says little.\n\nEffect sizes are thus not an end in themselves but must always be read in the context of the study."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which questions are important for appropriately interpreting a reported effect size? (Multiple answers possible)",
+   "optionen": [
+    "What control condition was used for comparison?",
+    "How wide is the confidence interval?",
+    "Is the effect statistically significant – then it is automatically practically significant.",
+    "Which outcome measure does the effect refer to?",
+    "Which publisher published the study?"
+   ],
+   "richtig": [
+    0,
+    1,
+    3
+   ],
+   "erklaerung": "Control condition, precision (confidence interval) and outcome measure are central. Significance does not automatically mean practical significance (C). The publisher (E) is not decisive for interpreting an effect size; peer review and study quality are more important."
+  },
+  {
+   "typ": "text",
+   "titel": "How a Meta-Analysis Works",
+   "text": "A **meta-analysis** statistically pools the results of several studies on a research question. The term was introduced in 1976 by Gene V. Glass. The basis is usually a **systematic review**: according to criteria specified in advance, all relevant studies are searched for, selected and evaluated.\n\nThe procedure in outline:\n\n- specify the **research question and inclusion criteria** (e.g., only RCTs, a particular population, particular interventions),\n- **systematic literature search** in databases,\n- **study selection** and assessment of the risk of bias,\n- **extraction** of the effect sizes,\n- **pooling**: the effect sizes, weighted by their precision, are combined into an overall effect. Larger, more precise studies receive more weight.\n\nCentral terms:\n\n- **Heterogeneity**: do the results of the individual studies differ more than would be expected by chance? Statistics such as I² describe this. High heterogeneity means that a single overall effect describes the situation only incompletely.\n- **Moderator analyses** examine what the differences depend on, for example on the form of intervention or population.\n- **Publication bias**: studies with positive results are published more often. This can overestimate overall effects.\n\nThe quality of a meta-analysis depends on the quality of the included studies – in essence: pooling weak studies does not produce strong evidence."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the work steps of a systematic review with meta-analysis into the correct order.",
+   "elemente": [
+    "Specify the research question and inclusion criteria",
+    "Conduct a systematic literature search",
+    "Select studies and assess the risk of bias",
+    "Extract effect sizes from the studies",
+    "Pool the effect sizes with weighting and examine heterogeneity"
+   ],
+   "erklaerung": "The criteria specified in advance protect against a subsequent, results-driven selection. Only after systematic searching, selection and assessment are the data extracted and pooled."
+  },
+  {
+   "typ": "luecke",
+   "text": "If the results of the individual studies in a meta-analysis differ more than would be expected by chance, this is called {{heterogeneity|reliability|randomization}}. The preferential publication of positive results is called {{publication bias|regression to the mean|intention-to-treat}} and can {{overestimate|underestimate|not affect}} the overall effect.",
+   "erklaerung": "Heterogeneity limits the informative value of a single overall effect. Publication bias tends to lead to overestimation because studies without a positive finding are missing from the literature."
+  },
+  {
+   "typ": "text",
+   "titel": "The Meta-Analysis by Vos, Craig and Cooper (2015)",
+   "text": "An important integrative contribution to the field of existential therapies is the meta-analysis by **Joel Vos, Megan Craig and Mick Cooper**, published in 2015 in the *Journal of Consulting and Clinical Psychology*. The authors pooled **randomized controlled trials** on various forms of existential therapy, distinguishing several families of interventions, including explicitly **meaning-centered** approaches and other existentially oriented approaches.\n\nSummarized qualitatively, the following core findings emerged:\n\n- For **structured, meaning-centered interventions**, which often contained psychoeducational elements and explicitly addressed sources of meaning, there were indications of **favorable effects**, especially on experienced meaning and in part also on psychopathological distress.\n- For other existential approaches, the **findings were less clear**.\n- The included studies were **heterogeneous** in populations, interventions and outcome measures. Many studies examined people with physical illnesses, such as cancer.\n- The authors pointed to limitations in study quality and to the need for further research.\n\nFor logotherapy the work is significant because it shows that structured forms of meaning-centered work have been tested empirically. It does **not**, however, demonstrate that every form of logotherapeutic practice is effective – and the findings apply first and foremost to the interventions and populations studied."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "The meta-analysis by Vos et al. (2015) showed uniformly strong effects for all forms of existential therapy.",
+   "richtig": false,
+   "erklaerung": "False. Favorable findings emerged above all for structured, meaning-centered interventions; for other existential approaches the findings were less clear. In addition, the authors emphasized the heterogeneity of the studies."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which conclusion from the meta-analysis by Vos et al. (2015) is most justified?",
+   "optionen": [
+    "The effectiveness of Frankl’s classical logotherapy has been demonstrated in all fields of application.",
+    "Existential therapies are fundamentally ineffective.",
+    "For structured, meaning-centered interventions there are indications of favorable effects, although heterogeneity and study quality call for cautious interpretation.",
+    "Meaning-centered interventions are superior to all other psychotherapeutic approaches."
+   ],
+   "richtig": 2,
+   "erklaerung": "Option C reflects the findings in a balanced way. A overgeneralizes to all forms and fields, B contradicts the findings, D makes a claim that the meta-analysis did not examine – it did not compare with all other approaches."
+  },
+  {
+   "typ": "karten",
+   "titel": "Effect Sizes and Meta-Analyses",
+   "karten": [
+    {
+     "vorne": "Cohen’s d",
+     "hinten": "Standardized mean difference in units of the standard deviation."
+    },
+    {
+     "vorne": "Cohen’s conventions",
+     "hinten": "d ≈ 0.2 small, 0.5 medium, 0.8 large – intended only as a rough makeshift."
+    },
+    {
+     "vorne": "Confidence interval",
+     "hinten": "Range within which the true effect plausibly lies with a specified level of certainty; wide in small samples."
+    },
+    {
+     "vorne": "I²",
+     "hinten": "Statistic for the proportion of variability between studies that is due to real differences rather than chance (heterogeneity)."
+    },
+    {
+     "vorne": "Vos et al. (2015)",
+     "hinten": "Meta-analysis of RCTs on existential therapies; most favorable findings for structured, meaning-centered interventions; heterogeneous body of studies."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "How would you explain to an interested client in two or three sentences what research knows about the effectiveness of meaning-centered approaches – and what it does not?",
+   "hinweis": "Guiding questions: How do you avoid exaggeration without downplaying the findings? Which terms are understandable? What matters to you about honesty?"
+  }
+ ]
+}

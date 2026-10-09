@@ -1,0 +1,107 @@
+{
+ "titel": "Theory of Meaning and Values",
+ "beschreibung": "The module unfolds Frankl's teaching on the three categories of values and on conscience as the “organ of meaning,” situates self-transcendence and supra-meaning, and shows the connections to Max Scheler's material ethics of values. Existential vacuum, existential frustration, and noogenic neurosis are then distinguished, and a bridge is built to today's research on meaning, particularly qualitative research.",
+ "lernziele": [
+  "You can distinguish creative values, experiential values, and attitudinal values and explain them using examples from counseling practice.",
+  "You can describe conscience as the “organ of meaning” and use the terms self-transcendence and supra-meaning precisely.",
+  "You can present central connections and differences between Frankl's theory of values and Max Scheler's material ethics of values.",
+  "You can differentiate existential vacuum, existential frustration, and noogenic neurosis from one another and from psychogenic disorders.",
+  "You can classify quantitative and qualitative approaches of today's research on meaning and make them useful for counseling."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "Through which category of values does a person realize meaning when he or she faces an unalterable serious illness with dignity?",
+   "optionen": [
+    "Attitudinal values",
+    "Creative values",
+    "Experiential values",
+    "Vital values"
+   ],
+   "richtig": 0,
+   "erklaerung": "The attitude toward unalterable fate is the domain of attitudinal values. Vital values are a term from Scheler's hierarchy, not one of Frankl's three categories of values."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which elements belong to the tragic triad? (Several answers are correct)",
+   "optionen": [
+    "Suffering",
+    "Anxiety",
+    "Guilt",
+    "Death",
+    "Boredom"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "The tragic triad comprises suffering, guilt, and death. Anxiety and boredom do not belong to it; boredom is a leading symptom of the existential vacuum."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Frankl called conscience the “organ of meaning,” which senses the unique meaning of a situation but can err.",
+   "richtig": true,
+   "erklaerung": "For Frankl, conscience is intuitive, situation-related, and fallible."
+  },
+  {
+   "typ": "mc",
+   "frage": "According to Frankl, how does self-actualization relate to self-transcendence?",
+   "optionen": [
+    "Self-actualization is the supreme goal, self-transcendence a means to it.",
+    "The two terms are synonymous.",
+    "Self-transcendence is possible only in religious contexts.",
+    "Self-actualization arises as a side effect of self-transcendence."
+   ],
+   "richtig": 3,
+   "erklaerung": "According to Frankl, self-actualization does not succeed through direct striving but as a side effect of devotion to something or someone beyond the self. Self-transcendence is not bound to religiousness."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which idea of Max Scheler particularly influenced Frankl's concept of conscience?",
+   "optionen": [
+    "The derivation of all values from the categorical imperative",
+    "The reduction of values to social conventions",
+    "The intentional feeling of values, in which values are directly grasped",
+    "The thesis that values are conditioned through learning processes"
+   ],
+   "richtig": 2,
+   "erklaerung": "Scheler's material ethics of values understands values as qualities grasped in feeling and preferring. Frankl's intuitive conscience ties in with this. Scheler in fact criticized Kant's formalism."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to Frankl, existential frustration is a mental illness that must always be treated psychotherapeutically.",
+   "richtig": false,
+   "erklaerung": "Frankl emphasized that existential frustration is a spiritual distress and not an illness. Only noogenic neurosis is a neurotic illness of spiritual origin."
+  },
+  {
+   "typ": "mc",
+   "frage": "What characterizes a noogenic neurosis?",
+   "optionen": [
+    "It has its origin in the spiritual dimension, for instance in conflicts of conscience or values.",
+    "It is caused exclusively by physical factors.",
+    "It always arises from early childhood trauma.",
+    "It manifests itself in specific symptoms that occur only with it."
+   ],
+   "richtig": 0,
+   "erklaerung": "Noogenic neuroses are rooted in the spiritual. Their symptoms are often nonspecific; somatic causes characterize somatogenic, psychological causes psychogenic clinical pictures."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements about today's research on meaning are accurate? (Several answers are correct)",
+   "optionen": [
+    "The MLQ distinguishes between the presence of meaning and the search for meaning.",
+    "Qualitative interviews formed a basis for the development of the LeBe.",
+    "Cross-sectional studies clearly prove that meaning causes well-being.",
+    "Existential indifference denotes a low experience of meaning without distress.",
+    "Qualitative research specializes in frequency data for the general population."
+   ],
+   "richtig": [
+    0,
+    1,
+    3
+   ],
+   "erklaerung": "The MLQ separates presence and search; the LeBe was developed on the basis of qualitative preliminary work; existential indifference means low meaningfulness without crisis. Cross-sectional data do not permit causal statements, and statements about frequency are the task of quantitative research."
+  }
+ ]
+}

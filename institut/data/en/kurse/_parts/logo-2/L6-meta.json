@@ -1,0 +1,107 @@
+{
+ "titel": "Fields of Application",
+ "beschreibung": "This module introduces central fields of practice for logotherapeutic counseling and support: crises of meaning, occupational exhaustion, life transitions and old age, unemployment, palliative care and addiction. For each field, the specific logotherapeutic approaches, related research findings and the limits of the counseling role are presented.",
+ "lernziele": [
+  "You can distinguish crises of meaning, existential indifference and mental disorders from one another and respond to them appropriately.",
+  "You can classify burnout according to ICD-11 (QD85) as an occupational phenomenon, distinguish it from depression and describe logotherapeutic perspectives on it.",
+  "You can connect life transitions, old age, retirement and unemployment with Frankl’s concepts of Sunday neurosis and unemployment neurosis.",
+  "You can explain the structure, goals and state of research of Breitbart’s Meaning-Centered Psychotherapy in palliative care.",
+  "You can reflect on the connection between addiction and meaning and classify the role of meaning-oriented support within the addiction care system."
+ ],
+ "pruefung": [
+  {
+   "typ": "mc",
+   "frage": "According to Schnell, how does existential indifference differ from a crisis of meaning?",
+   "optionen": [
+    "In existential indifference, little meaning is experienced, but the lack is not experienced as distressing.",
+    "Existential indifference is a more severe form of crisis of meaning with clinical significance.",
+    "In existential indifference, much meaning is experienced but not reflected upon.",
+    "Existential indifference occurs only in old age."
+   ],
+   "richtig": 0,
+   "erklaerung": "Existential indifference denotes low experienced meaning without an experience of crisis and without active searching. It is not an illness (B), not a high level of experienced meaning (C) and not tied to any particular age (D)."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "In ICD-11, burnout (QD85) is classified as a mental illness in the chapter on mental disorders.",
+   "richtig": false,
+   "erklaerung": "False. Burnout is placed in the chapter “Factors influencing health status or contact with health services” and is explicitly described by the WHO as an occupational phenomenon, not as a medical condition."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which features belong to the ICD-11 description of burnout? (Multiple answers possible)",
+   "optionen": [
+    "Reference exclusively to the occupational context",
+    "Feelings of energy depletion or exhaustion",
+    "Mental distance or cynicism toward one’s job",
+    "A mandatory diagnosis of a depressive episode",
+    "A sense of ineffectiveness"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "erklaerung": "ICD-11 describes burnout as an occupational phenomenon with the dimensions of exhaustion, mental distance/cynicism and experienced ineffectiveness. A depressive episode is not a prerequisite (D) but must be examined in the differential diagnosis."
+  },
+  {
+   "typ": "mc",
+   "frage": "What does Frankl’s term “Sunday neurosis” describe?",
+   "optionen": [
+    "An adjustment disorder classified in ICD-11",
+    "An anxiety disorder that occurs on religious holidays",
+    "Exhaustion after a busy working week",
+    "The emergence, in work-free time, of an existential vacuum that is covered up in everyday life"
+   ],
+   "richtig": 3,
+   "erklaerung": "Sunday neurosis is a phenomenological description, not a diagnosis (A). It denotes inner emptiness becoming visible when the busyness of everyday life falls away – not holiday anxiety (B) or mere exhaustion (C)."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which source of meaning does Meaning-Centered Psychotherapy particularly add to Frankl’s three categories of values?",
+   "optionen": [
+    "The material source of meaning of prosperity",
+    "The historical source of meaning of life as a legacy",
+    "The physical source of meaning of health",
+    "The cognitive source of meaning of self-optimization"
+   ],
+   "richtig": 1,
+   "erklaerung": "In addition to creative, experiential and attitudinal values, MCP emphasizes the historical source of meaning: life as a legacy that has been received, lived and is to be passed on."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Meaning-Centered Group Psychotherapy has also been compared in a randomized trial with an active control condition (supportive group psychotherapy).",
+   "richtig": true,
+   "erklaerung": "True. Breitbart et al. (2015) compared MCP with supportive group psychotherapy. Comparison with an active condition is methodologically more demanding than comparison with a waiting list."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements about the role of logotherapeutic counseling in the context of addiction are correct? (Multiple answers possible)",
+   "optionen": [
+    "It can complement the addiction care system in motivation and aftercare.",
+    "It can replace medically supervised withdrawal if motivation is high.",
+    "Counselors should never advise unsupervised withdrawal from alcohol or benzodiazepines.",
+    "The diagnosis of a substance dependence belongs in medical or psychotherapeutic hands."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Logotherapeutic counseling complements addiction services but does not replace medical treatment (B). Unsupervised withdrawal can be life-threatening; diagnosis is the task of appropriately qualified professionals."
+  },
+  {
+   "typ": "mc",
+   "frage": "What conclusion did Frankl draw from his observations of young unemployed people in Vienna?",
+   "optionen": [
+    "Unemployment inevitably leads to depression.",
+    "Material hardship is irrelevant to psychological well-being.",
+    "What matters is the experience of having a meaningful task; unpaid activities could alleviate depressive moods despite hardship.",
+    "Only paid work can provide meaning."
+   ],
+   "richtig": 2,
+   "erklaerung": "Frankl observed that young unemployed people who took on meaningful unpaid tasks suffered less from depressed mood. He claimed neither an automatic link (A) nor the irrelevance of material hardship (B), and he explicitly contradicted the equation of meaning with paid work (D)."
+  }
+ ]
+}

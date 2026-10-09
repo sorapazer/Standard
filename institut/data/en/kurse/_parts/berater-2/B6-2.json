@@ -1,0 +1,206 @@
+{
+ "id": "B6-2",
+ "titel": "Principles of Crisis Intervention",
+ "dauer": 25,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Goals of Crisis Intervention",
+   "text": "Crisis intervention is **time-limited, focused help** for people in acute psychosocial crises. It differs markedly from longer-term counseling or psychotherapy: the aim is not to work through the life history or to change personality patterns, but to absorb an acute destabilization.\n\nThe central goals are:\n\n- **Establishing safety**: recognizing and averting danger, in particular suicidality and danger to others.\n- **Relief and stabilization**: enabling emotional relief, limiting overwhelm, providing orientation.\n- **Restoring the capacity to act**: supporting the person in taking their own steps again and using their own resources.\n- **Preventing unfavorable developments**: chronification, substance misuse, social withdrawal, the development of mental illness.\n- **Referral**: where necessary, transition to appropriate further help.\n\nCrisis intervention initially aims at restoring the **previous equilibrium**. In favorable cases, a crisis can moreover become a starting point for development – the opportunity contained in the concept of crisis. This opportunity must not be emphasized prematurely, however: someone in an acute crisis who hears that “there is something good in it, too” often does not feel understood."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "An important goal of crisis intervention is to work through, as quickly as possible during the acute phase, earlier life experiences and personality patterns that contributed to the crisis.",
+   "richtig": false,
+   "erklaerung": "False. Crisis intervention focuses on the current situation, on safety, relief, and restoring the capacity to act. Working through life-history patterns may be useful later in counseling or psychotherapy, but in the acute situation it would tend to destabilize the person further."
+  },
+  {
+   "typ": "text",
+   "titel": "Basic Principles According to Sonneck",
+   "text": "From the work of the Vienna Crisis Intervention Center, Sonneck formulated basic principles that have proven themselves in practice:\n\n- **Prompt start**: Crises require timely help. Long waiting times increase the risk of escalation. Even a first phone call can bring relief.\n- **Activity**: The helping person is more active and structuring than in other forms of counseling. They ask targeted questions, summarize, provide orientation, and suggest steps.\n- **Methodological flexibility**: Whatever helps in the situation is used – relieving conversations, practical support, psychoeducation, involvement of relatives, concurrent medical treatment.\n- **Focus on the current situation and the trigger**: The focus is on what triggered the crisis and on the question of what is necessary now.\n- **Involvement of the environment**: Significant others and the social network are involved – with consent – because they can provide support and increase safety.\n- **Relief**: Feelings may be expressed without being judged or prematurely “solved.”\n- **Cooperation**: with the affected person as an active partner and with other helping institutions.\n\nIn addition, there is the **time limit**: crisis intervention often comprises only a few contacts. This limit should be made transparent and combined with planning follow-up help."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the actions to the basic principles of crisis intervention.",
+   "paare": [
+    [
+     "The counseling center offers an appointment on the same day.",
+     "prompt start"
+    ],
+    [
+     "The counselor clearly structures the conversation and summarizes the next steps.",
+     "activity"
+    ],
+    [
+     "With the client’s consent, her sister is brought into the conversation.",
+     "involvement of the environment"
+    ],
+    [
+     "The conversation concentrates on last week’s separation and the next few days.",
+     "focus on the current situation"
+    ],
+    [
+     "In addition to the conversation, an appointment with the family doctor is arranged and help is given with an application.",
+     "methodological flexibility"
+    ]
+   ],
+   "erklaerung": "The basic principles describe active, timely, flexible, present-oriented help that involves the social environment."
+  },
+  {
+   "typ": "text",
+   "titel": "The BELLA Scheme",
+   "text": "In German-speaking countries, the **BELLA scheme**, which goes back to Sonneck and the Vienna Crisis Intervention Center, has become widespread as a memorable conversation structure for crisis intervention (the acronym follows the German terms):\n\n- **B – Building a relationship** (*Beziehung aufbauen*): conveying calm, attention, and reliability; introducing oneself, clarifying the framework, listening. Without a sustainable relationship, no intervention is possible.\n- **E – Assessing the situation** (*Erfassen der Situation*): What happened? What is the trigger? What is the current state? What danger exists – in particular suicidality? What resources are there?\n- **L – Relieving symptoms** (*Linderung von Symptomen*): enabling relief, allowing feelings, dampening overarousal, ensuring sleep and basic needs; if necessary, involving medical help, for instance for relief through medication.\n- **L – Involving other people** (*Leute einbeziehen*): bringing in supportive people from the environment and professional helpers; reducing isolation.\n- **A – Approach to problem-solving** (*Ansatz zur Problembewältigung*): jointly developing concrete, small next steps that the person can take themselves; planning follow-up help.\n\nThe scheme is **not a rigid sequence**. The relationship must be maintained throughout the conversation, and the assessment of danger may become necessary again at any time. It serves as a memory aid so that nothing essential is forgotten in emotionally charged situations."
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the elements of the BELLA scheme in the order dictated by the acronym.",
+   "elemente": [
+    "Building a relationship (Beziehung aufbauen)",
+    "Assessing the situation (Erfassen der Situation)",
+    "Relieving symptoms (Linderung von Symptomen)",
+    "Involving other people (Leute einbeziehen)",
+    "Approach to problem-solving (Ansatz zur Problembewältigung)"
+   ],
+   "erklaerung": "BELLA stands for relationship (Beziehung), assessing (Erfassen), relief (Linderung), people (Leute), approach (Ansatz). The scheme is an orientation; in practice, the elements interlock."
+  },
+  {
+   "typ": "merke",
+   "text": "Safety first, then stabilization, then problem-solving: in a crisis, the first task is to recognize danger and provide support – only after that does it come to solutions."
+  },
+  {
+   "typ": "text",
+   "titel": "Conducting Conversations in an Acute Crisis",
+   "text": "People in acute crises are often emotionally overwhelmed, narrowed in their attention, and blocked in their thinking. This results in particular demands on how the conversation is conducted:\n\n- **Radiate calm**: speak slowly and clearly, use short sentences, avoid hurry. The calm of the helping person is transmitted.\n- **Listen and signal understanding**: name and acknowledge feelings (“It sounds as if the ground has been pulled out from under your feet”). Hold back judgments and advice in the initial phase.\n- **Provide structure**: bring order to the chaos by summarizing and asking targeted questions: What happened? What is most urgent right now?\n- **Stay concrete and present-oriented**: ask about the here and now and the next hours or days instead of distant questions about the future.\n- **Ask about resources**: Who can be with you this evening? What helped you in difficult times in the past?\n- **No false promises**: statements such as “Everything will be fine” seem implausible. Realistic confidence is more helpful: “Let us look together now at what can give you support over the next few days.”\n- **Keep basic needs in view**: Has the person eaten, had something to drink, slept? Are they able to get home safely?\n\nParticularly important: **suicidality is actively addressed in every crisis intervention**, regardless of whether the person mentions it on their own. How this can be done is the topic of the next lesson."
+  },
+  {
+   "typ": "mc",
+   "frage": "A woman calls in despair: her husband left her this morning, she has been crying for hours and does not know what to do. Which response best corresponds to the principles of crisis intervention?",
+   "optionen": [
+    "“That is terrible, but separations are common. In a few months, the world will already look different.”",
+    "“Please tell me about your childhood first, so that I understand why you are reacting so strongly.”",
+    "“You should get a lawyer immediately to secure your rights.”",
+    "“I can hear how deeply this has shaken you. I am here for you now. Tell me what happened today – and then let us look together at what you need for today.”"
+   ],
+   "richtig": 3,
+   "erklaerung": "The correct answer combines relationship building, acknowledgment of the experience, and structure with a focus on the current situation. The first answer trivializes, the second abandons the focus on the present, and the third jumps prematurely to problem-solving before relationship building and assessment of the situation have taken place."
+  },
+  {
+   "typ": "dialog",
+   "titel": "The First Minutes of Crisis Counseling",
+   "einleitung": "Constructed situation: Ms. D., 38 years old, comes without an appointment to a general life counseling center. Her brother died unexpectedly of a heart attack two days ago. She seems agitated and speaks haltingly.",
+   "runden": [
+    {
+     "klient": "I don’t even know why I’m here. I can’t think. Everything is so unreal.",
+     "antworten": [
+      {
+       "text": "You are in the right place. I have time for you now. Would you like to sit down and have a glass of water? We will take things very calmly.",
+       "gut": true,
+       "feedback": "Good. In a shock-like state, safety, attention, and simple, concrete offers provide support. You build a relationship without overwhelming her."
+      },
+      {
+       "text": "The feeling of unreality is typical of the shock phase according to Cullberg. The reaction phase then follows.",
+       "gut": false,
+       "feedback": "Specialist knowledge is out of place here. Psychoeducation comes later; right now Ms. D. needs support and orientation."
+      },
+      {
+       "text": "Didn’t you make an appointment? We normally only work by appointment.",
+       "gut": false,
+       "feedback": "Organizational hurdles in an acute crisis violate the principle of a prompt start and can be experienced as rejection."
+      }
+     ]
+    },
+    {
+     "klient": "My brother is dead. Just like that. The day before yesterday. We were still talking on the phone on Sunday.",
+     "antworten": [
+      {
+       "text": "At least you still had that phone call. That is a nice last contact, isn’t it?",
+       "gut": false,
+       "feedback": "The attempt to comfort prematurely reinterprets the experience and can come across as relativizing the loss."
+      },
+      {
+       "text": "Your brother died very suddenly, and on Sunday you were still talking to him. That is hard to grasp.",
+       "gut": true,
+       "feedback": "Good. You simply mirror what was said and acknowledge how incomprehensible it is, without interpreting or judging."
+      },
+      {
+       "text": "What exactly did he die of? Did he have any pre-existing conditions?",
+       "gut": false,
+       "feedback": "Detailed questions about the cause of death serve curiosity more than stabilization and distract from the client’s experience."
+      }
+     ]
+    },
+    {
+     "klient": "I’m not sleeping, I’m not eating. My mother keeps calling, and I’m supposed to organize the funeral. I can’t manage it.",
+     "antworten": [
+      {
+       "text": "You have to be strong now; your mother needs you.",
+       "gut": false,
+       "feedback": "Appeals to strength increase the pressure and pass over the overload."
+      },
+      {
+       "text": "Then we should now make a detailed list of all the tasks for the funeral.",
+       "gut": false,
+       "feedback": "Problem-solving is useful in principle, but here it comes too early and is too comprehensive. First, the focus is on relief, basic needs, and support."
+      },
+      {
+       "text": "That is a great deal all at once, and you are completely exhausted. Let us look at who can stand by you now – and what you need today to eat something and get some rest.",
+       "gut": true,
+       "feedback": "Good. You acknowledge the overload, pay attention to basic needs (relieving symptoms), and ask about supportive people (involving other people)."
+      }
+     ]
+    },
+    {
+     "klient": "My husband is there. But I don’t want to burden him. And sometimes I think I can’t bear all this.",
+     "antworten": [
+      {
+       "text": "When you say you can’t bear all this – have you also thought in the last few days about not wanting to live anymore?",
+       "gut": true,
+       "feedback": "Good. The statement is a possible indication of suicidal thoughts. You take it up and ask directly and calmly. This is required in every crisis intervention."
+      },
+      {
+       "text": "This will pass. After a while it will get easier.",
+       "gut": false,
+       "feedback": "The reassurance passes over a possible indication of suicidality. You miss the chance to assess the danger."
+      },
+      {
+       "text": "But that’s what your husband is there for. You should definitely involve him.",
+       "gut": false,
+       "feedback": "Involving the partner is important, but here the answer passes over the second, weightier part of the statement."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "karten",
+   "titel": "Crisis Intervention at a Glance",
+   "karten": [
+    {
+     "vorne": "Goals of crisis intervention",
+     "hinten": "Safety, relief and stabilization, restoring the capacity to act, preventing unfavorable developments, referral."
+    },
+    {
+     "vorne": "Basic principles according to Sonneck",
+     "hinten": "Prompt start, activity, methodological flexibility, focus on the current situation, involvement of the environment, relief, cooperation."
+    },
+    {
+     "vorne": "BELLA",
+     "hinten": "Building a relationship – Assessing the situation – Relieving symptoms – Involving other people – Approach to problem-solving (German acronym: Beziehung, Erfassen, Linderung, Leute, Ansatz)."
+    },
+    {
+     "vorne": "Realistic confidence",
+     "hinten": "Instead of “Everything will be fine”: a commitment to look together at what can give support over the next few days."
+    },
+    {
+     "vorne": "Suicidality in a crisis",
+     "hinten": "Is actively addressed in every crisis intervention, even if the person does not mention it on their own."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Which principles of crisis intervention come easily to you in your field of work, and which are difficult – for instance because of fixed procedures, time pressure, or your own uncertainty?",
+   "hinweis": "Guiding questions: How quickly can I respond to a crisis in my institution? How active and structuring am I used to being? Do I tend to offer solutions or comfort too quickly? Whom can I call in in an emergency?"
+  }
+ ]
+}

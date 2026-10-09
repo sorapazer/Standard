@@ -1,0 +1,107 @@
+{
+ "titel": "Paths to Meaning",
+ "beschreibung": "Where and how can meaning be found? This module presents Frankl's three categories of values, the principle of self-transcendence, and the phenomenon of the existential vacuum. It shows how logotherapy deals with suffering, guilt, and transience, and with numerous reflection exercises invites you to relate the concepts to your own life.",
+ "lernziele": [
+  "You can distinguish creative, experiential, and attitudinal values and illustrate them with examples.",
+  "You can explain why, according to Frankl, self-actualization and happiness are side effects of self-transcendence.",
+  "You can describe the existential vacuum and distinguish it from a mental illness.",
+  "You can present the tragic triad and the basic ideas of tragic optimism.",
+  "You can recognize and reflect on possibilities of meaning in everyday situations."
+ ],
+ "pruefung": [
+  {
+   "typ": "multi",
+   "frage": "Which three categories of values does Frankl distinguish?",
+   "optionen": [
+    "Creative values",
+    "Material values",
+    "Experiential values",
+    "Attitudinal values",
+    "Performance values"
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Frankl distinguishes creative values (giving), experiential values (receiving), and attitudinal values (stance toward what cannot be changed)."
+  },
+  {
+   "typ": "mc",
+   "frage": "According to Frankl, when do attitudinal values come into play?",
+   "optionen": [
+    "When a person faces an unchangeable fate.",
+    "With every everyday inconvenience.",
+    "Only for religious people.",
+    "When someone voluntarily takes on avoidable suffering."
+   ],
+   "richtig": 0,
+   "erklaerung": "Attitudinal values concern the stance toward unavoidable suffering. Avoidable suffering should be eliminated."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "According to Frankl, self-actualization is a side effect of dedication to a task or to another person.",
+   "richtig": true,
+   "erklaerung": "According to Frankl, self-actualization comes about when a person transcends themselves; pursued as a direct goal, it is easily missed."
+  },
+  {
+   "typ": "mc",
+   "frage": "What does the boomerang parable illustrate?",
+   "optionen": [
+    "That good deeds always come back to you.",
+    "That problems one represses return.",
+    "That people return to their former state after crises.",
+    "That a person constantly revolves around themselves only when they have missed their meaning."
+   ],
+   "richtig": 3,
+   "erklaerung": "According to Frankl, a boomerang returns only when it has missed its target – an image of self-centeredness as a consequence of a failed orientation toward meaning."
+  },
+  {
+   "typ": "mc",
+   "frage": "According to Frankl, which two losses of orientation lead to the existential vacuum?",
+   "optionen": [
+    "Loss of prosperity and health",
+    "Loss of instincts and traditions",
+    "Loss of family and friends",
+    "Loss of religion and science"
+   ],
+   "richtig": 1,
+   "erklaerung": "Instincts do not tell human beings what they must do, and traditions increasingly fail to tell them what they ought to do."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Frankl described doubt about the meaning of life as an expression of a mental illness.",
+   "richtig": false,
+   "erklaerung": "For Frankl, the question of meaning is profoundly human. Existential frustration is not pathological per se; only a resulting symptomatology is what he calls a noogenic neurosis."
+  },
+  {
+   "typ": "mc",
+   "frage": "What does the tragic triad consist of?",
+   "optionen": [
+    "Anxiety, compulsion, depression",
+    "Depression, aggression, addiction",
+    "Suffering, guilt, death",
+    "Illness, poverty, loneliness"
+   ],
+   "richtig": 2,
+   "erklaerung": "The tragic triad comprises suffering, guilt, and death. Frankl called depression, aggression, and addiction the mass neurotic triad."
+  },
+  {
+   "typ": "multi",
+   "frage": "Which statements apply to tragic optimism?",
+   "optionen": [
+    "It takes suffering, guilt, and death seriously.",
+    "It demands showing good cheer in every situation.",
+    "It sees in guilt an opportunity for changing for the better.",
+    "It cannot be prescribed to a person from outside.",
+    "It denies that unavoidable suffering exists."
+   ],
+   "richtig": [
+    0,
+    2,
+    3
+   ],
+   "erklaerung": "Tragic optimism takes the triad seriously, sees possibilities in it, and cannot be commanded. It is neither a compulsion to be cheerful nor a denial of suffering."
+  }
+ ]
+}

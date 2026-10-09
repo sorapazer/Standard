@@ -1,0 +1,234 @@
+{
+ "id": "B7-4",
+ "titel": "The Socratic Dialogue: Basic Features",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "Origins: The Midwifery of Socrates",
+   "text": "The **Socratic dialogue** goes back to the Greek philosopher **Socrates** (5th century BCE), whose way of conversing we know mainly from the dialogues of his student **Plato**. Socrates did not lecture his interlocutors but asked questions that led them to examine their own assumptions, discover contradictions, and arrive at their own insights.\n\nIn Plato’s dialogue *Theaetetus*, Socrates compares his activity to the art of a midwife, **maieutics**: just as the midwife does not give birth to the child herself but assists at the birth, the questioner does not produce the insight himself but helps the other person to “bring it into the world.”\n\nIn the psychotherapy and counseling of the 20th century, the Socratic dialogue was taken up in different ways:\n\n- In **cognitive behavioral therapy**, Socratic questioning serves mainly to examine distressing thoughts for their validity and usefulness (often called *guided discovery*).\n- In **logotherapy**, the Socratic dialogue is a central form of conversation described by Frankl and later especially by his student **Elisabeth Lukas**. Here it serves above all to foster the **perception of meaning**: the person is to discover their own values, resources, and possibilities of meaning.\n\nBoth traditions share the basic conviction that people possess knowledge of their own that becomes accessible through good questions – and that insights found by oneself are more sustainable than adopted advice."
+  },
+  {
+   "typ": "mc",
+   "frage": "What does the term “maieutics” describe in connection with the Socratic dialogue?",
+   "optionen": [
+    "The art of convincing a person of one’s own opinion through skillful arguments",
+    "The “art of midwifery”: helping the other person, through questions, to bring forth their own insights",
+    "A confrontation technique for breaking through defenses",
+    "A method for diagnosing mental disorders"
+   ],
+   "richtig": 1,
+   "erklaerung": "Maieutics means the art of midwifery. Socrates saw himself as a midwife of insights that the other person brings forth themselves. Persuading, confronting, or diagnosing contradict this understanding."
+  },
+  {
+   "typ": "text",
+   "titel": "Basic Stance in the Meaning-Centered Socratic Dialogue",
+   "text": "The Socratic dialogue is less a technique than a **stance**. In meaning-centered counseling, it is characterized by the following features:\n\n- **Genuine interest and not-knowing**: The counselor does not know the answer in advance and does not want to prescribe it either. They ask because they want to understand.\n- **Trust in the person**: The stance rests on the conviction that the person seeking counseling has their own sense of values and meaning – Frankl spoke of **conscience as the organ of meaning**, that is, the capacity to sense intuitively the meaning of a situation.\n- **Respect for freedom**: The person decides for themselves which answers they find and which consequences they draw.\n- **Orientation toward meaning and values**: The questions gently direct attention to what is important to the person, what they have succeeded in, and what they want to commit themselves to – without passing over the suffering.\n- **Concreteness**: General questions (“What is the meaning of life?”) are related to the concrete situation (“What would be a meaningful response in your current situation?”).\n- **Patience**: Pauses and silence are part of it. Insights need time.\n\nA Socratic dialogue is **not an interrogation** and **not covert persuasion**. Anyone who asks questions to which there is only one “correct” answer is engaging in suggestion, not maieutics. Equally important is a sense for the right moment: in an acute crisis, people first need support and safety, not philosophical reflection."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "In the Socratic dialogue, the counselor uses questions to lead the person seeking counseling deliberately to an answer that the counselor has already determined beforehand to be correct.",
+   "richtig": false,
+   "erklaerung": "False. That would be suggestion. In the meaning-centered Socratic dialogue, the counselor is open to the answers of the person seeking counseling and respects their freedom to develop their own insights and decisions."
+  },
+  {
+   "typ": "text",
+   "titel": "Typical Directions of Questioning",
+   "text": "In the meaning-centered Socratic dialogue, various directions of questioning have proven themselves. They are not worked through schematically but used according to the situation:\n\n- **Questions about values and what matters**: “What is most important to you in this situation?”, “What is it really about for you?”\n- **Questions about successful experiences and resources**: “When have you already come through a difficult time? What helped you then?”\n- **Questions about traces of meaning in the past**: “What are you proud of in your life?”, “What have you given to others?” Frankl emphasized that what has been realized is not lost; the past can be regarded as “safely stored.”\n- **Change of perspective**: “What would someone who knows you well advise you now?”, “How will you look back on this decision in ten years?”\n- **Questions that foster self-distancing**: “If you could observe yourself from the outside – what would you see?”\n- **Questions that foster self-transcendence**: “For whom or for what is it worth taking this path?”, “Who needs you?”\n- **Questions about the scope for action**: “What lies in your hands here, even if much does not?”\n- **Concretizing questions**: “What would be a first small step?”\n\nBetween the questions come **summaries** and **reflections** that acknowledge what has been said and make connections visible. Without this empathic framing, even good questions quickly come across as mechanical."
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Match the questions to the direction of questioning they primarily address.",
+   "paare": [
+    [
+     "“What lies in your hands here, even if much does not?”",
+     "Scope of freedom"
+    ],
+    [
+     "“For whom is it worth taking this difficult path?”",
+     "Self-transcendence"
+    ],
+    [
+     "“If you could see yourself in this situation from the outside – what would strike you?”",
+     "Self-distancing"
+    ],
+    [
+     "“When have you already come through a similarly difficult time?”",
+     "Resources and successful experiences"
+    ],
+    [
+     "“What would be a first small step in this direction?”",
+     "Concretization"
+    ]
+   ],
+   "erklaerung": "The directions of questioning complement one another: they open up scope for action, direct attention beyond oneself, make distance possible, activate resources, and lead to concrete steps."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Which questions correspond to the stance of the Socratic dialogue, and which rather do not?",
+   "kategorien": [
+    "corresponds to the Socratic stance",
+    "rather does not correspond to it"
+   ],
+   "elemente": [
+    {
+     "text": "“What is actually important to you about your work?”",
+     "kat": 0
+    },
+    {
+     "text": "“Surely you can see that you have to change, can’t you?”",
+     "kat": 1
+    },
+    {
+     "text": "“What would your late mother wish for you now?”",
+     "kat": 0
+    },
+    {
+     "text": "“Why on earth did you make such a wrong decision back then?”",
+     "kat": 1
+    },
+    {
+     "text": "“What are you proud of when you look back on the last few years?”",
+     "kat": 0
+    },
+    {
+     "text": "“Isn’t it clear that family is more important than career?”",
+     "kat": 1
+    },
+    {
+     "text": "“What lies in your hands despite everything?”",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Open questions oriented toward values and resources correspond to the Socratic stance. Leading questions, reproachful “why” questions, and questions that prescribe a particular evaluation contradict it, because they restrict the person’s freedom."
+  },
+  {
+   "typ": "text",
+   "titel": "Limits and Framework",
+   "text": "The Socratic dialogue is a valuable tool, but it has limits that counselors should know:\n\n- **Acute crises**: In the shock or acute phase, people need stabilization and safety. Questions of meaning come later.\n- **Severe mental illnesses**: In severe depression, the ability to perceive meaning is often severely limited as a result of the illness. Questions of meaning can then intensify feelings of guilt (“I can’t even see any meaning anymore”). Here, treatment is needed first.\n- **Premature offers of meaning**: Suggesting to suffering people that there is meaning in their suffering can wound them. Attitudinal values arise only from the person’s own insight, never from what is prescribed.\n- **Ideological neutrality**: Logotherapy understands itself as open to religious and non-religious conceptions of meaning. Counselors must not convey their own worldview; where spiritual questions are in the foreground, pastoral care can also be involved – with consent.\n- **Competence**: The specifically psychotherapeutic methods of logotherapy belong in the hands of appropriately qualified professionals. In counseling, the Socratic dialogue is used as a form of conversation for clarifying values and possibilities of meaning.\n\nThe Socratic dialogue requires practice. Role plays, case discussions, and supervision help to develop a natural, non-mechanical questioning stance."
+  },
+  {
+   "typ": "dialog",
+   "titel": "A Socratic Dialogue in Counseling",
+   "einleitung": "Constructed situation: Ms. H., 63 years old, was an elementary school teacher for 40 years and has been retired for six months. She comes to counseling because she feels “useless.” Acute danger was ruled out in the initial session; she sleeps and eats normally and enjoys her grandson.",
+   "runden": [
+    {
+     "klient": "I was so looking forward to retirement. And now I sit there and think: That’s it. Nobody needs me anymore.",
+     "antworten": [
+      {
+       "text": "You were looking forward to this time, and now it feels completely different – as if being needed had come to an end along with your profession.",
+       "gut": true,
+       "feedback": "Good. You mirror the experience and name the question of meaning (being needed) without judging it. This creates a basis for the dialogue."
+      },
+      {
+       "text": "But now you finally have time for yourself! Just enjoy it.",
+       "gut": false,
+       "feedback": "The answer passes over the experience and prescribes an evaluation. Ms. H. probably does not feel understood."
+      },
+      {
+       "text": "That is typical of the neutral zone according to Bridges.",
+       "gut": false,
+       "feedback": "Psychoeducation can be helpful later; at this point it seems distant and interrupts the relationship."
+      }
+     ]
+    },
+    {
+     "klient": "Exactly. For forty years I knew every morning what I was getting up for. The children, the parents, my colleagues.",
+     "antworten": [
+      {
+       "text": "Then you should quickly look for a new task, for example volunteer work.",
+       "gut": false,
+       "feedback": "The advice is well meant but premature. It takes away Ms. H.’s opportunity to discover for herself what is important to her and which path suits her."
+      },
+      {
+       "text": "When you look back on these forty years – what was it about this work that meant the most to you?",
+       "gut": true,
+       "feedback": "Good. The question directs attention to the values realized in the past – a typical Socratic question about traces of meaning."
+      },
+      {
+       "text": "Did you perhaps live too much for your job?",
+       "gut": false,
+       "feedback": "The question contains a hidden evaluation and can be experienced as a reproach. It is leading rather than open."
+      }
+     ]
+    },
+    {
+     "klient": "Hm … When a child who couldn’t read suddenly read the first sentence. That light in their eyes. That I was allowed to be there when someone grew beyond themselves.",
+     "antworten": [
+      {
+       "text": "That sounds really lovely. Unfortunately, that’s over now.",
+       "gut": false,
+       "feedback": "The answer closes the space that had opened and intensifies the experience of loss instead of taking up the trace of meaning."
+      },
+      {
+       "text": "So reading is particularly important to you. You could work in a library.",
+       "gut": false,
+       "feedback": "The answer prematurely narrows the value to an activity and jumps to a suggested solution. The actual value – accompanying people as they grow – is not acknowledged."
+      },
+      {
+       "text": "Being there when someone grows beyond themselves – that seems to be something very precious to you. And what you made possible back then remains as something that has happened. Where in your present life could this accompanying of growth still have a place, perhaps in a completely different form?",
+       "gut": true,
+       "feedback": "Good. You acknowledge the value, emphasize that what has been realized is not lost, and invite Ms. H. to discover possibilities of meaning in the present herself – without prescribing a solution."
+      }
+     ]
+    },
+    {
+     "klient": "I don’t know … My grandson is having a hard time at school right now. And in our community there are children who have only just come to Germany …",
+     "antworten": [
+      {
+       "text": "Two possibilities come up right away in which your accompanying could be needed. How does it feel to think about that? And what would be a first small step you would like to take?",
+       "gut": true,
+       "feedback": "Good. You mirror the possibilities she found herself, pay attention to her experience, and support concretization, while the decision remains with Ms. H."
+      },
+      {
+       "text": "Perfect, then the best thing is to contact the community first thing tomorrow.",
+       "gut": false,
+       "feedback": "The answer takes over the decision and puts her under time pressure. Ms. H. should choose for herself whether and how she takes a step."
+      },
+      {
+       "text": "But be careful that you don’t define yourself solely through working with children again.",
+       "gut": false,
+       "feedback": "The warning evaluates the value she has just discovered and can be discouraging. The dialogue loses its open, appreciative direction."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "typ": "luecke",
+   "text": "Plato relates that Socrates compared his art of conversation to the work of a {{midwife|judge|teacher}}. In logotherapy, the Socratic dialogue serves above all to foster the {{perception of meaning|reduction of symptoms|making of diagnoses}}. Frankl called {{conscience|the superego|the unconscious}} the “organ of meaning.”",
+   "erklaerung": "Maieutics (the art of midwifery) is the basic image of the Socratic dialogue. In logotherapy, it aims at the perception of meaning; Frankl understands conscience as the capacity to sense the meaning of a situation."
+  },
+  {
+   "typ": "karten",
+   "titel": "Socratic Dialogue – Key Points",
+   "karten": [
+    {
+     "vorne": "Maieutics",
+     "hinten": "“Art of midwifery”: helping, through questions, the other person to bring forth their own insights."
+    },
+    {
+     "vorne": "Socratic questioning in CBT",
+     "hinten": "Guided discovery: examining distressing thoughts for validity and usefulness."
+    },
+    {
+     "vorne": "Socratic dialogue in logotherapy",
+     "hinten": "Fostering the perception of meaning: discovering values, resources, and possibilities of meaning."
+    },
+    {
+     "vorne": "Conscience as the organ of meaning",
+     "hinten": "According to Frankl, the capacity to sense intuitively the meaning of a concrete situation."
+    },
+    {
+     "vorne": "Limits",
+     "hinten": "Acute crisis, severe depression, premature offers of meaning, ideological influence."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Formulate three open questions in the style of the Socratic dialogue that you could ask a person seeking counseling during a life transition. Check whether one of your questions contains a hidden evaluation.",
+   "hinweis": "Guiding questions: Is the question really open? Does it direct attention to values, resources, or scope for action? Would I respect every possible answer? Is the timing right, or does the person first need stabilization?"
+  }
+ ]
+}

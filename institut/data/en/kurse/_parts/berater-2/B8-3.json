@@ -1,0 +1,169 @@
+{
+ "id": "B8-3",
+ "titel": "The Heilpraktikergesetz, the Boundary to the Practice of Healing, and Documentation",
+ "dauer": 30,
+ "schritte": [
+  {
+   "typ": "text",
+   "titel": "What Is the Practice of Healing?",
+   "text": "In Germany, the practice of healing (Ausübung der Heilkunde) **requires a license**. The legal basis is the **Heilpraktikergesetz** (HeilprG, German Non-Medical Practitioners Act). According to **§ 1(2) HeilprG**, the practice of healing is any professional or commercial activity for the **diagnosis, cure, or alleviation of illnesses, suffering, or physical injuries** in human beings, even if it is carried out in the service of others.\n\nThe license to practice healing is held in particular by:\n\n- **physicians** with an Approbation (state license),\n- **psychological psychotherapists** and child and adolescent psychotherapists, or psychotherapists under the new law, each with an Approbation under the Psychotherapeutengesetz (German Psychotherapists Act), limited to psychotherapy,\n- **Heilpraktiker** (non-medical practitioners) with a license under the HeilprG,\n- persons with a **Heilpraktiker license limited to the field of psychotherapy** (often called a “sectoral Heilpraktiker for psychotherapy”), which is granted after an examination by the public health office (Gesundheitsamt).\n\nAnyone who practices healing without a license commits a criminal offense under **§ 5 HeilprG**; the law provides for imprisonment of up to one year or a fine.\n\nPsychological counseling without one of these licenses is therefore only permissible as long as it is **not the practice of healing** – that is, as long as it is not directed at the diagnosis, cure, or alleviation of illnesses. Knowing this boundary precisely and respecting it is indispensable for counselors without a license to practice healing."
+  },
+  {
+   "typ": "text",
+   "titel": "Where Does the Boundary Lie?",
+   "text": "Drawing the boundary is not always easy in the individual case. However, clear orientations can be derived from statute and case law:\n\n**Not the practice of healing**, as a rule, is counseling **mentally healthy people** on life questions, decisions, conflicts, transitions, stresses, and questions of personal development – for instance stress management, communication, values clarification, support during separation, or career orientation.\n\n**The practice of healing**, by contrast, exists in particular when:\n\n- **diagnoses** of mental disorders are made (e.g., “You have depression,” “That is an anxiety disorder”),\n- mental **illnesses are to be treated** (e.g., counseling “against depression,” “therapy for panic disorders”),\n- activities are offered that by their nature require **medical or psychotherapeutic expertise** and can cause damage to health.\n\nAccording to case law, it can also be significant whether an activity creates the **impression** among those seeking counseling that it aims at healing, and whether it creates the **danger** that necessary medical treatment will be delayed or omitted (so-called indirect endangerment of health).\n\nIt follows that what matters is not only what counselors do, but also **how they present their activity**, to whom they offer it, and how they deal with indications of illness."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "How should the following offers by a person without a license to practice healing be classified?",
+   "kategorien": [
+    "generally permissible counseling",
+    "boundary to the practice of healing crossed"
+   ],
+   "elemente": [
+    {
+     "text": "Support in deciding on a career change",
+     "kat": 0
+    },
+    {
+     "text": "“I treat your depression with meaning-centered conversations.”",
+     "kat": 1
+    },
+    {
+     "text": "A stress management course for healthy working people",
+     "kat": 0
+    },
+    {
+     "text": "Determining that a client suffers from generalized anxiety disorder",
+     "kat": 1
+    },
+    {
+     "text": "Values clarification in a phase following a separation",
+     "kat": 0
+    },
+    {
+     "text": "Website offer “Therapy for panic attacks and compulsions”",
+     "kat": 1
+    },
+    {
+     "text": "Communication counseling for a couple with recurring conflicts",
+     "kat": 0
+    }
+   ],
+   "erklaerung": "Counseling healthy people on life questions, decisions, and stresses is generally not the practice of healing. Diagnoses, the treatment of mental illnesses, and a corresponding public presentation (“therapy for …”) cross the boundary. In the individual case, the concrete circumstances are always decisive."
+  },
+  {
+   "typ": "text",
+   "titel": "Practical Consequences for Counselors without a License to Practice Healing",
+   "text": "To respect the boundary to the practice of healing reliably, the following procedures have proven themselves:\n\n- **Clear public presentation**: On websites, flyers, and in conversations, one speaks of “psychological counseling,” “support,” or “coaching,” not of “therapy,” “treatment,” or “healing.” No clinical pictures are advertised as a target group, and no promises of cure are made.\n- **Information at the outset**: People seeking counseling are informed – ideally also in writing in the counseling contract – that counseling does not include the diagnosis or treatment of mental or physical illnesses and does not replace medical or psychotherapeutic treatment.\n- **Encourage assessment**: When there are indications of a mental or physical illness, a medical or psychotherapeutic assessment is recommended and this is documented.\n- **When treatment is ongoing**: If a person is in treatment, counseling on clearly delimited life topics can be useful as an accompanying measure. It should then, where possible and with the person’s consent, be coordinated with the treating professionals and must not contradict the treatment.\n- **No recommendations about medication**: Questions about medication belong in medical hands. Counselors advise neither discontinuing nor taking medication.\n- **Language in conversation**: Instead of “You have depression,” rather: “What you are describing should be looked at by a doctor so that nothing is overlooked.”\n\nAnyone who additionally wishes to practice healing needs the corresponding license. Even then, a clear distinction should be made between when one is counseling and when one is treating."
+  },
+  {
+   "typ": "mc",
+   "frage": "Which wording on the website of a psychological counselor without a license to practice healing is most likely unobjectionable?",
+   "optionen": [
+    "“I treat burnout, depression, and anxiety holistically.”",
+    "“I support you with work-related stress, life transitions, and decisions. My counseling does not replace medical or psychotherapeutic treatment.”",
+    "“With my method, you will be free of anxiety in five sessions.”",
+    "“Psychotherapy without waiting times – fast and unbureaucratic.”"
+   ],
+   "richtig": 1,
+   "erklaerung": "The correct wording describes occasions for counseling without reference to illness and provides information about the boundary. The other wordings promise the treatment of illnesses, make promises of cure, or use the term “psychotherapy,” which is impermissible without a license or Approbation."
+  },
+  {
+   "typ": "truefalse",
+   "aussage": "Practicing healing without a license is a criminal offense under § 5 HeilprG.",
+   "richtig": true,
+   "erklaerung": "True. § 5 HeilprG provides for imprisonment of up to one year or a fine for practicing healing without a license. In addition, consequences under competition law and civil law may arise."
+  },
+  {
+   "typ": "luecke",
+   "text": "The professional title “Psychotherapeutin” (psychotherapist) is protected by the {{Psychotherapeutengesetz (Psychotherapists Act)|Heilpraktikergesetz (Non-Medical Practitioners Act)|Social Code Book VIII}}. Anyone who practices healing without a license commits a criminal offense under {{§ 5 HeilprG|§ 34 StGB|Art. 9 GDPR}}. When there are indications of an illness, counselors without a license to practice healing should recommend a {{medical or psychotherapeutic assessment|self-diagnosis by questionnaire|extension of the counseling}}.",
+   "erklaerung": "The Psychotherapeutengesetz protects the professional title, and § 5 HeilprG makes the unauthorized practice of healing a criminal offense. When there are indications of illness, recommending a professional assessment is the right course – also to protect against indirect endangerment of health."
+  },
+  {
+   "typ": "text",
+   "titel": "Documentation: Why and What?",
+   "text": "Even though psychological counseling outside the practice of healing is not subject to the same statutory documentation obligations as medical or psychotherapeutic treatment, **careful documentation** is professionally advisable. It fulfills several functions:\n\n- **Memory aid and continuity**: What was discussed, agreed, tried out?\n- **Quality assurance and reflection**: Courses become visible and can be discussed in supervision.\n- **Evidence**: In the event of complaints or legal disputes, it can be demonstrated how one acted – for instance, that a medical assessment was recommended or a danger was assessed.\n\nIn terms of content, a lean structure has proven itself:\n\n- date, duration, and form of the contact,\n- occasion and concern,\n- central topics and interventions in keywords,\n- agreements and next steps,\n- recommendations (e.g., medical assessment) and the response to them,\n- in crises: assessment of danger, the person’s statements (as verbatim as possible), measures taken, times, agencies involved.\n\nPrinciples of good documentation are **objectivity**, the **separation of observation and interpretation**, **data minimization**, and respectful language. Write in such a way that you could defend every phrasing in front of the person concerned – because under the GDPR, people seeking counseling generally have a right of access to the data stored about them. Clear retention periods should be specified in a deletion concept; tax-law retention obligations for invoices apply separately."
+  },
+  {
+   "typ": "kategorien",
+   "frage": "Assign the documentation entries.",
+   "kategorien": [
+    "appropriately worded",
+    "problematically worded"
+   ],
+   "elemente": [
+    {
+     "text": "“Client reports sleeping poorly for three weeks. Medical assessment recommended; client intends to make an appointment with her family doctor.”",
+     "kat": 0
+    },
+    {
+     "text": "“Client obviously has a narcissistic disorder.”",
+     "kat": 1
+    },
+    {
+     "text": "“On inquiry, client denies suicidal thoughts. Emergency numbers handed out. Follow-up appointment on Thursday.”",
+     "kat": 0
+    },
+    {
+     "text": "“Totally exhausting woman, constantly whining.”",
+     "kat": 1
+    },
+    {
+     "text": "“Topic: conflict with supervisor. Role play of the conversation carried out.”",
+     "kat": 0
+    },
+    {
+     "text": "Detailed account of intimate childhood details that are not relevant to the counseling",
+     "kat": 1
+    }
+   ],
+   "erklaerung": "Appropriate entries soberly describe observations, statements, interventions, and agreements. Diagnostic attributions, derogatory phrasings, and unnecessary details are problematic professionally, ethically, and in terms of data protection law."
+  },
+  {
+   "typ": "fall",
+   "titel": "A Borderline Case in Counseling",
+   "fall": "Constructed teaching vignette: A client, 34 years old, comes because of conflicts at work. In the third session, he reports that for months he has hardly been able to ride the subway because of panic attacks and is therefore often late. He asks: “Can’t we just work on the panic attacks here? I don’t want to go to the doctor; he’ll only prescribe me pills.”",
+   "frage": "How do you act appropriately as a counselor without a license to practice healing?",
+   "optionen": [
+    "You agree and work on the panic attacks with exposure exercises, since you know the method from a seminar.",
+    "You end the counseling immediately, since an illness is suspected.",
+    "You explain that treating panic attacks does not fall within your scope, take his concerns about medication seriously, inform him that psychotherapeutic treatment is also possible, recommend an assessment, document this, and offer to continue working on the workplace conflicts.",
+    "You advise him to do without medication and to try breathing exercises."
+   ],
+   "richtig": 2,
+   "erklaerung": "Treating panic attacks is the practice of healing and belongs in medical or psychotherapeutic hands. It is appropriate to make the boundary transparent, acknowledge the client’s concerns, inform him about treatment options, recommend an assessment, document this, and continue counseling on the non-medical concern. An abrupt termination or recommendations about medication would be inappropriate."
+  },
+  {
+   "typ": "karten",
+   "titel": "Practice of Healing and Documentation",
+   "karten": [
+    {
+     "vorne": "§ 1(2) HeilprG",
+     "hinten": "Practice of healing = professional or commercial activity for the diagnosis, cure, or alleviation of illnesses, suffering, or physical injuries."
+    },
+    {
+     "vorne": "License to practice healing",
+     "hinten": "Approbation (physicians, psychotherapists), Heilpraktiker license, or Heilpraktiker license limited to psychotherapy."
+    },
+    {
+     "vorne": "§ 5 HeilprG",
+     "hinten": "Criminal liability for practicing healing without a license: imprisonment of up to one year or a fine."
+    },
+    {
+     "vorne": "Indirect endangerment of health",
+     "hinten": "The danger that an activity causes necessary medical treatment to be delayed or omitted."
+    },
+    {
+     "vorne": "Good documentation",
+     "hinten": "Objective, observation and interpretation separated, data-minimizing, respectful; in crises, record assessment and measures precisely."
+    }
+   ]
+  },
+  {
+   "typ": "reflexion",
+   "frage": "Formulate a short paragraph for your counseling contract or your website that makes clear what your counseling offers and where its limits lie.",
+   "hinweis": "Guiding questions: Which concerns do I describe? Do I avoid terms for illnesses and promises of cure? Do I make clear that no diagnosis or treatment takes place? How do I invite people to seek medical or psychotherapeutic help if needed?"
+  }
+ ]
+}
